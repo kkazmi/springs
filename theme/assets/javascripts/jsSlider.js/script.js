@@ -3,20 +3,19 @@
 ==================================================*/
 
 const track = document.querySelector(".track");
-const cards = [...document.querySelectorAll(".card")];
+const newCards = [...document.querySelectorAll(".newCard")];
 
 const prev = document.getElementById("prev");
 const next = document.getElementById("next");
 
 let current = 0;
-let radius = 650;
+let radius = 540;
 
-let cardAngle = 360 / cards.length;
+let newCardAngle = 360 / newCards.length;
 
 let isDragging = false;
 let startX = 0;
 let currentRotation = 0;
-let targetRotation = 0;
 let velocity = 0;
 
 /*========================================*/
@@ -24,19 +23,19 @@ let velocity = 0;
 function calculateRadius() {
 
     if (window.innerWidth < 500)
-        radius = 260;
+        radius = 210;
 
     else if (window.innerWidth < 768)
-        radius = 340;
+        radius = 280;
 
     else if (window.innerWidth < 992)
-        radius = 460;
+        radius = 380;
 
     else if (window.innerWidth < 1400)
-        radius = 560;
+        radius = 460;
 
     else
-        radius = 700;
+        radius = 580;
 
 }
 
@@ -53,12 +52,26 @@ function normalize(v) {
 }
 
 /*========================================*/
+/* Shortest signed angular distance a -> b (-180..180) */
+
+function shortestDiff(a, b) {
+
+    let diff = (b - a) % 360;
+
+    if (diff > 180) diff -= 360;
+    if (diff < -180) diff += 360;
+
+    return diff;
+
+}
+
+/*========================================*/
 
 function update() {
 
-    cards.forEach((card, index) => {
+    newCards.forEach((newCard, index) => {
 
-        let angle = (index * cardAngle) + currentRotation;
+        let angle = (index * newCardAngle) + currentRotation;
 
         let rad = angle * Math.PI / 180;
 
@@ -72,22 +85,15 @@ function update() {
 
         let rotateY = -angle;
 
-        card.style.transform = `
-translate(-50%,-50%)
-translate3d(${x}px,0,${z}px)
-rotateY(${rotateY}deg)
-scale(${0.55 + scale * .55})
-`;
+        newCard.style.transform = `translate(-50%,-50%)translate3d(${x}px,0,${z}px)rotateY(${rotateY}deg)`;
 
-        card.style.opacity = opacity;
+        newCard.style.opacity = opacity;
 
-        card.style.zIndex = Math.floor(z + radius);
+        newCard.style.zIndex = Math.round(z);
 
-        card.style.filter = `
-blur(${(1 - scale) * 3}px)
-`;
+        newCard.style.filter = `blur(${(1 - scale) * 3}px)`;
 
-        card.classList.remove(
+        newCard.classList.remove(
             "active",
             "left",
             "right"
@@ -101,9 +107,9 @@ blur(${(1 - scale) * 3}px)
 
     let min = 99999;
 
-    cards.forEach((card, index) => {
+    newCards.forEach((newCard, index) => {
 
-        let angle = normalize(index * cardAngle + currentRotation);
+        let angle = normalize(index * newCardAngle + currentRotation);
 
         let diff = Math.abs(angle);
 
@@ -119,7 +125,7 @@ blur(${(1 - scale) * 3}px)
 
     });
 
-    cards[nearest].classList.add("active");
+    newCards[nearest].classList.add("active");
 
 }
 
@@ -127,11 +133,25 @@ blur(${(1 - scale) * 3}px)
 
 function animate() {
 
-    velocity *= 0.92;
+    if (isDragging || velocity !== 0) {
 
-    currentRotation += velocity;
+        velocity *= 0.90;
 
-    update();
+        if (Math.abs(velocity) < 0.02) {
+
+            velocity = 0;
+
+            /* snap to the nearest newCard so rotation never drifts out
+               of alignment after repeated drags/scrolls */
+            currentRotation = Math.round(currentRotation / newCardAngle) * newCardAngle;
+
+        }
+
+        currentRotation += velocity;
+
+        update();
+
+    }
 
     requestAnimationFrame(animate);
 
@@ -141,15 +161,26 @@ animate();
 
 /*========================================*/
 
+/* Rotate exactly one newCard using the same momentum curve as
+   drag/wheel, instead of an instant jump, so it actually animates */
+
 function rotateNext() {
-
-    velocity -= cardAngle;
-
+    velocity = -newCardAngle / 10;
 }
 
 function rotatePrev() {
+    velocity = newCardAngle / 10;
+}
 
-    velocity += cardAngle;
+/* Rotate directly to a given newCard index, taking the shortest path */
+
+function goTonewCard(index) {
+
+    let target = -(index * newCardAngle);
+
+    let diff = shortestDiff(currentRotation, target);
+
+    velocity = diff / 10;
 
 }
 
@@ -175,7 +206,7 @@ window.addEventListener("keydown", (e) => {
 /* Mouse Wheel */
 /*========================================*/
 
-window.addEventListener("wheel", (e) => {
+track.addEventListener("wheel", (e) => {
 
     e.preventDefault();
 
@@ -188,6 +219,11 @@ window.addEventListener("wheel", (e) => {
 /*========================================*/
 
 track.addEventListener("mousedown", (e) => {
+
+    if (
+        e.target.closest("button") ||
+        e.target.closest("a")
+    ) return;
 
     isDragging = true;
 
@@ -223,6 +259,8 @@ window.addEventListener("mousemove", (e) => {
 
 track.addEventListener("touchstart", (e) => {
 
+    if (e.target.closest("a") || e.target.closest("button")) return;
+
     startX = e.touches[0].clientX;
 
     isDragging = true;
@@ -250,18 +288,17 @@ track.addEventListener("touchend", () => {
 });
 
 /*========================================*/
-/* Card Click */
+/* newCard Click */
 /*========================================*/
 
-cards.forEach((card, index) => {
+newCards.forEach((newCard, index) => {
 
-    card.addEventListener("click", () => {
+    newCard.addEventListener("click", (e) => {
 
-        let target = index * cardAngle;
+        // don't hijack clicks on the "Read More" link
+        if (e.target.closest("a")) return;
 
-        let diff = normalize(target + currentRotation);
-
-        velocity -= diff;
+        goTonewCard(index);
 
     });
 

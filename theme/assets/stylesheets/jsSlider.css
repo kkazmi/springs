@@ -1,44 +1,19 @@
 /*==================================================
-    360° COVERFLOW CAROUSEL
+    360Â° COVERFLOW CAROUSEL
 ==================================================*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background: #a0725b;
-    color: #fff;
-    font-family: Segoe UI, sans-serif;
-    overflow-x: hidden;
-
-}
-
-/*============================*/
-
-.coverflow-section {
+.jSliderContainer {
     width: 100%;
-    min-height: 100vh;
-    padding: 80px 0;
+    padding: 100px 0;
     position: relative;
     overflow: hidden;
-    background: radial-gradient(circle at top, #1f1f1f, #080808 70%);
 }
 
 /*============================*/
 
 .section-title {
     text-align: center;
-    font-size: 48px;
-    font-weight: 400;
-    margin-bottom: 50px;
-    letter-spacing: 2px;
+    margin-bottom: 100px !important;
 }
 
 /*============================*/
@@ -50,7 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 2200px;
+    perspective: 5000px;
     overflow: visible;
 }
 
@@ -61,18 +36,24 @@ body {
     height: 100%;
     position: relative;
     overflow: visible;
+    /* without this, .viewport's default "flat" transform-style
+       breaks the 3D context between .coverflow's perspective and
+       .track/.newCard's transforms, flattening the whole carousel */
+    transform-style: preserve-3d;
+    /* padding-top: 100px; */
 }
 
 /*============================*/
 .track {
     width: 100%;
-    height: 100%;
+    height: calc(100% + 100px);
     position: relative;
     transform-style: preserve-3d;
+    padding-top: 100px;
 }
 
 /*============================*/
-.card {
+.newCard {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -83,6 +64,12 @@ body {
     border-radius: 30px;
     overflow: hidden;
     cursor: pointer;
+    /* pointer-events was "none" here with only .active set to "auto",
+       which blocked clicks (and the Read More link) on every newCard
+       except the one dead-center. newCards are transformed in 3D, so the
+       browser still hit-tests against their real on-screen shape â€”
+       removing this lets you click a visible side newCard to bring it to
+       front, and lets Read More work on the active newCard. */
     /* transition: transform .8s cubic-bezier(.2, .8, .2, 1), opacity .8s, filter .8s, box-shadow .8s; */
     /* background: rgba(255, 255, 255, .08); */
     /* backdrop-filter: blur(18px); */
@@ -90,7 +77,7 @@ body {
 }
 
 /*============================*/
-.card::before {
+.newCard::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -99,7 +86,7 @@ body {
 }
 
 /*============================*/
-.card::after {
+.newCard::after {
     content: "";
     position: absolute;
     left: 0;
@@ -126,7 +113,7 @@ body {
     transition: 1s;
 }
 
-.card:hover img {
+.newCard:hover img {
     transform: scale(1.08);
 }
 
@@ -145,9 +132,8 @@ body {
 .jStag {
     padding: 5px 20px;
     border-radius: 40px;
-    background: #000;
-    color: #a0725b;
-    ;
+    background: var(--c-light);
+    color: var(--c-dark-blue);
     font-size: 13px;
     font-weight: 700;
     display: inline-block;
@@ -164,44 +150,19 @@ body {
     font-size: 18px;
     margin-bottom: 18px;
     line-height: 1.2;
-    color: #000;
     font-weight: 400;
 }
 
 .jScontent p {
-    color: #d4d4d4;
     line-height: 1.2;
     margin-bottom: 30px;
-}
-
-.jScontent a.jSread {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    width: 180px;
-    border-radius: 50px;
-    color: #000;
-    font-weight: 400;
-    transition: .4s;
-    border: 2px solid;
-    padding: 5px 20px;
-    position: relative;
-    transition: .2s ease-in-out;
-    top: 0
-}
-
-.jScontent a.jSread:hover {
-    /* transform: translateY(-4px); */
-    /* box-shadow: 0 15px 40px rgba(212, 175, 55, .35); */
-    top: -2px;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, .4);
+    font-size: 14px;
 }
 
 /*==================================================
 ACTIVE
 ==================================================*/
-.card.active {
+.newCard.active {
     opacity: 1;
     filter: none;
     z-index: 999;
@@ -209,13 +170,13 @@ ACTIVE
 }
 
 /*============================*/
-.card.left,
-.card.right {
+.newCard.left,
+.newCard.right {
     opacity: .85;
 }
 
 /*============================*/
-.card.hidden {
+.newCard.hidden {
     opacity: 0;
     pointer-events: none;
 }
@@ -227,25 +188,29 @@ CONTROLS
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 40px;
+    margin-top: 70px;
+    position: relative;
+    z-index: 99999;
 }
 
 .controls button {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 26px;
-    color: #fff;
+    font-size: 16px;
+    color: var(--c-light);
     background: rgba(255, 255, 255, .08);
     backdrop-filter: blur(12px);
     transition: .4s;
+    position: relative;
+    z-index: 99999;
+    border: 1px solid;
 }
 
 .controls button:hover {
-    background: #d4af37;
-    color: #000;
+    background: transparent;
     transform: translateY(-4px);
 }
 
@@ -264,7 +229,7 @@ DRAG CURSOR
 RESPONSIVE
 ==================================================*/
 @media(max-width:1200px) {
-    .card {
+    .newCard {
         width: 360px;
         height: 520px;
     }
@@ -279,7 +244,7 @@ RESPONSIVE
         height: 620px;
     }
 
-    .card {
+    .newCard {
         width: 320px;
         height: 500px;
     }
@@ -300,7 +265,7 @@ RESPONSIVE
         perspective: 1500px;
     }
 
-    .card {
+    .newCard {
         width: 280px;
         height: 440px;
     }
@@ -332,7 +297,7 @@ RESPONSIVE
         height: 480px;
     }
 
-    .card {
+    .newCard {
         width: 240px;
         height: 390px;
     }
