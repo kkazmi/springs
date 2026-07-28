@@ -1,0 +1,335 @@
+/*==================================================
+    360Â° COVERFLOW CAROUSEL
+==================================================*/
+
+.jSliderContainer {
+    width: 100%;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/*============================*/
+
+.section-title {
+    text-align: center;
+    margin-bottom: 100px !important;
+}
+
+/*============================*/
+
+.coverflow {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 5000px;
+    overflow: visible;
+}
+
+/*============================*/
+
+.viewport {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: visible;
+    /* without this, .viewport's default "flat" transform-style
+       breaks the 3D context between .coverflow's perspective and
+       .track/.newCard's transforms, flattening the whole carousel */
+    transform-style: preserve-3d;
+    /* padding-top: 100px; */
+}
+
+/*============================*/
+.track {
+    width: 100%;
+    height: calc(100% + 100px);
+    position: relative;
+    transform-style: preserve-3d;
+    padding-top: 100px;
+}
+
+/*============================*/
+.newCard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 420px;
+    height: 480px;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    /* pointer-events was "none" here with only .active set to "auto",
+       which blocked clicks (and the Read More link) on every newCard
+       except the one dead-center. newCards are transformed in 3D, so the
+       browser still hit-tests against their real on-screen shape â€”
+       removing this lets you click a visible side newCard to bring it to
+       front, and lets Read More work on the active newCard. */
+    /* transition: transform .8s cubic-bezier(.2, .8, .2, 1), opacity .8s, filter .8s, box-shadow .8s; */
+    /* background: rgba(255, 255, 255, .08); */
+    /* backdrop-filter: blur(18px); */
+    border: 1px solid rgba(255, 255, 255, .15);
+}
+
+/*============================*/
+.newCard::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, .08));
+    pointer-events: none;
+}
+
+/*============================*/
+.newCard::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -140px;
+    height: 140px;
+    background: inherit;
+    transform: scaleY(-1);
+    opacity: .18;
+    filter: blur(18px);
+}
+
+/*============================*/
+.jSimage {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.jSimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.newCard:hover img {
+    transform: scale(1.08);
+}
+
+/*============================*/
+.jScontent {
+    padding: 20px;
+}
+
+.blog-meta {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 18px;
+    text-align: right;
+}
+
+.jStag {
+    padding: 5px 20px;
+    border-radius: 40px;
+    background: var(--c-light);
+    color: var(--c-dark-blue);
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+    float: left;
+}
+
+.meta-item {
+    display: inline-block;
+    padding-top: 8px;
+}
+
+/*============================*/
+.jScontent h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.jScontent p {
+    line-height: 1.2;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+/*==================================================
+ACTIVE
+==================================================*/
+.newCard.active {
+    opacity: 1;
+    filter: none;
+    z-index: 999;
+    box-shadow: 0 30px 90px rgba(0, 0, 0, .45);
+}
+
+/*============================*/
+.newCard.left,
+.newCard.right {
+    opacity: .85;
+}
+
+/*============================*/
+.newCard.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/*==================================================
+CONTROLS
+==================================================*/
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+    position: relative;
+    z-index: 99999;
+}
+
+.controls button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--c-light);
+    background: rgba(255, 255, 255, .08);
+    backdrop-filter: blur(12px);
+    transition: .4s;
+    position: relative;
+    z-index: 99999;
+    border: 1px solid;
+}
+
+.controls button:hover {
+    background: transparent;
+    transform: translateY(-4px);
+}
+
+/*==================================================
+DRAG CURSOR
+==================================================*/
+.track.grabbing {
+    cursor: grabbing;
+}
+
+.track {
+    cursor: grab;
+}
+
+/*==================================================
+RESPONSIVE
+==================================================*/
+@media(max-width:1200px) {
+    .newCard {
+        width: 360px;
+        height: 520px;
+    }
+
+    .section-title {
+        font-size: 42px;
+    }
+}
+
+@media(max-width:992px) {
+    .coverflow {
+        height: 620px;
+    }
+
+    .newCard {
+        width: 320px;
+        height: 500px;
+    }
+
+    .jScontent h2 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:768px) {
+    .section-title {
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+
+    .coverflow {
+        height: 540px;
+        perspective: 1500px;
+    }
+
+    .newCard {
+        width: 280px;
+        height: 440px;
+    }
+
+    .jSimage {
+        height: 200px;
+    }
+
+    .jScontent {
+        padding: 20px;
+    }
+
+    .jScontent h2 {
+        font-size: 22px;
+    }
+
+    .jScontent p {
+        font-size: 14px;
+    }
+
+    .controls button {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media(max-width:480px) {
+    .coverflow {
+        height: 480px;
+    }
+
+    .newCard {
+        width: 240px;
+        height: 390px;
+    }
+
+    .jSimage {
+        height: 170px;
+    }
+
+    .jScontent {
+        padding: 16px;
+    }
+
+    .jStag {
+        font-size: 11px;
+    }
+
+    .stats {
+        font-size: 13px;
+    }
+
+    .jScontent h2 {
+        font-size: 19px;
+    }
+
+    .jScontent p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .jScontent a {
+        width: 150px;
+        height: 46px;
+        font-size: 14px;
+    }
+}
