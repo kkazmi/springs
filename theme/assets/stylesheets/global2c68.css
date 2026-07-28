@@ -1218,22 +1218,59 @@ video {
     display: none !important
 }
 
+/* 
+
+Primary Colors
+
+Background / Dark   	#101D1B
+Deep Forest Green	    #364418
+Dark Blue-Green		    #213946
+Slate Blue		        #334854
+
+Luxury Golds
+Primary Gold (Buttons)	#D3A659
+Champagne Gold	    	#A38D6A
+Bronze	        	    #8D7556
+Dark Bronze	        	#5B4F2E
+Rich Brown	        	#483922
+
+Typography 
+
+White Heading	        #F7F5F2
+Paragraph	            #D7D5D1
+Secondary Text	        #A29C92
+Muted Grey	            #5F5F58
+
+Button Theme - Primary CTA
+
+Background:             #D3A659
+Text:                   #101D1B   
+Hover:                  #E0B86F
+
+Button Theme - Secondary CTA           
+
+Background:             transparent
+Border:                 #D3A659
+Text:                   #F7F5F2
+Hover Background:       rgba(211,166,89,0.12)
+*/
+
+
 :root {
-    --c-dark-blue: #152238;
-    --c-dark-blue-rgb: rgb(21 34 56);
-    --c-blue: #147;
-    --c-blue-rgb: rgb(17, 68, 119);
+    --c-dark-brown: #101D1B;
+    --c-dark-brown-rgb: rgb(16, 29, 27);
+    --c-dark-blue-green: #213946;
+    --c-dark-blue-green-rgb: lab(22.63% -5.11 -10.92);
     --c-sky: #06f;
     --c-sky-rgb: rgb(0 102 255);
-    --c-light-blue: #6af;
-    --c-light-blue-rgb: rgb(102 170 255);
-    --c-light: #def;
-    --c-light-rgb: rgb(221, 238, 255);
+    --c-light-blue: #334854;
+    --c-light-blue-rgb: rgb(51, 72, 84);
+    --c-light: #ddc893;
+    --c-light-rgb: rgb(221 200 147);
     --c-white: #fff;
     --c-white-rgb: 255, 255, 255;
-    --c-light-blue-background: #6af;
-    --c-light-blue-background-rgb: rgb(102 170 255);
-    --c-black: #030303;
+    --c-light-blue-background: #334854;
+    --c-light-blue-background-rgb: rgb(102, 170, 255) --c-black: #030303;
     --c-black-rgb: 3, 3, 3;
     --c-button-hover-gradient-light: linear-gradient(101.51deg, #06f 37.02%, #6af 308.4%);
     --c-button-hover-gradient-dark: linear-gradient(91.82deg, rgba(21, 34, 56, 0) 20.31%, rgba(21, 34, 56, .15) 90.77%);
@@ -1244,17 +1281,17 @@ video {
 :root {
     --t-background: var(--c-light-blue-background);
     --t-background-rgb: var(--c-light-blue-background-rgb);
-    --t-line: rgba(var(--c-dark-blue-rgb), 0.2);
-    --t-small: rgba(var(--c-dark-blue-rgb), 0.4);
-    --t-text: var(--c-dark-blue);
-    --t-text-rgb: var(--c-dark-blue-rgb);
-    --t-heading: var(--c-dark-blue);
-    --t-heading-rgb: var(--c-dark-blue-rgb);
-    --t-primary: var(--c-dark-blue);
-    --t-primary-rgb: var(--c-dark-blue-rgb);
+    --t-line: rgba(var(--c-dark-brown-rgb), 0.2);
+    --t-small: rgba(var(--c-dark-brown-rgb), 0.4);
+    --t-text: var(--c-dark-brown);
+    --t-text-rgb: var(--c-dark-brown-rgb);
+    --t-heading: var(--c-dark-brown);
+    --t-heading-rgb: var(--c-dark-brown-rgb);
+    --t-primary: var(--c-dark-brown);
+    --t-primary-rgb: var(--c-dark-brown-rgb);
     --t-secondary: var(--c-sky);
     --t-secondary-rgb: var(--c-sky-rgb);
-    --t-list-item-point: rgba(var(--c-dark-blue-rgb), 0.4);
+    --t-list-item-point: rgba(var(--c-dark-brown-rgb), 0.4);
     --t-button-text: var(--c-light-blue);
     --t-button-text-rgb: var(--c-light-blue-rgb);
     --t-button-hover: var(--c-sky);
@@ -1387,8 +1424,8 @@ video {
 }
 
 .ui-dark {
-    --t-background: var(--c-dark-blue);
-    --t-background-rgb: var(--c-dark-blue-rgb);
+    --t-background: var(--c-dark-brown);
+    --t-background-rgb: var(--c-dark-brown-rgb);
     --t-line: rgba(var(--c-light-blue-rgb), 0.2);
     --t-small: rgba(var(--c-light-blue-background-rgb), 0.5);
     --t-text: var(--c-light);
@@ -1460,7 +1497,7 @@ video {
 }
 
 .ui-dark-background {
-    background: var(--c-dark-blue)
+    background: var(--c-dark-brown)
 }
 
 @media print {
@@ -2134,7 +2171,7 @@ table {
 
 .text a:where(:not(.btn)) {
     text-decoration: underline;
-    text-decoration-color: var(--c-dark-blue);
+    text-decoration-color: var(--c-dark-brown);
     text-decoration-style: solid;
     text-decoration-thickness: 1px;
     text-underline-offset: calc(var(--scale-px) * 2)
@@ -2297,7 +2334,7 @@ ul {
 
 .text ol>li:before {
     align-items: center;
-    border: 1.5px solid var(--c-dark-blue);
+    border: 1.5px solid var(--c-dark-brown);
     border-radius: 2rem;
     color: var(--t-primary);
     content: attr(data-prefix) counter(text-ol);
@@ -3149,7 +3186,7 @@ label input:not(:disabled)+span.btn:where(:not([role=button])) {
 .btn,
 .btn:after,
 .btn:before {
-    border-radius: var(--btn-rx) var(--btn-ry);
+    border-radius: 15px;
 }
 
 .btn>.btn__content {
@@ -4434,6 +4471,7 @@ label input:checked+.btn--tab:after {
     margin-top: 50px;
     font-size: 30px;
     line-height: 1.2;
+    color: var(--c-white);
 }
 
 .animation--title {
@@ -4689,7 +4727,7 @@ label input:checked+.btn--tab:after {
 }
 
 .modal__background {
-    background: var(--c-dark-blue);
+    background: var(--c-dark-brown);
     height: calc(100 * var(--svh));
     left: 0;
     opacity: .8;
@@ -6757,7 +6795,7 @@ label.error.news-modal__title {
 }
 
 .tooltip--feature {
-    --tooltip-background: var(--c-dark-blue);
+    --tooltip-background: var(--c-dark-brown);
     --tooltip-color: var(--c-light-blue);
     --tooltip-arrow-width: calc(var(--scale-px) * 10);
     --tooltip-arrow-height: calc(var(--scale-px) * 4);
@@ -6855,17 +6893,17 @@ label.error.news-modal__title {
         --tooltip-background: var(--c-light-blue-background) !important;
         --t-background: var(--c-light-blue-background);
         --t-background-rgb: var(--c-light-blue-background-rgb);
-        --t-line: rgba(var(--c-dark-blue-rgb), 0.2);
-        --t-small: rgba(var(--c-dark-blue-rgb), 0.4);
-        --t-text: var(--c-dark-blue);
-        --t-text-rgb: var(--c-dark-blue-rgb);
-        --t-heading: var(--c-dark-blue);
-        --t-heading-rgb: var(--c-dark-blue-rgb);
-        --t-primary: var(--c-dark-blue);
-        --t-primary-rgb: var(--c-dark-blue-rgb);
+        --t-line: rgba(var(--c-dark-brown-rgb), 0.2);
+        --t-small: rgba(var(--c-dark-brown-rgb), 0.4);
+        --t-text: var(--c-dark-brown);
+        --t-text-rgb: var(--c-dark-brown-rgb);
+        --t-heading: var(--c-dark-brown);
+        --t-heading-rgb: var(--c-dark-brown-rgb);
+        --t-primary: var(--c-dark-brown);
+        --t-primary-rgb: var(--c-dark-brown-rgb);
         --t-secondary: var(--c-sky);
         --t-secondary-rgb: var(--c-sky-rgb);
-        --t-list-item-point: rgba(var(--c-dark-blue-rgb), 0.4);
+        --t-list-item-point: rgba(var(--c-dark-brown-rgb), 0.4);
         --t-button-text: var(--c-light-blue);
         --t-button-text-rgb: var(--c-light-blue-rgb);
         --t-button-hover: var(--c-sky);
@@ -6988,7 +7026,7 @@ label.error.news-modal__title {
         --t-link-text-active: var(--t-primary);
         --t-link-text-active-rgb: var(--t-primary-rgb);
         align-items: flex-end;
-        background: rgba(var(--c-dark-blue-rgb), .8);
+        background: rgba(var(--c-dark-brown-rgb), .8);
         color: var(--t-text);
         display: flex;
         height: calc(100 * var(--dvh));
@@ -7111,10 +7149,10 @@ label.error.news-modal__title {
     }
 
     .tooltip--dark {
-        --tooltip-background: var(--c-dark-blue) !important;
+        --tooltip-background: var(--c-dark-brown) !important;
         --tooltip-color: var(--c-light-blue) !important;
-        --t-background: var(--c-dark-blue);
-        --t-background-rgb: var(--c-dark-blue-rgb);
+        --t-background: var(--c-dark-brown);
+        --t-background-rgb: var(--c-dark-brown-rgb);
         --t-line: rgba(var(--c-light-blue-rgb), 0.2);
         --t-small: rgba(var(--c-light-blue-background-rgb), 0.5);
         --t-text: var(--c-light-blue);
@@ -19672,7 +19710,7 @@ img.background--bottom {
 }
 
 .ui-light .l-callback__tablist .btn.is-active {
-    border-color: var(--c-dark-blue)
+    border-color: var(--c-dark-brown)
 }
 
 .l-callback__title-container {
@@ -20189,7 +20227,7 @@ jdiv.__jivoMobileButton {
 }
 
 .menu-picker__item__gradient div:first-child {
-    background: radial-gradient(circle, var(--c-dark-blue) 0, var(--c-dark-blue) 5%, rgba(var(--c-dark-blue-rgb), 0) 92%);
+    background: radial-gradient(circle, var(--c-dark-brown) 0, var(--c-dark-brown) 5%, rgba(var(--c-dark-brown-rgb), 0) 92%);
     height: 78vh;
     left: 9vw;
     position: absolute;
@@ -20199,7 +20237,7 @@ jdiv.__jivoMobileButton {
 }
 
 .menu-picker__item__gradient div:nth-child(2) {
-    background: radial-gradient(circle, var(--c-blue) 0, rgba(var(--c-blue-rgb), .8) 5%, rgba(var(--c-blue-rgb), 0) 72%);
+    background: radial-gradient(circle, var(--c-dark-blue-green) 0, rgba(var(--c-dark-blue-green-rgb), .8) 5%, rgba(var(--c-dark-blue-green-rgb), 0) 72%);
     height: 67vh;
     left: -36vw;
     position: absolute;
@@ -20827,7 +20865,7 @@ jdiv.__jivoMobileButton {
 }
 
 .has-hover .card__feature:hover {
-    border-color: var(--c-dark-blue)
+    border-color: var(--c-dark-brown)
 }
 
 .card__background {
@@ -21059,35 +21097,42 @@ jdiv.__jivoMobileButton {
     transition: .2s ease-in-out !important;
     position: relative;
     top: 0;
-    background: linear-gradient(136deg, rgb(0 102 255 / 50%), rgb(21 34 152 / 80%));
+    background: #D3A659;
+    color: #101D1B;
     border: 2px solid;
 }
 
 .btn.btn--secondary {
-    border: 2px solid;
+    border: 2px solid #D3A659;
     transition: .2s ease-in-out !important;
     background: transparent;
     position: relative;
     top: 0;
-    color: var(--t-heading);
+    color: #F7F5F2;
 }
 
 .l-gallery__caption a.btn.btn--primary.mr-1:hover {
-    top: -2px;
-    box-shadow: 3px 3px 8px var(--t-heading) !important;
-    color: var(--t-heading);
+    /* top: -2px; */
+    /* box-shadow: 3px 3px 8px var(--t-heading) !important; */
+    background: #E0B86F;
     border: 2px solid;
 }
 
 .btn.btn--secondary:hover {
-    background: var(--t-button-outline-hover-background);
+    background: rgba(211,166,89,0.12);
     opacity: 1 !important;
-    top: -2px;
-    box-shadow: 3px 3px 8px;
+    /* top: -2px; */
+    /* box-shadow: 3px 3px 8px; */
 }
 
 p.text-center.pt-1 .btn {
     min-width: 264px;
+    position: relative;
+}
+
+p.text-center.pt-1 .btn svg {
+    position: absolute;
+    right: 24px;
 }
 
 h3.h3.mt-2.pl-1 {

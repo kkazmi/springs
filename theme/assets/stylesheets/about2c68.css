@@ -306,7 +306,7 @@
 }
 
 .a-about__gradient div:nth-child(2) {
-    background: radial-gradient(circle, var(--c-blue) 0, rgba(var(--c-blue-rgb), .8) 4%, rgba(var(--c-blue-rgb), 0) 83%);
+    background: radial-gradient(circle, var(--c-dark-blue-green) 0, rgba(var(--c-dark-blue-green-rgb), .8) 4%, rgba(var(--c-dark-blue-green-rgb), 0) 83%);
     bottom: -5vw;
     height: 42vw;
     left: -5vw;

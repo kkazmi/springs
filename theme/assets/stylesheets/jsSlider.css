@@ -1,5 +1,5 @@
 /*==================================================
-    360Â° COVERFLOW CAROUSEL
+    360Ã‚Â° COVERFLOW CAROUSEL
 ==================================================*/
 
 .jSliderContainer {
@@ -13,14 +13,14 @@
 
 .section-title {
     text-align: center;
-    margin-bottom: 100px !important;
+    margin-bottom: 50px !important;
 }
 
 /*============================*/
 
 .coverflow {
     width: 100%;
-    height: 450px;
+    height: 650px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -46,10 +46,9 @@
 /*============================*/
 .track {
     width: 100%;
-    height: calc(100% + 100px);
+    height: 100%;
     position: relative;
     transform-style: preserve-3d;
-    padding-top: 100px;
 }
 
 /*============================*/
@@ -64,39 +63,8 @@
     border-radius: 30px;
     overflow: hidden;
     cursor: pointer;
-    /* pointer-events was "none" here with only .active set to "auto",
-       which blocked clicks (and the Read More link) on every newCard
-       except the one dead-center. newCards are transformed in 3D, so the
-       browser still hit-tests against their real on-screen shape â€”
-       removing this lets you click a visible side newCard to bring it to
-       front, and lets Read More work on the active newCard. */
-    /* transition: transform .8s cubic-bezier(.2, .8, .2, 1), opacity .8s, filter .8s, box-shadow .8s; */
-    /* background: rgba(255, 255, 255, .08); */
-    /* backdrop-filter: blur(18px); */
+    background: linear-gradient(136deg, rgb(0 102 255 / 20%), rgb(21 34 152 / 90%));
     border: 1px solid rgba(255, 255, 255, .15);
-}
-
-/*============================*/
-.newCard::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, .08));
-    pointer-events: none;
-}
-
-/*============================*/
-.newCard::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -140px;
-    height: 140px;
-    background: inherit;
-    transform: scaleY(-1);
-    opacity: .18;
-    filter: blur(18px);
 }
 
 /*============================*/
@@ -119,7 +87,7 @@
 
 /*============================*/
 .jScontent {
-    padding: 20px;
+    padding: 15px;
 }
 
 .blog-meta {
@@ -130,19 +98,20 @@
 }
 
 .jStag {
-    padding: 5px 20px;
+    padding: 2px 20px;
     border-radius: 40px;
     background: var(--c-light);
     color: var(--c-dark-blue);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     display: inline-block;
     float: left;
+    line-height: 2;
 }
 
 .meta-item {
     display: inline-block;
-    padding-top: 8px;
+    font-size: 14px;
 }
 
 /*============================*/
@@ -188,7 +157,7 @@ CONTROLS
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 70px;
+    margin-top: 0px;
     position: relative;
     z-index: 99999;
 }
@@ -331,5 +300,154 @@ RESPONSIVE
         width: 150px;
         height: 46px;
         font-size: 14px;
+    }
+}
+
+/*=============================
+    UNIQUE TESTIMONIAL SLIDER
+==============================*/
+
+.pxltsSlider {
+    clear: both;
+    background: url(./../images/ChatGPTImage.png) fixed no-repeat center center;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+#pxltsSliderUniverse9045 {
+    width: 100%;
+    max-width: 1300px;
+    margin: 60px auto;
+    padding: 20px;
+    position: relative;
+}
+
+.pxltsViewport9045 {
+    overflow: hidden;
+}
+
+.pxltsTrack9045 {
+    display: flex;
+    transition: 0.6s ease;
+}
+
+.pxltsItem9045 {
+    padding: 15px;
+    flex: 0 0 calc(100% / 2);
+}
+
+@media(max-width:992px) {
+    .pxltsItem9045 {
+        flex: 0 0 calc(100% / 2);
+    }
+}
+
+@media(max-width:768px) {
+    .pxltsItem9045 {
+        flex: 0 0 100%;
+    }
+}
+
+.pxltsSliderHeading6789{
+    position: relative;
+}
+
+.pxltsSliderHeading6789 h2.h2.text-heading-dark {
+    margin-bottom: 60px;
+    color:#683f1c ;
+}
+
+.pxltsCard9045 {
+    border-radius: 18px;
+    padding: 35px 30px;
+    height: 100%;
+    transition: .35s;
+    position: relative;
+    background: linear-gradient(45deg, rgb(65 22 4 / 80%), rgb(65 22 4 / 60%), rgb(255 255 255 / 90%));
+}
+
+.pxltsCard9045:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.pxltsQuote9045 {
+    font-size: 50px;
+    color: #0066ff;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.pxltsText9045 {
+    color: #555;
+    line-height: 1.3;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.pxltsUser9045 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pxltsUser9045 img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pxltsName9045 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pxltsRole9045 {
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.pxltsStars9045 {
+    margin-top: 8px;
+}
+
+.pxltsArrow9045 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #411604, rgb(0 0 0 / 1%));
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    transition: .3s;
+    z-index: 5;
+}
+
+.pxltsArrow9045:hover {
+    background: #004dcc;
+}
+
+#pxltsPrev9045 {
+    top: 28px;
+    right: 80px;
+}
+
+#pxltsNext9045 {
+    right: 25px;
+    top: 28px;
+}
+
+@media(max-width:768px) {
+    #pxltsPrev9045 {
+        left: 5px;
+    }
+
+    #pxltsNext9045 {
+        right: 5px;
     }
 }
