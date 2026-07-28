@@ -3302,7 +3302,7 @@ label input:not(:disabled)+span.btn:where(:not([role=button])) {
 @media (min-width:1200px) and (min-height:500px) and (min-aspect-ratio:10/11),
 (min-width:1440px) and (min-height:700px) {
     .btn--sm {
-        --btn-height: calc(var(--scale-px) * 30);
+        --btn-height: calc(var(--scale-px) * 40);
         height: var(--btn-height);
         --btn-rx: min(calc(var(--scale-px) * 30), calc(var(--btn-height, 1000px) / 2));
         --btn-ry: min(calc(var(--scale-px) * 30), calc(var(--btn-height, 1000px) / 2))
@@ -11174,7 +11174,7 @@ body {
 
     .pt-3\:md,
     .py-3\:md {
-        padding-top: calc(var(--spacing) * 3)
+        padding-top: calc(var(--spacing) * 3.5);
     }
 
     .pt-3\.5\:md,
@@ -21099,7 +21099,7 @@ jdiv.__jivoMobileButton {
     top: 0;
     background: #D3A659;
     color: #101D1B;
-    border: 2px solid;
+    border: 2px solid #E0B86F;
 }
 
 .btn.btn--secondary {
@@ -21115,14 +21115,12 @@ jdiv.__jivoMobileButton {
     /* top: -2px; */
     /* box-shadow: 3px 3px 8px var(--t-heading) !important; */
     background: #E0B86F;
-    border: 2px solid;
+    border: 2px solid #D3A659;
 }
 
 .btn.btn--secondary:hover {
     background: rgba(211,166,89,0.12);
     opacity: 1 !important;
-    /* top: -2px; */
-    /* box-shadow: 3px 3px 8px; */
 }
 
 p.text-center.pt-1 .btn {
@@ -21134,6 +21132,11 @@ p.text-center.pt-1 .btn svg {
     position: absolute;
     right: 24px;
 }
+
+p.text-center.pt-1 .btn.btn--secondary svg {
+    color: #E0B86F;
+}
+
 
 h3.h3.mt-2.pl-1 {
     margin-top: calc(var(--spacing) * 2) !important;
