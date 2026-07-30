@@ -3194,7 +3194,7 @@ label input:not(:disabled)+span.btn:where(:not([role=button])) {
 (min-width:668px) and (min-height:416px),
 (min-width:980px) {
     .btn {
-        --btn-height: calc(var(--scale-px) * 60)
+        --btn-height: calc(var(--scale-px) * 50);
     }
 
     .btn,

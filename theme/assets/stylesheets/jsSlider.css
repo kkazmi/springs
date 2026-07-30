@@ -61,10 +61,10 @@
     transform-style: preserve-3d;
     transform-origin: center center;
     border-radius: 30px;
-    overflow: hidden;
     cursor: pointer;
-    background: linear-gradient(136deg, rgb(0 102 255 / 20%), rgb(21 34 152 / 90%));
-    border: 1px solid rgba(255, 255, 255, .15);
+    background: rgb(0 0 0 / 40%);
+    border: 2px solid var(--c-golden);
+    overflow: hidden;
 }
 
 /*============================*/
@@ -101,9 +101,8 @@
     padding: 2px 20px;
     border-radius: 40px;
     background: var(--c-golden);
-    color: var(--c-dark-blue);
+    color: var(--c-black);
     font-size: 12px;
-    font-weight: 700;
     display: inline-block;
     float: left;
     line-height: 2;
@@ -112,6 +111,7 @@
 .meta-item {
     display: inline-block;
     font-size: 14px;
+    color: var(--c-white);
 }
 
 /*============================*/
@@ -126,6 +126,7 @@
     line-height: 1.2;
     margin-bottom: 30px;
     font-size: 14px;
+    color: var(--c-white);
 }
 
 /*==================================================

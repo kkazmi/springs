@@ -1001,6 +1001,8 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     z-index: 1
 }
 
+p.l-residences__caption__description.text-color-small.text-small.leading-trim,
+.l-place-video__caption-item p.text-c1,
 .l-nature-bg-caption__subtitle,
 .l-wellness__webgl-caption p,
 .l-intro__content-text,
@@ -1222,7 +1224,6 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     z-index: 2
 }
 
-.l-place-video__caption-item p.text-c1,
 .l-wellness__slider__images .content-animation,
 .l-wellness__slider__images .content-animation div,
 .l-wellness__slider__images .mobile-scrollable,
@@ -2726,7 +2727,8 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
         padding: calc(var(--scale-px) * 30);
         position: absolute;
         right: 0;
-        z-index: 2
+        z-index: 2;
+        border-top: 1px solid;
     }
 
     .l-residences__caption__description {
@@ -2775,7 +2777,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-interiors__slider-thumb {
-        background: var(--c-golden);
+        background: var(--c-black);
         display: flex;
         flex-direction: column;
         justify-content: flex-end
@@ -2802,7 +2804,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-interiors__slider-thumb__links__item.is-active {
-        border-color: var(--c-black);
+        border-color: var(--c-golden);
         cursor: default;
         padding: 5px;
         pointer-events: none
@@ -3221,7 +3223,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     margin: 30px 0 !important;
 }
 
-.l-nature.sticky h3.h3.mtb-2 small{
+.l-nature.sticky h3.h3.mtb-2 small {
     color: var(--c-white)
 }
 
