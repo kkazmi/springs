@@ -7248,7 +7248,7 @@ label.error.news-modal__title {
 
 .ui-background,
 body {
-    background: #152238;
+    background: #000;
 }
 
 .container,
@@ -19238,7 +19238,7 @@ img.background--bottom {
 
 .header .header__logo__left {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    left: 0;
+    left: 8px;
     position: absolute;
     top: 0
 }

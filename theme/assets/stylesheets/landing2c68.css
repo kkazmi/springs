@@ -780,7 +780,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     height: 100vh;
     position: absolute;
     width: 100%;
-    background: radial-gradient(circle at center, #152238, rgb(0 0 0 / 1%)) no-repeat;
+    background: radial-gradient(circle at center, #000, rgb(0 0 0 / 1%)) no-repeat;
 }
 
 @media (max-width: 567px) and (max-aspect-ratio:13/9),
