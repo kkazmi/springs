@@ -572,7 +572,7 @@
 }
 
 .news-modal__gradient div:first-child {
-    background: radial-gradient(circle, var(--c-olive) 0, var(--c-olive) 5%, rgba(var(--c-olive-rgb), 0) 90%);
+    background: radial-gradient(circle, var(--c-golden) 0, var(--c-golden) 5%, rgba(var(--c-golden-rgb), 0) 90%);
     height: 103vh;
     left: -27vw;
     position: absolute;
@@ -582,7 +582,7 @@
 }
 
 .news-modal__gradient div:nth-child(2) {
-    background: radial-gradient(circle, var(--c-green) 0, var(--c-green) 25%, rgba(var(--c-green-rgb), 0) 70%);
+    background: radial-gradient(circle, var(--c-black) 0, var(--c-black) 25%, rgba(var(--c-black-rgb), 0) 70%);
     bottom: 0;
     height: 50vh;
     position: absolute;
@@ -797,7 +797,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-gallery__gradient div:nth-child(2) {
-    background: radial-gradient(circle, var(--c-green) 0, rgba(var(--c-green-rgb), .8) 45%, rgba(var(--c-green-rgb), 0) 72%);
+    background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 45%, rgba(var(--c-black-rgb), 0) 72%);
     height: 900px;
     left: 66vw;
     position: absolute;
@@ -815,7 +815,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-gallery__gradient div:nth-child(3) {
-    background: radial-gradient(circle, var(--c-green) 0, rgba(var(--c-green-rgb), .8) 15%, rgba(var(--c-green-rgb), 0) 70%);
+    background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 15%, rgba(var(--c-black-rgb), 0) 70%);
     height: 770px;
     left: 66vw;
     position: absolute;
@@ -1277,7 +1277,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-wellness__slider-gradient div:nth-child(2) {
-    background: radial-gradient(circle, var(--c-green) 0, rgba(var(--c-green-rgb), .8) 45%, rgba(var(--c-green-rgb), 0) 72%);
+    background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 45%, rgba(var(--c-black-rgb), 0) 72%);
     height: 98vw;
     left: 4vw;
     position: absolute;
@@ -1391,7 +1391,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-wellness__webgl-gradient div:first-child {
-        background: radial-gradient(circle at center, var(--c-olive) 0, rgba(var(--c-olive-rgb), 0) 50%) no-repeat;
+        background: radial-gradient(circle at center, var(--c-golden) 0, rgba(var(--c-golden-rgb), 0) 50%) no-repeat;
         height: 134%;
         left: -90vw;
         position: absolute;
@@ -1400,7 +1400,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-wellness__webgl-gradient div:nth-child(2) {
-        background: radial-gradient(circle, var(--c-green) 0, rgba(var(--c-green-rgb), .8) 45%, rgba(var(--c-green-rgb), 0) 72%);
+        background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 45%, rgba(var(--c-black-rgb), 0) 72%);
         height: 900px;
         left: 23vw;
         position: absolute;
@@ -1582,7 +1582,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-nature-bg-item:nth-of-type(3) {
-    background: var(--c-green);
+    background: var(--c-black);
     bottom: 0;
     height: 100%;
     position: absolute;
@@ -1596,7 +1596,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-nature-bg-item__gradient div:first-child {
-    background: radial-gradient(circle, var(--c-golden-green) 0, rgba(var(--c-golden-green-rgb), .8) 5%, rgba(var(--c-golden-green-rgb), 0) 62%);
+    background: radial-gradient(circle, var(--c-golden) 0, rgba(var(--c-golden-rgb), .8) 5%, rgba(var(--c-golden-rgb), 0) 62%);
     height: 55vw;
     position: absolute;
     right: -22vw;
@@ -1617,7 +1617,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-nature-bg-item__gradient div:nth-child(2) {
-    background: radial-gradient(circle, var(--c-green) 0, rgba(var(--c-green-rgb), .8) 45%, rgba(var(--c-green-rgb), 0) 70%);
+    background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 45%, rgba(var(--c-black-rgb), 0) 70%);
     height: 100vw;
     position: absolute;
     right: -42vw;
@@ -1780,7 +1780,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-nature__slider__gradient div:first-child {
-        background: radial-gradient(circle, var(--c-olive) 0, rgba(var(--c-olive-rgb), .8) 5%, rgba(var(--c-olive-rgb), 0) 62%);
+        background: radial-gradient(circle, var(--c-golden) 0, rgba(var(--c-golden-rgb), .8) 5%, rgba(var(--c-golden-rgb), 0) 62%);
         bottom: -91vw;
         height: 80vh;
         position: absolute;
@@ -1789,7 +1789,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-nature__slider__gradient div:nth-child(2) {
-        background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 5%, rgba(var(--c-green-rgb), 0) 72%);
+        background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 5%, rgba(var(--c-black-rgb), 0) 72%);
         height: 50vh;
         position: absolute;
         right: -69vw;
@@ -2014,7 +2014,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-place-webgl__gradient div:nth-child(2) {
-        background: radial-gradient(circle, var(--c-olive) 0, rgba(var(--c-olive-rgb), .8) 45%, rgba(var(--c-olive-rgb), 0) 72%);
+        background: radial-gradient(circle, var(--c-golden) 0, rgba(var(--c-golden-rgb), .8) 45%, rgba(var(--c-golden-rgb), 0) 72%);
         height: 100vw;
         left: 21vw;
         position: absolute;
@@ -2023,7 +2023,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-place-webgl__gradient div:nth-child(3) {
-        background: radial-gradient(circle, var(--c-golden-green) 0, rgba(var(--c-golden-green-rgb), .8) 45%, rgba(var(--c-golden-green-rgb), 0) 72%);
+        background: radial-gradient(circle, var(--c-golden) 0, rgba(var(--c-golden-rgb), .8) 45%, rgba(var(--c-golden-rgb), 0) 72%);
         height: 200vw;
         left: -106vw;
         position: absolute;
@@ -2101,7 +2101,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-place-description__gradient {
-        background: radial-gradient(circle, var(--c-golden-green) 0, rgba(var(--c-golden-green-rgb), .8) 15%, rgba(var(--c-golden-green-rgb), 0) 72%);
+        background: radial-gradient(circle, var(--c-golden) 0, rgba(var(--c-golden-rgb), .8) 15%, rgba(var(--c-golden-rgb), 0) 72%);
         bottom: -125vw;
         height: 200vw;
         position: absolute;
@@ -2555,7 +2555,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-residences__slider__gradient div:first-child {
-        background: radial-gradient(circle at center, var(--c-golden-green) 0, rgba(var(--c-golden-green-rgb), 0) 50%) no-repeat;
+        background: radial-gradient(circle at center, var(--c-golden) 0, rgba(var(--c-golden-rgb), 0) 50%) no-repeat;
         height: 150vw;
         left: -56vw;
         position: absolute;
@@ -3059,7 +3059,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-news__gradient div:nth-child(2) {
-    background: radial-gradient(circle, var(--c-green) 0, rgba(var(--c-green-rgb), .8) 45%, rgba(var(--c-green-rgb), 0) 72%);
+    background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 45%, rgba(var(--c-black-rgb), 0) 72%);
     height: 100vw;
     position: absolute;
     right: -33vw;
@@ -3076,7 +3076,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-news__gradient div:nth-child(3) {
-    background: radial-gradient(circle, var(--c-olive) 0, rgba(var(--c-olive-rgb), .8) 45%, rgba(var(--c-olive-rgb), 0) 72%);
+    background: radial-gradient(circle, var(--c-golden) 0, rgba(var(--c-golden-rgb), .8) 45%, rgba(var(--c-golden-rgb), 0) 72%);
     height: 30vw;
     position: absolute;
     right: -13vw;
@@ -3095,7 +3095,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-news__gradient div:nth-child(4) {
-    background: radial-gradient(circle, var(--c-golden-green) 0, var(--c-golden-green) 25%, rgba(var(--c-golden-green-rgb), 0) 70%);
+    background: radial-gradient(circle, var(--c-golden) 0, var(--c-golden) 25%, rgba(var(--c-golden-rgb), 0) 70%);
     bottom: 0;
     height: 16vw;
     position: absolute;
@@ -3160,7 +3160,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .news__gradient div:nth-child(3) {
-    background: radial-gradient(circle, var(--c-green) 0, var(--c-green) 25%, rgba(var(--c-green-rgb), 0) 70%);
+    background: radial-gradient(circle, var(--c-black) 0, var(--c-black) 25%, rgba(var(--c-black-rgb), 0) 70%);
     height: 52vw;
     position: absolute;
     right: -41vw;
@@ -3178,7 +3178,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .news__gradient div:nth-child(4) {
-    background: radial-gradient(circle, var(--c-olive) 0, var(--c-olive) 5%, rgba(var(--c-olive-rgb), 0) 90%);
+    background: radial-gradient(circle, var(--c-golden) 0, var(--c-golden) 5%, rgba(var(--c-golden-rgb), 0) 90%);
     height: 43vw;
     position: absolute;
     right: -20vw;

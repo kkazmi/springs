@@ -546,7 +546,7 @@
 }
 
 .gallery-gradient div:first-child {
-    background: radial-gradient(circle at center, var(--c-green) 0, rgba(var(--c-green-rgb), 0) 50%) no-repeat;
+    background: radial-gradient(circle at center, var(--c-black) 0, rgba(var(--c-black-rgb), 0) 50%) no-repeat;
     height: 350%;
     left: -74vw;
     position: absolute;
@@ -793,7 +793,7 @@
 }
 
 .no-hover .gallery-modal__gradient div:first-child {
-    background: radial-gradient(circle, var(--c-green) 0, rgba(var(--c-green-rgb), .8) 5%, rgba(var(--c-green-rgb), 0) 62%);
+    background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 5%, rgba(var(--c-black-rgb), 0) 62%);
     height: 96vw;
     left: -23vw;
     position: absolute;

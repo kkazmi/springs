@@ -711,7 +711,7 @@ small.news-modal__title {
     font-weight: 600;
     --fos: -0.165em;
     --foe: -0.095em;
-    font-size: var(--xxxxl, calc(var(--scale-text-rem) * 8)) var(--n-xxxxl, var(--xxxl, calc(var(--scale-text-rem) * 7)) var(--n-xxxl, var(--xxl, calc(var(--scale-text-rem) * 6)) var(--n-xxl, var(--md, calc(var(--scale-text-rem) * 5)) var(--n-md, calc(var(--scale-text-rem) * 4)))));
+    font-size: var(--xxxxl, calc(var(--scale-text-rem) * 7)) var(--n-xxxxl, var(--xxxl, calc(var(--scale-text-rem) * 6)) var(--n-xxxl, var(--xxl, calc(var(--scale-text-rem) * 5)) var(--n-xxl, var(--md, calc(var(--scale-text-rem) * 4)) var(--n-md, calc(var(--scale-text-rem) * 3)))));
     letter-spacing: -.02em;
     line-height: var(--lh);
     text-transform: none
@@ -779,7 +779,7 @@ small.news-modal__title {
     font-weight: 400;
     --fos: -0.165em;
     --foe: -0.095em;
-    font-size: var(--xxxxl, calc(var(--scale-text-rem) * 8)) var(--n-xxxxl, var(--xxxl, calc(var(--scale-text-rem) * 7)) var(--n-xxxl, var(--xxl, calc(var(--scale-text-rem) * 6)) var(--n-xxl, var(--md, calc(var(--scale-text-rem) * 5)) var(--n-md, calc(var(--scale-text-rem) * 4)))));
+    font-size: var(--xxxxl, calc(var(--scale-text-rem) * 7)) var(--n-xxxxl, var(--xxxl, calc(var(--scale-text-rem) * 6)) var(--n-xxxl, var(--xxl, calc(var(--scale-text-rem) * 5)) var(--n-xxl, var(--md, calc(var(--scale-text-rem) * 4)) var(--n-md, calc(var(--scale-text-rem) * 3)))));
     --lh: var(--xxxxl, 0.95em) var(--n-xxxxl, var(--xxxl, 0.9375em) var(--n-xxxl, var(--xxl, 0.92857em) var(--n-xxl, var(--md, 0.9em) var(--n-md, 0.97222em))));
     letter-spacing: -.02em;
     line-height: var(--lh);
@@ -802,7 +802,7 @@ small.news-modal__title {
     font-weight: 400;
     --fos: -0.165em;
     --foe: -0.095em;
-    font-size: var(--xxxxl, calc(var(--scale-text-rem) * 7)) var(--n-xxxxl, var(--xxxl, calc(var(--scale-text-rem) * 6)) var(--n-xxxl, var(--xxl, calc(var(--scale-text-rem) * 5)) var(--n-xxl, var(--md, calc(var(--scale-text-rem) * 4)) var(--n-md, calc(var(--scale-text-rem) * 2.6)))));
+    font-size: var(--xxxxl, calc(var(--scale-text-rem) * 6)) var(--n-xxxxl, var(--xxxl, calc(var(--scale-text-rem) * 5)) var(--n-xxxl, var(--xxl, calc(var(--scale-text-rem) * 4)) var(--n-xxl, var(--md, calc(var(--scale-text-rem) * 3)) var(--n-md, calc(var(--scale-text-rem) * 2)))));
     --lh: var(--xxxxl, 0.92857em) var(--n-xxxxl, var(--xxxl, 0.91667em) var(--n-xxxl, var(--xxl, 0.9em) var(--n-xxl, var(--md, 1.05em) var(--n-md, 0.96154em))));
     letter-spacing: var(--xxl, -.02em) var(--n-xxl, 0);
     line-height: var(--lh);
@@ -4461,7 +4461,7 @@ label input:checked+.btn--tab:after {
 
 .l-gallery__caption p.text-t1 {
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.2;
     color: var(--c-white);
 }
@@ -19229,26 +19229,26 @@ img.background--bottom {
 }
 
 .header .header__logo__left {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    left: 8px;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+    left: 0px;
     position: absolute;
     top: 0
 }
 
 .header .header__logo__right {
     position: absolute;
-    right: 0;
+    right: -28px;
     top: 0;
-    transform: translateX(0)
+    transform: translateX(0);
 }
 
 .header .header__logo img.icon.icon-logo-left {
-    width: 24px;
+    height: 58px;
     position: relative;
 }
 
 .header .header__logo img.icon.icon-logo-right {
-    width: 60px;
+    height: 60px;
 }
 
 .header .header__logo--mobile {
@@ -19328,13 +19328,14 @@ img.background--bottom {
 }
 
 .header--sticky.header--collapsed .header__content .header__logo__left {
-    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%)
+    left: 30px;
 }
 
 .header--sticky.header--collapsed .header__content .header__logo__right {
     right: 16%;
     top: 0;
-    transform: translateX(0)
+    transform: translateX(0);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
 }
 
 .header--sticky.header--collapsed .header__content .header__logo__right svg {
@@ -21151,4 +21152,17 @@ a.btn.btn--outline.btn--sm.btn--square.js-content-animation-prev {
 a.btn.btn--text-small.btn--sm.btn--outline.btn--clone.btn--cloned *,
 a.btn.btn--text-small.btn--sm.btn--outline.btn--clone.btn--cloned {
     color: #152238 !important;
+}
+
+p.text-c2-small.leading-trim.text-color-small {
+    color: var(--c-white);
+}
+
+.footer__padding a.btn.btn--outline.btn--square.btn--sm {
+    background: transparent;
+}
+
+.col.col--md-4.mb-1.ml-layout p.h1 {
+    text-shadow: 2px 1px 3px rgba(0,0,0,.67);
+    font-weight: bold;
 }

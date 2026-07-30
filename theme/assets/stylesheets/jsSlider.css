@@ -1,5 +1,5 @@
 /*==================================================
-    360Ã‚Â° COVERFLOW CAROUSEL
+    360Ãƒâ€šÃ‚Â° COVERFLOW CAROUSEL
 ==================================================*/
 
 .jSliderContainer {
@@ -182,6 +182,7 @@ CONTROLS
 .controls button:hover {
     background: transparent;
     transform: translateY(-4px);
+    box-shadow: 2px 6px 8px;
 }
 
 /*==================================================
@@ -308,11 +309,26 @@ RESPONSIVE
     UNIQUE TESTIMONIAL SLIDER
 ==============================*/
 
+.pxltsSlider * {
+    translate: none !important;
+}
+
 .pxltsSlider {
     clear: both;
-    background: url(./../images/ChatGPTImage.png) fixed no-repeat center center;
     background-size: cover;
     padding: 10px 0;
+    position: relative;
+}
+
+.pxltsSlider:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(./../images/ChatGPTImage.png) fixed no-repeat center center;
+    background-size: cover;
+    display: block;
+    opacity: .25;
 }
 
 #pxltsSliderUniverse9045 {
@@ -321,6 +337,7 @@ RESPONSIVE
     margin: 60px auto;
     padding: 20px;
     position: relative;
+    z-index: 999;
 }
 
 .pxltsViewport9045 {
@@ -349,13 +366,14 @@ RESPONSIVE
     }
 }
 
-.pxltsSliderHeading6789{
+.pxltsSliderHeading6789 {
     position: relative;
 }
 
 .pxltsSliderHeading6789 h2.h2.text-heading-dark {
     margin-bottom: 60px;
-    color:#683f1c ;
+    color: var(--c-golden);
+    font-weight: bold;
 }
 
 .pxltsCard9045 {
@@ -364,7 +382,7 @@ RESPONSIVE
     height: 100%;
     transition: .35s;
     position: relative;
-    background: linear-gradient(45deg, rgb(65 22 4 / 80%), rgb(65 22 4 / 60%), rgb(255 255 255 / 90%));
+    background: linear-gradient(45deg, rgb(0 0 0 / 30%) 90%, rgb(255 255 255 / 10%) 20%, rgb(215 171 62 / 80%)10%);
 }
 
 .pxltsCard9045:hover {
@@ -374,13 +392,13 @@ RESPONSIVE
 
 .pxltsQuote9045 {
     font-size: 50px;
-    color: #0066ff;
+    color: var(--c-golden);
     line-height: 1;
     margin-bottom: 15px;
 }
 
 .pxltsText9045 {
-    color: #555;
+    color: #000;
     line-height: 1.3;
     margin-bottom: 25px;
     font-size: 16px;
@@ -408,6 +426,7 @@ RESPONSIVE
 .pxltsRole9045 {
     margin-top: 4px;
     font-size: 14px;
+    color: var(--c-white);
 }
 
 .pxltsStars9045 {
@@ -415,11 +434,11 @@ RESPONSIVE
 }
 
 .pxltsArrow9045 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border: none;
     border-radius: 50%;
-    background: linear-gradient(45deg, #411604, rgb(0 0 0 / 1%));
+    background: transparent;
     cursor: pointer;
     position: absolute;
     top: 45%;
@@ -427,10 +446,12 @@ RESPONSIVE
     font-size: 20px;
     transition: .3s;
     z-index: 5;
+    border: 2px solid var(--c-golden);
+    background: rgba(255, 255, 255, .08);
 }
 
 .pxltsArrow9045:hover {
-    background: #004dcc;
+    background: transparent;
 }
 
 #pxltsPrev9045 {
@@ -441,6 +462,11 @@ RESPONSIVE
 #pxltsNext9045 {
     right: 25px;
     top: 28px;
+}
+
+.pxltsSliderHeading6789 button:hover {
+    margin-top: -3px;
+    box-shadow: -2px 6px 8px rgba(0, 0, 0, .5);
 }
 
 @media(max-width:768px) {
