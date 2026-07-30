@@ -953,6 +953,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     font-size: 14px;
     color: var(--c-white);
     text-transform: none;
+    border-left: 6px solid var(--c-golden);
 }
 
 .l-intro__image--first {
@@ -3231,4 +3232,9 @@ p.l-residences__caption__description.text-color-small.text-small.leading-trim,
 
 .l-nature.sticky h3.h3.mtb-2 small {
     position: absolute !important;
+}
+
+.l-place-description.pr-layout.pb-layout h3 {
+    background: rgba(0,0,0,.6);
+    padding: 30px;
 }
