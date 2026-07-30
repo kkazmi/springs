@@ -436,7 +436,7 @@
 }
 
 .a-photos__gradient div:first-child {
-    background: radial-gradient(circle, var(--c-light-green) 0, var(--c-light-green) 4%, rgba(var(--c-light-green-rgb), 0) 83%);
+    background: radial-gradient(circle, var(--c-golden-green) 0, var(--c-golden-green) 4%, rgba(var(--c-golden-green-rgb), 0) 83%);
     border-radius: 50%;
     height: 40vw;
     right: 0;

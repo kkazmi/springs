@@ -306,7 +306,7 @@
 }
 
 .a-about__gradient div:nth-child(2) {
-    background: radial-gradient(circle, var(--c-dark-blue-green) 0, rgba(var(--c-dark-blue-green-rgb), .8) 4%, rgba(var(--c-dark-blue-green-rgb), 0) 83%);
+    background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 4%, rgba(var(--c-black-rgb), 0) 83%);
     bottom: -5vw;
     height: 42vw;
     left: -5vw;
@@ -436,7 +436,7 @@
 }
 
 .a-photos__gradient div:first-child {
-    background: radial-gradient(circle, var(--c-light-green) 0, var(--c-light-green) 4%, rgba(var(--c-light-green-rgb), 0) 83%);
+    background: radial-gradient(circle, var(--c-golden-green) 0, var(--c-golden-green) 4%, rgba(var(--c-golden-green-rgb), 0) 83%);
     border-radius: 50%;
     height: 40vw;
     right: 0;

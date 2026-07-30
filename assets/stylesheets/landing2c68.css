@@ -1596,7 +1596,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-nature-bg-item__gradient div:first-child {
-    background: radial-gradient(circle, var(--c-light-green) 0, rgba(var(--c-light-green-rgb), .8) 5%, rgba(var(--c-light-green-rgb), 0) 62%);
+    background: radial-gradient(circle, var(--c-golden-green) 0, rgba(var(--c-golden-green-rgb), .8) 5%, rgba(var(--c-golden-green-rgb), 0) 62%);
     height: 55vw;
     position: absolute;
     right: -22vw;
@@ -2023,7 +2023,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-place-webgl__gradient div:nth-child(3) {
-        background: radial-gradient(circle, var(--c-light-green) 0, rgba(var(--c-light-green-rgb), .8) 45%, rgba(var(--c-light-green-rgb), 0) 72%);
+        background: radial-gradient(circle, var(--c-golden-green) 0, rgba(var(--c-golden-green-rgb), .8) 45%, rgba(var(--c-golden-green-rgb), 0) 72%);
         height: 200vw;
         left: -106vw;
         position: absolute;
@@ -2032,7 +2032,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-place-webgl__gradient div:nth-child(4) {
-        background: radial-gradient(circle, var(--c-light-blue) 0, var(--c-light-blue) 25%, rgba(var(--c-light-blue-rgb), 0) 70%);
+        background: radial-gradient(circle, var(--c-black) 0, var(--c-black) 25%, rgba(var(--c-black-rgb), 0) 70%);
         bottom: -60vh;
         height: 200vw;
         left: -106vw;
@@ -2101,7 +2101,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-place-description__gradient {
-        background: radial-gradient(circle, var(--c-light-green) 0, rgba(var(--c-light-green-rgb), .8) 15%, rgba(var(--c-light-green-rgb), 0) 72%);
+        background: radial-gradient(circle, var(--c-golden-green) 0, rgba(var(--c-golden-green-rgb), .8) 15%, rgba(var(--c-golden-green-rgb), 0) 72%);
         bottom: -125vw;
         height: 200vw;
         position: absolute;
@@ -2222,7 +2222,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-map-caption__map picture:after {
-        background: linear-gradient(-90deg, var(--c-light), rgba(var(--c-light-rgb), 0));
+        background: linear-gradient(-90deg, var(--c-golden), rgba(var(--c-golden-rgb), 0));
         content: "";
         height: 100%;
         pointer-events: none;
@@ -2241,7 +2241,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-map-caption__map:before {
-        background: linear-gradient(160.12deg, var(--c-light) 10.3%, rgba(var(--c-light-rgb), 0) 37.68%);
+        background: linear-gradient(160.12deg, var(--c-golden) 10.3%, rgba(var(--c-golden-rgb), 0) 37.68%);
         content: "";
         height: 100%;
         left: 0;
@@ -2296,7 +2296,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 .l-design__slide--2,
 .l-design__slide--3,
 .l-design__slide--4 {
-    background: var(--c-light)
+    background: var(--c-golden)
 }
 
 @media (min-width: 1440px),
@@ -2555,7 +2555,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-residences__slider__gradient div:first-child {
-        background: radial-gradient(circle at center, var(--c-light-green) 0, rgba(var(--c-light-green-rgb), 0) 50%) no-repeat;
+        background: radial-gradient(circle at center, var(--c-golden-green) 0, rgba(var(--c-golden-green-rgb), 0) 50%) no-repeat;
         height: 150vw;
         left: -56vw;
         position: absolute;
@@ -2768,7 +2768,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
     }
 
     .l-interiors__slider-thumb {
-        background: var(--c-light);
+        background: var(--c-golden);
         display: flex;
         flex-direction: column;
         justify-content: flex-end
@@ -3095,7 +3095,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-news__gradient div:nth-child(4) {
-    background: radial-gradient(circle, var(--c-light-green) 0, var(--c-light-green) 25%, rgba(var(--c-light-green-rgb), 0) 70%);
+    background: radial-gradient(circle, var(--c-golden-green) 0, var(--c-golden-green) 25%, rgba(var(--c-golden-green-rgb), 0) 70%);
     bottom: 0;
     height: 16vw;
     position: absolute;
