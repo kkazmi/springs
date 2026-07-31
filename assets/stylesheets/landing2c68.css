@@ -377,7 +377,7 @@
 
 .plan-marker--apartment .plan-marker__content {
     background: var(--t-heading);
-    border: 1px solid var(--c-beige);
+    border: 1px solid var(--c-golden);
     border-radius: calc(var(--scale-px) * 40);
     color: var(--t-background);
     height: calc(var(--scale-px) * 20);
@@ -2496,7 +2496,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-residences__caption__line {
-    background: rgba(var(--c-beige-rgb), .2);
+    background: rgba(var(--c-golden-rgb), .2);
     height: 1.5px;
     left: calc(var(--scale-px) * 30);
     position: absolute;
@@ -2508,7 +2508,7 @@ a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
 }
 
 .l-residences__caption__line-progress {
-    background: var(--c-beige);
+    background: var(--c-golden);
     height: 100%;
     left: 0;
     position: absolute;

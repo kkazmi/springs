@@ -490,7 +490,7 @@
 }
 
 .gallery-desktop-fixed__line {
-    background: rgba(var(--c-beige-rgb), .2);
+    background: rgba(var(--c-golden-rgb), .2);
     bottom: var(--spacing);
     height: 1.5px;
     left: 50%;
@@ -501,7 +501,7 @@
 }
 
 .gallery-desktop-fixed__line-progress {
-    background: var(--c-beige);
+    background: var(--c-golden);
     height: 100%;
     left: 0;
     position: absolute;
@@ -664,7 +664,7 @@
 }
 
 .gallery-mobile-scrollbar {
-    background: rgba(var(--c-beige-background-rgb), .4);
+    background: rgba(var(--c-golden-background-rgb), .4);
     bottom: calc(var(--spacing-layout) + var(--cookie-height));
     height: 60px;
     left: var(--spacing-layout);
@@ -673,7 +673,7 @@
 }
 
 .gallery-mobile-scrollbar__progress {
-    background: var(--c-beige-background);
+    background: var(--c-golden-background);
     width: 100%
 }
 
@@ -713,7 +713,7 @@
 }
 
 .gallery-modal__line {
-    background: rgba(var(--c-beige-rgb), .2);
+    background: rgba(var(--c-golden-rgb), .2);
     bottom: var(--spacing-layout);
     height: 1.5px;
     left: var(--spacing-layout);
@@ -728,7 +728,7 @@
 
 .gallery-modal__line-progress {
     --progress: calc((var(--content-animation-index) + 1) / var(--content-animation-count));
-    background: var(--c-beige);
+    background: var(--c-golden);
     height: 100%;
     left: 0;
     position: absolute;

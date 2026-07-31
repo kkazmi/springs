@@ -10115,6 +10115,7 @@
             this.disabled && this.disabledByKeyboard && this.setDisabled(!1);
           }
           updateGravityWellLerp(t) {
+            if (!this.scroller || !this.scroller.scroll) return;
             const e = this.gravityWells,
               n = 100 * Vn.lvh();
             let i = this.scroller.lerp;

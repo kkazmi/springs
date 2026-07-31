@@ -377,7 +377,7 @@
 
 .plan-marker--apartment .plan-marker__content {
     background: var(--t-heading);
-    border: 1px solid var(--c-beige);
+    border: 1px solid var(--c-golden);
     border-radius: calc(var(--scale-px) * 40);
     color: var(--t-background);
     height: calc(var(--scale-px) * 20);
@@ -2507,23 +2507,23 @@ p.l-residences__caption__description.text-color-small.text-small.leading-trim,
 }
 
 .l-residences__caption__line {
-    background: rgba(var(--c-beige-rgb), .2);
+    background: rgba(215, 171, 62, .3);
     height: 1.5px;
     left: calc(var(--scale-px) * 30);
     position: absolute;
     right: calc(var(--scale-px) * 30);
-    top: calc(var(--scale-px) * 120);
+    top: calc(var(--scale-px) * 150);
     transition: transform .8s cubic-bezier(.25, .74, .22, .99);
     width: calc(100% - (30px * var(--scale-px)));
     z-index: 1
 }
 
 .l-residences__caption__line-progress {
-    background: var(--c-beige);
+    background: var(--c-golden);
     height: 100%;
     left: 0;
     position: absolute;
-    top: 0;
+    top: 0px;
     width: 5%
 }
 
@@ -2731,7 +2731,7 @@ p.l-residences__caption__description.text-color-small.text-small.leading-trim,
         position: absolute;
         right: 0;
         z-index: 2;
-        border-top: 1px solid;
+        /* border-top: 1px solid; */
     }
 
     .l-residences__caption__description {

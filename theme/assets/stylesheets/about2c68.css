@@ -565,7 +565,7 @@
 }
 
 .a-place__caption__line {
-    background: rgba(var(--c-beige-rgb), .2);
+    background: rgba(215, 171, 62, .3);
     height: 1.5px;
     position: relative;
     transition: transform .8s cubic-bezier(.25, .74, .22, .99);
@@ -573,7 +573,7 @@
 }
 
 .a-place__caption__line-progress {
-    background: var(--c-beige);
+    background: var(--c-golden);
     height: 100%;
     left: 0;
     position: absolute;
@@ -691,7 +691,7 @@
 }
 
 .a-mouse-slider {
-    background-color: var(--c-beige);
+    background-color: var(--c-golden);
     height: auto
 }
 
@@ -804,4 +804,16 @@
     .no-hover .a-mouse-slider {
         height: 330svh
     }
+}
+
+.a-place__caption__card.ui-background span.btn.a-place__btn {
+    background: transparent;
+}
+
+p.a-place__caption__description.text-color-small.text-small.leading-trim {
+    color: var(--c-white);
+}
+
+.a-intro__inner.px-layout.pb-layout a.btn.a-intro__next.btn--outline.btn--square {
+    background: transparent;
 }

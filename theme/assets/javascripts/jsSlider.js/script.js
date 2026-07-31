@@ -11,7 +11,7 @@ const next = document.getElementById("next");
 let current = 0;
 let radius = 540;
 
-let newCardAngle = 360 / newCards.length;
+let newCardAngle = newCards.length ? 360 / newCards.length : 0;
 
 let isDragging = false;
 let startX = 0;
@@ -68,6 +68,7 @@ function shortestDiff(a, b) {
 /*========================================*/
 
 function update() {
+    if (!track || newCards.length === 0 || newCardAngle === 0) return;
 
     newCards.forEach((newCard, index) => {
 
@@ -125,13 +126,17 @@ function update() {
 
     });
 
-    newCards[nearest].classList.add("active");
+    if (newCards[nearest]) newCards[nearest].classList.add("active");
 
 }
 
 /*========================================*/
 
 function animate() {
+    if (!track || newCards.length === 0 || newCardAngle === 0) {
+        requestAnimationFrame(animate);
+        return;
+    }
 
     if (isDragging || velocity !== 0) {
 
@@ -186,9 +191,9 @@ function goTonewCard(index) {
 
 /*========================================*/
 
-next.onclick = rotateNext;
+if (next) next.onclick = rotateNext;
 
-prev.onclick = rotatePrev;
+if (prev) prev.onclick = rotatePrev;
 
 /*========================================*/
 
@@ -206,7 +211,7 @@ window.addEventListener("keydown", (e) => {
 /* Mouse Wheel */
 /*========================================*/
 
-track.addEventListener("wheel", (e) => {
+if (track) track.addEventListener("wheel", (e) => {
 
     e.preventDefault();
 
@@ -218,7 +223,7 @@ track.addEventListener("wheel", (e) => {
 /* Mouse Drag */
 /*========================================*/
 
-track.addEventListener("mousedown", (e) => {
+if (track) track.addEventListener("mousedown", (e) => {
 
     if (
         e.target.closest("button") ||
@@ -257,7 +262,7 @@ window.addEventListener("mousemove", (e) => {
 /* Touch */
 /*========================================*/
 
-track.addEventListener("touchstart", (e) => {
+if (track) track.addEventListener("touchstart", (e) => {
 
     if (e.target.closest("a") || e.target.closest("button")) return;
 
@@ -267,7 +272,7 @@ track.addEventListener("touchstart", (e) => {
 
 });
 
-track.addEventListener("touchmove", (e) => {
+if (track) track.addEventListener("touchmove", (e) => {
 
     if (!isDragging) return;
 
@@ -281,7 +286,7 @@ track.addEventListener("touchmove", (e) => {
 
 });
 
-track.addEventListener("touchend", () => {
+if (track) track.addEventListener("touchend", () => {
 
     isDragging = false;
 
@@ -340,100 +345,108 @@ update();
 // ===================== Testimonial Slider ============================
 const pxltsTrack9045 = document.querySelector(".pxltsTrack9045");
 const pxltsItems9045 = document.querySelectorAll(".pxltsItem9045");
-// Clone first 3 slides
-for (let i = 0; i < 2; i++) {
-    pxltsTrack9045.appendChild(pxltsItems9045[i].cloneNode(true));
-}
-let pxltsCurrent9045 = 0;
-let pxltsVisible9045 = 2;
-function pxltsCount9045() {
-    if (window.innerWidth <= 768) {
-        pxltsVisible9045 = 1;
-    } else if (window.innerWidth <= 992) {
-        pxltsVisible9045 = 1;
-    } else {
-        pxltsVisible9045 = 2;
+if (pxltsTrack9045 && pxltsItems9045.length) {
+    for (let i = 0; i < Math.min(2, pxltsItems9045.length); i++) {
+        pxltsTrack9045.appendChild(pxltsItems9045[i].cloneNode(true));
     }
-}
-function pxltsMove9045() {
-    const width = pxltsItems9045[0].offsetWidth;
-    pxltsTrack9045.style.transform = `translateX(-${pxltsCurrent9045 * width}px)`;
-}
-pxltsTrack9045.addEventListener("transitionend", () => {
-    const originalSlides = pxltsItems9045.length;
-    if (pxltsCurrent9045 >= originalSlides) {
-        pxltsTrack9045.style.transition = "none";
-        pxltsCurrent9045 = 0;
-        const slideWidth = document.querySelector(".pxltsItem9045").offsetWidth;
+    let pxltsCurrent9045 = 0;
+    let pxltsVisible9045 = 2;
+    function pxltsCount9045() {
+        if (window.innerWidth <= 768) {
+            pxltsVisible9045 = 1;
+        } else if (window.innerWidth <= 992) {
+            pxltsVisible9045 = 1;
+        } else {
+            pxltsVisible9045 = 2;
+        }
+    }
+    function pxltsMove9045() {
+        if (!pxltsItems9045[0]) return;
+        const width = pxltsItems9045[0].offsetWidth;
+        pxltsTrack9045.style.transform = `translateX(-${pxltsCurrent9045 * width}px)`;
+    }
+    pxltsTrack9045.addEventListener("transitionend", () => {
+        const originalSlides = pxltsItems9045.length;
+        if (pxltsCurrent9045 >= originalSlides) {
+            pxltsTrack9045.style.transition = "none";
+            pxltsCurrent9045 = 0;
+            const firstSlide = document.querySelector(".pxltsItem9045");
+            if (!firstSlide) return;
+            const slideWidth = firstSlide.offsetWidth;
+            pxltsTrack9045.style.transform =
+                `translateX(-${pxltsCurrent9045 * slideWidth}px)`;
+            pxltsTrack9045.offsetHeight;
+            pxltsTrack9045.style.transition = "transform .6s ease";
+        }
+    });
+    function pxltsNextSlide9045() {
+        pxltsCurrent9045++;
+        const firstSlide = document.querySelector(".pxltsItem9045");
+        if (!firstSlide) return;
+        const slideWidth = firstSlide.offsetWidth;
+        pxltsTrack9045.style.transition = "transform 1s ease";
         pxltsTrack9045.style.transform =
             `translateX(-${pxltsCurrent9045 * slideWidth}px)`;
-        // Force reflow
-        pxltsTrack9045.offsetHeight;
-        pxltsTrack9045.style.transition = "transform .6s ease";
     }
-});
-function pxltsNextSlide9045() {
-    pxltsCurrent9045++;
-    const slideWidth = document.querySelector(".pxltsItem9045").offsetWidth;
-    pxltsTrack9045.style.transition = "transform 1s ease";
-    pxltsTrack9045.style.transform =
-        `translateX(-${pxltsCurrent9045 * slideWidth}px)`;
-}
-function pxltsPrevSlide9045() {
-    pxltsCount9045();
-    if (pxltsCurrent9045 <= 0) {
-        pxltsCurrent9045 = pxltsItems9045.length - pxltsVisible9045;
-    } else {
-        pxltsCurrent9045--;
+    function pxltsPrevSlide9045() {
+        pxltsCount9045();
+        if (pxltsCurrent9045 <= 0) {
+            pxltsCurrent9045 = pxltsItems9045.length - pxltsVisible9045;
+        } else {
+            pxltsCurrent9045--;
+        }
+        pxltsMove9045();
     }
-    pxltsMove9045();
-}
-document.getElementById("pxltsNext9045").onclick = pxltsNextSlide9045;
-document.getElementById("pxltsPrev9045").onclick = pxltsPrevSlide9045;
-window.addEventListener("resize", () => {
-    pxltsCount9045();
-    pxltsMove9045();
-});
+    const pxltsNextBtn9045 = document.getElementById("pxltsNext9045");
+    const pxltsPrevBtn9045 = document.getElementById("pxltsPrev9045");
+    if (pxltsNextBtn9045) pxltsNextBtn9045.onclick = pxltsNextSlide9045;
+    if (pxltsPrevBtn9045) pxltsPrevBtn9045.onclick = pxltsPrevSlide9045;
+    window.addEventListener("resize", () => {
+        pxltsCount9045();
+        pxltsMove9045();
+    });
 
-let pxltsAutoSlide9045;
+    let pxltsAutoSlide9045;
 
-function pxltsStartAuto9045() {
-    pxltsAutoSlide9045 = setInterval(() => {
-        pxltsNextSlide9045();
-    }, 3500);
-}
+    function pxltsStartAuto9045() {
+        pxltsAutoSlide9045 = setInterval(() => {
+            pxltsNextSlide9045();
+        }, 3500);
+    }
 
-function pxltsStopAuto9045() {
-    clearInterval(pxltsAutoSlide9045);
-}
+    function pxltsStopAuto9045() {
+        clearInterval(pxltsAutoSlide9045);
+    }
 
-const pxltsSlider9045 = document.getElementById("pxltsSliderUniverse9045");
+    const pxltsSlider9045 = document.getElementById("pxltsSliderUniverse9045");
+    if (pxltsSlider9045) {
+        pxltsSlider9045.addEventListener("mouseenter", () => {
+            pxltsStopAuto9045();
+        });
 
-pxltsSlider9045.addEventListener("mouseenter", () => {
-    pxltsStopAuto9045();
-});
+        pxltsSlider9045.addEventListener("mouseleave", () => {
+            pxltsStartAuto9045();
+        });
+    }
 
-pxltsSlider9045.addEventListener("mouseleave", () => {
     pxltsStartAuto9045();
-});
 
-// Start autoplay
-pxltsStartAuto9045();
-
-/* Swipe */
-
-let pxltsSwipeStartX9045 = 0;
-document.querySelector(".pxltsViewport9045").addEventListener("touchstart", (e) => {
-    pxltsSwipeStartX9045 = e.touches[0].clientX;
-});
-document.querySelector(".pxltsViewport9045").addEventListener("touchend", (e) => {
-    const endX9045 = e.changedTouches[0].clientX;
-    if (pxltsSwipeStartX9045 - endX9045 > 50) {
-        pxltsNextSlide9045();
+    let pxltsSwipeStartX9045 = 0;
+    const pxltsViewport9045 = document.querySelector(".pxltsViewport9045");
+    if (pxltsViewport9045) {
+        pxltsViewport9045.addEventListener("touchstart", (e) => {
+            pxltsSwipeStartX9045 = e.touches[0].clientX;
+        });
+        pxltsViewport9045.addEventListener("touchend", (e) => {
+            const endX9045 = e.changedTouches[0].clientX;
+            if (pxltsSwipeStartX9045 - endX9045 > 50) {
+                pxltsNextSlide9045();
+            }
+            if (endX9045 - pxltsSwipeStartX9045 > 50) {
+                pxltsPrevSlide9045();
+            }
+        });
     }
-    if (endX9045 - pxltsSwipeStartX9045 > 50) {
-        pxltsPrevSlide9045();
-    }
-});
-pxltsCount9045();
-pxltsMove9045();
+    pxltsCount9045();
+    pxltsMove9045();
+}
