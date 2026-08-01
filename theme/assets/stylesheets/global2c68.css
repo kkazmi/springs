@@ -4674,7 +4674,8 @@ label input:checked+.btn--tab:after {
     position: absolute;
     right: var(--spacing-layout);
     top: var(--spacing-layout);
-    z-index: 44
+    z-index: 44;
+    border: 1px solid;
 }
 
 .no-hover .modal__close {
@@ -21155,6 +21156,7 @@ a.btn.btn--text-small.btn--sm.btn--outline.btn--clone.btn--cloned {
     color: #152238 !important;
 }
 
+.lo-intro__caption.p-relative p,
 p.text-c2-small.leading-trim.text-color-small {
     color: var(--c-white);
 }
@@ -21168,11 +21170,9 @@ p.text-c2-small.leading-trim.text-color-small {
     font-weight: bold;
 }
 
-#lo-intro a.btn.lo-intro__next.btn--outline.btn--square{
-    background: transparent;
-}
-
+#i-more a.btn.more-block__button.btn--outline.btn--square,
+#lo-intro a.btn.lo-intro__next.btn--outline.btn--square ,
 .btn.btn--outline.btn--square.btn--cursor,
-.gallery-modal .btn.cursor.js-cursor-button{
+.gallery-modal .btn.cursor.js-cursor-button {
     background: transparent;
 }
