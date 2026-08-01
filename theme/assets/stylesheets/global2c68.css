@@ -21167,3 +21167,12 @@ p.text-c2-small.leading-trim.text-color-small {
     text-shadow: 2px 1px 3px rgba(0, 0, 0, .67);
     font-weight: bold;
 }
+
+#lo-intro a.btn.lo-intro__next.btn--outline.btn--square{
+    background: transparent;
+}
+
+.btn.btn--outline.btn--square.btn--cursor,
+.gallery-modal .btn.cursor.js-cursor-button{
+    background: transparent;
+}
