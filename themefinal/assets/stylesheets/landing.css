@@ -1159,7 +1159,8 @@ p.l-residences__caption__description.text-color-small.text-small.leading-trim,
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 1
+    z-index: 1;
+    background: rgba(0, 0, 0, .4);
 }
 
 .l-wellness__webgl-circle {
@@ -1971,12 +1972,16 @@ p.l-residences__caption__description.text-color-small.text-small.leading-trim,
         background: var(--c-black)
     }
 
+    .l-place-video__caption-item:nth-child(4),
     .l-place-video__caption-item:nth-child(2) {
         background: var(--c-golden);
     }
-    
+
+
+    .l-place-video__caption-item:nth-child(4) p.text-c1,
+    .l-place-video__caption-item:nth-child(4) p.h0,
     .l-place-video__caption-item:nth-child(2) p.text-c1,
-    .l-place-video__caption-item:nth-child(2) p.h0{
+    .l-place-video__caption-item:nth-child(2) p.h0 {
         color: var(--c-black);
     }
 
@@ -3240,6 +3245,11 @@ p.l-residences__caption__description.text-color-small.text-small.leading-trim,
 }
 
 .l-place-description.pr-layout.pb-layout h3 {
-    background: rgba(0,0,0,.6);
+    background: rgba(0, 0, 0, .6);
     padding: 30px;
+}
+
+p.h4.col.col--md-10.offset--md-1.mb-1.leading-trim.splitting.words.lines {
+    text-align: justify;
+    font-weight: normal !important;
 }

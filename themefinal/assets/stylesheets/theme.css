@@ -827,7 +827,7 @@ small.news-modal__title {
     font-weight: 400;
     --fos: -0.165em;
     --foe: -0.095em;
-    font-size: var(--xxxxl, calc(var(--scale-text-rem) * 6)) var(--n-xxxxl, var(--xxxl, calc(var(--scale-text-rem) * 5)) var(--n-xxxl, var(--xxl, calc(var(--scale-text-rem) * 4)) var(--n-xxl, var(--md, calc(var(--scale-text-rem) * 3.2)) var(--n-md, calc(var(--scale-text-rem) * 2.6)))));
+    font-size: var(--xxxxl, calc(var(--scale-text-rem) * 5)) var(--n-xxxxl, var(--xxxl, calc(var(--scale-text-rem) * 4)) var(--n-xxxl, var(--xxl, calc(var(--scale-text-rem) * 3)) var(--n-xxl, var(--md, calc(var(--scale-text-rem) * 2.4)) var(--n-md, calc(var(--scale-text-rem) * 2)))));
     --lh: var(--xxxxl, 0.91667em) var(--n-xxxxl, var(--xxxl, 0.9em) var(--n-xxxl, var(--xxl, 1.05em) var(--n-xxl, var(--md, 1em) var(--n-md, 0.96154em))));
     letter-spacing: var(--xxxl, -.02em) var(--n-xxxl, var(--xxl, 0) var(--n-xxl, var(--md, -.02em) var(--n-md, 0)));
     line-height: var(--lh);
