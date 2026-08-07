@@ -384,7 +384,7 @@ body.news-modal__title,
 button.news-modal__title,
 input.news-modal__title,
 textarea.news-modal__title {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .text-small {
@@ -406,7 +406,7 @@ textarea.news-modal__title {
 
 .news-modal__title.text-small,
 [lang=en] .text-small:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .btn,
@@ -440,7 +440,7 @@ small {
 [lang=en] .text-c1:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 [lang=en] small:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 small.news-modal__title {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .btn--text-smaller,
@@ -466,7 +466,7 @@ small.news-modal__title {
 .news-modal__title.text-c2,
 [lang=en] .btn--text-smaller:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 [lang=en] .text-c2:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .text-c2-c1 {
@@ -488,7 +488,7 @@ small.news-modal__title {
 
 .news-modal__title.text-c2-c1,
 [lang=en] .text-c2-c1:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .text-c2-small {
@@ -510,7 +510,7 @@ small.news-modal__title {
 
 .news-modal__title.text-c2-small,
 [lang=en] .text-c2-small:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .text-lead {
@@ -532,7 +532,7 @@ small.news-modal__title {
 
 .news-modal__title.text-lead,
 [lang=en] .text-lead:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .form-control--input input,
@@ -598,7 +598,7 @@ small.news-modal__title {
 [lang=en] .form-control--select select:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn):-webkit-autofill:first-line,
 [lang=en] .form-control--textarea textarea:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 [lang=en] .form-control--textarea textarea:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn):-webkit-autofill:first-line {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .text-t2-t1 {
@@ -620,7 +620,7 @@ small.news-modal__title {
 
 .news-modal__title.text-t2-t1,
 [lang=en] .text-t2-t1:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .g0 {
@@ -642,7 +642,7 @@ small.news-modal__title {
 
 .news-modal__title.g0,
 [lang=en] .g0:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .g1 {
@@ -664,7 +664,7 @@ small.news-modal__title {
 
 .news-modal__title.g1,
 [lang=en] .g1:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .h0-sm {
@@ -686,7 +686,7 @@ small.news-modal__title {
 
 .news-modal__title.h0-sm,
 [lang=en] .h0-sm:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .h0,
@@ -711,7 +711,7 @@ small.news-modal__title {
 .news-modal__title.text-h0,
 [lang=en] .h0:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 [lang=en] .text-h0:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .text-h0-lg {
@@ -733,7 +733,7 @@ small.news-modal__title {
 
 .news-modal__title.text-h0-lg,
 [lang=en] .text-h0-lg:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .h1-sm {
@@ -755,7 +755,7 @@ small.news-modal__title {
 
 .news-modal__title.h1-sm,
 [lang=en] .h1-sm:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .h1 {
@@ -781,7 +781,7 @@ small.news-modal__title {
 
 .news-modal__title.h1,
 [lang=en] .h1:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .h2,
@@ -811,7 +811,7 @@ small.news-modal__title {
 .news-modal__title.text-h2,
 [lang=en] .h2:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 [lang=en] .text-h2:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .h3 {
@@ -837,7 +837,7 @@ small.news-modal__title {
 
 .news-modal__title.h3,
 [lang=en] .h3:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .text-h3-stc {
@@ -859,7 +859,7 @@ small.news-modal__title {
 
 .news-modal__title.text-h3-stc,
 [lang=en] .text-h3-stc:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 code,
@@ -881,7 +881,7 @@ code.news-modal__title,
 kbd.news-modal__title,
 pre.news-modal__title,
 samp.news-modal__title {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 a {
@@ -970,8 +970,8 @@ a.is-active {
 (min-width: 980px) and (max-width: 1439px),
 (min-width: 980px) and (min-width: 1200px) and (max-height: 699px) {
     :root {
-        --scale-px: max(.5px, min(1px, calc(.5px+.5 * ((var(--vw100) - 720px) / 720))));
-        --scale-rem: max(.5rem, min(1rem, calc(.5rem+5 * ((var(--vw100) - 720px) / 720))));
+        --scale-px: max(.5px, min(1px, calc(.5px + .5 * ((var(--vw100) - 720px) / 720))));
+        --scale-rem: max(.5rem, min(1rem, calc(.5rem + 5 * ((var(--vw100) - 720px) / 720))));
     }
 
 }
@@ -993,8 +993,8 @@ a.is-active {
 (min-width: 980px) and (max-width: 1199px) and (min-aspect-ratio: 10/11),
 (min-width: 980px) and (max-width: 979px) {
     :root {
-        --scale-text-px: max(.84px, min(1px, calc(.84px+.16 * ((var(--vw100) - 720px) / 480))));
-        --scale-text-rem: max(.84rem, min(1rem, calc(.84rem+1.6 * ((var(--vw100) - 720px) / 480))));
+        --scale-text-px: max(.84px, min(1px, calc(.84px + .16 * ((var(--vw100) - 720px) / 480))));
+        --scale-text-rem: max(.84rem, min(1rem, calc(.84rem + 1.6 * ((var(--vw100) - 720px) / 480))));
     }
 
 }
@@ -1823,7 +1823,7 @@ h5 {
 (min-width: 668px) and (min-height: 416px),
 (min-width: 980px) {
     [lang=en] .h1 {
-        line-height: calc(var(--lh)+.075em);
+        line-height: calc(var(--lh) + .075em);
     }
 }
 
@@ -1959,7 +1959,7 @@ table {
 
 .text.news-modal__title,
 [lang=en] .text:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .text figure {
@@ -2122,7 +2122,7 @@ table {
 [lang=en] .text h3>span:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 [lang=en] .text h4>span:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 [lang=en] .text h5>span:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .text .h2,
@@ -2164,7 +2164,7 @@ table {
 .text h2.news-modal__title,
 [lang=en] .text .h2:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 [lang=en] .text h2:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 @media (max-width: 567px) and (max-aspect-ratio: 13/9),
@@ -2503,12 +2503,12 @@ hr {
 
 .btn__text:where(:not(.btn__text--has-content)):before,
 .leading-trim:before {
-    margin-bottom: calc((var(--lh) - 1em) / -2+var(--fos, 0em))
+    margin-bottom: calc((var(--lh) - 1em) / -2 + var(--fos, 0em))
 }
 
 .btn__text:where(:not(.btn__text--has-content)):after,
 .leading-trim:after {
-    margin-top: calc((var(--lh) - 1em) / -2+var(--foe, 0em))
+    margin-top: calc((var(--lh) - 1em) / -2 + var(--foe, 0em))
 }
 
 .text.text--policy {
@@ -4519,7 +4519,7 @@ label input:checked+.btn--tab:after {
 
 .animation--title {
     transition: border-color !important;
-    transition-duration: calc(var(--char-total) * 10ms+1.4s) !important
+    transition-duration: calc(var(--char-total) * 10ms + 1.4s) !important
 }
 
 .animation--title .char {
@@ -4540,7 +4540,7 @@ label input:checked+.btn--tab:after {
 
 .animation--text {
     transition: border-color !important;
-    transition-duration: calc(var(--line-total) * 40ms+1.4s) !important
+    transition-duration: calc(var(--line-total) * 40ms + 1.4s) !important
 }
 
 .animation--text .word-wrap {
@@ -4816,7 +4816,7 @@ label input:checked+.btn--tab:after {
 }
 
 .no-hover .modal--full .modal__content {
-    min-height: calc((100 * var(--dvh))+1px)
+    min-height: calc((100 * var(--dvh)) + 1px)
 }
 
 .modal--full.animation--modal-in,
@@ -4920,7 +4920,7 @@ label input:checked+.btn--tab:after {
 
     .modal--side.animation--modal-in--inactive .modal__content,
     .modal--side.animation--modal-out--active .modal__content {
-        transform: translateX(calc(100%+var(--spacing)));
+        transform: translateX(calc(100% + var(--spacing)));
     }
 }
 
@@ -5009,7 +5009,7 @@ label input:checked+.btn--tab:after {
 
     .modal--side-search.animation--modal-in--inactive .modal__content,
     .modal--side-search.animation--modal-out--active .modal__content {
-        transform: translateX(calc(100%+var(--spacing)));
+        transform: translateX(calc(100% + var(--spacing)));
     }
 
     .with-modal-change-style .modal--side-search.animation--modal-in--inactive .modal__content,
@@ -5384,7 +5384,7 @@ label input:checked+.btn--tab:after {
 }
 
 .cookie-consent {
-    bottom: calc((var(--scale-px) * 10)+env(safe-area-inset-bottom));
+    bottom: calc((var(--scale-px) * 10) + env(safe-area-inset-bottom));
     height: auto;
     left: calc(var(--scale-px) * 10);
     overflow: hidden;
@@ -6149,7 +6149,7 @@ input:focus-visible~.form-control-radio__icon {
 }
 
 .select-dropdown__list__item a:after {
-    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath stroke='%23E0D1B6' stroke-width='1.5' d='M1.504.847 4.848 6.504 1 2.657'/%3E%3C/svg%3E") no-repeat 0 0;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath stroke='%23E0D1B6' stroke-width='1.5' d='M10.504.847 4.848 6.504 1 2.657'/%3E%3C/svg%3E") no-repeat 0 0;
     content: "";
     display: block;
     height: 8px;
@@ -6527,7 +6527,7 @@ input:focus-visible~.form-control-radio__icon {
 
 .form-control--range input.news-modal__title,
 [lang=en] .form-control--range input:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .form-control--range+.form-control--range:before {
@@ -6583,7 +6583,7 @@ input:focus-visible~.form-control-radio__icon {
 
 .flats-subscribe .error-message.news-modal__title,
 [lang=en] .flats-subscribe .error-message:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 @media (min-width: 1440px),
@@ -6635,7 +6635,7 @@ label.error {
 [lang=en] label.error:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn),
 div.error.news-modal__title,
 label.error.news-modal__title {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .ui-light div.error,
@@ -6913,7 +6913,7 @@ label.error.news-modal__title {
 
     .tooltip--subscribe .tooltip__content .tooltip__content__text.news-modal__title,
     [lang=en] .tooltip--subscribe .tooltip__content .tooltip__content__text:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-        line-height: calc(var(--lh)+.2em);
+        line-height: calc(var(--lh) + .2em);
     }
 
 }
@@ -7208,7 +7208,7 @@ label.error.news-modal__title {
 
     .tooltip--share .tooltip__content .tooltip__content__text.news-modal__title,
     [lang=en] .tooltip--share .tooltip__content .tooltip__content__text:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-        line-height: calc(var(--lh)+.2em);
+        line-height: calc(var(--lh) + .2em);
     }
 
     .tooltip--dark {
@@ -18323,13 +18323,13 @@ canvas {
 }
 
 .sticky--under-previous.sticky--under-next:after {
-    height: calc(var(--sticky-under-previous-distance)+var(--sticky-under-next-distance))
+    height: calc(var(--sticky-under-previous-distance) + var(--sticky-under-next-distance))
 }
 
 .sticky--under-next+.sticky--under-previous,
 .sticky--under-previous--after-next {
     clip-path: inset(calc(100 * var(--svh)) 0 0);
-    margin-top: calc(var(--sticky-under-previous-distance) * -1+var(--sticky-under-next-distance) * -1)
+    margin-top: calc(var(--sticky-under-previous-distance) * -1 + var(--sticky-under-next-distance) * -1)
 }
 
 .sticky--under-next+.sticky--under-previous,
@@ -18345,7 +18345,7 @@ canvas {
 (min-width: 980px) and (min-aspect-ratio: 10/11) {
     .sticky--under-previous--after-next\:lg-up {
         clip-path: inset(calc(100 * var(--svh)) 0 0);
-        margin-top: calc(var(--sticky-under-previous-distance) * -1+var(--sticky-under-next-distance) * -1);
+        margin-top: calc(var(--sticky-under-previous-distance) * -1 + var(--sticky-under-next-distance) * -1);
     }
 
     .sticky--under-previous--after-next\:lg-up,
@@ -18537,7 +18537,7 @@ canvas {
     display: flex;
     height: var(--lg, calc(var(--scale-px) * 15)) var(--n-lg, calc(var(--scale-px) * 13));
     justify-content: center;
-    left: calc(50%+2px);
+    left: calc(50% + 2px);
     min-width: var(--xl, calc(var(--scale-px) * 15)) var(--n-xl, var(--lg, calc(var(--scale-px) * 22)) var(--n-lg, calc(var(--scale-px) * 19)));
     padding: calc(var(--scale-px) * 1) calc(var(--scale-px) * 4) 0 calc(var(--scale-px) * 5);
     pointer-events: none;
@@ -18754,7 +18754,7 @@ html.js.has-hover:not(.no-scroll-smooth)::-webkit-scrollbar {
 }
 
 .section--full-height:where(:first-child:not(:last-child)) {
-    height: calc(100vh+1px)
+    height: calc(100vh + 1px)
 }
 
 .has-scroll-smooth [data-scroll] {
@@ -19885,7 +19885,7 @@ img.icon.icon-logo-right {
 
 .l-callback__success,
 .l-callback__title {
-    bottom: calc(var(--spacing-layout)+(100vh - calc(100 * var(--dvh))));
+    bottom: calc(var(--spacing-layout) + (100vh - calc(100 * var(--dvh))));
     left: var(--spacing-layout);
     position: absolute;
     right: var(--spacing-layout);
@@ -20038,7 +20038,7 @@ img.icon.icon-logo-right {
 @media (min-width: 1440px),
 (min-width: 980px) and (min-aspect-ratio: 10/11) {
     .l-favorites__title {
-        bottom: calc(var(--spacing-layout)+(100vh - calc(100 * var(--dvh))));
+        bottom: calc(var(--spacing-layout) + (100vh - calc(100 * var(--dvh))));
         left: var(--spacing-layout);
         position: absolute;
         right: var(--spacing-layout);
@@ -20145,11 +20145,11 @@ jdiv.__jivoDesktopButton {
 }
 
 jdiv.__jivoMobileButton {
-    bottom: calc((var(--spacing) * 8)+var(--cookie-height)) !important
+    bottom: calc((var(--spacing) * 8) + var(--cookie-height)) !important
 }
 
 .menu__close {
-    margin-right: var(--md, calc((var(--scale-px) * 8)+(var(--scale-text-px) * 40)+var(--btn-icon-spacing))) var(--n-md, 0)
+    margin-right: var(--md, calc((var(--scale-px) * 8) + (var(--scale-text-px) * 40) + var(--btn-icon-spacing))) var(--n-md, 0)
 }
 
 .menu__bg {
@@ -20223,7 +20223,7 @@ jdiv.__jivoMobileButton {
 
 .menu__list__list a.news-modal__title,
 [lang=en] .menu__list__list a:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 @media (max-width: 567px) and (max-aspect-ratio: 13/9) and (min-height: 844px),
@@ -20248,7 +20248,7 @@ jdiv.__jivoMobileButton {
 
     .menu__list__list a.news-modal__title,
     [lang=en] .menu__list__list a:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-        line-height: calc(var(--lh)+.2em);
+        line-height: calc(var(--lh) + .2em);
     }
 
 }
@@ -20310,8 +20310,8 @@ jdiv.__jivoMobileButton {
     position: absolute
 }
 
-.menu__images [data-content-animation-item=2] img,
-.menu__images [data-content-animation-item=6] img {
+.menu__images [data-content-animation-item="2"] img,
+.menu__images [data-content-animation-item="6"] img {
     -o-object-position: bottom;
     object-position: bottom
 }
@@ -21258,7 +21258,7 @@ jdiv.__jivoMobileButton {
 
 .card--apartment .card__footer-title.news-modal__title,
 [lang=en] .card--apartment .card__footer-title:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .card--apartment .card__price {
@@ -21281,7 +21281,7 @@ jdiv.__jivoMobileButton {
 
 .card--apartment .card__price.news-modal__title,
 [lang=en] .card--apartment .card__price:not(.g1):not(.text-t1):not(.text-c1):not(.h1):not(.h3):not(.btn) {
-    line-height: calc(var(--lh)+.2em)
+    line-height: calc(var(--lh) + .2em)
 }
 
 .card--more:before {
@@ -21338,7 +21338,7 @@ jdiv.__jivoMobileButton {
     border: 2px solid;
 }
 
-.l-gallery__caption p.text-center a.btn svg.icon{
+.l-gallery__caption p.text-center a.btn svg.icon {
     position: absolute;
     right: 25px;
 }
