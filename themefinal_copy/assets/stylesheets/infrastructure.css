@@ -620,7 +620,7 @@
     }
 
     .i-video__title {
-        bottom: calc(33.06svh - .23em);
+        bottom: 40svh;
         position: absolute;
         right: 0
     }
@@ -783,7 +783,7 @@
 }
 
 .i-slider__gradient div:nth-child(2) {
-    background: radial-gradient(circle, var(--c-black) 0, var(--c-black) 5%, rgba(var(--c-black-rgb), 0) 70%);
+    background: radial-gradient(circle, var(--c-blue) 0, var(--c-blue) 5%, rgba(var(--c-blue-rgb), 0) 70%);
     height: 152vh;
     left: -1vw;
     position: absolute;
@@ -802,7 +802,7 @@
 }
 
 .i-slider__gradient div:nth-child(3) {
-    background: radial-gradient(circle, var(--c-black) 0, var(--c-black) 25%, rgba(var(--c-black-rgb), 0) 70%);
+    background: radial-gradient(circle, var(--c-dark-blue) 0, var(--c-dark-blue) 25%, rgba(var(--c-dark-blue-rgb), 0) 70%);
     height: 80svh;
     position: absolute;
     right: 80vw;
@@ -822,7 +822,7 @@
 }
 
 .i-slider__mobile-scrollable {
-    background: var(--c-black);
+    background: var(--c-dark-blue);
     height: 100%;
     min-height: 100svh
 }
@@ -943,7 +943,7 @@
 }
 
 .i-slider__mobile-scrollable-gradient div:first-child {
-    background: radial-gradient(circle at center, var(--c-black) 0, rgba(var(--c-black-rgb), 0) 70%) no-repeat;
+    background: radial-gradient(circle at center, var(--c-blue) 0, rgba(var(--c-blue-rgb), 0) 70%) no-repeat;
     height: 80vw;
     position: absolute;
     right: -1vw;
@@ -984,7 +984,7 @@
 }
 
 .i-slider__mobile-scrollable-gradient div:nth-child(3) {
-    background: radial-gradient(circle, var(--c-black) 0, var(--c-black) 25%, rgba(var(--c-black-rgb), 0) 70%);
+    background: radial-gradient(circle, var(--c-dark-blue) 0, var(--c-dark-blue) 25%, rgba(var(--c-dark-blue-rgb), 0) 70%);
     height: 86vw;
     position: absolute;
     right: -44vw;
@@ -1040,7 +1040,7 @@
 }
 
 .i-opening__gradient div:first-child {
-    background: radial-gradient(circle, var(--c-black) 0, rgba(var(--c-black-rgb), .8) 5%, rgba(var(--c-black-rgb), 0) 62%);
+    background: radial-gradient(circle, var(--c-blue) 0, rgba(var(--c-blue-rgb), .8) 5%, rgba(var(--c-blue-rgb), 0) 62%);
     height: 80svh;
     left: -34vw;
     position: absolute;
@@ -1793,9 +1793,4 @@
 .i-anchor-double {
     position: absolute;
     top: var(--lg, 200svh) var(--n-lg, 0)
-}
-
-.text-c2,
-.text-c1 {
-    color: var(--c-white);
 }
