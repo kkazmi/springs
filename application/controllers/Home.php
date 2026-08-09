@@ -5,31 +5,19 @@ class Home extends CI_Controller {
     function __construct()
     {
         parent::__construct();
-        $this->load->model('gallery_model');
     }
+    
     public function index()
     {
-        //   $data['gallery'] = [
-        //         'left' => [
-        //             'assets/images/media/landing/0.preloader/preloader-left-1-xxxl.webp',
-        //             'preloader-left-2',
-        //             'preloader-left-3',
-        //         ],
-        //         'right' => [
-        //             'preloader-right-1',
-        //             'preloader-right-2',
-        //             'preloader-right-3',
-        //         ]
-        //     ];
         $data = array(
-            'preloader_gallery'=>$this->gallery_model->getPreloaderGallery(),
-            'hero_slider_gallery'=>$this->gallery_model->getHeroSliderGallery(),
-            'hero_caption'=>$this->gallery_model->getHeroCaption(),
+            'preloader_gallery'=>$this->common_model->getPreloaderGallery(),
+            'hero_slider_gallery'=>$this->common_model->getHeroSliderGallery(),
+            'hero_caption'=>$this->common_model->getHeroCaption(),
+            'testimonials'=>$this->common_model->getTestimonials(),
+            'interior_images'=>$this->common_model->getInteriorImages(),
+            'blogs'=>$this->common_model->getBlogs(),
         );
-        // $data['preloader_gallery']=$this->gallery_model->getPreloaderGallery();
-        // $data['hero_slider_gallery']=$this->gallery_model->getHeroSliderGallery();
-        // echo "<pre>";
-        // print_r($data['gallery']);die;
+        
         $this->load->view('home/index', $data);
     }
 }

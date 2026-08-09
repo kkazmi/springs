@@ -1,0 +1,3030 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" class="has-hover no-js not-ready">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>BST Developers | Location</title>
+    <style>
+        .js.not-ready,
+        .js.not-ready * {
+            transition: none !important;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/stylesheets/theme.css">
+    <link rel="stylesheet" href="assets/stylesheets/location.css">
+    <link rel="stylesheet" href="assets/stylesheets/tour.css" />
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+        if (navigator.platform.toUpperCase().indexOf('WIN') >= 0) {
+            document.documentElement.classList.add('is-win');
+        }
+    </script>
+</head>
+
+<body data-barba="wrapper">
+    <a href="#top" class="sr-only sr-only--focusable">Skip to main content</a>
+    <div class="preloader js-preloader" data-plugin="preloader" data-preloader-visible="true">
+        <div class="preloader__content ui-dark ui-background">
+            <div class="preloader__content ui-dark ui-background">
+                <div class="background background--cover preloader__gradient-animation">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p class="preloader__content__cover h1">
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="page-content-wrapper ui-light-background" data-barba="container" data-barba-namespace="page"
+        data-plugin="utmSave">
+        <div class="page-content-wrapper__inner js-page-content-wrapper">
+            <?php $this->load->view('common/header'); ?>
+            <div class="page-content js-page-content">
+                <main id="top">
+                    <section class="location-page section" data-scroll-section data-plugin="reveal">
+                        <div class="ui-dark ui-background lo-intro sticky sticky--under-next sticky--full-height"
+                            data-themed-class="ui-dark" id="lo-intro"
+                            data-scroll-snap-point='[{ "viewport": 0, "element": 0}, { "viewport": 0, "element": 33.3}]'>
+                            <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll
+                                data-scroll-sticky data-scroll-target="#lo-intro">
+                                <div
+                                    class="lo-intro__gradient blur-fix background background--cover is-hidden--md-down">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="lo-intro__content h1 px-layout py-layout p-relative" data-plugin="parallax"
+                                    data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
+                                    data-parallax-enable-mq="md-down" data-parallax-0-0='{"height": "100svh"}'
+                                    data-parallax--50-0='{"height": "60svh"}'>
+                                    <div class="background background--cover" data-plugin="parallax"
+                                        data-parallax-enable-mq="lg-up" data-parallax-clamp="true"
+                                        data-parallax-measure-selector=".sticky"
+                                        data-parallax-0-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% calc(100% - var(--space-bottom) * 0), 0% calc(100% - var(--space-bottom) * 0))"}'
+                                        data-parallax--100-0='{"clip-path": "polygon(50% 0%, 89% 0%, 89% calc(100% - var(--space-bottom) * 1), 50% calc(100% - var(--space-bottom) * 1))"}'
+                                        data-parallax--200-0='{"clip-path": "polygon(52% 0%, 87% 0%, 87% calc(98% - var(--space-bottom) * 1), 52% calc(98% - var(--space-bottom) * 1))"}'>
+                                        <picture class=" img-cover" data-parallax-enable-mq="lg-up"
+                                            data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
+                                            data-parallax-0-0="{ &quot;transform&quot;: &quot;scale(1.1)&quot;}"
+                                            data-parallax--100-0="{ &quot;transform&quot;: &quot;scale(1.02)&quot;}"
+                                            data-parallax--200-0="{ &quot;transform&quot;: &quot;scale(1)&quot;}"
+                                            data-plugin=" parallax" draggable="false">
+                                            <source srcset="assets/images/media/location/1.intro/intro-md%40xxxl.webp"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440"
+                                                height="900">
+                                            <source srcset="assets/images/media/location/1.intro/intro-md%40xxxl.webp"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440"
+                                                height="900">
+                                            <source srcset="assets/images/media/location/1.intro/intro-md%40xxxl.webp"
+                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                width="1440" height="900">
+                                            <img src="assets/images/media/location/1.intro/intro-xs%40xs.webp" alt=""
+                                                width="1440" height="900" decoding="async" fetchpriority="high"
+                                                data-reveal="image-zoom" draggable="false">
+                                        </picture>
+                                        <div class="dim is-hidden--md-down"></div>
+                                    </div>
+                                    <div class="lo-intro__caption p-relative" data-plugin="parallax"
+                                        data-parallax-enable-mq="null" data-parallax-clamp="true"
+                                        data-parallax-measure-selector=".sticky"
+                                        data-parallax-0-0='{"opacity": "1", "transform": "translateY(0%)"}'
+                                        data-parallax--50-0='{"opacity": "0", "transform": "translateY(-50%)"}'>
+                                        <h1 class="h0 leading-trim mt-0.5 mt-0:lg is-hidden--md-down"
+                                            data-reveal="text">
+                                            Location
+                                        </h1>
+                                        <div class="h0 leading-trim mt-0.5 mt-0:lg is-hidden--lg-up pr-3">
+                                            <picture class="is-invisible--js is-hidden--no-js img-full"
+                                                data-plugin="appear " draggable="false">
+                                                <img data-src="assets/images/media/location/1.intro/title-en.svg"
+                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2243%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2043%22%3E%3C/svg%3E"
+                                                    alt="" width="320" height="43" draggable="false">
+                                            </picture>
+                                            <noscript>
+                                                <picture class=" img-full" draggable="false">
+                                                    <img src="assets/images/media/location/1.intro/title-en.svg" alt=""
+                                                        width="320" height="43" draggable="false">
+                                                </picture>
+                                            </noscript>
+                                        </div>
+                                        <div class="text-c1 leading-trim mt-1 mt-0.5:lg" data-reveal="text"
+                                            data-reveal-distance="100px">
+                                            <p>
+                                                Natural Oasis<br class="is-hidden--md-up"> in&nbsp;the&nbsp;Heart
+                                                of&nbsp;the&nbsp;City
+                                            </p>
+                                        </div>
+                                        <a class="btn lo-intro__next btn--outline btn--square btn--sm is-hidden--sm-down"
+                                            href="#lo-video">
+                                            <span class="btn__content">
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-arrow-down" width="14" height="16"
+                                                        aria-hidden="true" viewBox="0 0 14 16"
+                                                        style="--icon-width: 14; --icon-height: 16;">
+                                                        <use href="assets/images/icons.svg#arrow-down"
+                                                            xlink:href="assets/images/icons.svg#arrow-down">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a class="btn lo-intro__next btn--outline btn--square btn--sm is-hidden--md-up"
+                                            href="#lo-video-mobile">
+                                            <span class="btn__content">
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-arrow-down" width="14" height="16"
+                                                        aria-hidden="true" viewBox="0 0 14 16"
+                                                        style="--icon-width: 14; --icon-height: 16;">
+                                                        <use href="assets/images/icons.svg#arrow-down"
+                                                            xlink:href="assets/images/icons.svg#arrow-down">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sticky__layer is-hidden--md-down lo-intro__text-sticky">
+                                <div class="lo-intro__text col col--md-10 pl-layout py-layout " data-reveal="text">
+                                    <h3 class="h1 leading-trim">
+                                        All the&nbsp;colors of&nbsp;the&nbsp;clear Western District sky are reflected
+                                        in&nbsp;the&nbsp;glowing windows of&nbsp;BST Developers.
+                                    </h3>
+                                </div>
+                            </div>
+                            <div id="lo-video-mobile" style="position: absolute; top: 70svh;"></div>
+                        </div>
+                        <div
+                            class="lo-intro__text p-relative ui-dark ui-background col col--md-6 mr-0 ml-auto ui-light px-layout pt-2 pb-4 is-hidden--lg-up">
+                            <div class="lo-intro__gradient blur-fix:lg-up background background--cover ">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <h3 class="h1 leading-tri p-relative">
+                                All the&nbsp;colors of&nbsp;the&nbsp;clear Western District sky are reflected
+                                in&nbsp;the&nbsp;glowing windows of&nbsp;BST Developers.
+                            </h3>
+                        </div>
+                        <div class=" ui-dark ui-background lo-video sticky sticky--under-previous sticky--under-next sticky--full-height"
+                            data-themed-class="ui-dark" id="lo-video">
+                            <div class="sticky__layer sticky__layer--sticky is-hidden--md-up" data-scroll
+                                data-scroll-sticky data-scroll-target="#lo-video">
+                                <div class="background background--cover lo-video__overlay">
+                                    <div class="background background--cover">
+                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
+                                            data-plugin="appear " draggable="false">
+                                            <img data-src="assets/images/media/location/2.video/video-xs@xs.webp"
+                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                                                alt="" width="720" height="1280" draggable="false">
+                                        </picture>
+                                        <noscript>
+                                            <picture class=" img-cover" draggable="false">
+                                                <img src="assets/images/media/location/2.video/video-xs%40xs.webp"
+                                                    alt="" width="720" height="1280" draggable="false">
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <div class="vimeo-background background background--cover is-hidden--md-up">
+                                        <iframe
+                                            style="--ratio: 0.5625; --aspect-ratio: 360 / 640; overflow: hidden; border: none;"
+                                            width="360" height="640" loading="lazy"
+                                            src="https://player.vimeo.com/video/1086359332?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sticky__layer is-hidden--md-up">
+                                <div class="pt-2.5 lo-video__text-container p-relative">
+                                    <div class="lo-video__text col col--md-4 pl-layout:md text-t1 leading-trim"
+                                        data-reveal="text" data-reveal-distance="100px 0px">
+                                        <p>
+                                            BST Developers provides excellent connectivity, so that you can accomplish
+                                            all your
+                                            goals. With&nbsp;easy access to&nbsp;main avenues, you will reach
+                                            the&nbsp;business hubs effortlessly to&nbsp;stay on&nbsp;top of&nbsp;your
+                                            affairs or to&nbsp;hold the&nbsp;hand of&nbsp;your loved one
+                                            in&nbsp;a&nbsp;lavish restaurant.
+                                        </p>
+                                    </div>
+                                    <div class="lo-video__title px-layout" data-reveal="text"
+                                        data-reveal-distance="100px 0px">
+                                        <h2 class="h0 leading-trim text-right">
+                                            The&nbsp;Center<br>
+                                            of&nbsp;Your Life
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sticky__layer sticky__layer--sticky sticky--full-height is-hidden--sm-down"
+                                data-scroll data-scroll-sticky data-scroll-target="#lo-video">
+                                <div class="background background--cover lo-video__overlay" data-scroll-snap-point='[
+            { "viewport": 0, "element": 100},
+            { "viewport": 0, "element": 150}
+        ]'>
+                                    <div class="background background--cover">
+                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
+                                            data-plugin="appear " draggable="false">
+                                            <source
+                                                data-srcset="assets/images/media/location/2.video/video-md@xxxl.webp"
+                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440"
+                                                height="900">
+                                            <source data-srcset="assets/images/media/location/2.video/video-md@xxl.webp"
+                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440"
+                                                height="900">
+                                            <img data-src="assets/images/media/location/2.video/video-md@md.webp"
+                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                alt="" width="1440" height="900" draggable="false">
+                                        </picture>
+                                        <noscript>
+                                            <picture class=" img-cover" draggable="false">
+                                                <source srcset="assets/images/media/location/2.video/video-md@xxxl.webp"
+                                                    media="(min-width: 1920px) and (min-height: 700px)" width="1440"
+                                                    height="900">
+                                                <source srcset="assets/images/media/location/2.video/video-md@xxl.webp"
+                                                    media="(min-width: 1440px) and (min-height: 700px)" width="1440"
+                                                    height="900">
+                                                <img src="assets/images/media/location/2.video/video-md%40md.webp"
+                                                    alt="" width="1440" height="900" draggable="false">
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <div class="vimeo-background background background--cover is-hidden--sm-down">
+                                        <iframe
+                                            style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;"
+                                            width="640" height="360" loading="lazy"
+                                            src="https://player.vimeo.com/video/1086359361?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="pt-2.5 lo-video__text-container p-relative">
+                                    <div class="lo-video__text col col--md-4 pl-layout:md text-t1 leading-trim"
+                                        data-reveal="text" data-reveal-distance="100px 0px">
+                                        <p>
+                                            BST Developers provides excellent connectivity, so that you can accomplish
+                                            all your
+                                            goals. With&nbsp;easy access to&nbsp;main avenues, you will reach
+                                            the&nbsp;business hubs effortlessly to&nbsp;stay on&nbsp;top of&nbsp;your
+                                            affairs or to&nbsp;hold the&nbsp;hand of&nbsp;your loved one
+                                            in&nbsp;a&nbsp;lavish restaurant.
+                                        </p>
+                                    </div>
+                                    <div class="lo-video__title" data-reveal="text" data-reveal-distance="100px 0px">
+                                        <h2 class="h0 leading-trim text-right">
+                                            The&nbsp;Center<br>
+                                            of&nbsp;Your Life
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui-light ui-background lo-map sticky sticky--under-previous sticky--under-previous:lg-up sticky--full-height"
+                            id="lo-map"
+                            data-scroll-snap-point='[{ "viewport": 0, "element": 0}, { "viewport": 0, "element": 33}, { "viewport": 0, "element": 53}, { "viewport": 0, "element": 80} , { "viewport": 0, "element": 100}]'>
+                            <div class="lo-anchor" data-themed-class="ui-light"> </div>
+                            <div class="sticky__layer sticky__layer--sticky sticky--full-height p-relative" data-scroll
+                                data-scroll-sticky data-scroll-target="#lo-map" data-plugin="scrollableIndicator">
+                                <div class="lo-map__map p-relative is-finished js-scrollable-indicator-scrollable"
+                                    data-plugin="parallax location" data-parallax-pattern="mapZoom">
+                                    <svg class="svg-fix is-hidden--md-down" width="1440" height="900"
+                                        viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2988_1302)">
+                                            <mask id="mask0_2988_1302" style="mask-type:luminance"
+                                                maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="900">
+                                                <path d="M1440 0H0V900H1440V0Z" fill="white" />
+                                            </mask>
+                                            <g mask="url(#mask0_2988_1302)">
+                                                <path d="M1440 0H0V900H1440V0Z" fill="#F5E8D1" />
+                                                <path
+                                                    d="M673.04 420.422L781.454 417.63C784.264 417.558 786.582 419.817 786.582 422.629V454.06C786.582 455.006 786.85 455.932 787.356 456.732L788.784 458.991C790.369 461.499 789.434 464.827 786.775 466.143L536.078 590.22L496.27 605.456C494.878 605.989 493.289 605.892 492.231 604.842C490.799 603.422 489.446 601.584 486.811 600.074C475.944 593.847 459.634 586.592 451.359 582.373C448.846 581.092 448.293 577.992 450.002 575.747L459.553 563.206C461.203 561.039 460.815 557.949 458.679 556.258L414.344 521.14C413.665 520.602 413.137 519.897 412.812 519.093L403.623 496.339C403.265 495.451 402.659 494.685 401.877 494.132L391.701 486.924C391.486 486.772 391.284 486.603 391.096 486.419L380.731 476.286C379.201 474.79 378.825 472.54 379.713 470.726C379.689 470.68 379.666 470.634 379.643 470.587L379.135 469.543C378.854 468.963 378.467 468.448 377.988 468.016C368.003 459.026 348.723 441.603 346.059 438.939C342.648 435.528 335.339 420.422 327.055 416.524C318.77 412.625 301.715 415.062 301.715 401.904C301.715 393.133 311.461 389.722 335.339 381.438C359.217 373.153 344.597 332.707 339.237 329.783C333.877 326.86 314.872 322.961 321.207 315.164C327.542 307.367 336.313 303.956 321.207 283.002L320.754 282.374C306.042 261.969 303.235 258.076 309.024 250.84C314.872 243.531 337.775 241.581 346.547 242.069C354.119 242.489 371.135 252.717 382.543 253.309C385.299 253.453 386.809 250.659 385.833 248.078C383.112 240.879 378.526 231.064 373.836 227.937C366.526 223.064 370.425 215.754 374.81 215.267C379.196 214.78 420.13 212.343 439.622 201.622C459.114 190.902 494.805 168.411 505.408 170.922C523.925 175.308 552.676 201.622 572.168 237.196C579.64 250.353 594.779 279.396 595.559 290.312C596.534 303.956 597.508 332.22 580.94 354.636C564.372 377.052 529.773 406.777 513.205 412.625C496.636 418.473 436.773 442.351 434.749 450.147L433.562 453.13C433.232 453.959 432.704 454.651 432.057 455.16C432.566 456.297 432.749 457.618 432.581 458.897C431.31 468.591 434.558 485.536 454.728 501.802C484.941 526.167 492.738 539.811 525.875 543.71C559.011 547.608 596.046 525.68 608.716 514.472C621.386 503.264 660.37 469.64 666.218 430.655L668.106 424.048C668.719 421.902 670.681 420.422 672.913 420.422H673.04Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M644.288 422.858C643.712 428.912 649.139 431.075 654.107 431.595C656.778 431.874 659.032 433.773 658.372 436.376C655.891 446.162 646.172 463.764 640.877 473.538C634.542 485.233 612.126 506.187 610.664 506.187C609.202 506.187 592.147 490.594 594.583 481.822C597.02 473.051 609.69 468.665 615.538 461.843C621.385 455.02 633.08 429.681 633.08 424.32C633.08 418.96 633.568 408.239 639.903 408.727C646.238 409.214 645.263 412.625 644.288 422.858Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M491.275 119.755C487.413 104.693 488.015 45.9808 488.816 17.723C488.831 17.188 488.809 16.6368 488.492 16.2055C486.272 13.1839 477.707 22.0235 471.295 33.0152C464.473 44.7105 445.468 56.4058 422.565 68.5884C399.661 80.771 379.682 75.4106 369.936 71.5122C360.19 67.6138 351.906 56.8931 348.007 53.4819C344.109 50.0708 336.312 33.0152 332.413 26.6802C328.515 20.3453 318.282 12.0611 302.688 11.0865C287.094 10.1119 277.348 36.9136 276.861 40.812C276.471 43.9308 266.952 68.101 262.242 79.7963C256.394 92.6287 244.309 119.95 242.75 126.578C240.801 134.862 240.801 157.765 251.034 169.46C261.267 181.156 297.328 182.617 312.922 182.617C328.515 182.617 366.038 189.44 385.53 193.338C405.022 197.237 423.052 196.262 433.286 194.313C443.519 192.364 464.961 181.643 477.63 175.795C484.862 172.458 492.193 168.921 497.216 166.461C499.81 165.191 500.882 161.918 500.063 159.149C497.527 150.573 495.186 135.007 491.275 119.755Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M906.766 617.449L899.246 598.207C898.288 595.755 895.594 594.466 893.084 595.259L763.148 636.272C760.244 637.189 758.827 640.467 760.148 643.21L786.26 697.41C788.47 701.999 792.858 705.152 797.913 705.784L802.018 706.297C806.611 706.871 811.212 705.293 814.485 702.02L886.406 630.099C886.971 629.533 887.664 629.112 888.425 628.87L903.625 624.033C906.377 623.158 907.817 620.139 906.766 617.449Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M718.058 651.435L744.069 642.01C746.51 641.126 749.222 642.257 750.311 644.614L775.643 699.43C776.936 702.229 775.414 705.53 772.502 706.544C769.613 707.55 766.382 708.82 763.979 710.131C758.619 713.055 757.644 729.623 752.771 737.907C747.898 746.191 752.771 749.115 761.543 753.501C770.314 757.887 757.644 802.719 757.644 805.155C757.644 807.592 752.284 822.211 743.512 822.211C734.741 822.211 698.193 812.465 680.65 812.465C667.942 812.465 628.705 807.138 605.483 803.719C602.153 803.228 600.26 799.647 601.663 796.587C606.364 786.331 612.428 771.92 612.428 767.145C612.428 759.836 628.996 751.064 652.386 739.856C666.105 733.283 676.994 732.245 683.558 732.862C686.501 733.14 689.663 731.551 690.502 728.716L692.666 721.415C692.777 721.041 692.843 720.655 692.864 720.265L694.595 688.243C694.708 686.166 696.094 684.375 698.077 683.746L711.273 679.562C713.35 678.904 714.761 676.975 714.761 674.796V656.135C714.761 654.031 716.079 652.151 718.058 651.435Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M1117.11 288.181L1139.88 243.106C1140.71 241.456 1140.57 239.48 1139.5 237.969L1124.59 216.845C1123.38 215.123 1121.21 214.348 1119.18 214.908L1074.13 227.318C1072.63 227.734 1071.4 228.83 1070.82 230.282L1062.98 249.89C1062.61 250.818 1062.52 251.837 1062.73 252.813L1067.97 276.823C1068.38 278.671 1069.79 280.133 1071.62 280.602L1111.41 290.771C1113.69 291.352 1116.06 290.275 1117.11 288.181Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M325.236 488.96L287.752 452.796C285.218 450.351 281.019 451.221 279.665 454.471L271.681 473.629C271.285 474.581 271.192 475.631 271.416 476.637L277.8 505.368C278.136 506.879 279.152 508.149 280.552 508.808L293.39 514.849C294.986 515.6 296.861 515.454 298.322 514.465L324.567 496.699C327.198 494.918 327.523 491.167 325.236 488.96Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M196.913 247.019V236.963C196.913 233.973 194.306 231.652 191.336 231.997L149.487 236.861C147.707 237.068 146.174 238.212 145.468 239.859L132.803 269.438C132.048 271.2 132.367 273.237 133.623 274.684L152.301 296.204C154.05 298.22 153.908 301.253 151.979 303.097L143.341 311.35C141.203 313.392 141.295 316.834 143.539 318.76L199.702 366.943C201.859 368.793 205.122 368.476 206.882 366.247L245.588 317.229C246.608 315.936 246.927 314.225 246.44 312.652L230.916 262.496C230.41 260.862 229.103 259.6 227.452 259.15L200.6 251.843C198.424 251.251 196.913 249.275 196.913 247.019Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M239.674 429.855L242.915 423.142C243.918 421.064 243.369 418.57 241.587 417.105L131.901 326.971C128.958 324.553 124.499 326.182 123.809 329.929L121.836 340.641C121.756 341.073 121.62 341.493 121.431 341.889L111.313 363.089C110.992 363.761 110.825 364.497 110.825 365.243V387.534C110.825 388.811 110.337 390.039 109.46 390.967L94.414 406.899C93.6242 407.735 92.5701 408.273 91.4296 408.423L4.3494 419.851C1.8608 420.178 0 422.299 0 424.809V652.936C0 656.389 3.41766 658.803 6.67221 657.648L166.736 600.845C168.115 600.356 169.21 599.287 169.733 597.921L186.878 553.153C187.328 551.978 187.319 550.677 186.851 549.508L170.11 507.655C169.379 505.827 169.788 503.741 171.155 502.325L201.279 471.126C202.711 469.642 203.086 467.431 202.223 465.559L198.396 457.262C197.508 455.335 197.932 453.057 199.455 451.58L221.725 429.974C223.312 428.435 225.721 428.12 227.65 429.2L232.728 432.044C235.242 433.452 238.422 432.45 239.674 429.855Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M1066.09 825.148C1078.02 855.745 1190.55 899.826 1277.68 812.701C1386.58 703.795 1361.17 598.519 1444.15 598.519M489.404 -0.465271C493.035 -16.5419 495.316 -50.7696 494.072 -71.5137"
+                                                    stroke="#94AFB6" stroke-width="9" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M468.766 40.9362C460.852 51.1878 448.343 60.1479 435.429 66.9071C422.448 73.7008 408.53 78.546 397.473 80.2285C384.633 82.1824 371.352 77.2894 360.935 70.4735C350.603 63.7129 341.946 54.305 339.017 45.812C336.665 38.991 331.122 29.58 323.692 22.7255C316.253 15.863 307.813 12.2967 299.17 14.7938C290.724 17.2338 285.333 25.6886 280.513 38.5617C278.788 43.1684 277.245 48.0147 275.654 53.0137C275.072 54.8435 274.483 56.6937 273.876 58.56C271.651 65.4031 269.213 72.3691 266.115 78.5648C266.015 78.7648 265.915 78.9655 265.814 79.1667C259.995 90.804 253.165 104.463 248.87 118.39C244.486 132.609 242.997 146.346 247.322 158.023C251.278 168.706 261.461 174.148 275.874 176.854C287.087 178.96 299.699 179.207 311.929 179.448C315.446 179.517 318.931 179.585 322.342 179.697C336.228 180.152 353.694 183.674 370.245 187.012C372.017 187.368 373.778 187.724 375.523 188.073C384.662 189.901 393.416 191.577 401.223 192.62C409.098 193.672 415.641 194.024 420.461 193.382C437.096 191.164 456.111 182.156 463.51 177.906L463.632 177.836L463.758 177.773C476.224 171.539 484.682 167.469 491.016 165.153C493.544 164.229 495.812 163.554 497.933 163.126C490.89 149.265 487.304 130.392 485.515 112.635C483.351 91.1598 483.72 70.1877 484.466 59.0058C484.907 52.39 484.713 41.3168 484.495 29.8392L484.478 28.9264C484.42 25.8793 484.361 22.8136 484.316 19.8225C483.601 20.9239 482.877 22.0127 482.153 23.0807C477.29 30.2521 472.107 36.9219 468.766 40.9362ZM509.306 163.378C501.528 151.516 497.251 131.895 495.212 111.658C493.112 90.8195 493.474 70.4009 494.19 59.6541C494.666 52.5174 494.453 40.931 494.239 29.6541L494.229 29.1143C494.014 17.8278 493.806 6.88259 494.193 0.158478L484.705 -1.66211C482.983 3.503 478.852 10.5843 474.087 17.6105C469.396 24.5279 464.378 30.9784 461.219 34.7689L461.158 34.842L461.1 34.9174C454.391 43.6387 443.219 51.8295 430.909 58.2722C418.633 64.6972 405.75 69.1108 396.007 70.5934C386.431 72.0506 375.591 68.4158 366.271 62.3181C356.868 56.1652 350.175 48.2737 348.231 42.6349C345.389 34.3936 338.993 23.5814 330.3 15.5622C321.616 7.55089 309.75 1.59268 296.465 5.43059C282.982 9.32557 276.19 22.3121 271.386 35.1443C269.568 39.9988 267.915 45.1923 266.3 50.2653C265.733 52.0472 265.17 53.8142 264.607 55.5465C262.401 62.3327 260.148 68.7066 257.398 74.2062C257.258 74.4874 257.116 74.7704 256.974 75.0551C251.231 86.5374 244.092 100.812 239.557 115.518C234.926 130.537 232.761 146.769 238.182 161.407C243.971 177.038 258.642 183.535 274.076 186.433C286.172 188.704 299.915 188.969 312.256 189.207C315.638 189.273 318.914 189.336 322.023 189.438C335.039 189.865 351.662 193.212 368.442 196.591C370.165 196.938 371.889 197.286 373.612 197.63C382.747 199.457 391.779 201.192 399.932 202.281C408.016 203.361 415.605 203.861 421.749 203.042C440.104 200.595 460.283 190.979 468.24 186.428C480.75 180.174 488.663 176.39 494.362 174.307C499.941 172.267 502.875 172.058 505.542 172.525C506.968 172.775 508.499 173.252 510.493 174.014C516.165 176.179 524.384 182.384 533.788 191.841C543.044 201.149 552.995 213.14 562.147 226.223C571.301 239.309 579.583 253.38 585.558 266.829C591.569 280.36 595.075 292.882 595.075 302.982C595.075 339.63 570.942 367.849 540.273 393.799C525.241 406.519 509.196 412.051 492.503 417.359C491.577 417.655 490.647 417.948 489.715 418.243C474.016 423.212 457.63 428.398 442.516 439.94C435.009 445.672 430.995 452.25 429.848 459.253C428.721 466.128 430.466 472.749 433.18 478.49C437.951 488.582 446.41 497.277 450.793 501.782C451.317 502.321 451.783 502.799 452.177 503.213C452.492 503.544 452.838 503.91 453.215 504.309C464.12 515.852 500.687 554.555 551.532 546.081C577.726 541.714 602.709 525.535 622.587 506.277C642.476 487.01 657.832 464.105 664.477 445.448C676.723 411.066 673.946 379.275 670.766 342.864C670.545 340.338 670.322 337.79 670.103 335.217C667.457 304.228 676.315 283.435 680.452 277.507L680.592 277.307L680.711 277.094C682.771 273.402 687.344 270.083 694.596 267.81C701.744 265.569 710.857 264.559 720.906 264.969C741.052 265.79 763.946 272.274 780.799 284.51C792.792 293.217 802.486 301.949 811.255 309.849L811.445 310.02C820.042 317.764 827.973 324.911 836.145 330.018L836.299 330.115L836.461 330.2C881.436 353.831 897.669 383.474 900.244 394.194C912.107 451.462 936.536 486.662 947.931 497.532L948.138 497.728L948.365 497.9C977.504 519.82 1012.5 509.234 1045.75 490.867C1062.57 481.579 1079.51 469.982 1095.78 458.708C1096.93 457.914 1098.07 457.122 1099.21 456.332C1114.34 445.847 1128.81 435.814 1142.31 428.06C1165.61 414.678 1198.19 412.566 1222.94 421.992C1235.23 426.675 1245.28 434.081 1251.41 444.006C1257.49 453.846 1260 466.625 1256.46 482.726C1253.63 495.594 1246.25 510.261 1235.62 525.81C1225.02 541.305 1211.37 557.393 1196.34 573.072C1166.32 604.383 1131.02 633.771 1104.04 653.195C1067.13 675.992 1047.28 697.257 1040.17 721.637C1033.08 745.933 1050.11 795.404 1061.6 826.927L1070.76 823.591C1059.34 792.253 1043.38 745.414 1049.52 724.367C1055.63 703.435 1073.01 683.791 1109.3 661.398L1109.45 661.309L1109.59 661.208C1137.01 641.484 1172.84 611.664 1203.37 579.818C1218.64 563.891 1232.66 547.385 1243.66 531.315C1254.62 515.299 1262.77 499.435 1265.98 484.819C1269.99 466.564 1267.27 451.141 1259.7 438.885C1252.19 426.713 1240.18 418.13 1226.41 412.884C1199.01 402.452 1163.37 404.725 1137.45 419.608C1123.57 427.579 1108.77 437.845 1093.75 448.259C1092.58 449.071 1091.41 449.884 1090.23 450.696C1073.92 461.998 1057.36 473.32 1041.04 482.337C1008.12 500.522 978.393 508.1 954.455 490.284C944.617 480.751 921.226 447.504 909.773 392.146L909.759 392.078L909.743 392.01C906.425 378.003 887.977 346.309 841.16 321.659C833.849 317.062 826.569 310.528 817.778 302.608L817.686 302.525C808.955 294.659 798.94 285.637 786.525 276.622C767.805 263.031 742.944 256.113 721.303 255.23C710.459 254.788 700.171 255.848 691.68 258.51C683.382 261.112 676.143 265.464 672.322 272.129C666.7 280.346 657.602 303.367 660.392 336.046C660.599 338.467 660.807 340.858 661.012 343.219C664.218 380.104 666.804 409.867 655.296 442.178C649.271 459.094 634.902 480.778 615.806 499.277C596.701 517.785 573.44 532.548 549.93 536.466C504.352 544.062 471.077 508.978 460.078 497.38C459.781 497.067 459.5 496.771 459.236 496.493C458.781 496.015 458.274 495.491 457.726 494.926C453.24 490.292 446.008 482.823 441.991 474.325C439.78 469.648 438.767 465.089 439.465 460.829C440.142 456.698 442.535 452.188 448.43 447.686C462.154 437.208 477.037 432.488 493.02 427.421C493.83 427.164 494.642 426.907 495.457 426.648C512.212 421.319 529.926 415.322 546.569 401.239C577.508 375.06 604.821 344.302 604.821 302.982C604.821 290.91 600.713 276.935 594.465 262.872C588.181 248.728 579.558 234.109 570.133 220.637C560.707 207.161 550.403 194.727 540.699 184.969C531.144 175.36 521.698 167.86 513.969 164.909C512.418 164.316 510.88 163.784 509.306 163.378Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M520.515 297.097V294.834C520.515 294.097 520.618 293.364 520.821 292.655L521.38 290.698C522.022 288.45 524.076 286.901 526.413 286.901C528.203 286.901 529.869 287.815 530.83 289.325L534.396 294.93C535.496 296.658 537.217 297.899 539.205 298.396L544.859 299.809C546.723 300.275 548.279 301.554 549.097 303.292C550.555 306.39 549.317 310.086 546.287 311.68L543.519 313.137C542.833 313.498 542.328 314.127 542.124 314.875C541.59 316.836 543.261 318.693 545.268 318.368L551.247 317.398C555.319 316.738 559.012 319.881 559.012 324.006V326.883C559.012 329.864 557.355 332.597 554.713 333.976L550.259 336.3C548.669 337.13 546.846 337.401 545.084 337.07L517.348 331.87C516.862 331.779 516.368 331.733 515.873 331.733H494.033C490.399 331.733 487.221 329.283 486.297 325.769L485.988 324.597C485.622 323.208 485.638 321.745 486.033 320.363L492.631 297.267C493.773 293.272 498.786 291.973 501.724 294.911C501.906 295.094 502.101 295.263 502.308 295.418L512.392 302.981C513.251 303.625 513.971 304.435 514.51 305.363L518.417 312.092C520.283 315.306 524.874 315.448 526.936 312.355C528.294 310.319 527.985 307.601 526.206 305.92L523.022 302.913C521.422 301.402 520.515 299.298 520.515 297.097Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M426.553 312.81L425.94 307.707C425.701 305.712 427.258 303.957 429.267 303.957C430.536 303.957 431.696 304.674 432.264 305.809L432.985 307.252C433.5 308.282 434.302 309.14 435.295 309.724L436.812 310.617C439.912 312.44 441.414 316.108 440.484 319.582L436.149 335.763C435.303 338.922 432.621 341.247 429.375 341.637L427.074 341.913C424.278 342.248 421.512 341.089 419.79 338.861L418.158 336.749C415.887 333.81 415.938 329.695 418.28 326.813L424.838 318.741C426.189 317.078 426.808 314.938 426.553 312.81Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M435.429 301.317L441.586 308.294C441.886 308.635 442.318 308.83 442.772 308.83C443.498 308.83 444.131 308.336 444.307 307.631L446.196 300.075C446.939 297.103 445.859 293.972 443.44 292.091L442.264 291.176C440.141 289.524 437.164 289.537 435.055 291.207L432.674 293.092C430.159 295.083 430.782 299.058 433.786 300.184C434.418 300.421 434.983 300.81 435.429 301.317Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M450.407 258.101L449.84 257.094C448.549 254.8 445.549 254.14 443.415 255.681C441.032 257.402 440.969 260.931 443.29 262.736L444.203 263.445C445.992 264.837 448.564 264.548 449.999 262.793C451.088 261.463 451.25 259.6 450.407 258.101Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M460.175 218.892L459.872 217.801C459.254 215.575 456.656 214.585 454.713 215.834L454.13 216.209C452.849 217.033 451.142 216.654 450.328 215.367C448.923 213.142 445.496 213.981 445.277 216.603L444.766 222.736C444.445 226.59 448.578 229.224 451.936 227.305L458.182 223.736C459.877 222.768 460.697 220.773 460.175 218.892Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M399.159 166.567L380.659 164.1L367.165 161.897C364.159 161.406 363.666 157.289 366.471 156.103C368.085 155.42 368.788 153.515 368.004 151.947L366.941 149.821C366.667 149.274 366.301 148.779 365.857 148.357L356.781 139.735L349.898 133.54C348.319 132.119 348.197 129.686 349.626 128.114C350.929 126.681 353.096 126.445 354.677 127.564L355.794 128.356C359.071 130.677 363.603 128.334 363.603 124.317C363.603 123.877 363.545 123.439 363.429 123.015L361.974 117.678C360.586 112.589 364.417 107.573 369.692 107.573H370.913H379.918C382.521 107.573 384.962 108.84 386.46 110.969L388.758 114.235C391.021 117.45 389.504 121.938 385.755 123.122C384.657 123.469 383.686 124.134 382.967 125.034L378.587 130.508C376.131 133.578 376.27 137.977 378.915 140.887L382.463 144.79C383.508 145.939 384.889 146.728 386.409 147.045L391.351 148.074C393.581 148.539 394.768 150.99 393.749 153.028C392.773 154.979 393.817 157.337 395.919 157.925L400.662 159.254C402.566 159.787 403.727 161.708 403.313 163.642C402.903 165.551 401.095 166.825 399.159 166.567Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M359.217 19.858C356.307 19.858 353.824 20.7066 351.745 22.0078C346.507 25.2868 338.307 27.3444 334.08 22.8361L331.168 19.7294C329.778 18.2466 329.004 16.2904 329.004 14.2579V9.13729C329.004 3.77689 332.902 -4.99453 341.674 -4.99453C350.445 -4.99453 350.445 5.72622 359.217 7.18806C367.988 8.64991 366.526 3.77694 363.602 1.82772C360.679 -0.121498 351.907 -23.9994 379.196 -35.6947C406.485 -47.39 436.211 -23.512 437.673 -12.7913C439.135 -2.07064 427.927 4.75161 420.13 5.72622C412.333 6.70082 408.922 12.0612 400.15 14.4977C391.379 16.9342 361.653 3.28965 388.942 24.731C416.231 46.1724 447.906 5.23886 455.703 9.13729C463.5 13.0357 449.368 25.7056 434.262 35.939C419.155 46.1724 397.226 41.2993 385.531 39.8374C373.836 38.3755 370.912 19.858 359.217 19.858Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M485.345 220.154L493.884 217.687C498.339 216.4 502.507 220.437 501.364 224.93L455.504 405.192C455.018 407.101 453.627 408.649 451.781 409.336L444.42 412.075C439.901 413.757 435.345 409.691 436.503 405.01L481.186 224.476C481.7 222.396 483.286 220.748 485.345 220.154Z"
+                                                    stroke="#94AFB6" stroke-width="6" />
+                                                <path
+                                                    d="M703.253 547.121L689.122 519.345M703.253 547.121C688.11 553.852 665.435 563.87 643.802 573.313M703.253 547.121L706.151 552.482L712.209 563.69L722.746 583.182L741.049 616.941L744.674 623.628M689.122 519.345L631.62 548.096M689.122 519.345L718.847 504.617L775.374 476.611M643.802 573.313C632.945 578.052 622.351 582.646 613.102 586.606C599.861 592.276 589.38 596.648 584.838 598.288C584.227 598.509 583.576 598.756 582.889 599.028M643.802 573.313L631.62 548.096M631.62 548.096L574.118 576.847L582.889 599.028M775.374 476.611C779.243 484.715 785.766 498.314 790.968 509.006C794.284 515.821 797.064 521.454 798.278 523.731C799.572 526.157 805.44 531.575 812.898 537.862C823.413 546.728 822.721 546.114 831.179 552.482M775.374 476.611L859.687 434.839L956.651 386.798C958.463 386.194 963.731 385.307 967.036 384.855L1168.77 350.109L1201.96 321.585M453.103 589.184C464.148 594.869 482.797 601.115 485.916 604.623C489.035 608.132 500.86 627.747 506.383 637.116M506.383 637.116C500.465 639.305 492.599 641.912 488.84 643.12L256.553 610.965M506.383 637.116C507.624 636.657 508.78 636.216 509.794 635.811C514.008 634.125 532.479 624.015 550.727 614.542M550.727 614.542L538.057 591.953C535.458 593.09 499.622 608.883 491.045 612.002M550.727 614.542C563.026 608.157 575.224 602.061 582.889 599.028M751.298 635.858L855.019 872.34"
+                                                    stroke="#BAB2A0" stroke-opacity="0.5" />
+                                                <path
+                                                    d="M502.64 693.318L809.901 605.779L900.656 503.096L1008.01 448.643M553.712 876.49L499.777 683.052L477.996 610.966L351.406 501.022M351.406 501.022L135.492 321.762M351.406 501.022L256.553 610.966M351.406 501.022L404.873 446.05M256.553 610.966L281.965 876.49M256.553 610.966H170.984L31.9988 658.677M404.873 446.05L466.587 462.645L576.53 440.865L680.769 187.268M404.873 446.05C410.578 435.678 420.95 408.608 416.801 383.299C411.615 351.664 400.724 231.146 360.273 216.467M680.769 187.268L736.778 52.4321L816.643 -65.809M680.769 187.268L538.154 149.929C532.276 146.644 506.726 151.692 451.547 198.159C428.054 206.211 395.048 214.018 360.273 216.467M680.769 187.268L1307.76 349.071M360.273 216.467C295.767 221.01 225.177 207.115 197.951 142.15M1248.12 422.194L1030.31 547.177L12.8105 868.711M1078.54 671.641L1039.64 678.383L1012.2 702.758M1012.2 702.758L839.98 871.823M1012.2 702.758C1008.38 743.554 1010.5 833.861 1049.49 868.711M1432.76 470.557L1302.05 671.641L1137.14 868.711M1444.59 306.982L1383.99 252.612L1006.45 -72.0322M1038.09 602.667C1007.14 616.151 941.211 646.231 925.03 658.677C908.85 671.124 834.967 721.947 800.047 745.802L759.078 881.675M1315.99 351.817L1454.93 390.74M1315.99 425.721H1452.96"
+                                                    stroke="#BAB2A0" stroke-opacity="0.5" />
+                                                <path
+                                                    d="M2046.04 425.306C2046.04 710.186 1815.33 941.112 1530.76 941.112C1246.18 941.112 1015.47 710.186 1015.47 425.306C1015.47 140.426 1246.18 -90.5 1530.76 -90.5C1815.33 -90.5 2046.04 140.426 2046.04 425.306Z"
+                                                    stroke="#F5E8D1" stroke-width="17" />
+                                                <path
+                                                    d="M2054.04 425.306C2054.04 714.596 1819.76 949.112 1530.76 949.112C1241.75 949.112 1007.47 714.596 1007.47 425.306C1007.47 136.015 1241.75 -98.5 1530.76 -98.5C1819.76 -98.5 2054.04 136.015 2054.04 425.306Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" />
+                                                <path
+                                                    d="M2045.74 425.306C2045.74 710.013 1815.18 940.814 1530.76 940.814C1246.33 940.814 1015.77 710.013 1015.77 425.306C1015.77 140.598 1246.33 -90.2021 1530.76 -90.2021C1815.18 -90.2021 2045.74 140.598 2045.74 425.306Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" />
+                                                <path
+                                                    d="M2037.45 425.306C2037.45 705.431 1810.59 932.516 1530.75 932.516C1250.92 932.516 1024.06 705.431 1024.06 425.306C1024.06 145.181 1250.92 -81.9053 1530.75 -81.9053C1810.59 -81.9053 2037.45 145.181 2037.45 425.306Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" />
+                                                <path
+                                                    d="M1762.2 425.306C1762.2 553.424 1658.57 657.269 1530.76 657.269C1402.94 657.269 1299.31 553.424 1299.31 425.306C1299.31 297.188 1402.94 193.342 1530.76 193.342C1658.57 193.342 1762.2 297.188 1762.2 425.306Z"
+                                                    stroke="#F5E8D1" stroke-width="8" />
+                                                <path
+                                                    d="M1765.7 425.306C1765.7 555.35 1660.51 660.769 1530.76 660.769C1401 660.769 1295.81 555.35 1295.81 425.306C1295.81 295.262 1401 189.842 1530.76 189.842C1660.51 189.842 1765.7 295.262 1765.7 425.306Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" />
+                                                <path
+                                                    d="M1758.44 425.306C1758.44 551.34 1656.5 653.509 1530.75 653.509C1405.01 653.509 1303.07 551.34 1303.07 425.306C1303.07 299.271 1405.01 197.103 1530.75 197.103C1656.5 197.103 1758.44 299.271 1758.44 425.306Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" />
+                                                <path
+                                                    d="M116.77 305.997L306.95 463.659L454.5 590.5L483.5 603C484.667 603.5 487.8 606 491 612L538 592"
+                                                    stroke="url(#paint0_linear_2467_551)" stroke-width="1.2"
+                                                    data-plugin="parallax" data-parallax-pattern="mapPath3r" />
+                                                <path
+                                                    d="M538 592L551.327 613.932L510.434 635.61L487.77 643.494L499.594 682.909L507.97 711.978L1031.71 545.94L1248.49 422.273H1295.3"
+                                                    stroke="url(#paint1_linear_2467_551)" stroke-width="1.2"
+                                                    data-plugin="parallax" data-parallax-pattern="mapPath3" />
+                                                <path
+                                                    d="M1056.5 440.5L1074.57 426.707L1062.75 368.569L956.323 386.799L689.282 519.334L703.078 547.418L630.159 579.443L577.933 600.629L551.5 614L538 592.5"
+                                                    stroke="url(#paint2_linear_2467_551)" stroke-width="1.2"
+                                                    data-plugin="parallax" data-parallax-pattern="mapPath3r" />
+                                                <path
+                                                    d="M538 592.5L550.488 614.604L510.303 635.986L487.689 643.851L499.488 683.18L507.845 712.185L563.259 694.775"
+                                                    stroke="url(#paint3_linear_2467_551)" stroke-width="1.2"
+                                                    data-plugin="parallax" data-parallax-pattern="mapPath2" />
+                                                <path
+                                                    d="M538 592L551 614.5L510.303 635.986L487.689 643.851L499.488 683.18L507.845 712.185L882.878 594.029"
+                                                    stroke="url(#paint4_linear_2467_551)" stroke-width="1.2"
+                                                    data-plugin="parallax" data-parallax-pattern="mapPath2" />
+                                                <path
+                                                    d="M538 592L490.538 612.476C489.355 610.229 486.565 605.381 484.862 603.962C483.159 602.543 462.632 593.675 452.581 589.418L351.48 501.798L405.046 447.168C410.012 436.526 421.364 407.792 417.462 389.701H428.459"
+                                                    stroke="url(#paint5_linear_2467_551)" stroke-width="1.2"
+                                                    data-plugin="parallax" data-parallax-pattern="mapPath2" />
+                                                <path d="M538 592.5L491.5 612L506 637L497.5 674"
+                                                    stroke="url(#paint6_linear_2467_551)" stroke-width="1.2"
+                                                    data-plugin="parallax" data-parallax-pattern="mapPath1" />
+                                                <path d="M580.5 562.5L585 571.5L537 592.5"
+                                                    stroke="url(#paint7_linear_2467_551)" stroke-width="1.2"
+                                                    data-plugin="parallax" data-parallax-pattern="mapPath1r" />
+                                                <path d="M537.5 592.5L477.965 547.5L489.465 533"
+                                                    stroke="url(#paint8_linear_2467_551)" stroke-width="1.2"
+                                                    data-plugin="parallax" data-parallax-pattern="mapPath1" />
+                                            </g>
+                                            <rect id="point_10" x="530" y="598" width="10" height="10"
+                                                fill="transparent" />
+                                            <rect id="point_9" x="100" y="281" width="10" height="10"
+                                                fill="transparent" />
+                                            <rect id="point_8" x="1315" y="416" width="10" height="10"
+                                                fill="transparent" />
+                                            <rect id="point_7" x="1037" y="455" width="10" height="10"
+                                                fill="transparent" />
+                                            <rect id="point_6" x="575" y="687" width="10" height="10"
+                                                fill="transparent" />
+                                            <rect id="point_5" x="877" y="588" width="10" height="10"
+                                                fill="transparent" />
+                                            <rect id="point_4" x="439" y="385" width="10" height="10"
+                                                fill="transparent" />
+                                            <rect id="point_3" x="492" y="670" width="10" height="10"
+                                                fill="transparent" />
+                                            <rect id="point_2" x="578" y="562" width="10" height="10"
+                                                fill="transparent" />
+                                            <rect id="point_1" x="484" y="528" width="10" height="10"
+                                                fill="transparent" />
+                                        </g>
+                                        <defs>
+                                            <linearGradient id="paint0_linear_2467_551" x1="183" y1="351.5" x2="643.5"
+                                                y2="661" gradientunits="userSpaceOnUse">
+                                                <stop stop-color="#758535" />
+                                                <stop offset="1" stop-color="#758535" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_2467_551" x1="1265" y1="437" x2="332.31"
+                                                y2="1141.11" gradientunits="userSpaceOnUse">
+                                                <stop stop-color="#758535" />
+                                                <stop offset="1" stop-color="#758535" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint2_linear_2467_551" x1="1026" y1="404" x2="532.883"
+                                                y2="214.635" gradientunits="userSpaceOnUse">
+                                                <stop stop-color="#758535" />
+                                                <stop offset="1" stop-color="#758535" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint3_linear_2467_551" x1="528.141" y1="672.426"
+                                                x2="498.753" y2="600.825" gradientunits="userSpaceOnUse">
+                                                <stop stop-color="#758535" />
+                                                <stop offset="1" stop-color="#758535" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint4_linear_2467_551" x1="862.304" y1="607.864"
+                                                x2="655.488" y2="812.763" gradientunits="userSpaceOnUse">
+                                                <stop stop-color="#758535" />
+                                                <stop offset="1" stop-color="#758535" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint5_linear_2467_551" x1="453.645" y1="408.418"
+                                                x2="358.668" y2="569.752" gradientunits="userSpaceOnUse">
+                                                <stop stop-color="#758535" />
+                                                <stop offset="1" stop-color="#758535" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint6_linear_2467_551" x1="506.465" y1="705.5"
+                                                x2="561.55" y2="690.051" gradientunits="userSpaceOnUse">
+                                                <stop stop-color="#758535" />
+                                                <stop offset="1" stop-color="#758535" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint7_linear_2467_551" x1="560.5" y1="553" x2="535.997"
+                                                y2="551.991" gradientunits="userSpaceOnUse">
+                                                <stop stop-color="#758535" />
+                                                <stop offset="1" stop-color="#758535" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint8_linear_2467_551" x1="489.965" y1="534.5"
+                                                x2="475.493" y2="558.609" gradientunits="userSpaceOnUse">
+                                                <stop stop-color="#758535" />
+                                                <stop offset="1" stop-color="#758535" stop-opacity="0" />
+                                            </linearGradient>
+                                            <clipPath id="clip0_2467_551">
+                                                <rect width="1440" height="900" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <svg class="svg-fix is-hidden--lg-up" width="1368" height="640"
+                                        viewBox="0 0 1368 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_5849_1607)">
+                                            <rect width="1368" height="640" fill="#F5E8D1" />
+                                            <g clip-path="url(#clip1_5849_1607)">
+                                                <path
+                                                    d="M602.721 203.12L711.848 200.31C715.301 200.221 718.147 202.995 718.147 206.449V237.01C718.147 238.172 718.477 239.309 719.097 240.291L719.758 241.337C721.705 244.417 720.557 248.505 717.291 250.121L463.486 375.736L423.482 391.046C421.773 391.701 419.832 391.564 418.562 390.245C417.227 388.859 415.865 387.165 413.402 385.753C402.766 379.659 387.003 372.596 378.336 368.251C375.238 366.698 374.544 362.912 376.643 360.155L385.062 349.099C387.089 346.438 386.613 342.643 383.99 340.565L339.951 305.683C339.117 305.023 338.469 304.156 338.07 303.169L328.949 280.585C328.509 279.495 327.765 278.553 326.805 277.874L316.782 270.774C316.518 270.587 316.27 270.38 316.038 270.154L306.268 260.602C304.554 258.927 304.021 256.481 304.775 254.381C304.477 254.026 304.214 253.623 303.996 253.173C303.672 252.507 303.225 251.912 302.674 251.416C292.496 242.251 273.013 224.644 270.314 221.945C266.847 218.477 259.416 203.12 250.994 199.157C242.572 195.194 225.234 197.671 225.234 184.295C225.234 175.378 235.142 171.911 259.416 163.489C283.69 155.067 268.828 113.95 263.379 110.978C257.93 108.005 238.609 104.042 245.049 96.1158C251.489 88.1895 260.406 84.7219 245.049 63.4201L244.589 62.7818C229.633 42.0381 226.78 38.0803 232.665 30.7243C238.609 23.2934 261.893 21.3119 270.81 21.8073C278.278 22.2222 294.78 32.0188 306.348 33.1546C309.721 33.4858 311.598 30.088 310.37 26.9295C307.569 19.7275 303.109 10.479 298.552 7.44096C291.121 2.48706 295.084 -4.94382 299.542 -5.43921C304.001 -5.9346 345.614 -8.41154 365.429 -19.3101C385.245 -30.2087 421.528 -53.0727 432.307 -50.5197C451.132 -46.0612 480.36 -19.3102 500.175 16.8533C507.771 30.2288 523.162 59.7541 523.954 70.8508C524.945 84.7218 525.936 113.454 509.092 136.242C492.249 159.03 457.076 189.249 440.233 195.194C423.39 201.139 362.533 225.413 360.475 233.339L359.633 235.455C359.136 236.705 358.274 237.697 357.224 238.332C357.995 239.804 358.312 241.578 358.154 243.288C357.231 253.286 360.995 269.89 380.786 285.85C411.501 310.62 419.427 324.491 453.113 328.454C486.8 332.417 524.45 310.124 537.33 298.73C550.21 287.336 589.841 253.155 595.786 213.523L597.669 206.931C598.314 204.675 600.375 203.12 602.721 203.12Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M573.493 205.597C572.946 211.342 577.719 213.641 582.466 214.351C585.727 214.838 588.45 217.153 587.544 220.324C584.656 230.431 575.234 247.501 570.025 257.118C563.585 269.007 540.797 290.309 539.311 290.309C537.825 290.309 520.486 274.456 522.963 265.539C525.44 256.622 538.32 252.164 544.265 245.228C550.21 238.293 562.099 212.533 562.099 207.083C562.099 201.634 562.595 190.735 569.035 191.231C575.475 191.726 574.484 195.194 573.493 205.597Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M417.941 -102.536C414.022 -117.818 414.624 -177.301 415.436 -206.092C415.454 -206.749 415.444 -207.452 415.002 -207.938C412.585 -210.597 404.046 -201.716 397.629 -190.715C390.694 -178.826 371.374 -166.937 348.09 -154.552C324.807 -142.167 304.496 -147.616 294.588 -151.579C284.68 -155.543 276.259 -166.441 272.295 -169.909C268.332 -173.377 260.406 -190.715 256.443 -197.155C252.48 -203.595 242.077 -212.017 226.224 -213.008C210.372 -213.999 200.464 -186.752 199.968 -182.789C199.572 -179.619 189.895 -155.047 185.107 -143.158C179.162 -130.113 166.877 -102.338 165.292 -95.6003C163.31 -87.1787 163.31 -63.8953 173.713 -52.006C184.116 -40.1166 220.775 -38.6304 236.628 -38.6304C252.48 -38.6304 290.625 -31.695 310.441 -27.7318C330.257 -23.7687 348.586 -24.7595 358.989 -26.7411C369.392 -28.7226 391.19 -39.6212 404.07 -45.5659C410.949 -48.741 417.917 -52.0928 422.968 -54.5598C426.155 -56.1164 427.509 -60.1547 426.564 -63.5734C424.103 -72.4773 421.757 -87.6535 417.941 -102.536Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M839.915 402.365L833.04 384.776C831.864 381.766 828.555 380.183 825.473 381.156L695.489 422.185C691.922 423.31 690.182 427.336 691.805 430.706L717.069 483.148C719.784 488.783 725.173 492.656 731.38 493.432L732.299 493.547C737.94 494.252 743.59 492.313 747.61 488.293L819.445 416.458C820.139 415.764 820.99 415.246 821.925 414.949L836.057 410.452C839.437 409.377 841.206 405.669 839.915 402.365Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M649.182 437.713L674.015 428.716C677.012 427.63 680.343 429.019 681.681 431.914L706.503 485.628C708.092 489.066 706.221 493.116 702.66 494.406C700.047 495.352 697.29 496.479 695.168 497.637C689.719 500.609 688.728 517.452 683.774 525.874C678.82 534.295 683.774 537.268 692.691 541.726C701.608 546.185 688.728 591.761 688.728 594.238C688.728 596.715 683.279 611.576 674.361 611.576C665.444 611.576 628.29 601.668 610.456 601.668C597.791 601.668 559.202 596.463 535.448 592.984C531.358 592.385 529.045 587.986 530.754 584.222C535.433 573.914 541.102 560.251 541.102 555.597C541.102 548.166 557.945 539.249 581.724 527.855C594.885 521.549 605.486 520.254 612.245 520.656C615.87 520.872 619.772 518.892 620.804 515.41L622.636 509.227C622.772 508.767 622.854 508.293 622.88 507.814L624.593 476.115C624.731 473.564 626.434 471.365 628.869 470.593L640.849 466.795C643.4 465.986 645.133 463.618 645.133 460.941V443.487C645.133 440.902 646.752 438.594 649.182 437.713Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M1054.55 67.9264L1077.02 23.4295C1078.04 21.4023 1077.87 18.9755 1076.56 17.12L1062.19 -3.22751C1060.7 -5.34248 1058.04 -6.29399 1055.55 -5.60637L1010.98 6.67265C1009.13 7.18268 1007.62 8.52928 1006.91 10.3121L999.248 29.4574C998.792 30.5973 998.689 31.8476 998.95 33.047L1004.07 56.5007C1004.56 58.7702 1006.3 60.566 1008.55 61.1411L1047.55 71.1075C1050.34 71.8208 1053.25 70.4979 1054.55 67.9264Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M248.208 271.89L212.155 237.107C209.043 234.104 203.886 235.173 202.223 239.164L194.832 256.901C194.345 258.07 194.231 259.36 194.506 260.595L200.811 288.969C201.223 290.825 202.471 292.384 204.191 293.193L216.227 298.858C218.188 299.78 220.49 299.601 222.284 298.387L247.386 281.394C250.618 279.207 251.016 274.6 248.208 271.89Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M118.693 26.0313V17.805C118.693 14.1327 115.491 11.2815 111.844 11.7054L71.0892 16.4424C68.9028 16.6965 67.0197 18.1014 66.1533 20.1248L53.7795 49.022C52.8533 51.185 53.2446 53.6871 54.7869 55.4641L72.6796 76.0797C74.8278 78.5547 74.6537 82.2806 72.2841 84.5446L65.0765 91.431C62.4507 93.9398 62.5639 98.1668 65.3202 100.531L120.693 148.036C123.341 150.308 127.348 149.92 129.51 147.181L167.83 98.651C169.084 97.064 169.475 94.9617 168.877 93.03L153.432 43.1292C152.811 41.1218 151.206 39.5715 149.178 39.0197L123.221 31.9565C120.548 31.2291 118.693 28.8017 118.693 26.0313Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M162.652 211.698L165.097 206.634C166.329 204.082 165.655 201.019 163.466 199.22L53.9886 109.258C50.3741 106.288 44.8986 108.289 44.0511 112.89L42.3954 121.878C42.2977 122.408 42.1305 122.924 41.8982 123.411L31.7757 144.62C31.3814 145.446 31.1768 146.349 31.1768 147.265V169.266C31.1768 170.834 30.5771 172.342 29.5005 173.482L14.7515 189.099C13.7815 190.126 12.487 190.787 11.0862 190.971L-76.1459 202.419C-79.2023 202.82 -81.4875 205.425 -81.4875 208.507V437.995C-81.4875 442.236 -77.2902 445.2 -73.2933 443.782L87.5558 386.7C89.249 386.099 90.594 384.787 91.2366 383.109L108.344 338.441C108.896 336.998 108.885 335.399 108.311 333.964L91.6993 292.436C90.8015 290.191 91.3041 287.629 92.9832 285.89L122.629 255.186C124.388 253.364 124.848 250.649 123.788 248.349L120.515 241.252C119.423 238.885 119.945 236.088 121.815 234.273L143.351 213.38C145.3 211.489 148.259 211.103 150.627 212.429L154.122 214.386C157.209 216.115 161.114 214.884 162.652 211.698Z"
+                                                    fill="#8B9C48" fill-opacity="0.4" />
+                                                <path
+                                                    d="M1002.29 614.56C1014.42 645.665 1128.82 690.478 1217.39 601.907C1328.11 491.194 1302.27 384.171 1386.63 384.171M416.038 -224.753C419.728 -241.097 422.048 -275.892 420.783 -296.98"
+                                                    stroke="#94AFB6" stroke-width="11.0531" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M395.057 -182.664C387.012 -172.242 374.295 -163.133 361.166 -156.262C347.97 -149.355 333.821 -144.43 322.581 -142.719C309.528 -140.733 296.026 -145.707 285.437 -152.636C274.933 -159.509 266.132 -169.073 263.155 -177.707C260.764 -184.641 255.129 -194.208 247.575 -201.176C240.013 -208.153 231.433 -211.778 222.646 -209.24C214.06 -206.759 208.58 -198.164 203.68 -185.077C201.927 -180.394 200.358 -175.468 198.74 -170.386C198.148 -168.526 197.549 -166.645 196.932 -164.747C194.67 -157.791 192.192 -150.709 189.043 -144.411C188.942 -144.207 188.84 -144.003 188.737 -143.799C182.821 -131.968 175.878 -118.083 171.512 -103.925C167.055 -89.47 165.541 -75.5047 169.938 -63.6348C173.96 -52.7741 184.311 -47.2416 198.964 -44.4905C210.363 -42.3504 223.184 -42.0985 235.617 -41.8542C239.192 -41.7839 242.735 -41.7143 246.203 -41.6006C260.32 -41.1378 278.075 -37.5575 294.901 -34.1645C296.702 -33.8013 298.493 -33.4403 300.267 -33.0854C309.557 -31.2273 318.457 -29.5229 326.393 -28.4628C334.398 -27.3933 341.05 -27.0355 345.95 -27.6889C362.861 -29.9437 382.191 -39.1006 389.713 -43.4217L389.837 -43.493L389.965 -43.5571C402.639 -49.8937 411.237 -54.0317 417.675 -56.3858C420.246 -57.3257 422.552 -58.0119 424.708 -58.4465C417.547 -72.5372 413.903 -91.7243 412.083 -109.776C409.884 -131.607 410.259 -152.927 411.017 -164.294C411.465 -171.02 411.268 -182.277 411.047 -193.945L411.029 -194.873C410.97 -197.97 410.911 -201.087 410.865 -204.128C410.138 -203.008 409.402 -201.901 408.666 -200.815C403.722 -193.525 398.453 -186.745 395.057 -182.664ZM436.269 -58.1903C428.363 -70.2495 424.015 -90.1959 421.941 -110.769C419.807 -131.953 420.174 -152.71 420.903 -163.635C421.386 -170.89 421.17 -182.669 420.953 -194.133L420.942 -194.682C420.724 -206.155 420.513 -217.282 420.905 -224.118L411.26 -225.969C409.51 -220.718 405.31 -213.519 400.466 -206.376C395.697 -199.344 390.596 -192.787 387.385 -188.933L387.323 -188.859L387.264 -188.782C380.444 -179.916 369.086 -171.589 356.572 -165.04C344.092 -158.508 330.995 -154.021 321.09 -152.514C311.355 -151.033 300.335 -154.728 290.861 -160.927C281.302 -167.182 274.498 -175.204 272.521 -180.937C269.632 -189.315 263.13 -200.306 254.293 -208.459C245.465 -216.603 233.402 -222.66 219.896 -218.758C206.19 -214.799 199.285 -201.597 194.401 -188.552C192.554 -183.616 190.873 -178.337 189.231 -173.18C188.655 -171.368 188.083 -169.572 187.51 -167.811C185.267 -160.912 182.977 -154.432 180.181 -148.841C180.038 -148.556 179.895 -148.268 179.75 -147.979C173.912 -136.306 166.654 -121.795 162.044 -106.844C157.337 -91.5761 155.135 -75.075 160.647 -60.1937C166.532 -44.3034 181.446 -37.6988 197.136 -34.7529C209.432 -32.4441 223.404 -32.1745 235.95 -31.9324C239.388 -31.866 242.718 -31.8017 245.878 -31.6981C259.111 -31.2643 276.009 -27.8613 293.067 -24.4261C294.819 -24.0734 296.572 -23.7203 298.324 -23.37C307.61 -21.5127 316.793 -19.7494 325.081 -18.6422C333.299 -17.5444 341.014 -17.0352 347.26 -17.868C365.919 -20.3559 386.433 -30.1319 394.522 -34.7581C407.24 -41.1159 415.284 -44.9621 421.078 -47.0805C426.749 -49.1542 429.732 -49.3664 432.443 -48.8913C433.892 -48.6374 435.449 -48.1522 437.476 -47.3783C443.242 -45.1766 451.598 -38.8686 461.158 -29.2549C470.567 -19.7931 480.683 -7.60258 489.988 5.69778C499.293 19.0002 507.713 33.3055 513.787 46.9776C519.898 60.7327 523.462 73.4629 523.462 83.7305C523.462 120.986 498.928 149.673 467.75 176.055C452.469 188.985 436.157 194.609 419.188 200.006C418.246 200.306 417.301 200.605 416.354 200.905C400.393 205.956 383.736 211.229 368.371 222.961C360.739 228.788 356.659 235.475 355.493 242.594C354.347 249.583 356.121 256.314 358.88 262.15C363.73 272.411 372.33 281.249 376.785 285.829C377.318 286.377 377.792 286.863 378.193 287.284C378.513 287.62 378.865 287.993 379.248 288.398C390.334 300.132 427.507 339.478 479.196 330.863C505.825 326.425 531.222 309.976 551.431 290.399C571.649 270.812 587.26 247.528 594.016 228.56C606.464 193.609 603.641 161.29 600.408 124.274C600.184 121.706 599.958 119.116 599.734 116.5C597.045 84.9973 606.05 63.8597 610.255 57.8325L610.397 57.6289L610.518 57.4123C612.612 53.6602 617.262 50.2864 624.634 47.9749C631.901 45.6965 641.165 44.669 651.381 45.086C671.861 45.9219 695.135 52.5123 712.268 64.9513C724.46 73.8028 734.314 82.6799 743.229 90.7111L743.422 90.8852C752.162 98.7588 760.224 106.023 768.532 111.215L768.689 111.313L768.853 111.399C814.575 135.423 831.077 165.558 833.695 176.455C845.755 234.674 870.589 270.458 882.173 281.508L882.383 281.708L882.614 281.882C912.237 304.167 947.817 293.405 981.617 274.733C998.711 265.29 1015.93 253.501 1032.48 242.04C1033.64 241.233 1034.81 240.428 1035.96 239.625C1051.34 228.965 1066.05 218.766 1079.78 210.883C1103.46 197.281 1136.58 195.133 1161.74 204.715C1174.24 209.475 1184.46 217.005 1190.69 227.094C1196.86 237.097 1199.42 250.089 1195.82 266.457C1192.95 279.538 1185.45 294.45 1174.63 310.257C1163.85 326.008 1149.99 342.362 1134.7 358.302C1104.18 390.133 1068.3 420.01 1040.87 439.756C1003.35 462.929 983.171 484.548 975.94 509.332C968.733 534.032 986.053 584.325 997.729 616.371L1007.04 612.979C995.43 581.12 979.208 533.504 985.451 512.107C991.659 490.828 1009.33 470.859 1046.22 448.095L1046.37 448.003L1046.52 447.901C1074.39 427.849 1110.81 397.535 1141.85 365.16C1157.38 348.97 1171.63 332.188 1182.81 315.852C1193.95 299.571 1202.23 283.443 1205.5 268.584C1209.58 250.027 1206.81 234.348 1199.12 221.888C1191.48 209.514 1179.27 200.789 1165.27 195.456C1137.42 184.851 1101.19 187.161 1074.84 202.291C1060.73 210.395 1045.68 220.831 1030.41 231.418C1029.22 232.244 1028.03 233.07 1026.84 233.896C1010.25 245.384 993.419 256.895 976.826 266.061C943.36 284.548 913.14 292.253 888.805 274.14C878.803 264.449 855.025 230.651 843.382 174.374L843.367 174.305L843.351 174.236C839.978 159.996 821.224 127.777 773.63 102.717C766.198 98.0444 758.797 91.401 749.861 83.3499L749.767 83.2651C740.891 75.2692 730.71 66.097 718.089 56.9337C699.058 43.1171 673.784 36.0844 651.785 35.1864C640.76 34.7365 630.302 35.8144 621.67 38.5209C613.234 41.1659 605.875 45.5898 601.99 52.3649C596.275 60.7186 587.027 84.1219 589.863 117.343C590.073 119.805 590.284 122.235 590.493 124.635C593.752 162.132 596.381 192.388 584.682 225.236C578.557 242.433 563.95 264.476 544.537 283.282C525.115 302.098 501.468 317.106 477.567 321.09C431.233 328.812 397.406 293.144 386.225 281.354C385.922 281.036 385.637 280.735 385.368 280.452C384.906 279.966 384.39 279.434 383.833 278.859C379.273 274.148 371.921 266.555 367.837 257.916C365.59 253.161 364.56 248.527 365.27 244.197C365.958 239.997 368.39 235.412 374.384 230.836C388.335 220.183 403.465 215.386 419.714 210.234C420.536 209.973 421.362 209.712 422.191 209.448C439.224 204.031 457.232 197.934 474.15 183.618C505.603 157.004 533.37 125.737 533.37 83.7305C533.37 71.4579 529.193 57.2513 522.841 42.9549C516.453 28.5756 507.688 13.7148 498.106 0.0183868C488.523 -13.68 478.049 -26.3209 468.184 -36.2412C458.469 -46.0096 448.867 -53.6345 441.01 -56.6344C439.433 -57.2366 437.87 -57.7778 436.269 -58.1903Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M447.665 77.1074V75.448C447.665 74.6986 447.769 73.9529 447.975 73.2324L448.544 71.2427C449.196 68.9581 451.285 67.383 453.661 67.383C455.48 67.383 457.173 68.3126 458.15 69.8476L461.413 74.9753C462.764 77.0981 464.878 78.6218 467.319 79.2321L472.412 80.5054C474.307 80.9791 475.889 82.2792 476.721 84.0465C478.203 87.1952 476.944 90.9523 473.865 92.5731L471.05 94.0544C470.353 94.4212 469.84 95.0609 469.633 95.8207C469.089 97.8144 470.788 99.7031 472.828 99.3723L478.907 98.3865C483.046 97.7154 486.801 100.911 486.801 105.103V107.565C486.801 110.88 484.958 113.921 482.018 115.454L478.421 117.331C476.468 118.35 474.23 118.683 472.065 118.277L444.599 113.127C444.002 113.015 443.396 112.959 442.789 112.959H421.652C417.422 112.959 413.723 110.108 412.647 106.017C412.221 104.4 412.239 102.698 412.699 101.09L419.318 77.9215C420.479 73.8602 425.575 72.5396 428.562 75.5263C428.747 75.7116 428.945 75.8836 429.155 76.0409L439.132 83.5239C440.186 84.3143 441.07 85.3088 441.732 86.448L445.531 92.9916C447.429 96.2596 452.096 96.4042 454.192 93.2599C455.572 91.1897 455.259 88.4261 453.45 86.7177L450.679 84.101C448.755 82.2838 447.665 79.754 447.665 77.1074Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M352.144 93.7222L351.521 88.5338C351.278 86.5062 352.861 84.7216 354.903 84.7216C356.193 84.7216 357.373 85.4506 357.95 86.6046L358.683 88.0716C359.207 89.1184 360.022 89.9914 361.031 90.5848L361.844 91.0628C365.426 93.1703 367.162 97.4095 366.087 101.424L362.196 115.95C361.157 119.829 357.863 122.685 353.876 123.163L353.627 123.193C350.194 123.605 346.797 122.182 344.682 119.446L344.43 119.12C341.641 115.51 341.703 110.456 344.579 106.916L350.401 99.7518C351.774 98.061 352.403 95.8852 352.144 93.7222Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M361.168 82.0381L367.427 89.1313C367.732 89.4773 368.171 89.6755 368.633 89.6755C369.371 89.6755 370.014 89.1733 370.193 88.4573L372.114 80.7758C372.869 77.754 371.77 74.571 369.312 72.6588L368.116 71.7285C365.957 70.0499 362.931 70.0629 360.788 71.76L358.367 73.6763C355.81 75.7007 356.443 79.7415 359.497 80.8867C360.14 81.1278 360.714 81.5232 361.168 82.0381Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M376.394 38.1055L375.817 37.0811C374.506 34.7489 371.456 34.0782 369.287 35.6449C366.863 37.395 366.8 40.9816 369.159 42.8167L370.087 43.5382C371.905 44.9527 374.52 44.6586 375.979 42.8754C377.086 41.5224 377.251 39.6292 376.394 38.1055Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M386.324 -1.7543L386.016 -2.86328C385.388 -5.12622 382.747 -6.13303 380.771 -4.86301L380.179 -4.48203C378.876 -3.64471 377.141 -4.02924 376.314 -5.33838C374.886 -7.60001 371.401 -6.74692 371.179 -4.08124L370.659 2.15277C370.333 6.07111 374.535 8.74893 377.949 6.79819L384.298 3.16986C386.021 2.18552 386.855 0.157349 386.324 -1.7543Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M324.294 -54.9478L305.488 -57.4553L291.77 -59.695C288.714 -60.194 288.212 -64.3793 291.064 -65.5858C292.705 -66.2803 293.42 -68.2162 292.623 -69.8103L291.542 -71.9719C291.264 -72.528 290.891 -73.0314 290.44 -73.4596L281.214 -82.2248L274.216 -88.5226C272.611 -89.967 272.487 -92.4413 273.94 -94.039C275.264 -95.496 277.468 -95.7356 279.074 -94.5975L280.21 -93.7933C283.542 -91.4331 288.149 -93.8157 288.149 -97.8989C288.149 -98.3461 288.09 -98.7913 287.972 -99.2227L286.819 -103.45C285.243 -109.227 289.592 -114.921 295.58 -114.921H304.453C307.276 -114.921 309.922 -113.547 311.547 -111.239L313.721 -108.148C316.022 -104.879 314.48 -100.317 310.668 -99.1135C309.552 -98.7609 308.565 -98.0845 307.834 -97.1702L304.284 -92.7328C301.267 -88.9623 301.438 -83.5589 304.686 -79.9861L307.322 -77.0862C308.384 -75.9183 309.788 -75.116 311.333 -74.7941L316.357 -73.7474C318.624 -73.275 319.831 -70.7837 318.795 -68.7119C317.803 -66.7277 318.864 -64.331 321.001 -63.7329L325.823 -62.3826C327.758 -61.8407 328.938 -59.887 328.517 -57.9218C328.101 -55.9804 326.262 -54.6854 324.294 -54.9478Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M283.691 -204.091C281.878 -204.091 280.228 -203.767 278.736 -203.212C271.623 -200.565 261.309 -197.68 256.118 -203.216L255.634 -203.733C253.927 -205.554 252.976 -207.956 252.976 -210.452V-214.989C252.976 -220.439 256.94 -229.356 265.857 -229.356C274.774 -229.356 274.774 -218.457 283.691 -216.971C292.608 -215.485 291.121 -220.439 288.149 -222.42C285.177 -224.402 276.26 -248.676 304.002 -260.565C331.743 -272.455 361.962 -248.18 363.448 -237.282C364.935 -226.383 353.541 -219.448 345.614 -218.457C337.688 -217.466 334.22 -212.017 325.303 -209.54C316.386 -207.063 286.168 -220.934 313.909 -199.137C341.651 -177.34 373.852 -218.953 381.778 -214.989C389.704 -211.026 375.338 -198.146 359.981 -187.743C344.624 -177.34 322.331 -182.294 310.442 -183.78C298.552 -185.266 295.58 -204.091 283.691 -204.091Z"
+                                                    fill="#94AFB6" />
+                                                <path
+                                                    d="M412.614 -0.675871L418.463 -2.3655C423.934 -3.94598 429.053 1.01175 427.649 6.53057L381.738 186.992C381.142 189.336 379.433 191.238 377.167 192.081L372.559 193.796C367.009 195.861 361.413 190.868 362.836 185.119L407.506 4.63304C408.139 2.07821 410.085 0.0545912 412.614 -0.675871Z"
+                                                    stroke="#94AFB6" stroke-width="7.36875" />
+                                                <path
+                                                    d="M633.436 331.921L619.069 303.684M633.436 331.921C618.041 338.763 594.99 348.948 572.998 358.547M633.436 331.921L636.381 337.37L642.54 348.764L653.251 368.58L671.858 402.9L675.544 409.697M619.069 303.684L560.613 332.912M619.069 303.684L649.288 288.712L706.753 260.241M379.134 374.681C390.363 380.461 409.321 386.81 412.492 390.377C415.662 393.944 427.683 413.885 433.298 423.409M433.298 423.409C427.282 425.634 419.286 428.284 415.464 429.513L179.322 396.824M433.298 423.409C434.56 422.942 435.735 422.494 436.766 422.082C441.05 420.368 459.827 410.091 478.378 400.46M417.706 397.878C426.425 394.708 462.856 378.653 465.498 377.497L478.378 400.46M478.378 400.46C490.881 393.969 503.282 387.772 511.074 384.689M511.074 384.689C511.773 384.413 512.434 384.161 513.056 383.937C517.673 382.27 528.328 377.825 541.788 372.061C551.19 368.035 561.961 363.365 572.998 358.547M511.074 384.689L502.157 362.14L560.613 332.912M560.613 332.912L572.998 358.547M779 348.5C770.401 342.027 755.59 331.522 744.899 322.508C737.318 316.117 731.352 310.609 730.037 308.142C728.803 305.828 725.977 300.101 722.606 293.173C717.317 282.304 710.687 268.48 706.753 260.241M706.753 260.241L792.465 217.775L891.039 168.937C892.88 168.324 898.236 167.422 901.596 166.962L1106.68 131.639L1140.42 102.643M682.278 422.13L787.719 662.536"
+                                                    stroke="#BAB2A0" stroke-opacity="0.5" stroke-width="1.22812" />
+                                                <path
+                                                    d="M429.493 480.544L741.852 391.553L834.114 287.166L943.245 231.809M481.412 666.755L426.583 470.106L404.44 396.825L275.749 285.057M56.2523 102.823L275.749 285.057M275.749 285.057L179.322 396.825M275.749 285.057L330.104 229.173M179.322 396.825L205.156 666.755M179.322 396.825H92.3333L-48.9582 445.328M330.104 229.173L392.841 246.044L504.609 223.901L610.578 -33.9034M330.104 229.173C335.903 218.629 346.447 191.108 342.229 165.381C336.957 133.221 325.886 10.7026 284.764 -4.21951M610.578 -33.9034L667.516 -170.977L748.706 -291.18M610.578 -33.9034L465.596 -71.8623C459.621 -75.2013 433.647 -70.0698 377.552 -22.8321C353.67 -14.6455 320.115 -6.70895 284.764 -4.21951M610.578 -33.9034L1247.97 130.585M-68.4648 658.846L965.915 331.978L1181.09 208.507H1256.34L1395.58 208.507M1014.95 458.508L975.405 465.362L947.51 490.14M772.43 662.01L947.51 490.14M947.51 490.14C943.629 531.614 945.776 623.418 985.422 658.846M1375.05 254.086L1242.17 458.508L1074.52 658.846M119.748 -79.7704C147.426 -13.7273 219.187 0.398448 284.764 -4.21951M1387.07 87.7968L1325.47 32.5247L941.664 -297.507M973.823 388.389C942.367 402.097 875.341 432.675 858.892 445.328C842.444 457.981 767.334 509.647 731.836 533.898L690.186 672.027M1256.34 133.376L1397.59 172.945"
+                                                    stroke="#BAB2A0" stroke-opacity="0.5" stroke-width="1.22812" />
+                                                <path
+                                                    d="M1474.67 -314.482C1762.97 -314.482 1996.71 -80.5315 1996.71 208.084C1996.71 496.7 1762.97 730.651 1474.67 730.651C1186.36 730.651 952.63 496.699 952.63 208.084C952.631 -80.5313 1186.36 -314.482 1474.67 -314.482Z"
+                                                    stroke="#F5E8D1" stroke-width="20.8781" />
+                                                <path
+                                                    d="M1474.67 -324.308C1768.41 -324.308 2006.53 -85.9485 2006.53 208.084C2006.53 502.117 1768.41 740.477 1474.67 740.477C1180.93 740.476 942.805 502.116 942.805 208.084C942.805 -85.9484 1180.93 -324.307 1474.67 -324.308Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" stroke-width="1.22812" />
+                                                <path
+                                                    d="M1474.67 -315.872C1763.75 -315.872 1998.1 -81.2889 1998.1 208.085C1998.1 497.459 1763.75 732.041 1474.67 732.041C1185.59 732.041 951.241 497.459 951.24 208.085C951.24 -81.289 1185.59 -315.872 1474.67 -315.872Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" stroke-width="1.22812" />
+                                                <path
+                                                    d="M1474.67 -307.437C1759.09 -307.436 1989.66 -76.6303 1989.66 208.085C1989.66 492.8 1759.09 723.606 1474.67 723.606C1190.25 723.606 959.675 492.8 959.675 208.085C959.675 -76.6303 1190.25 -307.437 1474.67 -307.437Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" stroke-width="1.22812" />
+                                                <path
+                                                    d="M1474.67 -26.8828C1604.14 -26.8828 1709.11 78.3054 1709.11 208.084C1709.11 337.863 1604.14 443.051 1474.67 443.051C1345.2 443.051 1240.23 337.863 1240.23 208.084C1240.23 78.3055 1345.2 -26.8826 1474.67 -26.8828Z"
+                                                    stroke="#F5E8D1" stroke-width="9.825" />
+                                                <path
+                                                    d="M1474.67 -31.1807C1606.52 -31.1807 1713.41 75.9404 1713.41 208.084C1713.41 340.228 1606.52 447.35 1474.67 447.35C1342.82 447.349 1235.93 340.228 1235.93 208.084C1235.93 75.9405 1342.82 -31.1805 1474.67 -31.1807Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" stroke-width="1.22812" />
+                                                <path
+                                                    d="M1474.67 -23.7988C1602.44 -23.7988 1706.03 80.0176 1706.03 208.085C1706.03 336.152 1602.44 439.97 1474.67 439.97C1346.9 439.97 1243.31 336.152 1243.31 208.085C1243.31 80.0177 1346.9 -23.7987 1474.67 -23.7988Z"
+                                                    stroke="#C6BDA8" stroke-opacity="0.5" stroke-width="1.22812" />
+                                            </g>
+                                            <rect width="1368" height="640" fill="url(#paint0_radial_5849_1607)" />
+                                            <foreignObject x="510" y="345" width="31" height="31">
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    style="clip-path:url(#bgblur_2_5849_1607_clip_path);height:100%;width:100%">
+                                                </div>
+                                            </foreignObject>
+                                            <g>
+                                                <rect x="513" y="348" width="25" height="25" rx="12.5" fill="#758535" />
+                                                <path
+                                                    d="M523.252 358.064L525.316 356.6H526.132V365H525.028V357.992L523.768 358.892L523.252 358.064Z"
+                                                    fill="#F5E8D1" />
+                                            </g>
+                                            <path
+                                                d="M551.368 352.904L553.384 348.4H554.048V354H553.328V350.08L551.568 354H551.136L549.392 350.112V354H548.664V348.4H549.36L551.368 352.904ZM556.751 354H556.015V348.4H556.751V354ZM562.261 352.696V348.4H562.989V354H562.301L559.453 349.704V354H558.725V348.4H559.413L562.261 352.696ZM566.999 354.088C566.588 354.088 566.226 353.997 565.911 353.816C565.596 353.629 565.351 353.376 565.175 353.056C565.004 352.731 564.919 352.363 564.919 351.952V348.4H565.655V351.952C565.655 352.389 565.778 352.739 566.023 353C566.268 353.261 566.594 353.392 566.999 353.392C567.404 353.392 567.73 353.261 567.975 353C568.22 352.739 568.343 352.389 568.343 351.952V348.4H569.079V351.952C569.079 352.363 568.991 352.731 568.815 353.056C568.644 353.376 568.402 353.629 568.087 353.816C567.772 353.997 567.41 354.088 566.999 354.088ZM572.901 354H572.165V349.096H570.469V348.4H574.597V349.096H572.901V354ZM576.764 351.464V353.312H579.684V354H576.028V348.4H579.604V349.088H576.764V350.784H579.3V351.464H576.764ZM582.948 354.088C582.564 354.088 582.225 354.013 581.932 353.864C581.644 353.715 581.42 353.507 581.26 353.24C581.1 352.973 581.009 352.669 580.988 352.328H581.724C581.751 352.664 581.871 352.931 582.084 353.128C582.297 353.32 582.588 353.416 582.956 353.416C583.319 353.416 583.596 353.336 583.788 353.176C583.985 353.011 584.084 352.8 584.084 352.544C584.084 352.347 584.025 352.184 583.908 352.056C583.796 351.923 583.655 351.816 583.484 351.736C583.319 351.656 583.087 351.565 582.788 351.464C582.431 351.347 582.14 351.235 581.916 351.128C581.697 351.016 581.511 350.856 581.356 350.648C581.201 350.44 581.124 350.171 581.124 349.84C581.124 349.547 581.193 349.285 581.332 349.056C581.476 348.821 581.681 348.64 581.948 348.512C582.215 348.379 582.529 348.312 582.892 348.312C583.255 348.312 583.572 348.387 583.844 348.536C584.116 348.685 584.327 348.891 584.476 349.152C584.631 349.413 584.716 349.707 584.732 350.032H583.996C583.98 349.717 583.871 349.464 583.668 349.272C583.471 349.08 583.212 348.984 582.892 348.984C582.567 348.984 582.313 349.064 582.132 349.224C581.951 349.384 581.86 349.589 581.86 349.84C581.86 350.032 581.913 350.189 582.02 350.312C582.132 350.435 582.271 350.533 582.436 350.608C582.607 350.683 582.833 350.765 583.116 350.856C583.484 350.979 583.78 351.096 584.004 351.208C584.228 351.315 584.42 351.475 584.58 351.688C584.74 351.901 584.82 352.181 584.82 352.528C584.82 352.992 584.655 353.368 584.324 353.656C583.999 353.944 583.54 354.088 582.948 354.088ZM593.183 352.608L594.415 348.4H595.151L593.447 354H592.887L591.695 349.896L590.511 354H589.943L588.239 348.4H588.999L590.231 352.608L591.431 348.4H591.967L593.183 352.608ZM600.493 354H599.709L599.221 352.656H596.805L596.317 354H595.565L597.677 348.4H598.381L600.493 354ZM598.965 351.976L598.013 349.392L597.061 351.976H598.965ZM605.262 354H601.814V348.4H602.55V353.304H605.262V354ZM608.193 351.128L610.601 354H609.665L607.385 351.248V354H606.649V348.4H607.385V351.072L609.585 348.4H610.465L608.193 351.128Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M548.756 372V371.694L549.764 371.64L550.16 371.406V359.634L549.764 359.4L548.756 359.346V359.04H553.616C556.55 359.04 558.35 360.354 558.35 362.532C558.35 364.908 556.442 366.348 553.418 366.276L552.14 366.258V365.862H553.454C555.686 365.844 557.072 364.638 557.072 362.73C557.072 360.786 555.65 359.544 553.328 359.544H551.438V371.406L552.068 371.64L553.688 371.694V372H548.756ZM561.321 372.162C560.079 372.162 559.179 371.37 559.179 370.128C559.179 368.886 560.133 367.896 561.915 367.284L564.435 366.402V365.88C564.435 364.314 563.733 363.216 562.491 363.216C561.195 363.216 560.565 364.404 560.817 365.934H559.521C559.431 364.134 560.745 362.802 562.725 362.802C564.507 362.802 565.569 363.954 565.569 365.754V371.388L565.857 371.55L566.703 371.658V371.928L564.705 372.054H564.435L564.471 371.01L564.525 369.75H564.453C563.841 371.19 562.689 372.162 561.321 372.162ZM560.277 369.876C560.277 370.794 560.907 371.388 561.807 371.388C562.905 371.388 563.949 370.488 564.435 369.174V366.888L562.383 367.608C561.015 368.094 560.277 368.904 560.277 369.876ZM567.915 372V371.694L568.761 371.64L569.085 371.406V363.72L567.825 363.54V363.288L569.985 362.964H570.219L570.165 364.512L570.111 365.862H570.183L570.561 364.944C571.137 363.54 572.001 362.982 573.171 362.982H573.765V364.152H572.847C571.839 364.152 571.227 364.44 570.705 365.376L570.219 366.402V371.406L570.831 371.64L572.361 371.694V372H567.915ZM574.258 372V371.694L575.158 371.64L575.518 371.406V359.328L574.258 359.148V358.896L576.418 358.572H576.652V367.104L580.522 363.954V363.576L578.938 363.378V363.072H583.006V363.378L581.728 363.594L577.624 366.906L581.818 371.478L583.042 371.694V372H580.864L576.652 367.392V371.406L577.084 371.64L578.218 371.694V372H574.258Z"
+                                                fill="#758535" />
+                                            <foreignObject x="37" y="85" width="31" height="31">
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    style="clip-path:url(#bgblur_3_5849_1607_clip_path);height:100%;width:100%">
+                                                </div>
+                                            </foreignObject>
+                                            <g>
+                                                <rect x="40" y="88" width="25" height="25" rx="12.5" fill="#758535" />
+                                                <path
+                                                    d="M49.332 101.628L47.04 103.956H50.844V105H45.456V104.124L48.552 100.968C49.224 100.284 49.74 99.72 49.74 98.904C49.74 98.076 49.128 97.488 48.132 97.488C47.112 97.488 46.476 98.16 46.44 99.06H45.36C45.396 97.62 46.524 96.468 48.132 96.468C49.776 96.468 50.844 97.536 50.844 98.88C50.844 99.96 50.148 100.8 49.332 101.628ZM55.8622 99.432C57.4102 99.432 58.5982 100.62 58.5982 102.276C58.5982 103.92 57.3862 105.132 55.6942 105.132C54.0862 105.132 53.0662 103.992 52.9102 102.792H54.0142C54.0982 103.38 54.7222 104.112 55.6942 104.112C56.7142 104.112 57.4942 103.344 57.4942 102.276C57.4942 101.184 56.7142 100.428 55.6942 100.428C54.6982 100.428 54.2542 101.1 54.0862 101.472H53.0902L53.6302 96.6H57.9982V97.62H54.5422L54.2662 100.02C54.5782 99.732 55.1422 99.432 55.8622 99.432Z"
+                                                    fill="#F5E8D1" />
+                                            </g>
+                                            <path
+                                                d="M78.368 92.904L80.384 88.4H81.048V94H80.328V90.08L78.568 94H78.136L76.392 90.112V94H75.664V88.4H76.36L78.368 92.904ZM83.7509 94H83.0149V88.4H83.7509V94ZM89.2613 92.696V88.4H89.9893V94H89.3012L86.4532 89.704V94H85.7252V88.4H86.4132L89.2613 92.696ZM93.999 94.088C93.5883 94.088 93.2257 93.9973 92.911 93.816C92.5963 93.6293 92.351 93.376 92.175 93.056C92.0043 92.7307 91.919 92.3627 91.919 91.952V88.4H92.655V91.952C92.655 92.3893 92.7777 92.7387 93.023 93C93.2683 93.2613 93.5937 93.392 93.999 93.392C94.4043 93.392 94.7297 93.2613 94.975 93C95.2203 92.7387 95.343 92.3893 95.343 91.952V88.4H96.079V91.952C96.079 92.3627 95.991 92.7307 95.815 93.056C95.6443 93.376 95.4017 93.6293 95.087 93.816C94.7723 93.9973 94.4097 94.088 93.999 94.088ZM99.9012 94H99.1652V89.096H97.4692V88.4H101.597V89.096H99.9012V94ZM103.764 91.464V93.312H106.684V94H103.028V88.4H106.604V89.088H103.764V90.784H106.3V91.464H103.764ZM109.948 94.088C109.564 94.088 109.225 94.0133 108.932 93.864C108.644 93.7147 108.42 93.5067 108.26 93.24C108.1 92.9733 108.009 92.6693 107.988 92.328H108.724C108.751 92.664 108.871 92.9307 109.084 93.128C109.297 93.32 109.588 93.416 109.956 93.416C110.319 93.416 110.596 93.336 110.788 93.176C110.985 93.0107 111.084 92.8 111.084 92.544C111.084 92.3467 111.025 92.184 110.908 92.056C110.796 91.9227 110.655 91.816 110.484 91.736C110.319 91.656 110.087 91.5653 109.788 91.464C109.431 91.3467 109.14 91.2347 108.916 91.128C108.697 91.016 108.511 90.856 108.356 90.648C108.201 90.44 108.124 90.1707 108.124 89.84C108.124 89.5467 108.193 89.2853 108.332 89.056C108.476 88.8213 108.681 88.64 108.948 88.512C109.215 88.3787 109.529 88.312 109.892 88.312C110.255 88.312 110.572 88.3867 110.844 88.536C111.116 88.6853 111.327 88.8907 111.476 89.152C111.631 89.4133 111.716 89.7067 111.732 90.032H110.996C110.98 89.7173 110.871 89.464 110.668 89.272C110.471 89.08 110.212 88.984 109.892 88.984C109.567 88.984 109.313 89.064 109.132 89.224C108.951 89.384 108.86 89.5893 108.86 89.84C108.86 90.032 108.913 90.1893 109.02 90.312C109.132 90.4347 109.271 90.5333 109.436 90.608C109.607 90.6827 109.833 90.7653 110.116 90.856C110.484 90.9787 110.78 91.096 111.004 91.208C111.228 91.3147 111.42 91.4747 111.58 91.688C111.74 91.9013 111.82 92.1813 111.82 92.528C111.82 92.992 111.655 93.368 111.324 93.656C110.999 93.944 110.54 94.088 109.948 94.088ZM119.049 91.008C119.295 91.088 119.521 91.2453 119.729 91.48C119.943 91.7093 120.049 92.0133 120.049 92.392C120.049 92.696 119.975 92.9707 119.825 93.216C119.676 93.456 119.465 93.648 119.193 93.792C118.921 93.9307 118.612 94 118.265 94H116.065V88.4H118.177C118.497 88.4 118.783 88.4667 119.033 88.6C119.284 88.728 119.479 88.904 119.617 89.128C119.756 89.3467 119.825 89.592 119.825 89.864C119.825 90.168 119.748 90.416 119.593 90.608C119.439 90.7947 119.257 90.928 119.049 91.008ZM116.801 89.056V90.736H118.137C118.425 90.736 118.655 90.6587 118.825 90.504C119.001 90.344 119.089 90.1387 119.089 89.888C119.089 89.6427 119.001 89.4427 118.825 89.288C118.655 89.1333 118.425 89.056 118.137 89.056H116.801ZM118.225 93.344C118.545 93.344 118.807 93.2507 119.009 93.064C119.212 92.8773 119.313 92.64 119.313 92.352C119.313 92.0693 119.212 91.8347 119.009 91.648C118.807 91.4613 118.545 91.368 118.225 91.368H116.801V93.344H118.225ZM123.078 91.088L124.486 88.4H125.27L123.43 91.84V94H122.694V91.84L120.862 88.4H121.67L123.078 91.088ZM131.211 94.088C130.742 94.088 130.304 93.9627 129.899 93.712C129.494 93.456 129.171 93.1093 128.931 92.672C128.691 92.2293 128.571 91.7387 128.571 91.2C128.571 90.6613 128.691 90.1733 128.931 89.736C129.171 89.2933 129.494 88.9467 129.899 88.696C130.304 88.44 130.742 88.312 131.211 88.312C131.606 88.312 131.968 88.4027 132.299 88.584C132.635 88.76 132.915 89 133.139 89.304C133.363 89.608 133.518 89.944 133.603 90.312H132.851C132.734 89.9387 132.534 89.6293 132.251 89.384C131.968 89.1333 131.622 89.008 131.211 89.008C130.875 89.008 130.56 89.1013 130.267 89.288C129.979 89.4747 129.747 89.736 129.571 90.072C129.395 90.4027 129.307 90.7787 129.307 91.2C129.307 91.6213 129.395 92 129.571 92.336C129.747 92.6667 129.979 92.9253 130.267 93.112C130.56 93.2987 130.875 93.392 131.211 93.392C131.632 93.392 131.987 93.2693 132.275 93.024C132.563 92.7787 132.768 92.4693 132.891 92.096H133.643C133.552 92.4587 133.392 92.792 133.163 93.096C132.939 93.4 132.659 93.6427 132.323 93.824C131.987 94 131.616 94.088 131.211 94.088ZM139.358 94H138.574L138.086 92.656H135.67L135.182 94H134.43L136.542 88.4H137.246L139.358 94ZM137.83 91.976L136.878 89.392L135.926 91.976H137.83ZM143.775 94L142.511 91.744H141.415V94H140.679V88.4H142.727C143.063 88.4 143.367 88.4747 143.639 88.624C143.917 88.7733 144.133 88.976 144.287 89.232C144.442 89.488 144.519 89.7733 144.519 90.088C144.519 90.4613 144.405 90.7893 144.175 91.072C143.946 91.3547 143.642 91.5493 143.263 91.656L144.631 94H143.775ZM141.415 89.088V91.064H142.719C143.029 91.064 143.282 90.9733 143.479 90.792C143.682 90.6053 143.783 90.3733 143.783 90.096C143.783 89.8027 143.682 89.5627 143.479 89.376C143.282 89.184 143.029 89.088 142.719 89.088H141.415Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M80.418 112.27C78.906 112.27 77.322 111.748 76.35 110.884L76.062 107.932H76.476L76.764 108.94C77.322 111.028 79.104 111.82 80.652 111.82C82.452 111.82 83.622 110.812 83.622 109.426C83.622 108.436 83.028 107.59 81.93 106.942L78.51 104.944C77.142 104.116 76.44 103.108 76.44 101.866C76.44 100.066 78.042 98.77 80.328 98.77C81.588 98.77 82.938 99.238 84.126 100.084L84.414 102.838H84.018L83.694 101.92C83.1 100.03 81.57 99.184 80.13 99.184C78.582 99.184 77.502 100.084 77.502 101.398C77.502 102.298 78.006 103.108 79.05 103.738L82.47 105.736C84.054 106.708 84.828 107.716 84.828 108.958C84.828 110.884 82.974 112.27 80.418 112.27ZM89.4023 112.216C87.9083 112.216 87.0623 111.136 87.0623 109.174V103.594L85.9283 103.432V103.162L87.9623 103H88.1963V109.066C88.1963 110.596 88.7903 111.424 89.8523 111.424C90.6803 111.424 91.3463 110.902 91.9223 109.768L92.3003 109.012V103.612L90.9683 103.432V103.162L93.1643 103H93.4343V111.406L93.7223 111.55L94.5683 111.658V111.928L92.5703 112.054H92.3003L92.3543 111.01L92.4083 109.318H92.3723L92.1563 109.876C91.5623 111.352 90.7163 112.216 89.4023 112.216ZM95.9325 99.328L94.6545 99.148V98.896L96.8145 98.572H97.0485V104.566H97.1025L97.2105 104.422C97.8225 103.432 98.6865 102.856 99.8385 102.856C101.926 102.856 103.348 104.728 103.348 107.356C103.348 110.2 101.602 112.27 99.2445 112.27C98.3805 112.27 97.5345 111.982 96.6705 111.424L95.9325 110.956V99.328ZM97.0485 110.686L97.4625 111.046C98.0205 111.568 98.6145 111.838 99.3165 111.838C100.954 111.838 102.16 110.164 102.16 107.752C102.16 105.286 101.008 103.54 99.3345 103.54C98.3625 103.54 97.7325 104.098 97.1745 104.8L97.0485 104.962V110.686ZM107.631 112.216C106.137 112.216 105.291 111.136 105.291 109.174V103.594L104.157 103.432V103.162L106.191 103H106.425V109.066C106.425 110.596 107.019 111.424 108.081 111.424C108.909 111.424 109.575 110.902 110.151 109.768L110.529 109.012V103.612L109.197 103.432V103.162L111.393 103H111.663V111.406L111.951 111.55L112.797 111.658V111.928L110.799 112.054H110.529L110.583 111.01L110.637 109.318H110.601L110.385 109.876C109.791 111.352 108.945 112.216 107.631 112.216ZM114.022 112V111.694L114.868 111.64L115.192 111.406V103.72L113.932 103.54V103.288L116.092 102.964H116.326L116.272 104.512L116.218 105.862H116.29L116.668 104.944C117.244 103.54 118.108 102.982 119.278 102.982H119.872V104.152H118.954C117.946 104.152 117.334 104.44 116.812 105.376L116.326 106.402V111.406L116.938 111.64L118.468 111.694V112H114.022ZM121.421 99.328L120.143 99.148V98.896L122.303 98.572H122.537V104.566H122.591L122.699 104.422C123.311 103.432 124.175 102.856 125.327 102.856C127.415 102.856 128.837 104.728 128.837 107.356C128.837 110.2 127.091 112.27 124.733 112.27C123.869 112.27 123.023 111.982 122.159 111.424L121.421 110.956V99.328ZM122.537 110.686L122.951 111.046C123.509 111.568 124.103 111.838 124.805 111.838C126.443 111.838 127.649 110.164 127.649 107.752C127.649 105.286 126.497 103.54 124.823 103.54C123.851 103.54 123.221 104.098 122.663 104.8L122.537 104.962V110.686Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M436.836 299.904L438.852 295.4H439.516V301H438.796V297.08L437.036 301H436.604L434.86 297.112V301H434.132V295.4H434.828L436.836 299.904ZM442.219 301H441.483V295.4H442.219V301ZM447.729 299.696V295.4H448.457V301H447.769L444.921 296.704V301H444.193V295.4H444.881L447.729 299.696ZM452.467 301.088C452.056 301.088 451.693 300.997 451.379 300.816C451.064 300.629 450.819 300.376 450.643 300.056C450.472 299.731 450.387 299.363 450.387 298.952V295.4H451.123V298.952C451.123 299.389 451.245 299.739 451.491 300C451.736 300.261 452.061 300.392 452.467 300.392C452.872 300.392 453.197 300.261 453.443 300C453.688 299.739 453.811 299.389 453.811 298.952V295.4H454.547V298.952C454.547 299.363 454.459 299.731 454.283 300.056C454.112 300.376 453.869 300.629 453.555 300.816C453.24 300.997 452.877 301.088 452.467 301.088ZM458.369 301H457.633V296.096H455.937V295.4H460.065V296.096H458.369V301ZM462.232 298.464V300.312H465.152V301H461.496V295.4H465.072V296.088H462.232V297.784H464.768V298.464H462.232ZM468.416 301.088C468.032 301.088 467.693 301.013 467.4 300.864C467.112 300.715 466.888 300.507 466.728 300.24C466.568 299.973 466.477 299.669 466.456 299.328H467.192C467.219 299.664 467.339 299.931 467.552 300.128C467.765 300.32 468.056 300.416 468.424 300.416C468.787 300.416 469.064 300.336 469.256 300.176C469.453 300.011 469.552 299.8 469.552 299.544C469.552 299.347 469.493 299.184 469.376 299.056C469.264 298.923 469.123 298.816 468.952 298.736C468.787 298.656 468.555 298.565 468.256 298.464C467.899 298.347 467.608 298.235 467.384 298.128C467.165 298.016 466.979 297.856 466.824 297.648C466.669 297.44 466.592 297.171 466.592 296.84C466.592 296.547 466.661 296.285 466.8 296.056C466.944 295.821 467.149 295.64 467.416 295.512C467.683 295.379 467.997 295.312 468.36 295.312C468.723 295.312 469.04 295.387 469.312 295.536C469.584 295.685 469.795 295.891 469.944 296.152C470.099 296.413 470.184 296.707 470.2 297.032H469.464C469.448 296.717 469.339 296.464 469.136 296.272C468.939 296.08 468.68 295.984 468.36 295.984C468.035 295.984 467.781 296.064 467.6 296.224C467.419 296.384 467.328 296.589 467.328 296.84C467.328 297.032 467.381 297.189 467.488 297.312C467.6 297.435 467.739 297.533 467.904 297.608C468.075 297.683 468.301 297.765 468.584 297.856C468.952 297.979 469.248 298.096 469.472 298.208C469.696 298.315 469.888 298.475 470.048 298.688C470.208 298.901 470.288 299.181 470.288 299.528C470.288 299.992 470.123 300.368 469.792 300.656C469.467 300.944 469.008 301.088 468.416 301.088ZM478.651 299.608L479.883 295.4H480.619L478.915 301H478.355L477.163 296.896L475.979 301H475.411L473.707 295.4H474.467L475.699 299.608L476.899 295.4H477.435L478.651 299.608ZM485.961 301H485.177L484.689 299.656H482.273L481.785 301H481.033L483.145 295.4H483.849L485.961 301ZM484.433 298.976L483.481 296.392L482.529 298.976H484.433ZM490.73 301H487.282V295.4H488.018V300.304H490.73V301ZM493.661 298.128L496.069 301H495.133L492.853 298.248V301H492.117V295.4H492.853V298.072L495.053 295.4H495.933L493.661 298.128Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M434.045 319V318.694L435.053 318.64L435.449 318.406V306.634L435.071 306.4L434.135 306.346V306.04H439.427C442.001 306.04 443.693 307.318 443.693 309.316C443.693 311.296 442.073 312.664 439.463 312.772L443.819 318.406L445.241 318.658V319H442.739L438.131 312.79H436.727V318.406L437.285 318.64L438.707 318.694V319H434.045ZM436.727 312.394H439.085C441.065 312.394 442.415 311.188 442.415 309.442C442.415 307.714 441.065 306.544 439.031 306.544H436.727V312.394ZM447.983 308.146C447.461 308.146 447.047 307.75 447.047 307.21C447.047 306.688 447.461 306.292 447.983 306.292C448.505 306.292 448.901 306.688 448.901 307.21C448.901 307.75 448.505 308.146 447.983 308.146ZM446.417 319V318.694L447.317 318.64L447.677 318.406V310.72L446.417 310.54V310.288L448.577 309.964H448.811V318.406L449.171 318.64L450.071 318.694V319H446.417ZM454.56 319.09L451.14 310.594L450.348 310.378V310.072H454.128V310.378L452.526 310.576V310.954L455.028 317.506H455.154L457.638 310.954V310.576L456.36 310.378V310.072H459.042V310.378L458.34 310.594L455.028 319.09H454.56ZM463.224 319.27C461.118 319.27 459.48 317.434 459.48 314.68C459.48 311.782 461.154 309.802 463.386 309.802C465.312 309.802 466.68 311.278 466.608 314.068H460.56V314.14C460.56 316.66 461.784 318.46 463.692 318.46C464.7 318.46 465.492 317.92 466.212 316.876L466.482 317.092C465.708 318.442 464.628 319.27 463.224 319.27ZM460.578 313.6H465.366C465.42 311.638 464.556 310.234 463.098 310.234C461.712 310.234 460.722 311.566 460.578 313.6ZM467.653 319V318.694L468.499 318.64L468.823 318.406V310.72L467.563 310.54V310.288L469.723 309.964H469.957L469.903 311.512L469.849 312.862H469.921L470.299 311.944C470.875 310.54 471.739 309.982 472.909 309.982H473.503V311.152H472.585C471.577 311.152 470.965 311.44 470.443 312.376L469.957 313.402V318.406L470.569 318.64L472.099 318.694V319H467.653Z"
+                                                fill="#758535" />
+                                            <foreignObject x="349" y="181" width="31" height="31">
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    style="clip-path:url(#bgblur_4_5849_1607_clip_path);height:100%;width:100%">
+                                                </div>
+                                            </foreignObject>
+                                            <g>
+                                                <rect x="352" y="184" width="25" height="25" rx="12.5" fill="#758535" />
+                                                <path
+                                                    d="M361.788 193.644V192.6H367.092V193.44L363.888 201H362.7L365.832 193.644H361.788Z"
+                                                    fill="#F5E8D1" />
+                                            </g>
+                                            <path
+                                                d="M390.368 188.904L392.384 184.4H393.048V190H392.328V186.08L390.568 190H390.136L388.392 186.112V190H387.664V184.4H388.36L390.368 188.904ZM395.751 190H395.015V184.4H395.751V190ZM401.261 188.696V184.4H401.989V190H401.301L398.453 185.704V190H397.725V184.4H398.413L401.261 188.696ZM405.999 190.088C405.588 190.088 405.226 189.997 404.911 189.816C404.596 189.629 404.351 189.376 404.175 189.056C404.004 188.731 403.919 188.363 403.919 187.952V184.4H404.655V187.952C404.655 188.389 404.778 188.739 405.023 189C405.268 189.261 405.594 189.392 405.999 189.392C406.404 189.392 406.73 189.261 406.975 189C407.22 188.739 407.343 188.389 407.343 187.952V184.4H408.079V187.952C408.079 188.363 407.991 188.731 407.815 189.056C407.644 189.376 407.402 189.629 407.087 189.816C406.772 189.997 406.41 190.088 405.999 190.088ZM411.901 190H411.165V185.096H409.469V184.4H413.597V185.096H411.901V190ZM415.764 187.464V189.312H418.684V190H415.028V184.4H418.604V185.088H415.764V186.784H418.3V187.464H415.764ZM421.948 190.088C421.564 190.088 421.225 190.013 420.932 189.864C420.644 189.715 420.42 189.507 420.26 189.24C420.1 188.973 420.009 188.669 419.988 188.328H420.724C420.751 188.664 420.871 188.931 421.084 189.128C421.297 189.32 421.588 189.416 421.956 189.416C422.319 189.416 422.596 189.336 422.788 189.176C422.985 189.011 423.084 188.8 423.084 188.544C423.084 188.347 423.025 188.184 422.908 188.056C422.796 187.923 422.655 187.816 422.484 187.736C422.319 187.656 422.087 187.565 421.788 187.464C421.431 187.347 421.14 187.235 420.916 187.128C420.697 187.016 420.511 186.856 420.356 186.648C420.201 186.44 420.124 186.171 420.124 185.84C420.124 185.547 420.193 185.285 420.332 185.056C420.476 184.821 420.681 184.64 420.948 184.512C421.215 184.379 421.529 184.312 421.892 184.312C422.255 184.312 422.572 184.387 422.844 184.536C423.116 184.685 423.327 184.891 423.476 185.152C423.631 185.413 423.716 185.707 423.732 186.032H422.996C422.98 185.717 422.871 185.464 422.668 185.272C422.471 185.08 422.212 184.984 421.892 184.984C421.567 184.984 421.313 185.064 421.132 185.224C420.951 185.384 420.86 185.589 420.86 185.84C420.86 186.032 420.913 186.189 421.02 186.312C421.132 186.435 421.271 186.533 421.436 186.608C421.607 186.683 421.833 186.765 422.116 186.856C422.484 186.979 422.78 187.096 423.004 187.208C423.228 187.315 423.42 187.475 423.58 187.688C423.74 187.901 423.82 188.181 423.82 188.528C423.82 188.992 423.655 189.368 423.324 189.656C422.999 189.944 422.54 190.088 421.948 190.088ZM431.049 187.008C431.295 187.088 431.521 187.245 431.729 187.48C431.943 187.709 432.049 188.013 432.049 188.392C432.049 188.696 431.975 188.971 431.825 189.216C431.676 189.456 431.465 189.648 431.193 189.792C430.921 189.931 430.612 190 430.265 190H428.065V184.4H430.177C430.497 184.4 430.783 184.467 431.033 184.6C431.284 184.728 431.479 184.904 431.617 185.128C431.756 185.347 431.825 185.592 431.825 185.864C431.825 186.168 431.748 186.416 431.593 186.608C431.439 186.795 431.257 186.928 431.049 187.008ZM428.801 185.056V186.736H430.137C430.425 186.736 430.655 186.659 430.825 186.504C431.001 186.344 431.089 186.139 431.089 185.888C431.089 185.643 431.001 185.443 430.825 185.288C430.655 185.133 430.425 185.056 430.137 185.056H428.801ZM430.225 189.344C430.545 189.344 430.807 189.251 431.009 189.064C431.212 188.877 431.313 188.64 431.313 188.352C431.313 188.069 431.212 187.835 431.009 187.648C430.807 187.461 430.545 187.368 430.225 187.368H428.801V189.344H430.225ZM435.078 187.088L436.486 184.4H437.27L435.43 187.84V190H434.694V187.84L432.862 184.4H433.67L435.078 187.088ZM443.211 190.088C442.742 190.088 442.304 189.963 441.899 189.712C441.494 189.456 441.171 189.109 440.931 188.672C440.691 188.229 440.571 187.739 440.571 187.2C440.571 186.661 440.691 186.173 440.931 185.736C441.171 185.293 441.494 184.947 441.899 184.696C442.304 184.44 442.742 184.312 443.211 184.312C443.606 184.312 443.968 184.403 444.299 184.584C444.635 184.76 444.915 185 445.139 185.304C445.363 185.608 445.518 185.944 445.603 186.312H444.851C444.734 185.939 444.534 185.629 444.251 185.384C443.968 185.133 443.622 185.008 443.211 185.008C442.875 185.008 442.56 185.101 442.267 185.288C441.979 185.475 441.747 185.736 441.571 186.072C441.395 186.403 441.307 186.779 441.307 187.2C441.307 187.621 441.395 188 441.571 188.336C441.747 188.667 441.979 188.925 442.267 189.112C442.56 189.299 442.875 189.392 443.211 189.392C443.632 189.392 443.987 189.269 444.275 189.024C444.563 188.779 444.768 188.469 444.891 188.096H445.643C445.552 188.459 445.392 188.792 445.163 189.096C444.939 189.4 444.659 189.643 444.323 189.824C443.987 190 443.616 190.088 443.211 190.088ZM451.358 190H450.574L450.086 188.656H447.67L447.182 190H446.43L448.542 184.4H449.246L451.358 190ZM449.83 187.976L448.878 185.392L447.926 187.976H449.83ZM455.775 190L454.511 187.744H453.415V190H452.679V184.4H454.727C455.063 184.4 455.367 184.475 455.639 184.624C455.917 184.773 456.133 184.976 456.287 185.232C456.442 185.488 456.519 185.773 456.519 186.088C456.519 186.461 456.405 186.789 456.175 187.072C455.946 187.355 455.642 187.549 455.263 187.656L456.631 190H455.775ZM453.415 185.088V187.064H454.719C455.029 187.064 455.282 186.973 455.479 186.792C455.682 186.605 455.783 186.373 455.783 186.096C455.783 185.803 455.682 185.563 455.479 185.376C455.282 185.184 455.029 185.088 454.719 185.088H453.415Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M398.772 208.126L396.216 200.476L393.408 208.126H392.994L388.476 195.562L387.504 195.346V195.04H397.926V195.346L396 195.544V195.922L399.312 206.146H399.456L402.912 195.922V195.544L401.04 195.346V195.04H404.568V195.346L403.596 195.562L399.186 208.126H398.772ZM390.042 195.904L393.552 206.146H393.696L395.964 199.702L394.524 195.418H390.042V195.904ZM405.787 208.162C404.545 208.162 403.645 207.37 403.645 206.128C403.645 204.886 404.599 203.896 406.381 203.284L408.901 202.402V201.88C408.901 200.314 408.199 199.216 406.957 199.216C405.661 199.216 405.031 200.404 405.283 201.934H403.987C403.897 200.134 405.211 198.802 407.191 198.802C408.973 198.802 410.035 199.954 410.035 201.754V207.388L410.323 207.55L411.169 207.658V207.928L409.171 208.054H408.901L408.937 207.01L408.991 205.75H408.919C408.307 207.19 407.155 208.162 405.787 208.162ZM404.743 205.876C404.743 206.794 405.373 207.388 406.273 207.388C407.371 207.388 408.415 206.488 408.901 205.174V202.888L406.849 203.608C405.481 204.094 404.743 204.904 404.743 205.876ZM414.432 208.162C413.424 208.162 412.974 207.46 412.974 206.29V199.594H411.336V199.252L412.956 199.108L413.802 196.444H414.09V199.072L416.196 199H416.484V199.594H414.09V206.146C414.09 206.992 414.252 207.46 414.9 207.46C415.368 207.46 415.728 207.136 416.16 206.668L416.34 206.47L416.592 206.74L416.43 206.92C415.674 207.784 415.188 208.162 414.432 208.162ZM421.189 208.27C419.083 208.27 417.445 206.434 417.445 203.68C417.445 200.782 419.119 198.802 421.351 198.802C423.277 198.802 424.645 200.278 424.573 203.068H418.525V203.14C418.525 205.66 419.749 207.46 421.657 207.46C422.665 207.46 423.457 206.92 424.177 205.876L424.447 206.092C423.673 207.442 422.593 208.27 421.189 208.27ZM418.543 202.6H423.331C423.385 200.638 422.521 199.234 421.063 199.234C419.677 199.234 418.687 200.566 418.543 202.6ZM425.618 208V207.694L426.464 207.64L426.788 207.406V199.72L425.528 199.54V199.288L427.688 198.964H427.922L427.868 200.512L427.814 201.862H427.886L428.264 200.944C428.84 199.54 429.704 198.982 430.874 198.982H431.468V200.152H430.55C429.542 200.152 428.93 200.44 428.408 201.376L427.922 202.402V207.406L428.534 207.64L430.064 207.694V208H425.618ZM440.529 208.27C439.017 208.27 437.433 207.748 436.461 206.884L436.173 203.932H436.587L436.875 204.94C437.433 207.028 439.215 207.82 440.763 207.82C442.563 207.82 443.733 206.812 443.733 205.426C443.733 204.436 443.139 203.59 442.041 202.942L438.621 200.944C437.253 200.116 436.551 199.108 436.551 197.866C436.551 196.066 438.153 194.77 440.439 194.77C441.699 194.77 443.049 195.238 444.237 196.084L444.525 198.838H444.129L443.805 197.92C443.211 196.03 441.681 195.184 440.241 195.184C438.693 195.184 437.613 196.084 437.613 197.398C437.613 198.298 438.117 199.108 439.161 199.738L442.581 201.736C444.165 202.708 444.939 203.716 444.939 204.958C444.939 206.884 443.085 208.27 440.529 208.27ZM445.945 211.6V211.294L446.845 211.24L447.205 211.006V199.72L445.927 199.54V199.288L448.087 198.964H448.321L448.285 200.512H448.375L448.483 200.368C449.095 199.378 449.959 198.802 451.111 198.802C453.199 198.802 454.621 200.674 454.621 203.302C454.621 206.146 452.875 208.216 450.517 208.216C449.779 208.216 449.059 208 448.321 207.604V211.006L448.915 211.24L450.373 211.294V211.6H445.945ZM448.321 206.632L448.735 206.992C449.293 207.514 449.887 207.784 450.589 207.784C452.227 207.784 453.433 206.11 453.433 203.698C453.433 201.232 452.281 199.486 450.607 199.486C449.635 199.486 449.005 200.044 448.447 200.746L448.321 200.908V206.632ZM460.006 208.27C457.684 208.27 456.064 206.326 456.064 203.536C456.064 200.746 457.738 198.802 460.132 198.802C462.436 198.802 464.056 200.746 464.056 203.536C464.056 206.326 462.382 208.27 460.006 208.27ZM457.27 203.284C457.27 206.02 458.458 207.82 460.222 207.82C461.806 207.82 462.85 206.182 462.85 203.788C462.85 201.052 461.662 199.252 459.898 199.252C458.314 199.252 457.27 200.89 457.27 203.284ZM464.94 208V207.694L465.786 207.64L466.11 207.406V199.72L464.85 199.54V199.288L467.01 198.964H467.244L467.19 200.512L467.136 201.862H467.208L467.586 200.944C468.162 199.54 469.026 198.982 470.196 198.982H470.79V200.152H469.872C468.864 200.152 468.252 200.44 467.73 201.376L467.244 202.402V207.406L467.856 207.64L469.386 207.694V208H464.94ZM474.619 208.162C473.611 208.162 473.161 207.46 473.161 206.29V199.594H471.523V199.252L473.143 199.108L473.989 196.444H474.277V199.072L476.383 199H476.671V199.594H474.277V206.146C474.277 206.992 474.439 207.46 475.087 207.46C475.555 207.46 475.915 207.136 476.347 206.668L476.527 206.47L476.779 206.74L476.617 206.92C475.861 207.784 475.375 208.162 474.619 208.162ZM487.391 208.27C484.043 208.27 481.469 205.372 481.469 201.574C481.469 197.704 484.169 194.77 487.679 194.77C489.317 194.77 490.829 195.418 491.765 196.138L492.125 198.892H491.693L491.351 197.938C490.523 195.616 488.471 195.184 487.427 195.184C484.817 195.184 482.801 197.794 482.801 201.232C482.801 204.868 484.925 207.514 487.823 207.514C489.605 207.514 490.559 206.506 491.675 205.21L491.981 205.534C490.721 207.154 489.425 208.27 487.391 208.27ZM497.109 208.27C495.003 208.27 493.365 206.434 493.365 203.68C493.365 200.782 495.039 198.802 497.271 198.802C499.197 198.802 500.565 200.278 500.493 203.068H494.445V203.14C494.445 205.66 495.669 207.46 497.577 207.46C498.585 207.46 499.377 206.92 500.097 205.876L500.367 206.092C499.593 207.442 498.513 208.27 497.109 208.27ZM494.463 202.6H499.251C499.305 200.638 498.441 199.234 496.983 199.234C495.597 199.234 494.607 200.566 494.463 202.6ZM506.794 208V207.694L507.748 207.64L508.126 207.406V202.06C508.126 200.548 507.478 199.684 506.326 199.684C505.516 199.684 504.85 200.17 504.238 201.286L503.824 202.078V207.406L504.202 207.64L505.174 207.694V208H501.43V207.694L502.33 207.64L502.69 207.406V199.72L501.43 199.54V199.288L503.59 198.964H503.824L503.77 200.512L503.734 201.646H503.77L503.986 201.16C504.67 199.612 505.588 198.856 506.83 198.856C508.36 198.856 509.242 199.954 509.242 201.898V207.406L509.584 207.64L510.43 207.694V208H506.794ZM513.678 208.162C512.67 208.162 512.22 207.46 512.22 206.29V199.594H510.582V199.252L512.202 199.108L513.048 196.444H513.336V199.072L515.442 199H515.73V199.594H513.336V206.146C513.336 206.992 513.498 207.46 514.146 207.46C514.614 207.46 514.974 207.136 515.406 206.668L515.586 206.47L515.838 206.74L515.676 206.92C514.92 207.784 514.434 208.162 513.678 208.162ZM520.435 208.27C518.329 208.27 516.691 206.434 516.691 203.68C516.691 200.782 518.365 198.802 520.597 198.802C522.523 198.802 523.891 200.278 523.819 203.068H517.771V203.14C517.771 205.66 518.995 207.46 520.903 207.46C521.911 207.46 522.703 206.92 523.423 205.876L523.693 206.092C522.919 207.442 521.839 208.27 520.435 208.27ZM517.789 202.6H522.577C522.631 200.638 521.767 199.234 520.309 199.234C518.923 199.234 517.933 200.566 517.789 202.6ZM524.864 208V207.694L525.71 207.64L526.034 207.406V199.72L524.774 199.54V199.288L526.934 198.964H527.168L527.114 200.512L527.06 201.862H527.132L527.51 200.944C528.086 199.54 528.95 198.982 530.12 198.982H530.714V200.152H529.796C528.788 200.152 528.176 200.44 527.654 201.376L527.168 202.402V207.406L527.78 207.64L529.31 207.694V208H524.864Z"
+                                                fill="#758535" />
+                                            <foreignObject x="808" y="358" width="31" height="31">
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    style="clip-path:url(#bgblur_5_5849_1607_clip_path);height:100%;width:100%">
+                                                </div>
+                                            </foreignObject>
+                                            <g>
+                                                <rect x="811" y="361" width="25" height="25" rx="12.5" fill="#758535" />
+                                                <path
+                                                    d="M817.252 371.064L819.316 369.6H820.132V378H819.028V370.992L817.768 371.892L817.252 371.064ZM825.721 378.132C824.041 378.132 822.589 376.668 822.589 373.8C822.589 370.932 824.041 369.468 825.721 369.468C827.413 369.468 828.865 370.932 828.865 373.8C828.865 376.668 827.413 378.132 825.721 378.132ZM825.721 377.088C826.801 377.088 827.761 376.116 827.761 373.8C827.761 371.484 826.801 370.512 825.721 370.512C824.653 370.512 823.693 371.484 823.693 373.8C823.693 376.116 824.653 377.088 825.721 377.088Z"
+                                                    fill="#F5E8D1" />
+                                            </g>
+                                            <path
+                                                d="M849.368 365.904L851.384 361.4H852.048V367H851.328V363.08L849.568 367H849.136L847.392 363.112V367H846.664V361.4H847.36L849.368 365.904ZM854.751 367H854.015V361.4H854.751V367ZM860.261 365.696V361.4H860.989V367H860.301L857.453 362.704V367H856.725V361.4H857.413L860.261 365.696ZM864.999 367.088C864.588 367.088 864.226 366.997 863.911 366.816C863.596 366.629 863.351 366.376 863.175 366.056C863.004 365.731 862.919 365.363 862.919 364.952V361.4H863.655V364.952C863.655 365.389 863.778 365.739 864.023 366C864.268 366.261 864.594 366.392 864.999 366.392C865.404 366.392 865.73 366.261 865.975 366C866.22 365.739 866.343 365.389 866.343 364.952V361.4H867.079V364.952C867.079 365.363 866.991 365.731 866.815 366.056C866.644 366.376 866.402 366.629 866.087 366.816C865.772 366.997 865.41 367.088 864.999 367.088ZM870.901 367H870.165V362.096H868.469V361.4H872.597V362.096H870.901V367ZM874.764 364.464V366.312H877.684V367H874.028V361.4H877.604V362.088H874.764V363.784H877.3V364.464H874.764ZM880.948 367.088C880.564 367.088 880.225 367.013 879.932 366.864C879.644 366.715 879.42 366.507 879.26 366.24C879.1 365.973 879.009 365.669 878.988 365.328H879.724C879.751 365.664 879.871 365.931 880.084 366.128C880.297 366.32 880.588 366.416 880.956 366.416C881.319 366.416 881.596 366.336 881.788 366.176C881.985 366.011 882.084 365.8 882.084 365.544C882.084 365.347 882.025 365.184 881.908 365.056C881.796 364.923 881.655 364.816 881.484 364.736C881.319 364.656 881.087 364.565 880.788 364.464C880.431 364.347 880.14 364.235 879.916 364.128C879.697 364.016 879.511 363.856 879.356 363.648C879.201 363.44 879.124 363.171 879.124 362.84C879.124 362.547 879.193 362.285 879.332 362.056C879.476 361.821 879.681 361.64 879.948 361.512C880.215 361.379 880.529 361.312 880.892 361.312C881.255 361.312 881.572 361.387 881.844 361.536C882.116 361.685 882.327 361.891 882.476 362.152C882.631 362.413 882.716 362.707 882.732 363.032H881.996C881.98 362.717 881.871 362.464 881.668 362.272C881.471 362.08 881.212 361.984 880.892 361.984C880.567 361.984 880.313 362.064 880.132 362.224C879.951 362.384 879.86 362.589 879.86 362.84C879.86 363.032 879.913 363.189 880.02 363.312C880.132 363.435 880.271 363.533 880.436 363.608C880.607 363.683 880.833 363.765 881.116 363.856C881.484 363.979 881.78 364.096 882.004 364.208C882.228 364.315 882.42 364.475 882.58 364.688C882.74 364.901 882.82 365.181 882.82 365.528C882.82 365.992 882.655 366.368 882.324 366.656C881.999 366.944 881.54 367.088 880.948 367.088ZM890.049 364.008C890.295 364.088 890.521 364.245 890.729 364.48C890.943 364.709 891.049 365.013 891.049 365.392C891.049 365.696 890.975 365.971 890.825 366.216C890.676 366.456 890.465 366.648 890.193 366.792C889.921 366.931 889.612 367 889.265 367H887.065V361.4H889.177C889.497 361.4 889.783 361.467 890.033 361.6C890.284 361.728 890.479 361.904 890.617 362.128C890.756 362.347 890.825 362.592 890.825 362.864C890.825 363.168 890.748 363.416 890.593 363.608C890.439 363.795 890.257 363.928 890.049 364.008ZM887.801 362.056V363.736H889.137C889.425 363.736 889.655 363.659 889.825 363.504C890.001 363.344 890.089 363.139 890.089 362.888C890.089 362.643 890.001 362.443 889.825 362.288C889.655 362.133 889.425 362.056 889.137 362.056H887.801ZM889.225 366.344C889.545 366.344 889.807 366.251 890.009 366.064C890.212 365.877 890.313 365.64 890.313 365.352C890.313 365.069 890.212 364.835 890.009 364.648C889.807 364.461 889.545 364.368 889.225 364.368H887.801V366.344H889.225ZM894.078 364.088L895.486 361.4H896.27L894.43 364.84V367H893.694V364.84L891.862 361.4H892.67L894.078 364.088ZM902.211 367.088C901.742 367.088 901.304 366.963 900.899 366.712C900.494 366.456 900.171 366.109 899.931 365.672C899.691 365.229 899.571 364.739 899.571 364.2C899.571 363.661 899.691 363.173 899.931 362.736C900.171 362.293 900.494 361.947 900.899 361.696C901.304 361.44 901.742 361.312 902.211 361.312C902.606 361.312 902.968 361.403 903.299 361.584C903.635 361.76 903.915 362 904.139 362.304C904.363 362.608 904.518 362.944 904.603 363.312H903.851C903.734 362.939 903.534 362.629 903.251 362.384C902.968 362.133 902.622 362.008 902.211 362.008C901.875 362.008 901.56 362.101 901.267 362.288C900.979 362.475 900.747 362.736 900.571 363.072C900.395 363.403 900.307 363.779 900.307 364.2C900.307 364.621 900.395 365 900.571 365.336C900.747 365.667 900.979 365.925 901.267 366.112C901.56 366.299 901.875 366.392 902.211 366.392C902.632 366.392 902.987 366.269 903.275 366.024C903.563 365.779 903.768 365.469 903.891 365.096H904.643C904.552 365.459 904.392 365.792 904.163 366.096C903.939 366.4 903.659 366.643 903.323 366.824C902.987 367 902.616 367.088 902.211 367.088ZM910.358 367H909.574L909.086 365.656H906.67L906.182 367H905.43L907.542 361.4H908.246L910.358 367ZM908.83 364.976L907.878 362.392L906.926 364.976H908.83ZM914.775 367L913.511 364.744H912.415V367H911.679V361.4H913.727C914.063 361.4 914.367 361.475 914.639 361.624C914.917 361.773 915.133 361.976 915.287 362.232C915.442 362.488 915.519 362.773 915.519 363.088C915.519 363.461 915.405 363.789 915.175 364.072C914.946 364.355 914.642 364.549 914.263 364.656L915.631 367H914.775ZM912.415 362.088V364.064H913.719C914.029 364.064 914.282 363.973 914.479 363.792C914.682 363.605 914.783 363.373 914.783 363.096C914.783 362.803 914.682 362.563 914.479 362.376C914.282 362.184 914.029 362.088 913.719 362.088H912.415Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M846.756 385V384.694L847.764 384.64L848.16 384.406V372.634L847.764 372.4L846.756 372.346V372.04H851.076V372.346L849.906 372.4L849.438 372.634V378.124H855.918V372.634L855.45 372.4L854.262 372.346V372.04H858.582V372.346L857.592 372.4L857.196 372.634V384.406L857.592 384.64L858.582 384.694V385H854.262V384.694L855.45 384.64L855.918 384.406V378.61H849.438V384.406L849.906 384.64L851.076 384.694V385H846.756ZM861.502 374.146C860.98 374.146 860.566 373.75 860.566 373.21C860.566 372.688 860.98 372.292 861.502 372.292C862.024 372.292 862.42 372.688 862.42 373.21C862.42 373.75 862.024 374.146 861.502 374.146ZM859.936 385V384.694L860.836 384.64L861.196 384.406V376.72L859.936 376.54V376.288L862.096 375.964H862.33V384.406L862.69 384.64L863.59 384.694V385H859.936ZM867.801 385.234C866.685 385.234 865.659 384.82 864.849 384.298L864.615 381.922H865.047L865.191 382.426C865.569 383.992 866.559 384.784 867.963 384.784C869.097 384.784 869.925 384.118 869.925 383.218C869.925 382.516 869.457 381.922 868.467 381.4L866.523 380.392C865.443 379.834 864.849 379.078 864.849 378.106C864.849 376.63 866.271 375.838 867.801 375.838C868.791 375.838 869.781 376.18 870.555 376.756L870.789 379.024H870.393L870.231 378.556C869.853 377.098 868.953 376.27 867.657 376.27C866.487 376.27 865.839 376.846 865.839 377.71C865.839 378.394 866.271 378.952 867.135 379.402L869.079 380.392C870.285 381.004 870.915 381.832 870.915 382.822C870.915 384.262 869.547 385.234 867.801 385.234ZM874.926 385.162C873.918 385.162 873.468 384.46 873.468 383.29V376.594H871.83V376.252L873.45 376.108L874.296 373.444H874.584V376.072L876.69 376H876.978V376.594H874.584V383.146C874.584 383.992 874.746 384.46 875.394 384.46C875.862 384.46 876.222 384.136 876.654 383.668L876.834 383.47L877.086 383.74L876.924 383.92C876.168 384.784 875.682 385.162 874.926 385.162ZM881.863 385.27C879.541 385.27 877.921 383.326 877.921 380.536C877.921 377.746 879.595 375.802 881.989 375.802C884.293 375.802 885.913 377.746 885.913 380.536C885.913 383.326 884.239 385.27 881.863 385.27ZM879.127 380.284C879.127 383.02 880.315 384.82 882.079 384.82C883.663 384.82 884.707 383.182 884.707 380.788C884.707 378.052 883.519 376.252 881.755 376.252C880.171 376.252 879.127 377.89 879.127 380.284ZM886.798 385V384.694L887.644 384.64L887.968 384.406V376.72L886.708 376.54V376.288L888.868 375.964H889.102L889.048 377.512L888.994 378.862H889.066L889.444 377.944C890.02 376.54 890.884 375.982 892.054 375.982H892.648V377.152H891.73C890.722 377.152 890.11 377.44 889.588 378.376L889.102 379.402V384.406L889.714 384.64L891.244 384.694V385H886.798ZM895.323 374.146C894.801 374.146 894.387 373.75 894.387 373.21C894.387 372.688 894.801 372.292 895.323 372.292C895.845 372.292 896.241 372.688 896.241 373.21C896.241 373.75 895.845 374.146 895.323 374.146ZM893.757 385V384.694L894.657 384.64L895.017 384.406V376.72L893.757 376.54V376.288L895.917 375.964H896.151V384.406L896.511 384.64L897.411 384.694V385H893.757ZM901.791 385.27C899.685 385.27 898.083 383.326 898.083 380.662C898.083 377.818 899.901 375.802 902.115 375.802C903.897 375.802 905.121 377.098 905.049 379.276H903.717C904.023 377.476 903.195 376.216 901.881 376.216C900.351 376.216 899.217 377.962 899.217 380.212C899.217 382.66 900.513 384.478 902.223 384.478C903.231 384.478 904.203 383.794 904.743 382.804L905.031 383.002C904.275 384.604 903.051 385.27 901.791 385.27ZM908.627 385.162C907.385 385.162 906.485 384.37 906.485 383.128C906.485 381.886 907.439 380.896 909.221 380.284L911.741 379.402V378.88C911.741 377.314 911.039 376.216 909.797 376.216C908.501 376.216 907.871 377.404 908.123 378.934H906.827C906.737 377.134 908.051 375.802 910.031 375.802C911.813 375.802 912.875 376.954 912.875 378.754V384.388L913.163 384.55L914.009 384.658V384.928L912.011 385.054H911.741L911.777 384.01L911.831 382.75H911.759C911.147 384.19 909.995 385.162 908.627 385.162ZM907.583 382.876C907.583 383.794 908.213 384.388 909.113 384.388C910.211 384.388 911.255 383.488 911.741 382.174V379.888L909.689 380.608C908.321 381.094 907.583 381.904 907.583 382.876ZM915.094 385V384.694L915.994 384.64L916.354 384.406V372.328L915.094 372.148V371.896L917.254 371.572H917.488V384.406L917.848 384.64L918.748 384.694V385H915.094ZM923.168 385V384.694L924.176 384.64L924.572 384.406V372.634L924.176 372.4L923.168 372.346V372.04H928.028C930.962 372.04 932.762 373.354 932.762 375.532C932.762 377.908 930.854 379.348 927.83 379.276L926.552 379.258V378.862H927.866C930.098 378.844 931.484 377.638 931.484 375.73C931.484 373.786 930.062 372.544 927.74 372.544H925.85V384.406L926.48 384.64L928.1 384.694V385H923.168ZM935.733 385.162C934.491 385.162 933.591 384.37 933.591 383.128C933.591 381.886 934.545 380.896 936.327 380.284L938.847 379.402V378.88C938.847 377.314 938.145 376.216 936.903 376.216C935.607 376.216 934.977 377.404 935.229 378.934H933.933C933.843 377.134 935.157 375.802 937.137 375.802C938.919 375.802 939.981 376.954 939.981 378.754V384.388L940.269 384.55L941.115 384.658V384.928L939.117 385.054H938.847L938.883 384.01L938.937 382.75H938.865C938.253 384.19 937.101 385.162 935.733 385.162ZM934.689 382.876C934.689 383.794 935.319 384.388 936.219 384.388C937.317 384.388 938.361 383.488 938.847 382.174V379.888L936.795 380.608C935.427 381.094 934.689 381.904 934.689 382.876ZM942.327 385V384.694L943.173 384.64L943.497 384.406V376.72L942.237 376.54V376.288L944.397 375.964H944.631L944.577 377.512L944.523 378.862H944.595L944.973 377.944C945.549 376.54 946.413 375.982 947.583 375.982H948.177V377.152H947.259C946.251 377.152 945.639 377.44 945.117 378.376L944.631 379.402V384.406L945.243 384.64L946.773 384.694V385H942.327ZM948.671 385V384.694L949.571 384.64L949.931 384.406V372.328L948.671 372.148V371.896L950.831 371.572H951.065V380.104L954.935 376.954V376.576L953.351 376.378V376.072H957.419V376.378L956.141 376.594L952.037 379.906L956.231 384.478L957.455 384.694V385H955.277L951.065 380.392V384.406L951.497 384.64L952.631 384.694V385H948.671Z"
+                                                fill="#758535" />
+                                            <foreignObject x="1225" y="175" width="31" height="31">
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    style="clip-path:url(#bgblur_6_5849_1607_clip_path);height:100%;width:100%">
+                                                </div>
+                                            </foreignObject>
+                                            <g>
+                                                <rect x="1228" y="178" width="25" height="25" rx="12.5"
+                                                    fill="#758535" />
+                                                <path
+                                                    d="M1237.33 191.628L1235.04 193.956H1238.84V195H1233.46V194.124L1236.55 190.968C1237.22 190.284 1237.74 189.72 1237.74 188.904C1237.74 188.076 1237.13 187.488 1236.13 187.488C1235.11 187.488 1234.48 188.16 1234.44 189.06H1233.36C1233.4 187.62 1234.52 186.468 1236.13 186.468C1237.78 186.468 1238.84 187.536 1238.84 188.88C1238.84 189.96 1238.15 190.8 1237.33 191.628ZM1243.99 195.132C1242.31 195.132 1240.86 193.668 1240.86 190.8C1240.86 187.932 1242.31 186.468 1243.99 186.468C1245.69 186.468 1247.14 187.932 1247.14 190.8C1247.14 193.668 1245.69 195.132 1243.99 195.132ZM1243.99 194.088C1245.07 194.088 1246.03 193.116 1246.03 190.8C1246.03 188.484 1245.07 187.512 1243.99 187.512C1242.93 187.512 1241.97 188.484 1241.97 190.8C1241.97 193.116 1242.93 194.088 1243.99 194.088Z"
+                                                    fill="#F5E8D1" />
+                                            </g>
+                                            <path
+                                                d="M1266.37 182.904L1268.38 178.4H1269.05V184H1268.33V180.08L1266.57 184H1266.14L1264.39 180.112V184H1263.66V178.4H1264.36L1266.37 182.904ZM1271.75 184H1271.01V178.4H1271.75V184ZM1277.26 182.696V178.4H1277.99V184H1277.3L1274.45 179.704V184H1273.73V178.4H1274.41L1277.26 182.696ZM1282 184.088C1281.59 184.088 1281.23 183.997 1280.91 183.816C1280.6 183.629 1280.35 183.376 1280.18 183.056C1280 182.731 1279.92 182.363 1279.92 181.952V178.4H1280.66V181.952C1280.66 182.389 1280.78 182.739 1281.02 183C1281.27 183.261 1281.59 183.392 1282 183.392C1282.4 183.392 1282.73 183.261 1282.98 183C1283.22 182.739 1283.34 182.389 1283.34 181.952V178.4H1284.08V181.952C1284.08 182.363 1283.99 182.731 1283.82 183.056C1283.64 183.376 1283.4 183.629 1283.09 183.816C1282.77 183.997 1282.41 184.088 1282 184.088ZM1287.9 184H1287.17V179.096H1285.47V178.4H1289.6V179.096H1287.9V184ZM1291.76 181.464V183.312H1294.68V184H1291.03V178.4H1294.6V179.088H1291.76V180.784H1294.3V181.464H1291.76ZM1297.95 184.088C1297.56 184.088 1297.23 184.013 1296.93 183.864C1296.64 183.715 1296.42 183.507 1296.26 183.24C1296.1 182.973 1296.01 182.669 1295.99 182.328H1296.72C1296.75 182.664 1296.87 182.931 1297.08 183.128C1297.3 183.32 1297.59 183.416 1297.96 183.416C1298.32 183.416 1298.6 183.336 1298.79 183.176C1298.99 183.011 1299.08 182.8 1299.08 182.544C1299.08 182.347 1299.03 182.184 1298.91 182.056C1298.8 181.923 1298.65 181.816 1298.48 181.736C1298.32 181.656 1298.09 181.565 1297.79 181.464C1297.43 181.347 1297.14 181.235 1296.92 181.128C1296.7 181.016 1296.51 180.856 1296.36 180.648C1296.2 180.44 1296.12 180.171 1296.12 179.84C1296.12 179.547 1296.19 179.285 1296.33 179.056C1296.48 178.821 1296.68 178.64 1296.95 178.512C1297.21 178.379 1297.53 178.312 1297.89 178.312C1298.25 178.312 1298.57 178.387 1298.84 178.536C1299.12 178.685 1299.33 178.891 1299.48 179.152C1299.63 179.413 1299.72 179.707 1299.73 180.032H1299C1298.98 179.717 1298.87 179.464 1298.67 179.272C1298.47 179.08 1298.21 178.984 1297.89 178.984C1297.57 178.984 1297.31 179.064 1297.13 179.224C1296.95 179.384 1296.86 179.589 1296.86 179.84C1296.86 180.032 1296.91 180.189 1297.02 180.312C1297.13 180.435 1297.27 180.533 1297.44 180.608C1297.61 180.683 1297.83 180.765 1298.12 180.856C1298.48 180.979 1298.78 181.096 1299 181.208C1299.23 181.315 1299.42 181.475 1299.58 181.688C1299.74 181.901 1299.82 182.181 1299.82 182.528C1299.82 182.992 1299.65 183.368 1299.32 183.656C1299 183.944 1298.54 184.088 1297.95 184.088ZM1307.05 181.008C1307.29 181.088 1307.52 181.245 1307.73 181.48C1307.94 181.709 1308.05 182.013 1308.05 182.392C1308.05 182.696 1307.97 182.971 1307.83 183.216C1307.68 183.456 1307.47 183.648 1307.19 183.792C1306.92 183.931 1306.61 184 1306.27 184H1304.07V178.4H1306.18C1306.5 178.4 1306.78 178.467 1307.03 178.6C1307.28 178.728 1307.48 178.904 1307.62 179.128C1307.76 179.347 1307.83 179.592 1307.83 179.864C1307.83 180.168 1307.75 180.416 1307.59 180.608C1307.44 180.795 1307.26 180.928 1307.05 181.008ZM1304.8 179.056V180.736H1306.14C1306.43 180.736 1306.65 180.659 1306.83 180.504C1307 180.344 1307.09 180.139 1307.09 179.888C1307.09 179.643 1307 179.443 1306.83 179.288C1306.65 179.133 1306.43 179.056 1306.14 179.056H1304.8ZM1306.23 183.344C1306.55 183.344 1306.81 183.251 1307.01 183.064C1307.21 182.877 1307.31 182.64 1307.31 182.352C1307.31 182.069 1307.21 181.835 1307.01 181.648C1306.81 181.461 1306.55 181.368 1306.23 181.368H1304.8V183.344H1306.23ZM1311.08 181.088L1312.49 178.4H1313.27L1311.43 181.84V184H1310.69V181.84L1308.86 178.4H1309.67L1311.08 181.088ZM1319.21 184.088C1318.74 184.088 1318.3 183.963 1317.9 183.712C1317.49 183.456 1317.17 183.109 1316.93 182.672C1316.69 182.229 1316.57 181.739 1316.57 181.2C1316.57 180.661 1316.69 180.173 1316.93 179.736C1317.17 179.293 1317.49 178.947 1317.9 178.696C1318.3 178.44 1318.74 178.312 1319.21 178.312C1319.61 178.312 1319.97 178.403 1320.3 178.584C1320.64 178.76 1320.92 179 1321.14 179.304C1321.36 179.608 1321.52 179.944 1321.6 180.312H1320.85C1320.73 179.939 1320.53 179.629 1320.25 179.384C1319.97 179.133 1319.62 179.008 1319.21 179.008C1318.88 179.008 1318.56 179.101 1318.27 179.288C1317.98 179.475 1317.75 179.736 1317.57 180.072C1317.4 180.403 1317.31 180.779 1317.31 181.2C1317.31 181.621 1317.4 182 1317.57 182.336C1317.75 182.667 1317.98 182.925 1318.27 183.112C1318.56 183.299 1318.88 183.392 1319.21 183.392C1319.63 183.392 1319.99 183.269 1320.28 183.024C1320.56 182.779 1320.77 182.469 1320.89 182.096H1321.64C1321.55 182.459 1321.39 182.792 1321.16 183.096C1320.94 183.4 1320.66 183.643 1320.32 183.824C1319.99 184 1319.62 184.088 1319.21 184.088ZM1327.36 184H1326.57L1326.09 182.656H1323.67L1323.18 184H1322.43L1324.54 178.4H1325.25L1327.36 184ZM1325.83 181.976L1324.88 179.392L1323.93 181.976H1325.83ZM1331.78 184L1330.51 181.744H1329.42V184H1328.68V178.4H1330.73C1331.06 178.4 1331.37 178.475 1331.64 178.624C1331.92 178.773 1332.13 178.976 1332.29 179.232C1332.44 179.488 1332.52 179.773 1332.52 180.088C1332.52 180.461 1332.4 180.789 1332.18 181.072C1331.95 181.355 1331.64 181.549 1331.26 181.656L1332.63 184H1331.78ZM1329.42 179.088V181.064H1330.72C1331.03 181.064 1331.28 180.973 1331.48 180.792C1331.68 180.605 1331.78 180.373 1331.78 180.096C1331.78 179.803 1331.68 179.563 1331.48 179.376C1331.28 179.184 1331.03 179.088 1330.72 179.088H1329.42Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M1269.84 202.27C1266.49 202.27 1263.92 199.372 1263.92 195.574C1263.92 191.704 1266.62 188.77 1270.13 188.77C1271.77 188.77 1273.28 189.418 1274.21 190.138L1274.57 192.892H1274.14L1273.8 191.938C1272.97 189.616 1270.92 189.184 1269.88 189.184C1267.27 189.184 1265.25 191.794 1265.25 195.232C1265.25 198.868 1267.37 201.514 1270.27 201.514C1272.05 201.514 1273.01 200.506 1274.12 199.21L1274.43 199.534C1273.17 201.154 1271.87 202.27 1269.84 202.27ZM1277.47 191.146C1276.94 191.146 1276.53 190.75 1276.53 190.21C1276.53 189.688 1276.94 189.292 1277.47 189.292C1277.99 189.292 1278.38 189.688 1278.38 190.21C1278.38 190.75 1277.99 191.146 1277.47 191.146ZM1275.9 202V201.694L1276.8 201.64L1277.16 201.406V193.72L1275.9 193.54V193.288L1278.06 192.964H1278.29V201.406L1278.65 201.64L1279.55 201.694V202H1275.9ZM1282.94 202.162C1281.94 202.162 1281.49 201.46 1281.49 200.29V193.594H1279.85V193.252L1281.47 193.108L1282.31 190.444H1282.6V193.072L1284.71 193H1285V193.594H1282.6V200.146C1282.6 200.992 1282.76 201.46 1283.41 201.46C1283.88 201.46 1284.24 201.136 1284.67 200.668L1284.85 200.47L1285.1 200.74L1284.94 200.92C1284.19 201.784 1283.7 202.162 1282.94 202.162ZM1286.05 205.6V204.628H1286.28L1288.24 204.664C1288.66 204.394 1289.07 204.034 1289.45 203.026L1289.86 201.946L1286.44 193.594L1285.63 193.378V193.072H1289.41V193.378L1287.81 193.576V193.954L1290.38 200.488H1290.51L1293.01 193.954V193.576L1291.73 193.378V193.072H1294.43V193.378L1293.71 193.594L1290.19 202.594C1289.36 204.682 1288.12 205.6 1286.28 205.6H1286.05ZM1304.77 202.27C1301.42 202.27 1298.85 199.372 1298.85 195.574C1298.85 191.704 1301.55 188.77 1305.06 188.77C1306.69 188.77 1308.21 189.418 1309.14 190.138L1309.5 192.892H1309.07L1308.73 191.938C1307.9 189.616 1305.85 189.184 1304.8 189.184C1302.19 189.184 1300.18 191.794 1300.18 195.232C1300.18 198.868 1302.3 201.514 1305.2 201.514C1306.98 201.514 1307.94 200.506 1309.05 199.21L1309.36 199.534C1308.1 201.154 1306.8 202.27 1304.77 202.27ZM1314.49 202.27C1312.38 202.27 1310.74 200.434 1310.74 197.68C1310.74 194.782 1312.42 192.802 1314.65 192.802C1316.57 192.802 1317.94 194.278 1317.87 197.068H1311.82V197.14C1311.82 199.66 1313.05 201.46 1314.95 201.46C1315.96 201.46 1316.75 200.92 1317.47 199.876L1317.74 200.092C1316.97 201.442 1315.89 202.27 1314.49 202.27ZM1311.84 196.6H1316.63C1316.68 194.638 1315.82 193.234 1314.36 193.234C1312.97 193.234 1311.98 194.566 1311.84 196.6ZM1324.17 202V201.694L1325.13 201.64L1325.5 201.406V196.06C1325.5 194.548 1324.86 193.684 1323.7 193.684C1322.89 193.684 1322.23 194.17 1321.62 195.286L1321.2 196.078V201.406L1321.58 201.64L1322.55 201.694V202H1318.81V201.694L1319.71 201.64L1320.07 201.406V193.72L1318.81 193.54V193.288L1320.97 192.964H1321.2L1321.15 194.512L1321.11 195.646H1321.15L1321.36 195.16C1322.05 193.612 1322.97 192.856 1324.21 192.856C1325.74 192.856 1326.62 193.954 1326.62 195.898V201.406L1326.96 201.64L1327.81 201.694V202H1324.17ZM1331.05 202.162C1330.05 202.162 1329.6 201.46 1329.6 200.29V193.594H1327.96V193.252L1329.58 193.108L1330.42 190.444H1330.71V193.072L1332.82 193H1333.11V193.594H1330.71V200.146C1330.71 200.992 1330.87 201.46 1331.52 201.46C1331.99 201.46 1332.35 201.136 1332.78 200.668L1332.96 200.47L1333.21 200.74L1333.05 200.92C1332.3 201.784 1331.81 202.162 1331.05 202.162ZM1337.81 202.27C1335.71 202.27 1334.07 200.434 1334.07 197.68C1334.07 194.782 1335.74 192.802 1337.97 192.802C1339.9 192.802 1341.27 194.278 1341.2 197.068H1335.15V197.14C1335.15 199.66 1336.37 201.46 1338.28 201.46C1339.29 201.46 1340.08 200.92 1340.8 199.876L1341.07 200.092C1340.3 201.442 1339.22 202.27 1337.81 202.27ZM1335.17 196.6H1339.95C1340.01 194.638 1339.14 193.234 1337.69 193.234C1336.3 193.234 1335.31 194.566 1335.17 196.6ZM1342.24 202V201.694L1343.09 201.64L1343.41 201.406V193.72L1342.15 193.54V193.288L1344.31 192.964H1344.55L1344.49 194.512L1344.44 195.862H1344.51L1344.89 194.944C1345.46 193.54 1346.33 192.982 1347.5 192.982H1348.09V194.152H1347.17C1346.17 194.152 1345.55 194.44 1345.03 195.376L1344.55 196.402V201.406L1345.16 201.64L1346.69 201.694V202H1342.24Z"
+                                                fill="#758535" />
+                                            <foreignObject x="962" y="233" width="31" height="31">
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    style="clip-path:url(#bgblur_7_5849_1607_clip_path);height:100%;width:100%">
+                                                </div>
+                                            </foreignObject>
+                                            <g>
+                                                <rect x="965" y="236" width="25" height="25" rx="12.5" fill="#758535" />
+                                                <path
+                                                    d="M971.752 246.064L973.816 244.6H974.632V253H973.528V245.992L972.268 246.892L971.752 246.064ZM980.041 247.348C981.625 247.348 982.885 248.584 982.885 250.252C982.885 251.872 981.613 253.132 979.981 253.132C978.325 253.132 977.077 251.872 977.077 250.252C977.077 249.256 977.557 248.5 977.881 248.032L980.173 244.6H981.361L979.429 247.432C979.585 247.384 979.801 247.348 980.041 247.348ZM979.981 252.112C980.977 252.112 981.781 251.356 981.781 250.228C981.781 249.1 980.977 248.356 979.981 248.356C978.961 248.356 978.181 249.1 978.181 250.228C978.181 251.356 978.961 252.112 979.981 252.112Z"
+                                                    fill="#F5E8D1" />
+                                            </g>
+                                            <path
+                                                d="M1003.37 240.904L1005.38 236.4H1006.05V242H1005.33V238.08L1003.57 242H1003.14L1001.39 238.112V242H1000.66V236.4H1001.36L1003.37 240.904ZM1008.75 242H1008.01V236.4H1008.75V242ZM1014.26 240.696V236.4H1014.99V242H1014.3L1011.45 237.704V242H1010.73V236.4H1011.41L1014.26 240.696ZM1019 242.088C1018.59 242.088 1018.23 241.997 1017.91 241.816C1017.6 241.629 1017.35 241.376 1017.18 241.056C1017 240.731 1016.92 240.363 1016.92 239.952V236.4H1017.66V239.952C1017.66 240.389 1017.78 240.739 1018.02 241C1018.27 241.261 1018.59 241.392 1019 241.392C1019.4 241.392 1019.73 241.261 1019.98 241C1020.22 240.739 1020.34 240.389 1020.34 239.952V236.4H1021.08V239.952C1021.08 240.363 1020.99 240.731 1020.82 241.056C1020.64 241.376 1020.4 241.629 1020.09 241.816C1019.77 241.997 1019.41 242.088 1019 242.088ZM1024.9 242H1024.17V237.096H1022.47V236.4H1026.6V237.096H1024.9V242ZM1028.76 239.464V241.312H1031.68V242H1028.03V236.4H1031.6V237.088H1028.76V238.784H1031.3V239.464H1028.76ZM1034.95 242.088C1034.56 242.088 1034.23 242.013 1033.93 241.864C1033.64 241.715 1033.42 241.507 1033.26 241.24C1033.1 240.973 1033.01 240.669 1032.99 240.328H1033.72C1033.75 240.664 1033.87 240.931 1034.08 241.128C1034.3 241.32 1034.59 241.416 1034.96 241.416C1035.32 241.416 1035.6 241.336 1035.79 241.176C1035.99 241.011 1036.08 240.8 1036.08 240.544C1036.08 240.347 1036.03 240.184 1035.91 240.056C1035.8 239.923 1035.65 239.816 1035.48 239.736C1035.32 239.656 1035.09 239.565 1034.79 239.464C1034.43 239.347 1034.14 239.235 1033.92 239.128C1033.7 239.016 1033.51 238.856 1033.36 238.648C1033.2 238.44 1033.12 238.171 1033.12 237.84C1033.12 237.547 1033.19 237.285 1033.33 237.056C1033.48 236.821 1033.68 236.64 1033.95 236.512C1034.21 236.379 1034.53 236.312 1034.89 236.312C1035.25 236.312 1035.57 236.387 1035.84 236.536C1036.12 236.685 1036.33 236.891 1036.48 237.152C1036.63 237.413 1036.72 237.707 1036.73 238.032H1036C1035.98 237.717 1035.87 237.464 1035.67 237.272C1035.47 237.08 1035.21 236.984 1034.89 236.984C1034.57 236.984 1034.31 237.064 1034.13 237.224C1033.95 237.384 1033.86 237.589 1033.86 237.84C1033.86 238.032 1033.91 238.189 1034.02 238.312C1034.13 238.435 1034.27 238.533 1034.44 238.608C1034.61 238.683 1034.83 238.765 1035.12 238.856C1035.48 238.979 1035.78 239.096 1036 239.208C1036.23 239.315 1036.42 239.475 1036.58 239.688C1036.74 239.901 1036.82 240.181 1036.82 240.528C1036.82 240.992 1036.65 241.368 1036.32 241.656C1036 241.944 1035.54 242.088 1034.95 242.088ZM1044.05 239.008C1044.29 239.088 1044.52 239.245 1044.73 239.48C1044.94 239.709 1045.05 240.013 1045.05 240.392C1045.05 240.696 1044.97 240.971 1044.83 241.216C1044.68 241.456 1044.47 241.648 1044.19 241.792C1043.92 241.931 1043.61 242 1043.27 242H1041.07V236.4H1043.18C1043.5 236.4 1043.78 236.467 1044.03 236.6C1044.28 236.728 1044.48 236.904 1044.62 237.128C1044.76 237.347 1044.83 237.592 1044.83 237.864C1044.83 238.168 1044.75 238.416 1044.59 238.608C1044.44 238.795 1044.26 238.928 1044.05 239.008ZM1041.8 237.056V238.736H1043.14C1043.43 238.736 1043.65 238.659 1043.83 238.504C1044 238.344 1044.09 238.139 1044.09 237.888C1044.09 237.643 1044 237.443 1043.83 237.288C1043.65 237.133 1043.43 237.056 1043.14 237.056H1041.8ZM1043.23 241.344C1043.55 241.344 1043.81 241.251 1044.01 241.064C1044.21 240.877 1044.31 240.64 1044.31 240.352C1044.31 240.069 1044.21 239.835 1044.01 239.648C1043.81 239.461 1043.55 239.368 1043.23 239.368H1041.8V241.344H1043.23ZM1048.08 239.088L1049.49 236.4H1050.27L1048.43 239.84V242H1047.69V239.84L1045.86 236.4H1046.67L1048.08 239.088ZM1056.21 242.088C1055.74 242.088 1055.3 241.963 1054.9 241.712C1054.49 241.456 1054.17 241.109 1053.93 240.672C1053.69 240.229 1053.57 239.739 1053.57 239.2C1053.57 238.661 1053.69 238.173 1053.93 237.736C1054.17 237.293 1054.49 236.947 1054.9 236.696C1055.3 236.44 1055.74 236.312 1056.21 236.312C1056.61 236.312 1056.97 236.403 1057.3 236.584C1057.64 236.76 1057.92 237 1058.14 237.304C1058.36 237.608 1058.52 237.944 1058.6 238.312H1057.85C1057.73 237.939 1057.53 237.629 1057.25 237.384C1056.97 237.133 1056.62 237.008 1056.21 237.008C1055.88 237.008 1055.56 237.101 1055.27 237.288C1054.98 237.475 1054.75 237.736 1054.57 238.072C1054.4 238.403 1054.31 238.779 1054.31 239.2C1054.31 239.621 1054.4 240 1054.57 240.336C1054.75 240.667 1054.98 240.925 1055.27 241.112C1055.56 241.299 1055.88 241.392 1056.21 241.392C1056.63 241.392 1056.99 241.269 1057.28 241.024C1057.56 240.779 1057.77 240.469 1057.89 240.096H1058.64C1058.55 240.459 1058.39 240.792 1058.16 241.096C1057.94 241.4 1057.66 241.643 1057.32 241.824C1056.99 242 1056.62 242.088 1056.21 242.088ZM1064.36 242H1063.57L1063.09 240.656H1060.67L1060.18 242H1059.43L1061.54 236.4H1062.25L1064.36 242ZM1062.83 239.976L1061.88 237.392L1060.93 239.976H1062.83ZM1068.78 242L1067.51 239.744H1066.42V242H1065.68V236.4H1067.73C1068.06 236.4 1068.37 236.475 1068.64 236.624C1068.92 236.773 1069.13 236.976 1069.29 237.232C1069.44 237.488 1069.52 237.773 1069.52 238.088C1069.52 238.461 1069.4 238.789 1069.18 239.072C1068.95 239.355 1068.64 239.549 1068.26 239.656L1069.63 242H1068.78ZM1066.42 237.088V239.064H1067.72C1068.03 239.064 1068.28 238.973 1068.48 238.792C1068.68 238.605 1068.78 238.373 1068.78 238.096C1068.78 237.803 1068.68 237.563 1068.48 237.376C1068.28 237.184 1068.03 237.088 1067.72 237.088H1066.42Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M1000.76 260V259.694L1001.76 259.64L1002.16 259.406V247.634L1001.76 247.4L1000.76 247.346V247.04H1006.12C1008.98 247.04 1010.6 248.246 1010.6 250.154C1010.6 251.972 1009.22 253.052 1007.15 253.178V253.25C1009.65 253.34 1011.14 254.546 1011.14 256.526C1011.14 258.668 1009.38 260 1006.34 260H1000.76ZM1003.4 259.496H1006.23C1008.46 259.496 1009.81 258.308 1009.81 256.49C1009.81 254.672 1008.39 253.52 1006.1 253.52H1003.4V259.496ZM1003.4 253.088H1006.05C1008.1 253.088 1009.36 252.062 1009.36 250.334C1009.36 248.606 1008.08 247.526 1005.8 247.526H1003.4V253.088ZM1015.65 260.216C1014.16 260.216 1013.31 259.136 1013.31 257.174V251.594L1012.18 251.432V251.162L1014.21 251H1014.44V257.066C1014.44 258.596 1015.04 259.424 1016.1 259.424C1016.93 259.424 1017.59 258.902 1018.17 257.768L1018.55 257.012V251.612L1017.22 251.432V251.162L1019.41 251H1019.68V259.406L1019.97 259.55L1020.82 259.658V259.928L1018.82 260.054H1018.55L1018.6 259.01L1018.66 257.318H1018.62L1018.4 257.876C1017.81 259.352 1016.96 260.216 1015.65 260.216ZM1025.12 260.234C1024.01 260.234 1022.98 259.82 1022.17 259.298L1021.94 256.922H1022.37L1022.51 257.426C1022.89 258.992 1023.88 259.784 1025.28 259.784C1026.42 259.784 1027.25 259.118 1027.25 258.218C1027.25 257.516 1026.78 256.922 1025.79 256.4L1023.84 255.392C1022.76 254.834 1022.17 254.078 1022.17 253.106C1022.17 251.63 1023.59 250.838 1025.12 250.838C1026.11 250.838 1027.1 251.18 1027.88 251.756L1028.11 254.024H1027.71L1027.55 253.556C1027.17 252.098 1026.27 251.27 1024.98 251.27C1023.81 251.27 1023.16 251.846 1023.16 252.71C1023.16 253.394 1023.59 253.952 1024.46 254.402L1026.4 255.392C1027.61 256.004 1028.24 256.832 1028.24 257.822C1028.24 259.262 1026.87 260.234 1025.12 260.234ZM1030.97 249.146C1030.45 249.146 1030.03 248.75 1030.03 248.21C1030.03 247.688 1030.45 247.292 1030.97 247.292C1031.49 247.292 1031.89 247.688 1031.89 248.21C1031.89 248.75 1031.49 249.146 1030.97 249.146ZM1029.4 260V259.694L1030.3 259.64L1030.66 259.406V251.72L1029.4 251.54V251.288L1031.56 250.964H1031.8V259.406L1032.16 259.64L1033.06 259.694V260H1029.4ZM1039.55 260V259.694L1040.5 259.64L1040.88 259.406V254.06C1040.88 252.548 1040.23 251.684 1039.08 251.684C1038.27 251.684 1037.61 252.17 1036.99 253.286L1036.58 254.078V259.406L1036.96 259.64L1037.93 259.694V260H1034.19V259.694L1035.09 259.64L1035.45 259.406V251.72L1034.19 251.54V251.288L1036.35 250.964H1036.58L1036.53 252.512L1036.49 253.646H1036.53L1036.74 253.16C1037.43 251.612 1038.34 250.856 1039.59 250.856C1041.12 250.856 1042 251.954 1042 253.898V259.406L1042.34 259.64L1043.19 259.694V260H1039.55ZM1047.64 260.27C1045.53 260.27 1043.89 258.434 1043.89 255.68C1043.89 252.782 1045.57 250.802 1047.8 250.802C1049.72 250.802 1051.09 252.278 1051.02 255.068H1044.97V255.14C1044.97 257.66 1046.2 259.46 1048.1 259.46C1049.11 259.46 1049.9 258.92 1050.62 257.876L1050.89 258.092C1050.12 259.442 1049.04 260.27 1047.64 260.27ZM1044.99 254.6H1049.78C1049.83 252.638 1048.97 251.234 1047.51 251.234C1046.12 251.234 1045.13 252.566 1044.99 254.6ZM1055.53 260.234C1054.42 260.234 1053.39 259.82 1052.58 259.298L1052.35 256.922H1052.78L1052.92 257.426C1053.3 258.992 1054.29 259.784 1055.69 259.784C1056.83 259.784 1057.66 259.118 1057.66 258.218C1057.66 257.516 1057.19 256.922 1056.2 256.4L1054.25 255.392C1053.17 254.834 1052.58 254.078 1052.58 253.106C1052.58 251.63 1054 250.838 1055.53 250.838C1056.52 250.838 1057.51 251.18 1058.29 251.756L1058.52 254.024H1058.12L1057.96 253.556C1057.58 252.098 1056.68 251.27 1055.39 251.27C1054.22 251.27 1053.57 251.846 1053.57 252.71C1053.57 253.394 1054 253.952 1054.87 254.402L1056.81 255.392C1058.02 256.004 1058.65 256.832 1058.65 257.822C1058.65 259.262 1057.28 260.234 1055.53 260.234ZM1063.27 260.234C1062.15 260.234 1061.13 259.82 1060.32 259.298L1060.08 256.922H1060.51L1060.66 257.426C1061.04 258.992 1062.03 259.784 1063.43 259.784C1064.56 259.784 1065.39 259.118 1065.39 258.218C1065.39 257.516 1064.92 256.922 1063.93 256.4L1061.99 255.392C1060.91 254.834 1060.32 254.078 1060.32 253.106C1060.32 251.63 1061.74 250.838 1063.27 250.838C1064.26 250.838 1065.25 251.18 1066.02 251.756L1066.26 254.024H1065.86L1065.7 253.556C1065.32 252.098 1064.42 251.27 1063.12 251.27C1061.95 251.27 1061.31 251.846 1061.31 252.71C1061.31 253.394 1061.74 253.952 1062.6 254.402L1064.55 255.392C1065.75 256.004 1066.38 256.832 1066.38 257.822C1066.38 259.262 1065.01 260.234 1063.27 260.234ZM1077.06 260.27C1073.72 260.27 1071.14 257.372 1071.14 253.574C1071.14 249.704 1073.84 246.77 1077.35 246.77C1078.99 246.77 1080.5 247.418 1081.44 248.138L1081.8 250.892H1081.37L1081.02 249.938C1080.2 247.616 1078.14 247.184 1077.1 247.184C1074.49 247.184 1072.47 249.794 1072.47 253.232C1072.47 256.868 1074.6 259.514 1077.5 259.514C1079.28 259.514 1080.23 258.506 1081.35 257.21L1081.65 257.534C1080.39 259.154 1079.1 260.27 1077.06 260.27ZM1086.78 260.27C1084.68 260.27 1083.04 258.434 1083.04 255.68C1083.04 252.782 1084.71 250.802 1086.94 250.802C1088.87 250.802 1090.24 252.278 1090.17 255.068H1084.12V255.14C1084.12 257.66 1085.34 259.46 1087.25 259.46C1088.26 259.46 1089.05 258.92 1089.77 257.876L1090.04 258.092C1089.27 259.442 1088.19 260.27 1086.78 260.27ZM1084.14 254.6H1088.92C1088.98 252.638 1088.11 251.234 1086.66 251.234C1085.27 251.234 1084.28 252.566 1084.14 254.6ZM1096.47 260V259.694L1097.42 259.64L1097.8 259.406V254.06C1097.8 252.548 1097.15 251.684 1096 251.684C1095.19 251.684 1094.52 252.17 1093.91 253.286L1093.5 254.078V259.406L1093.88 259.64L1094.85 259.694V260H1091.1V259.694L1092 259.64L1092.36 259.406V251.72L1091.1 251.54V251.288L1093.26 250.964H1093.5L1093.44 252.512L1093.41 253.646H1093.44L1093.66 253.16C1094.34 251.612 1095.26 250.856 1096.5 250.856C1098.03 250.856 1098.92 251.954 1098.92 253.898V259.406L1099.26 259.64L1100.1 259.694V260H1096.47ZM1103.35 260.162C1102.34 260.162 1101.89 259.46 1101.89 258.29V251.594H1100.26V251.252L1101.88 251.108L1102.72 248.444H1103.01V251.072L1105.12 251H1105.4V251.594H1103.01V258.146C1103.01 258.992 1103.17 259.46 1103.82 259.46C1104.29 259.46 1104.65 259.136 1105.08 258.668L1105.26 258.47L1105.51 258.74L1105.35 258.92C1104.59 259.784 1104.11 260.162 1103.35 260.162ZM1110.11 260.27C1108 260.27 1106.36 258.434 1106.36 255.68C1106.36 252.782 1108.04 250.802 1110.27 250.802C1112.2 250.802 1113.56 252.278 1113.49 255.068H1107.44V255.14C1107.44 257.66 1108.67 259.46 1110.58 259.46C1111.58 259.46 1112.38 258.92 1113.1 257.876L1113.37 258.092C1112.59 259.442 1111.51 260.27 1110.11 260.27ZM1107.46 254.6H1112.25C1112.3 252.638 1111.44 251.234 1109.98 251.234C1108.6 251.234 1107.61 252.566 1107.46 254.6ZM1114.54 260V259.694L1115.38 259.64L1115.71 259.406V251.72L1114.45 251.54V251.288L1116.61 250.964H1116.84L1116.79 252.512L1116.73 253.862H1116.81L1117.18 252.944C1117.76 251.54 1118.62 250.982 1119.79 250.982H1120.39V252.152H1119.47C1118.46 252.152 1117.85 252.44 1117.33 253.376L1116.84 254.402V259.406L1117.45 259.64L1118.98 259.694V260H1114.54Z"
+                                                fill="#758535" />
+                                            <foreignObject x="408" y="442" width="31" height="31">
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    style="clip-path:url(#bgblur_8_5849_1607_clip_path);height:100%;width:100%">
+                                                </div>
+                                            </foreignObject>
+                                            <g>
+                                                <rect x="411" y="445" width="25" height="25" rx="12.5" fill="#758535" />
+                                                <path
+                                                    d="M424.92 457.5C425.472 457.764 426.3 458.424 426.3 459.612C426.3 460.968 425.184 462.132 423.396 462.132C421.596 462.132 420.492 460.968 420.492 459.612C420.492 458.424 421.308 457.764 421.872 457.5C421.428 457.212 420.828 456.648 420.828 455.724C420.828 454.5 421.86 453.468 423.396 453.468C424.932 453.468 425.964 454.5 425.964 455.724C425.964 456.648 425.364 457.212 424.92 457.5ZM423.396 454.464C422.496 454.464 421.908 455.028 421.908 455.772C421.908 456.516 422.496 457.068 423.396 457.068C424.296 457.068 424.872 456.516 424.872 455.772C424.872 455.028 424.296 454.464 423.396 454.464ZM423.396 461.136C424.548 461.136 425.208 460.452 425.208 459.588C425.208 458.736 424.548 458.052 423.396 458.052C422.244 458.052 421.572 458.736 421.572 459.588C421.572 460.452 422.244 461.136 423.396 461.136Z"
+                                                    fill="#F5E8D1" />
+                                            </g>
+                                            <path
+                                                d="M449.368 449.904L451.384 445.4H452.048V451H451.328V447.08L449.568 451H449.136L447.392 447.112V451H446.664V445.4H447.36L449.368 449.904ZM454.751 451H454.015V445.4H454.751V451ZM460.261 449.696V445.4H460.989V451H460.301L457.453 446.704V451H456.725V445.4H457.413L460.261 449.696ZM464.999 451.088C464.588 451.088 464.226 450.997 463.911 450.816C463.596 450.629 463.351 450.376 463.175 450.056C463.004 449.731 462.919 449.363 462.919 448.952V445.4H463.655V448.952C463.655 449.389 463.778 449.739 464.023 450C464.268 450.261 464.594 450.392 464.999 450.392C465.404 450.392 465.73 450.261 465.975 450C466.22 449.739 466.343 449.389 466.343 448.952V445.4H467.079V448.952C467.079 449.363 466.991 449.731 466.815 450.056C466.644 450.376 466.402 450.629 466.087 450.816C465.772 450.997 465.41 451.088 464.999 451.088ZM470.901 451H470.165V446.096H468.469V445.4H472.597V446.096H470.901V451ZM474.764 448.464V450.312H477.684V451H474.028V445.4H477.604V446.088H474.764V447.784H477.3V448.464H474.764ZM480.948 451.088C480.564 451.088 480.225 451.013 479.932 450.864C479.644 450.715 479.42 450.507 479.26 450.24C479.1 449.973 479.009 449.669 478.988 449.328H479.724C479.751 449.664 479.871 449.931 480.084 450.128C480.297 450.32 480.588 450.416 480.956 450.416C481.319 450.416 481.596 450.336 481.788 450.176C481.985 450.011 482.084 449.8 482.084 449.544C482.084 449.347 482.025 449.184 481.908 449.056C481.796 448.923 481.655 448.816 481.484 448.736C481.319 448.656 481.087 448.565 480.788 448.464C480.431 448.347 480.14 448.235 479.916 448.128C479.697 448.016 479.511 447.856 479.356 447.648C479.201 447.44 479.124 447.171 479.124 446.84C479.124 446.547 479.193 446.285 479.332 446.056C479.476 445.821 479.681 445.64 479.948 445.512C480.215 445.379 480.529 445.312 480.892 445.312C481.255 445.312 481.572 445.387 481.844 445.536C482.116 445.685 482.327 445.891 482.476 446.152C482.631 446.413 482.716 446.707 482.732 447.032H481.996C481.98 446.717 481.871 446.464 481.668 446.272C481.471 446.08 481.212 445.984 480.892 445.984C480.567 445.984 480.313 446.064 480.132 446.224C479.951 446.384 479.86 446.589 479.86 446.84C479.86 447.032 479.913 447.189 480.02 447.312C480.132 447.435 480.271 447.533 480.436 447.608C480.607 447.683 480.833 447.765 481.116 447.856C481.484 447.979 481.78 448.096 482.004 448.208C482.228 448.315 482.42 448.475 482.58 448.688C482.74 448.901 482.82 449.181 482.82 449.528C482.82 449.992 482.655 450.368 482.324 450.656C481.999 450.944 481.54 451.088 480.948 451.088ZM491.183 449.608L492.415 445.4H493.151L491.447 451H490.887L489.695 446.896L488.511 451H487.943L486.239 445.4H486.999L488.231 449.608L489.431 445.4H489.967L491.183 449.608ZM498.493 451H497.709L497.221 449.656H494.805L494.317 451H493.565L495.677 445.4H496.381L498.493 451ZM496.965 448.976L496.013 446.392L495.061 448.976H496.965ZM503.262 451H499.814V445.4H500.55V450.304H503.262V451ZM506.193 448.128L508.601 451H507.665L505.385 448.248V451H504.649V445.4H505.385V448.072L507.585 445.4H508.465L506.193 448.128Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M453.326 469.072L448.682 457.282V468.406L449.168 468.64L450.392 468.694V469H446.792V468.694L447.8 468.64L448.196 468.406V456.562L446.774 456.346V456.04H449.582L454.01 467.452H454.154L458.564 456.04H461.264V456.346L459.914 456.562V468.406L460.31 468.64L461.3 468.694V469H456.998V468.694L458.168 468.64L458.636 468.406V457.282L454.01 469.072H453.326ZM465.757 469.27C463.651 469.27 462.013 467.434 462.013 464.68C462.013 461.782 463.687 459.802 465.919 459.802C467.845 459.802 469.213 461.278 469.141 464.068H463.093V464.14C463.093 466.66 464.317 468.46 466.225 468.46C467.233 468.46 468.025 467.92 468.745 466.876L469.015 467.092C468.241 468.442 467.161 469.27 465.757 469.27ZM463.111 463.6H467.899C467.953 461.638 467.089 460.234 465.631 460.234C464.245 460.234 463.255 461.566 463.111 463.6ZM472.94 469.162C471.932 469.162 471.482 468.46 471.482 467.29V460.594H469.844V460.252L471.464 460.108L472.31 457.444H472.598V460.072L474.704 460H474.992V460.594H472.598V467.146C472.598 467.992 472.76 468.46 473.408 468.46C473.876 468.46 474.236 468.136 474.668 467.668L474.848 467.47L475.1 467.74L474.938 467.92C474.182 468.784 473.696 469.162 472.94 469.162ZM476.427 469V468.694L477.273 468.64L477.597 468.406V460.72L476.337 460.54V460.288L478.497 459.964H478.731L478.677 461.512L478.623 462.862H478.695L479.073 461.944C479.649 460.54 480.513 459.982 481.683 459.982H482.277V461.152H481.359C480.351 461.152 479.739 461.44 479.217 462.376L478.731 463.402V468.406L479.343 468.64L480.873 468.694V469H476.427ZM486.697 469.27C484.375 469.27 482.755 467.326 482.755 464.536C482.755 461.746 484.429 459.802 486.823 459.802C489.127 459.802 490.747 461.746 490.747 464.536C490.747 467.326 489.073 469.27 486.697 469.27ZM483.961 464.284C483.961 467.02 485.149 468.82 486.913 468.82C488.497 468.82 489.541 467.182 489.541 464.788C489.541 462.052 488.353 460.252 486.589 460.252C485.005 460.252 483.961 461.89 483.961 464.284ZM500.039 469.27C498.527 469.27 496.943 468.748 495.971 467.884L495.683 464.932H496.097L496.385 465.94C496.943 468.028 498.725 468.82 500.273 468.82C502.073 468.82 503.243 467.812 503.243 466.426C503.243 465.436 502.649 464.59 501.551 463.942L498.131 461.944C496.763 461.116 496.061 460.108 496.061 458.866C496.061 457.066 497.663 455.77 499.949 455.77C501.209 455.77 502.559 456.238 503.747 457.084L504.035 459.838H503.639L503.315 458.92C502.721 457.03 501.191 456.184 499.751 456.184C498.203 456.184 497.123 457.084 497.123 458.398C497.123 459.298 497.627 460.108 498.671 460.738L502.091 462.736C503.675 463.708 504.449 464.716 504.449 465.958C504.449 467.884 502.595 469.27 500.039 469.27ZM508.342 469.162C507.334 469.162 506.884 468.46 506.884 467.29V460.594H505.246V460.252L506.866 460.108L507.712 457.444H508V460.072L510.106 460H510.394V460.594H508V467.146C508 467.992 508.162 468.46 508.81 468.46C509.278 468.46 509.638 468.136 510.07 467.668L510.25 467.47L510.502 467.74L510.34 467.92C509.584 468.784 509.098 469.162 508.342 469.162ZM513.953 469.162C512.711 469.162 511.811 468.37 511.811 467.128C511.811 465.886 512.765 464.896 514.547 464.284L517.067 463.402V462.88C517.067 461.314 516.365 460.216 515.123 460.216C513.827 460.216 513.197 461.404 513.449 462.934H512.153C512.063 461.134 513.377 459.802 515.357 459.802C517.139 459.802 518.201 460.954 518.201 462.754V468.388L518.489 468.55L519.335 468.658V468.928L517.337 469.054H517.067L517.103 468.01L517.157 466.75H517.085C516.473 468.19 515.321 469.162 513.953 469.162ZM512.909 466.876C512.909 467.794 513.539 468.388 514.439 468.388C515.537 468.388 516.581 467.488 517.067 466.174V463.888L515.015 464.608C513.647 465.094 512.909 465.904 512.909 466.876ZM522.598 469.162C521.59 469.162 521.14 468.46 521.14 467.29V460.594H519.502V460.252L521.122 460.108L521.968 457.444H522.256V460.072L524.362 460H524.65V460.594H522.256V467.146C522.256 467.992 522.418 468.46 523.066 468.46C523.534 468.46 523.894 468.136 524.326 467.668L524.506 467.47L524.758 467.74L524.596 467.92C523.84 468.784 523.354 469.162 522.598 469.162ZM527.561 458.146C527.039 458.146 526.625 457.75 526.625 457.21C526.625 456.688 527.039 456.292 527.561 456.292C528.083 456.292 528.479 456.688 528.479 457.21C528.479 457.75 528.083 458.146 527.561 458.146ZM525.995 469V468.694L526.895 468.64L527.255 468.406V460.72L525.995 460.54V460.288L528.155 459.964H528.389V468.406L528.749 468.64L529.649 468.694V469H525.995ZM534.246 469.27C531.924 469.27 530.304 467.326 530.304 464.536C530.304 461.746 531.978 459.802 534.372 459.802C536.676 459.802 538.296 461.746 538.296 464.536C538.296 467.326 536.622 469.27 534.246 469.27ZM531.51 464.284C531.51 467.02 532.698 468.82 534.462 468.82C536.046 468.82 537.09 467.182 537.09 464.788C537.09 462.052 535.902 460.252 534.138 460.252C532.554 460.252 531.51 461.89 531.51 464.284ZM544.525 469V468.694L545.479 468.64L545.857 468.406V463.06C545.857 461.548 545.209 460.684 544.057 460.684C543.247 460.684 542.581 461.17 541.969 462.286L541.555 463.078V468.406L541.933 468.64L542.905 468.694V469H539.161V468.694L540.061 468.64L540.421 468.406V460.72L539.161 460.54V460.288L541.321 459.964H541.555L541.501 461.512L541.465 462.646H541.501L541.717 462.16C542.401 460.612 543.319 459.856 544.561 459.856C546.091 459.856 546.973 460.954 546.973 462.898V468.406L547.315 468.64L548.161 468.694V469H544.525Z"
+                                                fill="#758535" />
+                                            <foreignObject x="592" y="429" width="31" height="31">
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    style="clip-path:url(#bgblur_9_5849_1607_clip_path);height:100%;width:100%">
+                                                </div>
+                                            </foreignObject>
+                                            <g>
+                                                <rect x="595" y="432" width="25" height="25" rx="12.5" fill="#758535" />
+                                                <path
+                                                    d="M607.492 443.432C609.04 443.432 610.228 444.62 610.228 446.276C610.228 447.92 609.016 449.132 607.324 449.132C605.716 449.132 604.696 447.992 604.54 446.792H605.644C605.728 447.38 606.352 448.112 607.324 448.112C608.344 448.112 609.124 447.344 609.124 446.276C609.124 445.184 608.344 444.428 607.324 444.428C606.328 444.428 605.884 445.1 605.716 445.472H604.72L605.26 440.6H609.628V441.62H606.172L605.896 444.02C606.208 443.732 606.772 443.432 607.492 443.432Z"
+                                                    fill="#F5E8D1" />
+                                            </g>
+                                            <path
+                                                d="M633.368 436.904L635.384 432.4H636.048V438H635.328V434.08L633.568 438H633.136L631.392 434.112V438H630.664V432.4H631.36L633.368 436.904ZM638.751 438H638.015V432.4H638.751V438ZM644.261 436.696V432.4H644.989V438H644.301L641.453 433.704V438H640.725V432.4H641.413L644.261 436.696ZM648.999 438.088C648.588 438.088 648.226 437.997 647.911 437.816C647.596 437.629 647.351 437.376 647.175 437.056C647.004 436.731 646.919 436.363 646.919 435.952V432.4H647.655V435.952C647.655 436.389 647.778 436.739 648.023 437C648.268 437.261 648.594 437.392 648.999 437.392C649.404 437.392 649.73 437.261 649.975 437C650.22 436.739 650.343 436.389 650.343 435.952V432.4H651.079V435.952C651.079 436.363 650.991 436.731 650.815 437.056C650.644 437.376 650.402 437.629 650.087 437.816C649.772 437.997 649.41 438.088 648.999 438.088ZM654.901 438H654.165V433.096H652.469V432.4H656.597V433.096H654.901V438ZM658.764 435.464V437.312H661.684V438H658.028V432.4H661.604V433.088H658.764V434.784H661.3V435.464H658.764ZM664.948 438.088C664.564 438.088 664.225 438.013 663.932 437.864C663.644 437.715 663.42 437.507 663.26 437.24C663.1 436.973 663.009 436.669 662.988 436.328H663.724C663.751 436.664 663.871 436.931 664.084 437.128C664.297 437.32 664.588 437.416 664.956 437.416C665.319 437.416 665.596 437.336 665.788 437.176C665.985 437.011 666.084 436.8 666.084 436.544C666.084 436.347 666.025 436.184 665.908 436.056C665.796 435.923 665.655 435.816 665.484 435.736C665.319 435.656 665.087 435.565 664.788 435.464C664.431 435.347 664.14 435.235 663.916 435.128C663.697 435.016 663.511 434.856 663.356 434.648C663.201 434.44 663.124 434.171 663.124 433.84C663.124 433.547 663.193 433.285 663.332 433.056C663.476 432.821 663.681 432.64 663.948 432.512C664.215 432.379 664.529 432.312 664.892 432.312C665.255 432.312 665.572 432.387 665.844 432.536C666.116 432.685 666.327 432.891 666.476 433.152C666.631 433.413 666.716 433.707 666.732 434.032H665.996C665.98 433.717 665.871 433.464 665.668 433.272C665.471 433.08 665.212 432.984 664.892 432.984C664.567 432.984 664.313 433.064 664.132 433.224C663.951 433.384 663.86 433.589 663.86 433.84C663.86 434.032 663.913 434.189 664.02 434.312C664.132 434.435 664.271 434.533 664.436 434.608C664.607 434.683 664.833 434.765 665.116 434.856C665.484 434.979 665.78 435.096 666.004 435.208C666.228 435.315 666.42 435.475 666.58 435.688C666.74 435.901 666.82 436.181 666.82 436.528C666.82 436.992 666.655 437.368 666.324 437.656C665.999 437.944 665.54 438.088 664.948 438.088ZM674.049 435.008C674.295 435.088 674.521 435.245 674.729 435.48C674.943 435.709 675.049 436.013 675.049 436.392C675.049 436.696 674.975 436.971 674.825 437.216C674.676 437.456 674.465 437.648 674.193 437.792C673.921 437.931 673.612 438 673.265 438H671.065V432.4H673.177C673.497 432.4 673.783 432.467 674.033 432.6C674.284 432.728 674.479 432.904 674.617 433.128C674.756 433.347 674.825 433.592 674.825 433.864C674.825 434.168 674.748 434.416 674.593 434.608C674.439 434.795 674.257 434.928 674.049 435.008ZM671.801 433.056V434.736H673.137C673.425 434.736 673.655 434.659 673.825 434.504C674.001 434.344 674.089 434.139 674.089 433.888C674.089 433.643 674.001 433.443 673.825 433.288C673.655 433.133 673.425 433.056 673.137 433.056H671.801ZM673.225 437.344C673.545 437.344 673.807 437.251 674.009 437.064C674.212 436.877 674.313 436.64 674.313 436.352C674.313 436.069 674.212 435.835 674.009 435.648C673.807 435.461 673.545 435.368 673.225 435.368H671.801V437.344H673.225ZM678.078 435.088L679.486 432.4H680.27L678.43 435.84V438H677.694V435.84L675.862 432.4H676.67L678.078 435.088ZM686.211 438.088C685.742 438.088 685.304 437.963 684.899 437.712C684.494 437.456 684.171 437.109 683.931 436.672C683.691 436.229 683.571 435.739 683.571 435.2C683.571 434.661 683.691 434.173 683.931 433.736C684.171 433.293 684.494 432.947 684.899 432.696C685.304 432.44 685.742 432.312 686.211 432.312C686.606 432.312 686.968 432.403 687.299 432.584C687.635 432.76 687.915 433 688.139 433.304C688.363 433.608 688.518 433.944 688.603 434.312H687.851C687.734 433.939 687.534 433.629 687.251 433.384C686.968 433.133 686.622 433.008 686.211 433.008C685.875 433.008 685.56 433.101 685.267 433.288C684.979 433.475 684.747 433.736 684.571 434.072C684.395 434.403 684.307 434.779 684.307 435.2C684.307 435.621 684.395 436 684.571 436.336C684.747 436.667 684.979 436.925 685.267 437.112C685.56 437.299 685.875 437.392 686.211 437.392C686.632 437.392 686.987 437.269 687.275 437.024C687.563 436.779 687.768 436.469 687.891 436.096H688.643C688.552 436.459 688.392 436.792 688.163 437.096C687.939 437.4 687.659 437.643 687.323 437.824C686.987 438 686.616 438.088 686.211 438.088ZM694.358 438H693.574L693.086 436.656H690.67L690.182 438H689.43L691.542 432.4H692.246L694.358 438ZM692.83 435.976L691.878 433.392L690.926 435.976H692.83ZM698.775 438L697.511 435.744H696.415V438H695.679V432.4H697.727C698.063 432.4 698.367 432.475 698.639 432.624C698.917 432.773 699.133 432.976 699.287 433.232C699.442 433.488 699.519 433.773 699.519 434.088C699.519 434.461 699.405 434.789 699.175 435.072C698.946 435.355 698.642 435.549 698.263 435.656L699.631 438H698.775ZM696.415 433.088V435.064H697.719C698.029 435.064 698.282 434.973 698.479 434.792C698.682 434.605 698.783 434.373 698.783 434.096C698.783 433.803 698.682 433.563 698.479 433.376C698.282 433.184 698.029 433.088 697.719 433.088H696.415Z"
+                                                fill="#758535" />
+                                            <path
+                                                d="M630.756 456V455.694L631.764 455.64L632.16 455.406V443.634L631.764 443.4L630.756 443.346V443.04H635.076V443.346L633.906 443.4L633.438 443.634V449.124H639.918V443.634L639.45 443.4L638.262 443.346V443.04H642.582V443.346L641.592 443.4L641.196 443.634V455.406L641.592 455.64L642.582 455.694V456H638.262V455.694L639.45 455.64L639.918 455.406V449.61H633.438V455.406L633.906 455.64L635.076 455.694V456H630.756ZM645.502 445.146C644.98 445.146 644.566 444.75 644.566 444.21C644.566 443.688 644.98 443.292 645.502 443.292C646.024 443.292 646.42 443.688 646.42 444.21C646.42 444.75 646.024 445.146 645.502 445.146ZM643.936 456V455.694L644.836 455.64L645.196 455.406V447.72L643.936 447.54V447.288L646.096 446.964H646.33V455.406L646.69 455.64L647.59 455.694V456H643.936ZM651.727 459.816C649.603 459.816 648.415 458.988 648.415 457.728C648.415 456.846 649.045 456.108 650.017 455.532L650.431 455.28C649.693 454.92 649.441 454.146 650.017 453.156L650.359 452.436C649.477 451.932 648.937 451.05 648.937 449.97C648.937 448.098 650.449 446.802 652.573 446.802C653.203 446.802 653.779 446.928 654.265 447.144C654.931 446.766 655.867 446.406 656.785 446.316H656.929V447.27H654.517C655.435 447.774 655.993 448.674 655.993 449.79C655.993 451.644 654.499 452.94 652.375 452.94C651.763 452.94 651.205 452.832 650.737 452.634L650.629 453.264C650.521 453.804 650.557 454.272 650.701 454.542H654.571C656.137 454.542 657.073 455.172 657.073 456.36C657.073 458.16 654.859 459.816 651.727 459.816ZM649.441 457.53C649.441 458.646 650.449 459.366 652.105 459.366C654.337 459.366 656.047 458.196 656.047 456.864C656.047 456 655.327 455.496 654.103 455.496H651.457C651.205 455.496 650.953 455.46 650.755 455.406L650.377 455.784C649.801 456.324 649.441 456.864 649.441 457.53ZM650.071 449.718C650.071 451.374 651.169 452.526 652.591 452.526C653.941 452.526 654.877 451.482 654.877 450.042C654.877 448.368 653.761 447.216 652.357 447.216C651.007 447.216 650.071 448.26 650.071 449.718ZM658.388 456V455.694L659.288 455.64L659.648 455.406V443.346L658.208 443.148V442.896L660.512 442.572H660.764V449.538L660.926 449.16C661.61 447.612 662.528 446.856 663.77 446.856C665.3 446.856 666.182 447.954 666.182 449.898V455.406L666.524 455.64L667.37 455.694V456H663.734V455.694L664.688 455.64L665.066 455.406V450.06C665.066 448.548 664.418 447.684 663.266 447.684C662.456 447.684 661.79 448.17 661.178 449.286L660.764 450.078V455.406L661.16 455.64L662.114 455.694V456H658.388ZM675.86 456.09L673.808 450.528L671.72 456.09H671.306L668.138 447.594L667.364 447.378V447.072H675.536V447.378L673.988 447.576V447.954L676.328 454.362H676.454L678.614 447.954V447.576L677.048 447.378V447.072H679.964V447.378L679.28 447.594L676.274 456.09H675.86ZM669.47 447.936L671.81 454.362H671.918L673.556 449.844L672.674 447.468H669.47V447.936ZM682.748 456.162C681.506 456.162 680.606 455.37 680.606 454.128C680.606 452.886 681.56 451.896 683.342 451.284L685.862 450.402V449.88C685.862 448.314 685.16 447.216 683.918 447.216C682.622 447.216 681.992 448.404 682.244 449.934H680.948C680.858 448.134 682.172 446.802 684.152 446.802C685.934 446.802 686.996 447.954 686.996 449.754V455.388L687.284 455.55L688.13 455.658V455.928L686.132 456.054H685.862L685.898 455.01L685.952 453.75H685.88C685.268 455.19 684.116 456.162 682.748 456.162ZM681.704 453.876C681.704 454.794 682.334 455.388 683.234 455.388C684.332 455.388 685.376 454.488 685.862 453.174V450.888L683.81 451.608C682.442 452.094 681.704 452.904 681.704 453.876ZM688.5 459.6V458.628H688.734L690.696 458.664C691.11 458.394 691.524 458.034 691.902 457.026L692.316 455.946L688.896 447.594L688.086 447.378V447.072H691.866V447.378L690.264 447.576V447.954L692.838 454.488H692.964L695.466 447.954V447.576L694.188 447.378V447.072H696.888V447.378L696.168 447.594L692.64 456.594C691.812 458.682 690.57 459.6 688.734 459.6H688.5Z"
+                                                fill="#758535" />
+                                            <foreignObject x="395" y="292" width="31" height="31">
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    style="clip-path:url(#bgblur_10_5849_1607_clip_path);height:100%;width:100%">
+                                                </div>
+                                            </foreignObject>
+                                            <g>
+                                                <rect x="398" y="295" width="25" height="25" rx="12.5" fill="#758535" />
+                                                <path
+                                                    d="M410.492 306.432C412.04 306.432 413.228 307.62 413.228 309.276C413.228 310.92 412.016 312.132 410.324 312.132C408.716 312.132 407.696 310.992 407.54 309.792H408.644C408.728 310.38 409.352 311.112 410.324 311.112C411.344 311.112 412.124 310.344 412.124 309.276C412.124 308.184 411.344 307.428 410.324 307.428C409.328 307.428 408.884 308.1 408.716 308.472H407.72L408.26 303.6H412.628V304.62H409.172L408.896 307.02C409.208 306.732 409.772 306.432 410.492 306.432Z"
+                                                    fill="#F5E8D1" />
+                                            </g>
+                                            <path
+                                                d="M444.122 346C457.444 346 468.243 356.8 468.243 370.121C468.243 382.538 458.86 392.761 446.798 394.093L444.121 396.771L441.443 394.093C429.382 392.76 420 382.537 420 370.121C420 356.799 430.8 346 444.122 346Z"
+                                                fill="#E0D1B6" />
+                                            <path
+                                                d="M444.122 346C457.444 346 468.243 356.8 468.243 370.121C468.243 382.538 458.86 392.761 446.798 394.093L444.121 396.771L441.443 394.093C429.382 392.76 420 382.537 420 370.121C420 356.799 430.8 346 444.122 346Z"
+                                                fill="#162D24" />
+                                            <path
+                                                d="M447.668 384.631C447.668 384.286 447.807 384.052 448.099 383.828H449.514C450.093 383.828 450.313 384.11 450.313 384.43C450.313 384.866 449.821 385.378 448.835 385.378C448.232 385.377 447.668 385.128 447.668 384.631ZM448.912 382.67C448.352 382.67 447.917 382.192 447.917 381.536C447.917 380.962 448.285 380.532 448.821 380.532C449.375 380.532 449.821 381.005 449.821 381.666C449.821 382.235 449.447 382.67 448.912 382.67ZM436.768 383.966C436.356 383.966 436.112 383.794 435.869 383.531V381.264C436.108 380.929 436.352 380.657 436.778 380.657C437.438 380.657 437.892 381.345 437.892 382.321C437.892 383.277 437.418 383.966 436.768 383.966ZM441.781 379.36C441.781 379.57 441.943 379.728 442.154 379.728C442.36 379.728 442.517 379.57 442.517 379.36C442.517 379.15 442.36 378.996 442.154 378.996C441.943 378.997 441.781 379.15 441.781 379.36ZM451.256 383.746C451.581 383.952 451.982 384.119 452.427 384.119C453.116 384.119 453.656 383.732 453.656 383.163C453.656 382.771 453.408 382.445 452.934 382.201L452.164 381.809C451.82 381.632 451.647 381.412 451.647 381.139C451.647 380.8 451.906 380.57 452.37 380.57C453.082 380.57 453.36 381.01 453.499 381.661H453.609L453.518 380.762C453.212 380.532 452.82 380.398 452.427 380.398C451.82 380.398 451.256 380.714 451.256 381.297C451.256 381.68 451.495 381.981 451.92 382.201L452.69 382.598C453.087 382.804 453.269 383.043 453.269 383.32C453.269 383.674 452.939 383.938 452.489 383.938C451.719 383.938 451.418 383.469 451.289 382.809H451.164L451.256 383.746ZM444.846 384.023V383.904C444.402 383.895 444.311 383.866 444.311 383.712V381.68L444.478 381.369C444.717 380.924 444.98 380.732 445.3 380.732C445.759 380.732 446.013 381.077 446.013 381.675V383.712C446.013 383.865 445.96 383.893 445.487 383.903V384.023H446.927V383.903C446.511 383.894 446.458 383.865 446.458 383.712V381.608C446.458 380.843 446.109 380.407 445.501 380.407C445.009 380.407 444.65 380.708 444.378 381.316L444.291 381.507H444.267L444.311 380.451H444.22L443.363 380.575V380.675L443.703 380.704C443.851 380.719 443.86 380.742 443.86 380.848V383.712C443.86 383.865 443.808 383.894 443.363 383.904V384.023H444.846ZM431.176 383.583C431.559 383.923 432.186 384.134 432.783 384.134C433.798 384.134 434.529 383.583 434.529 382.823C434.529 382.331 434.232 381.914 433.596 381.546L432.243 380.757C431.827 380.513 431.631 380.183 431.631 379.829C431.631 379.308 432.062 378.954 432.673 378.954C433.611 378.954 434.108 379.709 434.257 380.398H434.367L434.252 379.308C433.783 378.973 433.248 378.791 432.75 378.791C431.846 378.791 431.21 379.303 431.21 380.016C431.21 380.503 431.487 380.91 432.033 381.23L433.386 382.024C433.817 382.277 434.056 382.612 434.056 383.004C434.056 383.555 433.592 383.952 432.88 383.952C431.832 383.952 431.33 383.334 431.177 382.416H431.062L431.176 383.583ZM447.262 384.708C447.262 385.267 447.936 385.554 448.682 385.554C450.036 385.554 450.725 384.822 450.725 384.224C450.725 383.804 450.447 383.449 449.696 383.449H448.165C448.113 383.349 448.089 383.23 448.089 383.105C448.089 382.966 448.122 382.823 448.18 382.694C448.366 382.77 448.586 382.813 448.83 382.813C449.667 382.813 450.26 382.302 450.26 381.565C450.26 381.125 450.04 380.771 449.677 380.57H450.628V380.192H450.576C450.212 380.225 449.839 380.369 449.576 380.517C449.384 380.436 449.155 380.383 448.906 380.383C448.064 380.383 447.466 380.895 447.466 381.636C447.466 382.077 447.696 382.435 448.093 382.651C447.94 382.857 447.772 383.143 447.772 383.392C447.772 383.545 447.834 383.679 448.002 383.77C447.654 383.971 447.262 384.253 447.262 384.708ZM441.967 380.848V383.712C441.967 383.865 441.914 383.894 441.469 383.904V384.023H442.913V383.904C442.507 383.895 442.416 383.866 442.416 383.712V380.451H442.325L441.469 380.575V380.675L441.809 380.704C441.957 380.719 441.967 380.742 441.967 380.848ZM439.174 380.848V383.712C439.174 383.865 439.121 383.894 438.715 383.904V384.023H440.475V383.904C439.714 383.895 439.623 383.866 439.623 383.712V381.809L439.815 381.402C439.996 381.02 440.264 380.919 440.666 380.919H441.03V380.455H440.796C440.332 380.455 439.997 380.68 439.763 381.23L439.61 381.594H439.567L439.624 380.451H439.534L438.677 380.575V380.675L439.016 380.704C439.164 380.719 439.174 380.742 439.174 380.848ZM435.429 380.848V385.138C435.429 385.291 435.376 385.319 434.97 385.329V385.449H436.73V385.329C435.969 385.32 435.869 385.291 435.869 385.138V383.913C436.16 384.071 436.447 384.109 436.739 384.109C437.672 384.109 438.365 383.292 438.365 382.167C438.365 381.125 437.801 380.383 436.973 380.383C436.519 380.383 436.212 380.637 435.935 381.005L435.892 381.062H435.868V380.451H435.777L434.921 380.575V380.675L435.26 380.704C435.409 380.719 435.429 380.742 435.429 380.848Z"
+                                                fill="#F5E8D1" />
+                                            <path
+                                                d="M457.34 376.69H456.904L457.932 376.015V375.919H457.601L456.709 376.747L457.601 377.734H457.932V377.638L456.911 376.816H457.347C458.639 376.816 459.359 377.785 459.359 378.727C459.359 379.625 458.71 380.504 457.308 380.504C455.945 380.504 454.806 379.669 454.806 377.988H454.678C454.678 379.893 455.876 380.803 457.308 380.803C458.837 380.803 459.62 379.759 459.62 378.721C459.62 377.702 458.862 376.69 457.34 376.69Z"
+                                                fill="#F5E8D1" />
+                                            <path
+                                                d="M457.379 374.946C455.85 374.946 455.067 375.991 455.067 377.029C455.067 378.048 455.825 379.061 457.347 379.061H457.782L456.754 379.735V379.831H457.085L457.977 379.004L457.085 378.016H456.754V378.112L457.775 378.934H457.34C456.047 378.934 455.328 377.966 455.328 377.023C455.328 376.125 455.977 375.246 457.378 375.246C458.741 375.246 459.881 376.081 459.881 377.762H460.008C460.009 375.857 458.811 374.946 457.379 374.946Z"
+                                                fill="#F5E8D1" />
+                                            <path
+                                                d="M442.519 358.361H440.702C440.42 358.361 440.193 358.588 440.193 358.867V372.771H449.528V358.867C449.528 358.588 449.3 358.361 449.019 358.361H447.295H447.553"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M447.561 357.746V355.358H442.254V357.746M447.561 357.746H442.254M447.561 357.746V358.542M442.254 357.746L442.254 358.542"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M445.98 354.249H443.709V353.502C443.709 352.876 444.218 352.37 444.849 352.37C445.479 352.37 445.988 352.876 445.988 353.502V354.249H445.98Z"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M443.747 357.481V357.392C443.747 357.082 443.98 356.685 444.291 356.685H445.438C445.749 356.685 446.018 357.082 446.018 357.392V357.481"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M443.709 355.076V354.76C443.709 354.45 443.96 354.201 444.271 354.201H445.418C445.73 354.201 445.98 354.45 445.98 354.76V355.076"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M443.823 360.684V358.889C443.823 358.7 444.051 358.542 444.34 358.542H445.396C445.684 358.542 445.912 358.7 445.912 358.889V360.639"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M443.709 355.31H442.517V355.22C442.517 354.903 442.775 354.639 443.102 354.639H443.709V355.31Z"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M447.173 355.31H445.98V354.639H446.588C446.907 354.639 447.173 354.895 447.173 355.22V355.31Z"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path d="M449.938 372.771H436.091V374.258H449.938V372.771Z" stroke="#F5E8D1"
+                                                stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M449.506 360.458H447.455L447.295 360.699H445.989C445.913 360.564 445.7 360.458 445.45 360.458H444.287C444.029 360.458 443.816 360.564 443.748 360.699H442.556L442.396 360.458H440.186"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M449.528 363.294H447.317L447.158 363.535H446.011C445.935 363.4 445.722 363.294 445.472 363.294H444.309C444.051 363.294 443.838 363.4 443.77 363.535H442.578L442.418 363.294H440.208"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M449.528 365.784H447.317L447.158 366.026H446.011C445.935 365.89 445.722 365.784 445.472 365.784H444.309C444.051 365.784 443.838 365.89 443.77 366.026H442.578L442.418 365.784H440.208"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M449.528 368.274H447.317L447.158 368.516H446.011C445.935 368.38 445.722 368.274 445.472 368.274H444.309C444.051 368.274 443.838 368.38 443.77 368.516H442.578L442.418 368.274H440.208"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path
+                                                d="M449.528 370.765H447.317L447.158 371.006H446.011C445.935 370.87 445.722 370.765 445.472 370.765H444.309C444.051 370.765 443.838 370.87 443.77 371.006H442.578L442.418 370.765H440.208"
+                                                stroke="#F5E8D1" stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path d="M447.249 360.665L447.249 372.629" stroke="#F5E8D1"
+                                                stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path d="M442.539 360.665L442.539 372.72" stroke="#F5E8D1"
+                                                stroke-width="0.7" stroke-miterlimit="10" />
+                                            <path d="M447.249 370.666V371.3" stroke="#F5E8D1" stroke-width="0.7"
+                                                stroke-miterlimit="10" />
+                                            <path d="M437.695 372.779V374.258" stroke="#F5E8D1" stroke-width="0.7"
+                                                stroke-miterlimit="10" />
+                                            <path d="M439.817 372.779V374.258" stroke="#F5E8D1" stroke-width="0.7"
+                                                stroke-miterlimit="10" />
+                                            <path d="M441.94 372.779V374.258" stroke="#F5E8D1" stroke-width="0.7"
+                                                stroke-miterlimit="10" />
+                                            <path d="M444.063 372.779V374.258" stroke="#F5E8D1" stroke-width="0.7"
+                                                stroke-miterlimit="10" />
+                                            <path d="M446.185 372.779V374.258" stroke="#F5E8D1" stroke-width="0.7"
+                                                stroke-miterlimit="10" />
+                                            <path d="M448.308 372.779V374.258" stroke="#F5E8D1" stroke-width="0.7"
+                                                stroke-miterlimit="10" />
+                                            <path d="M446.018 360.665V372.847" stroke="#F5E8D1" stroke-width="0.7"
+                                                stroke-miterlimit="10" />
+                                            <path d="M443.747 360.665L443.747 372.847" stroke="#F5E8D1"
+                                                stroke-width="0.7" stroke-miterlimit="10" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="bgblur_2_5849_1607_clip_path"
+                                                transform="translate(-510 -345)">
+                                                <rect x="513" y="348" width="25" height="25" rx="12.5" />
+                                            </clipPath>
+                                            <clipPath id="bgblur_3_5849_1607_clip_path" transform="translate(-37 -85)">
+                                                <rect x="40" y="88" width="25" height="25" rx="12.5" />
+                                            </clipPath>
+                                            <clipPath id="bgblur_4_5849_1607_clip_path"
+                                                transform="translate(-349 -181)">
+                                                <rect x="352" y="184" width="25" height="25" rx="12.5" />
+                                            </clipPath>
+                                            <clipPath id="bgblur_5_5849_1607_clip_path"
+                                                transform="translate(-808 -358)">
+                                                <rect x="811" y="361" width="25" height="25" rx="12.5" />
+                                            </clipPath>
+                                            <clipPath id="bgblur_6_5849_1607_clip_path"
+                                                transform="translate(-1225 -175)">
+                                                <rect x="1228" y="178" width="25" height="25" rx="12.5" />
+                                            </clipPath>
+                                            <clipPath id="bgblur_7_5849_1607_clip_path"
+                                                transform="translate(-962 -233)">
+                                                <rect x="965" y="236" width="25" height="25" rx="12.5" />
+                                            </clipPath>
+                                            <clipPath id="bgblur_8_5849_1607_clip_path"
+                                                transform="translate(-408 -442)">
+                                                <rect x="411" y="445" width="25" height="25" rx="12.5" />
+                                            </clipPath>
+                                            <clipPath id="bgblur_9_5849_1607_clip_path"
+                                                transform="translate(-592 -429)">
+                                                <rect x="595" y="432" width="25" height="25" rx="12.5" />
+                                            </clipPath>
+                                            <clipPath id="bgblur_10_5849_1607_clip_path"
+                                                transform="translate(-395 -292)">
+                                                <rect x="398" y="295" width="25" height="25" rx="12.5" />
+                                            </clipPath>
+                                            <radialGradient id="paint0_radial_5849_1607" cx="0" cy="0" r="1"
+                                                gradientUnits="userSpaceOnUse"
+                                                gradientTransform="translate(684 296) rotate(90) scale(408.5 1300.55)">
+                                                <stop stop-color="#F5E8D1" stop-opacity="0" />
+                                                <stop offset="1" stop-color="#F5E8D1" />
+                                            </radialGradient>
+                                            <clipPath id="clip0_5849_1607">
+                                                <rect width="1368" height="640" fill="white" />
+                                            </clipPath>
+                                            <clipPath id="clip1_5849_1607">
+                                                <rect width="1369" height="786" fill="white"
+                                                    transform="translate(-1 -110)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <div class="lo-map__fade-container mx-auto">
+                                        <div class="lo-map__fade lo-map__fade--top is-hidden--md-down"></div>
+                                        <div class="lo-map__fade lo-map__fade--bottom is-hidden--md-down"></div>
+                                        <div class="lo-map__fade lo-map__fade--left is-hidden--md-down"></div>
+                                        <div class="lo-map__fade lo-map__fade--right is-hidden--md-down"></div>
+                                    </div>
+                                </div>
+                                <div class="lo-map__swipe">
+                                    <svg width="37" height="16" viewBox="0 0 37 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M32 4.85693L36 8.19027V8.85693V9.5236L32 12.8569" stroke="#162D24"
+                                            stroke-width="1.5" />
+                                        <path d="M5 4.85693L1 8.19027V8.85693L1 9.5236L5 12.8569" stroke="#162D24"
+                                            stroke-width="1.5" />
+                                        <path
+                                            d="M18.7407 1L19.3368 5.88463L24.037 6.87096L25 8.67741L23.0741 15H17.2963L12 9.58064L12.963 8.2258L16.4922 9.58064V1H18.7407Z"
+                                            stroke="#162D24" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="bevel" />
+                                    </svg>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--building js-location__pin is-hidden--md-down"
+                                    id="pin-10">
+                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
+                                        draggable="false">
+                                        <img data-src="assets/images/media/location/3.map/map-building.svg"
+                                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22105%22%20height=%22110%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20105%20110%22%3E%3C/svg%3E"
+                                            alt="" width="105" height="110" draggable="false">
+                                    </picture>
+                                    <noscript>
+                                        <picture class=" img-full" draggable="false">
+                                            <img src="assets/images/media/location/3.map/map-building.svg" alt=""
+                                                width="105" height="110" draggable="false">
+                                        </picture>
+                                    </noscript>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--info js-location__pin is-hidden--md-down"
+                                    id="pin-1" data-plugin="parallax" data-parallax-clamp="true"
+                                    data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-up"
+                                    data-parallax--80-0='{ "opacity": "0"}' data-parallax--100-0='{ "opacity": "1"}'
+                                    data-parallax--180-0='{ "opacity": "1"}' data-parallax--200-0='{ "opacity": "0"}'>
+                                    <div class="lo-map__pin-number leading-trim">
+                                        5
+                                    </div>
+                                    <div>
+                                        <div class="lo-map__pin-uptitle">
+                                            <span class="text-c1 leading-trim">
+                                                minute walk
+                                            </span>
+                                        </div>
+                                        <div class="lo-map__pin-title">
+                                            <span class="leading-trim">
+                                                River
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--info js-location__pin is-hidden--md-down"
+                                    id="pin-2" data-plugin="parallax" data-parallax-clamp="true"
+                                    data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-up"
+                                    data-parallax--80-0='{ "opacity": "0"}' data-parallax--100-0='{ "opacity": "1"}'
+                                    data-parallax--180-0='{ "opacity": "1"}' data-parallax--200-0='{ "opacity": "0"}'>
+                                    <div class="lo-map__pin-number leading-trim">
+                                        1
+                                    </div>
+                                    <div>
+                                        <div class="lo-map__pin-uptitle">
+                                            <span class="text-c1 leading-trim">
+                                                minute walk
+                                            </span>
+                                        </div>
+                                        <div class="lo-map__pin-title">
+                                            <span class="leading-trim">
+                                                Park
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--info js-location__pin is-hidden--md-down"
+                                    id="pin-3" data-plugin="parallax" data-parallax-clamp="true"
+                                    data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-up"
+                                    data-parallax--80-0='{ "opacity": "0"}' data-parallax--100-0='{ "opacity": "1"}'
+                                    data-parallax--180-0='{ "opacity": "1"}' data-parallax--200-0='{ "opacity": "0"}'>
+                                    <div class="lo-map__pin-number leading-trim">
+                                        8
+                                    </div>
+                                    <div>
+                                        <div class="lo-map__pin-uptitle">
+                                            <span class="text-c1 leading-trim">
+                                                minute walk
+                                            </span>
+                                        </div>
+                                        <div class="lo-map__pin-title">
+                                            <span class="leading-trim">
+                                                Metro Station
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--info is-hidden--md-down" id="pin-4"
+                                    style="--left: 30vw; --top: 42vh" data-plugin="parallax" data-parallax-clamp="true"
+                                    data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-up"
+                                    data-parallax--230-0='{ "opacity": "0"}' data-parallax--250-0='{ "opacity": "1"}'
+                                    data-parallax--280-0='{ "opacity": "1"}' data-parallax--300-0='{ "opacity": "0"}'>
+                                    <div class="lo-map__pin-number leading-trim">
+                                        7
+                                    </div>
+                                    <div>
+                                        <div class="lo-map__pin-uptitle">
+                                            <span class="text-c1 leading-trim">
+                                                minutes by&nbsp;car
+                                            </span>
+                                        </div>
+                                        <div class="lo-map__pin-title">
+                                            <span class="leading-trim">
+                                                Water Sport Center
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--info is-hidden--md-down" id="pin-5"
+                                    style="--left: 60vw; --top: 63vh" data-plugin="parallax" data-parallax-clamp="true"
+                                    data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-up"
+                                    data-parallax--230-0='{ "opacity": "0"}' data-parallax--250-0='{ "opacity": "1"}'
+                                    data-parallax--280-0='{ "opacity": "1"}' data-parallax--300-0='{ "opacity": "0"}'>
+                                    <div class="lo-map__pin-number leading-trim">
+                                        10
+                                    </div>
+                                    <div>
+                                        <div class="lo-map__pin-uptitle">
+                                            <span class="text-c1 leading-trim">
+                                                minutes by&nbsp;car
+                                            </span>
+                                        </div>
+                                        <div class="lo-map__pin-title">
+                                            <span class="leading-trim">
+                                                Historical Park
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--info is-hidden--md-down" id="pin-6"
+                                    style="--left: 38.2vw; --top: 74vh" data-plugin="parallax"
+                                    data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
+                                    data-parallax-enable-mq="md-up" data-parallax--230-0='{ "opacity": "0"}'
+                                    data-parallax--250-0='{ "opacity": "1"}' data-parallax--280-0='{ "opacity": "1"}'
+                                    data-parallax--300-0='{ "opacity": "0"}'>
+                                    <div class="lo-map__pin-number leading-trim">
+                                        5
+                                    </div>
+                                    <div>
+                                        <div class="lo-map__pin-uptitle">
+                                            <span class="text-c1 leading-trim">
+                                                minutes by&nbsp;car
+                                            </span>
+                                        </div>
+                                        <div class="lo-map__pin-title">
+                                            <span class="leading-trim">
+                                                Highway
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--info is-hidden--md-down " id="pin-7"
+                                    style="--left: 71.2vw; --top: 47vh" data-plugin="parallax"
+                                    data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
+                                    data-parallax-enable-mq="md-up" data-parallax--300-0='{ "opacity": "0"}'
+                                    data-parallax--350-0='{ "opacity": "1"}' data-parallax--450-0='{ "opacity": "1"}'>
+                                    <div class="lo-map__pin-number leading-trim">
+                                        16
+                                    </div>
+                                    <div>
+                                        <div class="lo-map__pin-uptitle">
+                                            <span class="text-c1 leading-trim">
+                                                minutes by&nbsp;car
+                                            </span>
+                                        </div>
+                                        <div class="lo-map__pin-title">
+                                            <span class="leading-trim">
+                                                Business Center
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--info is-hidden--md-down lo-map__pin--col"
+                                    id="pin-8" style="--left: 88vw; --top: 44vh" data-plugin="parallax"
+                                    data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
+                                    data-parallax-enable-mq="md-up" data-parallax--300-0='{ "opacity": "0"}'
+                                    data-parallax--350-0='{ "opacity": "1"}' data-parallax--450-0='{ "opacity": "1"}'>
+                                    <div class="lo-map__pin-number leading-trim">
+                                        20
+                                    </div>
+                                    <div>
+                                        <div class="lo-map__pin-uptitle">
+                                            <span class="text-c1 leading-trim">
+                                                minutes by&nbsp;car
+                                            </span>
+                                        </div>
+                                        <div class="lo-map__pin-title">
+                                            <span class="leading-trim">
+                                                City Center
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lo-map__pin lo-map__pin--info is-hidden--md-down " id="pin-9"
+                                    style="--left: 6vw; --top: 30vh" data-plugin="parallax" data-parallax-clamp="true"
+                                    data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-up"
+                                    data-parallax--300-0='{ "opacity": "0"}' data-parallax--350-0='{ "opacity": "1"}'
+                                    data-parallax--450-0='{ "opacity": "1"}'>
+                                    <div class="lo-map__pin-number leading-trim">
+                                        25
+                                    </div>
+                                    <div>
+                                        <div class="lo-map__pin-uptitle">
+                                            <span class="text-c1 leading-trim">
+                                                minutes by&nbsp;car
+                                            </span>
+                                        </div>
+                                        <div class="lo-map__pin-title">
+                                            <span class="leading-trim">
+                                                Suburb
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <?php $this->load->view('common/footer.php'); ?>
+            </div>
+            <div class="js-modal">
+                <div class="modal modal--full modal--split-animate ui-dark is-hidden" role="dialog" aria-hidden="true"
+                    aria-label="Заказать звонок" id="callback-modal" data-plugin="modal" data-modal-one-per-page="true"
+                    data-nosnippet>
+                    <div class="modal__background"></div>
+                    <div class="modal__animation">
+                        <div class="modal__scroller">
+                            <div class="modal__scroller__scrollable js-scroll-parent">
+                                <div class="modal__content-wrapper js-modal-scrollable-content">
+                                    <div
+                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
+                                            aria-label="Close" tabindex="0" role="button">
+                                            <span class="btn__content">
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-close" width="14" height="14"
+                                                        aria-hidden="true" viewBox="0 0 14 14"
+                                                        style="--icon-width: 14; --icon-height: 14;">
+                                                        <use href="assets/images/icons.svg#close"
+                                                            xlink:href="assets/images/icons.svg#close">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <div data-scroll-section>
+                                            <div class="l-callback row ui-dark js-callback"
+                                                data-plugin="tabs mouseAnimation" data-tabs-enable-mq="false"
+                                                data-tabs-animate-height="false"
+                                                data-mouse-animation-use-css-variable="false"
+                                                data-mouse-animation-target-selector=".l-callback__spiral picture"
+                                                data-mouse-animation-multiplier='[{"unit": "%", "value": -5}, {"unit": "px", "value": 0}]'
+                                                id="l-callback">
+                                                <div class="l-callback__background is-hidden--sm-down" data-scroll
+                                                    data-scroll-sticky data-scroll-target="#l-callback">
+                                                    <div class="l-callback__gradient background background--cover js-tree-canvas-container is-hidden--sm-down"
+                                                        data-plugin="webglTreeCallback">
+                                                        <canvas class="js-tree-canvas is-active"></canvas>
+                                                    </div>
+                                                    <div
+                                                        class="l-callback__spiral background background--cover is-hidden--md-down">
+                                                        <picture class="is-invisible--js is-hidden--no-js "
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="1080" height="900">
+                                                            <source
+                                                                data-srcset="assets/images/media/landing/callback/spiral@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="1080" height="900">
+                                                            <img data-src="assets/images/media/landing/callback/spiral@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                                                alt="" width="1080" height="900" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" " draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="1080" height="900">
+                                                                <source
+                                                                    srcset="assets/images/media/landing/callback/spiral@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="1080" height="900">
+                                                                <img src="assets/images/media/landing/callback/spiral%40md.webp"
+                                                                    alt="" width="1080" height="900" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                    <div class="l-callback__title-container col col--xs-4 col--md-6">
+                                                        <p class="l-callback__title h1 leading-trim js-form-content">
+                                                            Submit<br>
+                                                            a request
+                                                        </p>
+                                                        <div class="is-hidden js-form-success l-callback__success">
+                                                            <p class=" h1 leading-trim">
+                                                                Thank you for&nbsp;your request! We have received your
+                                                                application and will contact you soon!
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="l-callback__col col col--md-6 ui-dark ui-background mr-0 ml-auto px-layout py-layout js-form-content">
+                                                    <div class="l-callback__tablist" role="tablist"
+                                                        aria-labelledby="application">
+                                                        <a class="btn btn--outline btn--clone btn--md btn--text-small is-active"
+                                                            data-plugin=" button" data-button-clone-content="true"
+                                                            aria-controls="application" aria-selected="true"
+                                                            tabindex="0" role="tab">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    request
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                        <a class="btn btn--outline btn--clone btn--md btn--text-small"
+                                                            data-plugin=" button" data-button-clone-content="true"
+                                                            aria-controls="call" aria-selected="false" tabindex="0"
+                                                            role="tab">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    callback
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="tabs-contents">
+                                                        <div class="tabs-contents__content ui-background js-tab"
+                                                            id="application" role="tabpanel" aria-hidden="false">
+                                                            <form
+                                                                class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md"
+                                                                method="POST" action="api/contact.json"
+                                                                data-plugin="ajaxForm ajaxFormCalltouch recaptcha"
+                                                                data-recaptcha-type="yandex"
+                                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                                                data-ajax-form-loading-delay="1500"
+                                                                data-ajax-form-calltouch-title="Заявка"
+                                                                data-ajax-form-calltouch-site-id="">
+                                                                <div class="col col--xs-4 col--md-6 l-callback__form">
+                                                                    <input data-plugin="utmData" type="hidden"
+                                                                        name="utm" value="">
+                                                                    <input data-plugin="pagePathname" type="hidden"
+                                                                        name="currentPageLink" value="">
+                                                                    <div class="sr-only" data-plugin="inputBear ">
+                                                                        <label for="text-823593"
+                                                                            class="form-label text-c1 text-color-small leading-trim">
+                                                                            Message </label>
+                                                                        <input id="text-823593" name="message"
+                                                                            type="text" required value="">
+                                                                    </div>
+                                                                    <div class="l-callback__group">
+                                                                        <div class="col col--md-12 mb-2 mb-1:md">
+                                                                            <div class="form-control form-control--input form-control--float"
+                                                                                data-plugin="inputState">
+                                                                                <input id="text-301385" name="name"
+                                                                                    type="text" required
+                                                                                    placeholder="Name" maxlength="50"
+                                                                                    value="">
+                                                                                <label for="text-301385"
+                                                                                    class="form-label text-c1 text-color-small ">
+                                                                                    Name </label>
+                                                                                <svg class="icon icon-form-success form-control__success"
+                                                                                    width="20" height="20"
+                                                                                    aria-hidden="true"
+                                                                                    viewBox="0 0 20 20"
+                                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                                    <use href="assets/images/icons.svg#form-success"
+                                                                                        xlink:href="assets/images/icons.svg#form-success">
+                                                                                    </use>
+                                                                                </svg>
+                                                                                <svg class="icon icon-form-error form-control__error"
+                                                                                    width="20" height="20"
+                                                                                    aria-hidden="true"
+                                                                                    viewBox="0 0 20 20"
+                                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                                    <use href="assets/images/icons.svg#form-error"
+                                                                                        xlink:href="assets/images/icons.svg#form-error">
+                                                                                    </use>
+                                                                                </svg>
+                                                                                <span class="form-control__line"></span>
+                                                                                <span
+                                                                                    class="form-control__progress"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col col--md-12 mb-2 mb-1:md">
+                                                                            <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  inputMask" data-input-mask-mask="+# ### ### ## ##">
+                                                                                <input id="text-990470" name="phone"
+                                                                                    type="tel" required
+                                                                                    placeholder="Phone" maxlength="20"
+                                                                                    autocapitalize="none" value="">
+                                                                                <label for="text-990470"
+                                                                                    class="form-label text-c1 text-color-small ">
+                                                                                    Phone </label>
+                                                                                <svg class="icon icon-form-success form-control__success"
+                                                                                    width="20" height="20"
+                                                                                    aria-hidden="true"
+                                                                                    viewBox="0 0 20 20"
+                                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                                    <use href="assets/images/icons.svg#form-success"
+                                                                                        xlink:href="assets/images/icons.svg#form-success">
+                                                                                    </use>
+                                                                                </svg>
+                                                                                <svg class="icon icon-form-error form-control__error"
+                                                                                    width="20" height="20"
+                                                                                    aria-hidden="true"
+                                                                                    viewBox="0 0 20 20"
+                                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                                    <use href="assets/images/icons.svg#form-error"
+                                                                                        xlink:href="assets/images/icons.svg#form-error">
+                                                                                    </use>
+                                                                                </svg>
+                                                                                <span class="form-control__line"></span>
+                                                                                <span
+                                                                                    class="form-control__progress"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col col--md-12">
+                                                                            <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+                                                                                <input id="text-511107" name="message"
+                                                                                    type="text" required
+                                                                                    placeholder="Message"
+                                                                                    maxlength="500" value="">
+                                                                                <label for="text-511107"
+                                                                                    class="form-label text-c1 text-color-small ">
+                                                                                    Message </label>
+                                                                                <svg class="icon icon-form-success form-control__success"
+                                                                                    width="20" height="20"
+                                                                                    aria-hidden="true"
+                                                                                    viewBox="0 0 20 20"
+                                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                                    <use href="assets/images/icons.svg#form-success"
+                                                                                        xlink:href="assets/images/icons.svg#form-success">
+                                                                                    </use>
+                                                                                </svg>
+                                                                                <svg class="icon icon-form-error form-control__error"
+                                                                                    width="20" height="20"
+                                                                                    aria-hidden="true"
+                                                                                    viewBox="0 0 20 20"
+                                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                                    <use href="assets/images/icons.svg#form-error"
+                                                                                        xlink:href="assets/images/icons.svg#form-error">
+                                                                                    </use>
+                                                                                </svg>
+                                                                                <span class="form-control__line"></span>
+                                                                                <span
+                                                                                    class="form-control__progress"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
+                                                                            role="alert" aria-live="assertive"></div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
+                                                                        <button
+                                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                                            type="submit" data-plugin=" button"
+                                                                            data-button-clone-content="true">
+                                                                            <span class="btn__content">
+                                                                                <span class="btn__text  ">
+                                                                                    submit a request
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                        <button
+                                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
+                                                                            type="submit">
+                                                                            <span class="btn__content">
+                                                                                <span class="btn__text  ">
+                                                                                    submit a request
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                        <div
+                                                                            class=" text l-callback__limited-width ml-layout">
+                                                                            <p
+                                                                                class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                                By clicking the button, you agree
+                                                                                <br>
+                                                                                to our <a
+                                                                                    class="btn--link btn--clone text-c2-small mt-1"
+                                                                                    href="agreement.html"
+                                                                                    target="_blank">privacy policy</a>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="tabs-contents__content ui-background js-tab"
+                                                            id="call" role="tabpanel" aria-hidden="true">
+                                                            <form
+                                                                class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md"
+                                                                method="POST" action="api/contact.json"
+                                                                data-plugin="ajaxForm ajaxFormCalltouch recaptcha"
+                                                                data-recaptcha-type="yandex"
+                                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                                                data-ajax-form-loading-delay="1500"
+                                                                data-ajax-form-calltouch-title="Обратный звонок"
+                                                                data-ajax-form-calltouch-site-id="">
+                                                                <div class="col col--xs-4 col--md-6 l-callback__form">
+                                                                    <input data-plugin="utmData" type="hidden"
+                                                                        name="utm" value="">
+                                                                    <input data-plugin="pagePathname" type="hidden"
+                                                                        name="currentPageLink" value="">
+                                                                    <div class="sr-only" data-plugin="inputBear ">
+                                                                        <label for="text-594452"
+                                                                            class="form-label text-c1 text-color-small leading-trim">
+                                                                            Message </label>
+                                                                        <input id="text-594452" name="message"
+                                                                            type="text" required value="">
+                                                                    </div>
+                                                                    <div class="l-callback__group">
+                                                                        <div class="col col--md-12 mb-2 mb-1:md">
+                                                                            <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+                                                                                <input id="text-773031" name="name"
+                                                                                    type="text" required
+                                                                                    placeholder="Name" maxlength="50"
+                                                                                    value="">
+                                                                                <label for="text-773031"
+                                                                                    class="form-label text-c1 text-color-small ">
+                                                                                    Name </label>
+                                                                                <svg class="icon icon-form-success form-control__success"
+                                                                                    width="20" height="20"
+                                                                                    aria-hidden="true"
+                                                                                    viewBox="0 0 20 20"
+                                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                                    <use href="assets/images/icons.svg#form-success"
+                                                                                        xlink:href="assets/images/icons.svg#form-success">
+                                                                                    </use>
+                                                                                </svg>
+                                                                                <svg class="icon icon-form-error form-control__error"
+                                                                                    width="20" height="20"
+                                                                                    aria-hidden="true"
+                                                                                    viewBox="0 0 20 20"
+                                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                                    <use href="assets/images/icons.svg#form-error"
+                                                                                        xlink:href="assets/images/icons.svg#form-error">
+                                                                                    </use>
+                                                                                </svg>
+                                                                                <span class="form-control__line"></span>
+                                                                                <span
+                                                                                    class="form-control__progress"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group group mb-2 mb-1:md">
+                                                                            <div class="col">
+                                                                                <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  inputMask" data-input-mask-mask="+# ### ### ## ##">
+                                                                                    <input id="text-82523" name="phone"
+                                                                                        type="tel" required
+                                                                                        placeholder="Phone"
+                                                                                        maxlength="20"
+                                                                                        autocapitalize="none" value="">
+                                                                                    <label for="text-82523"
+                                                                                        class="form-label text-c1 text-color-small ">
+                                                                                        Phone </label>
+                                                                                    <svg class="icon icon-form-success form-control__success"
+                                                                                        width="20" height="20"
+                                                                                        aria-hidden="true"
+                                                                                        viewBox="0 0 20 20"
+                                                                                        style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-success"
+                                                                                            xlink:href="assets/images/icons.svg#form-success">
+                                                                                        </use>
+                                                                                    </svg>
+                                                                                    <svg class="icon icon-form-error form-control__error"
+                                                                                        width="20" height="20"
+                                                                                        aria-hidden="true"
+                                                                                        viewBox="0 0 20 20"
+                                                                                        style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-error"
+                                                                                            xlink:href="assets/images/icons.svg#form-error">
+                                                                                        </use>
+                                                                                    </svg>
+                                                                                    <span
+                                                                                        class="form-control__line"></span>
+                                                                                    <span
+                                                                                        class="form-control__progress"></span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col">
+                                                                                <div class="form-control form-control--select form-control--input  form-control--with-label form-control--float is-not-empty "
+                                                                                    data-plugin="inputSelect inputState selectFake ">
+                                                                                    <div
+                                                                                        class="form-control__close js-form-control-select-close">
+                                                                                    </div>
+                                                                                    <div class="form-control__content">
+                                                                                        <select id="text-288704"
+                                                                                            name="time" required
+                                                                                            statusIndicator="false"
+                                                                                            size="4">
+                                                                                            <option value="09:00:00"
+                                                                                                selected>9:00 — 12:00
+                                                                                            </option>
+                                                                                            <option value="12:00:00">
+                                                                                                12:00 — 15:00</option>
+                                                                                            <option value="15:00:00">
+                                                                                                15:00 — 18:00</option>
+                                                                                            <option value="18:00:00">
+                                                                                                18:00 — 21:00</option>
+                                                                                        </select>
+                                                                                        <span
+                                                                                            class="js-input-select-fake-value form-control__fake-input">
+                                                                                            <span
+                                                                                                class="js-input-select-fake-value-text leading-trim">
+                                                                                                9:00 — 12:00 </span>
+                                                                                        </span>
+                                                                                        <label for="text-288704"
+                                                                                            class="form-label text-c1 text-color-small ">call
+                                                                                            time </label>
+                                                                                        <span
+                                                                                            class="form-control__arrow js-form-control-select-close">
+                                                                                            <svg class="icon icon-chevron-top"
+                                                                                                width="14" height="7"
+                                                                                                aria-hidden="true"
+                                                                                                viewBox="0 0 14 7"
+                                                                                                style="--icon-width: 14; --icon-height: 7;">
+                                                                                                <use href="assets/images/icons.svg#chevron-top"
+                                                                                                    xlink:href="assets/images/icons.svg#chevron-top">
+                                                                                                </use>
+                                                                                            </svg>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                    <span
+                                                                                        class="form-control__line"></span>
+                                                                                    <span
+                                                                                        class="form-control__progress"></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
+                                                                            role="alert" aria-live="assertive"></div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
+                                                                        <button
+                                                                            class="btn btn--primary btn--text-small is-hidden--sm-down"
+                                                                            type="submit">
+                                                                            <span class="btn__content">
+                                                                                <span class="btn__text  ">
+                                                                                    submit a request
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                        <button
+                                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
+                                                                            type="submit">
+                                                                            <span class="btn__content">
+                                                                                <span class="btn__text  ">
+                                                                                    submit a request
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                        <div
+                                                                            class=" text l-callback__limited-width ml-layout">
+                                                                            <p
+                                                                                class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                                By clicking the button, you agree
+                                                                                <br>
+                                                                                to our <a
+                                                                                    class="btn--link btn--clone text-c2-small mt-1"
+                                                                                    href="agreement.html"
+                                                                                    target="_blank">privacy policy</a>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal modal--full ui-dark is-hidden" role="dialog" aria-hidden="true"
+                    aria-label="Request a call" id="favorites-modal" data-plugin="modal" data-modal-one-per-page="true"
+                    data-nosnippet>
+                    <div class="modal__background"></div>
+                    <div class="modal__animation">
+                        <div class="modal__scroller">
+                            <div class="modal__scroller__scrollable js-scroll-parent">
+                                <div class="modal__content-wrapper js-modal-scrollable-content">
+                                    <div
+                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+                                        <div data-scroll-section>
+                                            <div class="l-favorites row ui-dark sticky sticky--full-height"
+                                                data-plugin="favouriteList mouseAnimation" id="favorites"
+                                                data-favourite-list-endpoint="/api/favourites/flats.json"
+                                                data-mouse-animation-use-css-variable="false"
+                                                data-mouse-animation-target-selector=".l-favorites__spiral picture"
+                                                data-mouse-animation-multiplier='[{"unit": "%", "value": -5}, {"unit": "px", "value": 0}]'>
+                                                <div class="sticky__layer sticky__layer--sticky" data-scroll
+                                                    data-scroll-sticky data-scroll-target="#favorites">
+                                                    <div class="background background--cover js-tree-canvas-container is-hidden--sm-down"
+                                                        data-plugin="webglTreeCallback">
+                                                        <canvas class="js-tree-canvas is-active"></canvas>
+                                                    </div>
+                                                    <div
+                                                        class="l-favorites__spiral background background--cover is-hidden--md-down">
+                                                        <picture class="is-invisible--js is-hidden--no-js "
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="1080" height="900">
+                                                            <source
+                                                                data-srcset="assets/images/media/landing/callback/spiral@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="1080" height="900">
+                                                            <img data-src="assets/images/media/landing/callback/spiral@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                                                alt="" width="1080" height="900" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" " draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="1080" height="900">
+                                                                <source
+                                                                    srcset="assets/images/media/landing/callback/spiral@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="1080" height="900">
+                                                                <img src="assets/images/media/landing/callback/spiral%40md.webp"
+                                                                    alt="" width="1080" height="900" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                    <div class="l-favorites__title-container col col--md-4 is-hidden--md-down"
+                                                        data-plugin="favouriteCounter"
+                                                        data-favourite-counter-transchoice-values='["residences&quot;,&quot;residence&quot;,&quot;residences&quot;,&quot;residences"]'
+                                                        data-favourite-counter-hide-no-items="true">
+                                                        <div class="l-favorites__title">
+                                                            <p
+                                                                class="leading-trim text-small pb-0.5 js-favourite-list-wrapper-list">
+                                                                <span class="js-favourite-counter-text"></span>
+                                                            </p>
+                                                            <p class="h1 leading-trim">
+                                                                Favorites
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sticky__layer">
+                                                    <a class="btn btn--primary btn--square modal__close js-modal-close"
+                                                        aria-label="Close" data-plugin="themed"
+                                                        data-themed-theme-attribute="data-favorites-themed-class"
+                                                        data-themed-enable-smooth-scroll="false" tabindex="0"
+                                                        role="button">
+                                                        <span class="btn__content">
+                                                            <span class="btn__icon ">
+                                                                <svg class="icon icon-close" width="14" height="14"
+                                                                    aria-hidden="true" viewBox="0 0 14 14"
+                                                                    style="--icon-width: 14; --icon-height: 14;">
+                                                                    <use href="assets/images/icons.svg#close"
+                                                                        xlink:href="assets/images/icons.svg#close">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                    <div class="l-favorites__gradient is-hidden--lg-up">
+                                                        <div></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                    <div class="l-favorites__col col col--md-8 ui-dark ui-background mr-0 ml-auto px-layout pt-layout pb-layout-4 pb-layout:md"
+                                                        data-favorites-themed-class="ui-dark">
+                                                        <div class="flats__empty js-favourite-list-empty is-hidden">
+                                                            <div
+                                                                class="col col--md-4 h3 leading-trim pb-1 pr-1.5 pr-0:md">
+                                                                <p>
+                                                                    Here you can save your favorite residences.
+                                                                </p>
+                                                            </div>
+                                                            <a class="btn btn--sm btn--outline" href="flats.html">
+                                                                <span class="btn__content">
+                                                                    <span class="btn__text  ">
+                                                                        select residence
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="js-favourite-list-wrapper-list is-hidden">
+                                                            <div class="group group--small mb-2">
+                                                                <a class="btn btn--square btn--outline" target="_blank"
+                                                                    rel="noopener" aria-label="download pdf"
+                                                                    data-plugin="favouriteDownload"
+                                                                    data-favourite-download-url="/api/download/link/favourites"
+                                                                    tabindex="0" role="button">
+                                                                    <span class="btn__content">
+                                                                        <span class="btn__text  ">
+                                                                            pdf
+                                                                        </span>
+                                                                    </span>
+                                                                </a>
+                                                                <a class="btn btn--square btn--outline"
+                                                                    href="#favourites-email-modal">
+                                                                    <span class="btn__content">
+                                                                        <span class="btn__icon ">
+                                                                            <svg class="icon icon-email" width="16"
+                                                                                height="16" aria-hidden="true"
+                                                                                viewBox="0 0 16 16"
+                                                                                style="--icon-width: 16; --icon-height: 16;">
+                                                                                <use href="assets/images/icons.svg#email"
+                                                                                    xlink:href="assets/images/icons.svg#email">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="l-favorites__title-container col col--md-4 is-hidden--lg-up mb-1"
+                                                                data-plugin="favouriteCounter"
+                                                                data-favourite-counter-transchoice-values='["residences&quot;,&quot;residence&quot;,&quot;residences&quot;,&quot;residences"]'
+                                                                data-favourite-counter-hide-no-items="true">
+                                                                <div class="l-favorites__title">
+                                                                    <p class="h1 leading-trim  pb-1">
+                                                                        Favorites
+                                                                    </p>
+                                                                    <p class="leading-trim text-small ">
+                                                                        <span class="js-favourite-counter-text"></span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="l-favorites__list flats__list js-favourite-list-list ui-light is-hidden"
+                                                                data-favorites-themed-class="ui-light">
+                                                                <script type="text/template"
+                                                                    data-template-variable="flat">
+    <li>
+        <a href="<%- flat.link %>" class="card card--apartment js-favourite-wrapper" data-ajax-page-ignore-prefetch>
+            <div class="card__sizer"></div>
+            <div class="card__content">
+                <div class="card__top group group--nowrap group--between">
+                    <div class="group group--small group--middle">
+                        <% for (let i=0; i < flat.features.length; i++) { %>
+                            <% var feature = flat.features[i] %>
+                            <% var prefix = flat.number + feature.icon %>
+                            <div
+                                class="card__feature"
+                                data-plugin="popover"
+                                data-popover-placement="<%= i == 0 ? 'bottom-start' : 'bottom-center' %>"
+                                data-popover-parent-selector=".card"
+                                data-popover-events="hover"
+                                aria-describedby="<%- prefix %>"
+                            >
+                                <svg class="icon icon-&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;" width="16" height="16" aria-hidden="true"            viewBox="0 0 16 16"
+            style="--icon-width: 16; --icon-height: 16;"
+        ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;" xlink:href="assets/images/icons.svg#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;"></use></svg>
+                            </div>
+                            <div id="<%-prefix%>" class="tooltip tooltip--closable tooltip--feature ui-dark" role="tooltip">
+                                <span class="tooltip__triangle"></span>
+                                <div class="tooltip__content text-c2 leading-trim">
+                                    <%- feature.label %>
+                                </div>
+                            </div>
+                        <% } %>
+                    </div>
+<span
+        class="btn btn--outline btn--outline-active btn--square favourite  btn--sm"
+                                        aria-label="Remove apartment from favourites"
+                            data-plugin="favourite"
+                                                data-favourite="&#x7B;&quot;id&quot;&#x3A;&quot;&lt;&#x25;-&#x20;flat.id&#x20;&#x25;&gt;&quot;,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
+                            tabindex="0"
+                            role="button"
+            >
+        <span class="btn__content">
+<span class="btn__icon ">
+                        <svg class="icon icon-favourite" width="30" height="30" aria-hidden="true"            viewBox="0 0 30 30"
+            style="--icon-width: 30; --icon-height: 30;"
+        ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#favourite" xlink:href="assets/images/icons.svg#favourite"></use></svg>
+                    </span>
+                                    </span>
+    </span>
+                                    </div>
+                <div class="card__plan">
+                    <% const plan = flat.plans.simple %>
+                    <%= picture(plan, {
+                        class: 'svg-fix',
+                        lazy: false
+                    }) %>
+                </div>
+                <div class="card__footer">
+                    <div class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
+                        <div>
+                            <div class="text-c2 text-color-small leading-trim mb-0.2">
+                                <p>
+                                    <%- numberFormat(flat.price_per_m, 0, '', ' ') %>&nbsp;/m<sup>2</sup>
+                                </p>
+                            </div>
+                            <div class="text-small leading-trim">
+                                <p>
+                                      <%- numberFormat(flat.price, 0, '', ' ') %>
+                                </p>
+                            </div>
+                        </div>
+<div class="text-c2 text-color-small leading-trim">
+                            <p>
+                                with finishings
+                            </p>
+                        </div>
+                    </div>
+                    <div class="group group--nowrap group--bottom group--between">
+                        <div class="card__footer-text text-small leading-trim">
+                            <p class="card__square">
+                                 <%- flat.square %>&nbsp;m<sup>2</sup>
+                            </p>
+                            <p>
+                                 <%- flat.roomsText %>&nbsp;
+                            </p>
+                            <p>
+                                <%- flat.floor %>&nbsp;floor
+                            </p>
+                        </div>
+                        <span class="card__footer-title h1 leading-trim">
+                            <%- flat.number %>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</script>
+                                                                <div class="js-favourite-list-single">
+                                                                    <li><a href="flats.html"
+                                                                            class="ui-dark card card--apartment card--more"
+                                                                            data-ajax-page-ignore-prefetch>
+                                                                            <div class="card__sizer"></div>
+                                                                            <div class="card__content">
+                                                                                <div class="card__top">
+                                                                                    <p class="">
+                                                                                        Find more matching
+                                                                                        <br />
+                                                                                        residences
+                                                                                    </p>
+                                                                                </div>
+                                                                                <div class="card__footer">
+                                                                                    <div
+                                                                                        class="group group--nowrap group--bottom group--between">
+                                                                                        <div
+                                                                                            class="card__footer-text leading-trim">
+                                                                                        </div>
+                                                                                        <div class="card__feature">
+                                                                                            <svg class="icon icon-magnifier"
+                                                                                                width="14" height="14"
+                                                                                                aria-hidden="true"
+                                                                                                viewBox="0 0 14 14"
+                                                                                                style="--icon-width: 14; --icon-height: 14;">
+                                                                                                <use href="assets/images/icons.svg#magnifier"
+                                                                                                    xlink:href="assets/images/icons.svg#magnifier">
+                                                                                                </use>
+                                                                                            </svg>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </a></li>
+                                                                </div>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog"
+                    aria-hidden="true" aria-label="Заказать звонок" id="subscribe-modal" data-plugin="modal"
+                    data-modal-one-per-page="false" data-nosnippet>
+                    <div class="modal__background"></div>
+                    <div class="modal__animation">
+                        <div class="modal__scroller">
+                            <div class="modal__scroller__scrollable js-scroll-parent">
+                                <div class="modal__content-wrapper js-modal-scrollable-content">
+                                    <div
+                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
+                                            aria-label="Close" tabindex="0" role="button">
+                                            <span class="btn__content">
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-close" width="14" height="14"
+                                                        aria-hidden="true" viewBox="0 0 14 14"
+                                                        style="--icon-width: 14; --icon-height: 14;">
+                                                        <use href="assets/images/icons.svg#close"
+                                                            xlink:href="assets/images/icons.svg#close">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <div
+                                            class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
+                                            <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
+                                                <p>
+                                                    Subscribe<br>
+                                                    to notifications
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="flats-subscribe__success py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
+                                                <p class="h2 leading-trim">
+                                                    You are subscribed
+                                                </p>
+                                            </div>
+                                            <form class="flats-subscribe__form-container pt-2:md" method="POST"
+                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
+                                                data-recaptcha-type="yandex"
+                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                                data-ajax-form-loading-delay="1500" data-ajax-form-type="">
+                                                <div class="col col--xs-4 col--md-6 flats-subscribe__form">
+                                                    <input data-plugin="utmData" type="hidden" name="utm" value="">
+                                                    <input data-plugin="pagePathname" type="hidden"
+                                                        name="currentPageLink" value="">
+                                                    <div class="sr-only" data-plugin="inputBear ">
+                                                        <label for="text-424059"
+                                                            class="form-label text-c1 text-color-small leading-trim">
+                                                            Message </label>
+                                                        <input id="text-424059" name="message" type="text" required
+                                                            value="">
+                                                    </div>
+                                                    <div class="flats-subscribe__group">
+                                                        <div class="col col--md-12 mb-2.5 mb-2:md">
+                                                            <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+                                                                <input id="text-943817" name="email" type="email"
+                                                                    required placeholder="e-mail" maxlength="50"
+                                                                    autocapitalize="none" value="">
+                                                                <label for="text-943817"
+                                                                    class="form-label text-c1 text-color-small ">
+                                                                    e-mail </label>
+                                                                <svg class="icon icon-form-success form-control__success"
+                                                                    width="20" height="20" aria-hidden="true"
+                                                                    viewBox="0 0 20 20"
+                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                    <use href="assets/images/icons.svg#form-success"
+                                                                        xlink:href="assets/images/icons.svg#form-success">
+                                                                    </use>
+                                                                </svg>
+                                                                <svg class="icon icon-form-error form-control__error"
+                                                                    width="20" height="20" aria-hidden="true"
+                                                                    viewBox="0 0 20 20"
+                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                    <use href="assets/images/icons.svg#form-error"
+                                                                        xlink:href="assets/images/icons.svg#form-error">
+                                                                    </use>
+                                                                </svg>
+                                                                <span class="form-control__line"></span>
+                                                                <span class="form-control__progress"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
+                                                            role="alert" aria-live="assertive"></div>
+                                                    </div>
+                                                    <div
+                                                        class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
+                                                        <button
+                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                            type="submit" data-plugin=" button"
+                                                            data-button-clone-content="true">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    subscribe
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                        <button
+                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
+                                                            type="submit">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    subscribe
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                        <div class=" text l-callback__limited-width ml-layout">
+                                                            <p
+                                                                class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                By clicking the button, you agree
+                                                                <br>
+                                                                to our <a
+                                                                    class="btn--link btn--clone text-c2-small mt-1"
+                                                                    href="agreement.html" target="_blank">privacy
+                                                                    policy</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog"
+                    aria-hidden="true" aria-label="Заказать звонок" id="subscribe-modal-penthouse" data-plugin="modal"
+                    data-modal-one-per-page="false" data-nosnippet>
+                    <div class="modal__background"></div>
+                    <div class="modal__animation">
+                        <div class="modal__scroller">
+                            <div class="modal__scroller__scrollable js-scroll-parent">
+                                <div class="modal__content-wrapper js-modal-scrollable-content">
+                                    <div
+                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
+                                            aria-label="Close" tabindex="0" role="button">
+                                            <span class="btn__content">
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-close" width="14" height="14"
+                                                        aria-hidden="true" viewBox="0 0 14 14"
+                                                        style="--icon-width: 14; --icon-height: 14;">
+                                                        <use href="assets/images/icons.svg#close"
+                                                            xlink:href="assets/images/icons.svg#close">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <div
+                                            class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
+                                            <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
+                                                <p>
+                                                    Subscribe<br>
+                                                    to notifications
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="flats-subscribe__success py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
+                                                <p class="h2 leading-trim">
+                                                    You are subscribed
+                                                </p>
+                                            </div>
+                                            <form class="flats-subscribe__form-container pt-2:md" method="POST"
+                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
+                                                data-recaptcha-type="yandex"
+                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                                data-ajax-form-loading-delay="1500" data-ajax-form-type="penthouse">
+                                                <div class="col col--xs-4 col--md-6 flats-subscribe__form">
+                                                    <input data-plugin="utmData" type="hidden" name="utm" value="">
+                                                    <input data-plugin="pagePathname" type="hidden"
+                                                        name="currentPageLink" value="">
+                                                    <div class="sr-only" data-plugin="inputBear ">
+                                                        <label for="text-832147"
+                                                            class="form-label text-c1 text-color-small leading-trim">
+                                                            Message </label>
+                                                        <input id="text-832147" name="message" type="text" required
+                                                            value="">
+                                                    </div>
+                                                    <div class="flats-subscribe__group">
+                                                        <div class="col col--md-12 mb-2.5 mb-2:md">
+                                                            <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+                                                                <input id="text-946610" name="email" type="email"
+                                                                    required placeholder="e-mail" maxlength="50"
+                                                                    autocapitalize="none" value="">
+                                                                <label for="text-946610"
+                                                                    class="form-label text-c1 text-color-small ">
+                                                                    e-mail </label>
+                                                                <svg class="icon icon-form-success form-control__success"
+                                                                    width="20" height="20" aria-hidden="true"
+                                                                    viewBox="0 0 20 20"
+                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                    <use href="assets/images/icons.svg#form-success"
+                                                                        xlink:href="assets/images/icons.svg#form-success">
+                                                                    </use>
+                                                                </svg>
+                                                                <svg class="icon icon-form-error form-control__error"
+                                                                    width="20" height="20" aria-hidden="true"
+                                                                    viewBox="0 0 20 20"
+                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                    <use href="assets/images/icons.svg#form-error"
+                                                                        xlink:href="assets/images/icons.svg#form-error">
+                                                                    </use>
+                                                                </svg>
+                                                                <span class="form-control__line"></span>
+                                                                <span class="form-control__progress"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
+                                                            role="alert" aria-live="assertive"></div>
+                                                    </div>
+                                                    <div
+                                                        class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
+                                                        <button
+                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                            type="submit" data-plugin=" button"
+                                                            data-button-clone-content="true">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    subscribe
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                        <button
+                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
+                                                            type="submit">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    subscribe
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                        <div class=" text l-callback__limited-width ml-layout">
+                                                            <p
+                                                                class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                By clicking the button, you agree
+                                                                <br>
+                                                                to our <a
+                                                                    class="btn--link btn--clone text-c2-small mt-1"
+                                                                    href="agreement.html" target="_blank">privacy
+                                                                    policy</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog"
+                    aria-hidden="true" aria-label="Заказать звонок" id="subscribe-modal-townhouse" data-plugin="modal"
+                    data-modal-one-per-page="false" data-nosnippet>
+                    <div class="modal__background"></div>
+                    <div class="modal__animation">
+                        <div class="modal__scroller">
+                            <div class="modal__scroller__scrollable js-scroll-parent">
+                                <div class="modal__content-wrapper js-modal-scrollable-content">
+                                    <div
+                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
+                                            aria-label="Close" tabindex="0" role="button">
+                                            <span class="btn__content">
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-close" width="14" height="14"
+                                                        aria-hidden="true" viewBox="0 0 14 14"
+                                                        style="--icon-width: 14; --icon-height: 14;">
+                                                        <use href="assets/images/icons.svg#close"
+                                                            xlink:href="assets/images/icons.svg#close">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <div
+                                            class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
+                                            <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
+                                                <p>
+                                                    Subscribe<br>
+                                                    to notifications
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="flats-subscribe__success py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
+                                                <p class="h2 leading-trim">
+                                                    You are subscribed
+                                                </p>
+                                            </div>
+                                            <form class="flats-subscribe__form-container pt-2:md" method="POST"
+                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
+                                                data-recaptcha-type="yandex"
+                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                                data-ajax-form-loading-delay="1500" data-ajax-form-type="townhouse">
+                                                <div class="col col--xs-4 col--md-6 flats-subscribe__form">
+                                                    <input data-plugin="utmData" type="hidden" name="utm" value="">
+                                                    <input data-plugin="pagePathname" type="hidden"
+                                                        name="currentPageLink" value="">
+                                                    <div class="sr-only" data-plugin="inputBear ">
+                                                        <label for="text-356792"
+                                                            class="form-label text-c1 text-color-small leading-trim">
+                                                            Message </label>
+                                                        <input id="text-356792" name="message" type="text" required
+                                                            value="">
+                                                    </div>
+                                                    <div class="flats-subscribe__group">
+                                                        <div class="col col--md-12 mb-2.5 mb-2:md">
+                                                            <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+                                                                <input id="text-127682" name="email" type="email"
+                                                                    required placeholder="e-mail" maxlength="50"
+                                                                    autocapitalize="none" value="">
+                                                                <label for="text-127682"
+                                                                    class="form-label text-c1 text-color-small ">
+                                                                    e-mail </label>
+                                                                <svg class="icon icon-form-success form-control__success"
+                                                                    width="20" height="20" aria-hidden="true"
+                                                                    viewBox="0 0 20 20"
+                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                    <use href="assets/images/icons.svg#form-success"
+                                                                        xlink:href="assets/images/icons.svg#form-success">
+                                                                    </use>
+                                                                </svg>
+                                                                <svg class="icon icon-form-error form-control__error"
+                                                                    width="20" height="20" aria-hidden="true"
+                                                                    viewBox="0 0 20 20"
+                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                    <use href="assets/images/icons.svg#form-error"
+                                                                        xlink:href="assets/images/icons.svg#form-error">
+                                                                    </use>
+                                                                </svg>
+                                                                <span class="form-control__line"></span>
+                                                                <span class="form-control__progress"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
+                                                            role="alert" aria-live="assertive"></div>
+                                                    </div>
+                                                    <div
+                                                        class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
+                                                        <button
+                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                            type="submit" data-plugin=" button"
+                                                            data-button-clone-content="true">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    subscribe
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                        <button
+                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
+                                                            type="submit">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    subscribe
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                        <div class=" text l-callback__limited-width ml-layout">
+                                                            <p
+                                                                class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                By clicking the button, you agree
+                                                                <br>
+                                                                to our <a
+                                                                    class="btn--link btn--clone text-c2-small mt-1"
+                                                                    href="agreement.html" target="_blank">privacy
+                                                                    policy</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog"
+                    aria-hidden="true" aria-label="send via mail" id="favourites-email-modal" data-plugin="modal"
+                    data-modal-one-per-page="false" data-nosnippet>
+                    <div class="modal__background"></div>
+                    <div class="modal__animation">
+                        <div class="modal__scroller">
+                            <div class="modal__scroller__scrollable js-scroll-parent">
+                                <div class="modal__content-wrapper js-modal-scrollable-content">
+                                    <div
+                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
+                                            aria-label="Close" tabindex="0" role="button">
+                                            <span class="btn__content">
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-close" width="14" height="14"
+                                                        aria-hidden="true" viewBox="0 0 14 14"
+                                                        style="--icon-width: 14; --icon-height: 14;">
+                                                        <use href="assets/images/icons.svg#close"
+                                                            xlink:href="assets/images/icons.svg#close">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <div
+                                            class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
+                                            <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
+                                                <p>
+                                                    Send <br>
+                                                    to mail
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="flats-subscribe__success h2 py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
+                                                <p>
+                                                    Sent
+                                                </p>
+                                            </div>
+                                            <form class="flats-subscribe__form-container pt-2:md" method="POST"
+                                                action="api/favourite/pdf/mail.json"
+                                                data-plugin="ajaxForm recaptcha favouriteForm"
+                                                data-recaptcha-type="yandex"
+                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                                data-ajax-form-loading-delay="1500"
+                                                data-ajax-form-calltouch-title="Подписка"
+                                                data-ajax-form-calltouch-site-id="">
+                                                <div class="col col--xs-4 col--md-6 flats-subscribe__form">
+                                                    <input data-plugin="utmData" type="hidden" name="utm" value="">
+                                                    <input data-plugin="pagePathname" type="hidden"
+                                                        name="currentPageLink" value="">
+                                                    <div class="sr-only" data-plugin="inputBear ">
+                                                        <label for="text-900241"
+                                                            class="form-label text-c1 text-color-small leading-trim">
+                                                            Message </label>
+                                                        <input id="text-900241" name="message" type="text" required
+                                                            value="">
+                                                    </div>
+                                                    <div class="flats-subscribe__group">
+                                                        <div class="col col--md-12 mb-2.5 mb-2:md">
+                                                            <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+                                                                <input id="text-163984" name="email" type="email"
+                                                                    required placeholder="e-mail" maxlength="50"
+                                                                    autocapitalize="none" value="">
+                                                                <label for="text-163984"
+                                                                    class="form-label text-c1 text-color-small ">
+                                                                    e-mail </label>
+                                                                <svg class="icon icon-form-success form-control__success"
+                                                                    width="20" height="20" aria-hidden="true"
+                                                                    viewBox="0 0 20 20"
+                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                    <use href="assets/images/icons.svg#form-success"
+                                                                        xlink:href="assets/images/icons.svg#form-success">
+                                                                    </use>
+                                                                </svg>
+                                                                <svg class="icon icon-form-error form-control__error"
+                                                                    width="20" height="20" aria-hidden="true"
+                                                                    viewBox="0 0 20 20"
+                                                                    style="--icon-width: 20; --icon-height: 20;">
+                                                                    <use href="assets/images/icons.svg#form-error"
+                                                                        xlink:href="assets/images/icons.svg#form-error">
+                                                                    </use>
+                                                                </svg>
+                                                                <span class="form-control__line"></span>
+                                                                <span class="form-control__progress"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
+                                                            role="alert" aria-live="assertive"></div>
+                                                    </div>
+                                                    <div
+                                                        class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
+                                                        <button
+                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                            type="submit" data-plugin=" button"
+                                                            data-button-clone-content="true">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    send
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                        <button
+                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
+                                                            type="submit">
+                                                            <span class="btn__content">
+                                                                <span class="btn__text  ">
+                                                                    send
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                        <div class=" text l-callback__limited-width ml-layout">
+                                                            <p
+                                                                class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                By clicking the button, you agree
+                                                                <br>
+                                                                to our <a
+                                                                    class="btn--link btn--clone text-c2-small mt-1"
+                                                                    href="agreement.html" target="_blank">privacy
+                                                                    policy</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal modal--full modal--split-animate--reverse ui-dark is-hidden" role="dialog"
+                    aria-hidden="true" aria-label="Меню" id="menu" data-plugin="modal modalMenu"
+                    data-modal-one-per-page="true" data-nosnippet>
+                    <div class="modal__background"></div>
+                    <div class="modal__animation">
+                        <div class="modal__scroller">
+                            <div class="modal__scroller__scrollable js-scroll-parent">
+                                <div class="modal__content-wrapper js-modal-scrollable-content">
+                                    <div
+                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+                                        <header class="header header--sticky is-hidden--print ui-dark "
+                                            data-themed-enable-for-mobile="true">
+                                            <div class="header__content px-layout">
+                                                <div class="header__left header-animation-logo is-hidden--md-up">
+                                                    <a class="header__logo--mobile" href="index.html"
+                                                        aria-label="Homepage">
+                                                        <img class="icon icon-logo-mobile" aria-hidden="true"
+                                                            src="assets/images/bst-new-logo.png" />
+                                                    </a>
+                                                </div>
+                                                <div class="header__left header-animation-link is-hidden--sm-down">
+                                                    <a class="btn btn--text-small btn--link btn--icon-spacing-large is-hidden--sm-down js-modal-close menu__close"
+                                                        aria-label="Close menu" tabindex="0" role="button">
+                                                        <span class="btn__content">
+                                                            <span class="btn__icon ">
+                                                                <svg class="icon icon-close-large" width="32"
+                                                                    height="32" aria-hidden="true" viewBox="0 0 32 32"
+                                                                    style="--icon-width: 32; --icon-height: 32;">
+                                                                    <use href="assets/images/icons.svg#close-large"
+                                                                        xlink:href="assets/images/icons.svg#close-large">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="header__center is-hidden--sm-down">
+                                                    <a class="header__logo" href="index.html" aria-label="Homepage">
+                                                        <span class="header__logo__inner header-animation-logo">
+                                                            <span class="header__logo__left">
+                                                                <img class="icon icon-logo-left" aria-hidden="true"
+                                                                    src="assets/images/logoIcon.png" />
+                                                            </span>
+                                                            <span class="header__logo__right">
+                                                                <img class="icon icon-logo-right" aria-hidden="true"
+                                                                    src="assets/images/logoText.png" />
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="header__right header-animation-link">
+                                                    <div class="favourite-btn is-hidden--md-up">
+                                                        <a class="btn btn btn--text-small btn--link btn--square btn--sm"
+                                                            href="#favorites-modal">
+                                                            <span class="btn__content">
+                                                                <span class="btn__icon ">
+                                                                    <svg class="icon icon-heart" width="16" height="16"
+                                                                        aria-hidden="true" viewBox="0 0 16 16"
+                                                                        style="--icon-width: 16; --icon-height: 16;">
+                                                                        <use href="assets/images/icons.svg#heart"
+                                                                            xlink:href="assets/images/icons.svg#heart">
+                                                                        </use>
+                                                                    </svg>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                        <span class="favourite-btn__counter text-c2 is-hidden"
+                                                            data-plugin="favouriteCounter"
+                                                            data-favourite-counter-inactive-class="is-hidden"></span>
+                                                    </div>
+                                                    <a class="btn btn--text-small btn--link is-hidden--md-up js-modal-close menu__close"
+                                                        aria-label="Close menu" tabindex="0" role="button">
+                                                        <span class="btn__content">
+                                                            <span class="btn__icon ">
+                                                                <svg class="icon icon-close-large" width="30"
+                                                                    height="30" aria-hidden="true" viewBox="0 0 30 30"
+                                                                    style="--icon-width: 30; --icon-height: 30;">
+                                                                    <use href="assets/images/icons.svg#close-large"
+                                                                        xlink:href="assets/images/icons.svg#close-large">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                    <a class="btn btn--text-small  btn--link btn--clone is-hidden--sm-down"
+                                                        href="#callback-modal" data-plugin=" button"
+                                                        data-button-clone-content="true">
+                                                        <span class="btn__content">
+                                                            <span class="btn__text  ">
+                                                                Contact us
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <div class="row" data-plugin="contentAnimation"
+                                            data-content-animation-animations='{
+        "changeShow": {"name": "imageClipIn", "duration": "slow"}
+    }' data-content-animation-plugins="controller events height counter" class="js-menu-controller-selector"
+                                            data-content-animation-link-event="hover">
+                                            <div class="menu__list col col--md-6 px-layout py-1 p-relative">
+                                                <div class="background background--cover is-hidden--md-down">
+                                                    <picture
+                                                        class="is-invisible--js is-hidden--no-js background background--cover"
+                                                        data-plugin="appear " draggable="false">
+                                                        <source
+                                                            data-srcset="assets/images/media/menu/bg-desktop-2@xxxl.webp"
+                                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 1920px) and (min-height: 700px)"
+                                                            width="720" height="900">
+                                                        <source
+                                                            data-srcset="assets/images/media/menu/bg-desktop-2@xxl.webp"
+                                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 1440px) and (min-height: 700px)"
+                                                            width="720" height="900">
+                                                        <img data-src="assets/images/media/menu/bg-desktop-2@md.webp"
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                            alt="" width="720" height="900" draggable="false">
+                                                    </picture>
+                                                    <noscript>
+                                                        <picture class=" background background--cover"
+                                                            draggable="false">
+                                                            <source
+                                                                srcset="assets/images/media/menu/bg-desktop-2@xxxl.webp"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <source
+                                                                srcset="assets/images/media/menu/bg-desktop-2@xxl.webp"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <img src="assets/images/media/menu/bg-desktop-2%40md.webp"
+                                                                alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+                                                    </noscript>
+                                                </div>
+                                                <div class="pt-1 is-hidden--sm-down"></div>
+                                                <ul class="menu__list__list pt-2 pt-0:md">
+                                                    <li class="js-content-animation-link is-active"
+                                                        data-content-animation-id="1">
+                                                        <a href="flats.html" class="leading-trim">
+                                                            Residences
+                                                        </a>
+                                                    </li>
+                                                    <li class="js-content-animation-link "
+                                                        data-content-animation-id="2">
+                                                        <a href="design.html" class="leading-trim">
+                                                            Design
+                                                        </a>
+                                                    </li>
+                                                    <li class="js-content-animation-link "
+                                                        data-content-animation-id="3">
+                                                        <a href="location.html" class="leading-trim">
+                                                            Location
+                                                        </a>
+                                                    </li>
+                                                    <li class="js-content-animation-link "
+                                                        data-content-animation-id="4">
+                                                        <a href="amenities.html" class="leading-trim">
+                                                            Amenities
+                                                        </a>
+                                                    </li>
+                                                    <li class="js-content-animation-link "
+                                                        data-content-animation-id="5">
+                                                        <a href="gallery.html" class="leading-trim">
+                                                            Gallery
+                                                        </a>
+                                                    </li>
+                                                    <li class="js-content-animation-link "
+                                                        data-content-animation-id="6">
+                                                        <a href="about.html" class="leading-trim">
+                                                            About
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="menu__list__sublist mt-3 mt-1:sm">
+                                                    <ul class="">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="menu__images col col--md-6 is-hidden--sm-down">
+                                                <div class="content-animation">
+                                                    <div data-content-animation-item="1" class=" parallax-image-move"
+                                                        aria-hidden="false">
+                                                        <picture
+                                                            class="is-invisible--js is-hidden--no-js background background--cover"
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-1@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-1@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <img data-src="assets/images/media/menu/menu-1@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" background background--cover"
+                                                                draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-1@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-1@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <img src="assets/images/media/menu/menu-1%40md.webp"
+                                                                    alt="" width="720" height="900" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                    <div data-content-animation-item="2"
+                                                        class="is-hidden parallax-image-move" aria-hidden="true">
+                                                        <picture
+                                                            class="is-invisible--js is-hidden--no-js background background--cover"
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-2@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-2@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <img data-src="assets/images/media/menu/menu-2@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" background background--cover"
+                                                                draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-2@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-2@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <img src="assets/images/media/menu/menu-2%40md.webp"
+                                                                    alt="" width="720" height="900" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                    <div data-content-animation-item="3"
+                                                        class="is-hidden parallax-image-move" aria-hidden="true">
+                                                        <picture
+                                                            class="is-invisible--js is-hidden--no-js background background--cover"
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-3@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-3@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <img data-src="assets/images/media/menu/menu-3@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" background background--cover"
+                                                                draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-3@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-3@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <img src="assets/images/media/menu/menu-3%40md.webp"
+                                                                    alt="" width="720" height="900" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                    <div data-content-animation-item="4"
+                                                        class="is-hidden parallax-image-move" aria-hidden="true">
+                                                        <picture
+                                                            class="is-invisible--js is-hidden--no-js background background--cover"
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-4@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-4@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <img data-src="assets/images/media/menu/menu-4@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" background background--cover"
+                                                                draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-4@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-4@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <img src="assets/images/media/menu/menu-4%40md.webp"
+                                                                    alt="" width="720" height="900" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                    <div data-content-animation-item="5"
+                                                        class="is-hidden parallax-image-move" aria-hidden="true">
+                                                        <picture
+                                                            class="is-invisible--js is-hidden--no-js background background--cover"
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-5@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-5@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <img data-src="assets/images/media/menu/menu-5@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" background background--cover"
+                                                                draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-5@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-5@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <img src="assets/images/media/menu/menu-5%40md.webp"
+                                                                    alt="" width="720" height="900" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                    <div data-content-animation-item="6"
+                                                        class="is-hidden parallax-image-move" aria-hidden="true">
+                                                        <picture
+                                                            class="is-invisible--js is-hidden--no-js background background--cover"
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-6@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-6@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <img data-src="assets/images/media/menu/menu-6@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" background background--cover"
+                                                                draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-6@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-6@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <img src="assets/images/media/menu/menu-6%40md.webp"
+                                                                    alt="" width="720" height="900" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                    <div data-content-animation-item="8"
+                                                        class="is-hidden parallax-image-move" aria-hidden="true">
+                                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-8@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/menu-8@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="720" height="900">
+                                                            <img data-src="assets/images/media/menu/menu-8@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                                alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" img-cover" draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-8@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/menu-8@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="720" height="900">
+                                                                <img src="assets/images/media/menu/menu-8%40md.webp"
+                                                                    alt="" width="720" height="900" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="menu__bg background background--cover is-hidden--md-up">
+                                                <picture
+                                                    class="is-invisible--js is-hidden--no-js background background--cover"
+                                                    data-plugin="appear " draggable="false">
+                                                    <source data-srcset="assets/images/media/menu/bg-desktop@xxxl.webp"
+                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1920px) and (min-height: 700px)" width="1440"
+                                                        height="900">
+                                                    <source data-srcset="assets/images/media/menu/bg-desktop@xxl.webp"
+                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1440px) and (min-height: 700px)" width="1440"
+                                                        height="900">
+                                                    <source data-srcset="assets/images/media/menu/bg-desktop@md.webp"
+                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                        width="1440" height="900">
+                                                    <img data-src="assets/images/media/menu/bg-mobile@xs.webp"
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22838%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20838%201280%22%3E%3C/svg%3E"
+                                                        alt="" width="838" height="1280" draggable="false">
+                                                </picture>
+                                                <noscript>
+                                                    <picture class=" background background--cover" draggable="false">
+                                                        <source srcset="assets/images/media/menu/bg-desktop@xxxl.webp"
+                                                            media="(min-width: 1920px) and (min-height: 700px)"
+                                                            width="1440" height="900">
+                                                        <source srcset="assets/images/media/menu/bg-desktop@xxl.webp"
+                                                            media="(min-width: 1440px) and (min-height: 700px)"
+                                                            width="1440" height="900">
+                                                        <source srcset="assets/images/media/menu/bg-desktop@md.webp"
+                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                            width="1440" height="900">
+                                                        <img src="assets/images/media/menu/bg-mobile%40xs.webp" alt=""
+                                                            width="838" height="1280" draggable="false">
+                                                    </picture>
+                                                </noscript>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal modal--under-header modal--menu-picker modal--full modal--full-animate ui-dark is-hidden"
+                    role="dialog" aria-hidden="true" aria-label="Меню" id="menu-picker"
+                    data-plugin="modal modalHeaderTheme" data-modal-one-per-page="true"
+                    data-modal-html-scroll-class-name="with-modal with-menu-picker-modal" data-modal-hide-fast="true"
+                    data-modal-header-theme-theme="ui-dark" data-nosnippet>
+                    <div class="modal__background"></div>
+                    <div class="modal__animation">
+                        <div class="modal__scroller">
+                            <div class="modal__scroller__scrollable js-scroll-parent">
+                                <div class="modal__content-wrapper js-modal-scrollable-content">
+                                    <div
+                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+                                        <div class="menu-picker row" data-themed-class="ui-dark">
+                                            <div class="menu-picker__content col--xs-2 col--md-6 ui-background">
+                                                <a href="flats.html" class="menu-picker__item btn-container">
+                                                    <div
+                                                        class="background background--cover menu-picker__item__gradient flicker-fix">
+                                                        <div></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                    <div class="p-relative">
+                                                        <div class="menu-picker__link-row p-relative h3">
+                                                            <span class="h3">
+                                                                Selection
+                                                            </span>
+                                                            <span class="h3">
+                                                                Selection
+                                                            </span>
+                                                        </div>
+                                                        <div class="menu-picker__link-row">
+                                                            <span class="h3 leading-trim">
+                                                                by specifications
+                                                            </span>
+                                                            <span class="h3 leading-trim">
+                                                                by specifications
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <span class="btn p-relative btn--outline btn--square btn--sm">
+                                                        <span class="btn__content">
+                                                            <span class="btn__icon ">
+                                                                <svg class="icon icon-plus" width="16" height="16"
+                                                                    aria-hidden="true" viewBox="0 0 16 16"
+                                                                    style="--icon-width: 16; --icon-height: 16;">
+                                                                    <use href="assets/images/icons.svg#plus"
+                                                                        xlink:href="assets/images/icons.svg#plus">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                                <a href="visual-search.html" class="menu-picker__item btn-container">
+                                                    <div class="background background--cover">
+                                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
+                                                            data-plugin="appear " draggable="false">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/picker-bg@xxxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)"
+                                                                width="720" height="450">
+                                                            <source
+                                                                data-srcset="assets/images/media/menu/picker-bg@xxl.webp"
+                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)"
+                                                                width="720" height="450">
+                                                            <img data-src="assets/images/media/menu/picker-bg@md.webp"
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
+                                                                alt="" width="720" height="450" draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" img-cover" draggable="false">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/picker-bg@xxxl.webp"
+                                                                    media="(min-width: 1920px) and (min-height: 700px)"
+                                                                    width="720" height="450">
+                                                                <source
+                                                                    srcset="assets/images/media/menu/picker-bg@xxl.webp"
+                                                                    media="(min-width: 1440px) and (min-height: 700px)"
+                                                                    width="720" height="450">
+                                                                <img src="assets/images/media/menu/picker-bg%40md.webp"
+                                                                    alt="" width="720" height="450" draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                    <div class="p-relative">
+                                                        <div class="menu-picker__link-row p-relative h3">
+                                                            <span class="h3">
+                                                                Visual
+                                                            </span>
+                                                            <span class="h3">
+                                                                Visual
+                                                            </span>
+                                                        </div>
+                                                        <div class="menu-picker__link-row">
+                                                            <span class="h3 leading-trim">
+                                                                search
+                                                            </span>
+                                                            <span class="h3 leading-trim">
+                                                                search
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <span class="btn btn--outline btn--square btn--sm">
+                                                        <span class="btn__content">
+                                                            <span class="btn__icon ">
+                                                                <svg class="icon icon-plus" width="16" height="16"
+                                                                    aria-hidden="true" viewBox="0 0 16 16"
+                                                                    style="--icon-width: 16; --icon-height: 16;">
+                                                                    <use href="assets/images/icons.svg#plus"
+                                                                        xlink:href="assets/images/icons.svg#plus">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div
+                                                class="menu-picker__deco p-relative col--xs-2 col--md-6 js-modal-close">
+                                                <div
+                                                    class="menu-picker__gradient background background--cover flicker-fix">
+                                                    <div></div>
+                                                    <div></div>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php $this->load->view('common/cookies'); ?>
+   
+    <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
+    <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
+    <script fetchpriority="low" src="assets/javascripts/location.js"></script>
+    <script src="assets/javascripts/tour.js"></script>
+    <script src="assets/pano/tour.js" async></script>
+</body>
+
+</html>
