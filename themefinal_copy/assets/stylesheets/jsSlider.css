@@ -121,12 +121,10 @@
     box-shadow: 0 10px 10px rgba(0, 0, 0, .45);
 }
 
-
 .newCard.left,
 .newCard.right {
     opacity: .85;
 }
-
 
 .newCard.hidden {
     opacity: 0;
