@@ -6,6 +6,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
    <title>BST Developers | Leading Real Estate Investment and Development Solutions</title>
    <link rel="preconnect" href="https://storage.googleapis.com/" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700"
+      rel="stylesheet">
    <style>
       .js.not-ready,
       .js.not-ready * {
@@ -13,8 +17,9 @@
       }
    </style>
    <link rel="stylesheet" href="assets/stylesheets/jsSlider.css" />
-   <link rel="stylesheet" href="assets/stylesheets/global2c68.css">
-   <link rel="stylesheet" href="assets/stylesheets/landing2c68.css" />
+   <link rel="stylesheet" href="assets/stylesheets/theme.css">
+   <link rel="stylesheet" href="assets/stylesheets/landing.css" />
+   <?php $this->load->view('common/meta'); ?>
    <script>
       document.documentElement.classList.remove('no-js');
       document.documentElement.classList.add('js');
@@ -39,45 +44,11 @@
          }
       });
    </script>
-   <!-- <link rel="manifest" href="assets/manifest/manifest2c68.webmanifest?v=1765268659"> -->
-   <meta name="theme-color" content="#162D24">
-   <meta name="msapplication-config" content="assets/manifest/browserconfig.xml?v=1765268659">
-   <link rel="shortcut icon" media="(prefers-color-scheme: light)" href="favicon-light2c68.png?v=1765268659">
-   <link rel="icon" type="image/png" media="(prefers-color-scheme: light)" sizes="96x96"
-      href="assets/manifest/favicon-96x96-dark2c68.png?v=1765268659">
-   <link rel="icon" type="image/png" media="(prefers-color-scheme: light)" sizes="32x32"
-      href="assets/manifest/favicon-32x32-dark2c68.png?v=1765268659">
-   <link rel="icon" type="image/png" media="(prefers-color-scheme: light)" sizes="16x16"
-      href="assets/manifest/favicon-16x16-dark2c68.png?v=1765268659">
-   <link rel="shortcut icon" media="(prefers-color-scheme: dark)" href="favicon2c68.ico?v=1765268659">
-   <link rel="icon" type="image/png" sizes="96x96" media="(prefers-color-scheme: dark)"
-      href="assets/manifest/favicon-96x96-light2c68.png?v=1765268659">
-   <link rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)"
-      href="assets/manifest/favicon-32x32-light2c68.png?v=1765268659">
-   <link rel="icon" type="image/png" sizes="16x16" media="(prefers-color-scheme: dark)"
-      href="assets/manifest/favicon-16x16-light2c68.png?v=1765268659">
-   <link rel="apple-touch-icon" href="assets/manifest/apple-touch-icon2c68.png?v=1765268659">
-   <link rel="mask-icon" href="assets/manifest/safari-pinned-tab2c68.svg?v=1765268659" color="#ffffff">
-   <meta name="description" content="Wellness-residences">
-   <meta name="keywords" content="">
-   <meta name="format-detection" content="telephone=no">
-   <link rel="canonical" href="index.html">
-   <meta property="og:type" content="website">
-   <!-- <meta property="og:url" content=""> -->
-   <meta property="og:title" content="Springs | Homepage">
-   <meta property="og:description" content="Wellness-residences">
-   <meta property="og:locale" content="en_US">
-   <!-- <meta property="og:image" content="assets/manifest/og.jpg"> -->
-   <meta name="twitter:card" content="summary_large_image">
-   <meta name="twitter:title" content="Springs | Homepage">
-   <meta name="twitter:description" content="Wellness-residences">
-   <!-- <meta name="twitter:image" content="assets/manifest/og.jpg"> -->
 </head>
 
 <body data-barba="wrapper">
    <a href="#top" class="sr-only sr-only--focusable">Skip to main content</a>
-   <div class="preloader js-preloader is-hidden" aria-hidden="true" data-plugin="preloader"
-      data-preloader-visible="false">
+   <div class="preloader js-preloader is-hidden" aria-hidden="true" data-plugin="preloader" data-preloader-visible="false">
       <div class="preloader__content ui-dark ui-background">
          <div class="preloader__content ui-dark ui-background">
             <div class="background background--cover preloader__gradient-animation">
@@ -111,7 +82,7 @@
                <div class="header__logo preloader__logo">
                   <span class="header__logo__inner preloader__logo__inner">
                      <span class="header__logo__left preloader__logo__left">
-                        <img class="icon icon-logo-left" width="122" height="55" src="assets/images/logoIcon.png" />
+                        <img class="icon icon-logo-left" src="assets/images/logoIcon.png" />
                      </span>
                      <span class="header__logo__right preloader__logo__right">
                         <img class="icon icon-logo-right" width="29" height="55" src="assets/images/logoText.png" />
@@ -119,10 +90,10 @@
                   </span>
                   <span class="header__logo__inner preloader__logo__inner">
                      <span class="header__logo__left preloader__logo__left">
-                        <img class="icon icon-logo-left" width="122" height="55" src="assets/images/logoIcon.png" />
+                        <img class="icon icon-logo-left" src="assets/images/logoIcon.png" />
                      </span>
                      <span class="header__logo__right preloader__logo__right">
-                        <img class="icon icon-logo-right" width="29" height="55" src="assets/images/logoText.png" />
+                        <img class="icon icon-logo-right" src="assets/images/logoText.png" />
                      </span>
                   </span>
                </div>
@@ -132,162 +103,27 @@
                   data-plugin=" button" data-button-clone-content="true">
                   <span class="btn__content">
                      <span class="btn__text  ">
-                        <!-- резиденции -->
                      </span>
                   </span>
                </a>
                <a class="btn btn--text-small  btn--link btn--underline is-hidden--sm-down" tabindex="0" role="button">
                   <span class="btn__content">
                      <span class="btn__text  ">
-                        <!-- оставить заявку -->
                         <span class="btn__underline"></span>
                      </span>
                   </span>
                </a>
             </div>
          </div>
-         <p class="preloader__content__cover h1">
-
-
-
-
-
-
-
-
-
-
-         </p>
+         <p class="preloader__content__cover h1"></p>
       </div>
    </div>
    <div class="page-content-wrapper ui-light-background" data-barba="container" data-barba-namespace="page" data-plugin="
          utmSave
          ">
       <div class="page-content-wrapper__inner js-page-content-wrapper">
-         <header class="header is-hidden--print js-header  header--sticky ui-dark header--landing " isFlatPage="false"
-            isFlatsPage="false" isVisualSearchPage="false" data-plugin="themed  stickyHeader " data-reveal="preloader"
-            data-reveal-visible="true" data-reveal-distance="0" data-reveal-enable-ajax-loaded="false">
-            <div class="header__background"></div>
-            <div class="header__content px-layout">
-               <div class="header__left header-animation-logo is-hidden--md-up" data-custom-scroll-theme-target="left">
-                  <a class="header__logo--mobile" href="index.html" aria-label="Homepage">
-                     <img class="icon icon-logo-mobile" src="assets/images/logo.webp" />
-                  </a>
-               </div>
-               <div class="header__left header-animation-link is-hidden--sm-down"
-                  data-custom-scroll-theme-target="left">
-                  <a class="btn btn--text-small btn--link btn--icon-spacing-large btn-container is-hidden--sm-down"
-                     href="#menu">
-                     <span class="btn__content">
-                        <span class="btn__icon ">
-                           <svg class="icon icon-menu" width="40" height="10" aria-hidden="true" viewBox="0 0 40 10"
-                              style="--icon-width: 40; --icon-height: 10;">
-                              <use href="assets/images/icons2c68.svg?v=1765268659#menu"
-                                 xlink:href="assets/images/icons2c68.svg?v=1765268659#menu"></use>
-                           </svg>
-                        </span>
-                        <span class="btn__text btn__text--has-content ">
-                           <span class="btn btn--text-small btn--link btn--clone btn--full" data-plugin=" button"
-                              data-button-clone-content="true">
-                              <span class="btn__content">
-                                 <span class="btn__text  ">
-                                    Menu
-                                 </span>
-                              </span>
-                           </span>
-                        </span>
-                     </span>
-                  </a>
-                  <a class="btn btn--text-small  btn--link btn--clone is-hidden--no-hover" href="#menu-picker"
-                     data-plugin=" button" data-button-clone-content="true">
-                     <span class="btn__content">
-                        <span class="btn__text  ">
-                           Residences
-                        </span>
-                     </span>
-                  </a>
-                  <a class="btn btn--text-small  btn--link btn--clone is-hidden--hover" href="flats.html"
-                     data-plugin=" button" data-button-clone-content="true">
-                     <span class="btn__content">
-                        <span class="btn__text  ">
-                           Residences
-                        </span>
-                     </span>
-                  </a>
-               </div>
-               <div class="header__center is-hidden--sm-down" data-custom-scroll-theme-target="right">
-                  <a class="header__logo" href="#top" aria-label="Scroll to top of the page">
-                     <span class="header__logo__inner header-animation-logo">
-                        <span class="header__logo__left">
-                           <img class="icon icon-logo-left" width="122" height="55" src="assets/images/logoIcon.png" />
-                        </span>
-                        <span class="header__logo__right">
-                           <img class="icon icon-logo-right" width="29" height="55" src="assets/images/logoText.png" />
-                        </span>
-                     </span>
-                  </a>
-               </div>
-               <div class="header__right header-animation-link" data-custom-scroll-theme-target="right">
-                  <a class="btn btn--text-small btn--link btn--clone is-hidden--md-up" href="flats.html"
-                     data-plugin=" button" data-button-clone-content="true">
-                     <span class="btn__content">
-                        <span class="btn__text  ">
-                           Residences
-                        </span>
-                     </span>
-                  </a>
-                  <div class="favourite-btn is-hidden--md-up">
-                     <a class="btn btn btn--text-small btn--link btn--square btn--sm" href="#favorites-modal">
-                        <span class="btn__content">
-                           <span class="btn__icon ">
-                              <svg class="icon icon-heart" width="16" height="16" aria-hidden="true" viewBox="0 0 16 16"
-                                 style="--icon-width: 16; --icon-height: 16;">
-                                 <use href="assets/images/icons2c68.svg?v=1765268659#heart"
-                                    xlink:href="assets/images/icons2c68.svg?v=1765268659#heart"></use>
-                              </svg>
-                           </span>
-                        </span>
-                     </a>
-                     <span class="favourite-btn__counter text-c2 is-hidden" data-plugin="favouriteCounter"
-                        data-favourite-counter-inactive-class="is-hidden"></span>
-                  </div>
-                  <a class="btn btn--text-small btn--link is-hidden--md-up" href="#menu" aria-label="Menu">
-                     <span class="btn__content">
-                        <span class="btn__icon ">
-                           <svg class="icon icon-menu-mobile" width="30" height="9" aria-hidden="true"
-                              viewBox="0 0 30 9" style="--icon-width: 30; --icon-height: 9;">
-                              <use href="assets/images/icons2c68.svg?v=1765268659#menu-mobile"
-                                 xlink:href="assets/images/icons2c68.svg?v=1765268659#menu-mobile"></use>
-                           </svg>
-                        </span>
-                     </span>
-                  </a>
-                  <a class="btn btn--text-small  btn--link btn--clone is-hidden--sm-down" href="#callback-modal"
-                     data-plugin=" button" data-button-clone-content="true">
-                     <span class="btn__content">
-                        <span class="btn__text  ">
-                           Contact us
-                        </span>
-                     </span>
-                  </a>
-                  <div class="favourite-btn is-hidden--sm-down">
-                     <a class="btn btn--sm btn--text-small" href="#favorites-modal">
-                        <span class="btn__content">
-                           <span class="btn__icon ">
-                              <svg class="icon icon-heart" width="16" height="16" aria-hidden="true" viewBox="0 0 16 16"
-                                 style="--icon-width: 16; --icon-height: 16;">
-                                 <use href="assets/images/icons2c68.svg?v=1765268659#heart"
-                                    xlink:href="assets/images/icons2c68.svg?v=1765268659#heart"></use>
-                              </svg>
-                           </span>
-                        </span>
-                     </a>
-                     <span class="favourite-btn__counter text-c2 is-hidden" data-plugin="favouriteCounter"
-                        data-favourite-counter-inactive-class="is-hidden"></span>
-                  </div>
-               </div>
-            </div>
-         </header>
+         <?php $this->load->view('common/header'); ?>
+        
          <div class="page-content js-page-content">
             <main id="top">
                <section class=" section ui-dark ui-background" data-scroll-section>
@@ -295,1213 +131,8 @@
                      id="l-gallery-sticky" data-plugin="reveal" data-reveal-enable-mq="null">
                      <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
                         data-scroll-target="#l-gallery-sticky" data-reveal="gallery">
-                        <!-- <div class="l-gallery__split row background background--cover">
-                           <div class=" col col--xs-4 col--md-6">
-                              <div class="l-gallery__item__mask-list">
-                                 <div class="l-gallery__item__mask-list__item gallery-animation-item">
-                                    <picture class=" " draggable="false">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-left-1-xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-left-1-xxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source srcset="assets/images/media/landing/0.preloader/preloader-left-1-md.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img src="assets/images/media/landing/0.preloader/preloader-left-1-xs.webp"
-                                          alt="" width="720" height="900" fetchpriority="high" draggable="false">
-                                    </picture>
-                                 </div>
-                                 <div class="l-gallery__item__mask-list__item gallery-animation-item">
-                                    <picture class=" " draggable="false">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-left-2-xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-left-2-xxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source srcset="assets/images/media/landing/0.preloader/preloader-left-2-md.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img src="assets/images/media/landing/0.preloader/preloader-left-2-xs.webp"
-                                          alt="" width="720" height="900" fetchpriority="high" draggable="false">
-                                    </picture>
-                                 </div>
-                                 <div class="l-gallery__item__mask-list__item gallery-animation-item">
-                                    <picture class=" " draggable="false">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-left-3-xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-left-3-xxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source srcset="assets/images/media/landing/0.preloader/preloader-left-3-md.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img src="assets/images/media/landing/0.preloader/preloader-left-3-xs.webp"
-                                          alt="" width="720" height="900" fetchpriority="high" draggable="false">
-                                    </picture>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class=" col col--xs-4 col--md-6">
-                              <div class="l-gallery__item__mask-list">
-                                 <div class="l-gallery__item__mask-list__item gallery-animation-item">
-                                    <picture class=" " draggable="false">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-right-1-xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-right-1-xxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-right-1-md.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img src="assets/images/media/landing/0.preloader/preloader-right-1-xs.webp"
-                                          alt="" width="720" height="900" fetchpriority="high" draggable="false">
-                                    </picture>
-                                 </div>
-                                 <div class="l-gallery__item__mask-list__item gallery-animation-item">
-                                    <picture class=" " draggable="false">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-right-2-xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-right-2-xxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-right-2-md.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img src="assets/images/media/landing/0.preloader/preloader-right-2-xs.webp"
-                                          alt="" width="720" height="900" fetchpriority="high" draggable="false">
-                                    </picture>
-                                 </div>
-                                 <div class="l-gallery__item__mask-list__item gallery-animation-item">
-                                    <picture class=" " draggable="false">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-right-3-xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-right-3-xxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="assets/images/media/landing/0.preloader/preloader-right-3-md.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img src="assets/images/media/landing/0.preloader/preloader-right-3-xs.webp"
-                                          alt="" width="720" height="900" fetchpriority="high" draggable="false">
-                                    </picture>
-                                 </div>
-                              </div>
-                           </div>
-                        </div> -->
-                        <div class="l-gallery__split row background background--cover">
-                        <?php foreach($preloader_gallery as $section=>$images): ?>
-                        <div class="col col--xs-4 col--md-6">
-                            <div class="l-gallery__item__mask-list">
-                                <?php foreach($images as $img): ?>
-                                <div class="l-gallery__item__mask-list__item gallery-animation-item">
-                                    <picture draggable="false">
-                                        <source
-                                            srcset="<?=base_url($img['image_xxxl']);?>"
-                                            media="(min-width:1920px) and (min-height:700px)"
-                                            width="720"
-                                            height="900">
-                                        <source
-                                            srcset="<?=base_url($img['image_xxl']);?>"
-                                            media="(min-width:1440px) and (min-height:700px)"
-                                            width="720"
-                                            height="900">
-                                        <source
-                                            srcset="<?=base_url($img['image_md']);?>"
-                                            media="(min-width:568px) and (max-aspect-ratio:13/9),
-                                                (min-width:668px) and (min-height:416px),
-                                                (min-width:980px)"
-                                            width="720"
-                                            height="900">
-                                        <img
-                                            src="<?=base_url($img['image_xs']);?>"
-                                            alt="<?= htmlspecialchars($img['alt_text'] ?? '', ENT_QUOTES, 'UTF-8'); ?>"
-                                            width="720"
-                                            height="900"
-                                            fetchpriority="high"
-                                            draggable="false">
-                                    </picture>
-                                </div>
-                                <?php endforeach; ?>
-                            </div>
-                        </div>
-                        <?php endforeach; ?>
-
-                        </div>
-                        <div class="l-gallery" data-plugin="gallery"
-                           data-scroll-snap-point='[   { "viewport": 0, "element": 0 }]'>
-                           <div class="l-gallery__content js-gallery-container">
-                            <?php foreach($hero_slider_gallery as $img): ?>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="<?=base_url($img['image_xxxl']);?>"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="<?=base_url($img['image_xxl']);?>"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="<?=base_url($img['image_md']);?>"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="<?=base_url($img['image_xs']);?>"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="<?=base_url($img['image_xxxl']);?>"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="<?=base_url($img['image_xxl']);?>"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="<?=base_url($img['image_md']);?>"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="<?=base_url($img['image_xs']);?>" alt="<?= htmlspecialchars($img['title'] ?? '', ENT_QUOTES, 'UTF-8'); ?>"
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="<?=base_url($img['image_xs']);?>"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="<?= htmlspecialchars($img['title'] ?? '', ENT_QUOTES, 'UTF-8'); ?>" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="<?=base_url($img['image_xs']);?>" alt="<?= htmlspecialchars($img['title'] ?? '', ENT_QUOTES, 'UTF-8'); ?>"
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <?php endforeach; ?>
-                              <!-- <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-16@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-16@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-16@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-16@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-16@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-16@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-16@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-16%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-16@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-16%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-7@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-7@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-7@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-7@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-7@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-7@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-7@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-7%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-7@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-7%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-4@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-4@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-4@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-4@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-4@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-4@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-4@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-4%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-4@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-4%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-5@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-5@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-5@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-5@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-5@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-5@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-5@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-5%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-5@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-5%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-6@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-6@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-6@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-6@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-6@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-6@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-6@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-6%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-6@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-6%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-3@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-3@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-3@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-3@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-3@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-3@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-3@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-3%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-3@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-3%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-11@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-11@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-11@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-11@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-11@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-11@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-11@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-11%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-11@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-11%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-9@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-9@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-9@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-9@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="high" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-9@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-9@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-9@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-9%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="high" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-9@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="high" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-9%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="high" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-10@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-10@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-10@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-10@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-10@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-10@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-10@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-10%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-10@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-10%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-8@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-8@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-8@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-8@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-8@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-8@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-8@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-8%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-8@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-8%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-12@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-12@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-12@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-12@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-12@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-12@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-12@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-12%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-12@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-12%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-13@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-13@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-13@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-13@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-13@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-13@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-13@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-13%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-13@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-13%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-14@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-14@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-14@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-14@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-14@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-14@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-14@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-14%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-14@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-14%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-15@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-15@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-15@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-15@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-15@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-15@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-15@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-15%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-15@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-15%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-2@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-2@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-2@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-2@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-2@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-2@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-2@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-2%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-2@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-2%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-17@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-17@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-17@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-17@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-17@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-17@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-17@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-17%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-17@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-17%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-18@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-18@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-18@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-18@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-18@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-18@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-18@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-18%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-18@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-18%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-                                 <div class="is-hidden--sm-down">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-19@xxxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-19@xxl.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                                       <source data-srcset="assets/images/media/landing/0.gallery/gallery-19@md.webp"
-                                          srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="360" height="480">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-19@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-19@xxxl.webp"
-                                             media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-19@xxl.webp"
-                                             media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                                             height="480">
-                                          <source srcset="assets/images/media/landing/0.gallery/gallery-19@md.webp"
-                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                             width="360" height="480">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-19%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                                 <div class="is-hidden--md-up">
-                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                       draggable="false">
-                                       <img data-src="assets/images/media/landing/0.gallery/gallery-19@xs.webp"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                                          alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                                          draggable="false">
-                                    </picture>
-                                    <noscript>
-                                       <picture class=" img-full" draggable="false">
-                                          <img src="assets/images/media/landing/0.gallery/gallery-19%40xs.webp" alt=""
-                                             width="360" height="480" fetchpriority="low" decoding="async"
-                                             draggable="false">
-                                       </picture>
-                                    </noscript>
-                                 </div>
-                              </div> -->
-                           </div>
-                           <?php if(!empty($hero_caption)) :?>
-                           <div class="l-gallery__caption">
-                              <div class="col col--xs-12 col--md-10 col--xxxl-10 offset--md-1 pt-3:md">
-                                 <h1 class="h0 leading-trim" data-reveal-delay="1000">
-                                    <?= htmlspecialchars($hero_caption['main_heading'] ?? '', ENT_QUOTES, 'UTF-8'); ?>
-                                 </h1>
-                                 <p role="heading" aria-level="1" class="text-t1 leading-trim" data-reveal-delay="1000">
-                                    <?= nl2br(htmlspecialchars($hero_caption['sub_heading'] ?? '', ENT_QUOTES, 'UTF-8')); ?>
-                                 </p>
-                                 <p class="text-center pt-1">
-                                    <?php if($hero_caption['primary_button_text']!=''): ?>
-                                        <a href="<?= base_url($hero_caption['primary_button_link']); ?>" class="btn btn--primary mr-1"><?= htmlspecialchars($hero_caption['primary_button_text']); ?></a>
-                                    <?php endif; ?>
-                                    <?php if($hero_caption['secondary_button_text']!=''): ?>
-                                        <a href="<?= base_url($hero_caption['secondary_button_link']); ?>" class="btn btn--secondary"><?= htmlspecialchars($hero_caption['secondary_button_text']); ?></a>
-                                    <?php endif; ?>
-                                 </p>
-                              </div>
-                              <a class="btn l-gallery-next btn--outline btn--square btn--sm is-hidden--md-down"
-                                 href="#l-intro">
-                                 <span class="btn__content">
-                                    <span class="btn__icon ">
-                                       <svg class="icon icon-arrow-down" width="14" height="16" aria-hidden="true"
-                                          viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                                          <use href="assets/images/icons2c68.svg?v=1765268659#arrow-down"
-                                             xlink:href="assets/images/icons2c68.svg?v=1765268659#arrow-down"></use>
-                                       </svg>
-                                    </span>
-                                 </span>
-                              </a>
-                              <a class="btn l-gallery-next btn--outline btn--square btn--sm is-hidden--lg-up"
-                                 href="#l-intro-mobile">
-                                 <span class="btn__content">
-                                    <span class="btn__icon ">
-                                       <svg class="icon icon-arrow-down" width="14" height="16" aria-hidden="true"
-                                          viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                                          <use href="assets/images/icons2c68.svg?v=1765268659#arrow-down"
-                                             xlink:href="assets/images/icons2c68.svg?v=1765268659#arrow-down"></use>
-                                       </svg>
-                                    </span>
-                                 </span>
-                              </a>
-                           </div>
-                           <?php endif; ?>
-                           <div class="l-gallery__gradient">
-                              <div></div>
-                              <!-- <div></div>
-                              <div></div>
-                              <div></div>
-                              <div></div> -->
-                           </div>
-                        </div>
+                        <?php $this->load->view('home/preloader'); ?>
+                        <?php $this->load->view('home/hero_slider'); ?>
                      </div>
                   </div>
                   <div
@@ -1518,7 +149,7 @@
                                  A Dream That Became a Vision
                               </p>
                            </div>
-                           <div class="col col--md-5 ml-layout">
+                           <div class="col col--md-6 ml-layout">
                               <p class="l-intro__opening-subtitle text-c1 leading-trim text-color-primary"
                                  data-reveal="text">
                                  BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian
@@ -1698,12 +329,13 @@
                         data-parallax--230-0='{"transform": "translateY(0%)"}'
                         data-parallax--500-0='{"transform": "translateY(110%)"}'
                         data-parallax-measure-selector=".sticky">
-                        <div class="l-intro__content-title col col--md-4 offset--md-2 pl-1" data-reveal="title">
-                           <h2 class="h2 leading-trim">Our Vision</h2>
-                           <p>To become India's most trusted real estate developer by creating sustainable communities
-                              that enrich lives and generate long-term value.</p>
+                        <div class="l-intro__content-title col col--md-6 pl-1" data-reveal="title">
+                           <h2 class="h3 leading-trim">
+                              “Together, we are building communities that stand as a testament to quality, integrity,
+                              and the future of India."
+                           </h2>
                         </div>
-                        <div class="l-intro__content-image ml-layout">
+                        <!-- <div class="l-intro__content-image ml-layout">
                            <img class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                               data-reveal="image-parallax-in" data-reveal-delay="1000" data-plugin="appear "
                               draggable="false" src="assets/images/VisionMissionbst.png" alt="" />
@@ -1729,7 +361,7 @@
                               you connect to your thoughts and feelings. Here, you will unveil hidden possibilities
                               that the future holds just for you.
                            </p>
-                        </div>
+                        </div> -->
                      </div>
                      <div class="l-intro__anchor" id="l-intro"></div>
                   </div>
@@ -1767,7 +399,7 @@
                   <div class="l-intro__content is-hidden--lg-up pb-2.5 pt-2 ui-dark ui-background">
                      <div class="l-intro__content-title col col--xs-3 col--md-4 pl-layout">
                         <h2 class="h2 leading-trim">
-                           Open the doors of Springs and step into your true self
+                           Open the doors of BST Developers and step into your true self
                         </h2>
                      </div>
                      <div class="l-intro__content-image ml-layout mt-1">
@@ -1874,35 +506,37 @@
                                  </noscript>
                               </div>
                            </div>
-                           <div class="l-wellness__webgl-caption pt-5">
-                              <h3 class="col col--md-8 offset--md-2 mb-1 leading-trim" data-reveal="text">
-                                 A Message from Our Chairman & Managing Director
-                              </h3>
-                              <p class="col col--md-8 offset--md-2 mb-1 text-t1 leading-trim" data-reveal="text">
-                                 "I don't believe in doing business solely for profit. True success lies in creating
-                                 developments that contribute to the growth of our nation while improving the lives of
-                                 people.
-                                 India is witnessing an extraordinary era of progress, and with that comes a new
-                                 generation of aspirational citizens seeking better lifestyles and brighter futures. At
-                                 BST Developers, we have built a passionate team committed to creating not just homes,
-                                 but opportunities for long-term wealth creation and meaningful living.
-                                 We will continue to innovate, embrace the best technologies, and pursue excellence in
-                                 everything we undertake. Above all, our greatest achievement will always be earning the
-                                 trust of our customers, employees, partners, and stakeholders.
-                                 Together, we are building communities that stand as a testament to quality, integrity,
-                                 and the future of India."
-                                 — Mr. Yoginder Tanwar
-                                 Chairman & Managing Director
-                                 BST Developers India Pvt. Ltd.
-
-                              </p>
-                              <div class="col col--md-8 offset--md-2 l-wellness__webgl-title text-right">
-                                 <p class="text-c1 leading-trim" data-reveal="text">
-                                    — Mr. Yoginder Tanwar<br />
-                                    Chairman & Managing Director<br />
-                                    BST Developers India Pvt. Ltd.
+                           <div class="l-wellness__webgl-caption pt-3">
+                              <h1 class="h1 col col--md-10 offset--md-1 mb-1 leading-trim" data-reveal="text">
+                                 A Message from Our CMD
+                                 </h3>
+                                 <p class="h4 col col--md-10 offset--md-1 mb-1 " data-reveal="text">
+                                    "I don't believe in doing business solely for profit. True success lies in creating
+                                    developments that contribute to the growth of our nation while improving the lives
+                                    of
+                                    people.
+                                    India is witnessing an extraordinary era of progress, and with that comes a new
+                                    generation of aspirational citizens seeking better lifestyles and brighter futures.
+                                    At
+                                    BST Developers, we have built a passionate team committed to creating not just
+                                    homes,
+                                    but opportunities for long-term wealth creation and meaningful living.
+                                    We will continue to innovate, embrace the best technologies, and pursue excellence
+                                    in
+                                    everything we undertake. Above all, our greatest achievement will always be earning
+                                    the
+                                    trust of our customers, employees, partners, and stakeholders.
+                                    Together, we are building communities that stand as a testament to quality,
+                                    integrity,
+                                    and the future of India."
                                  </p>
-                              </div>
+                                 <div class="col col--md-10 offset--md-1 text-right">
+                                    <p class="h4 leading-trim" data-reveal="text">
+                                       — Mr. Yoginder Tanwar<br />
+                                       Chairman & Managing Director<br />
+                                       BST Developers India Pvt. Ltd.
+                                    </p>
+                                 </div>
                            </div>
                         </div>
                         <div class="l-wellness__slider row"
@@ -1921,41 +555,40 @@
                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
                                           data-plugin="appear " draggable="false">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_1_xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                              height="900">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_1_xxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                              height="900">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_1_md.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="720" height="900">
                                           <img
-                                             data-src="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-1%40xs.webp"
+                                             data-src="assets/images/media/landing/2.wellness/wellness_slider_1_xs.webp"
                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              alt="" width="720" height="900" draggable="false">
                                        </picture>
                                        <noscript>
                                           <picture class=" img-cover" draggable="false">
                                              <source
-                                                srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_1_xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
-                                                srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_1_xxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
-                                                srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_1_md.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="720" height="900">
-                                             <img
-                                                src="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-1%40xs.webp"
+                                             <img src="assets/images/media/landing/2.wellness/wellness_slider_1_xs.webp"
                                                 alt="" width="720" height="900" draggable="false">
                                           </picture>
                                        </noscript>
@@ -1964,41 +597,40 @@
                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
                                           data-plugin="appear " draggable="false">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_2_xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                              height="900">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_2_xxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                              height="900">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_2_md.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="720" height="900">
                                           <img
-                                             data-src="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-2%40xs.webp"
+                                             data-src="assets/images/media/landing/2.wellness/wellness_slider_2_xs.webp"
                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              alt="" width="720" height="900" draggable="false">
                                        </picture>
                                        <noscript>
                                           <picture class=" img-cover" draggable="false">
                                              <source
-                                                srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_2_xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
-                                                srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_2_xxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
-                                                srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_2_md.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="720" height="900">
-                                             <img
-                                                src="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-2%40xs.webp"
+                                             <img src="assets/images/media/landing/2.wellness/wellness_slider_2_xs.webp"
                                                 alt="" width="720" height="900" draggable="false">
                                           </picture>
                                        </noscript>
@@ -2007,92 +639,91 @@
                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
                                           data-plugin="appear " draggable="false">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_3_xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                              height="900">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_3_xxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                              height="900">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_3_md.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="720" height="900">
                                           <img
-                                             data-src="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-3%40xs.webp"
+                                             data-src="assets/images/media/landing/2.wellness/wellness_slider_3_xs.webp"
                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              alt="" width="720" height="900" draggable="false">
                                        </picture>
                                        <noscript>
                                           <picture class=" img-cover" draggable="false">
                                              <source
-                                                srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_3_xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
-                                                srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_3_xxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
-                                                srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_3_md.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="720" height="900">
-                                             <img
-                                                src="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-3%40xs.webp"
+                                             <img src="assets/images/media/landing/2.wellness/wellness_slider_3_xs.webp"
                                                 alt="" width="720" height="900" draggable="false">
                                           </picture>
                                        </noscript>
                                     </div>
-                                    <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
+                                    <!-- <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
                                           data-plugin="appear " draggable="false">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_4_xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                              height="900">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_4_xxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                              height="900">
                                           <source
-                                             data-srcset="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/2.wellness/wellness_slider_4_md.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="720" height="900">
                                           <img
-                                             data-src="<?php echo base_url(); ?>media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-4%40xs.webp"
+                                             data-src="assets/images/media/landing/2.wellness/wellness_slider_4_xs.webp"
                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                              alt="" width="720" height="900" draggable="false">
                                        </picture>
                                        <noscript>
                                           <picture class=" img-cover" draggable="false">
                                              <source
-                                                srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_4_xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
-                                                srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_4_xxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
-                                                srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
+                                                srcset="assets/images/media/landing/2.wellness/wellness_slider_4_md.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="720" height="900">
                                              <img
-                                                src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-4%40xs.webp"
+                                                src="assets/images/media/landing/2.wellness/wellness_slider_4_xs.webp"
                                                 alt="" width="720" height="900" draggable="false">
                                           </picture>
                                        </noscript>
-                                    </div>
+                                    </div> -->
                                  </div>
                               </div>
                            </div>
-                           <div class="l-wellness__slider__caption col col--md-6 ui-dark" data-plugin="parallax"
+                           <div class="l-wellness__slider__caption col col--md-6 ui-dark pt-2" data-plugin="parallax"
                               data-parallax-enable-mq="md-up" data-parallax-clamp="true"
                               data-parallax-measure-selector=".sticky"
                               data-parallax--120-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"}'
@@ -2104,18 +735,18 @@
                                  class="js-wellness-controller-selector" data-content-animation-link-event="click">
                                  <h3 class="h3 mt-2 pl-1">THE BST PHILOSOPHY</h3>
                                  <div
-                                    class="l-wellness__slider__caption-titles col col--md-6 ml-auto mr-0 pt-2 pr-1 text-right"
+                                    class="l-wellness__slider__caption-titles col col--md-6 ml-auto mr-0 pt-1 pr-1 text-right"
                                     data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true"
                                     data-parallax--20-0='{"transform": "translateY(30%)"}'
                                     data-parallax--420-0='{"transform": "translateY(-30%)"}'>
                                     <a class="js-content-animation-link is-active" data-content-animation-id="1">
-                                       <p class="h3 leading-trim">B</p>
+                                       <p class="h2 leading-trim">B</p>
                                     </a>
                                     <a class="js-content-animation-link " data-content-animation-id="2">
-                                       <p class="h3 leading-trim">S</p>
+                                       <p class="h2 leading-trim">S</p>
                                     </a>
                                     <a class="js-content-animation-link " data-content-animation-id="3">
-                                       <p class="h3 leading-trim">T</p>
+                                       <p class="h2 leading-trim">T</p>
                                     </a>
                                  </div>
                                  <div class="l-wellness__slider__caption-text content-animation col col--md-4"
@@ -2187,7 +818,7 @@
                            </div>
                            <div class="l-wellness__webgl-caption px-layout pt-3">
                               <p class="col col--md-6 text-t1 leading-trim">
-                                 Springs brings wellness right into your home. With a thoughtfully
+                                 BST Developers brings wellness right into your home. With a thoughtfully
                                  designed infrastructure for relaxation, it rejuvenates your body and mind,
                                  leaving you refreshed and perfectly balanced.
                               </p>
@@ -2223,37 +854,34 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                       data-srcset="assets/images/media/landing/2.wellness/wellness_slider_1_xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                       data-srcset="assets/images/media/landing/2.wellness/wellness_slider_1_xxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                       data-srcset="assets/images/media/landing/2.wellness/wellness_slider_1_md.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-1%40xs.webp"
+                                    <img data-src="assets/images/media/landing/2.wellness/wellness_slider_1_xs.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" decoding="async" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                          srcset="assets/images/media/landing/2.wellness/wellness_slider_1_xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                          srcset="assets/images/media/landing/2.wellness/wellness_slider_1_xxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                       <source srcset="assets/images/media/landing/2.wellness/wellness_slider_1_md.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-1%40xs.webp"
+                                       <img src="assets/images/media/landing/2.wellness/wellness_slider_1_xs.webp"
                                           alt="" width="720" height="900" decoding="async" draggable="false">
                                     </picture>
                                  </noscript>
@@ -2262,37 +890,34 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                       data-srcset="assets/images/media/landing/2.wellness/wellness_slider_2_xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                       data-srcset="assets/images/media/landing/2.wellness/wellness_slider_2_xxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                       data-srcset="assets/images/media/landing/2.wellness/wellness_slider_2_md.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-2%40xs.webp"
+                                    <img data-src="assets/images/media/landing/2.wellness/wellness_slider_2_xs.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" decoding="async" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                          srcset="assets/images/media/landing/2.wellness/wellness_slider_2_xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                          srcset="assets/images/media/landing/2.wellness/wellness_slider_2_xxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                       <source srcset="assets/images/media/landing/2.wellness/wellness_slider_2_md.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-2%40xs.webp"
+                                       <img src="assets/images/media/landing/2.wellness/wellness_slider_2_xs.webp"
                                           alt="" width="720" height="900" decoding="async" draggable="false">
                                     </picture>
                                  </noscript>
@@ -2301,76 +926,34 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                       data-srcset="assets/images/media/landing/2.wellness/wellness_slider_3_xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                       data-srcset="assets/images/media/landing/2.wellness/wellness_slider_3_xxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                       data-srcset="assets/images/media/landing/2.wellness/wellness_slider_3_md.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-3%40xs.webp"
+                                    <img data-src="assets/images/media/landing/2.wellness/wellness_slider_3_xs.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" decoding="async" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                          srcset="assets/images/media/landing/2.wellness/wellness_slider_3_xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                          srcset="assets/images/media/landing/2.wellness/wellness_slider_3_xxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                       <source srcset="assets/images/media/landing/2.wellness/wellness_slider_3_md.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-3%40xs.webp"
-                                          alt="" width="720" height="900" decoding="async" draggable="false">
-                                    </picture>
-                                 </noscript>
-                              </li>
-                              <li class="mobile-scrollable__item carousel__list__item--gradient-large ">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-4%40xs.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" decoding="async" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-4%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-4%40xs.webp"
+                                       <img src="assets/images/media/landing/2.wellness/wellness_slider_3_xs.webp"
                                           alt="" width="720" height="900" decoding="async" draggable="false">
                                     </picture>
                                  </noscript>
@@ -2379,19 +962,15 @@
                            <div class="carousel__thumb group group--nowrap px-layout">
                               <a role="button"
                                  class="col col--xs-2 text-c1 carousel__thumb__item js-mobile-scrollable-thumbnail leading-trim is-active">
-                                 <span class="carousel__thumb__item__text">Spa</span>
+                                 <span class="carousel__thumb__item__text">B</span>
                               </a>
                               <a role="button"
                                  class="col col--xs-2 text-c1 carousel__thumb__item js-mobile-scrollable-thumbnail leading-trim ">
-                                 <span class="carousel__thumb__item__text">Yoga</span>
+                                 <span class="carousel__thumb__item__text">S</span>
                               </a>
                               <a role="button"
                                  class="col col--xs-2 text-c1 carousel__thumb__item js-mobile-scrollable-thumbnail leading-trim ">
-                                 <span class="carousel__thumb__item__text">Fitness</span>
-                              </a>
-                              <a role="button"
-                                 class="col col--xs-2 text-c1 carousel__thumb__item js-mobile-scrollable-thumbnail leading-trim ">
-                                 <span class="carousel__thumb__item__text">Café</span>
+                                 <span class="carousel__thumb__item__text">T</span>
                               </a>
                            </div>
                         </div>
@@ -2406,42 +985,43 @@
                                  <div data-content-animation-item="1" class="" aria-hidden="false">
                                     <div class="mb-1">
                                        <p class="h3 leading-trim">
-                                          Spa
+                                          Best of Everything
                                        </p>
                                     </div>
                                     <p class="text-t1 leading-trim">
-                                       Let your thoughts flow freely as you immerse yourself in our
-                                       crystal-clear spa pool that offers a view of the garden. Soft
-                                       glare on the water, a cup of herbal tea
-                                       in the fragrant warmth of the hammam &mdash; and just
-                                       like that, you leave the day’s worries behind.
+                                       We strive to deliver excellence in every aspect—from strategic locations and
+                                       premium planning to superior infrastructure, quality construction, and
+                                       customer experience. Every BST project reflects our commitment to offering
+                                       nothing but the best.
                                     </p>
                                  </div>
                                  <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
                                     <div class="mb-1">
                                        <p class="h3 leading-trim">
-                                          Yoga
+                                          Sustainable Future
                                        </p>
                                     </div>
                                     <p class="text-t1 leading-trim">
-                                       Relaxing yoga session mellows the mind and makes your body feel light and
-                                       responsive. Finding balance is easy.
+                                       Our developments are designed with tomorrow in mind. Green landscapes, open
+                                       spaces, efficient planning, and environmentally responsible practices help us
+                                       create communities that are healthier, smarter, and built to last for future
+                                       generations.
                                     </p>
                                  </div>
                                  <div data-content-animation-item="3" class="is-hidden" aria-hidden="true">
                                     <div class="mb-1">
                                        <p class="h3 leading-trim">
-                                          Fitness
+                                          Trust & Technology
                                        </p>
                                     </div>
                                     <p class="text-t1 leading-trim">
-                                       Get ready to face the day guided by your personal trainer
-                                       in our modern fitness center. Exercise at your convenience, because
-                                       the gym is just a few steps away &mdash; right
-                                       up the stairs
+                                       Trust forms the foundation of every relationship we build. By integrating
+                                       transparency, ethical business practices, and modern technology into every
+                                       stage of development, we ensure confidence, reliability, and seamless
+                                       experiences for our customers.
                                     </p>
                                  </div>
-                                 <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
+                                 <!-- <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
                                     <div class="mb-1">
                                        <p class="h3 leading-trim">
                                           Café
@@ -2453,7 +1033,7 @@
                                        the house. Cozy up on the terrace of our
                                        wellness-caf&eacute; and relax to the sounds of ambient music.
                                     </p>
-                                 </div>
+                                 </div> -->
                               </div>
                            </div>
                         </div>
@@ -2654,7 +1234,7 @@
                                     <h3 class="h3 leading-trim" data-reveal="text">
                                        Enjoy nature&rsquo;s embrace that shields you from the world outside.
                                        Climbing rooftop plants, winding layouts of flowerbeds, emerald lawns.
-                                       Springs lets you learn the art of leisure.
+                                       BST Developers lets you learn the art of leisure.
                                     </h3>
                                  </div>
                               </div>
@@ -2858,6 +1438,178 @@
                                           </picture>
                                        </noscript>
                                     </div>
+                                    <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
+                                       <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
+                                          data-plugin="appear " draggable="false">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
+                                             height="854">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
+                                             height="854">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                             width="640" height="854">
+                                          <img
+                                             data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             alt="" width="640" height="854" draggable="false">
+                                       </picture>
+                                       <noscript>
+                                          <picture class=" img-full parallax-image-move" draggable="false">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="640"
+                                                height="854">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="640"
+                                                height="854">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                width="640" height="854">
+                                             <img
+                                                src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                                alt="" width="640" height="854" draggable="false">
+                                          </picture>
+                                       </noscript>
+                                    </div>
+                                    <div data-content-animation-item="5" class="is-hidden" aria-hidden="true">
+                                       <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
+                                          data-plugin="appear " draggable="false">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
+                                             height="854">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
+                                             height="854">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                             width="640" height="854">
+                                          <img
+                                             data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             alt="" width="640" height="854" draggable="false">
+                                       </picture>
+                                       <noscript>
+                                          <picture class=" img-full parallax-image-move" draggable="false">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="640"
+                                                height="854">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="640"
+                                                height="854">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                width="640" height="854">
+                                             <img
+                                                src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                                alt="" width="640" height="854" draggable="false">
+                                          </picture>
+                                       </noscript>
+                                    </div>
+                                    <div data-content-animation-item="6" class="is-hidden" aria-hidden="true">
+                                       <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
+                                          data-plugin="appear " draggable="false">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
+                                             height="854">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
+                                             height="854">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                             width="640" height="854">
+                                          <img
+                                             data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             alt="" width="640" height="854" draggable="false">
+                                       </picture>
+                                       <noscript>
+                                          <picture class=" img-full parallax-image-move" draggable="false">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="640"
+                                                height="854">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="640"
+                                                height="854">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                width="640" height="854">
+                                             <img
+                                                src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                                alt="" width="640" height="854" draggable="false">
+                                          </picture>
+                                       </noscript>
+                                    </div>
+                                    <div data-content-animation-item="7" class="is-hidden" aria-hidden="true">
+                                       <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
+                                          data-plugin="appear " draggable="false">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
+                                             height="854">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
+                                             height="854">
+                                          <source
+                                             data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                             width="640" height="854">
+                                          <img
+                                             data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
+                                             alt="" width="640" height="854" draggable="false">
+                                       </picture>
+                                       <noscript>
+                                          <picture class=" img-full parallax-image-move" draggable="false">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="640"
+                                                height="854">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="640"
+                                                height="854">
+                                             <source
+                                                srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                width="640" height="854">
+                                             <img
+                                                src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                                alt="" width="640" height="854" draggable="false">
+                                          </picture>
+                                       </noscript>
+                                    </div>
                                  </div>
                               </div>
                            </div>
@@ -2866,7 +1618,7 @@
                               data-parallax--320-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"}'
                               data-parallax--420-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}'
                               data-parallax--520-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"}'>
-                              <div class="l-nature__slider-caption col--md-5  js-nature-controller-selector pl-1 pt-2"
+                              <div class="col--md-5  js-nature-controller-selector pl-1 pt-2"
                                  data-plugin="contentAnimation" data-content-animation-fixed-height="false"
                                  data-content-animation-animations='{
                                     "changeShow": {"name": "text"},
@@ -2888,7 +1640,7 @@
                                        <p class="text-t1 leading-trim mb-0.5">
                                           <b>Focus Areas</b>
                                        </p>
-                                       <ul>
+                                       <ul class="text-t1 leading-trim">
                                           <li>Boutique Hotels</li>
                                           <li>Resort Developments</li>
                                           <li>Business Hospitality</li>
@@ -2909,7 +1661,7 @@
                                        <p class="text-t1 leading-trim mb-0.5">
                                           <b>Highlights</b>
                                        </p>
-                                       <ul>
+                                       <ul class="text-t1 leading-trim">
                                           <li>Premium residential plots</li>
                                           <li>Located near Dwarka Expressway</li>
                                           <li>Adjacent to a 75-meter wide road</li>
@@ -2932,7 +1684,7 @@
                                        <p class="text-t1 leading-trim mb-0.5">
                                           <b>Highlights</b>
                                        </p>
-                                       <ul>
+                                       <ul class="text-t1 leading-trim">
                                           <li>Landscaped Zen Park</li>
                                           <li>Children's Play Area</li>
                                           <li>Open Air Gym</li>
@@ -2942,6 +1694,101 @@
                                        </ul>
                                     </div>
 
+                                    <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
+                                       <h3 class="h3 mtb-2">
+                                          Restaurants<br /><small>Restaurant</small>
+                                       </h3>
+                                       <p class="text-t1 leading-trim mb-1">
+                                          <b>Status:</b> Upcoming
+                                       </p>
+                                       <p class="text-t1 leading-trim mb-1">
+                                          A vibrant community designed for families who value open spaces, wellness, and
+                                          modern living.
+                                       </p>
+                                       <p class="text-t1 leading-trim mb-0.5">
+                                          <b>Highlights</b>
+                                       </p>
+                                       <ul class="text-t1 leading-trim">
+                                          <li>Landscaped Zen Park</li>
+                                          <li>Children's Play Area</li>
+                                          <li>Open Air Gym</li>
+                                          <li>Amphitheatre</li>
+                                          <li>Community-focused planning</li>
+                                          <li>Green surroundings</li>
+                                       </ul>
+                                    </div>
+
+                                    <div data-content-animation-item="5" class="is-hidden" aria-hidden="true">
+                                       <h3 class="h3 mtb-2">
+                                          5-Star Hotels<br /><small>Hotel</small>
+                                       </h3>
+                                       <p class="text-t1 leading-trim mb-1">
+                                          <b>Status:</b> Upcoming
+                                       </p>
+                                       <p class="text-t1 leading-trim mb-1">
+                                          A vibrant community designed for families who value open spaces, wellness, and
+                                          modern living.
+                                       </p>
+                                       <p class="text-t1 leading-trim mb-0.5">
+                                          <b>Highlights</b>
+                                       </p>
+                                       <ul class="text-t1 leading-trim">
+                                          <li>Landscaped Zen Park</li>
+                                          <li>Children's Play Area</li>
+                                          <li>Open Air Gym</li>
+                                          <li>Amphitheatre</li>
+                                          <li>Community-focused planning</li>
+                                          <li>Green surroundings</li>
+                                       </ul>
+                                    </div>
+
+                                    <div data-content-animation-item="6" class="is-hidden" aria-hidden="true">
+                                       <h3 class="h3 mtb-2">
+                                          Hign End SCO Floors<br /><small>Residential</small>
+                                       </h3>
+                                       <p class="text-t1 leading-trim mb-1">
+                                          <b>Status:</b> Upcoming
+                                       </p>
+                                       <p class="text-t1 leading-trim mb-1">
+                                          A vibrant community designed for families who value open spaces, wellness, and
+                                          modern living.
+                                       </p>
+                                       <p class="text-t1 leading-trim mb-0.5">
+                                          <b>Highlights</b>
+                                       </p>
+                                       <ul class="text-t1 leading-trim">
+                                          <li>Landscaped Zen Park</li>
+                                          <li>Children's Play Area</li>
+                                          <li>Open Air Gym</li>
+                                          <li>Amphitheatre</li>
+                                          <li>Community-focused planning</li>
+                                          <li>Green surroundings</li>
+                                       </ul>
+                                    </div>
+
+                                    <div data-content-animation-item="7" class="is-hidden" aria-hidden="true">
+                                       <h3 class="h3 mtb-2">
+                                          Luxury High Rise<br /><small>Residential</small>
+                                       </h3>
+                                       <p class="text-t1 leading-trim mb-1">
+                                          <b>Status:</b> Upcoming
+                                       </p>
+                                       <p class="text-t1 leading-trim mb-1">
+                                          A vibrant community designed for families who value open spaces, wellness, and
+                                          modern living.
+                                       </p>
+                                       <p class="text-t1 leading-trim mb-0.5">
+                                          <b>Highlights</b>
+                                       </p>
+                                       <ul class="text-t1 leading-trim">
+                                          <li>Landscaped Zen Park</li>
+                                          <li>Children's Play Area</li>
+                                          <li>Open Air Gym</li>
+                                          <li>Amphitheatre</li>
+                                          <li>Community-focused planning</li>
+                                          <li>Green surroundings</li>
+                                       </ul>
+                                    </div>
                                  </div>
                                  <div class="group group--small">
                                     <a class="btn btn--outline btn--sm btn--square js-content-animation-prev"
@@ -2950,8 +1797,8 @@
                                           <span class="btn__icon ">
                                              <svg class="icon icon-arrow-left" width="17" height="16" aria-hidden="true"
                                                 viewBox="0 0 17 16" style="--icon-width: 17; --icon-height: 16;">
-                                                <use href="assets/images/icons2c68.svg?v=1765268659#arrow-left"
-                                                   xlink:href="assets/images/icons2c68.svg?v=1765268659#arrow-left">
+                                                <use href="assets/images/icons.svg#arrow-left"
+                                                   xlink:href="assets/images/icons.svg#arrow-left">
                                                 </use>
                                              </svg>
                                           </span>
@@ -2964,8 +1811,8 @@
                                              <svg class="icon icon-arrow-right" width="17" height="16"
                                                 aria-hidden="true" viewBox="0 0 17 16"
                                                 style="--icon-width: 17; --icon-height: 16;">
-                                                <use href="assets/images/icons2c68.svg?v=1765268659#arrow-right"
-                                                   xlink:href="assets/images/icons2c68.svg?v=1765268659#arrow-right">
+                                                <use href="assets/images/icons.svg#arrow-right"
+                                                   xlink:href="assets/images/icons.svg#arrow-right">
                                                 </use>
                                              </svg>
                                           </span>
@@ -2995,7 +1842,7 @@
                            <div class="px-layout">
                               <div class="l-place-webgl__text mt-3 col col--md-4">
                                  <p class="text-t1 leading-trim" data-reveal="text">
-                                    Springs is situated in the prestigious Western District
+                                    BST Developers is situated in the prestigious Western District
                                     of the capital, surrounded by parks and close
                                     to the embankment. It is adjacent to the highway, one
                                     of the most ecological areas of the City.
@@ -3112,7 +1959,8 @@
                                  data-plugin="parallax" data-parallax-pattern="natureCaptionMoveUp">
                                  <h3 class="h3 leading-trim">
                                     Enjoy nature&rsquo;s embrace that shields you from the world outside.
-                                    Climbing rooftop plants, winding layouts of flowerbeds, emerald lawns. Springs
+                                    Climbing rooftop plants, winding layouts of flowerbeds, emerald lawns. BST
+                                    Developers
                                     lets you learn the art of leisure.
                                  </h3>
                                  <div class="mt-1.5">
@@ -3239,7 +2087,7 @@
                               data-parallax-0--100='{"transform": "translateY(10vh)"}'
                               data-parallax-0-100='{"transform": "translateY(-10vh)"}'>
                               <p class="text-t1 leading-trim">
-                                 Springs is situated in the prestigious Western District
+                                 BST Developers is situated in the prestigious Western District
                                  of the capital, surrounded by parks and close
                                  to the embankment. It is adjacent to the highway, one
                                  of the most ecological areas of the City.
@@ -3296,8 +2144,7 @@
                               </div>
                               <div class="mt-0.5">
                                  <p class="text-c1 text-right leading-trim">
-                                    minute walk<br>
-                                    to Nature Park
+                                    Years of Experience
                                  </p>
                               </div>
                            </div>
@@ -3344,8 +2191,7 @@
                               </div>
                               <div class="mt-0.5">
                                  <p class="text-c1 text-right leading-trim">
-                                    minute walk<br>
-                                    to the embankment
+                                    Completed Developments
                                  </p>
                               </div>
                            </div>
@@ -3392,8 +2238,54 @@
                               </div>
                               <div class="mt-0.5">
                                  <p class="text-c1 text-right leading-trim">
-                                    minutes by car<br>
-                                    to the MIBC
+                                    Happy Customers
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="l-place-video__caption-item" data-plugin="parallax"
+                              data-parallax-enable-mq="md-up" data-parallax-clamp="true"
+                              data-parallax-measure-selector=".sticky"
+                              data-parallax--200-0='{"clip-path": "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)"}'
+                              data-parallax--300-0='{"clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)"}'>
+                              <div>
+                                 <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
+                                    draggable="false">
+                                    <source data-srcset="assets/images/media/landing/4.place/place-caption-2@xxxl.webp"
+                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                                       media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
+                                    <source data-srcset="assets/images/media/landing/4.place/place-caption-2@xxl.webp"
+                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                                       media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
+                                    <source data-srcset="assets/images/media/landing/4.place/place-caption-2@md.webp"
+                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                       width="440" height="427">
+                                    <img data-src="assets/images/media/landing/4.place/place-caption-2@xs.webp"
+                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                                       alt="" width="440" height="427" draggable="false">
+                                 </picture>
+                                 <noscript>
+                                    <picture class=" img-full" draggable="false">
+                                       <source srcset="assets/images/media/landing/4.place/place-caption-2@xxxl.webp"
+                                          media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
+                                       <source srcset="assets/images/media/landing/4.place/place-caption-2@xxl.webp"
+                                          media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
+                                       <source srcset="assets/images/media/landing/4.place/place-caption-2@md.webp"
+                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                          width="440" height="427">
+                                       <img src="assets/images/media/landing/4.place/place-caption-2%40xs.webp" alt=""
+                                          width="440" height="427" draggable="false">
+                                    </picture>
+                                 </noscript>
+                              </div>
+                              <div class="mt-0.3">
+                                 <p class="h0 leading-trim">
+                                    280
+                                 </p>
+                              </div>
+                              <div class="mt-0.5">
+                                 <p class="text-c1 text-right leading-trim">
+                                    Delivered Projects
                                  </p>
                               </div>
                            </div>
@@ -3470,6 +2362,23 @@
                                     height="900" draggable="false">
                               </picture>
                            </noscript>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sticky sticky--full-height sticky--under-previous sticky--under-next is-hidden--md-down"
+                     id="l-place-sticky-4">
+                     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
+                        data-scroll-target="#l-place-sticky-4"
+                        data-scroll-snap-point='[{ "viewport": 0, "element": 100 }]'>
+                        <div class="background background--cover" data-plugin="parallax"
+                           data-parallax-pattern="stickyUnderPreviousNextBackground">
+                           <div class="background background--cover">
+                              <iframe
+                                 style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;"
+                                 width="640" height="360" loading="lazy"
+                                 src="https://player.vimeo.com/video/1044257440?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -3550,8 +2459,7 @@
                                     3
                                  </p>
                                  <p class=" text-c1 leading-trim mt-2">
-                                    minute walk<br>
-                                    to Nature Park
+                                    Years of Experience
                                  </p>
                               </div>
                            </div>
@@ -3625,8 +2533,7 @@
                                     9
                                  </p>
                                  <p class=" text-c1 leading-trim mt-2">
-                                    minute walk<br>
-                                    to the embankment
+                                    Completed Developments
                                  </p>
                               </div>
                            </div>
@@ -3700,8 +2607,7 @@
                                     16
                                  </p>
                                  <p class=" text-c1 leading-trim mt-2">
-                                    minutes by car<br>
-                                    to the MIBC
+                                    Happy Customers
                                  </p>
                               </div>
                            </div>
@@ -3843,8 +2749,8 @@
                               </div>
                               <svg class="icon icon-scroll l-map-caption__map-scroll" width="30" height="15"
                                  aria-hidden="true" viewBox="0 0 30 15" style="--icon-width: 30; --icon-height: 15;">
-                                 <use href="assets/images/icons2c68.svg?v=1765268659#scroll"
-                                    xlink:href="assets/images/icons2c68.svg?v=1765268659#scroll"></use>
+                                 <use href="assets/images/icons.svg#scroll" xlink:href="assets/images/icons.svg#scroll">
+                                 </use>
                               </svg>
                            </div>
                            <div class="" data-themed-class="ui-dark"></div>
@@ -4557,12 +3463,12 @@
                                     aria-hidden="false">
                                     <div class="l-residences__caption__card ui-background">
                                        <div class="l-residences__caption__card-content">
-                                          <p class="l-residences__caption__type text-t1 leading-trim">
+                                          <p class="h4 l-residences__caption__type text-t1 leading-trim">
                                              Fitness
                                           </p>
                                           <p
                                              class="l-residences__caption__description text-color-small text-small leading-trim">
-                                             &nbsp;
+                                             Elevate your wellness with spaces designed to keep you active every day.
                                           </p>
                                           <div class="l-residences__caption__item">
                                              <p class="h4 leading-trim">
@@ -4589,12 +3495,12 @@
                                     aria-hidden="true">
                                     <div class="l-residences__caption__card ui-background">
                                        <div class="l-residences__caption__card-content">
-                                          <p class="l-residences__caption__type text-t1 leading-trim">
+                                          <p class="h4 l-residences__caption__type text-t1 leading-trim">
                                              Fun
                                           </p>
                                           <p
                                              class="l-residences__caption__description text-color-small text-small leading-trim">
-                                             &nbsp;
+                                             Create unforgettable moments with entertainment for every generation.
                                           </p>
                                           <div class="l-residences__caption__item">
                                              <p class="h4 leading-trim">
@@ -4621,12 +3527,12 @@
                                     aria-hidden="true">
                                     <div class="l-residences__caption__card ui-background">
                                        <div class="l-residences__caption__card-content">
-                                          <p class="l-residences__caption__type text-t1 leading-trim">
+                                          <p class="h4 l-residences__caption__type text-t1 leading-trim">
                                              Lifestyle Concierge
                                           </p>
                                           <p
                                              class="l-residences__caption__description text-color-small text-small leading-trim">
-                                             &nbsp;
+                                             Experience effortless living with personalized services at your fingertips.
                                           </p>
                                           <div class="l-residences__caption__item">
                                              <p class="h4 leading-trim">
@@ -4921,824 +3827,15 @@
                         </div>
                      </div>
                   </div>
-                  <div class="l-interiors sticky sticky--full-height sticky--under-previous is-hidden--md-down"
-                     id="interiors" data-plugin="reveal">
-                     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
-                        data-scroll-target="#interiors">
-                        <div class="l-interiors__intro" data-scroll-snap-point='[{ "viewport": 0, "element": 100 }]'>
-                           <div data-themed-class="ui-dark"></div>
-                           <div class=" background background--cover">
-                              <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
-                                 data-parallax-measure-selector=".sticky" data-parallax-clamp="true"
-                                 data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                                 data-parallax--250-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                 data-plugin="appear  parallax" draggable="false">
-                                 <source data-srcset="assets/images/media/landing/8.interiors/interiors-bg@xxxl.webp"
-                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                    media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                 <source data-srcset="assets/images/media/landing/8.interiors/interiors-bg@xxl.webp"
-                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                    media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                 <img data-src="assets/images/media/landing/8.interiors/interiors-bg@md.webp"
-                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                    alt="" width="1440" height="900" draggable="false">
-                              </picture>
-                              <noscript>
-                                 <picture class=" img-cover parallax-image-move"
-                                    data-parallax-measure-selector=".sticky" data-parallax-clamp="true"
-                                    data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                                    data-parallax--250-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                    data-plugin=" parallax" draggable="false">
-                                    <source srcset="assets/images/media/landing/8.interiors/interiors-bg@xxxl.webp"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                    <source srcset="assets/images/media/landing/8.interiors/interiors-bg@xxl.webp"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                    <img src="assets/images/media/landing/8.interiors/interiors-bg%40md.webp" alt=""
-                                       width="1440" height="900" draggable="false">
-                                 </picture>
-                              </noscript>
-                           </div>
-                           <div class="px-layout l-interiors__intro-caption">
-                              <h2 class="text-right g1 leading-trim" data-reveal="title">
-                                 Interiors
-                              </h2>
-                              <div class="mt-1">
-                                 <p class="text-c1 text-right leading-trim" data-reveal="title"
-                                    data-reveal-distance="100px">
-                                    Beauty in the Essence of Things
-                                 </p>
-                              </div>
-                           </div>
-                           <div class="px-layout">
-                              <div class="l-interiors__intro__text mt-3 col col--md-4">
-                                 <p class="text-t1 leading-trim" data-reveal="text">
-                                    Our designs are chosen with a delicate treatment of materials and
-                                    time; time that will soon become history, a story of family generations.
-                                    Natural stone, warm wood, aged metal, and textured textiles. This is how we create
-                                    a visual and tactile space for authentically high-class comfort.
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="l-interiors__slider row ui-light"
-                           data-scroll-snap-point='[{ "viewport": 0, "element": 220 }]' data-plugin="contentAnimation"
-                           data-content-animation-fixed-height="false" data-content-animation-animations='{
-                              "changeShow": {"name": "imageClipIn", "duration": "slow"}
-                              }' data-content-animation-link-event="click">
-                           <div class="content-animation col col--md-6" data-plugin="parallax"
-                              data-parallax-enable-mq="md-up" data-parallax-clamp="true"
-                              data-parallax-measure-selector=".sticky"
-                              data-parallax--120-0='{"clip-path": "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)"}'
-                              data-parallax--220-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}'>
-                              <div data-content-animation-item="1" class="col col--md-12 " aria-hidden="false">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                              </div>
-                              <div data-content-animation-item="2" class="col col--md-12 is-hidden" aria-hidden="true">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                              </div>
-                              <div data-content-animation-item="3" class="col col--md-12 is-hidden" aria-hidden="true">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                              </div>
-                              <div data-content-animation-item="4" class="col col--md-12 is-hidden" aria-hidden="true">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                              </div>
-                              <div data-content-animation-item="5" class="col col--md-12 is-hidden" aria-hidden="true">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                              </div>
-                           </div>
-                           <div class="l-interiors__slider-thumb col col--md-6 px-1 py-1 px-layout:lg py-layout:lg"
-                              data-plugin="parallax " data-parallax-enable-mq="md-up" data-parallax-clamp="true"
-                              data-parallax-measure-selector=".sticky"
-                              data-parallax--120-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"}'
-                              data-parallax--220-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}'>
-                              <div class="l-interiors__slider-thumb__links mb-2:md mb-3:xxxl">
-                                 <div class="l-interiors__slider-thumb__links__item js-content-animation-link is-active"
-                                    data-content-animation-id="1">
-                                    <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false"
-                                       width="60" height="60" data-plugin="appear "
-                                       data-src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-3.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                                    <noscript>
-                                       <img class="img-full " alt="" draggable="false" width="60" height="60"
-                                          src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-3.webp">
-                                    </noscript>
-                                 </div>
-                                 <div class="l-interiors__slider-thumb__links__item js-content-animation-link "
-                                    data-content-animation-id="2">
-                                    <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false"
-                                       width="60" height="60" data-plugin="appear "
-                                       data-src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-5.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                                    <noscript>
-                                       <img class="img-full " alt="" draggable="false" width="60" height="60"
-                                          src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-5.webp">
-                                    </noscript>
-                                 </div>
-                                 <div class="l-interiors__slider-thumb__links__item js-content-animation-link "
-                                    data-content-animation-id="3">
-                                    <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false"
-                                       width="60" height="60" data-plugin="appear "
-                                       data-src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-4.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                                    <noscript>
-                                       <img class="img-full " alt="" draggable="false" width="60" height="60"
-                                          src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-4.webp">
-                                    </noscript>
-                                 </div>
-                                 <div class="l-interiors__slider-thumb__links__item js-content-animation-link "
-                                    data-content-animation-id="4">
-                                    <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false"
-                                       width="60" height="60" data-plugin="appear "
-                                       data-src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-1.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                                    <noscript>
-                                       <img class="img-full " alt="" draggable="false" width="60" height="60"
-                                          src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-1.webp">
-                                    </noscript>
-                                 </div>
-                                 <div class="l-interiors__slider-thumb__links__item js-content-animation-link "
-                                    data-content-animation-id="5">
-                                    <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false"
-                                       width="60" height="60" data-plugin="appear "
-                                       data-src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-2.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                                    <noscript>
-                                       <img class="img-full " alt="" draggable="false" width="60" height="60"
-                                          src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-2.webp">
-                                    </noscript>
-                                 </div>
-                              </div>
-                              <div class="l-interiors__slider__caption">
-                                 <div class="mb-0.5">
-                                    <p class="text-t1 leading-trim" data-reveal="text">
-                                       The acclaimed Quadro Room studio collaborated with UNIQ Development
-                                       to create exquisitely refined finishing style, in which natural beauty
-                                       seamlessly flows from today to tomorrow and remains timeless. Each
-                                       residence offers a complete turnkey experience, so that you can enjoy
-                                       the beauty of your new life from the very first moments.
-                                       Muted palette, arched portals, smooth curves. Refinement is the new luxury.
-                                    </p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="l-interiors__anchor" data-themed-class="ui-light"></div>
-                        </div>
-                     </div>
-                  </div>
-                  <div
-                     class="l-interiors__intro is-hidden--lg-up sticky sticky sticky--full-height sticky--under-previous"
-                     id="interiors-2">
-                     <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky
-                        data-scroll-target="#interiors-2">
-                        <div class="l-interiors__anchor" id="interiors-mobile"></div>
-                        <div class=" background background--cover" data-plugin="parallax" data-parallax-clamp="true"
-                           data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down"
-                           data-parallax-0-0='{"transform": "scale(1.2)"}'
-                           data-parallax--200-0='{"transform": "scale(1.0)"}'>
-                           <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                              draggable="false">
-                              <img data-src="assets/images/media/landing/8.interiors/interiors-bg-xs.webp"
-                                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22640%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20640%22%3E%3C/svg%3E"
-                                 alt="" width="360" height="640" draggable="false">
-                           </picture>
-                           <noscript>
-                              <picture class=" img-cover" draggable="false">
-                                 <img src="assets/images/media/landing/8.interiors/interiors-bg-xs.webp" alt=""
-                                    width="360" height="640" draggable="false">
-                              </picture>
-                           </noscript>
-                        </div>
-                        <div class="px-layout l-interiors__intro-caption pb-4">
-                           <div class="mt-0.3">
-                              <h2 class="text-right g1 leading-trim">
-                                 Interiors
-                              </h2>
-                           </div>
-                           <p class="mt-1 text-c1 leading-trim text-right">
-                              Beauty in the Essence of Things
-                           </p>
-                           <div class="l-interiors__intro__text">
-                              <p class="text-t1 leading-trim">
-                                 Our designs are chosen with a delicate treatment of materials and time;
-                                 time that will soon become history, a story of family generations. Natural
-                                 stone, warm wood, aged metal, and textured textiles. This is how we create
-                                 a visual and tactile space for authentically high-class comfort.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="l-interiors__slider ui-light ui-background py-3 px-layout is-hidden--lg-up"
-                     data-themed-class="ui-light">
-                     <div class="carousel carousel--md-up carousel--not-ready js-carousel mt-2.5"
-                        data-plugin="mobileScrollable">
-                        <div class="p-relative">
-                           <ul class="mobile-scrollable col col--md-auto mx-auto js-carousel-list ">
-                              <li class="mobile-scrollable__item">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                                 <div class="dim dim--lighter"></div>
-                              </li>
-                              <li class="mobile-scrollable__item">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                                 <div class="dim dim--lighter"></div>
-                              </li>
-                              <li class="mobile-scrollable__item">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                                 <div class="dim dim--lighter"></div>
-                              </li>
-                              <li class="mobile-scrollable__item">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                                 <div class="dim dim--lighter"></div>
-                              </li>
-                              <li class="mobile-scrollable__item">
-                                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                    draggable="false">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                    <source
-                                       data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                       srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                       width="720" height="900">
-                                    <img
-                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                       src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                       alt="" width="720" height="900" draggable="false">
-                                 </picture>
-                                 <noscript>
-                                    <picture class=" img-cover" draggable="false">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                          media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                          media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                                       <source
-                                          srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                          media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                          width="720" height="900">
-                                       <img
-                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                          alt="" width="720" height="900" draggable="false">
-                                    </picture>
-                                 </noscript>
-                                 <div class="dim dim--lighter"></div>
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="carousel__thumb group group--nowrap px-layout">
-                           <div class="col col--xs-2 carousel__thumb__item js-mobile-scrollable-thumbnail is-active">
-                           </div>
-                           <div class="col col--xs-2 carousel__thumb__item js-mobile-scrollable-thumbnail "></div>
-                           <div class="col col--xs-2 carousel__thumb__item js-mobile-scrollable-thumbnail "></div>
-                           <div class="col col--xs-2 carousel__thumb__item js-mobile-scrollable-thumbnail "></div>
-                           <div class="col col--xs-2 carousel__thumb__item js-mobile-scrollable-thumbnail "></div>
-                        </div>
-                     </div>
-                     <div class=" mt-1">
-                        <div class="mb-1">
-                           <p class="text-t1 leading-trim">
-                              The acclaimed Quadro Room studio collaborated with UNIQ Development
-                              to create exquisitely refined finishing style, in which natural beauty
-                              seamlessly flows from today to tomorrow and remains timeless. Each residence
-                              offers a complete turnkey experience, so that you can enjoy the beauty
-                              of your new life from the very first moments. Muted palette, arched
-                              portals, smooth curves. Refinement is the new luxury.
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="jSliderContainer">
-                     <h1 class="section-title">
-                        Latest Real Estate Insights
-                     </h1>
-                     <div class="coverflow">
-                        <div class="viewport">
-                           <div class="track">
-                              <article class="newCard">
-                                 <div class="jSimage">
-                                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200"
-                                       alt="">
-                                 </div>
-                                 <div class="jScontent">
-                                    <div class="blog-meta">
-                                       <span class="jStag">Luxury Homes</span>
-                                       <div class="meta-item">❤️ <span>248</span></div>
-                                       <div class="meta-item">💬 <span>36</span></div>
-                                    </div>
-                                    <h2>Modern Villas with Smart Living</h2>
-                                    <p>Explore beautifully designed luxury villas featuring intelligent
-                                       home, elegant interiors and peaceful & perfect for
-                                       premium living.
-                                    </p>
-                                    <a href="#" class="btn btn--secondary">Read More</a>
-                                 </div>
-                              </article>
-                              <article class="newCard">
-                                 <div class="jSimage">
-                                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200"
-                                       alt="">
-                                 </div>
-                                 <div class="jScontent">
-                                    <div class="blog-meta">
-                                       <span class="jStag">Investment</span>
-                                       <div class="meta-item">❤️ <span>248</span></div>
-                                       <div class="meta-item">💬 <span>36</span></div>
-                                    </div>
-                                    <h2>Top Locations for Property Investment</h2>
-                                    <p>Discover emerging residential locations with excellent appreciation
-                                       potential, connectivity, lifestyle amenities and strong rental
-                                       demand.
-                                    </p>
-                                    <a href="#" class="btn btn--secondary">Read More</a>
-                                 </div>
-                              </article>
-                              <article class="newCard">
-                                 <div class="jSimage">
-                                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200"
-                                       alt="">
-                                 </div>
-                                 <div class="jScontent">
-                                    <div class="blog-meta">
-                                       <span class="jStag">Architecture</span>
-                                       <div class="meta-item">❤️ <span>248</span></div>
-                                       <div class="meta-item">💬 <span>36</span></div>
-                                    </div>
-                                    <h2>Luxury Interior Design Trends</h2>
-                                    <p>Minimalist layouts, natural lighting and sustainable materials
-                                       continue
-                                       to redefine modern luxury home experiences.
-                                    </p>
-                                    <a href="#" class="btn btn--secondary">Read More</a>
-                                 </div>
-                              </article>
-                              <article class="newCard">
-                                 <div class="jSimage">
-                                    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200"
-                                       alt="">
-                                 </div>
-                                 <div class="jScontent">
-                                    <div class="blog-meta">
-                                       <span class="jStag">Buying Guide</span>
-                                       <div class="meta-item">❤️ <span>248</span></div>
-                                       <div class="meta-item">💬 <span>36</span></div>
-                                    </div>
-                                    <h2>Things to Check Before Buying a Home</h2>
-                                    <p>Understand documentation, construction quality, legal approvals and
-                                       financing options before making your next investment.
-                                    </p>
-                                    <a href="#" class="btn btn--secondary">Read More</a>
-                                 </div>
-                              </article>
-                              <article class="newCard">
-                                 <div class="jSimage">
-                                    <img src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=1200"
-                                       alt="">
-                                 </div>
-                                 <div class="jScontent">
-                                    <div class="blog-meta">
-                                       <span class="jStag">Commercial</span>
-                                       <div class="meta-item">❤️ <span>248</span></div>
-                                       <div class="meta-item">💬 <span>36</span></div>
-                                    </div>
-                                    <h2>Office Spaces That Boost Productivity</h2>
-                                    <p>Flexible workspaces designed with modern architecture help improve
-                                       employee wellbeing while enhancing business growth.
-                                    </p>
-                                    <a href="#" class="btn btn--secondary">Read More</a>
-                                 </div>
-                              </article>
-                              <article class="newCard">
-                                 <div class="jSimage">
-                                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200"
-                                       alt="">
-                                 </div>
-                                 <div class="jScontent">
-                                    <div class="blog-meta">
-                                       <span class="jStag">Lifestyle</span>
-                                       <div class="meta-item">❤️ <span>248</span></div>
-                                       <div class="meta-item">💬 <span>36</span></div>
-                                    </div>
-                                    <h2>Why Waterfront Properties Are Trending</h2>
-                                    <p>Premium waterfront communities offer scenic beauty, excellent resale
-                                       value and unmatched luxury living experiences.
-                                    </p>
-                                    <a href="#" class="btn btn--secondary">Read More</a>
-                                 </div>
-                              </article>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="controls">
-                        <button id="prev">&#10094;</button>
-                        <button id="next">&#10095;</button>
-                     </div>
-                  </div>
+                 
+                  
+                  
+                  <?php $this->load->view('home/interiors'); ?>
+                  <?php $this->load->view('home/blogs'); ?>
+                  <?php $this->load->view('home/testimonials'); ?>
                </section>
             </main>
-            <footer class="section section--no-overflow ui-dark ui-background footer is-hidden--print"
-               data-scroll-section>
-               <div data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true"
-                  data-parallax-100-0='{"transform": "translateY(-70%)"}'
-                  data-parallax-100-100='{"transform": "translateY(0%)"}'>
-                  <div class="px-layout footer__content">
-                     <div class="row row--between-xs pt-1 footer-relative footer__padding">
-                        <a class="btn btn--outline btn--square btn--sm" href="#top"
-                           aria-label="Scroll to top of the page">
-                           <span class="btn__content">
-                              <span class="btn__icon ">
-                                 <svg class="icon icon-arrow-top" width="14" height="16" aria-hidden="true"
-                                    viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                                    <use href="assets/images/icons2c68.svg?v=1765268659#arrow-top"
-                                       xlink:href="assets/images/icons2c68.svg?v=1765268659#arrow-top"></use>
-                                 </svg>
-                              </span>
-                           </span>
-                        </a>
-                     </div>
-                     <div class="row row--between-xs">
-                        <div class="col col--xs-4 col--md-12 group group--center pt-4 pb-5 py-2:md">
-                           <a href="#top" class="footer__logo " aria-label="Scroll to top of the page">
-                              <img class="img-full " alt="" draggable="false" width="661" height="218"
-                                 src="assets/images/logo.webp" />
-                           </a>
-                        </div>
-                     </div>
-                     <div class="row row--between-xs">
-                        <div class="col col--xs-4 row row--nowrap row--between-xs footer-relative">
-                           <div class="col col--xs-2 col--md-6">
-                              <a class="text-c2-small leading-trim text-color-small" href="privacy-policy.html"
-                                 target="_blank">legal information</a>
-                           </div>
-                           <div class="col col--xs-2 col--md-6 row row--end-xs">
-                              <a target="_blank"
-                                 class="text-c2-small leading-trim row row--middle-xs text-color-small text-right"
-                                 href="https://videinfra.com/">
-                                 Site by Vide Infra
-                                 <svg class="icon icon-vig-logo footer__copy-logo" width="20" height="20"
-                                    aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
-                                    <use href="assets/images/icons2c68.svg?v=1765268659#vig-logo"
-                                       xlink:href="assets/images/icons2c68.svg?v=1765268659#vig-logo"></use>
-                                 </svg>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="footer__bottom">
-                        <p class="text-c2-small leading-trim text-color-small">
-                           Visual representations of the property, layout plans, and other materials are
-                           for illustration purposes only. All information on this website is provided
-                           for general informational use and does not constitute an offer or any form
-                           of binding commitment.<br>
-                           All materials on this website, including design elements, are the intellectual
-                           property of the Organization. Any copying, reproduction, distribution (including
-                           reposting to other websites or online resources), or other use of these materials
-                           is prohibited without the prior written consent of the rights holder.
-                           <br>
-                           <br>
-                           &copy; 2026. All rights reserved.
-                        </p>
-                     </div>
-                     <div class="footer__gradient">
-                        <div class="gradients-container blur-fix">
-                           <div class="g3"></div>
-                           <div class="interactive"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="footer__theme" data-themed-class="ui-dark"></div>
-            </footer>
+            <?php $this->load->view('common/footer'); ?>
          </div>
          <div class="js-modal">
             <div class="modal modal--full modal--split-animate ui-dark is-hidden" role="dialog" aria-hidden="true"
@@ -5756,8 +3853,8 @@
                                     <span class="btn__icon ">
                                        <svg class="icon icon-close" width="14" height="14" aria-hidden="true"
                                           viewBox="0 0 14 14" style="--icon-width: 14; --icon-height: 14;">
-                                          <use href="assets/images/icons2c68.svg?v=1765268659#close"
-                                             xlink:href="assets/images/icons2c68.svg?v=1765268659#close"></use>
+                                          <use href="assets/images/icons.svg#close"
+                                             xlink:href="assets/images/icons.svg#close"></use>
                                        </svg>
                                     </span>
                                  </span>
@@ -5877,18 +3974,16 @@
                                                                width="20" height="20" aria-hidden="true"
                                                                viewBox="0 0 20 20"
                                                                style="--icon-width: 20; --icon-height: 20;">
-                                                               <use
-                                                                  href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                                  xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                               <use href="assets/images/icons.svg#form-success"
+                                                                  xlink:href="assets/images/icons.svg#form-success">
                                                                </use>
                                                             </svg>
                                                             <svg class="icon icon-form-error form-control__error"
                                                                width="20" height="20" aria-hidden="true"
                                                                viewBox="0 0 20 20"
                                                                style="--icon-width: 20; --icon-height: 20;">
-                                                               <use
-                                                                  href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                                  xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                               <use href="assets/images/icons.svg#form-error"
+                                                                  xlink:href="assets/images/icons.svg#form-error">
                                                                </use>
                                                             </svg>
                                                             <span class="form-control__line"></span>
@@ -5911,18 +4006,48 @@
                                                                width="20" height="20" aria-hidden="true"
                                                                viewBox="0 0 20 20"
                                                                style="--icon-width: 20; --icon-height: 20;">
-                                                               <use
-                                                                  href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                                  xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                               <use href="assets/images/icons.svg#form-success"
+                                                                  xlink:href="assets/images/icons.svg#form-success">
                                                                </use>
                                                             </svg>
                                                             <svg class="icon icon-form-error form-control__error"
                                                                width="20" height="20" aria-hidden="true"
                                                                viewBox="0 0 20 20"
                                                                style="--icon-width: 20; --icon-height: 20;">
-                                                               <use
-                                                                  href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                                  xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                               <use href="assets/images/icons.svg#form-error"
+                                                                  xlink:href="assets/images/icons.svg#form-error">
+                                                               </use>
+                                                            </svg>
+                                                            <span class="form-control__line"></span>
+                                                            <span class="form-control__progress"></span>
+                                                         </div>
+                                                      </div>
+                                                      <div class="col col--md-12 mb-2 mb-1:md">
+                                                         <div class="
+                                                               form-control form-control--input
+                                                               form-control--float                        
+                                                               " data-plugin="inputState  inputMask"
+                                                            data-input-mask-mask="+# ### ### ## ##">
+                                                            <input id="text-878165" name="email" type="email" required
+                                                               placeholder="Email" maxlength="20" autocapitalize="none"
+                                                               value="">
+                                                            <label for="text-878165"
+                                                               class="form-label text-c1 text-color-small ">
+                                                               Email </label>
+                                                            <svg class="icon icon-form-success form-control__success"
+                                                               width="20" height="20" aria-hidden="true"
+                                                               viewBox="0 0 20 20"
+                                                               style="--icon-width: 20; --icon-height: 20;">
+                                                               <use href="assets/images/icons.svg#form-success"
+                                                                  xlink:href="assets/images/icons.svg#form-success">
+                                                               </use>
+                                                            </svg>
+                                                            <svg class="icon icon-form-error form-control__error"
+                                                               width="20" height="20" aria-hidden="true"
+                                                               viewBox="0 0 20 20"
+                                                               style="--icon-width: 20; --icon-height: 20;">
+                                                               <use href="assets/images/icons.svg#form-error"
+                                                                  xlink:href="assets/images/icons.svg#form-error">
                                                                </use>
                                                             </svg>
                                                             <span class="form-control__line"></span>
@@ -5943,18 +4068,16 @@
                                                                width="20" height="20" aria-hidden="true"
                                                                viewBox="0 0 20 20"
                                                                style="--icon-width: 20; --icon-height: 20;">
-                                                               <use
-                                                                  href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                                  xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                               <use href="assets/images/icons.svg#form-success"
+                                                                  xlink:href="assets/images/icons.svg#form-success">
                                                                </use>
                                                             </svg>
                                                             <svg class="icon icon-form-error form-control__error"
                                                                width="20" height="20" aria-hidden="true"
                                                                viewBox="0 0 20 20"
                                                                style="--icon-width: 20; --icon-height: 20;">
-                                                               <use
-                                                                  href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                                  xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                               <use href="assets/images/icons.svg#form-error"
+                                                                  xlink:href="assets/images/icons.svg#form-error">
                                                                </use>
                                                             </svg>
                                                             <span class="form-control__line"></span>
@@ -6036,18 +4159,16 @@
                                                                width="20" height="20" aria-hidden="true"
                                                                viewBox="0 0 20 20"
                                                                style="--icon-width: 20; --icon-height: 20;">
-                                                               <use
-                                                                  href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                                  xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                               <use href="assets/images/icons.svg#form-success"
+                                                                  xlink:href="assets/images/icons.svg#form-success">
                                                                </use>
                                                             </svg>
                                                             <svg class="icon icon-form-error form-control__error"
                                                                width="20" height="20" aria-hidden="true"
                                                                viewBox="0 0 20 20"
                                                                style="--icon-width: 20; --icon-height: 20;">
-                                                               <use
-                                                                  href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                                  xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                               <use href="assets/images/icons.svg#form-error"
+                                                                  xlink:href="assets/images/icons.svg#form-error">
                                                                </use>
                                                             </svg>
                                                             <span class="form-control__line"></span>
@@ -6071,18 +4192,16 @@
                                                                   width="20" height="20" aria-hidden="true"
                                                                   viewBox="0 0 20 20"
                                                                   style="--icon-width: 20; --icon-height: 20;">
-                                                                  <use
-                                                                     href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                                     xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                                  <use href="assets/images/icons.svg#form-success"
+                                                                     xlink:href="assets/images/icons.svg#form-success">
                                                                   </use>
                                                                </svg>
                                                                <svg class="icon icon-form-error form-control__error"
                                                                   width="20" height="20" aria-hidden="true"
                                                                   viewBox="0 0 20 20"
                                                                   style="--icon-width: 20; --icon-height: 20;">
-                                                                  <use
-                                                                     href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                                     xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                                  <use href="assets/images/icons.svg#form-error"
+                                                                     xlink:href="assets/images/icons.svg#form-error">
                                                                   </use>
                                                                </svg>
                                                                <span class="form-control__line"></span>
@@ -6119,9 +4238,8 @@
                                                                      <svg class="icon icon-chevron-top" width="14"
                                                                         height="7" aria-hidden="true" viewBox="0 0 14 7"
                                                                         style="--icon-width: 14; --icon-height: 7;">
-                                                                        <use
-                                                                           href="assets/images/icons2c68.svg?v=1765268659#chevron-top"
-                                                                           xlink:href="assets/images/icons2c68.svg?v=1765268659#chevron-top">
+                                                                        <use href="assets/images/icons.svg#chevron-top"
+                                                                           xlink:href="assets/images/icons.svg#chevron-top">
                                                                         </use>
                                                                      </svg>
                                                                   </span>
@@ -6252,8 +4370,8 @@
                                              <span class="btn__icon ">
                                                 <svg class="icon icon-close" width="14" height="14" aria-hidden="true"
                                                    viewBox="0 0 14 14" style="--icon-width: 14; --icon-height: 14;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#close"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#close"></use>
+                                                   <use href="assets/images/icons.svg#close"
+                                                      xlink:href="assets/images/icons.svg#close"></use>
                                                 </svg>
                                              </span>
                                           </span>
@@ -6298,8 +4416,8 @@
                                                          <svg class="icon icon-email" width="16" height="16"
                                                             aria-hidden="true" viewBox="0 0 16 16"
                                                             style="--icon-width: 16; --icon-height: 16;">
-                                                            <use href="assets/images/icons2c68.svg?v=1765268659#email"
-                                                               xlink:href="assets/images/icons2c68.svg?v=1765268659#email">
+                                                            <use href="assets/images/icons.svg#email"
+                                                               xlink:href="assets/images/icons.svg#email">
                                                             </use>
                                                          </svg>
                                                       </span>
@@ -6343,7 +4461,7 @@
                                                                                   <svg class="icon icon-&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;" width="16" height="16" aria-hidden="true"            viewBox="0 0 16 16"
                                                               style="--icon-width: 16; --icon-height: 16;"
                                                           
-                                                          ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;" xlink:href="assets/images/icons2c68.svg?v=1765268659#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;"></use></svg>
+                                                          ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;" xlink:href="assets/images/icons.svg#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;"></use></svg>
                                                                               </div>
                                                       
                                                                               <div id="<%-prefix%>" class="tooltip tooltip--closable tooltip--feature ui-dark" role="tooltip">
@@ -6387,7 +4505,7 @@
                                                                           <svg class="icon icon-favourite" width="30" height="30" aria-hidden="true"            viewBox="0 0 30 30"
                                                               style="--icon-width: 30; --icon-height: 30;"
                                                           
-                                                          ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#favourite" xlink:href="assets/images/icons2c68.svg?v=1765268659#favourite"></use></svg>
+                                                          ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#favourite" xlink:href="assets/images/icons.svg#favourite"></use></svg>
                                                                       </span>
                                                                                       </span>
                                                       </span>
@@ -6472,9 +4590,8 @@
                                                                         height="14" aria-hidden="true"
                                                                         viewBox="0 0 14 14"
                                                                         style="--icon-width: 14; --icon-height: 14;">
-                                                                        <use
-                                                                           href="assets/images/icons2c68.svg?v=1765268659#magnifier"
-                                                                           xlink:href="assets/images/icons2c68.svg?v=1765268659#magnifier">
+                                                                        <use href="assets/images/icons.svg#magnifier"
+                                                                           xlink:href="assets/images/icons.svg#magnifier">
                                                                         </use>
                                                                      </svg>
                                                                   </div>
@@ -6511,8 +4628,8 @@
                                     <span class="btn__icon ">
                                        <svg class="icon icon-close" width="14" height="14" aria-hidden="true"
                                           viewBox="0 0 14 14" style="--icon-width: 14; --icon-height: 14;">
-                                          <use href="assets/images/icons2c68.svg?v=1765268659#close"
-                                             xlink:href="assets/images/icons2c68.svg?v=1765268659#close"></use>
+                                          <use href="assets/images/icons.svg#close"
+                                             xlink:href="assets/images/icons.svg#close"></use>
                                        </svg>
                                     </span>
                                  </span>
@@ -6558,15 +4675,15 @@
                                                 <svg class="icon icon-form-success form-control__success" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                   <use href="assets/images/icons.svg#form-success"
+                                                      xlink:href="assets/images/icons.svg#form-success">
                                                    </use>
                                                 </svg>
                                                 <svg class="icon icon-form-error form-control__error" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                   <use href="assets/images/icons.svg#form-error"
+                                                      xlink:href="assets/images/icons.svg#form-error">
                                                    </use>
                                                 </svg>
                                                 <span class="form-control__line"></span>
@@ -6628,8 +4745,8 @@
                                     <span class="btn__icon ">
                                        <svg class="icon icon-close" width="14" height="14" aria-hidden="true"
                                           viewBox="0 0 14 14" style="--icon-width: 14; --icon-height: 14;">
-                                          <use href="assets/images/icons2c68.svg?v=1765268659#close"
-                                             xlink:href="assets/images/icons2c68.svg?v=1765268659#close"></use>
+                                          <use href="assets/images/icons.svg#close"
+                                             xlink:href="assets/images/icons.svg#close"></use>
                                        </svg>
                                     </span>
                                  </span>
@@ -6675,15 +4792,15 @@
                                                 <svg class="icon icon-form-success form-control__success" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                   <use href="assets/images/icons.svg#form-success"
+                                                      xlink:href="assets/images/icons.svg#form-success">
                                                    </use>
                                                 </svg>
                                                 <svg class="icon icon-form-error form-control__error" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                   <use href="assets/images/icons.svg#form-error"
+                                                      xlink:href="assets/images/icons.svg#form-error">
                                                    </use>
                                                 </svg>
                                                 <span class="form-control__line"></span>
@@ -6745,8 +4862,8 @@
                                     <span class="btn__icon ">
                                        <svg class="icon icon-close" width="14" height="14" aria-hidden="true"
                                           viewBox="0 0 14 14" style="--icon-width: 14; --icon-height: 14;">
-                                          <use href="assets/images/icons2c68.svg?v=1765268659#close"
-                                             xlink:href="assets/images/icons2c68.svg?v=1765268659#close"></use>
+                                          <use href="assets/images/icons.svg#close"
+                                             xlink:href="assets/images/icons.svg#close"></use>
                                        </svg>
                                     </span>
                                  </span>
@@ -6792,15 +4909,15 @@
                                                 <svg class="icon icon-form-success form-control__success" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                   <use href="assets/images/icons.svg#form-success"
+                                                      xlink:href="assets/images/icons.svg#form-success">
                                                    </use>
                                                 </svg>
                                                 <svg class="icon icon-form-error form-control__error" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                   <use href="assets/images/icons.svg#form-error"
+                                                      xlink:href="assets/images/icons.svg#form-error">
                                                    </use>
                                                 </svg>
                                                 <span class="form-control__line"></span>
@@ -6862,8 +4979,8 @@
                                     <span class="btn__icon ">
                                        <svg class="icon icon-close" width="14" height="14" aria-hidden="true"
                                           viewBox="0 0 14 14" style="--icon-width: 14; --icon-height: 14;">
-                                          <use href="assets/images/icons2c68.svg?v=1765268659#close"
-                                             xlink:href="assets/images/icons2c68.svg?v=1765268659#close"></use>
+                                          <use href="assets/images/icons.svg#close"
+                                             xlink:href="assets/images/icons.svg#close"></use>
                                        </svg>
                                     </span>
                                  </span>
@@ -6910,15 +5027,15 @@
                                                 <svg class="icon icon-form-success form-control__success" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                   <use href="assets/images/icons.svg#form-success"
+                                                      xlink:href="assets/images/icons.svg#form-success">
                                                    </use>
                                                 </svg>
                                                 <svg class="icon icon-form-error form-control__error" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                   <use href="assets/images/icons.svg#form-error"
+                                                      xlink:href="assets/images/icons.svg#form-error">
                                                    </use>
                                                 </svg>
                                                 <span class="form-control__line"></span>
@@ -6993,8 +5110,8 @@
                                                 <svg class="icon icon-close-large" width="32" height="32"
                                                    aria-hidden="true" viewBox="0 0 32 32"
                                                    style="--icon-width: 32; --icon-height: 32;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#close-large"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#close-large">
+                                                   <use href="assets/images/icons.svg#close-large"
+                                                      xlink:href="assets/images/icons.svg#close-large">
                                                    </use>
                                                 </svg>
                                              </span>
@@ -7013,22 +5130,12 @@
                                        <a class="header__logo" href="#top" aria-label="Scroll to top of the page">
                                           <span class="header__logo__inner header-animation-logo">
                                              <span class="header__logo__left">
-                                                <svg class="icon icon-logo-left" width="122" height="55"
-                                                   aria-hidden="true" viewBox="0 0 122 55"
-                                                   style="--icon-width: 122; --icon-height: 55;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#logo-left"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#logo-left">
-                                                   </use>
-                                                </svg>
+                                                <img src="assets/images/logoIcon.png" class="icon icon-logo-left"
+                                                   aria-hidden="true" alt="logo-icon" />
                                              </span>
                                              <span class="header__logo__right">
-                                                <svg class="icon icon-logo-right" width="29" height="55"
-                                                   aria-hidden="true" viewBox="0 0 29 55"
-                                                   style="--icon-width: 29; --icon-height: 55;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#logo-right"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#logo-right">
-                                                   </use>
-                                                </svg>
+                                                <img class="icon icon-logo-right" aria-hidden="true"
+                                                   src="assets/images/logoText.png" />
                                              </span>
                                           </span>
                                        </a>
@@ -7050,8 +5157,8 @@
                                                    <svg class="icon icon-heart" width="16" height="16"
                                                       aria-hidden="true" viewBox="0 0 16 16"
                                                       style="--icon-width: 16; --icon-height: 16;">
-                                                      <use href="assets/images/icons2c68.svg?v=1765268659#heart"
-                                                         xlink:href="assets/images/icons2c68.svg?v=1765268659#heart">
+                                                      <use href="assets/images/icons.svg#heart"
+                                                         xlink:href="assets/images/icons.svg#heart">
                                                       </use>
                                                    </svg>
                                                 </span>
@@ -7068,8 +5175,8 @@
                                                 <svg class="icon icon-close-large" width="30" height="30"
                                                    aria-hidden="true" viewBox="0 0 30 30"
                                                    style="--icon-width: 30; --icon-height: 30;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#close-large"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#close-large">
+                                                   <use href="assets/images/icons.svg#close-large"
+                                                      xlink:href="assets/images/icons.svg#close-large">
                                                    </use>
                                                 </svg>
                                              </span>
@@ -7137,7 +5244,7 @@
                                           </a>
                                        </li>
                                        <li class="js-content-animation-link " data-content-animation-id="4">
-                                          <a href="infrastructure.html" class="leading-trim">
+                                          <a href="amenities.html" class="leading-trim">
                                              Amenities
                                           </a>
                                        </li>
@@ -7452,8 +5559,8 @@
                                              <span class="btn__icon ">
                                                 <svg class="icon icon-plus" width="16" height="16" aria-hidden="true"
                                                    viewBox="0 0 16 16" style="--icon-width: 16; --icon-height: 16;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#plus"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#plus"></use>
+                                                   <use href="assets/images/icons.svg#plus"
+                                                      xlink:href="assets/images/icons.svg#plus"></use>
                                                 </svg>
                                              </span>
                                           </span>
@@ -7511,8 +5618,8 @@
                                              <span class="btn__icon ">
                                                 <svg class="icon icon-plus" width="16" height="16" aria-hidden="true"
                                                    viewBox="0 0 16 16" style="--icon-width: 16; --icon-height: 16;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#plus"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#plus"></use>
+                                                   <use href="assets/images/icons.svg#plus"
+                                                      xlink:href="assets/images/icons.svg#plus"></use>
                                                 </svg>
                                              </span>
                                           </span>
@@ -7548,8 +5655,8 @@
                                     <span class="btn__icon ">
                                        <svg class="icon icon-close" width="14" height="14" aria-hidden="true"
                                           viewBox="0 0 14 14" style="--icon-width: 14; --icon-height: 14;">
-                                          <use href="assets/images/icons2c68.svg?v=1765268659#close"
-                                             xlink:href="assets/images/icons2c68.svg?v=1765268659#close"></use>
+                                          <use href="assets/images/icons.svg#close"
+                                             xlink:href="assets/images/icons.svg#close"></use>
                                        </svg>
                                     </span>
                                  </span>
@@ -7595,15 +5702,15 @@
                                                 <svg class="icon icon-form-success form-control__success" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-success"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-success">
+                                                   <use href="assets/images/icons.svg#form-success"
+                                                      xlink:href="assets/images/icons.svg#form-success">
                                                    </use>
                                                 </svg>
                                                 <svg class="icon icon-form-error form-control__error" width="20"
                                                    height="20" aria-hidden="true" viewBox="0 0 20 20"
                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                   <use href="assets/images/icons2c68.svg?v=1765268659#form-error"
-                                                      xlink:href="assets/images/icons2c68.svg?v=1765268659#form-error">
+                                                   <use href="assets/images/icons.svg#form-error"
+                                                      xlink:href="assets/images/icons.svg#form-error">
                                                    </use>
                                                 </svg>
                                                 <span class="form-control__line"></span>
@@ -7653,85 +5760,10 @@
          </div>
       </div>
    </div>
-   <dialog open aria-label="Cookie consent" aria-describedby="cookie-consent-description"
-      class="cookie-consent cookie-consent--simple ui-light" data-plugin="cookieConsent" id="cookie-consent">
-      <div class="cookie-consent__container ui-background">
-         <p id="cookie-consent-description" class="cookie-consent__description">
-            <span class="cookie-consent__description__text text-c2 leading-trim">
-               This site collects
-            </span>
-            <a class="btn btn--link btn--text-smaller btn--clone" target="_blank" rel="noopener"
-               href="privacy-policy.html" data-plugin=" button" data-button-clone-content="true">
-               <span class="btn__content">
-                  <span class="btn__text  ">
-                     cookies.
-                  </span>
-               </span>
-            </a>
-         </p>
-         <a class="btn btn--xs btn--outline btn--text-smaller btn--clone js-cookie-consent-accept"
-            aria-label="allow cookies" data-plugin=" button" data-button-clone-content="true" tabindex="0"
-            role="button">
-            <span class="btn__content">
-               <span class="btn__text  ">
-                  accept
-               </span>
-            </span>
-         </a>
-      </div>
-   </dialog>
-   <script>
-      if ((document.cookie.indexOf('cookieConsentStatus=1') !== -1 || document.cookie.indexOf('cookieConsentStatus=0') !== -1) && document.querySelector('#cookie-consent')) {
-         document.querySelector('#cookie-consent').classList.add('is-hidden')
-      } else {
-         document.documentElement.classList.add('with-cookie-consent');
-      }
-   </script>
-   <div class="turn-message ui-dark" aria-live="assertive">
-      <div class="turn-message__background turn-message__background--mobile background background--cover">
-         <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false" width="660" height="320"
-            data-plugin="appear " data-src="assets/images/media/turn-message.svg?v=1765268659"
-            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22660%22%20height=%22320%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20660%20320%22%3E%3C/svg%3E">
-         <noscript>
-            <img class="img-cover " alt="" draggable="false" width="660" height="320"
-               src="assets/images/media/turn-message2c68.svg?v=1765268659">
-         </noscript>
-      </div>
-      <div class="turn-message__background turn-message__background--tablet background background--cover">
-         <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false" width="960" height="1200"
-            data-plugin="appear " data-src="assets/images/media/turn-message-tablet.svg?v=1765268659"
-            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22960%22%20height=%221200%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20960%201200%22%3E%3C/svg%3E">
-         <noscript>
-            <img class="img-cover " alt="" draggable="false" width="960" height="1200"
-               src="assets/images/media/turn-message-tablet2c68.svg?v=1765268659">
-         </noscript>
-      </div>
-      <div class="turn-message__content">
-         <svg class="icon icon-logo-mobile turn-message__logo" width="82" height="30" aria-hidden="true"
-            viewBox="0 0 82 30" style="--icon-width: 82; --icon-height: 30;">
-            <use href="assets/images/logo.webp" xlink:href="assets/images/logo.webp"></use>
-         </svg>
-         <svg class="icon icon-rotate turn-message__icon&#x20;mt-3&#x20;turn-message__icon--mobile" width="120"
-            height="120" aria-hidden="true" viewBox="0 0 120 120" style="--icon-width: 120; --icon-height: 120;">
-            <use href="assets/images/icons2c68.svg?v=1765268659#rotate"
-               xlink:href="assets/images/icons2c68.svg?v=1765268659#rotate"></use>
-         </svg>
-         <svg class="icon icon-rotate-tablet turn-message__icon&#x20;mt-3&#x20;turn-message__icon--tablet" width="120"
-            height="120" aria-hidden="true" viewBox="0 0 120 120" style="--icon-width: 120; --icon-height: 120;">
-            <use href="assets/images/icons2c68.svg?v=1765268659#rotate-tablet"
-               xlink:href="assets/images/icons2c68.svg?v=1765268659#rotate-tablet"></use>
-         </svg>
-         <p class="turn-message__content__mobile text-c2 leading-trim">
-            Please rotate your device<br>to portrait mode
-         </p>
-         <p class="turn-message__content__tablet text-c2 leading-trim">
-            Please rotate your device<br>to landscape mode
-         </p>
-      </div>
-   </div>
-   <script fetchpriority="low" async
-      src="assets/javascripts/browser-message/browser-message2c68.js?v=1765268659"></script>
-   <script fetchpriority="low" src="assets/javascripts/shared2c68.js?v=1765268659"></script>
+   <?php $this->load->view('common/cookies'); ?>
+   
+   <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
+   <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
    <script>
       var LOCALES = {
          'errors': {
@@ -7748,7 +5780,7 @@
          }
       };
    </script>
-   <script src="assets/javascripts/landing2c68.js?v=1765268659"></script>
+   <script src="assets/javascripts/landing.js"></script>
    <script>
       document.addEventListener("DOMContentLoaded", function () {
          document.querySelectorAll("img").forEach(function (img) {
@@ -7763,7 +5795,6 @@
                   el.setAttribute(attr, value);
                }
             });
-
          });
       });
    </script>
