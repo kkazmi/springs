@@ -1,22 +1,17 @@
 /*==================================================
-    360Ãƒâ€šÃ‚Â° COVERFLOW CAROUSEL
+    360° COVERFLOW CAROUSEL
 ==================================================*/
 
 .jSliderContainer {
-    width: 100%;
-    padding: 100px 0;
+    padding: 80px 0;
     position: relative;
     overflow: hidden;
 }
-
-/*============================*/
 
 .section-title {
     text-align: center;
     margin-bottom: 50px !important;
 }
-
-/*============================*/
 
 .coverflow {
     width: 100%;
@@ -29,21 +24,14 @@
     overflow: visible;
 }
 
-/*============================*/
-
 .viewport {
     width: 100%;
     height: 100%;
     position: relative;
     overflow: visible;
-    /* without this, .viewport's default "flat" transform-style
-       breaks the 3D context between .coverflow's perspective and
-       .track/.newCard's transforms, flattening the whole carousel */
     transform-style: preserve-3d;
-    /* padding-top: 100px; */
 }
 
-/*============================*/
 .track {
     width: 100%;
     height: 100%;
@@ -51,23 +39,21 @@
     transform-style: preserve-3d;
 }
 
-/*============================*/
 .newCard {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 420px;
-    height: 480px;
+    width: 440px;
+    height: 460px;
     transform-style: preserve-3d;
     transform-origin: center center;
     border-radius: 30px;
     cursor: pointer;
     background: rgb(0 0 0 / 40%);
-    border: 2px solid var(--c-golden);
+    border: 1px solid;
     overflow: hidden;
 }
 
-/*============================*/
 .jSimage {
     width: 100%;
     height: 220px;
@@ -85,9 +71,8 @@
     transform: scale(1.08);
 }
 
-/*============================*/
 .jScontent {
-    padding: 15px;
+    padding: 15px 20px;
 }
 
 .blog-meta {
@@ -100,12 +85,13 @@
 .jStag {
     padding: 2px 20px;
     border-radius: 40px;
-    background: var(--c-golden);
-    color: var(--c-black);
+    background: var(--t-heading);
+    color: var(--c-dark-green);
     font-size: 12px;
     display: inline-block;
     float: left;
     line-height: 2;
+    font-weight: bold;
 }
 
 .meta-item {
@@ -114,7 +100,7 @@
     color: var(--c-white);
 }
 
-/*============================*/
+
 .jScontent h2 {
     font-size: 18px;
     margin-bottom: 18px;
@@ -126,41 +112,25 @@
     line-height: 1.2;
     margin-bottom: 30px;
     font-size: 14px;
-    color: var(--c-white);
+    color: var(--t-heading);
 }
 
-/*==================================================
-ACTIVE
-==================================================*/
 .newCard.active {
     opacity: 1;
     filter: none;
-    z-index: 999;
-    box-shadow: 0 30px 90px rgba(0, 0, 0, .45);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .45);
 }
 
-/*============================*/
+
 .newCard.left,
 .newCard.right {
     opacity: .85;
 }
 
-/*============================*/
+
 .newCard.hidden {
     opacity: 0;
     pointer-events: none;
-}
-
-/*==================================================
-CONTROLS
-==================================================*/
-.controls {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 0px;
-    position: relative;
-    z-index: 99999;
 }
 
 .controls button {
@@ -175,8 +145,8 @@ CONTROLS
     backdrop-filter: blur(12px);
     transition: .4s;
     position: relative;
-    z-index: 99999;
     border: 1px solid;
+    margin-left: 10px;
 }
 
 .controls button:hover {
@@ -185,9 +155,6 @@ CONTROLS
     box-shadow: 2px 6px 8px;
 }
 
-/*==================================================
-DRAG CURSOR
-==================================================*/
 .track.grabbing {
     cursor: grabbing;
 }
@@ -196,9 +163,6 @@ DRAG CURSOR
     cursor: grab;
 }
 
-/*==================================================
-RESPONSIVE
-==================================================*/
 @media(max-width:1200px) {
     .newCard {
         width: 360px;
@@ -372,8 +336,6 @@ RESPONSIVE
 
 .pxltsSliderHeading6789 h2.h2.text-heading-dark {
     margin-bottom: 60px;
-    color: var(--c-golden);
-    font-weight: bold;
 }
 
 .pxltsCard9045 {

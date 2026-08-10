@@ -1302,10 +1302,8 @@ Hover Background:       rgba(211,166,89,0.12)
     --c-beige-background-rgb: 245, 232, 209;
     --c-black: #030303;
     --c-black-rgb: 3, 3, 3;
-    --c-button-hover-gradient-light: linear-gradient(101.51deg, rgba(27, 71, 50, 0) 37.02%, #1b4732 308.4%);
-    --c-button-hover-gradient-dark: linear-gradient(91.82deg,
-            hsla(39, 40%, 80%, 0) 2.31%,
-            hsla(39, 40%, 80%, .15) 9.77%);
+    --c-button-hover-gradient-light: linear-gradient(90deg, rgba(27, 71, 50, 0) 37%, #1b4732 300%);
+    --c-button-hover-gradient-dark: linear-gradient(90deg, hsla(39, 40%, 80%, 0) 0%, hsla(39, 40%, 80%, .15) 0%);
     --c-error: #e1c35b;
     --c-error-rgb: 225, 195, 91
 }
@@ -2498,7 +2496,8 @@ hr {
     display: block;
     height: 0;
     overflow: hidden;
-    position: relative
+    position: relative;
+    z-index: -1;
 }
 
 .btn__text:where(:not(.btn__text--has-content)):before,
@@ -3228,7 +3227,7 @@ label input:not(:disabled)+span.btn:where(:not([role=button])) {
 .btn {
     --btn-height: calc(var(--scale-px) * 30);
     height: var(--btn-height);
-    padding: 0 calc(var(--scale-px) * 53);
+    padding: 0 calc(var(--scale-px) * 40);
     --btn-rx: min(calc(var(--scale-px) * 30), calc(var(--btn-height, 1000px) / 2));
     --btn-ry: min(calc(var(--scale-px) * 30), calc(var(--btn-height, 1000px) / 2))
 }
@@ -3252,7 +3251,7 @@ label input:not(:disabled)+span.btn:where(:not([role=button])) {
 (min-width: 668px) and (min-height: 416px),
 (min-width: 980px) {
     .btn {
-        --btn-height: calc(var(--scale-px) * 60);
+        --btn-height: calc(var(--scale-px) * 50);
     }
 
     .btn,
@@ -3710,7 +3709,6 @@ label input:not(:disabled)+span.btn:where(:not([role=button])) {
 .btn--primary:after,
 .btn--primary:disabled:after {
     background: var(--t-button-primary-background);
-    z-index: -1;
 }
 
 .btn--primary .btn-container.is-disabled:before,
@@ -3718,7 +3716,6 @@ label input:not(:disabled)+span.btn:where(:not([role=button])) {
 .btn--primary:before,
 .btn--primary:disabled:before {
     background: var(--t-button-primary-hover-background);
-    z-index: -1;
 }
 
 .has-hover .btn--primary:active:hover,
@@ -21331,14 +21328,23 @@ jdiv.__jivoMobileButton {
 
 .l-gallery__caption p.text-center a.btn {
     min-width: 270px;
-    position: relative;
 }
 
-.l-gallery__caption .btn--secondary {
-    border: 2px solid;
+
+.l-gallery__caption p.text-center a.btn--primary:before,
+.l-gallery__caption p.text-center a.btn--primary:after {
+    z-index: -1;
+}
+
+.btn.btn--secondary {
+    border: 1px solid;
 }
 
 .l-gallery__caption p.text-center a.btn svg.icon {
     position: absolute;
     right: 25px;
+}
+
+p.text-justify {
+    text-align: justify
 }

@@ -86,7 +86,7 @@ function update() {
 
         let rotateY = -angle;
 
-        newCard.style.transform = `translate(-50%,-50%)translate3d(${x}px,0,${z}px)rotateY(${rotateY}deg)`;
+        newCard.style.transform = `translate(-50%,-50%)translate3d(${x}px,0,0)rotateY(${rotateY}deg)`;
 
         newCard.style.opacity = opacity;
 
