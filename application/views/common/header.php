@@ -59,7 +59,7 @@
          </a>
       </div>
       <div class="header__center is-hidden--sm-down" data-custom-scroll-theme-target="right">
-         <a class="header__logo" href="#top" aria-label="Scroll to top of the page">
+         <a class="header__logo" href="<?php echo base_url(); ?>" aria-label="Scroll to top of the page">
             <span class="header__logo__inner header-animation-logo">
                <span class="header__logo__left">
                   <img class="icon icon-logo-left" src="assets/images/logoIcon.png" />
