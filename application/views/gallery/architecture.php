@@ -10,7 +10,7 @@
             transition: none !important;
         }
     </style>
-    <link rel="stylesheet" href="assets/stylesheets/theme.css">
+    <link rel="stylesheet" href="../assets/stylesheets/theme.css">
     <script>
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
@@ -70,8 +70,8 @@
                                                     <svg class="icon icon-close" width="14" height="14"
                                                         aria-hidden="true" viewBox="0 0 14 14"
                                                         style="--icon-width: 14; --icon-height: 14;">
-                                                        <use href="assets/images/icons.svg#close"
-                                                            xlink:href="assets/images/icons.svg#close">
+                                                        <use href="../assets/images/icons.svg#close"
+                                                            xlink:href="../assets/images/icons.svg#close">
                                                         </use>
                                                     </svg>
                                                 </span>
@@ -110,21 +110,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/cam_02_1747844091.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_02_1747844091.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/cam_02_1747844091.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/cam_02_1747844091.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/cam_02_1747844091.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/cam_02_1747844091.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/cam_02_1747844091.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/cam_02_1747844091.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -138,18 +138,18 @@
 
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/cam_02_1747844091.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_02_1747844091.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/cam_02_1747844091.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/cam_02_1747844091.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/cam_02_1747844091.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/cam_02_1747844091.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/cam_02_1747844091.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/cam_02_1747844091.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -170,21 +170,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/cam_01__1747844090.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_01__1747844090.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/cam_01__1747844090.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/cam_01__1747844090.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/cam_01__1747844090.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/cam_01__1747844090.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/cam_01__1747844090.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/cam_01__1747844090.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -198,18 +198,18 @@
 
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/cam_01__1747844090.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_01__1747844090.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/cam_01__1747844090.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/cam_01__1747844090.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/cam_01__1747844090.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/cam_01__1747844090.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/cam_01__1747844090.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/cam_01__1747844090.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -230,21 +230,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -258,18 +258,18 @@
 
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_06_baski_e_1747843923.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -290,21 +290,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_11_email_e_1747843924.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_11_email_e_1747843924.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_11_email_e_1747843924.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_11_email_e_1747843924.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_11_email_e_1747843924.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_11_email_e_1747843924.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/vaz_aci_11_email_e_1747843924.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_11_email_e_1747843924.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -318,18 +318,18 @@
 
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_11_email_e_1747843924.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_11_email_e_1747843924.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_11_email_e_1747843924.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_11_email_e_1747843924.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_11_email_e_1747843924.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_11_email_e_1747843924.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/vaz_aci_11_email_e_1747843924.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_11_email_e_1747843924.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -350,21 +350,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_40_email_b_1747843924.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_40_email_b_1747843924.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_40_email_b_1747843924.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_40_email_b_1747843924.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_40_email_b_1747843924.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_40_email_b_1747843924.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/vaz_aci_40_email_b_1747843924.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_40_email_b_1747843924.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -378,18 +378,18 @@
 
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_40_email_b_1747843924.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_40_email_b_1747843924.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_40_email_b_1747843924.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_40_email_b_1747843924.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_40_email_b_1747843924.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_40_email_b_1747843924.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/vaz_aci_40_email_b_1747843924.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_40_email_b_1747843924.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -410,21 +410,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_50_email_c_1747843923.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_50_email_c_1747843923.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_50_email_c_1747843923.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_50_email_c_1747843923.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_50_email_c_1747843923.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_50_email_c_1747843923.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/vaz_aci_50_email_c_1747843923.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_50_email_c_1747843923.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -438,18 +438,18 @@
 
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_50_email_c_1747843923.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_50_email_c_1747843923.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_50_email_c_1747843923.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_50_email_c_1747843923.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_50_email_c_1747843923.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_50_email_c_1747843923.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/vaz_aci_50_email_c_1747843923.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_50_email_c_1747843923.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -470,21 +470,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_70_email_c_1747843924.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_70_email_c_1747843924.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_70_email_c_1747843924.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_70_email_c_1747843924.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_70_email_c_1747843924.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_70_email_c_1747843924.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/vaz_aci_70_email_c_1747843924.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_70_email_c_1747843924.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -492,18 +492,18 @@
                                                             <noscript>
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/vaz_aci_70_email_c_1747843924.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/vaz_aci_70_email_c_1747843924.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/vaz_aci_70_email_c_1747843924.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/vaz_aci_70_email_c_1747843924.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/vaz_aci_70_email_c_1747843924.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/vaz_aci_70_email_c_1747843924.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/vaz_aci_70_email_c_1747843924.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/vaz_aci_70_email_c_1747843924.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -524,21 +524,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/cam_01_1747845094.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_01_1747845094.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/cam_01_1747845094.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/cam_01_1747845094.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/cam_01_1747845094.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/cam_01_1747845094.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/cam_01_1747845094.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/cam_01_1747845094.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -552,18 +552,18 @@
 
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/cam_01_1747845094.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_01_1747845094.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/cam_01_1747845094.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/cam_01_1747845094.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/cam_01_1747845094.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/cam_01_1747845094.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/cam_01_1747845094.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/cam_01_1747845094.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -584,21 +584,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/cam_02_1747845095.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_02_1747845095.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/cam_02_1747845095.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/cam_02_1747845095.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/cam_02_1747845095.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/cam_02_1747845095.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/cam_02_1747845095.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/cam_02_1747845095.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -612,18 +612,18 @@
 
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/cam_02_1747845095.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_02_1747845095.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/cam_02_1747845095.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/cam_02_1747845095.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/cam_02_1747845095.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/cam_02_1747845095.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/cam_02_1747845095.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/cam_02_1747845095.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -644,21 +644,21 @@
                                                             <picture class="is-invisible--js is-hidden--no-js img-cover"
                                                                 data-plugin="appear " draggable="false">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxxl/uploads/3/cam_03_1747845092.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_03_1747845092.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1920px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_xxl/uploads/3/cam_03_1747845092.webp"
+                                                                    data-srcset="../media/cache/gallery_item_xxl/uploads/3/cam_03_1747845092.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 1440px) and (min-height: 700px)"
                                                                     width="2400" height="1500">
                                                                 <source
-                                                                    data-srcset="media/cache/gallery_item_md/uploads/3/cam_03_1747845092.webp"
+                                                                    data-srcset="../media/cache/gallery_item_md/uploads/3/cam_03_1747845092.webp"
                                                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                     width="2400" height="1500">
-                                                                <img data-src="media/cache/gallery_item_xs/uploads/3/cam_03_1747845092.webp"
+                                                                <img data-src="../media/cache/gallery_item_xs/uploads/3/cam_03_1747845092.webp"
                                                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                                     alt="" width="2400" height="1500" decoding="async"
                                                                     draggable="false">
@@ -672,18 +672,18 @@
 
                                                                 <picture class=" img-cover" draggable="false">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxxl/uploads/3/cam_03_1747845092.webp"
+                                                                        srcset="../media/cache/gallery_item_xxxl/uploads/3/cam_03_1747845092.webp"
                                                                         media="(min-width: 1920px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_xxl/uploads/3/cam_03_1747845092.webp"
+                                                                        srcset="../media/cache/gallery_item_xxl/uploads/3/cam_03_1747845092.webp"
                                                                         media="(min-width: 1440px) and (min-height: 700px)"
                                                                         width="2400" height="1500">
                                                                     <source
-                                                                        srcset="media/cache/gallery_item_md/uploads/3/cam_03_1747845092.webp"
+                                                                        srcset="../media/cache/gallery_item_md/uploads/3/cam_03_1747845092.webp"
                                                                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                                         width="2400" height="1500">
-                                                                    <img src="media/cache/gallery_item_xs/uploads/3/cam_03_1747845092.webp"
+                                                                    <img src="../media/cache/gallery_item_xs/uploads/3/cam_03_1747845092.webp"
                                                                         alt="" width="2400" height="1500"
                                                                         decoding="async" draggable="false">
                                                                 </picture>
@@ -716,8 +716,8 @@
                                                         <svg class="icon icon-arrow-left" width="17" height="16"
                                                             aria-hidden="true" viewBox="0 0 17 16"
                                                             style="--icon-width: 17; --icon-height: 16;">
-                                                            <use href="assets/images/icons.svg#arrow-left"
-                                                                xlink:href="assets/images/icons.svg#arrow-left">
+                                                            <use href="../assets/images/icons.svg#arrow-left"
+                                                                xlink:href="../assets/images/icons.svg#arrow-left">
                                                             </use>
                                                         </svg>
                                                     </span>
@@ -742,8 +742,8 @@
                                                         <svg class="icon icon-arrow-right" width="17" height="16"
                                                             aria-hidden="true" viewBox="0 0 17 16"
                                                             style="--icon-width: 17; --icon-height: 16;">
-                                                            <use href="assets/images/icons.svg#arrow-right"
-                                                                xlink:href="assets/images/icons.svg#arrow-right">
+                                                            <use href="../assets/images/icons.svg#arrow-right"
+                                                                xlink:href="../assets/images/icons.svg#arrow-right">
                                                             </use>
                                                         </svg>
                                                     </span>
@@ -858,36 +858,36 @@
     <div class="turn-message ui-dark" aria-live="assertive">
         <div class="turn-message__background turn-message__background--mobile background background--cover">
             <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false" width="660" height="320"
-                data-plugin="appear " data-src="assets/images/media/turn-message.svg"
+                data-plugin="appear " data-src="../assets/images/media/turn-message.svg"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22660%22%20height=%22320%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20660%20320%22%3E%3C/svg%3E">
             <noscript>
                 <img class="img-cover " alt="" draggable="false" width="660" height="320"
-                    src="assets/images/media/turn-message.svg">
+                    src="../assets/images/media/turn-message.svg">
             </noscript>
         </div>
         <div class="turn-message__background turn-message__background--tablet background background--cover">
             <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false" width="960" height="1200"
-                data-plugin="appear " data-src="assets/images/media/turn-message-tablet.svg"
+                data-plugin="appear " data-src="../assets/images/media/turn-message-tablet.svg"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22960%22%20height=%221200%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20960%201200%22%3E%3C/svg%3E">
             <noscript>
                 <img class="img-cover " alt="" draggable="false" width="960" height="1200"
-                    src="assets/images/media/turn-message-tablet.svg">
+                    src="../assets/images/media/turn-message-tablet.svg">
             </noscript>
         </div>
 
         <div class="turn-message__content">
             <img class="icon icon-logo-mobile turn-message__logo" width="82" height="30" aria-hidden="true"
-                src="assets/images/bst-new-logo.png"/>
+                src="../assets/images/bst-new-logo.png"/>
             <svg class="icon icon-rotate turn-message__icon&#x20;mt-3&#x20;turn-message__icon--mobile" width="120"
                 height="120" aria-hidden="true" viewBox="0 0 120 120" style="--icon-width: 120; --icon-height: 120;">
-                <use href="assets/images/icons.svg#rotate" xlink:href="assets/images/icons.svg#rotate">
+                <use href="../assets/images/icons.svg#rotate" xlink:href="assets/images/icons.svg#rotate">
                 </use>
             </svg>
             <svg class="icon icon-rotate-tablet turn-message__icon&#x20;mt-3&#x20;turn-message__icon--tablet"
                 width="120" height="120" aria-hidden="true" viewBox="0 0 120 120"
                 style="--icon-width: 120; --icon-height: 120;">
-                <use href="assets/images/icons.svg#rotate-tablet"
-                    xlink:href="assets/images/icons.svg#rotate-tablet"></use>
+                <use href="../assets/images/icons.svg#rotate-tablet"
+                    xlink:href="../assets/images/icons.svg#rotate-tablet"></use>
             </svg>
 
             <p class="turn-message__content__mobile text-c2 leading-trim">
@@ -899,9 +899,9 @@
             </p>
         </div>
     </div>
-    <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
-    <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
-    <script fetchpriority="low" src="assets/javascripts/blank.js"></script>
+    <script fetchpriority="low" async src="../assets/javascripts/browser-message/browser-message.js"></script>
+    <script fetchpriority="low" src="../assets/javascripts/shared.js"></script>
+    <script fetchpriority="low" src="../assets/javascripts/blank.js"></script>
 </body>
 
 </html>

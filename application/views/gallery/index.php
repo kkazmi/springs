@@ -105,7 +105,7 @@
                                 <div class="row" data-sticky-slider-content>
                                     <div class="offset--md-1"></div>
                                     <div class="col col--md-8 pt-2.5 pb-2 mr-0.5">
-                                        <a href="architecture.html" class="gallery-desktop-item  js-cursor-item" data-ajax-page-transition="modal-in">
+                                        <a href="<?php echo base_url('gallery/architecture');?>" class="gallery-desktop-item  js-cursor-item" data-ajax-page-transition="modal-in">
                                             <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
                                                 <source data-srcset="media/cache/gallery_wallpaper_xxxl/uploads/3/cam_02_1747844091.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="2400" height="1500">
