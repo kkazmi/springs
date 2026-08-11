@@ -51,109 +51,64 @@
 
 
                 <p class="preloader__content__cover h1">
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 </p>
             </div>
         </div>
     </div>
-    <div class="page-content-wrapper ui-light-background" data-barba="container" data-barba-namespace="page"
-        data-plugin="utmSave">
+    <div class="page-content-wrapper ui-light-background" data-barba="container" data-barba-namespace="page" data-plugin="utmSave">
         <div class="page-content-wrapper__inner js-page-content-wrapper">
             <?php $this->load->view('common/header'); ?>
-            <div class="page-content js-page-content">
-                <main id="top">
-                    <section class="de-section section ui-dark-background" data-scroll-section data-plugin="reveal">
-                        <div class="ui-dark ui-background de-intro sticky sticky--full-height sticky--under-next sticky--under-next:lg-up"
-                            data-themed-class="ui-dark" id="de-intro"
-                            data-scroll-snap-point='[{ "viewport": 0, "element": 0}, { "viewport": -100, "element": 0}, { "viewport": -150, "element": 0}]'
+                <div class="page-content js-page-content">
+                    <main id="top">
+                        <section class="de-section section ui-dark-background" data-scroll-section data-plugin="reveal">
+                            <div class="ui-dark ui-background de-intro sticky sticky--full-height sticky--under-next sticky--under-next:lg-up" data-themed-class="ui-dark" id="de-intro" data-scroll-snap-point='[{ "viewport": 0, "element": 0}, { "viewport": -100, "element": 0}, { "viewport": -150, "element": 0}]'
                             data-scroll-gravity-well='[
         { "viewport": -100, "element": 0 },
             ]' data-plugin="parallax" data-parallax-pattern="mobileUnderNext">
-                            <div class="de-anchor" id="de-intro-next"></div>
-                            <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll
-                                data-scroll-sticky data-scroll-target="#de-intro">
-                                <div class="de-intro__content px-layout py-layout p-relative">
-                                    <div class="de-intro__background background background--bottom background--cover"
-                                        data-plugin="parallax" data-parallax-enable-mq="lg-up"
-                                        data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
-                                        data-parallax-0-0='{"transform": "scale(1) translateY(0%)"}'
-                                        data-parallax--100-0='{"transform": "scale(1.5) translateY(0%)"}'
-                                        data-parallax--150-0='{"transform": "scale(1.5) translateY(-32%)"}'
-                                        data-parallax--250-0='{"transform": "scale(1.5) translateY(-64%)"}'>
-                                        <picture class=" img-cover" draggable="false">
-                                            <source
-                                                srcset="assets/images/media/design/1.intro/background-md%40xxxl.webp"
-                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                srcset="assets/images/media/design/1.intro/background-md%40xxxl.webp"
-                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                srcset="assets/images/media/design/1.intro/background-md%40xxxl.webp"
-                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                width="1440" height="900">
-                                            <img src="images/media/design/1.intro/background-xs%40xs.webp" alt=""
-                                                width="1440" height="900" decoding="async" fetchpriority="high"
-                                                data-reveal="image-zoom" draggable="false">
-                                        </picture>
-                                        <div class="de-intro__gradient" data-plugin="parallax"
-                                            data-parallax-enable-mq="lg-up" data-parallax-clamp="true"
-                                            data-parallax-measure-selector=".sticky"
-                                            data-parallax-0-0='{"opacity": "1"}'
-                                            data-parallax--100-0='{"opacity": "0"}'>
-                                            <div></div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="de-intro__background-mask background background--bottom background--cover is-hidden--md-up">
-                                        <picture class=" img-cover" draggable="false">
-                                            <img src="assets/images/media/design/1.intro/mask-xs.webp" alt=""
-                                                width="720" height="1280" decoding="async" fetchpriority="high"
-                                                draggable="false">
-                                        </picture>
-                                    </div>
-                                    <div class="de-intro__caption-title px-layout h0 leading-trim is-hidden--lg-up"
-                                        data-plugin="parallax" data-parallax-enable-mq="sm-down"
-                                        data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
-                                        data-parallax-0-0='{"opacity": "1", "transform": "translateY(0%)"}'
-                                        data-parallax--50-0='{"opacity": "0", "transform": "translateY(-50%)"}'>
-                                        <picture class="is-invisible--js is-hidden--no-js img-full"
-                                            data-plugin="appear " draggable="false">
-                                            <img data-src="assets/images/media/design/1.intro/title-en.svg"
-                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2243%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2043%22%3E%3C/svg%3E"
-                                                alt="" width="320" height="43" draggable="false">
-                                        </picture>
-                                        <noscript>
-                                            <picture class=" img-full" draggable="false">
-                                                <img src="assets/images/media/design/1.intro/title-en.svg" alt=""
-                                                    width="320" height="43" draggable="false">
+                                <div class="de-anchor" id="de-intro-next"></div>
+                                <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky data-scroll-target="#de-intro">
+                                    <div class="de-intro__content px-layout py-layout p-relative">
+                                        <div class="de-intro__background background background--bottom background--cover" data-plugin="parallax" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"transform": "scale(1) translateY(0%)"}'
+                                        data-parallax--100-0='{"transform": "scale(1.5) translateY(0%)"}' data-parallax--150-0='{"transform": "scale(1.5) translateY(-32%)"}' data-parallax--250-0='{"transform": "scale(1.5) translateY(-64%)"}'>
+                                            <picture class=" img-cover" draggable="false">
+                                                <source srcset="assets/images/media/design/1.intro/background-md%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                <source srcset="assets/images/media/design/1.intro/background-md%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                <source srcset="assets/images/media/design/1.intro/background-md%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                <img src="images/media/design/1.intro/background-xs%40xs.webp" alt="" width="1440" height="900" decoding="async" fetchpriority="high" data-reveal="image-zoom" draggable="false">
                                             </picture>
-                                        </noscript>
-                                    </div>
-                                    <div class="de-intro__caption p-relative" data-plugin="parallax"
-                                        data-parallax-enable-mq="lg-up" data-parallax-clamp="true"
-                                        data-parallax-measure-selector=".sticky"
-                                        data-parallax-0-0='{"opacity": "1", "transform": "translateY(0%)"}'
-                                        data-parallax--20-0='{"opacity": "0", "transform": "translateY(-20%)"}'>
-                                        <div class="de-intro__caption-title is-hidden--md-down">
-                                            <h1 class="g1 leading-trim mt-0.5 mt-0:lg is-hidden--md-down"
-                                                data-reveal="text">
+                                            <div class="de-intro__gradient" data-plugin="parallax" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"opacity": "1"}' data-parallax--100-0='{"opacity": "0"}'>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <div class="de-intro__background-mask background background--bottom background--cover is-hidden--md-up">
+                                            <picture class=" img-cover" draggable="false">
+                                                <img src="assets/images/media/design/1.intro/mask-xs.webp" alt="" width="720" height="1280" decoding="async" fetchpriority="high" draggable="false">
+                                            </picture>
+                                        </div>
+                                        <div class="de-intro__caption-title px-layout h0 leading-trim is-hidden--lg-up" data-plugin="parallax" data-parallax-enable-mq="sm-down" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"opacity": "1", "transform": "translateY(0%)"}'
+                                        data-parallax--50-0='{"opacity": "0", "transform": "translateY(-50%)"}'>
+                                            <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear " draggable="false">
+                                                <img data-src="assets/images/media/design/1.intro/title-en.svg" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2243%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2043%22%3E%3C/svg%3E"
+                                                alt="" width="320" height="43" draggable="false">
+                                            </picture>
+                                            <noscript>
+                                                <picture class=" img-full" draggable="false">
+                                                    <img src="assets/images/media/design/1.intro/title-en.svg" alt="" width="320" height="43" draggable="false">
+                                                </picture>
+                                            </noscript>
+                                        </div>
+                                        <div class="de-intro__caption p-relative" data-plugin="parallax" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"opacity": "1", "transform": "translateY(0%)"}' data-parallax--20-0='{"opacity": "0", "transform": "translateY(-20%)"}'>
+                                            <div class="de-intro__caption-title is-hidden--md-down">
+                                                <h1 class="g1 leading-trim mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text">
                                                 Design
                                             </h1>
-                                        </div>
-                                        <a class="btn de-intro__next btn--outline btn--square btn--sm is-hidden--sm-down"
-                                            href="#de-intro-next">
-                                            <span class="btn__content">
+                                            </div>
+                                            <a class="btn de-intro__next btn--outline btn--square btn--sm is-hidden--sm-down" href="#de-intro-next">
+                                                <span class="btn__content">
                                                 <span class="btn__icon ">
                                                     <svg class="icon icon-arrow-down" width="14" height="16"
                                                         aria-hidden="true" viewBox="0 0 14 16"
@@ -163,11 +118,10 @@
                                                         </use>
                                                     </svg>
                                                 </span>
-                                            </span>
-                                        </a>
-                                        <a class="btn de-intro__next btn--outline btn--square btn--sm is-hidden--md-up"
-                                            href="#de-intro-next-mobile">
-                                            <span class="btn__content">
+                                                </span>
+                                            </a>
+                                            <a class="btn de-intro__next btn--outline btn--square btn--sm is-hidden--md-up" href="#de-intro-next-mobile">
+                                                <span class="btn__content">
                                                 <span class="btn__icon ">
                                                     <svg class="icon icon-arrow-down" width="14" height="16"
                                                         aria-hidden="true" viewBox="0 0 14 16"
@@ -177,26 +131,22 @@
                                                         </use>
                                                     </svg>
                                                 </span>
-                                            </span>
-                                        </a>
-                                        <div class="de-intro__caption-subtitle">
-                                            <p class="h3 leading-trim text-right text-left:lg" data-reveal="text">
-                                                Harmony in&nbsp;Greenery <br>
-                                                and Glass
-                                            </p>
+                                                </span>
+                                            </a>
+                                            <div class="de-intro__caption-subtitle">
+                                                <p class="h3 leading-trim text-right text-left:lg" data-reveal="text">
+                                                    Harmony in&nbsp;Greenery
+                                                    <br> and Glass
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="de-anchor-mobile" id="de-intro-next-mobile"></div>
-                                <div class="de-intro__text">
-                                    <div class="row pl-layout pl-0:lg">
-                                        <div class="col col--md-6 ui-dark ui-background px-layout py-layout pt-1:md pb-2:md"
-                                            data-plugin="parallax" data-parallax-pattern="designCaptionMoveUp">
-                                            <div class="" data-plugin="parallax" data-parallax-enable-mq="md-up"
-                                                data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
-                                                data-parallax--100-0='{"margin-bottom": "0px", "margin-top": "0px"}'
-                                                data-parallax--150-0='{"margin-bottom": "-60px", "margin-top": "35px"}'>
-                                                <h3 class="h3 leading-trim" data-reveal="text">
+                                    <div class="de-anchor-mobile" id="de-intro-next-mobile"></div>
+                                    <div class="de-intro__text">
+                                        <div class="row pl-layout pl-0:lg">
+                                            <div class="col col--md-6 ui-dark ui-background px-layout py-layout pt-1:md pb-2:md" data-plugin="parallax" data-parallax-pattern="designCaptionMoveUp">
+                                                <div class="" data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax--100-0='{"margin-bottom": "0px", "margin-top": "0px"}' data-parallax--150-0='{"margin-bottom": "-60px", "margin-top": "35px"}'>
+                                                    <h3 class="h3 leading-trim" data-reveal="text">
                                                     BST Developers resembles streams of&nbsp;transparent air and clear
                                                     water
                                                     sculpted into&nbsp;an&nbsp;asymmetrical glass tower that soars
@@ -204,160 +154,97 @@
                                                     around&nbsp;the&nbsp;facade and reveal verdant terraces that offer
                                                     a&nbsp;vantage point for&nbsp;observation and introspection.
                                                 </h3>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="ui-dark ui-background de-spiral sticky sticky:lg-up sticky--under-next sticky--under-previous"
-                            data-themed-class="ui-dark" id="de-spiral"
-                            data-scroll-snap-point='[{ "viewport": -100, "element": 0}]' data-plugin="parallax"
-                            data-parallax-pattern="mobileUnderNext">
-                            <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll
-                                data-scroll-sticky data-scroll-target="#de-spiral">
-                                <div class="de-spiral__gradient ui-background background background--cover">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
+                            <div class="ui-dark ui-background de-spiral sticky sticky:lg-up sticky--under-next sticky--under-previous" data-themed-class="ui-dark" id="de-spiral" data-scroll-snap-point='[{ "viewport": -100, "element": 0}]' data-plugin="parallax" data-parallax-pattern="mobileUnderNext">
+                                <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky data-scroll-target="#de-spiral">
+                                    <div class="de-spiral__gradient ui-background background background--cover">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
 
-                                <div class="de-spiral__background background background--cover flicker-fix"
-                                    data-plugin="parallax" data-parallax-enable-mq="lg-up" data-parallax-clamp="true"
-                                    data-parallax-measure-selector=".sticky"
-                                    data-parallax-0-0='{"transform": "translateY(10%)"}'
+                                    <div class="de-spiral__background background background--cover flicker-fix" data-plugin="parallax" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"transform": "translateY(10%)"}'
                                     data-parallax--200-0='{"transform": "translateY(-10%)"}'>
-                                    <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                        draggable="false">
-                                        <source data-srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
-                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
-                                            media="(min-width: 1920px) and (min-height: 700px)" width="1080"
-                                            height="900">
-                                        <source data-srcset="assets/images/media/landing/callback/spiral@xxl.webp"
-                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
-                                            media="(min-width: 1440px) and (min-height: 700px)" width="1080"
-                                            height="900">
-                                        <img data-src="assets/images/media/landing/callback/spiral@md.webp"
-                                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                        <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
+                                            <source data-srcset="assets/images/media/landing/callback/spiral@xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                            media="(min-width: 1920px) and (min-height: 700px)" width="1080" height="900">
+                                            <source data-srcset="assets/images/media/landing/callback/spiral@xxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                            media="(min-width: 1440px) and (min-height: 700px)" width="1080" height="900">
+                                            <img data-src="assets/images/media/landing/callback/spiral@md.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
                                             alt="" width="1080" height="900" draggable="false">
-                                    </picture>
-                                    <noscript>
-                                        <picture class=" img-cover" draggable="false">
-                                            <source srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
-                                                media="(min-width: 1920px) and (min-height: 700px)" width="1080"
-                                                height="900">
-                                            <source srcset="assets/images/media/landing/callback/spiral@xxl.webp"
-                                                media="(min-width: 1440px) and (min-height: 700px)" width="1080"
-                                                height="900">
-                                            <img src="assets/images/media/landing/callback/spiral%40md.webp" alt=""
-                                                width="1080" height="900" draggable="false">
                                         </picture>
-                                    </noscript>
-                                </div>
-                                <div
-                                    class="de-spiral__caption col col--md-10 mx-auto text-center px-layout pb-2 pb-0:md p-relative">
-                                    <div class="de-spiral__uptitle">
-                                        <span class="text-c1 leading-trim" data-reveal="text">
+                                        <noscript>
+                                            <picture class=" img-cover" draggable="false">
+                                                <source srcset="assets/images/media/landing/callback/spiral@xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1080" height="900">
+                                                <source srcset="assets/images/media/landing/callback/spiral@xxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1080" height="900">
+                                                <img src="assets/images/media/landing/callback/spiral%40md.webp" alt="" width="1080" height="900" draggable="false">
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <div class="de-spiral__caption col col--md-10 mx-auto text-center px-layout pb-2 pb-0:md p-relative">
+                                        <div class="de-spiral__uptitle">
+                                            <span class="text-c1 leading-trim" data-reveal="text">
                                             Crystal-Clear Vision
                                         </span>
-                                    </div>
-                                    <div class="de-spiral__title">
-                                        <h2 class="h1 leading-trim" data-reveal="title">
+                                        </div>
+                                        <div class="de-spiral__title">
+                                            <h2 class="h1 leading-trim" data-reveal="title">
                                             Glowing building of&nbsp;limitless light resembles a&nbsp;lens refracting
                                             a&nbsp;kaleidoscope of&nbsp;reflections.
                                         </h2>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="ui-dark ui-background de-projects sticky sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up"
-                            data-themed-class="ui-dark" id="de-projects"
-                            data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }]'>
-                            <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll
-                                data-scroll-sticky data-scroll-target="#de-projects">
-                                <div class="de-projects__background background background--cover">
-                                    <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                                        draggable="false">
-                                        <source
-                                            data-srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp"
-                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                            media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                            height="900">
-                                        <source
-                                            data-srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp"
-                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                            media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                            height="900">
-                                        <source
-                                            data-srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp"
-                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                            width="1440" height="900">
-                                        <img data-src="assets/assets/images/media/design/3.projects/background-xs%40xs.webp"
-                                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
-                                            alt="" width="720" height="1280" data-plugin="parallax"
-                                            data-parallax-enable-mq="lg-up" data-parallax-clamp="true"
-                                            data-parallax-measure-selector=".sticky"
-                                            data-parallax-0-0="{&quot;transform&quot;: &quot;translateY(0%) scale(1.05)&quot;}"
-                                            data-parallax--100-0="{&quot;transform&quot;: &quot;translateY(0%) scale(1)&quot;}"
-                                            data-parallax--250-0="{&quot;transform&quot;: &quot;translateY(-20%) scale(1)&quot;}"
-                                            draggable="false">
-                                    </picture>
-                                    <noscript>
-                                        <picture class=" img-cover" draggable="false">
-                                            <source
-                                                srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp"
-                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp"
-                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp"
-                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                width="1440" height="900">
-                                            <img src="assets/images/media/design/3.projects/background-xs%40xs.webp"
-                                                alt="" width="720" height="1280" data-plugin="parallax"
-                                                data-parallax-enable-mq="lg-up" data-parallax-clamp="true"
-                                                data-parallax-measure-selector=".sticky"
-                                                data-parallax-0-0="{&quot;transform&quot;: &quot;translateY(0%) scale(1.05)&quot;}"
-                                                data-parallax--100-0="{&quot;transform&quot;: &quot;translateY(0%) scale(1)&quot;}"
-                                                data-parallax--250-0="{&quot;transform&quot;: &quot;translateY(-20%) scale(1)&quot;}"
-                                                draggable="false">
+                            <div class="ui-dark ui-background de-projects sticky sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up" data-themed-class="ui-dark" id="de-projects" data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }]'>
+                                <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky data-scroll-target="#de-projects">
+                                    <div class="de-projects__background background background--cover">
+                                        <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
+                                            <source data-srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                            media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                            <source data-srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                            media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                            <source data-srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                            <img data-src="assets/assets/images/media/design/3.projects/background-xs%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                                            alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0="{&quot;transform&quot;: &quot;translateY(0%) scale(1.05)&quot;}"
+                                            data-parallax--100-0="{&quot;transform&quot;: &quot;translateY(0%) scale(1)&quot;}" data-parallax--250-0="{&quot;transform&quot;: &quot;translateY(-20%) scale(1)&quot;}" draggable="false">
                                         </picture>
-                                    </noscript>
-                                </div>
-                                <div class="de-projects__text">
-                                    <div class="row pl-layout pl-0:lg">
-                                        <div class="col col--md-6 ui-light ui-background pb-1 p-relative"
-                                            data-plugin="parallax contentAnimation"
-                                            data-parallax-pattern="projectCaption"
-                                            data-content-animation-plugins="height"
-                                            data-content-animation-fixed-height="true"
-                                            data-content-animation-animations='{
+                                        <noscript>
+                                            <picture class=" img-cover" draggable="false">
+                                                <source srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                <source srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                <source srcset="assets/images/media/design/3.projects/background-md%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                <img src="assets/images/media/design/3.projects/background-xs%40xs.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0="{&quot;transform&quot;: &quot;translateY(0%) scale(1.05)&quot;}"
+                                                data-parallax--100-0="{&quot;transform&quot;: &quot;translateY(0%) scale(1)&quot;}" data-parallax--250-0="{&quot;transform&quot;: &quot;translateY(-20%) scale(1)&quot;}" draggable="false">
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <div class="de-projects__text">
+                                        <div class="row pl-layout pl-0:lg">
+                                            <div class="col col--md-6 ui-light ui-background pb-1 p-relative" data-plugin="parallax contentAnimation" data-parallax-pattern="projectCaption" data-content-animation-plugins="height" data-content-animation-fixed-height="true" data-content-animation-animations='{
                         "changeShow": {"name": "fadeIn", "duration": "slow"}
                     }' data-content-animation-link-event="hover" data-content-animation-link-hover-default="4">
-                                            <div class="content-animation">
-                                                <div class="de-projects__slider-item pl-layout pl-6:md py-layout col col--md-6 pr-layout ui-background ui-light is-hidden"
-                                                    data-content-animation-item="1" aria-hidden="true">
-                                                    <img class="img-full is-invisible--js is-hidden--no-js" alt=""
-                                                        draggable="false" width="300" height="160" data-plugin="appear "
-                                                        data-src="uploads/32/image_1762521394.webp"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22300%22%20height=%22160%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20300%20160%22%3E%3C/svg%3E">
-                                                    <noscript>
-                                                        <img class="img-full " alt="" draggable="false" width="300"
-                                                            height="160" src="uploads/32/image_1762521394.webp">
-                                                    </noscript>
-                                                    <p class="de-projects__slider-item__text h3 leading-trim">
-                                                        Dakar<br>International Conference Centre, Senegal
-                                                    </p>
-                                                    <a class="btn de-projects__close ui-dark btn--primary btn--square is-hidden--md-up"
-                                                        aria-label="Закрыть" tabindex="0" role="button">
+                                                <div class="content-animation">
+                                                    <div class="de-projects__slider-item pl-layout pl-6:md py-layout col col--md-6 pr-layout ui-background ui-light is-hidden" data-content-animation-item="1" aria-hidden="true">
+                                                        <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false" width="300" height="160" data-plugin="appear " data-src="uploads/32/image_1762521394.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22300%22%20height=%22160%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20300%20160%22%3E%3C/svg%3E">
+                                                        <noscript>
+                                                            <img class="img-full " alt="" draggable="false" width="300" height="160" src="uploads/32/image_1762521394.webp">
+                                                        </noscript>
+                                                        <p class="de-projects__slider-item__text h3 leading-trim">
+                                                            Dakar
+                                                            <br>International Conference Centre, Senegal
+                                                        </p>
+                                                        <a class="btn de-projects__close ui-dark btn--primary btn--square is-hidden--md-up" aria-label="Закрыть" tabindex="0" role="button">
 
-                                                        <span class="btn__content">
+                                                            <span class="btn__content">
 
 
                                                             <span class="btn__icon ">
@@ -369,26 +256,20 @@
                                                                     </use>
                                                                 </svg>
                                                             </span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                                <div class="de-projects__slider-item pl-layout pl-6:md py-layout col col--md-6 pr-layout ui-background ui-light is-hidden"
-                                                    data-content-animation-item="2" aria-hidden="true">
-                                                    <img class="img-full is-invisible--js is-hidden--no-js" alt=""
-                                                        draggable="false" width="300" height="160" data-plugin="appear "
-                                                        data-src="assets/images/media/design/3.projects/slide-2%40xs.webp"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22300%22%20height=%22160%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20300%20160%22%3E%3C/svg%3E">
-                                                    <noscript>
-                                                        <img class="img-full " alt="" draggable="false" width="300"
-                                                            height="160"
-                                                            src="assets/images/media/design/3.projects/slide-2%40xs.webp">
-                                                    </noscript>
-                                                    <p class="de-projects__slider-item__text h3 leading-trim">
-                                                        Astana <br>Arena Stadium, Kazakhstan
-                                                    </p>
-                                                    <a class="btn de-projects__close ui-dark btn--primary btn--square is-hidden--md-up"
-                                                        aria-label="Закрыть" tabindex="0" role="button">
-                                                        <span class="btn__content">
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="de-projects__slider-item pl-layout pl-6:md py-layout col col--md-6 pr-layout ui-background ui-light is-hidden" data-content-animation-item="2" aria-hidden="true">
+                                                        <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false" width="300" height="160" data-plugin="appear " data-src="assets/images/media/design/3.projects/slide-2%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22300%22%20height=%22160%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20300%20160%22%3E%3C/svg%3E">
+                                                        <noscript>
+                                                            <img class="img-full " alt="" draggable="false" width="300" height="160" src="assets/images/media/design/3.projects/slide-2%40xs.webp">
+                                                        </noscript>
+                                                        <p class="de-projects__slider-item__text h3 leading-trim">
+                                                            Astana
+                                                            <br>Arena Stadium, Kazakhstan
+                                                        </p>
+                                                        <a class="btn de-projects__close ui-dark btn--primary btn--square is-hidden--md-up" aria-label="Закрыть" tabindex="0" role="button">
+                                                            <span class="btn__content">
                                                             <span class="btn__icon ">
                                                                 <svg class="icon icon-close" width="12" height="12"
                                                                     aria-hidden="true" viewBox="0 0 12 12"
@@ -398,26 +279,20 @@
                                                                     </use>
                                                                 </svg>
                                                             </span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                                <div class="de-projects__slider-item pl-layout pl-6:md py-layout col col--md-6 pr-layout ui-background ui-light is-hidden"
-                                                    data-content-animation-item="3" aria-hidden="true">
-                                                    <img class="img-full is-invisible--js is-hidden--no-js" alt=""
-                                                        draggable="false" width="300" height="160" data-plugin="appear "
-                                                        data-src="assets/images/media/design/3.projects/slide-3%40xs.webp"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22300%22%20height=%22160%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20300%20160%22%3E%3C/svg%3E">
-                                                    <noscript>
-                                                        <img class="img-full " alt="" draggable="false" width="300"
-                                                            height="160"
-                                                            src="assets/images/media/design/3.projects/slide-3%40xs.webp">
-                                                    </noscript>
-                                                    <p class="de-projects__slider-item__text h3 leading-trim">
-                                                        Istanbul<br>Sapphire Skyscraper, Turkey
-                                                    </p>
-                                                    <a class="btn de-projects__close ui-dark btn--primary btn--square is-hidden--md-up"
-                                                        aria-label="Закрыть" tabindex="0" role="button">
-                                                        <span class="btn__content">
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="de-projects__slider-item pl-layout pl-6:md py-layout col col--md-6 pr-layout ui-background ui-light is-hidden" data-content-animation-item="3" aria-hidden="true">
+                                                        <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false" width="300" height="160" data-plugin="appear " data-src="assets/images/media/design/3.projects/slide-3%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22300%22%20height=%22160%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20300%20160%22%3E%3C/svg%3E">
+                                                        <noscript>
+                                                            <img class="img-full " alt="" draggable="false" width="300" height="160" src="assets/images/media/design/3.projects/slide-3%40xs.webp">
+                                                        </noscript>
+                                                        <p class="de-projects__slider-item__text h3 leading-trim">
+                                                            Istanbul
+                                                            <br>Sapphire Skyscraper, Turkey
+                                                        </p>
+                                                        <a class="btn de-projects__close ui-dark btn--primary btn--square is-hidden--md-up" aria-label="Закрыть" tabindex="0" role="button">
+                                                            <span class="btn__content">
                                                             <span class="btn__icon ">
                                                                 <svg class="icon icon-close" width="12" height="12"
                                                                     aria-hidden="true" viewBox="0 0 12 12"
@@ -427,245 +302,160 @@
                                                                     </use>
                                                                 </svg>
                                                             </span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                                <div class="de-projects__slider-item pt-1 pb-3 px-layout ui-background ui-light"
-                                                    data-content-animation-item="4" aria-hidden="false">
-                                                    <h3 class="h3 leading-trim" data-reveal="text">
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="de-projects__slider-item pt-1 pb-3 px-layout ui-background ui-light" data-content-animation-item="4" aria-hidden="false">
+                                                        <h3 class="h3 leading-trim" data-reveal="text">
                                                         The&nbsp;architects of&nbsp;the&nbsp;acclaimed Istanbul-based
                                                         bureau Tabanlioglu masterfully frame the&nbsp;world’s leading
                                                         megapolises with&nbsp;the&nbsp;silhouettes of&nbsp;their
                                                         glistening buildings.
                                                     </h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="mb-1 mb-0.5:md px-layout">
-                                                <span class="text-c2 leading-trim">
+                                                <div class="mb-1 mb-0.5:md px-layout">
+                                                    <span class="text-c2 leading-trim">
                                                     Bureau’s signature projects:
                                                 </span>
-                                            </div>
-
-                                            <div class="row row--between-xs row--bottom-xs px-layout">
-                                                <div class="de-projects__pagination row">
-
-                                                    <div class="de-projects__thumb js-content-animation-link"
-                                                        data-content-animation-id="1">
-                                                        <img class="img-full is-invisible--js is-hidden--no-js" alt=""
-                                                            draggable="false" width="60" height="60"
-                                                            data-plugin="appear "
-                                                            data-src="assets/images/media/design/3.projects/thumb-1%40xs.webp"
-                                                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                                                        <noscript>
-                                                            <img class="img-full " alt="" draggable="false" width="60"
-                                                                height="60"
-                                                                src="assets/images/media/design/3.projects/thumb-1%40xs.webp">
-                                                        </noscript>
-                                                    </div>
-
-                                                    <div class="de-projects__thumb js-content-animation-link"
-                                                        data-content-animation-id="2">
-                                                        <img class="img-full is-invisible--js is-hidden--no-js" alt=""
-                                                            draggable="false" width="60" height="60"
-                                                            data-plugin="appear "
-                                                            data-src="assets/images/media/design/3.projects/thumb-2%40xs.webp"
-                                                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                                                        <noscript>
-                                                            <img class="img-full " alt="" draggable="false" width="60"
-                                                                height="60"
-                                                                src="assets/images/media/design/3.projects/thumb-2%40xs.webp">
-                                                        </noscript>
-                                                    </div>
-                                                    <div class="de-projects__thumb js-content-animation-link"
-                                                        data-content-animation-id="3">
-                                                        <img class="img-full is-invisible--js is-hidden--no-js" alt=""
-                                                            draggable="false" width="60" height="60"
-                                                            data-plugin="appear "
-                                                            data-src="assets/images/media/design/3.projects/thumb-3%40xs.webp"
-                                                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                                                        <noscript>
-                                                            <img class="img-full " alt="" draggable="false" width="60"
-                                                                height="60"
-                                                                src="assets/images/media/design/3.projects/thumb-3%40xs.webp">
-                                                        </noscript>
-                                                    </div>
                                                 </div>
-                                                <img class="de-projects__logo is-invisible--js is-hidden--no-js" alt=""
-                                                    draggable="false" width="59" height="30" data-plugin="appear "
-                                                    data-src="assets/images/media/design/3.projects/logo.webp"
-                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2259%22%20height=%2230%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2059%2030%22%3E%3C/svg%3E">
 
-                                                <noscript>
-                                                    <img class="de-projects__logo " alt="" draggable="false" width="59"
-                                                        height="30"
-                                                        src="assets/images/media/design/3.projects/logo.webp">
-                                                </noscript>
+                                                <div class="row row--between-xs row--bottom-xs px-layout">
+                                                    <div class="de-projects__pagination row">
+
+                                                        <div class="de-projects__thumb js-content-animation-link" data-content-animation-id="1">
+                                                            <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false" width="60" height="60" data-plugin="appear " data-src="assets/images/media/design/3.projects/thumb-1%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
+                                                            <noscript>
+                                                                <img class="img-full " alt="" draggable="false" width="60" height="60" src="assets/images/media/design/3.projects/thumb-1%40xs.webp">
+                                                            </noscript>
+                                                        </div>
+
+                                                        <div class="de-projects__thumb js-content-animation-link" data-content-animation-id="2">
+                                                            <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false" width="60" height="60" data-plugin="appear " data-src="assets/images/media/design/3.projects/thumb-2%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
+                                                            <noscript>
+                                                                <img class="img-full " alt="" draggable="false" width="60" height="60" src="assets/images/media/design/3.projects/thumb-2%40xs.webp">
+                                                            </noscript>
+                                                        </div>
+                                                        <div class="de-projects__thumb js-content-animation-link" data-content-animation-id="3">
+                                                            <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false" width="60" height="60" data-plugin="appear " data-src="assets/images/media/design/3.projects/thumb-3%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
+                                                            <noscript>
+                                                                <img class="img-full " alt="" draggable="false" width="60" height="60" src="assets/images/media/design/3.projects/thumb-3%40xs.webp">
+                                                            </noscript>
+                                                        </div>
+                                                    </div>
+                                                    <img class="de-projects__logo is-invisible--js is-hidden--no-js" alt="" draggable="false" width="59" height="30" data-plugin="appear " data-src="assets/images/media/design/3.projects/logo.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2259%22%20height=%2230%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2059%2030%22%3E%3C/svg%3E">
+
+                                                    <noscript>
+                                                        <img class="de-projects__logo " alt="" draggable="false" width="59" height="30" src="assets/images/media/design/3.projects/logo.webp">
+                                                    </noscript>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="ui-dark ui-background de-captions p-relative sticky sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up js-captions-container"
-                            data-themed-class="ui-dark" id="de-captions" data-plugin="parallax"
-                            data-parallax-clamp="true" data-parallax-enable-mq="md-down"
-                            data-parallax-100-0='{"transform": "translateY(-30%)"}'
-                            data-parallax-0-0='{"transform": "translateY(0%)"}'
-                            data-parallax--50-0='{"transform": "translateY(0%)"}'
-                            data-parallax--150-0='{"transform": "translateY(30%)"}'
-                            data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }]'>
+                            <div class="ui-dark ui-background de-captions p-relative sticky sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up js-captions-container" data-themed-class="ui-dark" id="de-captions" data-plugin="parallax"
+                            data-parallax-clamp="true" data-parallax-enable-mq="md-down" data-parallax-100-0='{"transform": "translateY(-30%)"}' data-parallax-0-0='{"transform": "translateY(0%)"}' data-parallax--50-0='{"transform": "translateY(0%)"}'
+                            data-parallax--150-0='{"transform": "translateY(30%)"}' data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }]'>
 
-                            <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll
-                                data-scroll-sticky data-scroll-target="#de-captions">
+                                <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky data-scroll-target="#de-captions">
 
-                                <div class="de-captions__canvas background background--cover"
-                                    data-plugin="parallax imageScroll"
-                                    data-image-scroll-displacement-image="assets/images/media/design/4.captions/4.png"
-                                    data-image-scroll-image-start="&#x7B;&quot;xs&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_xs&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-xs-1&#x25;40xs.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;,&quot;md&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_md&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-md-1&#x25;40xxxl.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;,&quot;xxl&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_xxl&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-md-1&#x25;40xxxl.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;,&quot;xxxl&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_xxxl&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-md-1&#x25;40xxxl.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;&#x7D;"
+                                    <div class="de-captions__canvas background background--cover" data-plugin="parallax imageScroll" data-image-scroll-displacement-image="assets/images/media/design/4.captions/4.png" data-image-scroll-image-start="&#x7B;&quot;xs&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_xs&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-xs-1&#x25;40xs.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;,&quot;md&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_md&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-md-1&#x25;40xxxl.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;,&quot;xxl&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_xxl&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-md-1&#x25;40xxxl.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;,&quot;xxxl&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_xxxl&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-md-1&#x25;40xxxl.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;&#x7D;"
                                     data-image-scroll-image-end="&#x7B;&quot;xs&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_xs&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-xs-2&#x25;40xs.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;,&quot;md&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_md&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-md-2&#x25;40xxxl.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;,&quot;xxl&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_xxl&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-md-2&#x25;40xxxl.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;,&quot;xxxl&quot;&#x3A;&#x7B;&quot;src&quot;&#x3A;&quot;media&#x5C;&#x2F;cache&#x5C;&#x2F;design_captions_img_xxxl&#x5C;&#x2F;assets&#x5C;&#x2F;images&#x5C;&#x2F;media&#x5C;&#x2F;design&#x5C;&#x2F;4.captions&#x5C;&#x2F;image-md-2&#x25;40xxxl.webp&quot;,&quot;width&quot;&#x3A;720,&quot;height&quot;&#x3A;1280&#x7D;&#x7D;"
-                                    data-parallax-enable-mq="lg-up" data-parallax-clamp="true"
-                                    data-parallax-measure-selector=".sticky"
-                                    data-parallax-0-0='{"transform": "scale(1.2)"}'
-                                    data-parallax--300-0='{"transform": "scale(1)"}'></div>
+                                    data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"transform": "scale(1.2)"}' data-parallax--300-0='{"transform": "scale(1)"}'></div>
 
-                                <div class="de-captions__content">
-                                    <div class="de-captions__content-title" data-plugin="parallax"
-                                        data-parallax-pattern="captionsTitle">
-                                        <h3 class="h1 leading-trim" data-reveal="title">
+                                    <div class="de-captions__content">
+                                        <div class="de-captions__content-title" data-plugin="parallax" data-parallax-pattern="captionsTitle">
+                                            <h3 class="h1 leading-trim" data-reveal="title">
                                             The&nbsp;concept of&nbsp;BST Developers is to&nbsp;merge architecture and
                                             nature
                                             within&nbsp;the&nbsp;optical focus of&nbsp;a&nbsp;vision reaching
                                             into&nbsp;tomorrow.
                                         </h3>
-                                    </div>
-                                    <div class="de-captions__content-text col col--md-3" data-plugin="parallax"
-                                        data-parallax-pattern="captionsText">
-                                        <p lass="leading-trim" data-reveal="text">
-                                            Ultra-transparent panoramic windows, aluminum panels with&nbsp;restrained
-                                            luster, natural oak-framed loggias, marble flooring
-                                        </p>
+                                        </div>
+                                        <div class="de-captions__content-text col col--md-3" data-plugin="parallax" data-parallax-pattern="captionsText">
+                                            <p lass="leading-trim" data-reveal="text">
+                                                Ultra-transparent panoramic windows, aluminum panels with&nbsp;restrained luster, natural oak-framed loggias, marble flooring
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="p-relative ui-light ui-background de-balcons px-layout pt-1 pt-2:lg"
-                            data-themed-class="ui-light" id="de-balcons"
-                            data-scroll-snap-point='[{ "viewport": 0, "element": 0, "scrollable": true}]'>
-                            <div class="mb-3">
-                                <h3 class="h0 leading-trim text-right" data-reveal="title">
+                            <div class="p-relative ui-light ui-background de-balcons px-layout pt-1 pt-2:lg" data-themed-class="ui-light" id="de-balcons" data-scroll-snap-point='[{ "viewport": 0, "element": 0, "scrollable": true}]'>
+                                <div class="mb-3">
+                                    <h3 class="h0 leading-trim text-right" data-reveal="title">
                                     Frozen Music
                                 </h3>
-                            </div>
-                            <div class="de-balcons__content-text col col--md-3 mb-1">
-                                <p lass="leading-trim" data-reveal="text">
-                                    BST Developers resembles a&nbsp;waterfall that ceased flowing, as&nbsp;if you could
-                                    hear
-                                    roaring cascades and the&nbsp;delicate chiming of&nbsp;scattered drops
-                                    in&nbsp;a&nbsp;matter of&nbsp;seconds. How did we create this effect?
-                                </p>
-                            </div>
+                                </div>
+                                <div class="de-balcons__content-text col col--md-3 mb-1">
+                                    <p lass="leading-trim" data-reveal="text">
+                                        BST Developers resembles a&nbsp;waterfall that ceased flowing, as&nbsp;if you could hear roaring cascades and the&nbsp;delicate chiming of&nbsp;scattered drops in&nbsp;a&nbsp;matter of&nbsp;seconds. How did we create this effect?
+                                    </p>
+                                </div>
 
-                            <div class="de-balcons__content p-relative" data-themed-class="ui-dark">
+                                <div class="de-balcons__content p-relative" data-themed-class="ui-dark">
 
-                                <div data-plugin="parallax" data-parallax-measure-selector=".de-balcons"
-                                    data-parallax-clamp="true" data-parallax-enable-mq="md-up"
-                                    data-parallax-0-0='{"transform": "translateY(-20%)"}'
-                                    data-parallax-0-100='{"transform": "translateY(20%)"}'>
-                                    <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
-                                        data-plugin="appear " draggable="false">
-                                        <source data-srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp"
-                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221320%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201320%201500%22%3E%3C/svg%3E"
-                                            media="(min-width: 1920px) and (min-height: 700px)" width="1320"
-                                            height="1500">
-                                        <source data-srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp"
-                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221320%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201320%201500%22%3E%3C/svg%3E"
-                                            media="(min-width: 1440px) and (min-height: 700px)" width="1320"
-                                            height="1500">
-                                        <source data-srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp"
-                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221320%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201320%201500%22%3E%3C/svg%3E"
-                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                            width="1320" height="1500">
-                                        <img data-src="assets/images/media/design/5.balcons/balcon-xs%40xs.webp"
-                                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22720%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20720%22%3E%3C/svg%3E"
-                                            alt="" width="640" height="720" data-plugin="parallax"
-                                            data-parallax-enable-mq="md-down" data-parallax-clamp="true"
-                                            data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
-                                            data-parallax-0-100="{&quot;transform&quot;: &quot;scale(1)&quot;}"
+                                    <div data-plugin="parallax" data-parallax-measure-selector=".de-balcons" data-parallax-clamp="true" data-parallax-enable-mq="md-up" data-parallax-0-0='{"transform": "translateY(-20%)"}' data-parallax-0-100='{"transform": "translateY(20%)"}'>
+                                        <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move" data-plugin="appear " draggable="false">
+                                            <source data-srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221320%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201320%201500%22%3E%3C/svg%3E"
+                                            media="(min-width: 1920px) and (min-height: 700px)" width="1320" height="1500">
+                                            <source data-srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221320%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201320%201500%22%3E%3C/svg%3E"
+                                            media="(min-width: 1440px) and (min-height: 700px)" width="1320" height="1500">
+                                            <source data-srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221320%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201320%201500%22%3E%3C/svg%3E"
+                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1320" height="1500">
+                                            <img data-src="assets/images/media/design/5.balcons/balcon-xs%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22720%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20720%22%3E%3C/svg%3E"
+                                            alt="" width="640" height="720" data-plugin="parallax" data-parallax-enable-mq="md-down" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax-0-100="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                                             draggable="false">
-                                    </picture>
-                                    <noscript>
-                                        <picture class=" img-full parallax-image-move" draggable="false">
-                                            <source srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp"
-                                                media="(min-width: 1920px) and (min-height: 700px)" width="1320"
-                                                height="1500">
-                                            <source srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp"
-                                                media="(min-width: 1440px) and (min-height: 700px)" width="1320"
-                                                height="1500">
-                                            <source srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp"
-                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                width="1320" height="1500">
-                                            <img src="assets/images/media/design/5.balcons/balcon-xs%40xs.webp" alt=""
-                                                width="640" height="720" data-plugin="parallax"
-                                                data-parallax-enable-mq="md-down" data-parallax-clamp="true"
-                                                data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
-                                                data-parallax-0-100="{&quot;transform&quot;: &quot;scale(1)&quot;}"
-                                                draggable="false">
                                         </picture>
-                                    </noscript>
+                                        <noscript>
+                                            <picture class=" img-full parallax-image-move" draggable="false">
+                                                <source srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1320" height="1500">
+                                                <source srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1320" height="1500">
+                                                <source srcset="assets/images/media/design/5.balcons/balcon-md%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1320" height="1500">
+                                                <img src="assets/images/media/design/5.balcons/balcon-xs%40xs.webp" alt="" width="640" height="720" data-plugin="parallax" data-parallax-enable-mq="md-down" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
+                                                data-parallax-0-100="{&quot;transform&quot;: &quot;scale(1)&quot;}" draggable="false">
+                                            </picture>
+                                        </noscript>
 
-                                    <div class="de-balcons__pin ui-dark is-hidden--sm-down"
-                                        style="--left: 32%; --top: 22%;" tabindex="0">
-                                        <span class="btn de-balcons__pin-button btn--square btn--outline">
+                                        <div class="de-balcons__pin ui-dark is-hidden--sm-down" style="--left: 32%; --top: 22%;" tabindex="0">
+                                            <span class="btn de-balcons__pin-button btn--square btn--outline">
                                             <span class="btn__content">
                                                 <span class="btn__text  ">
                                                     1
                                                 </span>
                                             </span>
-                                        </span>
+                                            </span>
 
-                                        <div
-                                            class="de-balcons__pin-tooltip px-0.5 pt-3 pb-layout pb-0.5:lg ui-dark ui-background">
-                                            <p class="text-c2 leading-trim">
-                                                The&nbsp;balconies of&nbsp;the&nbsp;asymmetrical facade follow
-                                                a&nbsp;chessboard pattern. The&nbsp;non-linear order creates
-                                                a&nbsp;striking, recognizable effect.
-                                            </p>
+                                            <div class="de-balcons__pin-tooltip px-0.5 pt-3 pb-layout pb-0.5:lg ui-dark ui-background">
+                                                <p class="text-c2 leading-trim">
+                                                    The&nbsp;balconies of&nbsp;the&nbsp;asymmetrical facade follow a&nbsp;chessboard pattern. The&nbsp;non-linear order creates a&nbsp;striking, recognizable effect.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="de-balcons__pin ui-dark is-hidden--md-up"
-                                        style="--left: 32%; --top: 22%;">
-                                        <span class="btn de-balcons__pin-button btn--square btn--outline"
-                                            data-plugin="popover" data-popover-interactive="true"
-                                            data-popover-placement="top-end" data-popover-events="click"
-                                            aria-describedby="balcons-tooltip-1">
+                                        <div class="de-balcons__pin ui-dark is-hidden--md-up" style="--left: 32%; --top: 22%;">
+                                            <span class="btn de-balcons__pin-button btn--square btn--outline" data-plugin="popover" data-popover-interactive="true" data-popover-placement="top-end" data-popover-events="click" aria-describedby="balcons-tooltip-1">
                                             <span class="btn__content">
                                                 <span class="btn__text  ">
                                                     1
                                                 </span>
                                             </span>
-                                        </span>
+                                            </span>
 
-                                        <div
-                                            class="de-balcons__pin-tooltip px-0.5 pt-3 pb-layout pb-0.5:lg ui-dark ui-background">
-                                            <p class="text-c2 leading-trim">
-                                                The&nbsp;balconies of&nbsp;the&nbsp;asymmetrical facade follow
-                                                a&nbsp;chessboard pattern. The&nbsp;non-linear order creates
-                                                a&nbsp;striking, recognizable effect.
-                                            </p>
+                                            <div class="de-balcons__pin-tooltip px-0.5 pt-3 pb-layout pb-0.5:lg ui-dark ui-background">
+                                                <p class="text-c2 leading-trim">
+                                                    The&nbsp;balconies of&nbsp;the&nbsp;asymmetrical facade follow a&nbsp;chessboard pattern. The&nbsp;non-linear order creates a&nbsp;striking, recognizable effect.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <div id="balcons-tooltip-1"
-                                        class="tooltip tooltip--interactive  tooltip--closable tooltip--sort tooltip--dark ui-dark"
-                                        role="tooltip">
-                                        <div class="tooltip__content">
-                                            <div class="tooltip__content-top pb-3">
-                                                <div class=""></div>
-                                                <a class="btn btn--primary btn--square js-tooltip-close"
-                                                    aria-label="Close" tabindex="0" role="button">
-                                                    <span class="btn__content">
+                                        <div id="balcons-tooltip-1" class="tooltip tooltip--interactive  tooltip--closable tooltip--sort tooltip--dark ui-dark" role="tooltip">
+                                            <div class="tooltip__content">
+                                                <div class="tooltip__content-top pb-3">
+                                                    <div class=""></div>
+                                                    <a class="btn btn--primary btn--square js-tooltip-close" aria-label="Close" tabindex="0" role="button">
+                                                        <span class="btn__content">
                                                         <span class="btn__icon ">
                                                             <svg class="icon icon-close" width="12" height="12"
                                                                 aria-hidden="true" viewBox="0 0 12 12"
@@ -675,82 +465,64 @@
                                                                 </use>
                                                             </svg>
                                                         </span>
-                                                    </span>
-                                                </a>
-                                            </div>
+                                                        </span>
+                                                    </a>
+                                                </div>
 
-                                            <div>
-                                                <span class="btn btn--outline btn--sm btn--square">
+                                                <div>
+                                                    <span class="btn btn--outline btn--sm btn--square">
                                                     <span class="btn__content">
                                                         <span class="btn__text  ">
                                                             1
                                                         </span>
                                                     </span>
-                                                </span>
+                                                    </span>
 
-                                                <div class="text-c2 leading-trim col col--xs-3 mt-1">
-                                                    <p>
-                                                        The&nbsp;balconies of&nbsp;the&nbsp;asymmetrical facade follow
-                                                        a&nbsp;chessboard pattern. The&nbsp;non-linear order creates
-                                                        a&nbsp;striking, recognizable effect.
-                                                    </p>
+                                                    <div class="text-c2 leading-trim col col--xs-3 mt-1">
+                                                        <p>
+                                                            The&nbsp;balconies of&nbsp;the&nbsp;asymmetrical facade follow a&nbsp;chessboard pattern. The&nbsp;non-linear order creates a&nbsp;striking, recognizable effect.
+                                                        </p>
+                                                    </div>
                                                 </div>
+
                                             </div>
-
                                         </div>
-                                    </div>
-                                    <div class="de-balcons__pin ui-dark is-hidden--sm-down"
-                                        style="--left: 49.4%; --top: 51%;" tabindex="0">
-                                        <span class="btn de-balcons__pin-button btn--square btn--outline">
+                                        <div class="de-balcons__pin ui-dark is-hidden--sm-down" style="--left: 49.4%; --top: 51%;" tabindex="0">
+                                            <span class="btn de-balcons__pin-button btn--square btn--outline">
                                             <span class="btn__content">
                                                 <span class="btn__text  ">
                                                     2
                                                 </span>
                                             </span>
-                                        </span>
+                                            </span>
 
-                                        <div
-                                            class="de-balcons__pin-tooltip px-0.5 pt-3 pb-layout pb-0.5:lg ui-dark ui-background">
-                                            <p class="text-c2 leading-trim">
-                                                The&nbsp;architects divided the&nbsp;uniform transparent facade
-                                                into&nbsp;three vertical sections, with&nbsp;the&nbsp;terraces situated
-                                                in&nbsp;the&nbsp;recesses. This is how we graft rhythmic beauty
-                                                with&nbsp;functional elegance.
-                                            </p>
+                                            <div class="de-balcons__pin-tooltip px-0.5 pt-3 pb-layout pb-0.5:lg ui-dark ui-background">
+                                                <p class="text-c2 leading-trim">
+                                                    The&nbsp;architects divided the&nbsp;uniform transparent facade into&nbsp;three vertical sections, with&nbsp;the&nbsp;terraces situated in&nbsp;the&nbsp;recesses. This is how we graft rhythmic beauty with&nbsp;functional elegance.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <div class="de-balcons__pin ui-dark is-hidden--md-up"
-                                        style="--left: 49.4%; --top: 51%;">
-                                        <span class="btn de-balcons__pin-button btn--square btn--outline"
-                                            data-plugin="popover" data-popover-interactive="true"
-                                            data-popover-placement="top-end" data-popover-events="click"
-                                            aria-describedby="balcons-tooltip-2">
+                                        <div class="de-balcons__pin ui-dark is-hidden--md-up" style="--left: 49.4%; --top: 51%;">
+                                            <span class="btn de-balcons__pin-button btn--square btn--outline" data-plugin="popover" data-popover-interactive="true" data-popover-placement="top-end" data-popover-events="click" aria-describedby="balcons-tooltip-2">
                                             <span class="btn__content">
                                                 <span class="btn__text  ">
                                                     2
                                                 </span>
                                             </span>
-                                        </span>
-                                        <div
-                                            class="de-balcons__pin-tooltip px-0.5 pt-3 pb-layout pb-0.5:lg ui-dark ui-background">
-                                            <p class="text-c2 leading-trim">
-                                                The&nbsp;architects divided the&nbsp;uniform transparent facade
-                                                into&nbsp;three vertical sections, with&nbsp;the&nbsp;terraces situated
-                                                in&nbsp;the&nbsp;recesses. This is how we graft rhythmic beauty
-                                                with&nbsp;functional elegance.
-                                            </p>
+                                            </span>
+                                            <div class="de-balcons__pin-tooltip px-0.5 pt-3 pb-layout pb-0.5:lg ui-dark ui-background">
+                                                <p class="text-c2 leading-trim">
+                                                    The&nbsp;architects divided the&nbsp;uniform transparent facade into&nbsp;three vertical sections, with&nbsp;the&nbsp;terraces situated in&nbsp;the&nbsp;recesses. This is how we graft rhythmic beauty with&nbsp;functional elegance.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div id="balcons-tooltip-2"
-                                        class="tooltip tooltip--interactive  tooltip--closable tooltip--sort tooltip--dark ui-dark"
-                                        role="tooltip">
-                                        <div class="tooltip__content">
-                                            <div class="tooltip__content-top pb-3">
-                                                <div class=""></div>
-                                                <a class="btn btn--primary btn--square js-tooltip-close"
-                                                    aria-label="Close" tabindex="0" role="button">
-                                                    <span class="btn__content">
+                                        <div id="balcons-tooltip-2" class="tooltip tooltip--interactive  tooltip--closable tooltip--sort tooltip--dark ui-dark" role="tooltip">
+                                            <div class="tooltip__content">
+                                                <div class="tooltip__content-top pb-3">
+                                                    <div class=""></div>
+                                                    <a class="btn btn--primary btn--square js-tooltip-close" aria-label="Close" tabindex="0" role="button">
+                                                        <span class="btn__content">
                                                         <span class="btn__icon ">
                                                             <svg class="icon icon-close" width="12" height="12"
                                                                 aria-hidden="true" viewBox="0 0 12 12"
@@ -760,12 +532,12 @@
                                                                 </use>
                                                             </svg>
                                                         </span>
-                                                    </span>
-                                                </a>
-                                            </div>
+                                                        </span>
+                                                    </a>
+                                                </div>
 
-                                            <div>
-                                                <span class="btn btn--outline btn--sm btn--square">
+                                                <div>
+                                                    <span class="btn btn--outline btn--sm btn--square">
 
                                                     <span class="btn__content">
 
@@ -775,1338 +547,953 @@
                                                         </span>
 
                                                     </span>
-                                                </span>
+                                                    </span>
 
-                                                <div class="text-c2 leading-trim col col--xs-3 mt-1">
-                                                    <p>
-                                                        The&nbsp;architects divided the&nbsp;uniform transparent facade
-                                                        into&nbsp;three vertical sections, with&nbsp;the&nbsp;terraces
-                                                        situated in&nbsp;the&nbsp;recesses. This is how we graft
-                                                        rhythmic beauty with&nbsp;functional elegance.
-                                                    </p>
+                                                    <div class="text-c2 leading-trim col col--xs-3 mt-1">
+                                                        <p>
+                                                            The&nbsp;architects divided the&nbsp;uniform transparent facade into&nbsp;three vertical sections, with&nbsp;the&nbsp;terraces situated in&nbsp;the&nbsp;recesses. This is how we graft rhythmic beauty with&nbsp;functional elegance.
+                                                        </p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
 
-                        <div class="p-relative ui-light ui-background de-materials px-layout pb-1 pb-2:lg pt-1"
-                            data-themed-class="ui-light" id="de-materials">
+                            <div class="p-relative ui-light ui-background de-materials px-layout pb-1 pb-2:lg pt-1" data-themed-class="ui-light" id="de-materials">
 
-                            <div class="de-materials__uptitle">
-                                <span class="text-c1 leading-trim" data-reveal="text">
+                                <div class="de-materials__uptitle">
+                                    <span class="text-c1 leading-trim" data-reveal="text">
                                     Aristocratic Quartet
                                 </span>
-                            </div>
-                            <div class="col col--xs-4 col--md-7 mb-7:lg">
-                                <h3 class="h1 leading-trim" data-reveal="title">
+                                </div>
+                                <div class="col col--xs-4 col--md-7 mb-7:lg">
+                                    <h3 class="h1 leading-trim" data-reveal="title">
                                     Glass, metal, stone, and wood&nbsp;&mdash; the&nbsp;four elements that define
                                     the&nbsp;essence of&nbsp;BST Developers, an&nbsp;airy yet durable structure.
                                 </h3>
-                            </div>
+                                </div>
 
-                            <div class="de-materials__image" data-plugin="parallax"
-                                data-parallax-pattern="materialsImageEn">
-                                <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                                    draggable="false">
-                                    <source data-srcset="assets/images/media/design/6.materials/material%40xxxl.webp"
-                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22616%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20600%20616%22%3E%3C/svg%3E"
+                                <div class="de-materials__image" data-plugin="parallax" data-parallax-pattern="materialsImageEn">
+                                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear " draggable="false">
+                                        <source data-srcset="assets/images/media/design/6.materials/material%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22616%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20600%20616%22%3E%3C/svg%3E"
                                         media="(min-width: 1920px) and (min-height: 700px)" width="600" height="616">
-                                    <source data-srcset="assets/images/media/design/6.materials/material%40xxxl.webp"
-                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22616%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20600%20616%22%3E%3C/svg%3E"
+                                        <source data-srcset="assets/images/media/design/6.materials/material%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22616%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20600%20616%22%3E%3C/svg%3E"
                                         media="(min-width: 1440px) and (min-height: 700px)" width="600" height="616">
-                                    <source data-srcset="assets/images/media/design/6.materials/material%40xxxl.webp"
-                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22616%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20600%20616%22%3E%3C/svg%3E"
-                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                        width="600" height="616">
-                                    <img data-src="assets/images/media/design/6.materials/material%40xxxl.webp"
-                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22616%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20600%20616%22%3E%3C/svg%3E"
+                                        <source data-srcset="assets/images/media/design/6.materials/material%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22616%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20600%20616%22%3E%3C/svg%3E"
+                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="600" height="616">
+                                        <img data-src="assets/images/media/design/6.materials/material%40xxxl.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22616%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20600%20616%22%3E%3C/svg%3E"
                                         alt="" width="600" height="616" draggable="false">
-                                </picture>
-
-                                <noscript>
-                                    <picture class=" img-full" draggable="false">
-                                        <source srcset="assets/images/media/design/6.materials/material%40xxxl.webp"
-                                            media="(min-width: 1920px) and (min-height: 700px)" width="600"
-                                            height="616">
-                                        <source srcset="assets/images/media/design/6.materials/material%40xxxl.webp"
-                                            media="(min-width: 1440px) and (min-height: 700px)" width="600"
-                                            height="616">
-                                        <source srcset="assets/images/media/design/6.materials/material%40xxxl.webp"
-                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                            width="600" height="616">
-                                        <img src="assets/images/media/design/6.materials/material%40xxxl.webp" alt=""
-                                            width="600" height="616" draggable="false">
                                     </picture>
-                                </noscript>
+
+                                    <noscript>
+                                        <picture class=" img-full" draggable="false">
+                                            <source srcset="assets/images/media/design/6.materials/material%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="600" height="616">
+                                            <source srcset="assets/images/media/design/6.materials/material%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="600" height="616">
+                                            <source srcset="assets/images/media/design/6.materials/material%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="600" height="616">
+                                            <img src="assets/images/media/design/6.materials/material%40xxxl.webp" alt="" width="600" height="616" draggable="false">
+                                        </picture>
+                                    </noscript>
+                                </div>
+
+                                <div class="de-materials__text ml-auto mr-0">
+                                    <p lass="leading-trim" data-reveal="text">
+                                        High-clarity glass makes our building appear levitating, while stone and wood allow you to&nbsp;feel the&nbsp;essence of&nbsp;time&nbsp;&mdash; time that you'll wish to&nbsp;halt again and again to&nbsp;admire the&nbsp;elegance that adorns your life.
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="de-materials__text ml-auto mr-0">
-                                <p lass="leading-trim" data-reveal="text">
-                                    High-clarity glass makes our building appear levitating, while stone and wood allow
-                                    you to&nbsp;feel the&nbsp;essence of&nbsp;time&nbsp;&mdash; time that you'll wish
-                                    to&nbsp;halt again and again to&nbsp;admire the&nbsp;elegance that adorns your life.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="ui-light ui-background de-slider sticky sticky--full-height sticky--under-next sticky--under-next:lg-up is-hidden--sm-down"
-                            id="de-slider" data-themed-class='{"left": "ui-light", "right": "ui-dark"}'
-                            data-scroll-snap-point='[{ "viewport": 0, "element": 0}, { "viewport": -200, "element": 0 }]'>
-                            <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll
-                                data-scroll-sticky data-scroll-target="#de-slider">
-                                <div class="de-slider__content row" data-plugin="parallax"
-                                    data-parallax-pattern="sliderScroll">
-                                    <div
-                                        class="de-slider__caption col col--md-4 ui-light px-layout py-layout p-relative">
-                                        <div class="de-slider__scrollbar-container row">
-                                            <div class="de-slider__caption__title text-right mr-0.5">
-                                                <h3 class="h3 leading-trim">
+                            <div class="ui-light ui-background de-slider sticky sticky--full-height sticky--under-next sticky--under-next:lg-up is-hidden--sm-down" id="de-slider" data-themed-class='{"left": "ui-light", "right": "ui-dark"}' data-scroll-snap-point='[{ "viewport": 0, "element": 0}, { "viewport": -200, "element": 0 }]'>
+                                <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky data-scroll-target="#de-slider">
+                                    <div class="de-slider__content row" data-plugin="parallax" data-parallax-pattern="sliderScroll">
+                                        <div class="de-slider__caption col col--md-4 ui-light px-layout py-layout p-relative">
+                                            <div class="de-slider__scrollbar-container row">
+                                                <div class="de-slider__caption__title text-right mr-0.5">
+                                                    <h3 class="h3 leading-trim">
                                                     Rich<br>
                                                     Interior<br>
                                                     Life
                                                 </h3>
-                                            </div>
-                                            <div class="de-slider__scrollbar mr-layout">
-                                                <div class="de-slider__scrollbar__progress js-scroll-progress-line">
+                                                </div>
+                                                <div class="de-slider__scrollbar mr-layout">
+                                                    <div class="de-slider__scrollbar__progress js-scroll-progress-line">
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                        <div class="js-slider-content" data-plugin="contentAnimation"
-                                            data-content-animation-animations='{
+                                            <div class="js-slider-content" data-plugin="contentAnimation" data-content-animation-animations='{
                         "changeShow": {"name": "text"},
                         "changeHide": {"name": "fadeOut"}
-                    }' data-content-animation-plugins="controller events height counter"
-                                            class="js-wellness-controller-selector">
-                                            <div class="content-animation">
+                    }' data-content-animation-plugins="controller events height counter" class="js-wellness-controller-selector">
+                                                <div class="content-animation">
 
-                                                <div data-content-animation-item="1" class="" aria-hidden="false">
-                                                    <div class="de-slider__caption__text">
-                                                        <p class="text-t1 leading-trim">
-                                                            Imagine bathing in&nbsp;the&nbsp;crystal-clear pool, your
-                                                            whole body feeling light and energized. The&nbsp;splashing
-                                                            water carrying all superficial thoughts away. You emerge,
-                                                            feeling pleasant coolness on&nbsp;your skin.
-                                                        </p>
+                                                    <div data-content-animation-item="1" class="" aria-hidden="false">
+                                                        <div class="de-slider__caption__text">
+                                                            <p class="text-t1 leading-trim">
+                                                                Imagine bathing in&nbsp;the&nbsp;crystal-clear pool, your whole body feeling light and energized. The&nbsp;splashing water carrying all superficial thoughts away. You emerge, feeling pleasant coolness on&nbsp;your skin.
+                                                            </p>
+                                                        </div>
+
+
                                                     </div>
 
 
-                                                </div>
+                                                    <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
+                                                        <div class="de-slider__caption__text">
+                                                            <p class="text-t1 leading-trim">
+                                                                Our fitness center, offering state-of-the-art equipment, supports your health and well-being. Panoramic windows and comfortable environment guarantee your full satisfaction.
+                                                            </p>
+                                                        </div>
 
 
-                                                <div data-content-animation-item="2" class="is-hidden"
-                                                    aria-hidden="true">
-                                                    <div class="de-slider__caption__text">
-                                                        <p class="text-t1 leading-trim">
-                                                            Our fitness center, offering state-of-the-art equipment,
-                                                            supports your health and well-being. Panoramic windows and
-                                                            comfortable environment guarantee your full satisfaction.
-                                                        </p>
                                                     </div>
-
 
                                                 </div>
 
                                             </div>
-
                                         </div>
-                                    </div>
 
-                                    <div class="de-slider__images col col--md-8 parallax-image-move">
+                                        <div class="de-slider__images col col--md-8 parallax-image-move">
 
-                                        <div data-plugin="parallax" data-parallax-enable-mq="md-up"
-                                            data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
-                                            data-parallax-100-0='{"transform": "scale(1.2)"}'
-                                            data-parallax--200-0='{"transform": "scale(1.0)"}'>
-                                            <div class=" background background--cover">
+                                            <div data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-100-0='{"transform": "scale(1.2)"}' data-parallax--200-0='{"transform": "scale(1.0)"}'>
+                                                <div class=" background background--cover">
 
 
 
 
 
-                                                <picture
-                                                    class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
-                                                    data-plugin="appear " draggable="false">
-                                                    <source
-                                                        data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                        media="(min-width: 1920px) and (min-height: 700px)" width="720"
-                                                        height="900">
-                                                    <source
-                                                        data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                        media="(min-width: 1440px) and (min-height: 700px)" width="720"
-                                                        height="900">
-                                                    <source
-                                                        data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                        width="720" height="900">
-                                                    <img data-src="assets/images/media/design/7.slider/slider-xs-1%40xs.webp"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
+                                                        <source data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
+                                                        <source data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                        <source data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="720" height="900">
+                                                        <img data-src="assets/images/media/design/7.slider/slider-xs-1%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                                         alt="" width="720" height="900" draggable="false">
-                                                </picture>
-
-                                                <noscript>
-
-
-
-
-
-                                                    <picture class=" img-cover parallax-image-move" draggable="false">
-                                                        <source
-                                                            srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                            media="(min-width: 1920px) and (min-height: 700px)"
-                                                            width="720" height="900">
-                                                        <source
-                                                            srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                            media="(min-width: 1440px) and (min-height: 700px)"
-                                                            width="720" height="900">
-                                                        <source
-                                                            srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                            width="720" height="900">
-                                                        <img src="assets/images/media/design/7.slider/slider-xs-1%40xs.webp"
-                                                            alt="" width="720" height="900" draggable="false">
                                                     </picture>
 
+                                                    <noscript>
 
-                                                </noscript>
 
+
+
+
+                                                        <picture class=" img-cover parallax-image-move" draggable="false">
+                                                            <source srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
+                                                            <source srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                            <source srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="720" height="900">
+                                                            <img src="assets/images/media/design/7.slider/slider-xs-1%40xs.webp" alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+
+
+                                                    </noscript>
+
+                                                </div>
                                             </div>
-                                        </div>
 
 
 
 
-                                        <div data-plugin="parallax" data-parallax-enable-mq="md-up"
-                                            data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
-                                            data-parallax-0-0='{"clip-path": "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)", "transform": "scale(1.2)"}'
-                                            data-parallax--150-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", "transform": "scale(1.1)"}'
+                                            <div data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"clip-path": "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)", "transform": "scale(1.2)"}' data-parallax--150-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", "transform": "scale(1.1)"}'
                                             data-parallax--300-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", "transform": "scale(1.0)"}'>
-                                            <div class=" background background--cover">
+                                                <div class=" background background--cover">
 
 
 
 
 
-                                                <picture
-                                                    class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
-                                                    data-plugin="appear " draggable="false">
-                                                    <source
-                                                        data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                        media="(min-width: 1920px) and (min-height: 700px)" width="720"
-                                                        height="900">
-                                                    <source
-                                                        data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                        media="(min-width: 1440px) and (min-height: 700px)" width="720"
-                                                        height="900">
-                                                    <source
-                                                        data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                        width="720" height="900">
-                                                    <img data-src="assets/images/media/design/7.slider/slider-xs-2%40xs.webp"
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
+                                                        <source data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
+                                                        <source data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                        <source data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="720" height="900">
+                                                        <img data-src="assets/images/media/design/7.slider/slider-xs-2%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                                         alt="" width="720" height="900" draggable="false">
-                                                </picture>
-
-                                                <noscript>
-
-
-
-
-
-                                                    <picture class=" img-cover parallax-image-move" draggable="false">
-                                                        <source
-                                                            srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                            media="(min-width: 1920px) and (min-height: 700px)"
-                                                            width="720" height="900">
-                                                        <source
-                                                            srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                            media="(min-width: 1440px) and (min-height: 700px)"
-                                                            width="720" height="900">
-                                                        <source
-                                                            srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                            width="720" height="900">
-                                                        <img src="assets/images/media/design/7.slider/slider-xs-2%40xs.webp"
-                                                            alt="" width="720" height="900" draggable="false">
                                                     </picture>
 
+                                                    <noscript>
 
-                                                </noscript>
 
+
+
+
+                                                        <picture class=" img-cover parallax-image-move" draggable="false">
+                                                            <source srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
+                                                            <source srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                            <source srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="720" height="900">
+                                                            <img src="assets/images/media/design/7.slider/slider-xs-2%40xs.webp" alt="" width="720" height="900" draggable="false">
+                                                        </picture>
+
+
+                                                    </noscript>
+
+                                                </div>
                                             </div>
+
+
                                         </div>
-
-
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
 
-                        <div class="de-slider__mobile-scrollable-container is-hidden--md-up ui-light ui-background"
-                            data-plugin="parallax" data-parallax-pattern="mobileUnderNext">
-                            <div class="de-slider__mobile-scrollable row">
-                                <div class="de-slider__mobile-scrollable__images p-relative mx-layout js-wellness-content-animation-controller"
-                                    data-plugin="mobileScrollable" data-themed-class="ui-dark">
-                                    <ul class="mobile-scrollable col col--md-auto mx-auto">
-                                        <li class="mobile-scrollable__item ">
+                            <div class="de-slider__mobile-scrollable-container is-hidden--md-up ui-light ui-background" data-plugin="parallax" data-parallax-pattern="mobileUnderNext">
+                                <div class="de-slider__mobile-scrollable row">
+                                    <div class="de-slider__mobile-scrollable__images p-relative mx-layout js-wellness-content-animation-controller" data-plugin="mobileScrollable" data-themed-class="ui-dark">
+                                        <ul class="mobile-scrollable col col--md-auto mx-auto">
+                                            <li class="mobile-scrollable__item ">
 
 
 
 
 
-                                            <picture class="is-invisible--js is-hidden--no-js img-cover"
-                                                data-plugin="appear " draggable="false">
-                                                <source
-                                                    data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                    media="(min-width: 1920px) and (min-height: 700px)" width="720"
-                                                    height="900">
-                                                <source
-                                                    data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                    media="(min-width: 1440px) and (min-height: 700px)" width="720"
-                                                    height="900">
-                                                <source
-                                                    data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                    width="720" height="900">
-                                                <img data-src="assets/images/media/design/7.slider/slider-xs-1%40xs.webp"
-                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
+                                                    <source data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
+                                                    <source data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                    <source data-srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="720" height="900">
+                                                    <img data-src="assets/images/media/design/7.slider/slider-xs-1%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                                     alt="" width="720" height="900" decoding="async" draggable="false">
-                                            </picture>
-
-                                            <noscript>
-
-
-
-
-
-                                                <picture class=" img-cover" draggable="false">
-                                                    <source
-                                                        srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                        media="(min-width: 1920px) and (min-height: 700px)" width="720"
-                                                        height="900">
-                                                    <source
-                                                        srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                        media="(min-width: 1440px) and (min-height: 700px)" width="720"
-                                                        height="900">
-                                                    <source
-                                                        srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp"
-                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                        width="720" height="900">
-                                                    <img src="assets/images/media/design/7.slider/slider-xs-1%40xs.webp"
-                                                        alt="" width="720" height="900" decoding="async"
-                                                        draggable="false">
                                                 </picture>
 
-
-                                            </noscript>
-
-                                        </li>
-                                        <li class="mobile-scrollable__item ">
+                                                <noscript>
 
 
 
 
 
-                                            <picture class="is-invisible--js is-hidden--no-js img-cover"
-                                                data-plugin="appear " draggable="false">
-                                                <source
-                                                    data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                    media="(min-width: 1920px) and (min-height: 700px)" width="720"
-                                                    height="900">
-                                                <source
-                                                    data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                    media="(min-width: 1440px) and (min-height: 700px)" width="720"
-                                                    height="900">
-                                                <source
-                                                    data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                    width="720" height="900">
-                                                <img data-src="assets/images/media/design/7.slider/slider-xs-2%40xs.webp"
-                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    <picture class=" img-cover" draggable="false">
+                                                        <source srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
+                                                        <source srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                        <source srcset="assets/images/media/design/7.slider/slider-md-1%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="720" height="900">
+                                                        <img src="assets/images/media/design/7.slider/slider-xs-1%40xs.webp" alt="" width="720" height="900" decoding="async" draggable="false">
+                                                    </picture>
+
+
+                                                </noscript>
+
+                                            </li>
+                                            <li class="mobile-scrollable__item ">
+
+
+
+
+
+                                                <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
+                                                    <source data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
+                                                    <source data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                    <source data-srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="720" height="900">
+                                                    <img data-src="assets/images/media/design/7.slider/slider-xs-2%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                                     alt="" width="720" height="900" decoding="async" draggable="false">
-                                            </picture>
-
-                                            <noscript>
-
-
-
-
-
-                                                <picture class=" img-cover" draggable="false">
-                                                    <source
-                                                        srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                        media="(min-width: 1920px) and (min-height: 700px)" width="720"
-                                                        height="900">
-                                                    <source
-                                                        srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                        media="(min-width: 1440px) and (min-height: 700px)" width="720"
-                                                        height="900">
-                                                    <source
-                                                        srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp"
-                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                        width="720" height="900">
-                                                    <img src="assets/images/media/design/7.slider/slider-xs-2%40xs.webp"
-                                                        alt="" width="720" height="900" decoding="async"
-                                                        draggable="false">
                                                 </picture>
 
+                                                <noscript>
 
-                                            </noscript>
 
-                                        </li>
-                                    </ul>
 
-                                    <div class="carousel__thumb group group--nowrap px-layout">
-                                        <a role="button"
-                                            class="col col--xs-2 text-c1 carousel__thumb__item js-mobile-scrollable-thumbnail leading-trim is-active"></a>
-                                        <a role="button"
-                                            class="col col--xs-2 text-c1 carousel__thumb__item js-mobile-scrollable-thumbnail leading-trim "></a>
+
+
+                                                    <picture class=" img-cover" draggable="false">
+                                                        <source srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
+                                                        <source srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                        <source srcset="assets/images/media/design/7.slider/slider-md-2%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="720" height="900">
+                                                        <img src="assets/images/media/design/7.slider/slider-xs-2%40xs.webp" alt="" width="720" height="900" decoding="async" draggable="false">
+                                                    </picture>
+
+
+                                                </noscript>
+
+                                            </li>
+                                        </ul>
+
+                                        <div class="carousel__thumb group group--nowrap px-layout">
+                                            <a role="button" class="col col--xs-2 text-c1 carousel__thumb__item js-mobile-scrollable-thumbnail leading-trim is-active"></a>
+                                            <a role="button" class="col col--xs-2 text-c1 carousel__thumb__item js-mobile-scrollable-thumbnail leading-trim "></a>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="de-slider__mobile-scrollable__caption col col--xs-4 col--md-12 ui-light"
-                                    data-themed-class="ui-light">
+                                    <div class="de-slider__mobile-scrollable__caption col col--xs-4 col--md-12 ui-light" data-themed-class="ui-light">
 
-                                    <div class="px-layout pt-1 mb-1">
-                                        <p class="h3 leading-trim">
-                                            Rich<br>
-                                            Interior<br>
-                                            Life
-                                        </p>
-                                    </div>
-                                    <div data-plugin="contentAnimation" data-content-animation-fixed-height="false"
-                                        data-content-animation-animations='{
+                                        <div class="px-layout pt-1 mb-1">
+                                            <p class="h3 leading-trim">
+                                                Rich
+                                                <br> Interior
+                                                <br> Life
+                                            </p>
+                                        </div>
+                                        <div data-plugin="contentAnimation" data-content-animation-fixed-height="false" data-content-animation-animations='{
                     "changeShow": {"name": "fadeIn"},
                     "changeHide": {"name": "fadeOut", "duration": "fast"}
-                }' data-content-animation-plugins="controller events height counter"
-                                        data-content-animation-controller-selector=":root .js-wellness-content-animation-controller">
-                                        <div
-                                            class="de-slider__mobile-scrollable__caption-text content-animation col col--md-6">
+                }' data-content-animation-plugins="controller events height counter" data-content-animation-controller-selector=":root .js-wellness-content-animation-controller">
+                                            <div class="de-slider__mobile-scrollable__caption-text content-animation col col--md-6">
 
-                                            <div data-content-animation-item="1" class="" aria-hidden="false">
+                                                <div data-content-animation-item="1" class="" aria-hidden="false">
 
 
-                                                <p class="text-t1 leading-trim">
-                                                    Imagine bathing in&nbsp;the&nbsp;crystal-clear pool, your whole body
-                                                    feeling light and energized. The&nbsp;splashing water carrying all
-                                                    superficial thoughts away. You emerge, feeling pleasant coolness
-                                                    on&nbsp;your skin.
-                                                </p>
+                                                    <p class="text-t1 leading-trim">
+                                                        Imagine bathing in&nbsp;the&nbsp;crystal-clear pool, your whole body feeling light and energized. The&nbsp;splashing water carrying all superficial thoughts away. You emerge, feeling pleasant coolness on&nbsp;your skin.
+                                                    </p>
+                                                </div>
+
+
+                                                <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
+
+
+                                                    <p class="text-t1 leading-trim">
+                                                        Our fitness center, offering state-of-the-art equipment, supports your health and well-being. Panoramic windows and comfortable environment guarantee your full satisfaction.
+                                                    </p>
+                                                </div>
+
                                             </div>
-
-
-                                            <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
-
-
-                                                <p class="text-t1 leading-trim">
-                                                    Our fitness center, offering state-of-the-art equipment, supports
-                                                    your health and well-being. Panoramic windows and comfortable
-                                                    environment guarantee your full satisfaction.
-                                                </p>
-                                            </div>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
 
 
 
-                        <div class="p-relative ui-dark ui-background de-gallery pb-3 sticky sticky:lg-up sticky--under-next"
-                            data-themed-class="ui-dark" id="de-gallery"
-                            data-scroll-snap-point='[{ "viewport": 0, "element": 0, "scrollable": true}]'>
-                            <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
-                                data-scroll-target="#de-gallery" data-plugin="stickyBottom"
-                                data-sticky-bottom-enable-mq="lg-up">
-                                <div data-plugin="parallax" data-parallax-measure-selector=".sticky"
-                                    data-parallax-enable-mq="lg-up" data-parallax-clamp="true"
-                                    data-parallax-200-100='{"transform": "translateY(0svh)"}'
-                                    data-parallax-100-100='{"transform": "translateY(-50svh)"}'>
-                                    <div class="de-gallery__gradient background background--cover">
-                                        <div></div>
-                                        <div></div>
-                                    </div>
+                            <div class="p-relative ui-dark ui-background de-gallery pb-3 sticky sticky:lg-up sticky--under-next" data-themed-class="ui-dark" id="de-gallery" data-scroll-snap-point='[{ "viewport": 0, "element": 0, "scrollable": true}]'>
+                                <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#de-gallery" data-plugin="stickyBottom" data-sticky-bottom-enable-mq="lg-up">
+                                    <div data-plugin="parallax" data-parallax-measure-selector=".sticky" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-200-100='{"transform": "translateY(0svh)"}' data-parallax-100-100='{"transform": "translateY(-50svh)"}'>
+                                        <div class="de-gallery__gradient background background--cover">
+                                            <div></div>
+                                            <div></div>
+                                        </div>
 
 
-                                    <div
-                                        class="offset--xs-1 col--xs-3 col--md-9 offset--md-3 mb-3 text-right pr-layout p-relative pt-2.5 py-2:lg">
-                                        <h2 class="h0 leading-trim" data-reveal="title">
+                                        <div class="offset--xs-1 col--xs-3 col--md-9 offset--md-3 mb-3 text-right pr-layout p-relative pt-2.5 py-2:lg">
+                                            <h2 class="h0 leading-trim" data-reveal="title">
                                             Art Gallery<br>
                                             of&nbsp;Your Life
                                         </h2>
-                                    </div>
+                                        </div>
 
 
-                                    <div class="p-relative px-layout mb-1 is-hidden--lg-up">
-                                        <p lass="leading-trim" data-reveal="text">
-                                            Our viewing terraces will surround you with&nbsp;beauty of&nbsp;botanical
-                                            sculptures.
-                                        </p>
-                                    </div>
+                                        <div class="p-relative px-layout mb-1 is-hidden--lg-up">
+                                            <p lass="leading-trim" data-reveal="text">
+                                                Our viewing terraces will surround you with&nbsp;beauty of&nbsp;botanical sculptures.
+                                            </p>
+                                        </div>
 
 
-                                    <div class="row p-relative">
+                                        <div class="row p-relative">
 
-                                        <div class="col col--md-6 de-gallery__image ">
-                                            <div>
-
-
-
-
-
-                                                <picture
-                                                    class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
-                                                    data-plugin="appear " draggable="false">
-                                                    <source srcset="assets/images/px-2x1.gif"
-                                                        data-srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp"
-                                                        media="(min-width: 1920px) and (min-height: 700px)">
-                                                    <source srcset="assets/images/px-2x1.gif"
-                                                        data-srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp"
-                                                        media="(min-width: 1440px) and (min-height: 700px)">
-                                                    <source srcset="assets/images/px-2x1.gif"
-                                                        data-srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp"
-                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)">
-                                                    <img data-src="assets/images/media/design/8.gallery/image-1%40xxxl.webp"
-                                                        src="assets/images/px.gif" alt="" data-plugin="parallax"
-                                                        data-parallax-enable-mq="null" data-parallax-clamp="true"
-                                                        data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                                                        data-parallax-0-150="{&quot;transform&quot;: &quot;scale(1)&quot;}"
-                                                        draggable="false">
-                                                </picture>
-
-                                                <noscript>
+                                            <div class="col col--md-6 de-gallery__image ">
+                                                <div>
 
 
 
 
 
-                                                    <picture class=" img-full parallax-image-move" draggable="false">
-                                                        <source
-                                                            srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp"
-                                                            media="(min-width: 1920px) and (min-height: 700px)">
-                                                        <source
-                                                            srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp"
-                                                            media="(min-width: 1440px) and (min-height: 700px)">
-                                                        <source
-                                                            srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp"
-                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)">
-                                                        <img src="assets/images/media/design/8.gallery/image-1%40xxxl.webp"
-                                                            alt="" data-plugin="parallax" data-parallax-enable-mq="null"
-                                                            data-parallax-clamp="true"
-                                                            data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                                                            data-parallax-0-150="{&quot;transform&quot;: &quot;scale(1)&quot;}"
-                                                            draggable="false">
+                                                    <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move" data-plugin="appear " draggable="false">
+                                                        <source srcset="assets/images/px-2x1.gif" data-srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)">
+                                                        <source srcset="assets/images/px-2x1.gif" data-srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)">
+                                                        <source srcset="assets/images/px-2x1.gif" data-srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)">
+                                                        <img data-src="assets/images/media/design/8.gallery/image-1%40xxxl.webp" src="assets/images/px.gif" alt="" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
+                                                        data-parallax-0-150="{&quot;transform&quot;: &quot;scale(1)&quot;}" draggable="false">
                                                     </picture>
 
+                                                    <noscript>
 
-                                                </noscript>
 
+
+
+
+                                                        <picture class=" img-full parallax-image-move" draggable="false">
+                                                            <source srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)">
+                                                            <source srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)">
+                                                            <source srcset="assets/images/media/design/8.gallery/image-1%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)">
+                                                            <img src="assets/images/media/design/8.gallery/image-1%40xxxl.webp" alt="" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax-0-150="{&quot;transform&quot;: &quot;scale(1)&quot;}"
+                                                            draggable="false">
+                                                        </picture>
+
+
+                                                    </noscript>
+
+                                                </div>
+
+
+                                                <div class="col col--md-3 de-gallery__col--no-stretch ml-2 pt-2 is-hidden--md-down">
+                                                    <p class="leading-trim" data-reveal="text">
+                                                        Our Wellness center will greet you with&nbsp;beauty chiseled in&nbsp;marble and dissolved in&nbsp;water.
+                                                    </p>
+                                                </div>
                                             </div>
 
+                                            <div class="col col--md-6 de-gallery__image col--reverse mt-3 mt-0:lg ">
+                                                <div data-plugin="parallax" data-parallax-enable-mq="sm-down" data-parallax-clamp="true" data-parallax-100-0='{"transform": "translateY(0svh)"}' data-parallax-0-100='{"transform": "translateY(-10svh)"}'>
 
-                                            <div
-                                                class="col col--md-3 de-gallery__col--no-stretch ml-2 pt-2 is-hidden--md-down">
-                                                <p class="leading-trim" data-reveal="text">
-                                                    Our Wellness center will greet you with&nbsp;beauty chiseled
-                                                    in&nbsp;marble and dissolved in&nbsp;water.
-                                                </p>
+
+
+
+
+                                                    <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move" data-plugin="appear " draggable="false">
+                                                        <source srcset="assets/images/px-2x1.gif" data-srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)">
+                                                        <source srcset="assets/images/px-2x1.gif" data-srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)">
+                                                        <source srcset="assets/images/px-2x1.gif" data-srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)">
+                                                        <img data-src="assets/images/media/design/8.gallery/image-2%40xxxl.webp" src="assets/images/px.gif" alt="" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
+                                                        data-parallax-0-150="{&quot;transform&quot;: &quot;scale(1)&quot;}" draggable="false">
+                                                    </picture>
+
+                                                    <noscript>
+
+
+
+
+
+                                                        <picture class=" img-full parallax-image-move" draggable="false">
+                                                            <source srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)">
+                                                            <source srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)">
+                                                            <source srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)">
+                                                            <img src="assets/images/media/design/8.gallery/image-2%40xxxl.webp" alt="" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax-0-150="{&quot;transform&quot;: &quot;scale(1)&quot;}"
+                                                            draggable="false">
+                                                        </picture>
+
+
+                                                    </noscript>
+
+                                                </div>
+
+
+                                                <div class="col col--md-3 de-gallery__col--no-stretch ml-1 pb-3 is-hidden--md-down">
+                                                    <p class="leading-trim" data-reveal="text">
+                                                        Our viewing terraces will surround you with&nbsp;beauty of&nbsp;botanical sculptures.
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
 
-                                        <div class="col col--md-6 de-gallery__image col--reverse mt-3 mt-0:lg ">
-                                            <div data-plugin="parallax" data-parallax-enable-mq="sm-down"
-                                                data-parallax-clamp="true"
-                                                data-parallax-100-0='{"transform": "translateY(0svh)"}'
-                                                data-parallax-0-100='{"transform": "translateY(-10svh)"}'>
-
-
-
-
-
-                                                <picture
-                                                    class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
-                                                    data-plugin="appear " draggable="false">
-                                                    <source srcset="assets/images/px-2x1.gif"
-                                                        data-srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp"
-                                                        media="(min-width: 1920px) and (min-height: 700px)">
-                                                    <source srcset="assets/images/px-2x1.gif"
-                                                        data-srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp"
-                                                        media="(min-width: 1440px) and (min-height: 700px)">
-                                                    <source srcset="assets/images/px-2x1.gif"
-                                                        data-srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp"
-                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)">
-                                                    <img data-src="assets/images/media/design/8.gallery/image-2%40xxxl.webp"
-                                                        src="assets/images/px.gif" alt="" data-plugin="parallax"
-                                                        data-parallax-enable-mq="null" data-parallax-clamp="true"
-                                                        data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                                                        data-parallax-0-150="{&quot;transform&quot;: &quot;scale(1)&quot;}"
-                                                        draggable="false">
-                                                </picture>
-
-                                                <noscript>
-
-
-
-
-
-                                                    <picture class=" img-full parallax-image-move" draggable="false">
-                                                        <source
-                                                            srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp"
-                                                            media="(min-width: 1920px) and (min-height: 700px)">
-                                                        <source
-                                                            srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp"
-                                                            media="(min-width: 1440px) and (min-height: 700px)">
-                                                        <source
-                                                            srcset="assets/images/media/design/8.gallery/image-2%40xxxl.webp"
-                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)">
-                                                        <img src="assets/images/media/design/8.gallery/image-2%40xxxl.webp"
-                                                            alt="" data-plugin="parallax" data-parallax-enable-mq="null"
-                                                            data-parallax-clamp="true"
-                                                            data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                                                            data-parallax-0-150="{&quot;transform&quot;: &quot;scale(1)&quot;}"
-                                                            draggable="false">
-                                                    </picture>
-
-
-                                                </noscript>
-
-                                            </div>
-
-
-                                            <div
-                                                class="col col--md-3 de-gallery__col--no-stretch ml-1 pb-3 is-hidden--md-down">
-                                                <p class="leading-trim" data-reveal="text">
-                                                    Our viewing terraces will surround you with&nbsp;beauty
-                                                    of&nbsp;botanical sculptures.
-                                                </p>
-                                            </div>
+                                        <div class="p-relative px-layout mt-2 is-hidden--lg-up">
+                                            <p lass="leading-trim" data-reveal="text">
+                                                Our Wellness center will greet you with&nbsp;beauty chiseled in&nbsp;marble and dissolved in&nbsp;water.
+                                            </p>
                                         </div>
+
                                     </div>
 
-                                    <div class="p-relative px-layout mt-2 is-hidden--lg-up">
-                                        <p lass="leading-trim" data-reveal="text">
-                                            Our Wellness center will greet you with&nbsp;beauty chiseled in&nbsp;marble
-                                            and dissolved in&nbsp;water.
-                                        </p>
-                                    </div>
 
                                 </div>
-
-
                             </div>
-                        </div>
 
 
 
-                        <div class="ui-dark de-flats de-flats--first de-flats--light sticky  sticky--under-next  sticky--under-next:lg-up"
-                            id="de-flats-415514"
-                            data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }, { "viewport": -170, "element": 0 }]'
+                            <div class="ui-dark de-flats de-flats--first de-flats--light sticky  sticky--under-next  sticky--under-next:lg-up" id="de-flats-415514" data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }, { "viewport": -170, "element": 0 }]'
                             data-plugin="parallax" data-parallax-pattern="mobileUnderPrevious">
 
-                            <div data-themed-class="ui-dark" style="position: absolute; top: 100svh;"></div>
-                            <div data-themed-class='{"left": "ui-dark", "right": "ui-light"}'
-                                style="position: absolute; top: 150svh;"></div>
-                            <div class="sticky__layer sticky__layer--sticky sticky--full-height ui-light-background"
-                                data-scroll data-scroll-sticky data-scroll-target="#de-flats-415514">
+                                <div data-themed-class="ui-dark" style="position: absolute; top: 100svh;"></div>
+                                <div data-themed-class='{"left": "ui-dark", "right": "ui-light"}' style="position: absolute; top: 150svh;"></div>
+                                <div class="sticky__layer sticky__layer--sticky sticky--full-height ui-light-background" data-scroll data-scroll-sticky data-scroll-target="#de-flats-415514">
 
-                                <div class="de-flats__content ui-light-background px-layout py-1 p-relative"
-                                    data-plugin="parallax" data-parallax-clamp="true"
-                                    data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down"
-                                    data-parallax-0-0='{"height": "100svh"}' data-parallax--50-0='{"height": "65svh"}'>
-                                    <div class="background background--cover" data-plugin="parallax"
-                                        data-parallax-pattern="flatImage">
+                                    <div class="de-flats__content ui-light-background px-layout py-1 p-relative" data-plugin="parallax" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down" data-parallax-0-0='{"height": "100svh"}' data-parallax--50-0='{"height": "65svh"}'>
+                                        <div class="background background--cover" data-plugin="parallax" data-parallax-pattern="flatImage">
 
 
 
 
 
-                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
-                                            data-plugin="appear " draggable="false">
-                                            <source
-                                                data-srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                data-srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                data-srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                width="1440" height="900">
-                                            <img data-src="assets/images/media/design/9.flats/image-xs-1%40xs.webp"
-                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
-                                                alt="" width="1440" height="900" data-plugin="parallax"
-                                                data-parallax-clamp="true" data-parallax-enable-mq="lg-up"
-                                                data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}"
-                                                data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}"
-                                                data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}"
-                                                data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}"
-                                                draggable="false">
-                                        </picture>
-
-                                        <noscript>
-
-
-
-
-
-                                            <picture class=" img-cover" draggable="false">
-                                                <source
-                                                    srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp"
-                                                    media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                    height="900">
-                                                <source
-                                                    srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp"
-                                                    media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                    height="900">
-                                                <source srcset="images/media/design/9.flats/image-md-1%40xxxl.webp"
-                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                    width="1440" height="900">
-                                                <img src="assets/images/media/design/9.flats/image-xs-1%40xs.webp"
-                                                    alt="" width="1440" height="900" data-plugin="parallax"
-                                                    data-parallax-clamp="true" data-parallax-enable-mq="lg-up"
-                                                    data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}"
-                                                    data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}"
-                                                    data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}"
-                                                    data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}"
-                                                    draggable="false">
+                                            <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
+                                                <source data-srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                <source data-srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                <source data-srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                <img data-src="assets/images/media/design/9.flats/image-xs-1%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                                                alt="" width="1440" height="900" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="lg-up" data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}"
+                                                data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}" data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}" draggable="false">
                                             </picture>
 
-
-                                        </noscript>
-
-
-                                        <div class="dim is-hidden--lg-up" data-plugin="parallax"
-                                            data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
-                                            data-parallax-enable-mq="md-down" data-parallax-0-0='{"opacity": "1"}'
-                                            data-parallax--50-0='{"opacity": "0"}'></div>
-                                    </div>
-
-                                    <div class="de-flats__caption p-relative" data-plugin="parallax"
-                                        data-parallax-pattern="flatCaption">
+                                            <noscript>
 
 
-                                        <div class="de-flats__caption-title" data-plugin="parallax"
-                                            data-parallax-pattern="flatTitleEn">
-                                            <h2 class="g1 leading-trim mt-0.5 mt-0:lg text-right text-left:lg">
+
+
+
+                                                <picture class=" img-cover" draggable="false">
+                                                    <source srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                    <source srcset="assets/images/media/design/9.flats/image-md-1%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                    <source srcset="images/media/design/9.flats/image-md-1%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                    <img src="assets/images/media/design/9.flats/image-xs-1%40xs.webp" alt="" width="1440" height="900" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="lg-up" data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}"
+                                                    data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}" data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}" data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}"
+                                                    draggable="false">
+                                                </picture>
+
+
+                                            </noscript>
+
+
+                                            <div class="dim is-hidden--lg-up" data-plugin="parallax" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down" data-parallax-0-0='{"opacity": "1"}' data-parallax--50-0='{"opacity": "0"}'></div>
+                                        </div>
+
+                                        <div class="de-flats__caption p-relative" data-plugin="parallax" data-parallax-pattern="flatCaption">
+
+
+                                            <div class="de-flats__caption-title" data-plugin="parallax" data-parallax-pattern="flatTitleEn">
+                                                <h2 class="g1 leading-trim mt-0.5 mt-0:lg text-right text-left:lg">
                                                 Flats
                                             </h2>
-                                        </div>
+                                            </div>
 
-                                        <div
-                                            class="de-flats__caption-uptitle text-c1 leading-trim text-right text-left:lg mt-1">
-                                            <span>
+                                            <div class="de-flats__caption-uptitle text-c1 leading-trim text-right text-left:lg mt-1">
+                                                <span>
                                                 Limitless vision
                                             </span>
-                                        </div>
+                                            </div>
 
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="de-flats__text col col--lg-6 mr-0 ml-auto ui-light px-layout py-layout is-hidden--md-down"
-                                    data-plugin="parallax" data-parallax-pattern="flatText">
+                                    <div class="de-flats__text col col--lg-6 mr-0 ml-auto ui-light px-layout py-layout is-hidden--md-down" data-plugin="parallax" data-parallax-pattern="flatText">
 
-                                    <div class="de-flats__text-text">
-                                        <p class="leading-trim">
-                                            Our view flats transform the&nbsp;city into&nbsp;an&nbsp;element
-                                            of&nbsp;your interior design; not a&nbsp;mere landscape but a&nbsp;panorama
-                                            of&nbsp;seven historical parks, a&nbsp;river shifting shades, and
-                                            the&nbsp;capital's iconic landmarks in&nbsp;full view. It’s
-                                            the&nbsp;coziness of&nbsp;a&nbsp;country house with&nbsp;the&nbsp;expanse
-                                            of&nbsp;the&nbsp;megapolises.
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                138 view flats
+                                        <div class="de-flats__text-text">
+                                            <p class="leading-trim">
+                                                Our view flats transform the&nbsp;city into&nbsp;an&nbsp;element of&nbsp;your interior design; not a&nbsp;mere landscape but a&nbsp;panorama of&nbsp;seven historical parks, a&nbsp;river shifting shades, and the&nbsp;capital's iconic landmarks in&nbsp;full
+                                                view. It’s the&nbsp;coziness of&nbsp;a&nbsp;country house with&nbsp;the&nbsp;expanse of&nbsp;the&nbsp;megapolises.
                                             </p>
                                         </div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                62-347 m<sup>2</sup> area
-                                            </p>
-                                        </div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                Unique transformable glazing
-                                            </p>
-                                        </div>
-                                        <div class="de-flats__list-item  pt-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                Designer finishings
-                                            </p>
+                                        <div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    138 view flats
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    62-347 m<sup>2</sup> area
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    Unique transformable glazing
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  pt-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    Designer finishings
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="de-flats__text ui-light-background col col--lg-6 mr-0 ml-auto ui-light px-layout pt-1 is-hidden--lg-up"
-                            data-themed-class="ui-light">
-                            <div class="de-flats__text-text mb-1 mb-2:lg p-relative">
-                                <p class="leading-trim">
-                                    Our view flats transform the&nbsp;city into&nbsp;an&nbsp;element of&nbsp;your
-                                    interior design; not a&nbsp;mere landscape but a&nbsp;panorama of&nbsp;seven
-                                    historical parks, a&nbsp;river shifting shades, and the&nbsp;capital's iconic
-                                    landmarks in&nbsp;full view. It’s the&nbsp;coziness of&nbsp;a&nbsp;country house
-                                    with&nbsp;the&nbsp;expanse of&nbsp;the&nbsp;megapolises.
-                                </p>
+                            <div class="de-flats__text ui-light-background col col--lg-6 mr-0 ml-auto ui-light px-layout pt-1 is-hidden--lg-up" data-themed-class="ui-light">
+                                <div class="de-flats__text-text mb-1 mb-2:lg p-relative">
+                                    <p class="leading-trim">
+                                        Our view flats transform the&nbsp;city into&nbsp;an&nbsp;element of&nbsp;your interior design; not a&nbsp;mere landscape but a&nbsp;panorama of&nbsp;seven historical parks, a&nbsp;river shifting shades, and the&nbsp;capital's iconic landmarks in&nbsp;full
+                                        view. It’s the&nbsp;coziness of&nbsp;a&nbsp;country house with&nbsp;the&nbsp;expanse of&nbsp;the&nbsp;megapolises.
+                                    </p>
+                                </div>
+
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        138 view flats
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        62-347 m<sup>2</sup> area
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        Unique transformable glazing
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative pt-1 pt-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        Designer finishings
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    138 view flats
-                                </p>
-                            </div>
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    62-347 m<sup>2</sup> area
-                                </p>
-                            </div>
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    Unique transformable glazing
-                                </p>
-                            </div>
-                            <div class="de-flats__list-item p-relative pt-1 pt-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    Designer finishings
-                                </p>
-                            </div>
-                        </div>
 
 
 
-
-                        <div class="ui-dark de-flats sticky--under-previous sticky--under-previous:lg-up de-flats--dark sticky  sticky--under-next  sticky--under-next:lg-up"
-                            id="de-flats-688506"
-                            data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }, { "viewport": -170, "element": 0 }]'
+                            <div class="ui-dark de-flats sticky--under-previous sticky--under-previous:lg-up de-flats--dark sticky  sticky--under-next  sticky--under-next:lg-up" id="de-flats-688506" data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }, { "viewport": -170, "element": 0 }]'
                             data-plugin="parallax" data-parallax-pattern="mobileUnderPrevious">
 
-                            <div data-themed-class="ui-dark" style="position: absolute; top: 100svh;"></div>
-                            <div data-themed-class='{"left": "ui-dark", "right": "ui-dark"}'
-                                style="position: absolute; top: 150svh;"></div>
-                            <div class="sticky__layer sticky__layer--sticky sticky--full-height ui-dark-background"
-                                data-scroll data-scroll-sticky data-scroll-target="#de-flats-688506">
+                                <div data-themed-class="ui-dark" style="position: absolute; top: 100svh;"></div>
+                                <div data-themed-class='{"left": "ui-dark", "right": "ui-dark"}' style="position: absolute; top: 150svh;"></div>
+                                <div class="sticky__layer sticky__layer--sticky sticky--full-height ui-dark-background" data-scroll data-scroll-sticky data-scroll-target="#de-flats-688506">
 
-                                <div class="de-flats__content ui-dark-background px-layout py-1 p-relative"
-                                    data-plugin="parallax" data-parallax-clamp="true"
-                                    data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down"
-                                    data-parallax-0-0='{"height": "100svh"}' data-parallax--50-0='{"height": "65svh"}'>
-                                    <div class="background background--cover" data-plugin="parallax"
-                                        data-parallax-pattern="flatImage">
+                                    <div class="de-flats__content ui-dark-background px-layout py-1 p-relative" data-plugin="parallax" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down" data-parallax-0-0='{"height": "100svh"}' data-parallax--50-0='{"height": "65svh"}'>
+                                        <div class="background background--cover" data-plugin="parallax" data-parallax-pattern="flatImage">
 
 
 
 
 
-                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
-                                            data-plugin="appear " draggable="false">
-                                            <source
-                                                data-srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                data-srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                data-srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                width="1440" height="900">
-                                            <img data-src="assets/images/media/design/9.flats/image-xs-2%40xs.webp"
-                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
-                                                alt="" width="1440" height="900" data-plugin="parallax"
-                                                data-parallax-clamp="true" data-parallax-enable-mq="lg-up"
-                                                data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}"
-                                                data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}"
-                                                data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}"
-                                                data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}"
-                                                draggable="false">
-                                        </picture>
-
-                                        <noscript>
-
-
-
-
-
-                                            <picture class=" img-cover" draggable="false">
-                                                <source
-                                                    srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp"
-                                                    media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                    height="900">
-                                                <source
-                                                    srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp"
-                                                    media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                    height="900">
-                                                <source srcset="images/media/design/9.flats/image-md-2%40xxxl.webp"
-                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                    width="1440" height="900">
-                                                <img src="assets/images/media/design/9.flats/image-xs-2%40xs.webp"
-                                                    alt="" width="1440" height="900" data-plugin="parallax"
-                                                    data-parallax-clamp="true" data-parallax-enable-mq="lg-up"
-                                                    data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}"
-                                                    data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}"
-                                                    data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}"
-                                                    data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}"
-                                                    draggable="false">
+                                            <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
+                                                <source data-srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                <source data-srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                <source data-srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                <img data-src="assets/images/media/design/9.flats/image-xs-2%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                                                alt="" width="1440" height="900" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="lg-up" data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}"
+                                                data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}" data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}" draggable="false">
                                             </picture>
 
-
-                                        </noscript>
-
-
-                                        <div class="dim is-hidden--lg-up" data-plugin="parallax"
-                                            data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
-                                            data-parallax-enable-mq="md-down" data-parallax-0-0='{"opacity": "1"}'
-                                            data-parallax--50-0='{"opacity": "0"}'></div>
-                                    </div>
-
-                                    <div class="de-flats__caption p-relative" data-plugin="parallax"
-                                        data-parallax-pattern="flatCaption">
+                                            <noscript>
 
 
-                                        <div class="de-flats__caption-title" data-plugin="parallax"
-                                            data-parallax-pattern="flatTitleEn">
-                                            <h2 class="g1 leading-trim mt-0.5 mt-0:lg text-right text-left:lg">
+
+
+
+                                                <picture class=" img-cover" draggable="false">
+                                                    <source srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                    <source srcset="assets/images/media/design/9.flats/image-md-2%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                    <source srcset="images/media/design/9.flats/image-md-2%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                    <img src="assets/images/media/design/9.flats/image-xs-2%40xs.webp" alt="" width="1440" height="900" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="lg-up" data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}"
+                                                    data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}" data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}" data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}"
+                                                    draggable="false">
+                                                </picture>
+
+
+                                            </noscript>
+
+
+                                            <div class="dim is-hidden--lg-up" data-plugin="parallax" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down" data-parallax-0-0='{"opacity": "1"}' data-parallax--50-0='{"opacity": "0"}'></div>
+                                        </div>
+
+                                        <div class="de-flats__caption p-relative" data-plugin="parallax" data-parallax-pattern="flatCaption">
+
+
+                                            <div class="de-flats__caption-title" data-plugin="parallax" data-parallax-pattern="flatTitleEn">
+                                                <h2 class="g1 leading-trim mt-0.5 mt-0:lg text-right text-left:lg">
                                                 Townhouses
                                             </h2>
-                                        </div>
+                                            </div>
 
-                                        <div
-                                            class="de-flats__caption-uptitle text-c1 leading-trim text-right text-left:lg mt-1">
-                                            <span>
+                                            <div class="de-flats__caption-uptitle text-c1 leading-trim text-right text-left:lg mt-1">
+                                                <span>
                                                 Garden of&nbsp;Fulfilled Expectations
                                             </span>
-                                        </div>
+                                            </div>
 
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="de-flats__text col col--lg-6 mr-0 ml-auto ui-dark px-layout py-layout is-hidden--md-down"
-                                    data-plugin="parallax" data-parallax-pattern="flatText">
+                                    <div class="de-flats__text col col--lg-6 mr-0 ml-auto ui-dark px-layout py-layout is-hidden--md-down" data-plugin="parallax" data-parallax-pattern="flatText">
 
-                                    <div class="de-flats__text-text">
-                                        <p class="leading-trim">
-                                            Our boutique townhouses embody intimate coziness. The&nbsp;day’s worries
-                                            fade away like&nbsp;shadows of&nbsp;butterfly wings, when you step
-                                            onto&nbsp;the&nbsp;sunlit ground-floor patio. Here, you can stroll
-                                            in&nbsp;light shoes, feel the&nbsp;gentle breeze, and close your eyes
-                                            as&nbsp;the&nbsp;sun warmly kisses your face.
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                5 townhouses
+                                        <div class="de-flats__text-text">
+                                            <p class="leading-trim">
+                                                Our boutique townhouses embody intimate coziness. The&nbsp;day’s worries fade away like&nbsp;shadows of&nbsp;butterfly wings, when you step onto&nbsp;the&nbsp;sunlit ground-floor patio. Here, you can stroll in&nbsp;light shoes, feel the&nbsp;gentle breeze,
+                                                and close your eyes as&nbsp;the&nbsp;sun warmly kisses your face.
                                             </p>
                                         </div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                174-378 m<sup>2</sup> area
-                                            </p>
-                                        </div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                Ceiling heights up&nbsp;to&nbsp;4 meters
-                                            </p>
-                                        </div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                Private patio
-                                            </p>
-                                        </div>
-                                        <div class="de-flats__list-item  pt-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                Designer finishings
-                                            </p>
+                                        <div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    5 townhouses
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    174-378 m<sup>2</sup> area
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    Ceiling heights up&nbsp;to&nbsp;4 meters
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    Private patio
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  pt-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    Designer finishings
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="de-flats__text ui-dark-background col col--lg-6 mr-0 ml-auto ui-dark px-layout pt-1 is-hidden--lg-up"
-                            data-themed-class="ui-dark">
-                            <div class="de-flats__text-text mb-1 mb-2:lg p-relative">
-                                <p class="leading-trim">
-                                    Our boutique townhouses embody intimate coziness. The&nbsp;day’s worries fade away
-                                    like&nbsp;shadows of&nbsp;butterfly wings, when you step onto&nbsp;the&nbsp;sunlit
-                                    ground-floor patio. Here, you can stroll in&nbsp;light shoes, feel the&nbsp;gentle
-                                    breeze, and close your eyes as&nbsp;the&nbsp;sun warmly kisses your face.
-                                </p>
-                            </div>
+                            <div class="de-flats__text ui-dark-background col col--lg-6 mr-0 ml-auto ui-dark px-layout pt-1 is-hidden--lg-up" data-themed-class="ui-dark">
+                                <div class="de-flats__text-text mb-1 mb-2:lg p-relative">
+                                    <p class="leading-trim">
+                                        Our boutique townhouses embody intimate coziness. The&nbsp;day’s worries fade away like&nbsp;shadows of&nbsp;butterfly wings, when you step onto&nbsp;the&nbsp;sunlit ground-floor patio. Here, you can stroll in&nbsp;light shoes, feel the&nbsp;gentle breeze,
+                                        and close your eyes as&nbsp;the&nbsp;sun warmly kisses your face.
+                                    </p>
+                                </div>
 
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    5 townhouses
-                                </p>
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        5 townhouses
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        174-378 m<sup>2</sup> area
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        Ceiling heights up&nbsp;to&nbsp;4 meters
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        Private patio
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative pt-1 pt-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        Designer finishings
+                                    </p>
+                                </div>
                             </div>
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    174-378 m<sup>2</sup> area
-                                </p>
-                            </div>
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    Ceiling heights up&nbsp;to&nbsp;4 meters
-                                </p>
-                            </div>
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    Private patio
-                                </p>
-                            </div>
-                            <div class="de-flats__list-item p-relative pt-1 pt-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    Designer finishings
-                                </p>
-                            </div>
-                        </div>
 
 
 
 
-                        <div class="ui-dark de-flats sticky--under-previous sticky--under-previous:lg-up de-flats--light sticky  sticky--under-next  sticky--under-next:lg-up"
-                            id="de-flats-249513"
-                            data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }, { "viewport": -170, "element": 0 }]'
+                            <div class="ui-dark de-flats sticky--under-previous sticky--under-previous:lg-up de-flats--light sticky  sticky--under-next  sticky--under-next:lg-up" id="de-flats-249513" data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -150, "element": 0 }, { "viewport": -170, "element": 0 }]'
                             data-plugin="parallax" data-parallax-pattern="mobileUnderPrevious">
 
-                            <div data-themed-class="ui-dark" style="position: absolute; top: 100svh;"></div>
-                            <div data-themed-class='{"left": "ui-dark", "right": "ui-light"}'
-                                style="position: absolute; top: 150svh;"></div>
-                            <div class="sticky__layer sticky__layer--sticky sticky--full-height ui-light-background"
-                                data-scroll data-scroll-sticky data-scroll-target="#de-flats-249513">
+                                <div data-themed-class="ui-dark" style="position: absolute; top: 100svh;"></div>
+                                <div data-themed-class='{"left": "ui-dark", "right": "ui-light"}' style="position: absolute; top: 150svh;"></div>
+                                <div class="sticky__layer sticky__layer--sticky sticky--full-height ui-light-background" data-scroll data-scroll-sticky data-scroll-target="#de-flats-249513">
 
-                                <div class="de-flats__content ui-light-background px-layout py-1 p-relative"
-                                    data-plugin="parallax" data-parallax-clamp="true"
-                                    data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down"
-                                    data-parallax-0-0='{"height": "100svh"}' data-parallax--50-0='{"height": "65svh"}'>
-                                    <div class="background background--cover" data-plugin="parallax"
-                                        data-parallax-pattern="flatImage">
+                                    <div class="de-flats__content ui-light-background px-layout py-1 p-relative" data-plugin="parallax" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down" data-parallax-0-0='{"height": "100svh"}' data-parallax--50-0='{"height": "65svh"}'>
+                                        <div class="background background--cover" data-plugin="parallax" data-parallax-pattern="flatImage">
 
 
 
 
 
-                                        <picture class="is-invisible--js is-hidden--no-js img-cover"
-                                            data-plugin="appear " draggable="false">
-                                            <source
-                                                data-srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                data-srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source
-                                                data-srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                width="1440" height="900">
-                                            <img data-src="assets/images/media/design/9.flats/image-xs-3%40xs.webp"
-                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
-                                                alt="" width="1440" height="900" data-plugin="parallax"
-                                                data-parallax-clamp="true" data-parallax-enable-mq="lg-up"
-                                                data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}"
-                                                data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}"
-                                                data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}"
-                                                data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}"
-                                                draggable="false">
-                                        </picture>
-
-                                        <noscript>
-
-
-
-
-
-                                            <picture class=" img-cover" draggable="false">
-                                                <source
-                                                    srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp"
-                                                    media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                    height="900">
-                                                <source
-                                                    srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp"
-                                                    media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                    height="900">
-                                                <source srcset="images/media/design/9.flats/image-md-3%40xxxl.webp"
-                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                    width="1440" height="900">
-                                                <img src="assets/images/media/design/9.flats/image-xs-3%40xs.webp"
-                                                    alt="" width="1440" height="900" data-plugin="parallax"
-                                                    data-parallax-clamp="true" data-parallax-enable-mq="lg-up"
-                                                    data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}"
-                                                    data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}"
-                                                    data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}"
-                                                    data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}"
-                                                    draggable="false">
+                                            <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
+                                                <source data-srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                <source data-srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                <source data-srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                <img data-src="assets/images/media/design/9.flats/image-xs-3%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                                                alt="" width="1440" height="900" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="lg-up" data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}"
+                                                data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}" data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}" draggable="false">
                                             </picture>
 
-
-                                        </noscript>
-
-
-                                        <div class="dim is-hidden--lg-up" data-plugin="parallax"
-                                            data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
-                                            data-parallax-enable-mq="md-down" data-parallax-0-0='{"opacity": "1"}'
-                                            data-parallax--50-0='{"opacity": "0"}'></div>
-                                    </div>
-
-                                    <div class="de-flats__caption p-relative" data-plugin="parallax"
-                                        data-parallax-pattern="flatCaption">
+                                            <noscript>
 
 
-                                        <div class="de-flats__caption-title" data-plugin="parallax"
-                                            data-parallax-pattern="flatTitleEn">
-                                            <h2 class="g1 leading-trim mt-0.5 mt-0:lg text-right text-left:lg">
+
+
+
+                                                <picture class=" img-cover" draggable="false">
+                                                    <source srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                    <source srcset="assets/images/media/design/9.flats/image-md-3%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                    <source srcset="images/media/design/9.flats/image-md-3%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                    <img src="assets/images/media/design/9.flats/image-xs-3%40xs.webp" alt="" width="1440" height="900" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="lg-up" data-parallax-0-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.2)&quot;}"
+                                                    data-parallax--100-0="{&quot;transform&quot;: &quot;translateX(0%) scale(1.1)&quot;}" data-parallax--150-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1.05)&quot;}" data-parallax--250-0="{&quot;transform&quot;: &quot;translateX(-21%) scale(1)&quot;}"
+                                                    draggable="false">
+                                                </picture>
+
+
+                                            </noscript>
+
+
+                                            <div class="dim is-hidden--lg-up" data-plugin="parallax" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down" data-parallax-0-0='{"opacity": "1"}' data-parallax--50-0='{"opacity": "0"}'></div>
+                                        </div>
+
+                                        <div class="de-flats__caption p-relative" data-plugin="parallax" data-parallax-pattern="flatCaption">
+
+
+                                            <div class="de-flats__caption-title" data-plugin="parallax" data-parallax-pattern="flatTitleEn">
+                                                <h2 class="g1 leading-trim mt-0.5 mt-0:lg text-right text-left:lg">
                                                 Penthouses
                                             </h2>
-                                        </div>
+                                            </div>
 
-                                        <div
-                                            class="de-flats__caption-uptitle text-c1 leading-trim text-right text-left:lg mt-1">
-                                            <span>
+                                            <div class="de-flats__caption-uptitle text-c1 leading-trim text-right text-left:lg mt-1">
+                                                <span>
                                                 Glowing Perspectives
                                             </span>
-                                        </div>
+                                            </div>
 
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="de-flats__text col col--lg-6 mr-0 ml-auto ui-light px-layout py-layout is-hidden--md-down"
-                                    data-plugin="parallax" data-parallax-pattern="flatText">
+                                    <div class="de-flats__text col col--lg-6 mr-0 ml-auto ui-light px-layout py-layout is-hidden--md-down" data-plugin="parallax" data-parallax-pattern="flatText">
 
-                                    <div class="de-flats__text-text">
-                                        <p class="leading-trim">
-                                            When you live in&nbsp;this penthouse, you feel like&nbsp;you own
-                                            a&nbsp;piece of&nbsp;the&nbsp;sky. Here, sublime feelings transform
-                                            into&nbsp;higher possibilities. Declare love, dare to&nbsp;skyrocket your
-                                            career, or devise a&nbsp;million-dollar idea. Here, you can do it
-                                            with&nbsp;ease.<br><br />
-                                            At&nbsp;BST Developers, you can dream, plan boldly, and enjoy
-                                            life&nbsp;&mdash;
-                                            here and now.
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                7 penthouses
+                                        <div class="de-flats__text-text">
+                                            <p class="leading-trim">
+                                                When you live in&nbsp;this penthouse, you feel like&nbsp;you own a&nbsp;piece of&nbsp;the&nbsp;sky. Here, sublime feelings transform into&nbsp;higher possibilities. Declare love, dare to&nbsp;skyrocket your career, or devise a&nbsp;million-dollar idea.
+                                                Here, you can do it with&nbsp;ease.
+                                                <br>
+                                                <br /> At&nbsp;BST Developers, you can dream, plan boldly, and enjoy life&nbsp;&mdash; here and now.
                                             </p>
                                         </div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                Ceiling heights up&nbsp;to&nbsp;4 meters
-                                            </p>
-                                        </div>
-                                        <div class="de-flats__list-item  py-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                Luxurious terraces
-                                            </p>
-                                        </div>
-                                        <div class="de-flats__list-item  pt-0.5:lg">
-                                            <p class="h3 leading-trim">
-                                                Designer finishings
-                                            </p>
+                                        <div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    7 penthouses
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    Ceiling heights up&nbsp;to&nbsp;4 meters
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  py-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    Luxurious terraces
+                                                </p>
+                                            </div>
+                                            <div class="de-flats__list-item  pt-0.5:lg">
+                                                <p class="h3 leading-trim">
+                                                    Designer finishings
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="de-flats__text ui-light-background col col--lg-6 mr-0 ml-auto ui-light px-layout pt-1 is-hidden--lg-up"
-                            data-themed-class="ui-light">
-                            <div class="de-flats__text-text mb-1 mb-2:lg p-relative">
-                                <p class="leading-trim">
-                                    When you live in&nbsp;this penthouse, you feel like&nbsp;you own a&nbsp;piece
-                                    of&nbsp;the&nbsp;sky. Here, sublime feelings transform into&nbsp;higher
-                                    possibilities. Declare love, dare to&nbsp;skyrocket your career, or devise
-                                    a&nbsp;million-dollar idea. Here, you can do it with&nbsp;ease.<br><br />
-                                    At&nbsp;BST Developers, you can dream, plan boldly, and enjoy life&nbsp;&mdash; here
-                                    and
-                                    now.
-                                </p>
+                            <div class="de-flats__text ui-light-background col col--lg-6 mr-0 ml-auto ui-light px-layout pt-1 is-hidden--lg-up" data-themed-class="ui-light">
+                                <div class="de-flats__text-text mb-1 mb-2:lg p-relative">
+                                    <p class="leading-trim">
+                                        When you live in&nbsp;this penthouse, you feel like&nbsp;you own a&nbsp;piece of&nbsp;the&nbsp;sky. Here, sublime feelings transform into&nbsp;higher possibilities. Declare love, dare to&nbsp;skyrocket your career, or devise a&nbsp;million-dollar idea.
+                                        Here, you can do it with&nbsp;ease.
+                                        <br>
+                                        <br /> At&nbsp;BST Developers, you can dream, plan boldly, and enjoy life&nbsp;&mdash; here and now.
+                                    </p>
+                                </div>
+
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        7 penthouses
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        Ceiling heights up&nbsp;to&nbsp;4 meters
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        Luxurious terraces
+                                    </p>
+                                </div>
+                                <div class="de-flats__list-item p-relative pt-1 pt-0.5:lg">
+                                    <p class="h3 leading-trim">
+                                        Designer finishings
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    7 penthouses
-                                </p>
-                            </div>
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    Ceiling heights up&nbsp;to&nbsp;4 meters
-                                </p>
-                            </div>
-                            <div class="de-flats__list-item p-relative py-1 py-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    Luxurious terraces
-                                </p>
-                            </div>
-                            <div class="de-flats__list-item p-relative pt-1 pt-0.5:lg">
-                                <p class="h3 leading-trim">
-                                    Designer finishings
-                                </p>
-                            </div>
-                        </div>
 
 
 
 
 
+                            <div class="ui-dark ui-background-light more-block  sticky sticky:lg-up sticky--full-height sticky--under-previous" id="i-more" data-scroll-snap-point='[{ "viewport": 0, "element": 0}]' data-plugin="reveal">
 
-                        <div class="ui-dark ui-background-light more-block  sticky sticky:lg-up sticky--full-height sticky--under-previous"
-                            id="i-more" data-scroll-snap-point='[{ "viewport": 0, "element": 0}]' data-plugin="reveal">
+                                <div data-themed-class="ui-dark" class="i-anchor"></div>
+                                <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky data-scroll-target="#i-more">
 
-                            <div data-themed-class="ui-dark" class="i-anchor"></div>
-                            <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll
-                                data-scroll-sticky data-scroll-target="#i-more">
-
-                                <div class="more-block__content py-6 py-layout:lg p-relative">
-                                    <div class="background background--cover ">
+                                    <div class="more-block__content py-6 py-layout:lg p-relative">
+                                        <div class="background background--cover ">
 
 
 
 
 
-                                        <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
-                                            data-plugin="appear " draggable="false">
-                                            <source data-srcset="assets/images/media/design/10.more/more-md%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source data-srcset="assets/images/media/design/10.more/more-md%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                height="900">
-                                            <source data-srcset="assets/images/media/design/10.more/more-md%40xxxl.webp"
-                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                width="1440" height="900">
-                                            <img data-src="assets/images/media/design/10.more/more-xs%40xs.webp"
-                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
-                                                alt="" width="720" height="1280" data-plugin="parallax"
-                                                data-parallax-enable-mq="null" data-parallax-clamp="true"
-                                                data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                                                data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                            <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
+                                                <source data-srcset="assets/images/media/design/10.more/more-md%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                <source data-srcset="assets/images/media/design/10.more/more-md%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                <source data-srcset="assets/images/media/design/10.more/more-md%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                <img data-src="assets/images/media/design/10.more/more-xs%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                                                alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
                                                 draggable="false">
-                                        </picture>
-
-                                        <noscript>
-
-
-
-
-
-                                            <picture class=" img-cover parallax-image-move" draggable="false">
-                                                <source srcset="assets/images/media/design/10.more/more-md%40xxxl.webp"
-                                                    media="(min-width: 1920px) and (min-height: 700px)" width="1440"
-                                                    height="900">
-                                                <source srcset="assets/images/media/design/10.more/more-md%40xxxl.webp"
-                                                    media="(min-width: 1440px) and (min-height: 700px)" width="1440"
-                                                    height="900">
-                                                <source srcset="assets/images/media/design/10.more/more-md%40xxxl.webp"
-                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                                    width="1440" height="900">
-                                                <img src="assets/images/media/design/10.more/more-xs%40xs.webp" alt=""
-                                                    width="720" height="1280" data-plugin="parallax"
-                                                    data-parallax-enable-mq="null" data-parallax-clamp="true"
-                                                    data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                                                    data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                                    draggable="false">
                                             </picture>
 
+                                            <noscript>
 
-                                        </noscript>
 
-                                    </div>
 
-                                    <div class="pt-2:lg more-block__caption text-right px-layout">
-                                        <div class="text-c1 leading-trim p-relative " data-reveal="text"
-                                            data-reveal-distance="100px 0px">
-                                            <p>
-                                                Beauty at&nbsp;Your Fingertips
-                                            </p>
+
+
+                                                <picture class=" img-cover parallax-image-move" draggable="false">
+                                                    <source srcset="assets/images/media/design/10.more/more-md%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                    <source srcset="assets/images/media/design/10.more/more-md%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                    <source srcset="assets/images/media/design/10.more/more-md%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                    <img src="assets/images/media/design/10.more/more-xs%40xs.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                    draggable="false">
+                                                </picture>
+
+
+                                            </noscript>
+
                                         </div>
-                                        <h3 class="h0 leading-trim mt-0.3 mt-0:lg p-relative is-hidden--md-down"
-                                            data-reveal="text" data-reveal-distance="100px 0px">
+
+                                        <div class="pt-2:lg more-block__caption text-right px-layout">
+                                            <div class="text-c1 leading-trim p-relative " data-reveal="text" data-reveal-distance="100px 0px">
+                                                <p>
+                                                    Beauty at&nbsp;Your Fingertips
+                                                </p>
+                                            </div>
+                                            <h3 class="h0 leading-trim mt-0.3 mt-0:lg p-relative is-hidden--md-down" data-reveal="text" data-reveal-distance="100px 0px">
                                             Amenities
                                         </h3>
 
 
-                                        <div class="col col--xs-3 ml-auto mr-0 mt-0.3 p-relative is-hidden--lg-up">
+                                            <div class="col col--xs-3 ml-auto mr-0 mt-0.3 p-relative is-hidden--lg-up">
 
 
 
 
 
-                                            <picture class="is-invisible--js is-hidden--no-js img-full"
-                                                data-plugin="appear " draggable="false">
-                                                <img data-src="assets/images/media/design/10.more/title-en.svg"
-                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2243%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2043%22%3E%3C/svg%3E"
+                                                <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear " draggable="false">
+                                                    <img data-src="assets/images/media/design/10.more/title-en.svg" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2243%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2043%22%3E%3C/svg%3E"
                                                     alt="" width="320" height="43" draggable="false">
-                                            </picture>
-
-                                            <noscript>
-
-
-
-
-
-                                                <picture class=" img-full" draggable="false">
-                                                    <img src="assets/images/media/design/10.more/title-en.svg" alt=""
-                                                        width="320" height="43" draggable="false">
                                                 </picture>
 
-
-                                            </noscript>
-
-                                        </div>
+                                                <noscript>
 
 
 
 
 
+                                                    <picture class=" img-full" draggable="false">
+                                                        <img src="assets/images/media/design/10.more/title-en.svg" alt="" width="320" height="43" draggable="false">
+                                                    </picture>
+
+
+                                                </noscript>
+
+                                            </div>
 
 
 
 
-                                        <a class="btn more-block__button btn--outline btn--square btn--lg more-block__button--left"
-                                            href="amenities.html" data-reveal="fade-in"
-                                            data-reveal-distance="100px 0px">
 
-                                            <span class="btn__content">
+
+
+
+
+                                            <a class="btn more-block__button btn--outline btn--square btn--lg more-block__button--left" href="amenities.html" data-reveal="fade-in" data-reveal-distance="100px 0px">
+
+                                                <span class="btn__content">
 
 
                                                 <span class="btn__icon ">
@@ -2118,40 +1505,37 @@
                                                         </use>
                                                     </svg>
                                                 </span>
-                                            </span>
-                                        </a>
-                                    </div>
+                                                </span>
+                                            </a>
+                                        </div>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                </main>
+                        </section>
+                    </main>
 
 
 
-                <?php $this->load->view('common/footer.php'); ?>
+                    <?php $this->load->view('common/footer.php'); ?>
 
 
-            </div>
+                </div>
 
-            <div class="js-modal">
-
-
+                <div class="js-modal">
 
 
 
-                <div class="modal modal--full modal--split-animate ui-dark is-hidden" role="dialog" aria-hidden="true"
-                    aria-label="Заказать звонок" id="callback-modal" data-plugin="modal" data-modal-one-per-page="true"
-                    data-nosnippet>
-                    <div class="modal__background"></div>
 
-                    <div class="modal__animation">
-                        <div class="modal__scroller">
-                            <div class="modal__scroller__scrollable js-scroll-parent">
-                                <div class="modal__content-wrapper js-modal-scrollable-content">
-                                    <div
-                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+
+                    <div class="modal modal--full modal--split-animate ui-dark is-hidden" role="dialog" aria-hidden="true" aria-label="Заказать звонок" id="callback-modal" data-plugin="modal" data-modal-one-per-page="true" data-nosnippet>
+                        <div class="modal__background"></div>
+
+                        <div class="modal__animation">
+                            <div class="modal__scroller">
+                                <div class="modal__scroller__scrollable js-scroll-parent">
+                                    <div class="modal__content-wrapper js-modal-scrollable-content">
+                                        <div class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
 
 
 
@@ -2161,10 +1545,9 @@
 
 
 
-                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
-                                            aria-label="Close" tabindex="0" role="button">
+                                            <a class="btn btn--primary btn--square modal__close  js-modal-close" aria-label="Close" tabindex="0" role="button">
 
-                                            <span class="btn__content">
+                                                <span class="btn__content">
 
 
                                                 <span class="btn__icon ">
@@ -2176,97 +1559,71 @@
                                                         </use>
                                                     </svg>
                                                 </span>
-                                            </span>
-                                        </a>
+                                                </span>
+                                            </a>
 
 
 
 
 
-                                        <div data-scroll-section>
-                                            <div class="l-callback row ui-dark js-callback"
-                                                data-plugin="tabs mouseAnimation" data-tabs-enable-mq="false"
-                                                data-tabs-animate-height="false"
-                                                data-mouse-animation-use-css-variable="false"
-                                                data-mouse-animation-target-selector=".l-callback__spiral picture"
-                                                data-mouse-animation-multiplier='[{"unit": "%", "value": -5}, {"unit": "px", "value": 0}]'
-                                                id="l-callback">
-                                                <div class="l-callback__background is-hidden--sm-down" data-scroll
-                                                    data-scroll-sticky data-scroll-target="#l-callback">
-                                                    <div class="l-callback__gradient background background--cover js-tree-canvas-container is-hidden--sm-down"
-                                                        data-plugin="webglTreeCallback">
-                                                        <canvas class="js-tree-canvas is-active"></canvas>
-                                                    </div>
+                                            <div data-scroll-section>
+                                                <div class="l-callback row ui-dark js-callback" data-plugin="tabs mouseAnimation" data-tabs-enable-mq="false" data-tabs-animate-height="false" data-mouse-animation-use-css-variable="false" data-mouse-animation-target-selector=".l-callback__spiral picture"
+                                                data-mouse-animation-multiplier='[{"unit": "%", "value": -5}, {"unit": "px", "value": 0}]' id="l-callback">
+                                                    <div class="l-callback__background is-hidden--sm-down" data-scroll data-scroll-sticky data-scroll-target="#l-callback">
+                                                        <div class="l-callback__gradient background background--cover js-tree-canvas-container is-hidden--sm-down" data-plugin="webglTreeCallback">
+                                                            <canvas class="js-tree-canvas is-active"></canvas>
+                                                        </div>
 
-                                                    <div
-                                                        class="l-callback__spiral background background--cover is-hidden--md-down">
+                                                        <div class="l-callback__spiral background background--cover is-hidden--md-down">
 
 
 
 
 
-                                                        <picture class="is-invisible--js is-hidden--no-js "
-                                                            data-plugin="appear " draggable="false">
-                                                            <source
-                                                                data-srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
-                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
-                                                                media="(min-width: 1920px) and (min-height: 700px)"
-                                                                width="1080" height="900">
-                                                            <source
-                                                                data-srcset="assets/images/media/landing/callback/spiral@xxl.webp"
-                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
-                                                                media="(min-width: 1440px) and (min-height: 700px)"
-                                                                width="1080" height="900">
-                                                            <img data-src="assets/images/media/landing/callback/spiral@md.webp"
-                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                                            <picture class="is-invisible--js is-hidden--no-js " data-plugin="appear " draggable="false">
+                                                                <source data-srcset="assets/images/media/landing/callback/spiral@xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1920px) and (min-height: 700px)" width="1080" height="900">
+                                                                <source data-srcset="assets/images/media/landing/callback/spiral@xxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
+                                                                media="(min-width: 1440px) and (min-height: 700px)" width="1080" height="900">
+                                                                <img data-src="assets/images/media/landing/callback/spiral@md.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
                                                                 alt="" width="1080" height="900" draggable="false">
-                                                        </picture>
-
-                                                        <noscript>
-
-
-
-
-
-                                                            <picture class=" " draggable="false">
-                                                                <source
-                                                                    srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
-                                                                    media="(min-width: 1920px) and (min-height: 700px)"
-                                                                    width="1080" height="900">
-                                                                <source
-                                                                    srcset="assets/images/media/landing/callback/spiral@xxl.webp"
-                                                                    media="(min-width: 1440px) and (min-height: 700px)"
-                                                                    width="1080" height="900">
-                                                                <img src="assets/images/media/landing/callback/spiral%40md.webp"
-                                                                    alt="" width="1080" height="900" draggable="false">
                                                             </picture>
 
+                                                            <noscript>
 
-                                                        </noscript>
 
-                                                    </div>
 
-                                                    <div class="l-callback__title-container col col--xs-4 col--md-6">
-                                                        <p class="l-callback__title h1 leading-trim js-form-content">
-                                                            Submit<br>
-                                                            a request
-                                                        </p>
 
-                                                        <div class="is-hidden js-form-success l-callback__success">
-                                                            <p class=" h1 leading-trim">
-                                                                Thank you for&nbsp;your request! We have received your
-                                                                application and will contact you soon!
+
+                                                                <picture class=" " draggable="false">
+                                                                    <source srcset="assets/images/media/landing/callback/spiral@xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1080" height="900">
+                                                                    <source srcset="assets/images/media/landing/callback/spiral@xxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1080" height="900">
+                                                                    <img src="assets/images/media/landing/callback/spiral%40md.webp" alt="" width="1080" height="900" draggable="false">
+                                                                </picture>
+
+
+                                                            </noscript>
+
+                                                        </div>
+
+                                                        <div class="l-callback__title-container col col--xs-4 col--md-6">
+                                                            <p class="l-callback__title h1 leading-trim js-form-content">
+                                                                Submit
+                                                                <br> a request
                                                             </p>
+
+                                                            <div class="is-hidden js-form-success l-callback__success">
+                                                                <p class=" h1 leading-trim">
+                                                                    Thank you for&nbsp;your request! We have received your application and will contact you soon!
+                                                                </p>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
 
 
 
-                                                <div
-                                                    class="l-callback__col col col--md-6 ui-dark ui-background mr-0 ml-auto px-layout py-layout js-form-content">
-                                                    <div class="l-callback__tablist" role="tablist"
-                                                        aria-labelledby="application">
+                                                    <div class="l-callback__col col col--md-6 ui-dark ui-background mr-0 ml-auto px-layout py-layout js-form-content">
+                                                        <div class="l-callback__tablist" role="tablist" aria-labelledby="application">
 
 
 
@@ -2275,20 +1632,17 @@
 
 
 
-                                                        <a class="btn btn--outline btn--clone btn--md btn--text-small is-active"
-                                                            data-plugin=" button" data-button-clone-content="true"
-                                                            aria-controls="application" aria-selected="true"
-                                                            tabindex="0" role="tab">
+                                                            <a class="btn btn--outline btn--clone btn--md btn--text-small is-active" data-plugin=" button" data-button-clone-content="true" aria-controls="application" aria-selected="true" tabindex="0" role="tab">
 
-                                                            <span class="btn__content">
+                                                                <span class="btn__content">
 
                                                                 <span class="btn__text  ">
                                                                     request
 
                                                                 </span>
 
-                                                            </span>
-                                                        </a>
+                                                                </span>
+                                                            </a>
 
 
 
@@ -2297,322 +1651,32 @@
 
 
 
-                                                        <a class="btn btn--outline btn--clone btn--md btn--text-small"
-                                                            data-plugin=" button" data-button-clone-content="true"
-                                                            aria-controls="call" aria-selected="false" tabindex="0"
-                                                            role="tab">
+                                                            <a class="btn btn--outline btn--clone btn--md btn--text-small" data-plugin=" button" data-button-clone-content="true" aria-controls="call" aria-selected="false" tabindex="0" role="tab">
 
-                                                            <span class="btn__content">
+                                                                <span class="btn__content">
 
                                                                 <span class="btn__text  ">
                                                                     callback
 
                                                                 </span>
 
-                                                            </span>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="tabs-contents">
-                                                        <div class="tabs-contents__content ui-background js-tab"
-                                                            id="application" role="tabpanel" aria-hidden="false">
-                                                            <form
-                                                                class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md"
-                                                                method="POST" action="api/contact.json"
-                                                                data-plugin="ajaxForm ajaxFormCalltouch recaptcha"
-                                                                data-recaptcha-type="yandex"
-                                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
-                                                                data-ajax-form-loading-delay="1500"
-                                                                data-ajax-form-calltouch-title="Заявка"
-                                                                data-ajax-form-calltouch-site-id="">
-                                                                <div class="col col--xs-4 col--md-6 l-callback__form">
-
-
-
-                                                                    <input data-plugin="utmData" type="hidden"
-                                                                        name="utm" value="">
-
-
-
-                                                                    <input data-plugin="pagePathname" type="hidden"
-                                                                        name="currentPageLink" value="">
-
-
-
-
-
-
-
-
-                                                                    <div class="sr-only" data-plugin="inputBear ">
-
-
-                                                                        <label for="text-346956"
-                                                                            class="form-label text-c1 text-color-small leading-trim">
-                                                                            Message </label>
-
-                                                                        <input id="text-346956" name="message"
-                                                                            type="text" required value="">
-                                                                    </div>
-
-                                                                    <div class="l-callback__group">
-
-                                                                        <div class="col col--md-12 mb-2 mb-1:md">
-
-
-
-
-
-
-
-
-                                                                            <div class="
-        form-control form-control--input
-        form-control--float                        
-    " data-plugin="inputState  ">
-
-                                                                                <input id="text-737412" name="name"
-                                                                                    type="text" required
-                                                                                    placeholder="Name" maxlength="50"
-                                                                                    value="">
-
-
-
-                                                                                <label for="text-737412"
-                                                                                    class="form-label text-c1 text-color-small ">
-                                                                                    Name </label>
-
-
-
-                                                                                <svg class="icon icon-form-success form-control__success"
-                                                                                    width="20" height="20"
-                                                                                    aria-hidden="true"
-                                                                                    viewBox="0 0 20 20"
-                                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                                    <use href="assets/images/icons.svg#form-success"
-                                                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                                                    </use>
-                                                                                </svg>
-
-                                                                                <svg class="icon icon-form-error form-control__error"
-                                                                                    width="20" height="20"
-                                                                                    aria-hidden="true"
-                                                                                    viewBox="0 0 20 20"
-                                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                                    <use href="assets/images/icons.svg#form-error"
-                                                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                                                    </use>
-                                                                                </svg>
-
-                                                                                <span class="form-control__line"></span>
-                                                                                <span
-                                                                                    class="form-control__progress"></span>
-                                                                            </div>
-
-
-                                                                        </div>
-
-                                                                        <div class="col col--md-12 mb-2 mb-1:md">
-
-
-
-
-
-
-
-
-                                                                            <div class="
-        form-control form-control--input
-        form-control--float                        
-    " data-plugin="inputState  inputMask" data-input-mask-mask="+# ### ### ## ##">
-
-                                                                                <input id="text-859595" name="phone"
-                                                                                    type="tel" required
-                                                                                    placeholder="Phone" maxlength="20"
-                                                                                    autocapitalize="none" value="">
-
-
-
-                                                                                <label for="text-859595"
-                                                                                    class="form-label text-c1 text-color-small ">
-                                                                                    Phone </label>
-
-
-
-                                                                                <svg class="icon icon-form-success form-control__success"
-                                                                                    width="20" height="20"
-                                                                                    aria-hidden="true"
-                                                                                    viewBox="0 0 20 20"
-                                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                                    <use href="assets/images/icons.svg#form-success"
-                                                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                                                    </use>
-                                                                                </svg>
-
-                                                                                <svg class="icon icon-form-error form-control__error"
-                                                                                    width="20" height="20"
-                                                                                    aria-hidden="true"
-                                                                                    viewBox="0 0 20 20"
-                                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                                    <use href="assets/images/icons.svg#form-error"
-                                                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                                                    </use>
-                                                                                </svg>
-
-                                                                                <span class="form-control__line"></span>
-                                                                                <span
-                                                                                    class="form-control__progress"></span>
-                                                                            </div>
-
-
-                                                                        </div>
-
-                                                                        <div class="col col--md-12">
-
-
-
-
-
-
-
-
-                                                                            <div class="
-        form-control form-control--input
-        form-control--float                        
-    " data-plugin="inputState  ">
-
-                                                                                <input id="text-110798" name="message"
-                                                                                    type="text" required
-                                                                                    placeholder="Message"
-                                                                                    maxlength="500" value="">
-
-
-
-                                                                                <label for="text-110798"
-                                                                                    class="form-label text-c1 text-color-small ">
-                                                                                    Message </label>
-
-
-
-                                                                                <svg class="icon icon-form-success form-control__success"
-                                                                                    width="20" height="20"
-                                                                                    aria-hidden="true"
-                                                                                    viewBox="0 0 20 20"
-                                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                                    <use href="assets/images/icons.svg#form-success"
-                                                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                                                    </use>
-                                                                                </svg>
-
-                                                                                <svg class="icon icon-form-error form-control__error"
-                                                                                    width="20" height="20"
-                                                                                    aria-hidden="true"
-                                                                                    viewBox="0 0 20 20"
-                                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                                    <use href="assets/images/icons.svg#form-error"
-                                                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                                                    </use>
-                                                                                </svg>
-
-                                                                                <span class="form-control__line"></span>
-                                                                                <span
-                                                                                    class="form-control__progress"></span>
-                                                                            </div>
-
-
-                                                                        </div>
-
-                                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
-                                                                            role="alert" aria-live="assertive"></div>
-                                                                    </div>
-
-                                                                    <div
-                                                                        class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
-
-
-
-
-
-
-
-
-                                                                        <button
-                                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
-                                                                            type="submit" data-plugin=" button"
-                                                                            data-button-clone-content="true">
-
-                                                                            <span class="btn__content">
-
-                                                                                <span class="btn__text  ">
-                                                                                    submit a request
-
-                                                                                </span>
-
-                                                                            </span>
-                                                                        </button>
-
-
-
-
-
-
-
-
-                                                                        <button
-                                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
-                                                                            type="submit">
-
-                                                                            <span class="btn__content">
-
-                                                                                <span class="btn__text  ">
-                                                                                    submit a request
-
-                                                                                </span>
-
-                                                                            </span>
-                                                                        </button>
-
-                                                                        <div
-                                                                            class=" text l-callback__limited-width ml-layout">
-                                                                            <p
-                                                                                class="leading-trim text-color-small text-c2-small text-right:md">
-                                                                                By clicking the button, you agree
-                                                                                <br>
-                                                                                to our <a
-                                                                                    class="btn--link btn--clone text-c2-small mt-1"
-                                                                                    href="agreement.html"
-                                                                                    target="_blank">privacy policy</a>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </form>
-
+                                                                </span>
+                                                            </a>
                                                         </div>
 
-                                                        <div class="tabs-contents__content ui-background js-tab"
-                                                            id="call" role="tabpanel" aria-hidden="true">
-
-                                                            <form
-                                                                class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md"
-                                                                method="POST" action="api/contact.json"
-                                                                data-plugin="ajaxForm ajaxFormCalltouch recaptcha"
-                                                                data-recaptcha-type="yandex"
-                                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
-                                                                data-ajax-form-loading-delay="1500"
-                                                                data-ajax-form-calltouch-title="Обратный звонок"
-                                                                data-ajax-form-calltouch-site-id="">
-                                                                <div class="col col--xs-4 col--md-6 l-callback__form">
+                                                        <div class="tabs-contents">
+                                                            <div class="tabs-contents__content ui-background js-tab" id="application" role="tabpanel" aria-hidden="false">
+                                                                <form class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md" method="POST" action="api/contact.json" data-plugin="ajaxForm ajaxFormCalltouch recaptcha" data-recaptcha-type="yandex" data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                                                data-ajax-form-loading-delay="1500" data-ajax-form-calltouch-title="Заявка" data-ajax-form-calltouch-site-id="">
+                                                                    <div class="col col--xs-4 col--md-6 l-callback__form">
 
 
 
-                                                                    <input data-plugin="utmData" type="hidden"
-                                                                        name="utm" value="">
+                                                                        <input data-plugin="utmData" type="hidden" name="utm" value="">
 
 
 
-                                                                    <input data-plugin="pagePathname" type="hidden"
-                                                                        name="currentPageLink" value="">
+                                                                        <input data-plugin="pagePathname" type="hidden" name="currentPageLink" value="">
 
 
 
@@ -2621,20 +1685,18 @@
 
 
 
-                                                                    <div class="sr-only" data-plugin="inputBear ">
+                                                                        <div class="sr-only" data-plugin="inputBear ">
 
 
-                                                                        <label for="text-421690"
-                                                                            class="form-label text-c1 text-color-small leading-trim">
-                                                                            Message </label>
+                                                                            <label for="text-346956" class="form-label text-c1 text-color-small leading-trim">
+                                                                                Message </label>
 
-                                                                        <input id="text-421690" name="message"
-                                                                            type="text" required value="">
-                                                                    </div>
+                                                                            <input id="text-346956" name="message" type="text" required value="">
+                                                                        </div>
 
-                                                                    <div class="l-callback__group">
+                                                                        <div class="l-callback__group">
 
-                                                                        <div class="col col--md-12 mb-2 mb-1:md">
+                                                                            <div class="col col--md-12 mb-2 mb-1:md">
 
 
 
@@ -2643,55 +1705,38 @@
 
 
 
-                                                                            <div class="
+                                                                                <div class="
         form-control form-control--input
         form-control--float                        
     " data-plugin="inputState  ">
 
-                                                                                <input id="text-606518" name="name"
-                                                                                    type="text" required
-                                                                                    placeholder="Name" maxlength="50"
-                                                                                    value="">
+                                                                                    <input id="text-737412" name="name" type="text" required placeholder="Name" maxlength="50" value="">
 
 
 
-                                                                                <label for="text-606518"
-                                                                                    class="form-label text-c1 text-color-small ">
-                                                                                    Name </label>
+                                                                                    <label for="text-737412" class="form-label text-c1 text-color-small ">
+                                                                                        Name </label>
 
 
 
-                                                                                <svg class="icon icon-form-success form-control__success"
-                                                                                    width="20" height="20"
-                                                                                    aria-hidden="true"
-                                                                                    viewBox="0 0 20 20"
-                                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                                    <use href="assets/images/icons.svg#form-success"
-                                                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                                                    </use>
-                                                                                </svg>
+                                                                                    <svg class="icon icon-form-success form-control__success" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-success" xlink:href="assets/images/icons.svg#form-success">
+                                                                                        </use>
+                                                                                    </svg>
 
-                                                                                <svg class="icon icon-form-error form-control__error"
-                                                                                    width="20" height="20"
-                                                                                    aria-hidden="true"
-                                                                                    viewBox="0 0 20 20"
-                                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                                    <use href="assets/images/icons.svg#form-error"
-                                                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                                                    </use>
-                                                                                </svg>
+                                                                                    <svg class="icon icon-form-error form-control__error" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-error" xlink:href="assets/images/icons.svg#form-error">
+                                                                                        </use>
+                                                                                    </svg>
 
-                                                                                <span class="form-control__line"></span>
-                                                                                <span
-                                                                                    class="form-control__progress"></span>
+                                                                                    <span class="form-control__line"></span>
+                                                                                    <span class="form-control__progress"></span>
+                                                                                </div>
+
+
                                                                             </div>
 
-
-                                                                        </div>
-
-
-                                                                        <div class="form-group group mb-2 mb-1:md">
-                                                                            <div class="col">
+                                                                            <div class="col col--md-12 mb-2 mb-1:md">
 
 
 
@@ -2705,49 +1750,33 @@
         form-control--float                        
     " data-plugin="inputState  inputMask" data-input-mask-mask="+# ### ### ## ##">
 
-                                                                                    <input id="text-267542" name="phone"
-                                                                                        type="tel" required
-                                                                                        placeholder="Phone"
-                                                                                        maxlength="20"
-                                                                                        autocapitalize="none" value="">
+                                                                                    <input id="text-859595" name="phone" type="tel" required placeholder="Phone" maxlength="20" autocapitalize="none" value="">
 
 
 
-                                                                                    <label for="text-267542"
-                                                                                        class="form-label text-c1 text-color-small ">
+                                                                                    <label for="text-859595" class="form-label text-c1 text-color-small ">
                                                                                         Phone </label>
 
 
 
-                                                                                    <svg class="icon icon-form-success form-control__success"
-                                                                                        width="20" height="20"
-                                                                                        aria-hidden="true"
-                                                                                        viewBox="0 0 20 20"
-                                                                                        style="--icon-width: 20; --icon-height: 20;">
-                                                                                        <use href="assets/images/icons.svg#form-success"
-                                                                                            xlink:href="assets/images/icons.svg#form-success">
+                                                                                    <svg class="icon icon-form-success form-control__success" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-success" xlink:href="assets/images/icons.svg#form-success">
                                                                                         </use>
                                                                                     </svg>
 
-                                                                                    <svg class="icon icon-form-error form-control__error"
-                                                                                        width="20" height="20"
-                                                                                        aria-hidden="true"
-                                                                                        viewBox="0 0 20 20"
-                                                                                        style="--icon-width: 20; --icon-height: 20;">
-                                                                                        <use href="assets/images/icons.svg#form-error"
-                                                                                            xlink:href="assets/images/icons.svg#form-error">
+                                                                                    <svg class="icon icon-form-error form-control__error" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-error" xlink:href="assets/images/icons.svg#form-error">
                                                                                         </use>
                                                                                     </svg>
 
-                                                                                    <span
-                                                                                        class="form-control__line"></span>
-                                                                                    <span
-                                                                                        class="form-control__progress"></span>
+                                                                                    <span class="form-control__line"></span>
+                                                                                    <span class="form-control__progress"></span>
                                                                                 </div>
 
 
                                                                             </div>
-                                                                            <div class="col">
+
+                                                                            <div class="col col--md-12">
 
 
 
@@ -2755,41 +1784,239 @@
 
 
 
-                                                                                <div class="form-control form-control--select form-control--input  form-control--with-label form-control--float is-not-empty "
-                                                                                    data-plugin="inputSelect inputState selectFake ">
-                                                                                    <div
-                                                                                        class="form-control__close js-form-control-select-close">
+
+                                                                                <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+
+                                                                                    <input id="text-110798" name="message" type="text" required placeholder="Message" maxlength="500" value="">
+
+
+
+                                                                                    <label for="text-110798" class="form-label text-c1 text-color-small ">
+                                                                                        Message </label>
+
+
+
+                                                                                    <svg class="icon icon-form-success form-control__success" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-success" xlink:href="assets/images/icons.svg#form-success">
+                                                                                        </use>
+                                                                                    </svg>
+
+                                                                                    <svg class="icon icon-form-error form-control__error" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-error" xlink:href="assets/images/icons.svg#form-error">
+                                                                                        </use>
+                                                                                    </svg>
+
+                                                                                    <span class="form-control__line"></span>
+                                                                                    <span class="form-control__progress"></span>
+                                                                                </div>
+
+
+                                                                            </div>
+
+                                                                            <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width" role="alert" aria-live="assertive"></div>
+                                                                        </div>
+
+                                                                        <div class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
+
+
+
+
+
+
+
+
+                                                                            <button class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down" type="submit" data-plugin=" button" data-button-clone-content="true">
+
+                                                                                <span class="btn__content">
+
+                                                                                <span class="btn__text  ">
+                                                                                    submit a request
+
+                                                                                </span>
+
+                                                                                </span>
+                                                                            </button>
+
+
+
+
+
+
+
+
+                                                                            <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+
+                                                                                <span class="btn__content">
+
+                                                                                <span class="btn__text  ">
+                                                                                    submit a request
+
+                                                                                </span>
+
+                                                                                </span>
+                                                                            </button>
+
+                                                                            <div class=" text l-callback__limited-width ml-layout">
+                                                                                <p class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                                    By clicking the button, you agree
+                                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="agreement.html" target="_blank">privacy policy</a>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+
+                                                            </div>
+
+                                                            <div class="tabs-contents__content ui-background js-tab" id="call" role="tabpanel" aria-hidden="true">
+
+                                                                <form class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md" method="POST" action="api/contact.json" data-plugin="ajaxForm ajaxFormCalltouch recaptcha" data-recaptcha-type="yandex" data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                                                data-ajax-form-loading-delay="1500" data-ajax-form-calltouch-title="Обратный звонок" data-ajax-form-calltouch-site-id="">
+                                                                    <div class="col col--xs-4 col--md-6 l-callback__form">
+
+
+
+                                                                        <input data-plugin="utmData" type="hidden" name="utm" value="">
+
+
+
+                                                                        <input data-plugin="pagePathname" type="hidden" name="currentPageLink" value="">
+
+
+
+
+
+
+
+
+                                                                        <div class="sr-only" data-plugin="inputBear ">
+
+
+                                                                            <label for="text-421690" class="form-label text-c1 text-color-small leading-trim">
+                                                                                Message </label>
+
+                                                                            <input id="text-421690" name="message" type="text" required value="">
+                                                                        </div>
+
+                                                                        <div class="l-callback__group">
+
+                                                                            <div class="col col--md-12 mb-2 mb-1:md">
+
+
+
+
+
+
+
+
+                                                                                <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+
+                                                                                    <input id="text-606518" name="name" type="text" required placeholder="Name" maxlength="50" value="">
+
+
+
+                                                                                    <label for="text-606518" class="form-label text-c1 text-color-small ">
+                                                                                        Name </label>
+
+
+
+                                                                                    <svg class="icon icon-form-success form-control__success" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-success" xlink:href="assets/images/icons.svg#form-success">
+                                                                                        </use>
+                                                                                    </svg>
+
+                                                                                    <svg class="icon icon-form-error form-control__error" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                        <use href="assets/images/icons.svg#form-error" xlink:href="assets/images/icons.svg#form-error">
+                                                                                        </use>
+                                                                                    </svg>
+
+                                                                                    <span class="form-control__line"></span>
+                                                                                    <span class="form-control__progress"></span>
+                                                                                </div>
+
+
+                                                                            </div>
+
+
+                                                                            <div class="form-group group mb-2 mb-1:md">
+                                                                                <div class="col">
+
+
+
+
+
+
+
+
+                                                                                    <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  inputMask" data-input-mask-mask="+# ### ### ## ##">
+
+                                                                                        <input id="text-267542" name="phone" type="tel" required placeholder="Phone" maxlength="20" autocapitalize="none" value="">
+
+
+
+                                                                                        <label for="text-267542" class="form-label text-c1 text-color-small ">
+                                                                                            Phone </label>
+
+
+
+                                                                                        <svg class="icon icon-form-success form-control__success" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                            <use href="assets/images/icons.svg#form-success" xlink:href="assets/images/icons.svg#form-success">
+                                                                                            </use>
+                                                                                        </svg>
+
+                                                                                        <svg class="icon icon-form-error form-control__error" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                                            <use href="assets/images/icons.svg#form-error" xlink:href="assets/images/icons.svg#form-error">
+                                                                                            </use>
+                                                                                        </svg>
+
+                                                                                        <span class="form-control__line"></span>
+                                                                                        <span class="form-control__progress"></span>
                                                                                     </div>
 
-                                                                                    <div class="form-control__content">
-                                                                                        <select id="text-723109"
-                                                                                            name="time" required
-                                                                                            statusIndicator="false"
-                                                                                            size="4">
-                                                                                            <option value="09:00:00"
-                                                                                                selected>9:00 — 12:00
-                                                                                            </option>
-                                                                                            <option value="12:00:00">
-                                                                                                12:00 — 15:00</option>
-                                                                                            <option value="15:00:00">
-                                                                                                15:00 — 18:00</option>
-                                                                                            <option value="18:00:00">
-                                                                                                18:00 — 21:00</option>
-                                                                                        </select>
 
-                                                                                        <span
-                                                                                            class="js-input-select-fake-value form-control__fake-input">
+                                                                                </div>
+                                                                                <div class="col">
+
+
+
+
+
+
+
+                                                                                    <div class="form-control form-control--select form-control--input  form-control--with-label form-control--float is-not-empty " data-plugin="inputSelect inputState selectFake ">
+                                                                                        <div class="form-control__close js-form-control-select-close">
+                                                                                        </div>
+
+                                                                                        <div class="form-control__content">
+                                                                                            <select id="text-723109" name="time" required statusIndicator="false" size="4">
+                                                                                                <option value="09:00:00" selected>9:00 — 12:00
+                                                                                                </option>
+                                                                                                <option value="12:00:00">
+                                                                                                    12:00 — 15:00</option>
+                                                                                                <option value="15:00:00">
+                                                                                                    15:00 — 18:00</option>
+                                                                                                <option value="18:00:00">
+                                                                                                    18:00 — 21:00</option>
+                                                                                            </select>
+
+                                                                                            <span class="js-input-select-fake-value form-control__fake-input">
                                                                                             <span
                                                                                                 class="js-input-select-fake-value-text leading-trim">
                                                                                                 9:00 — 12:00 </span>
-                                                                                        </span>
+                                                                                            </span>
 
-                                                                                        <label for="text-723109"
-                                                                                            class="form-label text-c1 text-color-small ">call
-                                                                                            time </label>
+                                                                                            <label for="text-723109" class="form-label text-c1 text-color-small ">call time </label>
 
-                                                                                        <span
-                                                                                            class="form-control__arrow js-form-control-select-close">
+                                                                                            <span class="form-control__arrow js-form-control-select-close">
                                                                                             <svg class="icon icon-chevron-top"
                                                                                                 width="14" height="7"
                                                                                                 aria-hidden="true"
@@ -2800,201 +2027,142 @@
                                                                                                 </use>
                                                                                             </svg>
                                                                                         </span>
+                                                                                        </div>
+
+
+
+                                                                                        <span class="form-control__line"></span>
+                                                                                        <span class="form-control__progress"></span>
                                                                                     </div>
 
 
 
-                                                                                    <span
-                                                                                        class="form-control__line"></span>
-                                                                                    <span
-                                                                                        class="form-control__progress"></span>
                                                                                 </div>
+                                                                            </div>
+
+                                                                            <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width" role="alert" aria-live="assertive"></div>
+                                                                        </div>
+
+                                                                        <div class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
 
 
 
+
+
+
+
+
+                                                                            <button class="btn btn--primary btn--text-small is-hidden--sm-down" type="submit">
+
+                                                                                <span class="btn__content">
+
+                                                                                <span class="btn__text  ">
+                                                                                    submit a request
+
+                                                                                </span>
+
+                                                                                </span>
+                                                                            </button>
+
+
+
+
+
+
+
+
+                                                                            <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+
+                                                                                <span class="btn__content">
+
+                                                                                <span class="btn__text  ">
+                                                                                    submit a request
+
+                                                                                </span>
+
+                                                                                </span>
+                                                                            </button>
+
+                                                                            <div class=" text l-callback__limited-width ml-layout">
+                                                                                <p class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                                    By clicking the button, you agree
+                                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="agreement.html" target="_blank">privacy policy</a>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
 
-                                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
-                                                                            role="alert" aria-live="assertive"></div>
+
                                                                     </div>
-
-                                                                    <div
-                                                                        class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
-
-
-
-
-
-
-
-
-                                                                        <button
-                                                                            class="btn btn--primary btn--text-small is-hidden--sm-down"
-                                                                            type="submit">
-
-                                                                            <span class="btn__content">
-
-                                                                                <span class="btn__text  ">
-                                                                                    submit a request
-
-                                                                                </span>
-
-                                                                            </span>
-                                                                        </button>
-
-
-
-
-
-
-
-
-                                                                        <button
-                                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
-                                                                            type="submit">
-
-                                                                            <span class="btn__content">
-
-                                                                                <span class="btn__text  ">
-                                                                                    submit a request
-
-                                                                                </span>
-
-                                                                            </span>
-                                                                        </button>
-
-                                                                        <div
-                                                                            class=" text l-callback__limited-width ml-layout">
-                                                                            <p
-                                                                                class="leading-trim text-color-small text-c2-small text-right:md">
-                                                                                By clicking the button, you agree
-                                                                                <br>
-                                                                                to our <a
-                                                                                    class="btn--link btn--clone text-c2-small mt-1"
-                                                                                    href="agreement.html"
-                                                                                    target="_blank">privacy policy</a>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-                                                            </form>
+                                                                </form>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <?php $this->load->view('common/modal/favorite'); ?>
+                    <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog" aria-hidden="true" aria-label="Заказать звонок" id="subscribe-modal" data-plugin="modal" data-modal-one-per-page="false" data-nosnippet>
+                        <div class="modal__background"></div>
+                        <div class="modal__animation">
+                            <div class="modal__scroller">
+                                <div class="modal__scroller__scrollable js-scroll-parent">
+                                    <div class="modal__content-wrapper js-modal-scrollable-content">
+                                        <div class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+
+                                            <a class="btn btn--primary btn--square modal__close  js-modal-close" aria-label="Close" tabindex="0" role="button">
+
+                                                <span class="btn__content">
+
+
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-close" width="14" height="14"
+                                                        aria-hidden="true" viewBox="0 0 14 14"
+                                                        style="--icon-width: 14; --icon-height: 14;">
+                                                        <use href="assets/images/icons.svg#close"
+                                                            xlink:href="assets/images/icons.svg#close">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                                </span>
+                                            </a>
 
 
 
 
 
 
-                <div class="modal modal--full ui-dark is-hidden" role="dialog" aria-hidden="true"
-                    aria-label="Request a call" id="favorites-modal" data-plugin="modal" data-modal-one-per-page="true"
-                    data-nosnippet>
-                    <div class="modal__background"></div>
-
-                    <div class="modal__animation">
-                        <div class="modal__scroller">
-                            <div class="modal__scroller__scrollable js-scroll-parent">
-                                <div class="modal__content-wrapper js-modal-scrollable-content">
-                                    <div
-                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
-
-
-
-
-
-                                        <div data-scroll-section>
-                                            <div class="l-favorites row ui-dark sticky sticky--full-height"
-                                                data-plugin="favouriteList mouseAnimation" id="favorites"
-                                                data-favourite-list-endpoint="/api/favourites/flats.json"
-                                                data-mouse-animation-use-css-variable="false"
-                                                data-mouse-animation-target-selector=".l-favorites__spiral picture"
-                                                data-mouse-animation-multiplier='[{"unit": "%", "value": -5}, {"unit": "px", "value": 0}]'>
-                                                <div class="sticky__layer sticky__layer--sticky" data-scroll
-                                                    data-scroll-sticky data-scroll-target="#favorites">
-                                                    <div class="background background--cover js-tree-canvas-container is-hidden--sm-down"
-                                                        data-plugin="webglTreeCallback">
-                                                        <canvas class="js-tree-canvas is-active"></canvas>
-                                                    </div>
-
-                                                    <div
-                                                        class="l-favorites__spiral background background--cover is-hidden--md-down">
-
-
-
-
-
-                                                        <picture class="is-invisible--js is-hidden--no-js "
-                                                            data-plugin="appear " draggable="false">
-                                                            <source
-                                                                data-srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
-                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
-                                                                media="(min-width: 1920px) and (min-height: 700px)"
-                                                                width="1080" height="900">
-                                                            <source
-                                                                data-srcset="assets/images/media/landing/callback/spiral@xxl.webp"
-                                                                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
-                                                                media="(min-width: 1440px) and (min-height: 700px)"
-                                                                width="1080" height="900">
-                                                            <img data-src="assets/images/media/landing/callback/spiral@md.webp"
-                                                                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201080%20900%22%3E%3C/svg%3E"
-                                                                alt="" width="1080" height="900" draggable="false">
-                                                        </picture>
-
-                                                        <noscript>
-
-
-
-
-
-                                                            <picture class=" " draggable="false">
-                                                                <source
-                                                                    srcset="assets/images/media/landing/callback/spiral@xxxl.webp"
-                                                                    media="(min-width: 1920px) and (min-height: 700px)"
-                                                                    width="1080" height="900">
-                                                                <source
-                                                                    srcset="assets/images/media/landing/callback/spiral@xxl.webp"
-                                                                    media="(min-width: 1440px) and (min-height: 700px)"
-                                                                    width="1080" height="900">
-                                                                <img src="assets/images/media/landing/callback/spiral%40md.webp"
-                                                                    alt="" width="1080" height="900" draggable="false">
-                                                            </picture>
-
-
-                                                        </noscript>
-
-                                                    </div>
-
-                                                    <div class="l-favorites__title-container col col--md-4 is-hidden--md-down"
-                                                        data-plugin="favouriteCounter"
-                                                        data-favourite-counter-transchoice-values='["residences&quot;,&quot;residence&quot;,&quot;residences&quot;,&quot;residences"]'
-                                                        data-favourite-counter-hide-no-items="true">
-                                                        <div class="l-favorites__title">
-
-                                                            <p
-                                                                class="leading-trim text-small pb-0.5 js-favourite-list-wrapper-list">
-                                                                <span class="js-favourite-counter-text"></span>
-                                                            </p>
-                                                            <p class="h1 leading-trim">
-                                                                Favorites
-                                                            </p>
-                                                        </div>
-                                                    </div>
+                                            <div class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
+                                                <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
+                                                    <p>
+                                                        Subscribe
+                                                        <br> to notifications
+                                                    </p>
                                                 </div>
 
-                                                <div class="sticky__layer">
+                                                <div class="flats-subscribe__success py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
+                                                    <p class="h2 leading-trim">
+                                                        You are subscribed
+                                                    </p>
+                                                </div>
+
+
+                                                <form class="flats-subscribe__form-container pt-2:md" method="POST" action="api/subscribe.json" data-plugin="ajaxForm recaptcha" data-recaptcha-type="yandex" data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd" data-ajax-form-loading-delay="1500"
+                                                data-ajax-form-type="">
+                                                    <div class="col col--xs-4 col--md-6 flats-subscribe__form">
+
+
+
+                                                        <input data-plugin="utmData" type="hidden" name="utm" value="">
+
+
+
+                                                        <input data-plugin="pagePathname" type="hidden" name="currentPageLink" value="">
 
 
 
@@ -3003,44 +2171,62 @@
 
 
 
-                                                    <a class="btn btn--primary btn--square modal__close js-modal-close"
-                                                        aria-label="Close" data-plugin="themed"
-                                                        data-themed-theme-attribute="data-favorites-themed-class"
-                                                        data-themed-enable-smooth-scroll="false" tabindex="0"
-                                                        role="button">
-
-                                                        <span class="btn__content">
+                                                        <div class="sr-only" data-plugin="inputBear ">
 
 
-                                                            <span class="btn__icon ">
-                                                                <svg class="icon icon-close" width="14" height="14"
-                                                                    aria-hidden="true" viewBox="0 0 14 14"
-                                                                    style="--icon-width: 14; --icon-height: 14;">
-                                                                    <use href="assets/images/icons.svg#close"
-                                                                        xlink:href="assets/images/icons.svg#close">
-                                                                    </use>
-                                                                </svg>
-                                                            </span>
-                                                        </span>
-                                                    </a>
+                                                            <label for="text-6162" class="form-label text-c1 text-color-small leading-trim">
+                                                                Message </label>
 
-                                                    <div class="l-favorites__gradient is-hidden--lg-up">
-                                                        <div></div>
-                                                        <div></div>
-                                                        <div></div>
-                                                    </div>
-                                                    <div class="l-favorites__col col col--md-8 ui-dark ui-background mr-0 ml-auto px-layout pt-layout pb-layout-4 pb-layout:md"
-                                                        data-favorites-themed-class="ui-dark">
-                                                        <div class="flats__empty js-favourite-list-empty is-hidden">
-                                                            <div
-                                                                class="col col--md-4 h3 leading-trim pb-1 pr-1.5 pr-0:md">
-                                                                <p>
-                                                                    Here you can save your favorite residences.
-                                                                </p>
+                                                            <input id="text-6162" name="message" type="text" required value="">
+                                                        </div>
+
+                                                        <div class="flats-subscribe__group">
+
+                                                            <div class="col col--md-12 mb-2.5 mb-2:md">
+
+
+
+
+
+
+
+
+                                                                <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+
+                                                                    <input id="text-349532" name="email" type="email" required placeholder="e-mail" maxlength="50" autocapitalize="none" value="">
+
+
+
+                                                                    <label for="text-349532" class="form-label text-c1 text-color-small ">
+                                                                        e-mail </label>
+
+
+
+                                                                    <svg class="icon icon-form-success form-control__success" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                        <use href="assets/images/icons.svg#form-success" xlink:href="assets/images/icons.svg#form-success">
+                                                                        </use>
+                                                                    </svg>
+
+                                                                    <svg class="icon icon-form-error form-control__error" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                        <use href="assets/images/icons.svg#form-error" xlink:href="assets/images/icons.svg#form-error">
+                                                                        </use>
+                                                                    </svg>
+
+                                                                    <span class="form-control__line"></span>
+                                                                    <span class="form-control__progress"></span>
+                                                                </div>
+
 
                                                             </div>
 
 
+                                                            <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width" role="alert" aria-live="assertive"></div>
+                                                        </div>
+
+                                                        <div class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
 
 
 
@@ -3048,21 +2234,147 @@
 
 
 
-                                                            <a class="btn btn--sm btn--outline" href="flats.html">
+
+                                                            <button class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down" type="submit" data-plugin=" button" data-button-clone-content="true">
 
                                                                 <span class="btn__content">
 
-                                                                    <span class="btn__text  ">
-                                                                        select residence
-
-                                                                    </span>
+                                                                <span class="btn__text  ">
+                                                                    subscribe
 
                                                                 </span>
-                                                            </a>
+
+                                                                </span>
+                                                            </button>
+
+
+
+
+
+
+
+
+                                                            <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+
+                                                                <span class="btn__content">
+
+                                                                <span class="btn__text  ">
+                                                                    subscribe
+
+                                                                </span>
+
+                                                                </span>
+                                                            </button>
+
+                                                            <div class=" text l-callback__limited-width ml-layout">
+                                                                <p class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                    By clicking the button, you agree
+                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="agreement.html" target="_blank">privacy
+                                                                    policy</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog" aria-hidden="true" aria-label="Заказать звонок" id="subscribe-modal-penthouse" data-plugin="modal" data-modal-one-per-page="false" data-nosnippet>
+                        <div class="modal__background"></div>
+
+                        <div class="modal__animation">
+                            <div class="modal__scroller">
+                                <div class="modal__scroller__scrollable js-scroll-parent">
+                                    <div class="modal__content-wrapper js-modal-scrollable-content">
+                                        <div class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+
+
+
+
+
+
+
+
+
+                                            <a class="btn btn--primary btn--square modal__close  js-modal-close" aria-label="Close" tabindex="0" role="button">
+
+                                                <span class="btn__content">
+
+
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-close" width="14" height="14"
+                                                        aria-hidden="true" viewBox="0 0 14 14"
+                                                        style="--icon-width: 14; --icon-height: 14;">
+                                                        <use href="assets/images/icons.svg#close"
+                                                            xlink:href="assets/images/icons.svg#close">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                                </span>
+                                            </a>
+
+
+
+
+
+
+                                            <div class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
+                                                <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
+                                                    <p>
+                                                        Subscribe
+                                                        <br> to notifications
+                                                    </p>
+                                                </div>
+
+                                                <div class="flats-subscribe__success py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
+                                                    <p class="h2 leading-trim">
+                                                        You are subscribed
+                                                    </p>
+                                                </div>
+
+
+                                                <form class="flats-subscribe__form-container pt-2:md" method="POST" action="api/subscribe.json" data-plugin="ajaxForm recaptcha" data-recaptcha-type="yandex" data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd" data-ajax-form-loading-delay="1500"
+                                                data-ajax-form-type="penthouse">
+                                                    <div class="col col--xs-4 col--md-6 flats-subscribe__form">
+
+
+
+                                                        <input data-plugin="utmData" type="hidden" name="utm" value="">
+
+
+
+                                                        <input data-plugin="pagePathname" type="hidden" name="currentPageLink" value="">
+
+
+
+
+
+
+
+
+                                                        <div class="sr-only" data-plugin="inputBear ">
+
+
+                                                            <label for="text-707745" class="form-label text-c1 text-color-small leading-trim">
+                                                                Message </label>
+
+                                                            <input id="text-707745" name="message" type="text" required value="">
                                                         </div>
 
-                                                        <div class="js-favourite-list-wrapper-list is-hidden">
-                                                            <div class="group group--small mb-2">
+                                                        <div class="flats-subscribe__group">
+
+                                                            <div class="col col--md-12 mb-2.5 mb-2:md">
 
 
 
@@ -3071,422 +2383,234 @@
 
 
 
-                                                                <a class="btn btn--square btn--outline" target="_blank"
-                                                                    rel="noopener" aria-label="download pdf"
-                                                                    data-plugin="favouriteDownload"
-                                                                    data-favourite-download-url="/api/download/link/favourites"
-                                                                    tabindex="0" role="button">
+                                                                <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
 
-                                                                    <span class="btn__content">
-
-                                                                        <span class="btn__text  ">
-                                                                            pdf
-
-                                                                        </span>
-
-                                                                    </span>
-                                                                </a>
+                                                                    <input id="text-770612" name="email" type="email" required placeholder="e-mail" maxlength="50" autocapitalize="none" value="">
 
 
 
+                                                                    <label for="text-770612" class="form-label text-c1 text-color-small ">
+                                                                        e-mail </label>
 
 
 
+                                                                    <svg class="icon icon-form-success form-control__success" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                        <use href="assets/images/icons.svg#form-success" xlink:href="assets/images/icons.svg#form-success">
+                                                                        </use>
+                                                                    </svg>
 
+                                                                    <svg class="icon icon-form-error form-control__error" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                        <use href="assets/images/icons.svg#form-error" xlink:href="assets/images/icons.svg#form-error">
+                                                                        </use>
+                                                                    </svg>
 
-
-                                                                <a class="btn btn--square btn--outline"
-                                                                    href="#favourites-email-modal">
-
-                                                                    <span class="btn__content">
-
-
-                                                                        <span class="btn__icon ">
-                                                                            <svg class="icon icon-email" width="16"
-                                                                                height="16" aria-hidden="true"
-                                                                                viewBox="0 0 16 16"
-                                                                                style="--icon-width: 16; --icon-height: 16;">
-                                                                                <use href="assets/images/icons.svg#email"
-                                                                                    xlink:href="assets/images/icons.svg#email">
-                                                                                </use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-
-                                                            <div class="l-favorites__title-container col col--md-4 is-hidden--lg-up mb-1"
-                                                                data-plugin="favouriteCounter"
-                                                                data-favourite-counter-transchoice-values='["residences&quot;,&quot;residence&quot;,&quot;residences&quot;,&quot;residences"]'
-                                                                data-favourite-counter-hide-no-items="true">
-                                                                <div class="l-favorites__title">
-                                                                    <p class="h1 leading-trim  pb-1">
-                                                                        Favorites
-                                                                    </p>
-
-                                                                    <p class="leading-trim text-small ">
-                                                                        <span class="js-favourite-counter-text"></span>
-                                                                    </p>
-
+                                                                    <span class="form-control__line"></span>
+                                                                    <span class="form-control__progress"></span>
                                                                 </div>
+
+
                                                             </div>
 
-                                                            <ul class="l-favorites__list flats__list js-favourite-list-list ui-light is-hidden"
-                                                                data-favorites-themed-class="ui-light">
+
+                                                            <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width" role="alert" aria-live="assertive"></div>
+                                                        </div>
+
+                                                        <div class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
 
 
 
-                                                                <script type="text/template"
-                                                                    data-template-variable="flat">
-    <li>
-        <a href="<%- flat.link %>" class="card card--apartment js-favourite-wrapper" data-ajax-page-ignore-prefetch>
-            <div class="card__sizer"></div>
-            <div class="card__content">
-                <div class="card__top group group--nowrap group--between">
-                    <div class="group group--small group--middle">
-                        <% for (let i=0; i < flat.features.length; i++) { %>
-                            <% var feature = flat.features[i] %>
-                            <% var prefix = flat.number + feature.icon %>
-                            <div
-                                class="card__feature"
-                                data-plugin="popover"
-                                data-popover-placement="<%= i == 0 ? 'bottom-start' : 'bottom-center' %>"
-                                data-popover-parent-selector=".card"
-                                data-popover-events="hover"
-                                aria-describedby="<%- prefix %>"
-                            >
-                                <svg class="icon icon-&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;" width="16" height="16" aria-hidden="true"            viewBox="0 0 16 16"
-            style="--icon-width: 16; --icon-height: 16;"
-        
-        ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;" xlink:href="assets/images/icons.svg#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;"></use></svg>
-                            </div>
 
-                            <div id="<%-prefix%>" class="tooltip tooltip--closable tooltip--feature ui-dark" role="tooltip">
-                                <span class="tooltip__triangle"></span>
 
-                                <div class="tooltip__content text-c2 leading-trim">
-                                    <%- feature.label %>
+
+
+
+                                                            <button class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down" type="submit" data-plugin=" button" data-button-clone-content="true">
+
+                                                                <span class="btn__content">
+
+                                                                <span class="btn__text  ">
+                                                                    subscribe
+
+                                                                </span>
+
+                                                                </span>
+                                                            </button>
+
+
+
+
+
+
+
+
+                                                            <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+
+                                                                <span class="btn__content">
+
+                                                                <span class="btn__text  ">
+                                                                    subscribe
+
+                                                                </span>
+
+                                                                </span>
+                                                            </button>
+
+                                                            <div class=" text l-callback__limited-width ml-layout">
+                                                                <p class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                    By clicking the button, you agree
+                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="agreement.html" target="_blank">privacy
+                                                                    policy</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
-                        <% } %>
-                    </div>
-
-                    
-                        
-        
-
-
-
-        
-                                                                          
-                        
-
-        
-        
-        
-        
-    <span
-        class="btn btn--outline btn--outline-active btn--square favourite  btn--sm"
-                                        aria-label="Remove apartment from favourites"
-                            data-plugin="favourite"
-                                                data-favourite="&#x7B;&quot;id&quot;&#x3A;&quot;&lt;&#x25;-&#x20;flat.id&#x20;&#x25;&gt;&quot;,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
-                            tabindex="0"
-                            role="button"
-            >
-
-        <span class="btn__content">
-            
-                                    
-                                                                    <span class="btn__icon ">
-                        <svg class="icon icon-favourite" width="30" height="30" aria-hidden="true"            viewBox="0 0 30 30"
-            style="--icon-width: 30; --icon-height: 30;"
-        
-        ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#favourite" xlink:href="assets/images/icons.svg#favourite"></use></svg>
-                    </span>
-                                    </span>
-    </span>
-                                    </div>
-
-                <div class="card__plan">
-                    <% const plan = flat.plans.simple %>
-                    <%= picture(plan, {
-                        class: 'svg-fix',
-                        lazy: false
-                    }) %>
-                </div>
-
-                <div class="card__footer">
-                    <div class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                        <div>
-                            <div class="text-c2 text-color-small leading-trim mb-0.2">
-                                <p>
-                                    <%- numberFormat(flat.price_per_m, 0, '', ' ') %>&nbsp;/m<sup>2</sup>
-                                </p>
-                            </div>
-                            <div class="text-small leading-trim">
-                                <p>
-                                      <%- numberFormat(flat.price, 0, '', ' ') %>
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <div class="text-c2 text-color-small leading-trim">
-                            <p>
-                                with finishings
-                            </p>
                         </div>
                     </div>
 
-                    <div class="group group--nowrap group--bottom group--between">
-
-                        <div class="card__footer-text text-small leading-trim">
-                            <p class="card__square">
-                                 <%- flat.square %>&nbsp;m<sup>2</sup>
-                            </p>
-                            <p>
-                                 <%- flat.roomsText %>&nbsp;
-                            </p>
-                            <p>
-                                <%- flat.floor %>&nbsp;floor
-                            </p>
-                        </div>
-
-                        <span class="card__footer-title h1 leading-trim">
-                            <%- flat.number %>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-
-</script>
 
 
 
 
-                                                                <div class="js-favourite-list-single">
-                                                                    <li><a href="flats.html"
-                                                                            class="ui-dark card card--apartment card--more"
-                                                                            data-ajax-page-ignore-prefetch>
-                                                                            <div class="card__sizer"></div>
-                                                                            <div class="card__content">
-                                                                                <div class="card__top">
-                                                                                    <p class="">
-                                                                                        Find more matching
-                                                                                        <br />
-                                                                                        residences
-                                                                                    </p>
 
-                                                                                </div>
+                    <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog" aria-hidden="true" aria-label="Заказать звонок" id="subscribe-modal-townhouse" data-plugin="modal" data-modal-one-per-page="false" data-nosnippet>
+                        <div class="modal__background"></div>
+
+                        <div class="modal__animation">
+                            <div class="modal__scroller">
+                                <div class="modal__scroller__scrollable js-scroll-parent">
+                                    <div class="modal__content-wrapper js-modal-scrollable-content">
+                                        <div class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
 
 
-                                                                                <div class="card__footer">
-
-                                                                                    <div
-                                                                                        class="group group--nowrap group--bottom group--between">
-
-                                                                                        <div
-                                                                                            class="card__footer-text leading-trim">
-
-                                                                                        </div>
-
-                                                                                        <div class="card__feature">
-                                                                                            <svg class="icon icon-magnifier"
-                                                                                                width="14" height="14"
-                                                                                                aria-hidden="true"
-                                                                                                viewBox="0 0 14 14"
-                                                                                                style="--icon-width: 14; --icon-height: 14;">
-                                                                                                <use href="assets/images/icons.svg#magnifier"
-                                                                                                    xlink:href="assets/images/icons.svg#magnifier">
-                                                                                                </use>
-                                                                                            </svg>
-                                                                                        </div>
-                                                                                    </div>
 
 
-                                                                                </div>
-                                                                            </div>
-                                                                        </a></li>
+
+
+
+
+
+                                            <a class="btn btn--primary btn--square modal__close  js-modal-close" aria-label="Close" tabindex="0" role="button">
+
+                                                <span class="btn__content">
+
+
+                                                <span class="btn__icon ">
+                                                    <svg class="icon icon-close" width="14" height="14"
+                                                        aria-hidden="true" viewBox="0 0 14 14"
+                                                        style="--icon-width: 14; --icon-height: 14;">
+                                                        <use href="assets/images/icons.svg#close"
+                                                            xlink:href="assets/images/icons.svg#close">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                                </span>
+                                            </a>
+
+
+
+
+
+
+                                            <div class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
+                                                <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
+                                                    <p>
+                                                        Subscribe
+                                                        <br> to notifications
+                                                    </p>
+                                                </div>
+
+                                                <div class="flats-subscribe__success py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
+                                                    <p class="h2 leading-trim">
+                                                        You are subscribed
+                                                    </p>
+                                                </div>
+
+
+                                                <form class="flats-subscribe__form-container pt-2:md" method="POST" action="api/subscribe.json" data-plugin="ajaxForm recaptcha" data-recaptcha-type="yandex" data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd" data-ajax-form-loading-delay="1500"
+                                                data-ajax-form-type="townhouse">
+                                                    <div class="col col--xs-4 col--md-6 flats-subscribe__form">
+
+
+
+                                                        <input data-plugin="utmData" type="hidden" name="utm" value="">
+
+
+
+                                                        <input data-plugin="pagePathname" type="hidden" name="currentPageLink" value="">
+
+
+
+
+
+
+
+
+                                                        <div class="sr-only" data-plugin="inputBear ">
+
+
+                                                            <label for="text-287627" class="form-label text-c1 text-color-small leading-trim">
+                                                                Message </label>
+
+                                                            <input id="text-287627" name="message" type="text" required value="">
+                                                        </div>
+
+                                                        <div class="flats-subscribe__group">
+
+                                                            <div class="col col--md-12 mb-2.5 mb-2:md">
+
+
+
+
+
+
+
+
+                                                                <div class="
+        form-control form-control--input
+        form-control--float                        
+    " data-plugin="inputState  ">
+
+                                                                    <input id="text-432137" name="email" type="email" required placeholder="e-mail" maxlength="50" autocapitalize="none" value="">
+
+
+
+                                                                    <label for="text-432137" class="form-label text-c1 text-color-small ">
+                                                                        e-mail </label>
+
+
+
+                                                                    <svg class="icon icon-form-success form-control__success" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                        <use href="assets/images/icons.svg#form-success" xlink:href="assets/images/icons.svg#form-success">
+                                                                        </use>
+                                                                    </svg>
+
+                                                                    <svg class="icon icon-form-error form-control__error" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                        <use href="assets/images/icons.svg#form-error" xlink:href="assets/images/icons.svg#form-error">
+                                                                        </use>
+                                                                    </svg>
+
+                                                                    <span class="form-control__line"></span>
+                                                                    <span class="form-control__progress"></span>
                                                                 </div>
-                                                            </ul>
 
 
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-                <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog"
-                    aria-hidden="true" aria-label="Заказать звонок" id="subscribe-modal" data-plugin="modal"
-                    data-modal-one-per-page="false" data-nosnippet>
-                    <div class="modal__background"></div>
-
-                    <div class="modal__animation">
-                        <div class="modal__scroller">
-                            <div class="modal__scroller__scrollable js-scroll-parent">
-                                <div class="modal__content-wrapper js-modal-scrollable-content">
-                                    <div
-                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
-
-
-
-
-
-
-
-
-
-                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
-                                            aria-label="Close" tabindex="0" role="button">
-
-                                            <span class="btn__content">
-
-
-                                                <span class="btn__icon ">
-                                                    <svg class="icon icon-close" width="14" height="14"
-                                                        aria-hidden="true" viewBox="0 0 14 14"
-                                                        style="--icon-width: 14; --icon-height: 14;">
-                                                        <use href="assets/images/icons.svg#close"
-                                                            xlink:href="assets/images/icons.svg#close">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </a>
-
-
-
-
-
-
-                                        <div
-                                            class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
-                                            <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
-                                                <p>
-                                                    Subscribe<br>
-                                                    to notifications
-                                                </p>
-                                            </div>
-
-                                            <div
-                                                class="flats-subscribe__success py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
-                                                <p class="h2 leading-trim">
-                                                    You are subscribed
-                                                </p>
-                                            </div>
-
-
-                                            <form class="flats-subscribe__form-container pt-2:md" method="POST"
-                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
-                                                data-recaptcha-type="yandex"
-                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
-                                                data-ajax-form-loading-delay="1500" data-ajax-form-type="">
-                                                <div class="col col--xs-4 col--md-6 flats-subscribe__form">
-
-
-
-                                                    <input data-plugin="utmData" type="hidden" name="utm" value="">
-
-
-
-                                                    <input data-plugin="pagePathname" type="hidden"
-                                                        name="currentPageLink" value="">
-
-
-
-
-
-
-
-
-                                                    <div class="sr-only" data-plugin="inputBear ">
-
-
-                                                        <label for="text-6162"
-                                                            class="form-label text-c1 text-color-small leading-trim">
-                                                            Message </label>
-
-                                                        <input id="text-6162" name="message" type="text" required
-                                                            value="">
-                                                    </div>
-
-                                                    <div class="flats-subscribe__group">
-
-                                                        <div class="col col--md-12 mb-2.5 mb-2:md">
-
-
-
-
-
-
-
-
-                                                            <div class="
-        form-control form-control--input
-        form-control--float                        
-    " data-plugin="inputState  ">
-
-                                                                <input id="text-349532" name="email" type="email"
-                                                                    required placeholder="e-mail" maxlength="50"
-                                                                    autocapitalize="none" value="">
-
-
-
-                                                                <label for="text-349532"
-                                                                    class="form-label text-c1 text-color-small ">
-                                                                    e-mail </label>
-
-
-
-                                                                <svg class="icon icon-form-success form-control__success"
-                                                                    width="20" height="20" aria-hidden="true"
-                                                                    viewBox="0 0 20 20"
-                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                    <use href="assets/images/icons.svg#form-success"
-                                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                                    </use>
-                                                                </svg>
-
-                                                                <svg class="icon icon-form-error form-control__error"
-                                                                    width="20" height="20" aria-hidden="true"
-                                                                    viewBox="0 0 20 20"
-                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                    <use href="assets/images/icons.svg#form-error"
-                                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                                    </use>
-                                                                </svg>
-
-                                                                <span class="form-control__line"></span>
-                                                                <span class="form-control__progress"></span>
                                                             </div>
 
 
+                                                            <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width" role="alert" aria-live="assertive"></div>
                                                         </div>
 
-
-                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
-                                                            role="alert" aria-live="assertive"></div>
-                                                    </div>
-
-                                                    <div
-                                                        class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
+                                                        <div class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
 
 
 
@@ -3495,20 +2619,17 @@
 
 
 
-                                                        <button
-                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
-                                                            type="submit" data-plugin=" button"
-                                                            data-button-clone-content="true">
+                                                            <button class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down" type="submit" data-plugin=" button" data-button-clone-content="true">
 
-                                                            <span class="btn__content">
+                                                                <span class="btn__content">
 
                                                                 <span class="btn__text  ">
                                                                     subscribe
 
                                                                 </span>
 
-                                                            </span>
-                                                        </button>
+                                                                </span>
+                                                            </button>
 
 
 
@@ -3517,59 +2638,50 @@
 
 
 
-                                                        <button
-                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
-                                                            type="submit">
+                                                            <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
 
-                                                            <span class="btn__content">
+                                                                <span class="btn__content">
 
                                                                 <span class="btn__text  ">
                                                                     subscribe
 
                                                                 </span>
 
-                                                            </span>
-                                                        </button>
+                                                                </span>
+                                                            </button>
 
-                                                        <div class=" text l-callback__limited-width ml-layout">
-                                                            <p
-                                                                class="leading-trim text-color-small text-c2-small text-right:md">
-                                                                By clicking the button, you agree
-                                                                <br>
-                                                                to our <a
-                                                                    class="btn--link btn--clone text-c2-small mt-1"
-                                                                    href="agreement.html" target="_blank">privacy
+                                                            <div class=" text l-callback__limited-width ml-layout">
+                                                                <p class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                    By clicking the button, you agree
+                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="agreement.html" target="_blank">privacy
                                                                     policy</a>
-                                                            </p>
+                                                                </p>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </form>
-                                        </div>
+                                                </form>
+                                            </div>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
 
 
 
 
 
-                <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog"
-                    aria-hidden="true" aria-label="Заказать звонок" id="subscribe-modal-penthouse" data-plugin="modal"
-                    data-modal-one-per-page="false" data-nosnippet>
-                    <div class="modal__background"></div>
+                    <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog" aria-hidden="true" aria-label="send via mail" id="favourites-email-modal" data-plugin="modal" data-modal-one-per-page="false" data-nosnippet>
+                        <div class="modal__background"></div>
 
-                    <div class="modal__animation">
-                        <div class="modal__scroller">
-                            <div class="modal__scroller__scrollable js-scroll-parent">
-                                <div class="modal__content-wrapper js-modal-scrollable-content">
-                                    <div
-                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+                        <div class="modal__animation">
+                            <div class="modal__scroller">
+                                <div class="modal__scroller__scrollable js-scroll-parent">
+                                    <div class="modal__content-wrapper js-modal-scrollable-content">
+                                        <div class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
 
 
 
@@ -3579,10 +2691,9 @@
 
 
 
-                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
-                                            aria-label="Close" tabindex="0" role="button">
+                                            <a class="btn btn--primary btn--square modal__close  js-modal-close" aria-label="Close" tabindex="0" role="button">
 
-                                            <span class="btn__content">
+                                                <span class="btn__content">
 
 
                                                 <span class="btn__icon ">
@@ -3594,434 +2705,37 @@
                                                         </use>
                                                     </svg>
                                                 </span>
-                                            </span>
-                                        </a>
-
-
-
-
-
-
-                                        <div
-                                            class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
-                                            <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
-                                                <p>
-                                                    Subscribe<br>
-                                                    to notifications
-                                                </p>
-                                            </div>
-
-                                            <div
-                                                class="flats-subscribe__success py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
-                                                <p class="h2 leading-trim">
-                                                    You are subscribed
-                                                </p>
-                                            </div>
-
-
-                                            <form class="flats-subscribe__form-container pt-2:md" method="POST"
-                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
-                                                data-recaptcha-type="yandex"
-                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
-                                                data-ajax-form-loading-delay="1500" data-ajax-form-type="penthouse">
-                                                <div class="col col--xs-4 col--md-6 flats-subscribe__form">
-
-
-
-                                                    <input data-plugin="utmData" type="hidden" name="utm" value="">
-
-
-
-                                                    <input data-plugin="pagePathname" type="hidden"
-                                                        name="currentPageLink" value="">
-
-
-
-
-
-
-
-
-                                                    <div class="sr-only" data-plugin="inputBear ">
-
-
-                                                        <label for="text-707745"
-                                                            class="form-label text-c1 text-color-small leading-trim">
-                                                            Message </label>
-
-                                                        <input id="text-707745" name="message" type="text" required
-                                                            value="">
-                                                    </div>
-
-                                                    <div class="flats-subscribe__group">
-
-                                                        <div class="col col--md-12 mb-2.5 mb-2:md">
-
-
-
-
-
-
-
-
-                                                            <div class="
-        form-control form-control--input
-        form-control--float                        
-    " data-plugin="inputState  ">
-
-                                                                <input id="text-770612" name="email" type="email"
-                                                                    required placeholder="e-mail" maxlength="50"
-                                                                    autocapitalize="none" value="">
-
-
-
-                                                                <label for="text-770612"
-                                                                    class="form-label text-c1 text-color-small ">
-                                                                    e-mail </label>
-
-
-
-                                                                <svg class="icon icon-form-success form-control__success"
-                                                                    width="20" height="20" aria-hidden="true"
-                                                                    viewBox="0 0 20 20"
-                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                    <use href="assets/images/icons.svg#form-success"
-                                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                                    </use>
-                                                                </svg>
-
-                                                                <svg class="icon icon-form-error form-control__error"
-                                                                    width="20" height="20" aria-hidden="true"
-                                                                    viewBox="0 0 20 20"
-                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                    <use href="assets/images/icons.svg#form-error"
-                                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                                    </use>
-                                                                </svg>
-
-                                                                <span class="form-control__line"></span>
-                                                                <span class="form-control__progress"></span>
-                                                            </div>
-
-
-                                                        </div>
-
-
-                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
-                                                            role="alert" aria-live="assertive"></div>
-                                                    </div>
-
-                                                    <div
-                                                        class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
-
-
-
-
-
-
-
-
-                                                        <button
-                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
-                                                            type="submit" data-plugin=" button"
-                                                            data-button-clone-content="true">
-
-                                                            <span class="btn__content">
-
-                                                                <span class="btn__text  ">
-                                                                    subscribe
-
-                                                                </span>
-
-                                                            </span>
-                                                        </button>
-
-
-
-
-
-
-
-
-                                                        <button
-                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
-                                                            type="submit">
-
-                                                            <span class="btn__content">
-
-                                                                <span class="btn__text  ">
-                                                                    subscribe
-
-                                                                </span>
-
-                                                            </span>
-                                                        </button>
-
-                                                        <div class=" text l-callback__limited-width ml-layout">
-                                                            <p
-                                                                class="leading-trim text-color-small text-c2-small text-right:md">
-                                                                By clicking the button, you agree
-                                                                <br>
-                                                                to our <a
-                                                                    class="btn--link btn--clone text-c2-small mt-1"
-                                                                    href="agreement.html" target="_blank">privacy
-                                                                    policy</a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-                <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog"
-                    aria-hidden="true" aria-label="Заказать звонок" id="subscribe-modal-townhouse" data-plugin="modal"
-                    data-modal-one-per-page="false" data-nosnippet>
-                    <div class="modal__background"></div>
-
-                    <div class="modal__animation">
-                        <div class="modal__scroller">
-                            <div class="modal__scroller__scrollable js-scroll-parent">
-                                <div class="modal__content-wrapper js-modal-scrollable-content">
-                                    <div
-                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
-
-
-
-
-
-
-
-
-
-                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
-                                            aria-label="Close" tabindex="0" role="button">
-
-                                            <span class="btn__content">
-
-
-                                                <span class="btn__icon ">
-                                                    <svg class="icon icon-close" width="14" height="14"
-                                                        aria-hidden="true" viewBox="0 0 14 14"
-                                                        style="--icon-width: 14; --icon-height: 14;">
-                                                        <use href="assets/images/icons.svg#close"
-                                                            xlink:href="assets/images/icons.svg#close">
-                                                        </use>
-                                                    </svg>
                                                 </span>
-                                            </span>
-                                        </a>
+                                            </a>
 
 
 
-
-
-
-                                        <div
-                                            class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
-                                            <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
-                                                <p>
-                                                    Subscribe<br>
-                                                    to notifications
-                                                </p>
-                                            </div>
-
-                                            <div
-                                                class="flats-subscribe__success py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
-                                                <p class="h2 leading-trim">
-                                                    You are subscribed
-                                                </p>
-                                            </div>
-
-
-                                            <form class="flats-subscribe__form-container pt-2:md" method="POST"
-                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
-                                                data-recaptcha-type="yandex"
-                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
-                                                data-ajax-form-loading-delay="1500" data-ajax-form-type="townhouse">
-                                                <div class="col col--xs-4 col--md-6 flats-subscribe__form">
-
-
-
-                                                    <input data-plugin="utmData" type="hidden" name="utm" value="">
-
-
-
-                                                    <input data-plugin="pagePathname" type="hidden"
-                                                        name="currentPageLink" value="">
-
-
-
-
-
-
-
-
-                                                    <div class="sr-only" data-plugin="inputBear ">
-
-
-                                                        <label for="text-287627"
-                                                            class="form-label text-c1 text-color-small leading-trim">
-                                                            Message </label>
-
-                                                        <input id="text-287627" name="message" type="text" required
-                                                            value="">
-                                                    </div>
-
-                                                    <div class="flats-subscribe__group">
-
-                                                        <div class="col col--md-12 mb-2.5 mb-2:md">
-
-
-
-
-
-
-
-
-                                                            <div class="
-        form-control form-control--input
-        form-control--float                        
-    " data-plugin="inputState  ">
-
-                                                                <input id="text-432137" name="email" type="email"
-                                                                    required placeholder="e-mail" maxlength="50"
-                                                                    autocapitalize="none" value="">
-
-
-
-                                                                <label for="text-432137"
-                                                                    class="form-label text-c1 text-color-small ">
-                                                                    e-mail </label>
-
-
-
-                                                                <svg class="icon icon-form-success form-control__success"
-                                                                    width="20" height="20" aria-hidden="true"
-                                                                    viewBox="0 0 20 20"
-                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                    <use href="assets/images/icons.svg#form-success"
-                                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                                    </use>
-                                                                </svg>
-
-                                                                <svg class="icon icon-form-error form-control__error"
-                                                                    width="20" height="20" aria-hidden="true"
-                                                                    viewBox="0 0 20 20"
-                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                    <use href="assets/images/icons.svg#form-error"
-                                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                                    </use>
-                                                                </svg>
-
-                                                                <span class="form-control__line"></span>
-                                                                <span class="form-control__progress"></span>
-                                                            </div>
-
-
-                                                        </div>
-
-
-                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
-                                                            role="alert" aria-live="assertive"></div>
-                                                    </div>
-
-                                                    <div
-                                                        class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
-
-
-
-
-
-
-
-
-                                                        <button
-                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
-                                                            type="submit" data-plugin=" button"
-                                                            data-button-clone-content="true">
-
-                                                            <span class="btn__content">
-
-                                                                <span class="btn__text  ">
-                                                                    subscribe
-
-                                                                </span>
-
-                                                            </span>
-                                                        </button>
-
-
-
-
-
-
-
-
-                                                        <button
-                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
-                                                            type="submit">
-
-                                                            <span class="btn__content">
-
-                                                                <span class="btn__text  ">
-                                                                    subscribe
-
-                                                                </span>
-
-                                                            </span>
-                                                        </button>
-
-                                                        <div class=" text l-callback__limited-width ml-layout">
-                                                            <p
-                                                                class="leading-trim text-color-small text-c2-small text-right:md">
-                                                                By clicking the button, you agree
-                                                                <br>
-                                                                to our <a
-                                                                    class="btn--link btn--clone text-c2-small mt-1"
-                                                                    href="agreement.html" target="_blank">privacy
-                                                                    policy</a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
+                                            <div class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
+                                                <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
+                                                    <p>
+                                                        Send
+                                                        <br> to mail
+                                                    </p>
                                                 </div>
-                                            </form>
-                                        </div>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                                <div class="flats-subscribe__success h2 py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
+                                                    <p>
+                                                        Sent
+                                                    </p>
+                                                </div>
 
 
+                                                <form class="flats-subscribe__form-container pt-2:md" method="POST" action="api/favourite/pdf/mail.json" data-plugin="ajaxForm recaptcha favouriteForm" data-recaptcha-type="yandex" data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                                data-ajax-form-loading-delay="1500" data-ajax-form-calltouch-title="Подписка" data-ajax-form-calltouch-site-id="">
+                                                    <div class="col col--xs-4 col--md-6 flats-subscribe__form">
 
 
 
+                                                        <input data-plugin="utmData" type="hidden" name="utm" value="">
 
-                <div class="modal modal--subscribe modal--split-animate--up ui-light is-hidden" role="dialog"
-                    aria-hidden="true" aria-label="send via mail" id="favourites-email-modal" data-plugin="modal"
-                    data-modal-one-per-page="false" data-nosnippet>
-                    <div class="modal__background"></div>
 
-                    <div class="modal__animation">
-                        <div class="modal__scroller">
-                            <div class="modal__scroller__scrollable js-scroll-parent">
-                                <div class="modal__content-wrapper js-modal-scrollable-content">
-                                    <div
-                                        class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
+
+                                                        <input data-plugin="pagePathname" type="hidden" name="currentPageLink" value="">
 
 
 
@@ -4030,62 +2744,18 @@
 
 
 
-
-                                        <a class="btn btn--primary btn--square modal__close  js-modal-close"
-                                            aria-label="Close" tabindex="0" role="button">
-
-                                            <span class="btn__content">
+                                                        <div class="sr-only" data-plugin="inputBear ">
 
 
-                                                <span class="btn__icon ">
-                                                    <svg class="icon icon-close" width="14" height="14"
-                                                        aria-hidden="true" viewBox="0 0 14 14"
-                                                        style="--icon-width: 14; --icon-height: 14;">
-                                                        <use href="assets/images/icons.svg#close"
-                                                            xlink:href="assets/images/icons.svg#close">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </a>
+                                                            <label for="text-508791" class="form-label text-c1 text-color-small leading-trim">
+                                                                Message </label>
 
+                                                            <input id="text-508791" name="message" type="text" required value="">
+                                                        </div>
 
+                                                        <div class="flats-subscribe__group">
 
-                                        <div
-                                            class="flats-subscribe px-layout pt-layout pb-1.5 pb-layout:md ui-background js-callback">
-                                            <div class="h2 leading-trim js-form-content mb-6.5 mb-2:md pr-2 pr-0:md">
-                                                <p>
-                                                    Send <br>
-                                                    to mail
-                                                </p>
-                                            </div>
-
-                                            <div
-                                                class="flats-subscribe__success h2 py-layout pl-layout background background--cover ui-light ui-background is-hidden js-form-success">
-                                                <p>
-                                                    Sent
-                                                </p>
-                                            </div>
-
-
-                                            <form class="flats-subscribe__form-container pt-2:md" method="POST"
-                                                action="api/favourite/pdf/mail.json"
-                                                data-plugin="ajaxForm recaptcha favouriteForm"
-                                                data-recaptcha-type="yandex"
-                                                data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
-                                                data-ajax-form-loading-delay="1500"
-                                                data-ajax-form-calltouch-title="Подписка"
-                                                data-ajax-form-calltouch-site-id="">
-                                                <div class="col col--xs-4 col--md-6 flats-subscribe__form">
-
-
-
-                                                    <input data-plugin="utmData" type="hidden" name="utm" value="">
-
-
-
-                                                    <input data-plugin="pagePathname" type="hidden"
-                                                        name="currentPageLink" value="">
+                                                            <div class="col col--md-12 mb-2.5 mb-2:md">
 
 
 
@@ -4094,77 +2764,42 @@
 
 
 
-                                                    <div class="sr-only" data-plugin="inputBear ">
-
-
-                                                        <label for="text-508791"
-                                                            class="form-label text-c1 text-color-small leading-trim">
-                                                            Message </label>
-
-                                                        <input id="text-508791" name="message" type="text" required
-                                                            value="">
-                                                    </div>
-
-                                                    <div class="flats-subscribe__group">
-
-                                                        <div class="col col--md-12 mb-2.5 mb-2:md">
-
-
-
-
-
-
-
-
-                                                            <div class="
+                                                                <div class="
         form-control form-control--input
         form-control--float                        
     " data-plugin="inputState  ">
 
-                                                                <input id="text-967448" name="email" type="email"
-                                                                    required placeholder="e-mail" maxlength="50"
-                                                                    autocapitalize="none" value="">
+                                                                    <input id="text-967448" name="email" type="email" required placeholder="e-mail" maxlength="50" autocapitalize="none" value="">
 
 
 
-                                                                <label for="text-967448"
-                                                                    class="form-label text-c1 text-color-small ">
-                                                                    e-mail </label>
+                                                                    <label for="text-967448" class="form-label text-c1 text-color-small ">
+                                                                        e-mail </label>
 
 
 
-                                                                <svg class="icon icon-form-success form-control__success"
-                                                                    width="20" height="20" aria-hidden="true"
-                                                                    viewBox="0 0 20 20"
-                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                    <use href="assets/images/icons.svg#form-success"
-                                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                                    </use>
-                                                                </svg>
+                                                                    <svg class="icon icon-form-success form-control__success" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                        <use href="assets/images/icons.svg#form-success" xlink:href="assets/images/icons.svg#form-success">
+                                                                        </use>
+                                                                    </svg>
 
-                                                                <svg class="icon icon-form-error form-control__error"
-                                                                    width="20" height="20" aria-hidden="true"
-                                                                    viewBox="0 0 20 20"
-                                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                                    <use href="assets/images/icons.svg#form-error"
-                                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                                    </use>
-                                                                </svg>
+                                                                    <svg class="icon icon-form-error form-control__error" width="20" height="20" aria-hidden="true" viewBox="0 0 20 20" style="--icon-width: 20; --icon-height: 20;">
+                                                                        <use href="assets/images/icons.svg#form-error" xlink:href="assets/images/icons.svg#form-error">
+                                                                        </use>
+                                                                    </svg>
 
-                                                                <span class="form-control__line"></span>
-                                                                <span class="form-control__progress"></span>
+                                                                    <span class="form-control__line"></span>
+                                                                    <span class="form-control__progress"></span>
+                                                                </div>
+
+
                                                             </div>
 
 
+                                                            <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width" role="alert" aria-live="assertive"></div>
                                                         </div>
 
-
-                                                        <div class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
-                                                            role="alert" aria-live="assertive"></div>
-                                                    </div>
-
-                                                    <div
-                                                        class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
+                                                        <div class="flats-subscribe__buttons row row--nowrap row--middle-xs row--between-xs">
 
 
 
@@ -4173,20 +2808,17 @@
 
 
 
-                                                        <button
-                                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
-                                                            type="submit" data-plugin=" button"
-                                                            data-button-clone-content="true">
+                                                            <button class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down" type="submit" data-plugin=" button" data-button-clone-content="true">
 
-                                                            <span class="btn__content">
+                                                                <span class="btn__content">
 
                                                                 <span class="btn__text  ">
                                                                     send
 
                                                                 </span>
 
-                                                            </span>
-                                                        </button>
+                                                                </span>
+                                                            </button>
 
 
 
@@ -4195,82 +2827,77 @@
 
 
 
-                                                        <button
-                                                            class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
-                                                            type="submit">
+                                                            <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
 
-                                                            <span class="btn__content">
+                                                                <span class="btn__content">
 
                                                                 <span class="btn__text  ">
                                                                     send
 
                                                                 </span>
 
-                                                            </span>
-                                                        </button>
+                                                                </span>
+                                                            </button>
 
-                                                        <div class=" text l-callback__limited-width ml-layout">
-                                                            <p
-                                                                class="leading-trim text-color-small text-c2-small text-right:md">
-                                                                By clicking the button, you agree
-                                                                <br>
-                                                                to our <a
-                                                                    class="btn--link btn--clone text-c2-small mt-1"
-                                                                    href="agreement.html" target="_blank">privacy
+                                                            <div class=" text l-callback__limited-width ml-layout">
+                                                                <p class="leading-trim text-color-small text-c2-small text-right:md">
+                                                                    By clicking the button, you agree
+                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="agreement.html" target="_blank">privacy
                                                                     policy</a>
-                                                            </p>
+                                                                </p>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </form>
+                                                </form>
+                                            </div>
+
+
                                         </div>
-
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <?php $this->load->view('common/modal/menu'); ?>
+                        <?php $this->load->view('common/modal/menu_picker'); ?>
+
+
                 </div>
-                <?php $this->load->view('common/modal/menu'); ?>
-                <?php $this->load->view('common/modal/menu_picker'); ?>
-
-
-            </div>
         </div>
     </div>
     <?php $this->load->view('common/cookies'); ?>
 
-    <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
-    <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
-    <script fetchpriority="low" src="assets/javascripts/design.js"></script>
-    <script>
-        (function () {
-            function c() {
-                var b = a.contentDocument || a.contentWindow.document;
-                if (b) {
-                    var d = b.createElement('script');
-                    d.innerHTML = "window.__CF$cv$params={r:'a187b4cc2fa30fe2',t:'MTc4MzYwNDA2Nw=='};var a=document.createElement('script');a.src='cdn-cgi/challenge-platform/h/b/scripts/jsd/80a697ecdece/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d)
+        <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
+        <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
+        <script fetchpriority="low" src="assets/javascripts/design.js"></script>
+        <script>
+            (function () {
+                function c() {
+                    var b = a.contentDocument || a.contentWindow.document;
+                    if (b) {
+                        var d = b.createElement('script');
+                        d.innerHTML = "window.__CF$cv$params={r:'a187b4cc2fa30fe2',t:'MTc4MzYwNDA2Nw=='};var a=document.createElement('script');a.src='cdn-cgi/challenge-platform/h/b/scripts/jsd/80a697ecdece/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d)
+                    }
+                } if (document.body) {
+                    var a = document.createElement('iframe');
+                    a.height = 1;
+                    a.width = 1;
+                    a.style.position = 'absolute';
+                    a.style.top = 0;
+                    a.style.left = 0;
+                    a.style.border = 'none';
+                    a.style.visibility = 'hidden';
+                    document.body.appendChild(a);
+                    if ('loading' !== document.readyState)
+                        c(); else if (window.addEventListener)
+                        document.addEventListener('DOMContentLoaded', c);
+                    else {
+                        var e = document.onreadystatechange || function () { };
+                        document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) }
+                    }
                 }
-            } if (document.body) {
-                var a = document.createElement('iframe');
-                a.height = 1;
-                a.width = 1;
-                a.style.position = 'absolute';
-                a.style.top = 0;
-                a.style.left = 0;
-                a.style.border = 'none';
-                a.style.visibility = 'hidden';
-                document.body.appendChild(a);
-                if ('loading' !== document.readyState)
-                    c(); else if (window.addEventListener)
-                    document.addEventListener('DOMContentLoaded', c);
-                else {
-                    var e = document.onreadystatechange || function () { };
-                    document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) }
-                }
-            }
-        })();</script>
+            })();
+        </script>
 </body>
 
 </html>
