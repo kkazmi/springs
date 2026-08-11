@@ -57,6 +57,7 @@ class Common_model extends CI_Model
         $this->db->join('property_types pt','pt.property_type_id=tst.property_type_id');
         $this->db->where('tst.display_status',1);
         $this->db->order_by('tst.display_order','ASC');
+        $this->db->limit(5);
         return $this->db->get()->result_array();
     }
 
