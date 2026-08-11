@@ -150,8 +150,7 @@
                               </p>
                            </div>
                            <div class="col col--md-6 ml-layout">
-                              <p class="l-intro__opening-subtitle text-c1 leading-trim text-color-primary"
-                                 data-reveal="text">
+                              <p class="l-intro__opening-subtitle leading-trim text-color-primary" data-reveal="text">
                                  BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian
                                  real estate by creating developments that combine world-class planning, sustainable
                                  infrastructure, and lasting value.
@@ -330,7 +329,7 @@
                         data-parallax--500-0='{"transform": "translateY(110%)"}'
                         data-parallax-measure-selector=".sticky">
                         <div class="l-intro__content-title col col--md-6 pl-1" data-reveal="title">
-                           <h2 class="h3 leading-trim">
+                           <h2 class="h3 leading-trim pt-0.5">
                               “Together, we are building communities that stand as a testament to quality, integrity,
                               and the future of India."
                            </h2>
@@ -507,30 +506,17 @@
                               </div>
                            </div>
                            <div class="l-wellness__webgl-caption pt-3">
-                              <h1 class="h1 col col--md-10 offset--md-1 mb-1 leading-trim" data-reveal="text">
+                              <h1 class="h1 col col--md-7 offset--md-1 mb-1 leading-trim" data-reveal="text">
                                  A Message from Our CMD
-                                 </h3>
-                                 <p class="h4 col col--md-10 offset--md-1 mb-1 " data-reveal="text">
-                                    "I don't believe in doing business solely for profit. True success lies in creating
-                                    developments that contribute to the growth of our nation while improving the lives
-                                    of
-                                    people.
-                                    India is witnessing an extraordinary era of progress, and with that comes a new
-                                    generation of aspirational citizens seeking better lifestyles and brighter futures.
-                                    At
-                                    BST Developers, we have built a passionate team committed to creating not just
-                                    homes,
-                                    but opportunities for long-term wealth creation and meaningful living.
-                                    We will continue to innovate, embrace the best technologies, and pursue excellence
-                                    in
-                                    everything we undertake. Above all, our greatest achievement will always be earning
-                                    the
-                                    trust of our customers, employees, partners, and stakeholders.
-                                    Together, we are building communities that stand as a testament to quality,
-                                    integrity,
-                                    and the future of India."
+                                 </h1>
+                                 <p class="h4 col col--md-7 offset--md-1 mb-1 text-justify" data-reveal="text">
+                                    "I don't believe in doing business solely for profit. True success lies in creating developments that contribute to the growth of our nation while improving the lives of people.
+                                    India is witnessing an extraordinary era of progress, and with that comes a new generation of aspirational citizens seeking better lifestyles and brighter futures.
+                                    At BST Developers, we have built a passionate team committed to creating not just homes, but opportunities for long-term wealth creation and meaningful living.
+                                    We will continue to innovate, embrace the best technologies, and pursue excellence in everything we undertake. Above all, our greatest achievement will always be earning the trust of our customers, employees, partners, and stakeholders.
+                                    <!-- Together, we are building communities that stand as a testament to quality, integrity, and the future of India." -->
                                  </p>
-                                 <div class="col col--md-10 offset--md-1 text-right">
+                                 <div class="col col--md-7 offset--md-1 text-right">
                                     <p class="h4 leading-trim" data-reveal="text">
                                        — Mr. Yoginder Tanwar<br />
                                        Chairman & Managing Director<br />
@@ -2899,7 +2885,7 @@
                            data-parallax--150-0='{"opacity": "1", "transform": "translate(-50%, -50%)"}'
                            data-parallax--250-0='{"opacity": "0", "transform": "translate(-50%, -90%)"}'>
                            <h3 class="h3 leading-trim text-center" data-reveal="title">
-                              Each floor reflects boundless perspectives in its glistening waves, inviting you
+                              Each plot reflects boundless perspectives in its glistening waves, inviting you
                               to look farther with a fuller palette of possibilities.
                            </h3>
                         </div>
@@ -3059,7 +3045,7 @@
                      data-themed-class="ui-light">
                      <div class="l-design__title col col--md-5 mx-auto">
                         <h3 class="h3 leading-trim text-center">
-                           Each floor reflects boundless perspectives in its glistening waves, inviting you
+                           Each plot reflects boundless perspectives in its glistening waves, inviting you
                            to look farther with a fuller palette of possibilities.
                         </h3>
                      </div>

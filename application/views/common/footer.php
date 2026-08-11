@@ -52,9 +52,9 @@
          </div>
          <div class="row row--between-xs">
             <div class="col col--xs-4 col--md-12 group group--center pt-4 pb-5 py-2:md">
-               <a href="<?php echo base_url(); ?>" class="footer__logo" aria-label="homepage" data-ajax-page-ignore>
-                  <img class="img-full " alt="" draggable="false" width="661" height="218"
-                     src="assets/images/bst-new-logo.png">
+               <!-- <a href="<?php echo base_url(); ?>" class="footer__logo" aria-label="homepage" data-ajax-page-ignore> -->
+               <a href="#top" class="footer__logo " aria-label="Scroll to top of the page">
+                  <img class="img-full " alt="" draggable="false" width="661" height="218" src="assets/images/bst-new-logo.png">
                </a>
             </div>
          </div>

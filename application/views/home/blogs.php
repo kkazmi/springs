@@ -1,7 +1,13 @@
 <div class="jSliderContainer">
-    <h1 class="section-title">
-    Latest Real Estate Insights
-    </h1>
+    <div class="row">
+        <h2 class="h2 text-heading-dark col col--md-6 pl-1">
+            Latest Real Estate Insights
+        </h2>
+        <div class="controls col col--md-6 pr-1 text-right">
+            <button id="prev">&#10094;</button>
+            <button id="next">&#10095;</button>
+        </div>
+    </div>
     <div class="coverflow">
     <div class="viewport">
         <div class="track">
@@ -119,8 +125,8 @@
         </div>
     </div>
     </div>
-    <div class="controls">
+    <!-- <div class="controls">
     <button id="prev">&#10094;</button>
     <button id="next">&#10095;</button>
-    </div>
+    </div> -->
 </div>
