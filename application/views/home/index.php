@@ -144,12 +144,12 @@
                            data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
                            data-parallax--100-0='{"opacity": "1", "transform": "translateY(0%)"}'
                            data-parallax--150-0='{"opacity": "0", "transform": "translateY(-50%)"}'>
-                           <div class="col col--md-4 mb-1 ml-layout">
+                           <div class="col col--md-7 mb-1 ml-layout">
                               <p class=" h1 leading-trim text-color-primary" data-reveal="title">
                                  A Dream That Became a Vision
                               </p>
                            </div>
-                           <div class="col col--md-6 ml-layout">
+                           <div class="col col--md-7 ml-layout">
                               <p class="l-intro__opening-subtitle leading-trim text-color-primary" data-reveal="text">
                                  BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian
                                  real estate by creating developments that combine world-class planning, sustainable

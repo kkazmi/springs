@@ -1,5 +1,5 @@
 <div class="pxltsSlider">
-    <div id="pxltsSliderUniverse9045">
+    <div id="pxltsSliderUniverse9045" class="px-layout">
     <div class="pxltsSliderHeading6789">
         <h2 class="h2 text-heading-dark">What our Client's say about us!</h2>
         <button id="pxltsPrev9045" class="pxltsArrow9045">&#10094;</button>
