@@ -63,7 +63,7 @@
                             <div class="modal__scroller__scrollable js-scroll-parent">
                                 <div class="modal__content-wrapper js-modal-scrollable-content">
                                     <div class="modal__content ui-background js-modal-ignore-auto-close js-scroll-parent-ignore">
-                                        <a class="btn btn--primary btn--square modal__close " href="gallery.html"
+                                        <a class="btn btn--primary btn--square modal__close " href="<?php echo base_url('gallery');?>" 
                                             aria-label="Close">
                                             <span class="btn__content">
                                                 <span class="btn__icon ">
