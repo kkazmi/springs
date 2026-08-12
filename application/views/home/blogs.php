@@ -32,7 +32,7 @@
                 <?php endforeach; ?>
             </div>
             <p class="text-center">
-                <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                <a href="<?php echo base_url('blog');?>" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                     <span class="btn__content">
                         <span class="btn__text btn__text--clone">
                             View All Blogs
