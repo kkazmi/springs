@@ -21338,6 +21338,7 @@ jdiv.__jivoMobileButton {
 
 .btn.btn--secondary {
     border: 1px solid;
+    font-weight: normal;
 }
 
 .l-gallery__caption p.text-center a.btn svg.icon {
