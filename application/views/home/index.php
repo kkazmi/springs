@@ -2169,7 +2169,7 @@
                               </div>
                               <div class="mt-0.3">
                                  <p class="h0 leading-trim">
-                                    Green Bhoomi
+                                    2
                                  </p>
                               </div>
                               <div class="mt-0.5">

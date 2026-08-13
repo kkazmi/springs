@@ -37,22 +37,19 @@
         </div>
         <div class="px-layout l-interiors__intro-caption">
             <h2 class="text-right g1 leading-trim" data-reveal="title">
-                Interiors
+                Green Bhoomi
             </h2>
             <div class="mt-1">
                 <p class="text-c1 text-right leading-trim" data-reveal="title"
                 data-reveal-distance="100px">
-                Beauty in the Essence of Things
+                Crafted for Timeless Living
                 </p>
             </div>
         </div>
         <div class="px-layout">
             <div class="l-interiors__intro__text mt-3 col col--md-4">
                 <p class="text-t1 leading-trim" data-reveal="text">
-                Our designs are chosen with a delicate treatment of materials and
-                time; time that will soon become history, a story of family generations.
-                Natural stone, warm wood, aged metal, and textured textiles. This is how we create
-                a visual and tactile space for authentically high-class comfort.
+                Your future begins with the right piece of land. Our thoughtfully planned plots combine prime locations, modern infrastructure, and natural surroundings to create the perfect foundation for your dream home or investment. Wide roads, green landscapes, and well-designed communities ensure lasting value for generations to come.
                 </p>
             </div>
         </div>
@@ -109,162 +106,6 @@
                 </noscript>
             </div>
             <?php endforeach; ?>
-            <!-- <div data-content-animation-item="2" class="col col--md-12 is-hidden" aria-hidden="true">
-                <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                draggable="false">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                    width="720" height="900">
-                <img
-                    data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    alt="" width="720" height="900" draggable="false">
-                </picture>
-                <noscript>
-                <picture class=" img-cover" draggable="false">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                        width="720" height="900">
-                    <img
-                        src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                        alt="" width="720" height="900" draggable="false">
-                </picture>
-                </noscript>
-            </div>
-            <div data-content-animation-item="3" class="col col--md-12 is-hidden" aria-hidden="true">
-                <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                draggable="false">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                    width="720" height="900">
-                <img
-                    data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    alt="" width="720" height="900" draggable="false">
-                </picture>
-                <noscript>
-                <picture class=" img-cover" draggable="false">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                        width="720" height="900">
-                    <img
-                        src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                        alt="" width="720" height="900" draggable="false">
-                </picture>
-                </noscript>
-            </div>
-            <div data-content-animation-item="4" class="col col--md-12 is-hidden" aria-hidden="true">
-                <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                draggable="false">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                    width="720" height="900">
-                <img
-                    data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    alt="" width="720" height="900" draggable="false">
-                </picture>
-                <noscript>
-                <picture class=" img-cover" draggable="false">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                        width="720" height="900">
-                    <img
-                        src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                        alt="" width="720" height="900" draggable="false">
-                </picture>
-                </noscript>
-            </div>
-            <div data-content-animation-item="5" class="col col--md-12 is-hidden" aria-hidden="true">
-                <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                draggable="false">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                <source
-                    data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                    width="720" height="900">
-                <img
-                    data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                    alt="" width="720" height="900" draggable="false">
-                </picture>
-                <noscript>
-                <picture class=" img-cover" draggable="false">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                    <source
-                        srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                        width="720" height="900">
-                    <img
-                        src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                        alt="" width="720" height="900" draggable="false">
-                </picture>
-                </noscript>
-            </div> -->
         </div>
         <div class="l-interiors__slider-thumb col col--md-6 px-1 py-1 px-layout:lg py-layout:lg"
             data-plugin="parallax " data-parallax-enable-mq="md-up" data-parallax-clamp="true"
@@ -280,60 +121,11 @@
                     </noscript>
                 </div>
                 <?php endforeach; ?>
-                <!-- <div class="l-interiors__slider-thumb__links__item js-content-animation-link "
-                data-content-animation-id="2">
-                <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false"
-                    width="60" height="60" data-plugin="appear "
-                    data-src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-5.webp"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                <noscript>
-                    <img class="img-full " alt="" draggable="false" width="60" height="60"
-                        src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-5.webp">
-                </noscript>
-                </div>
-                <div class="l-interiors__slider-thumb__links__item js-content-animation-link "
-                data-content-animation-id="3">
-                <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false"
-                    width="60" height="60" data-plugin="appear "
-                    data-src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-4.webp"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                <noscript>
-                    <img class="img-full " alt="" draggable="false" width="60" height="60"
-                        src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-4.webp">
-                </noscript>
-                </div>
-                <div class="l-interiors__slider-thumb__links__item js-content-animation-link "
-                data-content-animation-id="4">
-                <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false"
-                    width="60" height="60" data-plugin="appear "
-                    data-src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-1.webp"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                <noscript>
-                    <img class="img-full " alt="" draggable="false" width="60" height="60"
-                        src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-1.webp">
-                </noscript>
-                </div>
-                <div class="l-interiors__slider-thumb__links__item js-content-animation-link "
-                data-content-animation-id="5">
-                <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false"
-                    width="60" height="60" data-plugin="appear "
-                    data-src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-2.webp"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
-                <noscript>
-                    <img class="img-full " alt="" draggable="false" width="60" height="60"
-                        src="media/cache/homepage_interiors_slider_thumb/assets/images/media/landing/8.interiors/interiors-thumb-2.webp">
-                </noscript>
-                </div> -->
             </div>
             <div class="l-interiors__slider__caption">
                 <div class="mb-0.5">
                 <p class="text-t1 leading-trim" data-reveal="text">
-                    The acclaimed Quadro Room studio collaborated with UNIQ Development
-                    to create exquisitely refined finishing style, in which natural beauty
-                    seamlessly flows from today to tomorrow and remains timeless. Each
-                    residence offers a complete turnkey experience, so that you can enjoy
-                    the beauty of your new life from the very first moments.
-                    Muted palette, arched portals, smooth curves. Refinement is the new luxury.
+                    Designed for a healthier and more connected lifestyle, our thoughtfully planned community offers spaces where every generation can thrive. From lush green parks and a vibrant children's play area to an open-air gym, a serene yoga deck, and a community amphitheatre, every amenity is crafted to bring comfort, recreation, and togetherness into everyday living.
                 </p>
                 </div>
             </div>
@@ -383,14 +175,12 @@
         </div>
         <div class="px-layout l-interiors__intro-caption pb-4">
             <div class="mt-0.3">
-                <h2 class="text-right g1 leading-trim">Interiors</h2>
+                <h2 class="text-right g1 leading-trim">Green Bhoomi</h2>
             </div>
-            <p class="mt-1 text-c1 leading-trim text-right">Beauty in the Essence of Things</p>
+            <p class="mt-1 text-c1 leading-trim text-right">Crafted for Timeless Living</p>
             <div class="l-interiors__intro__text">
                 <p class="text-t1 leading-trim">
-                    Our designs are chosen with a delicate treatment of materials and time; time that will soon become
-                    history, a story of family generations. Natural stone, warm wood, aged metal, and textured textiles.
-                    This is how we create a visual and tactile space for authentically high-class comfort.
+                    Your future begins with the right piece of land. Our thoughtfully planned plots combine prime locations, modern infrastructure, and natural surroundings to create the perfect foundation for your dream home or investment. Wide roads, green landscapes, and well-designed communities ensure lasting value for generations to come.
                 </p>
             </div>
         </div>
@@ -465,322 +255,6 @@
                     <div class="dim dim--lighter"></div>
                 </li>
                 <?php endforeach; ?>
-                <!-- <li class="mobile-scrollable__item">
-                    <picture
-                        class="is-invisible--js is-hidden--no-js img-cover"
-                        data-plugin="appear "
-                        draggable="false"
-                    >
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 1920px) and (min-height: 700px)"
-                            width="720"
-                            height="900"
-                        />
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 1440px) and (min-height: 700px)"
-                            width="720"
-                            height="900"
-                        />
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                            width="720"
-                            height="900"
-                        />
-                        <img
-                            data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                            alt=""
-                            width="720"
-                            height="900"
-                            draggable="false"
-                        />
-                    </picture>
-                    <noscript>
-                        <picture class="img-cover" draggable="false">
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp
-                                "
-                                media="(min-width: 1920px) and (min-height: 700px)"
-                                width="720"
-                                height="900"
-                            />
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp
-                                "
-                                media="(min-width: 1440px) and (min-height: 700px)"
-                                width="720"
-                                height="900"
-                            />
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp
-                                "
-                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                width="720"
-                                height="900"
-                            />
-                            <img
-                                src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
-                                alt=""
-                                width="720"
-                                height="900"
-                                draggable="false"
-                            />
-                        </picture>
-                    </noscript>
-                    <div class="dim dim--lighter"></div>
-                </li>
-                <li class="mobile-scrollable__item">
-                    <picture
-                        class="is-invisible--js is-hidden--no-js img-cover"
-                        data-plugin="appear "
-                        draggable="false"
-                    >
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 1920px) and (min-height: 700px)"
-                            width="720"
-                            height="900"
-                        />
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 1440px) and (min-height: 700px)"
-                            width="720"
-                            height="900"
-                        />
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                            width="720"
-                            height="900"
-                        />
-                        <img
-                            data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                            alt=""
-                            width="720"
-                            height="900"
-                            draggable="false"
-                        />
-                    </picture>
-                    <noscript>
-                        <picture class="img-cover" draggable="false">
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp
-                                "
-                                media="(min-width: 1920px) and (min-height: 700px)"
-                                width="720"
-                                height="900"
-                            />
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp
-                                "
-                                media="(min-width: 1440px) and (min-height: 700px)"
-                                width="720"
-                                height="900"
-                            />
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp
-                                "
-                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                width="720"
-                                height="900"
-                            />
-                            <img
-                                src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
-                                alt=""
-                                width="720"
-                                height="900"
-                                draggable="false"
-                            />
-                        </picture>
-                    </noscript>
-                    <div class="dim dim--lighter"></div>
-                </li>
-                <li class="mobile-scrollable__item">
-                    <picture
-                        class="is-invisible--js is-hidden--no-js img-cover"
-                        data-plugin="appear "
-                        draggable="false"
-                    >
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 1920px) and (min-height: 700px)"
-                            width="720"
-                            height="900"
-                        />
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 1440px) and (min-height: 700px)"
-                            width="720"
-                            height="900"
-                        />
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                            width="720"
-                            height="900"
-                        />
-                        <img
-                            data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                            alt=""
-                            width="720"
-                            height="900"
-                            draggable="false"
-                        />
-                    </picture>
-                    <noscript>
-                        <picture class="img-cover" draggable="false">
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp
-                                "
-                                media="(min-width: 1920px) and (min-height: 700px)"
-                                width="720"
-                                height="900"
-                            />
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp
-                                "
-                                media="(min-width: 1440px) and (min-height: 700px)"
-                                width="720"
-                                height="900"
-                            />
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp
-                                "
-                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                width="720"
-                                height="900"
-                            />
-                            <img
-                                src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
-                                alt=""
-                                width="720"
-                                height="900"
-                                draggable="false"
-                            />
-                        </picture>
-                    </noscript>
-                    <div class="dim dim--lighter"></div>
-                </li>
-                <li class="mobile-scrollable__item">
-                    <picture
-                        class="is-invisible--js is-hidden--no-js img-cover"
-                        data-plugin="appear "
-                        draggable="false"
-                    >
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 1920px) and (min-height: 700px)"
-                            width="720"
-                            height="900"
-                        />
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 1440px) and (min-height: 700px)"
-                            width="720"
-                            height="900"
-                        />
-                        <source
-                            data-srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                            srcset="
-                                data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E
-                            "
-                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                            width="720"
-                            height="900"
-                        />
-                        <img
-                            data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                            alt=""
-                            width="720"
-                            height="900"
-                            draggable="false"
-                        />
-                    </picture>
-                    <noscript>
-                        <picture class="img-cover" draggable="false">
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp
-                                "
-                                media="(min-width: 1920px) and (min-height: 700px)"
-                                width="720"
-                                height="900"
-                            />
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp
-                                "
-                                media="(min-width: 1440px) and (min-height: 700px)"
-                                width="720"
-                                height="900"
-                            />
-                            <source
-                                srcset="
-                                    media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp
-                                "
-                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                width="720"
-                                height="900"
-                            />
-                            <img
-                                src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
-                                alt=""
-                                width="720"
-                                height="900"
-                                draggable="false"
-                            />
-                        </picture>
-                    </noscript>
-                    <div class="dim dim--lighter"></div>
-                </li> -->
                 
             </ul>
         </div>
@@ -795,10 +269,7 @@
     <div class="mt-1">
         <div class="mb-1">
             <p class="text-t1 leading-trim">
-                The acclaimed Quadro Room studio collaborated with UNIQ Development to create exquisitely refined
-                finishing style, in which natural beauty seamlessly flows from today to tomorrow and remains timeless.
-                Each residence offers a complete turnkey experience, so that you can enjoy the beauty of your new life
-                from the very first moments. Muted palette, arched portals, smooth curves. Refinement is the new luxury.
+                Designed for a healthier and more connected lifestyle, our thoughtfully planned community offers spaces where every generation can thrive. From lush green parks and a vibrant children's play area to an open-air gym, a serene yoga deck, and a community amphitheatre, every amenity is crafted to bring comfort, recreation, and togetherness into everyday living.
             </p>
         </div>
     </div>
