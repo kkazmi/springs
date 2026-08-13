@@ -102,7 +102,7 @@
                                     By clicking the button, you agree
                                     <br>
                                     to our <a class="btn--link btn--clone text-c2-small mt-1"
-                                        href="agreement.html" target="_blank">privacy policy</a>
+                                        href="<?php echo base_url('privacy');?>" target="_blank">privacy policy</a>
                                     </p>
                                 </div>
                             </div>

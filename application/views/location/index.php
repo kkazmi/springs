@@ -961,7 +961,7 @@
                                                                             <div class=" text l-callback__limited-width ml-layout">
                                                                                 <p class="leading-trim text-color-small text-c2-small text-right:md">
                                                                                     By clicking the button, you agree
-                                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="agreement.html" target="_blank">privacy policy</a>
+                                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="<?php echo base_url('privacy');?>" target="_blank">privacy policy</a>
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -1079,7 +1079,7 @@
                                                                             <div class=" text l-callback__limited-width ml-layout">
                                                                                 <p class="leading-trim text-color-small text-c2-small text-right:md">
                                                                                     By clicking the button, you agree
-                                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="agreement.html" target="_blank">privacy policy</a>
+                                                                                    <br> to our <a class="btn--link btn--clone text-c2-small mt-1" href="<?php echo base_url('privacy');?>" target="_blank">privacy policy</a>
                                                                                 </p>
                                                                             </div>
                                                                         </div>
