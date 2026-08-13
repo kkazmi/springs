@@ -1299,41 +1299,41 @@
                                        <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                                           data-plugin="appear " draggable="false">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/3.nature/hospitality_xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                              height="854">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/3.nature/hospitality_xxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                              height="854">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/3.nature/hospitality_md.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="640" height="854">
                                           <img
-                                             data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-1%40xs.webp"
+                                             data-src="assets/images/media/landing/3.nature/hospitality_xs.webp"
                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              alt="" width="640" height="854" draggable="false">
                                        </picture>
                                        <noscript>
                                           <picture class=" img-full parallax-image-move" draggable="false">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
+                                                srcset="assets/images/media/landing/3.nature/hospitality_xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
+                                                srcset="assets/images/media/landing/3.nature/hospitality_xxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
+                                                srcset="assets/images/media/landing/3.nature/hospitality_md.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="640" height="854">
                                              <img
-                                                src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-1%40xs.webp"
+                                                src="assets/images/media/landing/3.nature/hospitality_xs.webp"
                                                 alt="" width="640" height="854" draggable="false">
                                           </picture>
                                        </noscript>
@@ -1342,41 +1342,41 @@
                                        <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                                           data-plugin="appear " draggable="false">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/3.nature/green_bhoomi_xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                              height="854">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/3.nature/green_bhoomi_xxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                              height="854">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/3.nature/green_bhoomi_md.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="640" height="854">
                                           <img
-                                             data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-2%40xs.webp"
+                                             data-src="assets/images/media/landing/3.nature/green_bhoomi_xs.webp"
                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              alt="" width="640" height="854" draggable="false">
                                        </picture>
                                        <noscript>
                                           <picture class=" img-full parallax-image-move" draggable="false">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
+                                                srcset="assets/images/media/landing/3.nature/green_bhoomi_xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
+                                                srcset="assets/images/media/landing/3.nature/green_bhoomi_xxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
+                                                srcset="assets/images/media/landing/3.nature/green_bhoomi_md.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="640" height="854">
                                              <img
-                                                src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-2%40xs.webp"
+                                                src="assets/images/media/landing/3.nature/green_bhoomi_xs.webp"
                                                 alt="" width="640" height="854" draggable="false">
                                           </picture>
                                        </noscript>
@@ -1385,41 +1385,41 @@
                                        <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                                           data-plugin="appear " draggable="false">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/3.nature/green_gold_xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                              height="854">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/3.nature/green_gold_xxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                              height="854">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             data-srcset="assets/images/media/landing/3.nature/green_gold_md.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="640" height="854">
                                           <img
-                                             data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                             data-src="assets/images/media/landing/3.nature/green_gold_xs.webp"
                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              alt="" width="640" height="854" draggable="false">
                                        </picture>
                                        <noscript>
                                           <picture class=" img-full parallax-image-move" draggable="false">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                srcset="assets/images/media/landing/3.nature/green_gold_xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                srcset="assets/images/media/landing/3.nature/green_gold_xxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                srcset="assets/images/media/landing/3.nature/green_gold_md.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="640" height="854">
                                              <img
-                                                src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                                src="assets/images/media/landing/3.nature/green_gold_xs.webp"
                                                 alt="" width="640" height="854" draggable="false">
                                           </picture>
                                        </noscript>
@@ -1816,7 +1816,7 @@
                         <div class="l-place-webgl">
                            <div class="l-place-webgl-caption pt-6:md pt-4:xxxl px-layout">
                               <h2 class="text-right g1 leading-trim" data-reveal="title">
-                                 Place
+                                 Statistics
                               </h2>
                               <div class="mt-1">
                                  <p class="l-place-webgl-caption__subtitle text-c1 text-right leading-trim"
@@ -1842,10 +1842,7 @@
                            data-parallax--950-0='{"transform": "translateY(120%)"}'
                            data-parallax-measure-selector=".sticky">
                            <h3 class="h3 mt-6 offset--md-6 leading-trim" data-reveal="text">
-                              Breathe in the air and open space. Do you feel like running?
-                              Don&rsquo;t hold back. As you are running along the embankment, delight
-                              in the kaleidoscope of shifting panoramas that will leave you impressed.
-                              Set your pace and change it at your desire.
+                              We are helping people find the right property with confidence. Our growing presence across 100+ prime locations reflects our commitment to making real estate simple, transparent, and accessible for everyone. With trusted guidance and a wide range of opportunities, we make every property journey easier and more rewarding.
                            </h3>
                         </div>
                      </div>
@@ -2061,7 +2058,7 @@
                               data-parallax-0--100='{"transform": "translateY(20vh)"}'
                               data-parallax-0-100='{"transform": "translateY(-6vh)"}'>
                               <h2 class="g1 leading-trim text-right">
-                                 Place
+                                 Statistics
                               </h2>
                               <p class="l-nature-bg-caption__subtitle text-c1 leading-trim text-right mt-1">
                                  Essence of Contemplation
@@ -2386,10 +2383,7 @@
                         </noscript>
                      </div>
                      <h3 class="l-place-description__title leading-trim h3 px-layout pt-0.5 pb-3">
-                        Breathe in the air and open space. Do you feel like running? Don&rsquo;t
-                        hold back. As you are running along the embankment, delight
-                        in the kaleidoscope of shifting panoramas that will leave you impressed. Set your
-                        pace and change it at your desire.
+                        We are helping people find the right property with confidence. Our growing presence across 100+ prime locations reflects our commitment to making real estate simple, transparent, and accessible for everyone. With trusted guidance and a wide range of opportunities, we make every property journey easier and more rewarding.
                      </h3>
                      <div class="l-place-description__gradient"></div>
                   </div>
@@ -2680,7 +2674,7 @@
                               <div class="l-map-caption__text col col--md-5 pl-layout py-layout">
                                  <h3 class="h3 leading-trim">
                                     Easy access to Nature Park. Landscapes of watercolor tenderness that
-                                    belong only to you.
+                                    belong only </br> to you.
                                  </h3>
                               </div>
                            </div>
@@ -2716,7 +2710,7 @@
                               <div class="l-map-caption__text col col--md-6 px-layout pt-layout">
                                  <h3 class="h3 leading-trim mb-1">
                                     Easy access to Nature Park. Landscapes of watercolor tenderness that
-                                    belong only to you.
+                                    belong only </br> to you.
                                  </h3>
                               </div>
                               <div class="l-map-caption__map" data-plugin="landingMapScroll">
