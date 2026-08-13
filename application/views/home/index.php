@@ -2122,7 +2122,7 @@
                               </div>
                               <div class="mt-0.3">
                                  <p class="h0 leading-trim">
-                                    3
+                                    10+
                                  </p>
                               </div>
                               <div class="mt-0.5">
@@ -2169,12 +2169,12 @@
                               </div>
                               <div class="mt-0.3">
                                  <p class="h0 leading-trim">
-                                    9
+                                    Green Bhoomi
                                  </p>
                               </div>
                               <div class="mt-0.5">
                                  <p class="text-c1 text-right leading-trim">
-                                    Completed Developments
+                                    Completed Projects
                                  </p>
                               </div>
                            </div>
@@ -2216,7 +2216,7 @@
                               </div>
                               <div class="mt-0.3">
                                  <p class="h0 leading-trim">
-                                    16
+                                    100+
                                  </p>
                               </div>
                               <div class="mt-0.5">
