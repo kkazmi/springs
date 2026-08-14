@@ -1655,6 +1655,15 @@
                                           <li>High appreciation potential</li>
                                           <li>Planned infrastructure</li>
                                        </ul>
+                                       <p class="text-left mt-0.5">
+                                          <a href="<?php echo base_url('project');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                             <span class="btn__content">
+                                                   <span class="btn__text btn__text--clone">
+                                                      View Details
+                                                   </span>
+                                             </span>
+                                          </a>
+                                       </p>
                                     </div>
                                     <div data-content-animation-item="3" class="is-hidden" aria-hidden="true">
                                        <h3 class="h3 mtb-2">
@@ -1678,6 +1687,15 @@
                                           <li>Community-focused planning</li>
                                           <li>Green surroundings</li>
                                        </ul>
+                                       <p class="text-left mt-0.5">
+                                          <a href="<?php echo base_url('project');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                             <span class="btn__content">
+                                                   <span class="btn__text btn__text--clone">
+                                                      View Details
+                                                   </span>
+                                             </span>
+                                          </a>
+                                       </p>
                                     </div>
 
                                     <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
@@ -1702,6 +1720,15 @@
                                           <li>Community-focused planning</li>
                                           <li>Green surroundings</li>
                                        </ul>
+                                       <p class="text-left mt-0.5">
+                                          <a href="<?php echo base_url('project');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                             <span class="btn__content">
+                                                   <span class="btn__text btn__text--clone">
+                                                      View Details
+                                                   </span>
+                                             </span>
+                                          </a>
+                                       </p>
                                     </div>
 
                                     <div data-content-animation-item="5" class="is-hidden" aria-hidden="true">
@@ -1726,6 +1753,15 @@
                                           <li>Community-focused planning</li>
                                           <li>Green surroundings</li>
                                        </ul>
+                                       <p class="text-left mt-0.5">
+                                          <a href="<?php echo base_url('project');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                             <span class="btn__content">
+                                                   <span class="btn__text btn__text--clone">
+                                                      View Details
+                                                   </span>
+                                             </span>
+                                          </a>
+                                       </p>
                                     </div>
 
                                     <div data-content-animation-item="6" class="is-hidden" aria-hidden="true">
@@ -1750,6 +1786,15 @@
                                           <li>Community-focused planning</li>
                                           <li>Green surroundings</li>
                                        </ul>
+                                       <p class="text-left mt-0.5">
+                                          <a href="<?php echo base_url('project');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                             <span class="btn__content">
+                                                   <span class="btn__text btn__text--clone">
+                                                      View Details
+                                                   </span>
+                                             </span>
+                                          </a>
+                                       </p>
                                     </div>
 
                                     <div data-content-animation-item="7" class="is-hidden" aria-hidden="true">
@@ -1774,6 +1819,15 @@
                                           <li>Community-focused planning</li>
                                           <li>Green surroundings</li>
                                        </ul>
+                                       <p class="text-left mt-0.5">
+                                          <a href="<?php echo base_url('project');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                             <span class="btn__content">
+                                                   <span class="btn__text btn__text--clone">
+                                                      View Details
+                                                   </span>
+                                             </span>
+                                          </a>
+                                       </p>
                                     </div>
                                  </div>
                                  <div class="group group--small">
@@ -2263,12 +2317,12 @@
                               </div>
                               <div class="mt-0.3">
                                  <p class="h0 leading-trim">
-                                    280
+                                    280 Acre
                                  </p>
                               </div>
                               <div class="mt-0.5">
                                  <p class="text-c1 text-right leading-trim">
-                                    Delivered Projects
+                                    Land Bank
                                  </p>
                               </div>
                            </div>
