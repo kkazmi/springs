@@ -18,20 +18,7 @@
 </head>
 
 <body data-barba="wrapper">
-    <a href="#top" class="sr-only sr-only--focusable">Skip to main content</a>
-    <div class="preloader js-preloader" data-plugin="preloader" data-preloader-visible="true">
-        <div class="preloader__content ui-dark ui-background">
-            <div class="preloader__content ui-dark ui-background">
-                <div class="background background--cover preloader__gradient-animation">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <p class="preloader__content__cover h1"> </p>
-            </div>
-        </div>
-    </div>
+    <?php $this->load->view("common/preloader"); ?>
     <div class="page-content-wrapper ui-light-background" data-barba="container" data-barba-namespace="page" data-plugin="utmSave">
         <div class="page-content-wrapper__inner js-page-content-wrapper">
             <?php $this->load->view("common/header"); ?>
@@ -117,11 +104,6 @@
                                             </picture>
 
                                             <noscript>
-
-
-
-
-
                                                 <picture class=" a-about__big-img img-cover" draggable="false">
                                                     <source srcset="media/cache/about_about_bg_xxxl/assets/images/media/about/2.about/image-1%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                                     <source srcset="media/cache/about_about_bg_xxl/assets/images/media/about/2.about/image-1%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
@@ -129,10 +111,7 @@
                                                     <img src="media/cache/about_about_bg_xs/assets/images/media/about/2.about/image-1-xs%40xs.webp" alt="" width="720" height="840" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="md-up" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
                                                     data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}" draggable="false">
                                                 </picture>
-
-
                                             </noscript>
-
                                         </div>
                                         <div class=" col col--xs-4 col--md-6 ui-dark ui-background p-relative" data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"}'
                                         data-parallax--100-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}'>
@@ -140,7 +119,6 @@
                                                 <div></div>
                                                 <div></div>
                                             </div>
-
                                             <div class="a-about__content pt-2.5 px-layout pb-3 pb-layout:md p-relative">
                                                 <p class="a-about__text h3 leading-trim">
                                                     A Dream That Became a Vision
@@ -421,10 +399,7 @@
                                 </div>
                                 <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#a-place" data-plugin="parallax" data-parallax-pattern="placesSlide">
                                     <div class="a-place__caption col col--md-3 offset--md-9">
-                                        <div class="a-place__caption__content-animation js-place-content" data-plugin="contentAnimation" data-content-animation-animations='{
-                    "changeShow": {"name": "fadeIn"},
-                    "changeHide": {"name": "fadeOut"}
-                }' data-content-aninmation-fixed-height="true" data-content-animation-plugins="controller events">
+                                        <div class="a-place__caption__content-animation js-place-content" data-plugin="contentAnimation" data-content-animation-animations='{"changeShow": {"name": "fadeIn"}, "changeHide": {"name": "fadeOut"} }' data-content-aninmation-fixed-height="true" data-content-animation-plugins="controller events">
                                             <div class="content-animation">
                                                 <div data-content-animation-item="1" class="ui-background ui-dark " aria-hidden="false">
                                                     <div class="a-place__caption__card ui-background">
@@ -1124,7 +1099,7 @@
                             </div>
                         </section>
                     </main>
-                    <?php $this->load->view("common/footer.php"); ?>
+                    <?php $this->load->view("common/footer"); ?>
                 </div>
                 <div class="js-modal">
                     <?php $this->load->view('common/modal/callback'); ?>

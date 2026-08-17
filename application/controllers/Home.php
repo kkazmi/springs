@@ -16,6 +16,8 @@ class Home extends CI_Controller {
             'testimonials'=>$this->common_model->getTestimonials(),
             'interior_images'=>$this->common_model->getInteriorImages(),
             'blogs'=>$this->common_model->getBlogs(),
+            'amenities_slider'=>$this->common_model->getAmenitiesSlider(),
+            'amenities_gallery'=>$this->common_model->getAmenitiesGallery(),
         );
         
         $this->load->view('home/index', $data);

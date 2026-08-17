@@ -27,22 +27,7 @@
 </head>
 
 <body data-barba="wrapper">
-    <a href="#top" class="sr-only sr-only--focusable">
-        Skip to main content
-    </a>
-    <div class="preloader js-preloader" data-plugin="preloader" data-preloader-visible="true">
-        <div class="preloader__content ui-dark ui-background">
-            <div class="preloader__content ui-dark ui-background">
-                <div class="background background--cover preloader__gradient-animation">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <p class="preloader__content__cover h1"></p>
-            </div>
-        </div>
-    </div>
+    <?php $this->load->view("common/preloader"); ?>
     <div class="page-content-wrapper ui-light-background" data-barba="container" data-barba-namespace="page"
         data-plugin="utmSave">
         <div class="page-content-wrapper__inner js-page-content-wrapper">

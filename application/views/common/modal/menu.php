@@ -61,7 +61,7 @@
                                 href="<?php echo base_url('flats'); ?>" data-plugin=" button" data-button-clone-content="true">
                                 <span class="btn__content">
                                     <span class="btn__text  ">
-                                    Residences
+                                        Residences
                                     </span>
                                 </span>
                             </a>
@@ -145,7 +145,7 @@
                         <div class="pt-1 is-hidden--sm-down"></div>
                         <ul class="menu__list__list pt-2 pt-0:md">
                             <li class="js-content-animation-link is-active" data-content-animation-id="1">
-                                <a href="<?php echo base_url('flats'); ?>" class="leading-trim">Residences</a>
+                                <a href="<?php echo base_url('detail'); ?>" class="leading-trim">Residences</a>
                             </li>
                             <li class="js-content-animation-link " data-content-animation-id="2">
                                 <a href="<?php echo base_url('design'); ?>" class="leading-trim">
@@ -170,6 +170,11 @@
                             <li class="js-content-animation-link " data-content-animation-id="6">
                                 <a href="<?php echo base_url('about'); ?>" class="leading-trim">
                                     About
+                                </a>
+                            </li>
+                            <li class="js-content-animation-link " data-content-animation-id="6">
+                                <a href="<?php echo base_url('news'); ?>" class="leading-trim">
+                                    News & Media
                                 </a>
                             </li>
                         </ul>

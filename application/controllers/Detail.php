@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Project extends CI_Controller {
+class Detail extends CI_Controller {
 
     function __construct()
     {
@@ -9,7 +9,7 @@ class Project extends CI_Controller {
     public function index()
     {
         $data = array();
-        echo "ttst"; die;
+        // echo "ttst"; die;
         $this->load->view('project/index', $data);
     }
 }

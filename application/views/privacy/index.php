@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>BST Developers | Privacy policy</title>
-    <link rel="preconnect" href="https://storage.googleapis.com/" crossorigin>
+    <!-- <link rel="preconnect" href="https://storage.googleapis.com/" crossorigin> -->
     <style>
         .js.not-ready,
         .js.not-ready * {
@@ -27,22 +27,7 @@
 </head>
 
 <body data-barba="wrapper">
-    <a href="#top" class="sr-only sr-only--focusable">
-        Skip to main content
-    </a>
-    <div class="preloader js-preloader" data-plugin="preloader" data-preloader-visible="true">
-        <div class="preloader__content ui-dark ui-background">
-            <div class="preloader__content ui-dark ui-background">
-                <div class="background background--cover preloader__gradient-animation">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <p class="preloader__content__cover h1"></p>
-            </div>
-        </div>
-    </div>
+    <?php $this->load->view("common/preloader"); ?>
     <div class="page-content-wrapper ui-light-background" data-barba="container" data-barba-namespace="page" data-plugin="utmSave">
         <div class="page-content-wrapper__inner js-page-content-wrapper">
             <?php $this->load->view('common/header'); ?>
@@ -178,7 +163,7 @@
                             </div>
                         </section>
                     </main>
-                    <?php $this->load->view('common/footer.php'); ?>
+                    <?php $this->load->view('common/footer'); ?>
                 </div>
                 <div class="js-modal">
                     <?php $this->load->view('common/modal/callback'); ?>

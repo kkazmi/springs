@@ -76,4 +76,24 @@ class Common_model extends CI_Model
         $this->db->order_by('created_date', 'DESC');
         return $this->db->get('blogs')->result_array();
     }
+
+    public function getAmenitiesSlider()
+    {
+        return $this->db
+            ->where('status', 1)
+            ->order_by('display_order', 'ASC')
+            ->get('home_amenties_slider')
+            ->row_array();
+    }
+
+    public function getAmenitiesGallery()
+    {
+        return $this->db
+            ->where('status', 1)
+            ->order_by('display_order', 'ASC')
+            ->get('home_amenties_gallery')
+            ->result_array();
+    }
+
+
 }
