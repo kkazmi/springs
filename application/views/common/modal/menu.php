@@ -149,7 +149,7 @@
                             </li>
                             <li class="js-content-animation-link " data-content-animation-id="2">
                                 <a href="<?php echo base_url('design'); ?>" class="leading-trim">
-                                    Design
+                                    Investor Guide
                                 </a>
                             </li>
                             <li class="js-content-animation-link " data-content-animation-id="3">
@@ -174,7 +174,7 @@
                             </li>
                             <li class="js-content-animation-link " data-content-animation-id="6">
                                 <a href="<?php echo base_url('news'); ?>" class="leading-trim">
-                                    News & Media
+                                    Media Center
                                 </a>
                             </li>
                         </ul>

@@ -4,43 +4,42 @@
         data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
         data-parallax-0-0='{"transform": "scale(1.2)"}'
         data-parallax--200-0='{"transform": "scale(1.0)"}'>
-        <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear" draggable="false">
-            <source data-srcset="assets/images/media/landing/6.design/design-bg@xxxl.webp"
-                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-            <source data-srcset="assets/images/media/landing/6.design/design-bg@xxl.webp"
-                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-            <img data-src="assets/images/media/landing/6.design/design-bg@md.webp"
-                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                alt="" width="1440" height="900" draggable="false">
-        </picture>
-        <noscript>
-            <picture class=" img-cover" draggable="false">
-                <source srcset="assets/images/media/landing/6.design/design-bg@xxxl.webp"
-                media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                <source srcset="assets/images/media/landing/6.design/design-bg@xxl.webp"
-                media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                <img src="assets/images/media/landing/6.design/design-bg%40md.webp" alt="" width="1440"
-                height="900" draggable="false">
+        <?php if(!empty($project_img_slider)): ?>
+            <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear" draggable="false">
+                <source data-srcset="<?php echo $project_img_slider['image_xxxl']; ?>"
+                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                <source data-srcset="<?php echo $project_img_slider['image_xxl']; ?>"
+                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                <img data-src="<?php echo $project_img_slider['image_md']; ?>"
+                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    alt="" width="1440" height="900" draggable="false">
             </picture>
-        </noscript>
+            <noscript>
+                <picture class=" img-cover" draggable="false">
+                    <source srcset="<?php echo $project_img_slider['image_xxxl']; ?>" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                    <source srcset="<?php echo $project_img_slider['image_xxl']; ?>" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                    <img src="<?php echo $project_img_slider['image_md']; ?>" alt="" width="1440" height="900" draggable="false">
+                </picture>
+            </noscript>
+        <?php endif; ?>
     </div>
-    <div class="l-design__caption">
-        <div class="l-design__caption-title px-layout">
-            <h2 class="text-right g1 leading-trim" data-reveal="title">Project Image</h2>
-            <div class="mt-1">
-                <p class="l-design__caption__subtitle text-c1 text-right leading-trim" data-reveal="title">The Foundation of Your Future.</p>
+        <?php if(!empty($project_img_slider)): ?>
+            <div class="l-design__caption">
+                <div class="l-design__caption-title px-layout">
+                    <h2 class="text-right g1 leading-trim" data-reveal="title"><?php echo $project_img_slider['title']; ?></h2>
+                    <div class="mt-1">
+                        <p class="l-design__caption__subtitle text-c1 text-right leading-trim" data-reveal="title"><?php echo $project_img_slider['sub_title']; ?></p>
+                    </div>
+                </div>
+                <div class="px-layout">
+                    <div class="l-design__caption__text mt-3 col col--md-4">
+                        <p class="text-t1 leading-trim" data-reveal="text"> <?php echo $project_img_slider['description']; ?> </p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="px-layout">
-            <div class="l-design__caption__text mt-3 col col--md-4">
-                <p class="text-t1 leading-trim" data-reveal="text">
-                Discover premium plots in a thoughtfully planned community where wide roads, lush green parks, a play area, an open-air gym, a yoga deck, and an amphitheatre create the perfect setting for your dream home. Build your future in a location designed for comfort, connectivity, and lasting value.
-                </p>
-            </div>
-        </div>
-    </div>
+        <?php endif; ?>
     </div>
 </div>
 <div
@@ -58,13 +57,13 @@
             data-parallax-pattern="designMoveLeftImage">
             <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
                 data-plugin="appear " draggable="false">
-                <source data-srcset="assets/images/media/landing/6.design/design-1@xxxl.webp"
+                <source data-srcset="<?php echo base_url($project_img_gallery[0]['image_xxxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22694%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20694%22%3E%3C/svg%3E"
                 media="(min-width: 1920px) and (min-height: 700px)" width="640" height="694">
-                <source data-srcset="assets/images/media/landing/6.design/design-1@xxl.webp"
+                <source data-srcset="<?php echo base_url($project_img_gallery[0]['image_xxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22694%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20694%22%3E%3C/svg%3E"
                 media="(min-width: 1440px) and (min-height: 700px)" width="640" height="694">
-                <img data-src="assets/images/media/landing/6.design/design-1@md.webp"
+                <img data-src="<?php echo base_url($project_img_gallery[0]['image_md']); ?>"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22694%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20694%22%3E%3C/svg%3E"
                 alt="" width="640" height="694" data-plugin="parallax" data-parallax-clamp="true"
                 data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
@@ -73,11 +72,11 @@
             </picture>
             <noscript>
                 <picture class=" img-cover parallax-image-move" draggable="false">
-                <source srcset="assets/images/media/landing/6.design/design-1@xxxl.webp"
+                <source srcset="<?php echo base_url($project_img_gallery[0]['image_xxxl']); ?>"
                     media="(min-width: 1920px) and (min-height: 700px)" width="640" height="694">
-                <source srcset="assets/images/media/landing/6.design/design-1@xxl.webp"
+                <source srcset="<?php echo base_url($project_img_gallery[0]['image_xxl']); ?>"
                     media="(min-width: 1440px) and (min-height: 700px)" width="640" height="694">
-                <img src="assets/images/media/landing/6.design/design-1%40md.webp" alt=""
+                <img src="<?php echo base_url($project_img_gallery[0]['image_md']); ?>" alt=""
                     width="640" height="694" data-plugin="parallax" data-parallax-clamp="true"
                     data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
                     data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
@@ -93,13 +92,13 @@
             data-parallax-pattern="designMoveRightImage">
             <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
                 data-plugin="appear " draggable="false">
-                <source data-srcset="assets/images/media/landing/6.design/design-2@xxxl.webp"
+                <source data-srcset="<?php echo base_url($project_img_gallery[1]['image_xxxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22694%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20694%22%3E%3C/svg%3E"
                 media="(min-width: 1920px) and (min-height: 700px)" width="640" height="694">
-                <source data-srcset="assets/images/media/landing/6.design/design-2@xxl.webp"
+                <source data-srcset="<?php echo base_url($project_img_gallery[1]['image_xxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22694%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20694%22%3E%3C/svg%3E"
                 media="(min-width: 1440px) and (min-height: 700px)" width="640" height="694">
-                <img data-src="assets/images/media/landing/6.design/design-2@md.webp"
+                <img data-src="<?php echo base_url($project_img_gallery[1]['image_md']); ?>"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22694%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20694%22%3E%3C/svg%3E"
                 alt="" width="640" height="694" data-plugin="parallax" data-parallax-clamp="true"
                 data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
@@ -108,11 +107,11 @@
             </picture>
             <noscript>
                 <picture class=" img-cover parallax-image-move" draggable="false">
-                <source srcset="assets/images/media/landing/6.design/design-2@xxxl.webp"
+                <source srcset="<?php echo base_url($project_img_gallery[1]['image_xxxl']); ?>"
                     media="(min-width: 1920px) and (min-height: 700px)" width="640" height="694">
-                <source srcset="assets/images/media/landing/6.design/design-2@xxl.webp"
+                <source srcset="<?php echo base_url($project_img_gallery[1]['image_xxl']); ?>"
                     media="(min-width: 1440px) and (min-height: 700px)" width="640" height="694">
-                <img src="assets/images/media/landing/6.design/design-2%40md.webp" alt=""
+                <img src="<?php echo base_url($project_img_gallery[1]['image_md']); ?>" alt=""
                     width="640" height="694" data-plugin="parallax" data-parallax-clamp="true"
                     data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
                     data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
@@ -129,8 +128,7 @@
         data-parallax--150-0='{"opacity": "1", "transform": "translate(-50%, -50%)"}'
         data-parallax--250-0='{"opacity": "0", "transform": "translate(-50%, -90%)"}'>
         <h3 class="h3 leading-trim text-center" data-reveal="title">
-            Each plot reflects boundless perspectives in its glistening waves, inviting you
-            to look farther with a fuller palette of possibilities.
+            <?php echo $project_img_slider['description2']; ?>
         </h3>
     </div>
     </div>
@@ -149,24 +147,24 @@
             <picture
                 class="is-invisible--js is-hidden--no-js img-full background background--cover background--bottom"
                 data-plugin="appear " draggable="false">
-                <source data-srcset="assets/images/media/landing/6.design/design-4@xxxl.webp"
+                <source data-srcset="<?php echo base_url($project_img_gallery[3]['image_xxxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                 media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                <source data-srcset="assets/images/media/landing/6.design/design-4@xxl.webp"
+                <source data-srcset="<?php echo base_url($project_img_gallery[3]['image_xxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                 media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                <img data-src="assets/images/media/landing/6.design/design-4@md.webp"
+                <img data-src="<?php echo base_url($project_img_gallery[3]['image_md']); ?>"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                 alt="" width="720" height="900" draggable="false">
             </picture>
             <noscript>
                 <picture class=" img-full background background--cover background--bottom"
                 draggable="false">
-                <source srcset="assets/images/media/landing/6.design/design-4@xxxl.webp"
+                <source srcset="<?php echo base_url($project_img_gallery[3]['image_xxxl']); ?>"
                     media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                <source srcset="assets/images/media/landing/6.design/design-4@xxl.webp"
+                <source srcset="<?php echo base_url($project_img_gallery[3]['image_xxl']); ?>"
                     media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                <img src="assets/images/media/landing/6.design/design-4%40md.webp" alt=""
+                <img src="<?php echo base_url($project_img_gallery[3]['image_md']); ?>" alt=""
                     width="720" height="900" draggable="false">
                 </picture>
             </noscript>
@@ -192,13 +190,13 @@
                 data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
                 data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
                 data-plugin="appear  parallax" draggable="false">
-                <source data-srcset="assets/images/media/landing/6.design/design-3@xxxl.webp"
+                <source data-srcset="<?php echo base_url($project_img_gallery[2]['image_xxxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
                 media="(min-width: 1920px) and (min-height: 700px)" width="240" height="300">
-                <source data-srcset="assets/images/media/landing/6.design/design-3@xxl.webp"
+                <source data-srcset="<?php echo base_url($project_img_gallery[2]['image_xxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
                 media="(min-width: 1440px) and (min-height: 700px)" width="240" height="300">
-                <img data-src="assets/images/media/landing/6.design/design-3@md.webp"
+                <img data-src="<?php echo base_url($project_img_gallery[2]['image_md']); ?>"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
                 alt="" width="240" height="300" draggable="false">
             </picture>
@@ -208,11 +206,11 @@
                 data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
                 data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
                 data-plugin=" parallax" draggable="false">
-                <source srcset="assets/images/media/landing/6.design/design-3@xxxl.webp"
+                <source srcset="<?php echo base_url($project_img_gallery[2]['image_xxxl']); ?>"
                     media="(min-width: 1920px) and (min-height: 700px)" width="240" height="300">
-                <source srcset="assets/images/media/landing/6.design/design-3@xxl.webp"
+                <source srcset="<?php echo base_url($project_img_gallery[2]['image_xxl']); ?>"
                     media="(min-width: 1440px) and (min-height: 700px)" width="240" height="300">
-                <img src="assets/images/media/landing/6.design/design-3%40md.webp" alt=""
+                <img src="<?php echo base_url($project_img_gallery[2]['image_md']); ?>" alt=""
                     width="240" height="300" draggable="false">
                 </picture>
             </noscript>
@@ -222,9 +220,7 @@
             data-parallax-measure-selector=".sticky" data-parallax-enable-touch="false"
             data-parallax--100-0='{"transform": "translateY(0%)"}'
             data-parallax--250-0='{"transform": "translateY(-250%)"}'>
-            <h3 class="h3 leading-trim" data-reveal="title">
-                Own a plot in a well-planned township where nature meets modern infrastructure. With landscaped parks, dedicated recreational spaces, and thoughtfully designed amenities, every plot offers the perfect foundation to build your dream home and secure a valuable investment for the future.
-            </h3>
+            <h3 class="h3 leading-trim" data-reveal="title"><?php echo $project_img_slider['description3']; ?></h3>
         </div>
     </div>
     </div>
@@ -244,13 +240,13 @@
             data-parallax--200-0='{"width": "195%"}' data-parallax--250-0='{"width": "100%"}'>
             <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                 draggable="false">
-                <img data-src="assets/images/media/landing/6.design/design-bg-xs@xs.webp"
+                <img data-src="<?php echo base_url($project_img_slider['image_xs']); ?>"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                 alt="" width="720" height="1280" decoding="async" draggable="false">
             </picture>
             <noscript>
                 <picture class=" img-cover" draggable="false">
-                <img src="assets/images/media/landing/6.design/design-bg-xs%40xs.webp" alt=""
+                <img src="<?php echo base_url($project_img_slider['image_xs']); ?>" alt=""
                     width="720" height="1280" decoding="async" draggable="false">
                 </picture>
             </noscript>
@@ -264,17 +260,17 @@
         data-parallax--200-0='{"opacity": "1"}' data-parallax--220-0='{"opacity": "0"}'>
         <div class="pr-layout">
             <h2 class="text-right g1 leading-trim">
-                Project Image
+                <?php echo $project_img_slider['title']; ?>
             </h2>
             <div class="mt-1">
                 <p class="l-design__caption__subtitle text-c1 leading-trim text-right">
-                The Foundation of Your Future.
+                <?php echo $project_img_slider['sub_title']; ?>
                 </p>
             </div>
         </div>
         <div class="l-design__caption__text mt-3 col col--md-4">
             <p class="text-t1 leading-trim">
-                Discover premium plots in a thoughtfully planned community where wide roads, lush green parks, a play area, an open-air gym, a yoga deck, and an amphitheatre create the perfect setting for your dream home. Build your future in a location designed for comfort, connectivity, and lasting value.
+                <?php echo $project_img_slider['description']; ?>
             </p>
         </div>
     </div>
@@ -284,8 +280,7 @@
     data-themed-class="ui-light">
     <div class="l-design__title col col--md-5 mx-auto">
     <h3 class="h3 leading-trim text-center">
-        Each plot reflects boundless perspectives in its glistening waves, inviting you
-        to look farther with a fuller palette of possibilities.
+        <?php echo $project_img_slider['description2']; ?>
     </h3>
     </div>
     <div class="carousel carousel--md-up carousel--not-ready js-carousel mt-2.5"
@@ -296,37 +291,37 @@
                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                 draggable="false">
                 <source
-                    data-srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-1%40xxxl.webp"
+                    data-srcset="<?php echo base_url($project_img_gallery[0]['image_xxxl']); ?>"
                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                 <source
-                    data-srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-1%40xxxl.webp"
+                    data-srcset="<?php echo base_url($project_img_gallery[0]['image_xxl']); ?>"
                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                 <source
-                    data-srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-1%40xxxl.webp"
+                    data-srcset="<?php echo base_url($project_img_gallery[0]['image_md']); ?>"
                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                     width="720" height="900">
                 <img
-                    data-src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-xs-1.webp"
+                    data-src="<?php echo base_url($project_img_gallery[0]['image_xs']); ?>"
                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     alt="" width="720" height="900" decoding="async" draggable="false">
                 </picture>
                 <noscript>
                 <picture class=" img-cover" draggable="false">
                     <source
-                        srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-1%40xxxl.webp"
+                        srcset="<?php echo base_url($project_img_gallery[0]['image_xxxl']); ?>"
                         media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                     <source
-                        srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-1%40xxxl.webp"
+                        srcset="<?php echo base_url($project_img_gallery[0]['image_xxl']); ?>"
                         media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                     <source
-                        srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-1%40xxxl.webp"
+                        srcset="<?php echo base_url($project_img_gallery[0]['image_md']); ?>"
                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                         width="720" height="900">
                     <img
-                        src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-xs-1.webp"
+                        src="<?php echo base_url($project_img_gallery[0]['image_xs']); ?>"
                         alt="" width="720" height="900" decoding="async" draggable="false">
                 </picture>
                 </noscript>
@@ -335,37 +330,37 @@
                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                 draggable="false">
                 <source
-                    data-srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-2%40xxxl.webp"
+                    data-srcset="<?php echo base_url($project_img_gallery[1]['image_xxxl']); ?>"
                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                 <source
-                    data-srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-2%40xxxl.webp"
+                    data-srcset="<?php echo base_url($project_img_gallery[1]['image_xxl']); ?>"
                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                 <source
-                    data-srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-2%40xxxl.webp"
+                    data-srcset="<?php echo base_url($project_img_gallery[1]['image_md']); ?>"
                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                     width="720" height="900">
                 <img
-                    data-src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-xs-2.webp"
+                    data-src="<?php echo base_url($project_img_gallery[1]['image_xs']); ?>"
                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     alt="" width="720" height="900" decoding="async" draggable="false">
                 </picture>
                 <noscript>
                 <picture class=" img-cover" draggable="false">
                     <source
-                        srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-2%40xxxl.webp"
+                        srcset="<?php echo base_url($project_img_gallery[1]['image_xxxl']); ?>"
                         media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                     <source
-                        srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-2%40xxxl.webp"
+                        srcset="<?php echo base_url($project_img_gallery[1]['image_xxl']); ?>"
                         media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                     <source
-                        srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-2%40xxxl.webp"
+                        srcset="<?php echo base_url($project_img_gallery[1]['image_md']); ?>"
                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                         width="720" height="900">
                     <img
-                        src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-xs-2.webp"
+                        src="<?php echo base_url($project_img_gallery[1]['image_xs']); ?>"
                         alt="" width="720" height="900" decoding="async" draggable="false">
                 </picture>
                 </noscript>
@@ -392,37 +387,37 @@
         <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
             draggable="false">
             <source
-                data-srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-4%40xxxl.webp"
+                data-srcset="<?php echo base_url($project_img_gallery[3]['image_xxxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                 media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
             <source
-                data-srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-4%40xxxl.webp"
+                data-srcset="<?php echo base_url($project_img_gallery[3]['image_xxl']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                 media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
             <source
-                data-srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-4%40xxxl.webp"
+                data-srcset="<?php echo base_url($project_img_gallery[3]['image_md']); ?>"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                 width="720" height="900">
             <img
-                data-src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-4%40xxxl.webp"
+                data-src="<?php echo base_url($project_img_gallery[3]['image_xs']); ?>"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                 alt="" width="720" height="900" decoding="async" draggable="false">
         </picture>
         <noscript>
             <picture class=" img-cover" draggable="false">
                 <source
-                srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-4%40xxxl.webp"
+                srcset="<?php echo base_url($project_img_gallery[3]['image_xxxl']); ?>"
                 media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                 <source
-                srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-4%40xxxl.webp"
+                srcset="<?php echo base_url($project_img_gallery[3]['image_xxl']); ?>"
                 media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                 <source
-                srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-4%40xxxl.webp"
+                srcset="<?php echo base_url($project_img_gallery[3]['image_md']); ?>"
                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                 width="720" height="900">
                 <img
-                src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-4%40xxxl.webp"
+                src="<?php echo base_url($project_img_gallery[3]['image_xs']); ?>"
                 alt="" width="720" height="900" decoding="async" draggable="false">
             </picture>
         </noscript>
@@ -433,44 +428,44 @@
     <div class="l-design__theme" data-themed-class="ui-light"></div>
     <div class="px-layout">
     <h3 class="h3 leading-trim">
-        Own a plot in a well-planned township where nature meets modern infrastructure. With landscaped parks, dedicated recreational spaces, and thoughtfully designed amenities, every plot offers the perfect foundation to build your dream home and secure a valuable investment for the future.
+        <?php echo $project_img_slider['description3']; ?>
     </h3>
     </div>
     <div class="pl-0.5 col col--xs-3 mr-0 ml-auto mt-4">
-    <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
+    <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear"
         draggable="false">
         <source
-            data-srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-3%40xxxl.webp"
+            data-srcset="<?php echo base_url($project_img_gallery[2]['image_xxxl']); ?>"
             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
             media="(min-width: 1920px) and (min-height: 700px)" width="240" height="300">
         <source
-            data-srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-3%40xxxl.webp"
+            data-srcset="<?php echo base_url($project_img_gallery[2]['image_xxl']); ?>"
             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
             media="(min-width: 1440px) and (min-height: 700px)" width="240" height="300">
         <source
-            data-srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-3%40xxxl.webp"
+            data-srcset="<?php echo base_url($project_img_gallery[2]['image_md']); ?>"
             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
             width="240" height="300">
         <img
-            data-src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-3%40xxxl.webp"
+            data-src="<?php echo base_url($project_img_gallery[2]['image_xs']); ?>"
             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
             alt="" width="240" height="300" decoding="async" draggable="false">
     </picture>
     <noscript>
         <picture class=" img-cover" draggable="false">
             <source
-                srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-3%40xxxl.webp"
+                srcset="<?php echo base_url($project_img_gallery[2]['image_xxxl']); ?>"
                 media="(min-width: 1920px) and (min-height: 700px)" width="240" height="300">
             <source
-                srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-3%40xxxl.webp"
+                srcset="<?php echo base_url($project_img_gallery[2]['image_xxl']); ?>"
                 media="(min-width: 1440px) and (min-height: 700px)" width="240" height="300">
             <source
-                srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-3%40xxxl.webp"
+                srcset="<?php echo base_url($project_img_gallery[2]['image_md']); ?>"
                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                 width="240" height="300">
             <img
-                src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-3%40xxxl.webp"
+                src="<?php echo base_url($project_img_gallery[2]['image_xs']); ?>"
                 alt="" width="240" height="300" decoding="async" draggable="false">
         </picture>
     </noscript>

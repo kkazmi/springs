@@ -39,12 +39,8 @@
                                 <div></div>
                             </div>
 
-                            <div class="flats__content mt-1:lg" data-plugin="ajaxlist filterFormReset"
-                                data-ajaxlist-endpoint="/api/flats.json" data-ajaxlist-endpoint-method="GET"
-                                data-ajaxlist-remove-siblings="true" data-ajaxlist-scroll-to-list="true"
-                                data-ajaxlist-counter-selector=":root .js-ajax-list-counter">
-                                <form class="js-ajax-filters js-ajax-filters-inline" data-plugin="filterFormSave"
-                                    id="ajax-filters">
+                            <div class="flats__content mt-1:lg">
+                                <form class="js-ajax-filters js-ajax-filters-inline">
                                     <div class="row" data-plugin="parallax" data-parallax-enable-mq="md-down"
                                         data-parallax-clamp="true"
                                         data-parallax-0-0='{"--opacity": "0", "--z-index": "-1"}'
@@ -1096,7 +1092,6 @@
                                                 </div>
                                             </div>
                                         </div> -->
-
                                         <!-- <div class="flats__sort col col--xs-4 text-right pr-layout mt-0.25 is-hidden--lg-up js-ajax-hide-if-empty">
                                             <div data-plugin="sortList">
                                                 <a class="btn btn--link flats__sorting js-label" data-plugin="popover"
@@ -1301,7 +1296,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="flats__filters-sticky-modal col col--xs-4 col--lg-4 pl-layout:lg is-hidden--lg-up ui-light"
                                             data-scroll data-scroll-sticky data-scroll-target="#flats">
 
@@ -1339,9 +1333,8 @@
                                                 </span>
                                             </a>
                                         </div> -->
-
                                         <div class="col col--xs-4 col--lg-12 flats__col pt-0.5 pt-0:lg pl-2:lg px-layout pl-0:lg pb-1 pb-0.5:lg p-relative">
-                                            <div class="col col--xs-4 col--lg-12 is-hidden flats__empty js-ajax-empty">
+                                            <!-- <div class="col col--xs-4 col--lg-12 is-hidden flats__empty js-ajax-empty">
                                                 <div class="flats__empty__title pb-1 mb-1">
                                                     <p class="leading-trim">
                                                         No results found based on your filters.
@@ -1349,22 +1342,18 @@
                                                         Try making your filters more flexible or consider similar
                                                         options.
                                                     </p>
-
                                                 </div>
-
                                                 <p class="h3 leading-trim pb-1">
                                                     Similar options
                                                 </p>
-                                            </div>
-                                            <ul class="col col--xs-4 col--lg-12 flats__list ui-light js-ajax-list "
-                                                data-themed-class='{"left": "ui-dark", "right": "ui-light", "mobile-left": "ui-light"}'>
+                                            </div> -->
+                                            <ul class="col col--xs-4 col--lg-12 flats__list ui-light js-ajax-list" data-themed-class='{"left": "ui-dark", "right": "ui-light", "mobile-left": "ui-light"}'>
                                                 <li>
-                                                    <a href="flat/66.html" class="card card--apartment"
-                                                        data-ajax-page-ignore-prefetch>
+                                                    <a href="https://fb.com" target="_blank" class="card card--apartment" data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
-                                                            <div class="card__top group group--nowrap group--between">
-                                                                <div class="group group--small group--middle">
+                                                            <!--<div class="card__top group group--nowrap group--between">
+                                                                 <div class="group group--small group--middle">
                                                                     <div class="card__feature" data-plugin="popover"
                                                                         data-popover-placement="bottom-start"
                                                                         data-popover-parent-selector=".card"
@@ -1384,38 +1373,20 @@
                                                                         class="tooltip tooltip--closable tooltip--feature ui-dark"
                                                                         role="tooltip">
                                                                         <span class="tooltip__triangle"></span>
-
                                                                         <div
                                                                             class="tooltip__content text-c2 leading-trim">
                                                                             Storage
                                                                         </div>
                                                                     </div>
 
-                                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                                                </div> 
                                                                 <span
                                                                     class="btn btn--outline btn--outline-active btn--square favourite  btn--sm"
                                                                     aria-label="Remove apartment from favourites"
                                                                     data-plugin="favourite"
                                                                     data-favourite="&#x7B;&quot;id&quot;&#x3A;35,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
                                                                     tabindex="0" role="button">
-
                                                                     <span class="btn__content">
-
-
                                                                         <span class="btn__icon ">
                                                                             <svg class="icon icon-favourite" width="30"
                                                                                 height="30" aria-hidden="true"
@@ -1428,71 +1399,18 @@
                                                                         </span>
                                                                     </span>
                                                                 </span>
-
-                                                            </div>
-
+                                                            </div>-->
                                                             <div class="card__plan">
-
-
-
-
-
                                                                 <picture class=" svg-fix" draggable="false">
-                                                                    <img src="assets/images/media/plans/6/Flat_6_6.svg"
-                                                                        alt="&#x041F;&#x043B;&#x0430;&#x043D;&#x20;&#x043A;&#x0432;&#x0430;&#x0440;&#x0442;&#x0438;&#x0440;&#x044B;&#x20;&#x2116;66"
-                                                                        draggable="false">
+                                                                    <img src="uploads/news/newsu_130226240302_96.jpg" alt="" draggable="false">
                                                                 </picture>
-
-
                                                             </div>
-
                                                             <div class="card__footer">
-                                                                <div
-                                                                    class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                                                                    <div>
-                                                                        <div
-                                                                            class="text-c2 text-color-small leading-trim mb-0.2">
-                                                                            <p>
-                                                                                930 000 /m<sup>2</sup>
-                                                                            </p>
+                                                                <div class="group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
+                                                                        <div class="text-g1 text-color leading-trim mb-0.2">
+                                                                            <h2>BST Developers India Pvt. Ltd. Introduces its flagship Project “BST-Green Bhoomi”</h2>
                                                                         </div>
-                                                                        <div class="text-small leading-trim">
-                                                                            <p>
-                                                                                57 288 000
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                    <div class="text-c2 text-color-small leading-trim">
-                                                                        <p>
-                                                                            with finishings
-                                                                        </p>
-                                                                    </div>
                                                                 </div>
-
-                                                                <div
-                                                                    class="group group--nowrap group--bottom group--between">
-
-                                                                    <div
-                                                                        class="card__footer-text text-small leading-trim">
-                                                                        <p class="card__square">
-                                                                            61.6 m<sup>2</sup>
-                                                                        </p>
-                                                                        <p>
-                                                                            2 rooms
-                                                                        </p>
-                                                                        <p>
-                                                                            6 floor
-                                                                        </p>
-                                                                    </div>
-
-                                                                    <span class="card__footer-title h1 leading-trim ">
-                                                                        66
-                                                                    </span>
-                                                                </div>
-
-
                                                             </div>
                                                         </div>
                                                     </a>
@@ -3448,116 +3366,11 @@
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <script type="text/template" data-template-variable="flat">
-                                                <li>
-                                                    <a href="<%- flat.link %>" class="card card--apartment js-favourite-wrapper" data-ajax-page-ignore-prefetch>
-                                                        <div class="card__sizer"></div>
-                                                        <div class="card__content">
-                                                            <div class="card__top group group--nowrap group--between">
-                                                                <div class="group group--small group--middle">
-                                                                    <% for (let i=0; i < flat.features.length; i++) { %>
-                                                                        <% var feature = flat.features[i] %>
-                                                                        <% var prefix = flat.number + feature.icon %>
-                                                                        <div
-                                                                            class="card__feature"
-                                                                            data-plugin="popover"
-                                                                            data-popover-placement="<%= i == 0 ? 'bottom-start' : 'bottom-center' %>"
-                                                                            data-popover-parent-selector=".card"
-                                                                            data-popover-events="hover"
-                                                                            aria-describedby="<%- prefix %>"
-                                                                        >
-                                                                            <svg class="icon icon-&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;" width="16" height="16" aria-hidden="true"            viewBox="0 0 16 16"
-                                                                                style="--icon-width: 16; --icon-height: 16;"
-                                                                            
-                                                                            ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;" xlink:href="assets/images/icons.svg#&lt;&#x25;-&#x20;feature.icon&#x20;&#x25;&gt;"></use></svg>
-                                                                        </div>
-                                                                        <div id="<%-prefix%>" class="tooltip tooltip--closable tooltip--feature ui-dark" role="tooltip">
-                                                                            <span class="tooltip__triangle"></span>
-
-                                                                            <div class="tooltip__content text-c2 leading-trim">
-                                                                                <%- feature.label %>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    <% } %>
-                                                                </div>
-                                                                    <span class="btn btn--outline btn--outline-active btn--square favourite  btn--sm" aria-label="Remove apartment from favourites" data-plugin="favourite" data-favourite="&#x7B;&quot;id&quot;&#x3A;&quot;&lt;&#x25;-&#x20;flat.id&#x20;&#x25;&gt;&quot;,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
-                                                                                            tabindex="0" role="button">
-                                                                        <span class="btn__content">
-                                                                            
-                                                                                                    
-                                                                                                                                    <span class="btn__icon ">
-                                                                                        <svg class="icon icon-favourite" width="30" height="30" aria-hidden="true"            viewBox="0 0 30 30"
-                                                                            style="--icon-width: 30; --icon-height: 30;"
-                                                                        
-                                                                        ><use href="&#x2F;assets&#x2F;images&#x2F;icons.svg&#x3F;v&#x3D;1765268659#favourite" xlink:href="assets/images/icons.svg#favourite"></use></svg>
-                                                                                    </span>
-                                                                                                    </span>
-                                                                    </span>
-                                                                                </div>
-
-                                                            <div class="card__plan">
-                                                                <% const plan = flat.plans.simple %>
-                                                                <%= picture(plan, {
-                                                                    class: 'svg-fix',
-                                                                    lazy: false
-                                                                }) %>
-                                                            </div>
-
-                                                            <div class="card__footer">
-                                                                <div class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                                                                    <div>
-                                                                        <div class="text-c2 text-color-small leading-trim mb-0.2">
-                                                                            <p>
-                                                                                <%- numberFormat(flat.price_per_m, 0, '', ' ') %>&nbsp;/m<sup>2</sup>
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="text-small leading-trim">
-                                                                            <p>
-                                                                                <%- numberFormat(flat.price, 0, '', ' ') %>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                    <div class="text-c2 text-color-small leading-trim">
-                                                                        <p>
-                                                                            with finishings
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="group group--nowrap group--bottom group--between">
-
-                                                                    <div class="card__footer-text text-small leading-trim">
-                                                                        <p class="card__square">
-                                                                            <%- flat.square %>&nbsp;m<sup>2</sup>
-                                                                        </p>
-                                                                        <p>
-                                                                            <%- flat.roomsText %>&nbsp;
-                                                                        </p>
-                                                                        <p>
-                                                                            <%- flat.floor %>&nbsp;floor
-                                                                        </p>
-                                                                    </div>
-
-                                                                    <span class="card__footer-title h1 leading-trim">
-                                                                        <%- flat.number %>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                </script>
                                             </ul>
                                         </div>
-                                        <div class="col col--xs-4 offset--lg-4 col--lg-8 text-center mt-0.5:lg pb-1 pb-0:lg px-layout pl-0:lg flats__more js-load-more"
-                                            data-themed-class="ui-dark">
+                                        <div class="col col--xs-4 col--lg-12 text-center mt-0.5:lg pb-1 pb-0:lg px-layout pl-0:lg" data-themed-class="ui-dark">
                                             <a class="btn btn--outline btn--sm" tabindex="0" role="button">
-                                                <span class="btn__content">
-                                                    <span class="btn__text">show more</span>
-                                                </span>
+                                                <span class="btn__content"><span class="btn__text">show more</span></span>
                                             </a>
                                         </div>
                                     </div>

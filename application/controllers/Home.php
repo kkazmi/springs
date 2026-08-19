@@ -18,7 +18,12 @@ class Home extends CI_Controller {
             'blogs'=>$this->common_model->getBlogs(),
             'amenities_slider'=>$this->common_model->getAmenitiesSlider(),
             'amenities_gallery'=>$this->common_model->getAmenitiesGallery(),
+            'project_img_slider'=>$this->common_model->getProjectImgSlider(),
+            'project_img_gallery'=>$this->common_model->getProjectImgGallery(),
         );
+
+        // print_r($data['project_img_gallery'][0]);
+        // die;
         
         $this->load->view('home/index', $data);
     }

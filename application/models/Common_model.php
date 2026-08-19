@@ -95,5 +95,23 @@ class Common_model extends CI_Model
             ->result_array();
     }
 
+    public function getProjectImgSlider()
+    {
+        return $this->db
+            ->where('status', 1)
+            ->order_by('display_order', 'ASC')
+            ->get('home_project_img_slider')
+            ->row_array();
+    }
+
+    public function getProjectImgGallery()
+    {
+        return $this->db
+            ->where('status', 1)
+            ->order_by('display_order', 'ASC')
+            ->get('home_project_img_gallery')
+            ->result_array();
+    }
+
 
 }

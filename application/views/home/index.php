@@ -17,6 +17,27 @@
    <link rel="stylesheet" href="assets/stylesheets/jsSlider.css" />
    <link rel="stylesheet" href="assets/stylesheets/theme.css">
    <link rel="stylesheet" href="assets/stylesheets/landing.css" />
+   <style>
+      .js.not-ready,
+      .js.not-ready * {
+         transition: none !important;
+      }
+      .h1,
+      .h2,
+      .h3,
+      .h4,
+      .h5,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+         color: #d7ab3e !important;
+      }
+      .l-gallery__caption h1.h0.leading-trim span {
+         color: #fff !important;;
+      }
+   </style>
    <?php $this->load->view('common/meta'); ?>
    <script>
       document.documentElement.classList.remove('no-js');
@@ -429,7 +450,7 @@
                               <iframe
                                  style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;"
                                  width="640" height="360" loading="lazy"
-                                 src="https://player.vimeo.com/video/1086358928?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                                 src="https://player.vimeo.com/video/1218239890?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
                                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
                            </div>
                            <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "

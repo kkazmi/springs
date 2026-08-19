@@ -14,8 +14,7 @@
                 <?php foreach ($blogs as $blog): ?>
                     <article class="newCard">
                         <div class="jSimage">
-                            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200"
-                                alt="">
+                            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
                         </div>
                         <div class="jScontent">
                             <div class="blog-meta">

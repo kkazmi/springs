@@ -4009,7 +4009,8 @@ label input:checked+.btn--outline-active:before {
 .btn--link .btn-container.is-disabled,
 .btn--link.is-disabled,
 .btn--link:disabled {
-    color: var(--t-button-link-text);
+    /* color: var(--t-button-link-text); */
+    color: var(--t-secondary);
     --hover-border: var(--t-button-link-hover-border)
 }
 

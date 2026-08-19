@@ -53,7 +53,7 @@
         </div>
         <div class="l-wellness__webgl-caption pt-3">
             <h1 class="h1 col col--md-6 offset--md-1 mb-1 leading-trim" data-reveal="text">A Message from Our CMD</h1>
-            <p class="h4 col col--md-6 offset--md-1 mb-1 text-justify" data-reveal="text">
+            <p class="col col--md-6 offset--md-1 mb-1 text-justify" data-reveal="text">
                 "I don't believe in doing business solely for profit. True success lies in creating developments that contribute to the growth of our nation while improving the lives of people.
                 India is witnessing an extraordinary era of progress, and with that comes a new generation of aspirational citizens seeking better lifestyles and brighter futures.
                 At BST Developers, we have built a passionate team committed to creating not just homes, but opportunities for long-term wealth creation and meaningful living.

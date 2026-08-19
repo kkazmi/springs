@@ -38,10 +38,8 @@
          </div>
          <div class="l-residences__webgl-caption pt-6:md pt-4:xxxl px-layout">
             <div class="col ">
-               <p class="g1 leading-trim" data-reveal="title"><?php echo $amenities_slider['title']; ?></p>
-               <div class="mt-1">
-                  <p class="text-c1 leading-trim" data-reveal="title"><?php echo $amenities_slider['sub_title']; ?></p>
-               </div>
+               <h1 class="g1 leading-trim" data-reveal="title"><?php echo $amenities_slider['title']; ?></h1>
+               <div class="mt-1"><p class="text-c1 leading-trim" data-reveal="title"><?php echo $amenities_slider['sub_title']; ?></p></div>
             </div>
          </div>
          <?php endif; ?>
