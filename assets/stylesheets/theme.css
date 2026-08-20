@@ -17858,7 +17858,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: calc(var(--scale-px) * 10) calc(var(--scale-px) * 30);
+    gap: calc(var(--scale-px) * 5) calc(var(--scale-px) * 30);
     justify-content: flex-start
 }
 
@@ -20925,7 +20925,7 @@ jdiv.__jivoMobileButton {
 }
 
 .flats__list li {
-    flex: var(--md, 1 1 calc(50% - (var(--scale-px) * 10))) var(--n-md, 1 1 100%);
+    flex: var(--md, 1 1 calc(24% - (var(--scale-px) * 10))) var(--n-md, 1 1 100%);
     margin: 0;
     max-width: var(--md, calc(50% - (var(--scale-px) * 10))) var(--n-md, 100%);
     padding: 0
@@ -21350,3 +21350,219 @@ jdiv.__jivoMobileButton {
 p.text-justify {
     text-align: justify
 }
+
+
+
+/* =========================================
+   Quick Links Bottom Bar
+========================================= */
+/* ==========================================
+   QUICK LINKS BAR
+   ========================================== */
+
+#quickLinksBar {
+   position: fixed !important;
+   left: 0 !important;
+   right: 0 !important;
+   bottom: 0 !important;
+
+   width: 100% !important;
+   height: 64px !important;
+
+   display: grid !important;
+   grid-template-columns: repeat(3, 1fr) !important;
+
+   margin: 0 !important;
+   padding: 0 !important;
+
+   background: #ffffff !important;
+   border-top: 1px solid #d9d9d9 !important;
+   border-bottom: 4px solid #123c78 !important;
+
+   box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.10) !important;
+
+   z-index: 999999 !important;
+
+   transform: translateY(100%) !important;
+   opacity: 0 !important;
+
+   visibility: hidden !important;
+   pointer-events: none !important;
+
+   transition:
+      transform 0.35s ease,
+      opacity 0.35s ease,
+      visibility 0.35s ease !important;
+}
+
+
+/* SHOW BAR */
+#quickLinksBar.is-visible {
+   transform: translateY(0) !important;
+   opacity: 1 !important;
+   visibility: visible !important;
+   pointer-events: auto !important;
+}
+
+
+/* ==========================================
+   INDIVIDUAL LINK
+   ========================================== */
+
+#quickLinksBar .quick-link {
+   width: 100% !important;
+   height: 60px !important;
+
+   display: flex !important;
+   flex-direction: row !important;
+
+   align-items: center !important;
+   justify-content: center !important;
+
+   gap: 10px !important;
+
+   margin: 0 !important;
+   padding: 0 !important;
+
+   color: #111111 !important;
+   background: #ffffff !important;
+
+   text-decoration: none !important;
+
+   border: 0 !important;
+   border-right: 1px solid #dddddd !important;
+
+   box-sizing: border-box !important;
+
+   font-family: inherit !important;
+}
+
+
+/* Remove separator from last item */
+#quickLinksBar .quick-link:last-child {
+   border-right: 0 !important;
+}
+
+
+/* Hover */
+#quickLinksBar .quick-link:hover {
+   background: #f7f7f7 !important;
+   color: #111111 !important;
+}
+
+
+/* ==========================================
+   ICON
+   ========================================== */
+
+#quickLinksBar .quick-link__icon {
+   width: 24px !important;
+   height: 24px !important;
+
+   min-width: 24px !important;
+
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+
+   margin: 0 !important;
+   padding: 0 !important;
+}
+
+
+#quickLinksBar .quick-link__icon svg {
+   display: block !important;
+
+   width: 22px !important;
+   height: 22px !important;
+
+   margin: 0 !important;
+}
+
+
+/* ==========================================
+   TEXT
+   ========================================== */
+
+#quickLinksBar .quick-link__text {
+   display: flex !important;
+
+   flex-direction: column !important;
+
+   align-items: flex-start !important;
+   justify-content: center !important;
+
+   margin: 0 !important;
+   padding: 0 !important;
+
+   color: #111111 !important;
+
+   font-size: 11px !important;
+   font-weight: 500 !important;
+
+   line-height: 1.2 !important;
+
+   letter-spacing: 0.08em !important;
+   text-transform: uppercase !important;
+}
+
+
+#quickLinksBar .quick-link__text small {
+   display: block !important;
+
+   margin: 0 0 2px 0 !important;
+   padding: 0 !important;
+
+   font-size: 8px !important;
+   line-height: 1 !important;
+}
+
+
+/* ==========================================
+   MOBILE
+   ========================================== */
+
+@media (max-width: 767px) {
+
+   #quickLinksBar {
+      height: 62px !important;
+      border-bottom-width: 3px !important;
+   }
+
+   #quickLinksBar .quick-link {
+      height: 59px !important;
+
+      flex-direction: column !important;
+
+      gap: 3px !important;
+   }
+
+   #quickLinksBar .quick-link__icon {
+      width: 20px !important;
+      height: 20px !important;
+   }
+
+   #quickLinksBar .quick-link__icon svg {
+      width: 19px !important;
+      height: 19px !important;
+   }
+
+   #quickLinksBar .quick-link__text {
+      align-items: center !important;
+
+      font-size: 8px !important;
+      letter-spacing: 0.04em !important;
+
+      text-align: center !important;
+   }
+
+   #quickLinksBar .quick-link__text small {
+      font-size: 7px !important;
+   }
+}
+
+
+
+
+
+.z-10 { z-index: 10 !important; }

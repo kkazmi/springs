@@ -1423,74 +1423,7 @@
                                                         data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
-                                                            <div class="card__top group group--nowrap group--between">
-                                                                <div class="group group--small group--middle">
-                                                                    <div class="card__feature" data-plugin="popover"
-                                                                        data-popover-placement="bottom-start"
-                                                                        data-popover-parent-selector=".card"
-                                                                        data-popover-events="hover"
-                                                                        aria-describedby="86storage">
-                                                                        <svg class="icon icon-storage" width="16"
-                                                                            height="16" aria-hidden="true"
-                                                                            viewBox="0 0 16 16"
-                                                                            style="--icon-width: 16; --icon-height: 16;">
-                                                                            <use href="assets/images/icons.svg#storage"
-                                                                                xlink:href="assets/images/icons.svg#storage">
-                                                                            </use>
-                                                                        </svg>
-                                                                    </div>
-
-                                                                    <div id="86storage"
-                                                                        class="tooltip tooltip--closable tooltip--feature ui-dark"
-                                                                        role="tooltip">
-                                                                        <span class="tooltip__triangle"></span>
-
-                                                                        <div
-                                                                            class="tooltip__content text-c2 leading-trim">
-                                                                            Storage
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                <span
-                                                                    class="btn btn--outline btn--outline-active btn--square favourite  btn--sm"
-                                                                    aria-label="Remove apartment from favourites"
-                                                                    data-plugin="favourite"
-                                                                    data-favourite="&#x7B;&quot;id&quot;&#x3A;51,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
-                                                                    tabindex="0" role="button">
-
-                                                                    <span class="btn__content">
-
-
-                                                                        <span class="btn__icon ">
-                                                                            <svg class="icon icon-favourite" width="30"
-                                                                                height="30" aria-hidden="true"
-                                                                                viewBox="0 0 30 30"
-                                                                                style="--icon-width: 30; --icon-height: 30;">
-                                                                                <use href="assets/images/icons.svg#favourite"
-                                                                                    xlink:href="assets/images/icons.svg#favourite">
-                                                                                </use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-
-                                                            </div>
-
+                                                          
                                                             <div class="card__plan">
 
 
@@ -1498,9 +1431,7 @@
 
 
                                                                 <picture class=" svg-fix" draggable="false">
-                                                                    <img src="assets/images/media/plans/8/Flat_8_6.svg"
-                                                                        alt="&#x041F;&#x043B;&#x0430;&#x043D;&#x20;&#x043A;&#x0432;&#x0430;&#x0440;&#x0442;&#x0438;&#x0440;&#x044B;&#x20;&#x2116;86"
-                                                                        draggable="false">
+                                                                     <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
                                                                 </picture>
 
 
@@ -1537,7 +1468,7 @@
                                                                     <div
                                                                         class="card__footer-text text-small leading-trim">
                                                                         <p class="card__square">
-                                                                            61.6 m<sup>2</sup>
+                                                                           2324324 view
                                                                         </p>
                                                                         <p>
                                                                             2 rooms
@@ -1548,7 +1479,7 @@
                                                                     </div>
 
                                                                     <span class="card__footer-title h1 leading-trim ">
-                                                                        86
+                                                                       
                                                                     </span>
                                                                 </div>
 
@@ -1565,87 +1496,19 @@
                                                         data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
-                                                            <div class="card__top group group--nowrap group--between">
-                                                                <div class="group group--small group--middle">
-                                                                    <div class="card__feature" data-plugin="popover"
-                                                                        data-popover-placement="bottom-start"
-                                                                        data-popover-parent-selector=".card"
-                                                                        data-popover-events="hover"
-                                                                        aria-describedby="87storage">
-                                                                        <svg class="icon icon-storage" width="16"
-                                                                            height="16" aria-hidden="true"
-                                                                            viewBox="0 0 16 16"
-                                                                            style="--icon-width: 16; --icon-height: 16;">
-                                                                            <use href="assets/images/icons.svg#storage"
-                                                                                xlink:href="assets/images/icons.svg#storage">
-                                                                            </use>
-                                                                        </svg>
-                                                                    </div>
-
-                                                                    <div id="87storage"
-                                                                        class="tooltip tooltip--closable tooltip--feature ui-dark"
-                                                                        role="tooltip">
-                                                                        <span class="tooltip__triangle"></span>
-
-                                                                        <div
-                                                                            class="tooltip__content text-c2 leading-trim">
-                                                                            Storage
-                                                                        </div>
-                                                                    </div>
-
+                                                           <div class="header">
+                                                                <span class="jStag pt-1 pr-1 ">Category Name</span>
+                                                                <div class="blog-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                                                    <div class="meta-item">❤️ <span>120</span></div>
+                                                                    <div class="meta-item">💬 <span>45</span></div>
+                                                                    <div class="meta-item">👁️ <span>1.2k</span></div>
                                                                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                <span
-                                                                    class="btn btn--outline btn--outline-active btn--square favourite  btn--sm"
-                                                                    aria-label="Remove apartment from favourites"
-                                                                    data-plugin="favourite"
-                                                                    data-favourite="&#x7B;&quot;id&quot;&#x3A;52,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
-                                                                    tabindex="0" role="button">
-
-                                                                    <span class="btn__content">
-
-
-                                                                        <span class="btn__icon ">
-                                                                            <svg class="icon icon-favourite" width="30"
-                                                                                height="30" aria-hidden="true"
-                                                                                viewBox="0 0 30 30"
-                                                                                style="--icon-width: 30; --icon-height: 30;">
-                                                                                <use href="assets/images/icons.svg#favourite"
-                                                                                    xlink:href="assets/images/icons.svg#favourite">
-                                                                                </use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-
                                                             </div>
 
                                                             <div class="card__plan">
-
-
-
-
-
-                                                                <picture class=" svg-fix" draggable="false">
-                                                                    <img src="assets/images/media/plans/8/Flat_8_7.svg"
-                                                                        alt="&#x041F;&#x043B;&#x0430;&#x043D;&#x20;&#x043A;&#x0432;&#x0430;&#x0440;&#x0442;&#x0438;&#x0440;&#x044B;&#x20;&#x2116;87"
-                                                                        draggable="false">
+                                                                 <picture class=" svg-fix" draggable="false">
+                                                                     <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
                                                                 </picture>
-
-
                                                             </div>
 
                                                             <div class="card__footer">
@@ -1699,321 +1562,7 @@
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li>
-
-
-
-                                                    <a href="flat/97.html" class="card card--apartment"
-                                                        data-ajax-page-ignore-prefetch>
-                                                        <div class="card__sizer"></div>
-                                                        <div class="card__content">
-                                                            <div class="card__top group group--nowrap group--between">
-                                                                <div class="group group--small group--middle">
-                                                                    <div class="card__feature" data-plugin="popover"
-                                                                        data-popover-placement="bottom-start"
-                                                                        data-popover-parent-selector=".card"
-                                                                        data-popover-events="hover"
-                                                                        aria-describedby="97storage">
-                                                                        <svg class="icon icon-storage" width="16"
-                                                                            height="16" aria-hidden="true"
-                                                                            viewBox="0 0 16 16"
-                                                                            style="--icon-width: 16; --icon-height: 16;">
-                                                                            <use href="assets/images/icons.svg#storage"
-                                                                                xlink:href="assets/images/icons.svg#storage">
-                                                                            </use>
-                                                                        </svg>
-                                                                    </div>
-
-                                                                    <div id="97storage"
-                                                                        class="tooltip tooltip--closable tooltip--feature ui-dark"
-                                                                        role="tooltip">
-                                                                        <span class="tooltip__triangle"></span>
-
-                                                                        <div
-                                                                            class="tooltip__content text-c2 leading-trim">
-                                                                            Storage
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                <span
-                                                                    class="btn btn--outline btn--outline-active btn--square favourite  btn--sm"
-                                                                    aria-label="Remove apartment from favourites"
-                                                                    data-plugin="favourite"
-                                                                    data-favourite="&#x7B;&quot;id&quot;&#x3A;60,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
-                                                                    tabindex="0" role="button">
-
-                                                                    <span class="btn__content">
-
-
-                                                                        <span class="btn__icon ">
-                                                                            <svg class="icon icon-favourite" width="30"
-                                                                                height="30" aria-hidden="true"
-                                                                                viewBox="0 0 30 30"
-                                                                                style="--icon-width: 30; --icon-height: 30;">
-                                                                                <use href="assets/images/icons.svg#favourite"
-                                                                                    xlink:href="assets/images/icons.svg#favourite">
-                                                                                </use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-
-                                                            </div>
-
-                                                            <div class="card__plan">
-
-
-
-
-
-                                                                <picture
-                                                                    class="is-invisible--js is-hidden--no-js svg-fix"
-                                                                    data-plugin="appear " draggable="false">
-                                                                    <img data-src="assets/images/media/plans/9/Flat_9_7.svg"
-                                                                        src="assets/images/px.gif"
-                                                                        alt="&#x041F;&#x043B;&#x0430;&#x043D;&#x20;&#x043A;&#x0432;&#x0430;&#x0440;&#x0442;&#x0438;&#x0440;&#x044B;&#x20;&#x2116;97"
-                                                                        draggable="false">
-                                                                </picture>
-
-                                                                <noscript>
-
-
-
-
-
-                                                                    <picture class=" svg-fix" draggable="false">
-                                                                        <img src="assets/images/media/plans/9/Flat_9_7.svg"
-                                                                            alt="&#x041F;&#x043B;&#x0430;&#x043D;&#x20;&#x043A;&#x0432;&#x0430;&#x0440;&#x0442;&#x0438;&#x0440;&#x044B;&#x20;&#x2116;97"
-                                                                            draggable="false">
-                                                                    </picture>
-
-
-                                                                </noscript>
-
-                                                            </div>
-
-                                                            <div class="card__footer">
-                                                                <div
-                                                                    class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                                                                    <div>
-                                                                        <div
-                                                                            class="text-c2 text-color-small leading-trim mb-0.2">
-                                                                            <p>
-                                                                                1 070 000 /m<sup>2</sup>
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="text-small leading-trim">
-                                                                            <p>
-                                                                                66 447 000
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                    <div class="text-c2 text-color-small leading-trim">
-                                                                        <p>
-                                                                            with finishings
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div
-                                                                    class="group group--nowrap group--bottom group--between">
-
-                                                                    <div
-                                                                        class="card__footer-text text-small leading-trim">
-                                                                        <p class="card__square">
-                                                                            62.1 m<sup>2</sup>
-                                                                        </p>
-                                                                        <p>
-                                                                            2 rooms
-                                                                        </p>
-                                                                        <p>
-                                                                            9 floor
-                                                                        </p>
-                                                                    </div>
-
-                                                                    <span class="card__footer-title h1 leading-trim ">
-                                                                        97
-                                                                    </span>
-                                                                </div>
-
-
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="flat/136.html" class="card card--apartment"
-                                                        data-ajax-page-ignore-prefetch>
-                                                        <div class="card__sizer"></div>
-                                                        <div class="card__content">
-                                                            <div class="card__top group group--nowrap group--between">
-                                                                <div class="group group--small group--middle">
-                                                                    <div class="card__feature" data-plugin="popover"
-                                                                        data-popover-placement="bottom-start"
-                                                                        data-popover-parent-selector=".card"
-                                                                        data-popover-events="hover"
-                                                                        aria-describedby="136storage">
-                                                                        <svg class="icon icon-storage" width="16"
-                                                                            height="16" aria-hidden="true"
-                                                                            viewBox="0 0 16 16"
-                                                                            style="--icon-width: 16; --icon-height: 16;">
-                                                                            <use href="assets/images/icons.svg#storage"
-                                                                                xlink:href="assets/images/icons.svg#storage">
-                                                                            </use>
-                                                                        </svg>
-                                                                    </div>
-
-                                                                    <div id="136storage"
-                                                                        class="tooltip tooltip--closable tooltip--feature ui-dark"
-                                                                        role="tooltip">
-                                                                        <span class="tooltip__triangle"></span>
-
-                                                                        <div
-                                                                            class="tooltip__content text-c2 leading-trim">
-                                                                            Storage
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                <span
-                                                                    class="btn btn--outline btn--outline-active btn--square favourite  btn--sm"
-                                                                    aria-label="Remove apartment from favourites"
-                                                                    data-plugin="favourite"
-                                                                    data-favourite="&#x7B;&quot;id&quot;&#x3A;91,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
-                                                                    tabindex="0" role="button">
-
-                                                                    <span class="btn__content">
-
-
-                                                                        <span class="btn__icon ">
-                                                                            <svg class="icon icon-favourite" width="30"
-                                                                                height="30" aria-hidden="true"
-                                                                                viewBox="0 0 30 30"
-                                                                                style="--icon-width: 30; --icon-height: 30;">
-                                                                                <use href="assets/images/icons.svg#favourite"
-                                                                                    xlink:href="assets/images/icons.svg#favourite">
-                                                                                </use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-
-                                                            </div>
-
-                                                            <div class="card__plan">
-
-
-
-
-
-                                                                <picture
-                                                                    class="is-invisible--js is-hidden--no-js svg-fix"
-                                                                    data-plugin="appear " draggable="false">
-                                                                    <img data-src="assets/images/media/plans/13/Flat_13_6.svg"
-                                                                        src="assets/images/px.gif"
-                                                                        alt="&#x041F;&#x043B;&#x0430;&#x043D;&#x20;&#x043A;&#x0432;&#x0430;&#x0440;&#x0442;&#x0438;&#x0440;&#x044B;&#x20;&#x2116;136"
-                                                                        draggable="false">
-                                                                </picture>
-
-                                                                <noscript>
-
-
-
-
-
-                                                                    <picture class=" svg-fix" draggable="false">
-                                                                        <img src="assets/images/media/plans/13/Flat_13_6.svg"
-                                                                            alt="&#x041F;&#x043B;&#x0430;&#x043D;&#x20;&#x043A;&#x0432;&#x0430;&#x0440;&#x0442;&#x0438;&#x0440;&#x044B;&#x20;&#x2116;136"
-                                                                            draggable="false">
-                                                                    </picture>
-
-
-                                                                </noscript>
-
-                                                            </div>
-
-                                                            <div class="card__footer">
-                                                                <div
-                                                                    class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                                                                    <div>
-                                                                        <div
-                                                                            class="text-c2 text-color-small leading-trim mb-0.2">
-                                                                            <p>
-                                                                                1 180 000 /m<sup>2</sup>
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="text-small leading-trim">
-                                                                            <p>
-                                                                                72 688 000
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                    <div class="text-c2 text-color-small leading-trim">
-                                                                        <p>
-                                                                            with finishings
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div
-                                                                    class="group group--nowrap group--bottom group--between">
-
-                                                                    <div
-                                                                        class="card__footer-text text-small leading-trim">
-                                                                        <p class="card__square">
-                                                                            61.6 m<sup>2</sup>
-                                                                        </p>
-                                                                        <p>
-                                                                            2 rooms
-                                                                        </p>
-                                                                        <p>
-                                                                            13 floor
-                                                                        </p>
-                                                                    </div>
-
-                                                                    <span class="card__footer-title h1 leading-trim ">
-                                                                        136
-                                                                    </span>
-                                                                </div>
-
-
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
+                                              
                                                 <li>
                                                     <a href="flat/54.html" class="card card--apartment"
                                                         data-ajax-page-ignore-prefetch>
@@ -2025,15 +1574,8 @@
                                                                         data-popover-placement="bottom-start"
                                                                         data-popover-parent-selector=".card"
                                                                         data-popover-events="hover"
-                                                                        aria-describedby="54loggia">
-                                                                        <svg class="icon icon-loggia" width="16"
-                                                                            height="16" aria-hidden="true"
-                                                                            viewBox="0 0 16 16"
-                                                                            style="--icon-width: 16; --icon-height: 16;">
-                                                                            <use href="assets/images/icons.svg#loggia"
-                                                                                xlink:href="assets/images/icons.svg#loggia">
-                                                                            </use>
-                                                                        </svg>
+                                                                        aria-describedby="54loggia" style="z-index: 10;">
+                                                                     👁️ 
                                                                     </div>
 
                                                                     <div id="54loggia"
@@ -2043,7 +1585,7 @@
 
                                                                         <div
                                                                             class="tooltip__content text-c2 leading-trim">
-                                                                            Loggia
+                                                                            View <span>1.2k</span>
                                                                         </div>
                                                                     </div>
 
@@ -2051,25 +1593,18 @@
                                                                         data-popover-placement="bottom-center"
                                                                         data-popover-parent-selector=".card"
                                                                         data-popover-events="hover"
-                                                                        aria-describedby="54storage">
-                                                                        <svg class="icon icon-storage" width="16"
-                                                                            height="16" aria-hidden="true"
-                                                                            viewBox="0 0 16 16"
-                                                                            style="--icon-width: 16; --icon-height: 16;">
-                                                                            <use href="assets/images/icons.svg#storage"
-                                                                                xlink:href="assets/images/icons.svg#storage">
-                                                                            </use>
-                                                                        </svg>
+                                                                        aria-describedby="54storage" style="z-index: 10;">
+                                                                       💬
                                                                     </div>
 
                                                                     <div id="54storage"
                                                                         class="tooltip tooltip--closable tooltip--feature ui-dark"
-                                                                        role="tooltip">
+                                                                        role="tooltip" >
                                                                         <span class="tooltip__triangle"></span>
 
                                                                         <div
-                                                                            class="tooltip__content text-c2 leading-trim">
-                                                                            Storage
+                                                                            class="tooltip__content text-c2 leading-trim"  >
+                                                                            Commenents <span>45</span>
                                                                         </div>
                                                                     </div>
 
@@ -2077,15 +1612,8 @@
                                                                         data-popover-placement="bottom-center"
                                                                         data-popover-parent-selector=".card"
                                                                         data-popover-events="hover"
-                                                                        aria-describedby="54wardrobe">
-                                                                        <svg class="icon icon-wardrobe" width="16"
-                                                                            height="16" aria-hidden="true"
-                                                                            viewBox="0 0 16 16"
-                                                                            style="--icon-width: 16; --icon-height: 16;">
-                                                                            <use href="assets/images/icons.svg#wardrobe"
-                                                                                xlink:href="assets/images/icons.svg#wardrobe">
-                                                                            </use>
-                                                                        </svg>
+                                                                        aria-describedby="54wardrobe"  style="z-index: 10;">
+                                                                       ❤️
                                                                     </div>
 
                                                                     <div id="54wardrobe"
@@ -2093,128 +1621,60 @@
                                                                         role="tooltip">
                                                                         <span class="tooltip__triangle"></span>
 
-                                                                        <div
+                                                                        <div  style="z-index: 10;"
                                                                             class="tooltip__content text-c2 leading-trim">
-                                                                            Wardrobe
+                                                                            Like <span>120</span>
                                                                         </div>
                                                                     </div>
 
                                                                 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
                                                                 <span
-                                                                    class="btn btn--outline btn--outline-active btn--square favourite  btn--sm"
-                                                                    aria-label="Remove apartment from favourites"
+                                                                    class=""
                                                                     data-plugin="favourite"
                                                                     data-favourite="&#x7B;&quot;id&quot;&#x3A;25,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
-                                                                    tabindex="0" role="button">
+                                                                    tabindex="0" role="button"  style="z-index: 10;">
 
-                                                                    <span class="btn__content">
-
-
-                                                                        <span class="btn__icon ">
-                                                                            <svg class="icon icon-favourite" width="30"
-                                                                                height="30" aria-hidden="true"
-                                                                                viewBox="0 0 30 30"
-                                                                                style="--icon-width: 30; --icon-height: 30;">
-                                                                                <use href="assets/images/icons.svg#favourite"
-                                                                                    xlink:href="assets/images/icons.svg#favourite">
-                                                                                </use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </span>
+                                                                     <p >Catigory Name</p>
                                                                 </span>
 
                                                             </div>
 
-                                                            <div class="card__plan">
-
-
-
-
-
-                                                                <picture
-                                                                    class="is-invisible--js is-hidden--no-js svg-fix"
-                                                                    data-plugin="appear " draggable="false">
-                                                                    <img data-src="assets/images/media/plans/5/Flat_5_4.svg"
-                                                                        src="assets/images/px.gif"
-                                                                        alt="&#x041F;&#x043B;&#x0430;&#x043D;&#x20;&#x043A;&#x0432;&#x0430;&#x0440;&#x0442;&#x0438;&#x0440;&#x044B;&#x20;&#x2116;54"
-                                                                        draggable="false">
+                                                            <div class="card__plan"> 
+                                                                <picture class=" svg-fix" draggable="false">
+                                                                     <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
                                                                 </picture>
-
-                                                                <noscript>
-
-
-
-
-
-                                                                    <picture class=" svg-fix" draggable="false">
-                                                                        <img src="assets/images/media/plans/5/Flat_5_4.svg"
-                                                                            alt="&#x041F;&#x043B;&#x0430;&#x043D;&#x20;&#x043A;&#x0432;&#x0430;&#x0440;&#x0442;&#x0438;&#x0440;&#x044B;&#x20;&#x2116;54"
-                                                                            draggable="false">
-                                                                    </picture>
-
-
-                                                                </noscript>
 
                                                             </div>
 
                                                             <div class="card__footer">
                                                                 <div
                                                                     class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                                                                    <div>
-                                                                        <div
+                                                                       <div
                                                                             class="text-c2 text-color-small leading-trim mb-0.2">
                                                                             <p>
-                                                                                1 130 000 /m<sup>2</sup>
+                                                                                1 230 000 /m<sup>2</sup>
                                                                             </p>
                                                                         </div>
-                                                                        <div class="text-small leading-trim">
-                                                                            <p>
-                                                                                72 998 000
+                                                                    <div>
+                                                                       
+                                                                        <div class="text-small leading-trim" style="z-index: 10;">
+                                                                            <p  style="z-index: 10;">
+                                                                               Real Estate Trends Every Homebuyer Should Know
                                                                             </p>
                                                                         </div>
                                                                     </div>
 
 
-                                                                    <div class="text-c2 text-color-small leading-trim">
-                                                                        <p>
-                                                                            with finishings
-                                                                        </p>
-                                                                    </div>
+                                                                  
                                                                 </div>
 
                                                                 <div
                                                                     class="group group--nowrap group--bottom group--between">
 
-                                                                    <div
-                                                                        class="card__footer-text text-small leading-trim">
-                                                                        <p class="card__square">
-                                                                            67 m<sup>2</sup>
-                                                                        </p>
-                                                                        <p>
-                                                                            2 rooms
-                                                                        </p>
-                                                                        <p>
-                                                                            5 floor
-                                                                        </p>
-                                                                    </div>
-
-                                                                    <span class="card__footer-title h1 leading-trim ">
-                                                                        54
-                                                                    </span>
+                                                                   <p style="z-index: 10;">The real estate market is constantly evolving. Learn about changing buyer preferences, new developments, technology, sustainable housing and emerging property trends.</p>
+                                                                  
                                                                 </div>
 
 
