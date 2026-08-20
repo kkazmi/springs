@@ -251,14 +251,10 @@
                                  </noscript>
                               </div>
                               <div class="mt-0.3">
-                                 <p class="h0 leading-trim">
-                                    10+
-                                 </p>
+                                 <p class="h0 leading-trim">10+</p>
                               </div>
                               <div class="mt-0.5">
-                                 <p class="text-c1 text-right leading-trim">
-                                    Years of Experience
-                                 </p>
+                                 <p class="text-c1 text-right leading-trim">Years of Experience</p>
                               </div>
                            </div>
                            <div class="l-place-video__caption-item" data-plugin="parallax"
@@ -298,14 +294,10 @@
                                  </noscript>
                               </div>
                               <div class="mt-0.3">
-                                 <p class="h0 leading-trim">
-                                    2
-                                 </p>
+                                 <p class="h0 leading-trim">2</p>
                               </div>
                               <div class="mt-0.5">
-                                 <p class="text-c1 text-right leading-trim">
-                                    Completed Projects
-                                 </p>
+                                 <p class="text-c1 text-right leading-trim">Completed Projects</p>
                               </div>
                            </div>
                            <div class="l-place-video__caption-item" data-plugin="parallax"
@@ -345,14 +337,10 @@
                                  </noscript>
                               </div>
                               <div class="mt-0.3">
-                                 <p class="h0 leading-trim">
-                                    100+
-                                 </p>
+                                 <p class="h0 leading-trim">100+</p>
                               </div>
                               <div class="mt-0.5">
-                                 <p class="text-c1 text-right leading-trim">
-                                    Happy Customers
-                                 </p>
+                                 <p class="text-c1 text-right leading-trim">Happy Customers</p>
                               </div>
                            </div>
                            <div class="l-place-video__caption-item" data-plugin="parallax"
@@ -363,37 +351,37 @@
                               <div>
                                  <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
                                     draggable="false">
-                                    <source data-srcset="assets/images/media/landing/4.place/place-caption-2@xxxl.webp"
+                                    <source data-srcset="assets/images/media/landing/4.place/place-caption-4@xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
-                                    <source data-srcset="assets/images/media/landing/4.place/place-caption-2@xxl.webp"
+                                    <source data-srcset="assets/images/media/landing/4.place/place-caption-4@xxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
-                                    <source data-srcset="assets/images/media/landing/4.place/place-caption-2@md.webp"
+                                    <source data-srcset="assets/images/media/landing/4.place/place-caption-4@md.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="440" height="427">
-                                    <img data-src="assets/images/media/landing/4.place/place-caption-2@xs.webp"
+                                    <img data-src="assets/images/media/landing/4.place/place-caption-4@xs.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                        alt="" width="440" height="427" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-full" draggable="false">
-                                       <source srcset="assets/images/media/landing/4.place/place-caption-2@xxxl.webp"
+                                       <source srcset="assets/images/media/landing/4.place/place-caption-4@xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
-                                       <source srcset="assets/images/media/landing/4.place/place-caption-2@xxl.webp"
+                                       <source srcset="assets/images/media/landing/4.place/place-caption-4@xxl.webp" 
                                           media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
-                                       <source srcset="assets/images/media/landing/4.place/place-caption-2@md.webp"
+                                       <source srcset="assets/images/media/landing/4.place/place-caption-4@md.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="440" height="427">
-                                       <img src="assets/images/media/landing/4.place/place-caption-2%40xs.webp" alt=""
+                                       <img src="assets/images/media/landing/4.place/place-caption-4%40xs.webp" alt=""
                                           width="440" height="427" draggable="false">
                                     </picture>
                                  </noscript>
                               </div>
                               <div class="mt-0.3">
                                  <p class="h0 leading-trim">
-                                    17480 Sq Ft
+                                    2,45,025 Sq Ft
                                  </p>
                               </div>
                               <div class="mt-0.5">
