@@ -64,11 +64,11 @@
     </div>
     </div>
     <div class="l-place-webgl__gradient background">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
     <div class="pt-3.5 col col--xs-4 l-place-bg-caption" id="place-mobile">
     <div class="l-place-webgl__spiral background background--cover">
@@ -120,8 +120,7 @@
         data-parallax-0-0='{"clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)"}'>
         <div class="l-place-video__caption-item">
             <div>
-                <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                draggable="false">
+                <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear" draggable="false">
                 <source data-srcset="assets/images/media/landing/4.place/place-caption-1@xxxl.webp"
                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                     media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
@@ -408,52 +407,48 @@
         <div class="l-place-video__caption pl-layout">
             <div class="l-place-video__caption-item col col--xs-3 pr-1.5">
                 <div class="">
-                <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                    draggable="false">
-                    <source
-                        data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
-                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
-                        media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
-                    <source
-                        data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
-                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
-                        media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
-                    <source
-                        data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
-                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
-                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                        width="440" height="427">
-                    <img
-                        data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
-                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
-                        alt="" width="440" height="427" draggable="false">
-                </picture>
-                <noscript>
-                    <picture class=" img-full" draggable="false">
+                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
+                        draggable="false">
                         <source
-                            srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
-                            media="(min-width: 1920px) and (min-height: 700px)" width="440"
-                            height="427">
+                            data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                            media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
                         <source
-                            srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
-                            media="(min-width: 1440px) and (min-height: 700px)" width="440"
-                            height="427">
+                            data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                            media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
                         <source
-                            srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="440" height="427">
                         <img
-                            src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                             alt="" width="440" height="427" draggable="false">
                     </picture>
-                </noscript>
+                    <noscript>
+                        <picture class=" img-full" draggable="false">
+                            <source
+                                srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                media="(min-width: 1920px) and (min-height: 700px)" width="440"
+                                height="427">
+                            <source
+                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                media="(min-width: 1440px) and (min-height: 700px)" width="440"
+                                height="427">
+                            <source
+                                srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                width="440" height="427">
+                            <img
+                                src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                alt="" width="440" height="427" draggable="false">
+                        </picture>
+                    </noscript>
                 </div>
-                <p class="l-place-video__caption-item__title h0 leading-trim">
-                3
-                </p>
-                <p class=" text-c1 leading-trim mt-2">
-                Years of Experience
-                </p>
+                <p class="l-place-video__caption-item__title h0 leading-trim">3</p>
+                <p class=" text-c1 leading-trim mt-2">Years of Experience</p>
             </div>
         </div>
         <div class="background background--cover">
@@ -612,6 +607,79 @@
             <noscript>
                 <picture class=" background background--cover img-cover" draggable="false">
                 <img src="assets/images/media/landing/4.place/place-bg-1-xs%40xs.webp" alt=""
+                    width="360" height="640" decoding="async" draggable="false">
+                </picture>
+            </noscript>
+            <div class="dim dim--full"></div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="sticky sticky--full-height sticky--under-previous sticky--under-next is-hidden--lg-up" id="l-place-sticky-mobile-4">
+    <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
+    data-scroll-target="#l-place-sticky-mobile-4">
+    <div class="l-place-video">
+        <div class="l-place-video__caption pl-layout">
+            <div class="l-place-video__caption-item col col--xs-3 pr-1.5">
+                <div class="">
+                <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
+                    draggable="false">
+                    <source
+                        data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                        media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
+                    <source
+                        data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                        media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
+                    <source
+                        data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                        width="440" height="427">
+                    <img
+                        data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
+                        alt="" width="440" height="427" draggable="false">
+                </picture>
+                <noscript>
+                    <picture class=" img-full" draggable="false">
+                        <source
+                            srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                            media="(min-width: 1920px) and (min-height: 700px)" width="440"
+                            height="427">
+                        <source
+                            srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                            media="(min-width: 1440px) and (min-height: 700px)" width="440"
+                            height="427">
+                        <source
+                            srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                            width="440" height="427">
+                        <img
+                            src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                            alt="" width="440" height="427" draggable="false">
+                    </picture>
+                </noscript>
+                </div>
+                <p class="l-place-video__caption-item__title h0 leading-trim">
+                9
+                </p>
+                <p class=" text-c1 leading-trim mt-2">
+                Completed Developments1
+                </p>
+            </div>
+        </div>
+        <div class="background background--cover">
+            <picture class="is-invisible--js is-hidden--no-js background background--cover img-cover"
+                data-plugin="appear " draggable="false">
+                <img data-src="assets/images/media/landing/4.place/place-bg-3-xs@xs.webp"
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22640%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20640%22%3E%3C/svg%3E"
+                alt="" width="360" height="640" decoding="async" draggable="false">
+            </picture>
+            <noscript>
+                <picture class=" background background--cover img-cover" draggable="false">
+                <img src="assets/images/media/landing/4.place/place-bg-3-xs%40xs.webp" alt=""
                     width="360" height="640" decoding="async" draggable="false">
                 </picture>
             </noscript>
