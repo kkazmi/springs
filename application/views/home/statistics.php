@@ -6,24 +6,19 @@
             data-content-animation-controller-selector=":root .js-nature-content-animation-controller">
             <div class="content-animation">
                 <div data-content-animation-item="1" class="" aria-hidden="false">
-                <p class="text-t1 leading-trim">
-                    Landscaped terraces with topiary trees, framed with glass, create
-                    the atmosphere of a miniature park floating
-                    above the City.
-                </p>
+                    <p class="text-t1 leading-trim">
+                        Landscaped terraces with topiary trees, framed with glass, create the atmosphere of a miniature park floating above the City.
+                    </p>
                 </div>
                 <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
-                <p class="text-t1 leading-trim">
-                    Shady leafy-coniferous garden that evokes winding paths, branchy trees, and
-                    sunlit glades of forests surrounding the City.
-                </p>
+                    <p class="text-t1 leading-trim">
+                        Shady leafy-coniferous garden that evokes winding paths, branchy trees, and sunlit glades of forests surrounding the City.
+                    </p>
                 </div>
                 <div data-content-animation-item="3" class="is-hidden" aria-hidden="true">
-                <p class="text-t1 leading-trim">
-                    Artfully designed recreation areas that delight you with diverse botanical
-                    decor: cascading garlands of runners, asymmetrical lawns, and exotic
-                    flowers.
-                </p>
+                    <p class="text-t1 leading-trim">
+                        Artfully designed recreation areas that delight you with diverse botanical decor: cascading garlands of runners, asymmetrical lawns, and exotic flowers.
+                    </p>
                 </div>
             </div>
         </div>
