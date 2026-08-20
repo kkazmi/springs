@@ -3,19 +3,13 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 10, 2026 at 02:43 PM
+-- Generation Time: Aug 20, 2026 at 07:04 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `spring`
@@ -106,7 +100,7 @@ CREATE TABLE `hero_caption_section` (
 --
 
 INSERT INTO `hero_caption_section` (`id`, `main_heading`, `sub_heading`, `primary_button_text`, `primary_button_link`, `secondary_button_text`, `secondary_button_link`, `desktop_next_section`, `mobile_next_section`, `sort_order`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Building Tomorrow\'s Communities with Trust, Innovation & Sustainable Growth', 'At BST Developers, we don\'t just develop land—we create thoughtfully planned communities that combine modern infrastructure, sustainable living, and long-term value. Every project is designed to offer aspiring Indian families a better lifestyle while creating wealth for generations.', 'Explore Our Projects', 'projects', 'Get in Touch', 'contact-us', '#l-intro', '#l-intro-mobile', 1, 1, '2026-07-28 13:29:35', '2026-07-28 13:29:35');
+(1, '<span>Building Tomorrow\'s Communities with</span><br /> Trust, Innovation <span>&amp;</span> Sustainable Growth', 'At BST Developers, we don\'t just develop land—we create thoughtfully planned communities that combine modern infrastructure, sustainable living, and long-term value. Every project is designed to offer aspiring Indian families a better lifestyle while creating wealth for generations.', 'Explore Our Projects', 'projects', 'Get in Touch', 'contact-us', '#l-intro', '#l-intro-mobile', 1, 1, '2026-07-28 13:29:35', '2026-08-19 15:49:07');
 
 -- --------------------------------------------------------
 
@@ -150,6 +144,123 @@ INSERT INTO `hero_slider_section` (`id`, `title`, `image_xs`, `image_md`, `image
 (17, 'Gallery 17', 'uploads/gallery/gallery-17@xs.webp', 'uploads/gallery/gallery-17@md.webp', 'uploads/gallery/gallery-17@xxl.webp', 'uploads/gallery/gallery-17@xxxl.webp', 17, 1, '2026-07-28 06:44:59'),
 (18, 'Gallery 18', 'uploads/gallery/gallery-18@xs.webp', 'uploads/gallery/gallery-18@md.webp', 'uploads/gallery/gallery-18@xxl.webp', 'uploads/gallery/gallery-18@xxxl.webp', 18, 1, '2026-07-28 06:44:59'),
 (19, 'Gallery 19', 'uploads/gallery/gallery-19@xs.webp', 'uploads/gallery/gallery-19@md.webp', 'uploads/gallery/gallery-19@xxl.webp', 'uploads/gallery/gallery-19@xxxl.webp', 19, 1, '2026-07-28 06:44:59');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `home_amenties_gallery`
+--
+
+CREATE TABLE `home_amenties_gallery` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `sub_title` varchar(255) DEFAULT NULL,
+  `description` text NOT NULL,
+  `image_xxxl` varchar(255) NOT NULL,
+  `image_xxl` varchar(255) NOT NULL,
+  `image_md` varchar(255) NOT NULL,
+  `image_xs` varchar(255) NOT NULL,
+  `status` tinyint(1) DEFAULT 1,
+  `display_order` int(11) DEFAULT 0,
+  `created_date` datetime DEFAULT current_timestamp(),
+  `updated_date` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `home_amenties_gallery`
+--
+
+INSERT INTO `home_amenties_gallery` (`id`, `title`, `sub_title`, `description`, `image_xxxl`, `image_xxl`, `image_md`, `image_xs`, `status`, `display_order`, `created_date`, `updated_date`) VALUES
+(1, 'Fitness', 'Elevate your wellness with spaces designed to keep you active every day.', 'Gym<br />Yoga Deck<br />Basket Ball<br />Running trek', 'uploads/home/amenties/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-1%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-1%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_md/assets/images/media/landing/7.residence/residence-1%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-1%40xs.webp', 1, 1, '2026-08-16 20:17:20', '2026-08-19 15:53:27'),
+(2, 'Fun', 'Every corner invites adventure, every moment becomes a memory.<br /><br />', 'Swimming Pool<br />Kids Play Area<br />Amphitheatre', 'uploads/home/amenties/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-2%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-2%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_md/assets/images/media/landing/7.residence/residence-2%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-2%40xs.webp', 1, 2, '2026-08-16 20:18:46', '2026-08-16 21:13:06'),
+(3, 'Lifestyle Concierge', 'Experience effortless living with personalized services at your fingertips.', 'Reception<br />Entry Lobby<br />Concierge<br />ClubHouse<br />Premium Interiors', 'uploads/home/amenties/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-3%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-3%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_md/assets/images/media/landing/7.residence/residence-3%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-3%40xs.webp', 1, 3, '2026-08-16 20:19:33', '2026-08-16 20:31:58');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `home_amenties_slider`
+--
+
+CREATE TABLE `home_amenties_slider` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `sub_title` varchar(255) DEFAULT NULL,
+  `image_xxxl` varchar(255) NOT NULL,
+  `image_xxl` varchar(255) NOT NULL,
+  `image_md` varchar(255) NOT NULL,
+  `image_xs` varchar(255) NOT NULL,
+  `status` tinyint(1) DEFAULT 1,
+  `display_order` int(11) DEFAULT 0,
+  `created_date` datetime DEFAULT current_timestamp(),
+  `updated_date` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `home_amenties_slider`
+--
+
+INSERT INTO `home_amenties_slider` (`id`, `title`, `sub_title`, `image_xxxl`, `image_xxl`, `image_md`, `image_xs`, `status`, `display_order`, `created_date`, `updated_date`) VALUES
+(1, 'Amenties', 'Collection of premium living spaces', 'uploads/home/amenties/residence-tree@xxxl.webp', 'uploads/home/amenties/residence-tree@xxl.webp', 'uploads/home/amenties/residence-tree@md.webp', 'uploads/home/amenties/residence-bg-xs@xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-08-16 13:10:33');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `home_project_img_gallery`
+--
+
+CREATE TABLE `home_project_img_gallery` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `image_xxxl` varchar(500) NOT NULL,
+  `image_xxl` varchar(500) NOT NULL,
+  `image_md` varchar(500) NOT NULL,
+  `image_xs` varchar(500) NOT NULL,
+  `position` enum('left','right') DEFAULT 'left',
+  `status` tinyint(1) DEFAULT 1,
+  `display_order` int(11) DEFAULT 0,
+  `created_date` datetime DEFAULT current_timestamp(),
+  `updated_date` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `home_project_img_gallery`
+--
+
+INSERT INTO `home_project_img_gallery` (`id`, `title`, `image_xxxl`, `image_xxl`, `image_md`, `image_xs`, `position`, `status`, `display_order`, `created_date`, `updated_date`) VALUES
+(1, 'Design Image 1', 'uploads/home/project_img/design-1@xxxl.webp', 'uploads/home/project_img/design-1@xxl.webp', 'uploads/home/project_img/design-1@md.webp', 'uploads/home/project_img/design-1@md.webp', 'left', 1, 1, '2026-08-18 12:48:51', '2026-08-19 14:42:26'),
+(2, 'Design Image 2', 'uploads/home/project_img/design-2@xxxl.webp', 'uploads/home/project_img/design-2@xxl.webp', 'uploads/home/project_img/design-2@md.webp', 'uploads/home/project_img/design-2@md.webp', 'right', 1, 2, '2026-08-18 12:48:51', '2026-08-19 14:42:30'),
+(3, 'Design Image 3', 'uploads/home/project_img/design-3@xxxl.webp', 'uploads/home/project_img/design-3@xxl.webp', 'uploads/home/project_img/design-3@md.webp', 'uploads/home/project_img/design-3@md.webp', 'right', 1, 3, '2026-08-18 12:48:51', '2026-08-19 14:42:33'),
+(4, 'Design Image 4', 'uploads/home/project_img/design-4@xxxl.webp', 'uploads/home/project_img/design-4@xxl.webp', 'uploads/home/project_img/design-4@md.webp', 'uploads/home/project_img/design-4@md.webp', 'right', 1, 4, '2026-08-18 12:48:51', '2026-08-19 14:42:37');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `home_project_img_slider`
+--
+
+CREATE TABLE `home_project_img_slider` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `sub_title` varchar(255) DEFAULT NULL,
+  `description` text NOT NULL,
+  `description2` text NOT NULL,
+  `description3` text NOT NULL,
+  `image_xxxl` varchar(255) NOT NULL,
+  `image_xxl` varchar(255) NOT NULL,
+  `image_md` varchar(255) NOT NULL,
+  `image_xs` varchar(255) NOT NULL,
+  `status` tinyint(1) DEFAULT 1,
+  `display_order` int(11) DEFAULT 0,
+  `created_date` datetime DEFAULT current_timestamp(),
+  `updated_date` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `home_project_img_slider`
+--
+
+INSERT INTO `home_project_img_slider` (`id`, `title`, `sub_title`, `description`, `description2`, `description3`, `image_xxxl`, `image_xxl`, `image_md`, `image_xs`, `status`, `display_order`, `created_date`, `updated_date`) VALUES
+(1, 'Project Image', 'The Foundation of Your Future.', 'Discover premium plots in a thoughtfully planned community where wide roads, lush green parks, a play area, an open-air gym, a yoga deck, and an amphitheatre create the perfect setting for your dream home. Build your future in a location designed for comfort, connectivity, and lasting value.', 'Each plot reflects boundless perspectives in its glistening waves, inviting you             to look farther with a fuller palette of possibilities.', 'Tabanlioglu, therenowned architecturalbureau,emphasizes thebold asymmetry ofbalconiesinachessboard pattern.Threeverticalpartitionsdivide thetranslucent façade,creating theeffectofweightless volume.Freedom ofexpression, elegance ofintelligence, andvisuallightness.', 'uploads/home/project_img/design-bg@xxxl.webp', 'uploads/home/project_img/design-bg@xxl.webp', 'uploads/home/project_img/design-bg@md.webp', 'uploads/home/project_img/design-bg@md.webp', 1, 1, '2026-08-18 12:01:07', '2026-08-19 17:10:19');
 
 -- --------------------------------------------------------
 
@@ -681,6 +792,30 @@ ALTER TABLE `hero_slider_section`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `home_amenties_gallery`
+--
+ALTER TABLE `home_amenties_gallery`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `home_amenties_slider`
+--
+ALTER TABLE `home_amenties_slider`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `home_project_img_gallery`
+--
+ALTER TABLE `home_project_img_gallery`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `home_project_img_slider`
+--
+ALTER TABLE `home_project_img_slider`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `interior_images`
 --
 ALTER TABLE `interior_images`
@@ -806,6 +941,30 @@ ALTER TABLE `hero_slider_section`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
+-- AUTO_INCREMENT for table `home_amenties_gallery`
+--
+ALTER TABLE `home_amenties_gallery`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `home_amenties_slider`
+--
+ALTER TABLE `home_amenties_slider`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `home_project_img_gallery`
+--
+ALTER TABLE `home_project_img_gallery`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `home_project_img_slider`
+--
+ALTER TABLE `home_project_img_slider`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `interior_images`
 --
 ALTER TABLE `interior_images`
@@ -914,7 +1073,3 @@ ALTER TABLE `testimonials`
   ADD CONSTRAINT `fk_testimonials_property_type` FOREIGN KEY (`property_type_id`) REFERENCES `property_types` (`property_type_id`) ON UPDATE CASCADE,
   ADD CONSTRAINT `fk_testimonials_transaction_type` FOREIGN KEY (`transaction_type_id`) REFERENCES `transaction_types` (`transaction_type_id`) ON UPDATE CASCADE;
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
