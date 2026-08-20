@@ -15,11 +15,21 @@
                 BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian
                 real estate by creating developments that combine world-class planning, sustainable
                 infrastructure, and lasting value.
-                <br /><br />
+                <br />
+               
+            <br />
                 Founded by Mr. Yoginder Tanwar, BST was established with a singular purpose: to make
                 premium lifestyles accessible to India's growing middle class without compromising on
                 quality, trust, or affordability.
-                <br /><br />
+                <br /> <br />
+                <div>
+                <a href="<?php echo base_url('about'); ?>" 
+                    class="btn btn--secondary" 
+                    style="display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
+                    Read More...              
+                </a>
+                </div>
+                <!-- <br />
                 We believe real estate is more than buying property—it's about building communities,
                 creating opportunities, and enabling families to grow. Every BST development is
                 thoughtfully planned with modern amenities, strong connectivity, green spaces, and
@@ -27,7 +37,7 @@
                 <br /><br />
                 Driven by innovation, transparency, and customer-first values, BST continues to build
                 projects that inspire confidence and contribute towards India's evolving urban
-                landscape.
+                landscape. -->
             </p>
         </div>
     </div>
