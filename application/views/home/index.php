@@ -190,7 +190,7 @@
                               <h2 class="g1 leading-trim text-right">
                                  Statistics
                               </h2>
-                              <p class="l-nature-bg-caption__subtitle text-c1 leading-trim text-right mt-1">
+                              <p class="l-nature-bg-caption__subtitle text-b1 leading-trim text-right mt-1">
                                  Essence of Contemplation
                               </p>
                            </div>
@@ -256,7 +256,7 @@
                                  </p>
                               </div>
                               <div class="mt-0.5">
-                                 <p class="text-c1 text-right leading-trim">
+                                 <p class="text-b1 text-right leading-trim">
                                     Years of Experience
                                  </p>
                               </div>
@@ -303,7 +303,7 @@
                                  </p>
                               </div>
                               <div class="mt-0.5">
-                                 <p class="text-c1 text-right leading-trim">
+                                 <p class="text-b1 text-right leading-trim">
                                     Completed Projects
                                  </p>
                               </div>
@@ -350,7 +350,7 @@
                                  </p>
                               </div>
                               <div class="mt-0.5">
-                                 <p class="text-c1 text-right leading-trim">
+                                 <p class="text-b1 text-right leading-trim">
                                     Happy Customers
                                  </p>
                               </div>
@@ -397,7 +397,7 @@
                                  </p>
                               </div>
                               <div class="mt-0.5">
-                                 <p class="text-c1 text-right leading-trim">
+                                 <p class="text-b1 text-right leading-trim">
                                     Land Bank
                                  </p>
                               </div>
@@ -568,7 +568,7 @@
                                  <p class="l-place-video__caption-item__title h0 leading-trim">
                                     3
                                  </p>
-                                 <p class=" text-c1 leading-trim mt-2">
+                                 <p class=" text-b1 leading-trim mt-2">
                                     Years of Experience
                                  </p>
                               </div>
@@ -642,7 +642,7 @@
                                  <p class="l-place-video__caption-item__title h0 leading-trim">
                                     9
                                  </p>
-                                 <p class=" text-c1 leading-trim mt-2">
+                                 <p class=" text-b1 leading-trim mt-2">
                                     Completed Developments
                                  </p>
                               </div>
@@ -716,7 +716,7 @@
                                  <p class="l-place-video__caption-item__title h0 leading-trim">
                                     16
                                  </p>
-                                 <p class=" text-c1 leading-trim mt-2">
+                                 <p class=" text-b1 leading-trim mt-2">
                                     Happy Customers
                                  </p>
                               </div>
