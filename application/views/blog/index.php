@@ -1348,235 +1348,49 @@
                                                 </p>
                                             </div> -->
                                             <ul class="col col--xs-4 col--lg-12 flats__listt ui-light js-ajax-list" data-themed-class='{"left": "ui-dark", "right": "ui-light", "mobile-left": "ui-light"}'>
-                                                <li>
-                                                    <a href="https://fb.com" target="_blank" class="card card--apartment" data-ajax-page-ignore-prefetch>
-                                                        <div class="card__sizer"></div>
-                                                        <div class="card__content">
-                                                            <!--<div class="card__top group group--nowrap group--between">
-                                                                 <div class="group group--small group--middle">
-                                                                    <div class="card__feature" data-plugin="popover"
-                                                                        data-popover-placement="bottom-start"
-                                                                        data-popover-parent-selector=".card"
-                                                                        data-popover-events="hover"
-                                                                        aria-describedby="66storage">
-                                                                        <svg class="icon icon-storage" width="16"
-                                                                            height="16" aria-hidden="true"
-                                                                            viewBox="0 0 16 16"
-                                                                            style="--icon-width: 16; --icon-height: 16;">
-                                                                            <use href="assets/images/icons.svg#storage"
-                                                                                xlink:href="assets/images/icons.svg#storage">
-                                                                            </use>
-                                                                        </svg>
-                                                                    </div>
-
-                                                                    <div id="66storage"
-                                                                        class="tooltip tooltip--closable tooltip--feature ui-dark"
-                                                                        role="tooltip">
-                                                                        <span class="tooltip__triangle"></span>
-                                                                        <div
-                                                                            class="tooltip__content text-c2 leading-trim">
-                                                                            Storage
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div> 
-                                                                <span
-                                                                    class="btn btn--outline btn--outline-active btn--square favourite  btn--sm"
-                                                                    aria-label="Remove apartment from favourites"
-                                                                    data-plugin="favourite"
-                                                                    data-favourite="&#x7B;&quot;id&quot;&#x3A;35,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
-                                                                    tabindex="0" role="button">
-                                                                    <span class="btn__content">
-                                                                        <span class="btn__icon ">
-                                                                            <svg class="icon icon-favourite" width="30"
-                                                                                height="30" aria-hidden="true"
-                                                                                viewBox="0 0 30 30"
-                                                                                style="--icon-width: 30; --icon-height: 30;">
-                                                                                <use href="assets/images/icons.svg#favourite"
-                                                                                    xlink:href="assets/images/icons.svg#favourite">
-                                                                                </use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                            </div>-->
-                                                            <div class="card__plan">
-                                                                <picture class=" svg-fix" draggable="false">
-                                                                    <img src="uploads/news/newsu_130226240302_96.jpg" alt="" draggable="false">
-                                                                </picture>
-                                                            </div>
-                                                            <div class="card__footer">
-                                                                <div class="group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                                                                        <div class="text-g1 text-color leading-trim mb-0.2">
-                                                                            <h2>BST Developers India Pvt. Ltd. Introduces its flagship Project “BST-Green Bhoomi”</h2>
-                                                                        </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li>
-
-
-
-                                                    <a href="flat/86.html" class="card card--apartment"
-                                                        data-ajax-page-ignore-prefetch>
-                                                        <div class="card__sizer"></div>
-                                                        <div class="card__content">
-                                                          
-                                                            <div class="card__plan">
-
-
-
-
-
-                                                                <picture class=" svg-fix" draggable="false">
-                                                                     <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
-                                                                </picture>
-
-
-                                                            </div>
-
-                                                            <div class="card__footer">
-                                                                <div
-                                                                    class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                                                                    <div>
-                                                                        <div
-                                                                            class="text-c2 text-color-small leading-trim mb-0.2">
-                                                                            <p>
-                                                                                1 000 000 /m<sup>2</sup>
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="text-small leading-trim">
-                                                                            <p>
-                                                                                61 600 000
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                    <div class="text-c2 text-color-small leading-trim">
-                                                                        <p>
-                                                                            with finishings
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div
-                                                                    class="group group--nowrap group--bottom group--between">
-
-                                                                    <div
-                                                                        class="card__footer-text text-small leading-trim">
-                                                                        <p class="card__square">
-                                                                           2324324 view
-                                                                        </p>
-                                                                        <p>
-                                                                            2 rooms
-                                                                        </p>
-                                                                        <p>
-                                                                            8 floor
-                                                                        </p>
-                                                                    </div>
-
-                                                                    <span class="card__footer-title h1 leading-trim ">
-                                                                       
-                                                                    </span>
-                                                                </div>
-
-
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li>
-
-
-
-                                                    <a href="flat/87.html" class="card card--apartment"
-                                                        data-ajax-page-ignore-prefetch>
-                                                        <div class="card__sizer"></div>
-                                                        <div class="card__content">
-                                                           <div class="header">
-                                                                <span class="jStag pt-1 pr-1 ">Category Name</span>
-                                                                <div class="blog-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
-                                                                    <div class="meta-item">❤️ <span>120</span></div>
-                                                                    <div class="meta-item">💬 <span>45</span></div>
-                                                                    <div class="meta-item">👁️ <span>1.2k</span></div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="card__plan">
-                                                                 <picture class=" svg-fix" draggable="false">
-                                                                     <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
-                                                                </picture>
-                                                            </div>
-
-                                                            <div class="card__footer">
-                                                                <div
-                                                                    class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                                                                    <div>
-                                                                        <div
-                                                                            class="text-c2 text-color-small leading-trim mb-0.2">
-                                                                            <p>
-                                                                                1 040 000 /m<sup>2</sup>
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="text-small leading-trim">
-                                                                            <p>
-                                                                                64 584 000
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                    <div class="text-c2 text-color-small leading-trim">
-                                                                        <p>
-                                                                            with finishings
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div
-                                                                    class="group group--nowrap group--bottom group--between">
-
-                                                                    <div
-                                                                        class="card__footer-text text-small leading-trim">
-                                                                        <p class="card__square">
-                                                                            62.1 m<sup>2</sup>
-                                                                        </p>
-                                                                        <p>
-                                                                            2 rooms
-                                                                        </p>
-                                                                        <p>
-                                                                            8 floor
-                                                                        </p>
-                                                                    </div>
-
-                                                                    <span class="card__footer-title h1 leading-trim ">
-                                                                        87
-                                                                    </span>
-                                                                </div>
-
-
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
                                               
                                                 <li>
-                                                    <a href="flat/54.html" class="card card--apartment"
+                                                    <a href="flat/54.html" class="card card--apartment blog "
                                                         data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
                                                             <div class="card__top group group--nowrap group--between">
-                                                                <div class="group group--small group--middle">
-                                                                    <div class="card__feature" data-plugin="popover"
-                                                                        data-popover-placement="bottom-start"
-                                                                        data-popover-parent-selector=".card"
-                                                                        data-popover-events="hover"
-                                                                        aria-describedby="54loggia" style="z-index: 10;">
-                                                                     👁️ 
+                                                               <h5 class="card__title h5 leading-trim">
+                                                                    <span class="card__title__text">
+                                                                        Real Estate Trends Every Homebuyer Should Know
+                                                                    </span>
+                                                                </h3>
+                                                            </div>
+
+                                                            <div class="card__plan blog"> 
+                                                                <picture class=" svg-fix" draggable="false">
+                                                                     <img class="blog" src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
+                                                                </picture>
+
+                                                            </div>
+
+                                                            <div class="card__footer">
+                                                                 <div>
+                                                                        <div class="text-small leading-trim">
+                                                                            <h4 class="card__square">
+                                                                                <span class="card__title__text">
+                                                                                    Catigory Name
+                                                                                </span>
+                                                                            </h4>
+                                                                        </div>
                                                                     </div>
+
+                                                                  
+                                                                    <div
+                                                                        class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
+                                                                        <div class="group group--small group--middle">
+                                                                        <div class="card__feature" data-plugin="popover"
+                                                                            data-popover-placement="bottom-start"
+                                                                            data-popover-parent-selector=".card"
+                                                                            data-popover-events="hover"
+                                                                            aria-describedby="54loggia" style="z-index: 10;">
+                                                                        👁️ 
+                                                                        </div>
 
                                                                     <div id="54loggia"
                                                                         class="tooltip tooltip--closable tooltip--feature ui-dark"
@@ -1629,44 +1443,6 @@
 
                                                                 </div>
 
-
-                                                                <span
-                                                                    class=""
-                                                                    data-plugin="favourite"
-                                                                    data-favourite="&#x7B;&quot;id&quot;&#x3A;25,&quot;activeClass&quot;&#x3A;&quot;favourite--active&#x20;is-active&quot;,&quot;inactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperSelector&quot;&#x3A;&quot;.js-favourite-wrapper&quot;,&quot;wrapperActiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperInactiveClass&quot;&#x3A;&quot;&quot;,&quot;wrapperRemoveInactive&quot;&#x3A;false,&quot;labelActive&quot;&#x3A;&quot;Remove&#x20;apartment&#x20;from&#x20;favourites&quot;,&quot;labelInactive&quot;&#x3A;&quot;Add&#x20;apartment&#x20;to&#x20;favourites&quot;,&quot;size&quot;&#x3A;null&#x7D;"
-                                                                    tabindex="0" role="button"  style="z-index: 10;">
-
-                                                                     <p >Catigory Name</p>
-                                                                </span>
-
-                                                            </div>
-
-                                                            <div class="card__plan"> 
-                                                                <picture class=" svg-fix" draggable="false">
-                                                                     <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
-                                                                </picture>
-
-                                                            </div>
-
-                                                            <div class="card__footer">
-                                                                <div
-                                                                    class="card__footer__price group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
-                                                                       <div
-                                                                            class="text-c2 text-color-small leading-trim mb-0.2">
-                                                                            <p>
-                                                                                1 230 000 /m<sup>2</sup>
-                                                                            </p>
-                                                                        </div>
-                                                                    <div>
-                                                                       
-                                                                        <div class="text-small leading-trim" style="z-index: 10;">
-                                                                            <p  style="z-index: 10;">
-                                                                               Real Estate Trends Every Homebuyer Should Know
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-
-
                                                                   
                                                                 </div>
 
@@ -1674,7 +1450,7 @@
                                                                     class="group group--nowrap group--bottom group--between">
 
                                                                    <p style="z-index: 10;">The real estate market is constantly evolving. Learn about changing buyer preferences, new developments, technology, sustainable housing and emerging property trends.</p>
-                                                                  
+                                                                  <p>read more..</p>
                                                                 </div>
 
 
@@ -1683,7 +1459,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="flat/137.html" class="card card--apartment"
+                                                    <a href="flat/137.html" class="card card--apartment blog "
                                                         data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
@@ -1755,7 +1531,7 @@
 
                                                             </div>
 
-                                                            <div class="card__plan">
+                                                            <div class="card__plan blog">
 
 
 
@@ -1803,7 +1579,21 @@
                                                                             </p>
                                                                         </div>
                                                                     </div>
+<div class="d-flex align-items-center gap-3">
 
+    <span data-bs-toggle="tooltip" title="Like">
+        <i class="bi bi-heart"></i> 12
+    </span>
+
+    <span data-bs-toggle="tooltip" title="Comment">
+        <i class="bi bi-chat"></i> 5
+    </span>
+
+    <span data-bs-toggle="tooltip" title="View">
+        <i class="bi bi-eye"></i> 120
+    </span>
+
+</div>
 
                                                                     <div class="text-c2 text-color-small leading-trim">
                                                                         <p>
@@ -1839,7 +1629,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="flat/162.html" class="card card--apartment"
+                                                    <a href="flat/162.html" class="card card--apartment blog "
                                                         data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
@@ -1963,7 +1753,7 @@
 
                                                             </div>
 
-                                                            <div class="card__plan">
+                                                            <div class="card__plan blog">
 
 
 
@@ -2047,7 +1837,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="flat/164.html" class="card card--apartment"
+                                                    <a href="flat/164.html" class="card card--apartment blog "
                                                         data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
@@ -2171,7 +1961,7 @@
 
                                                             </div>
 
-                                                            <div class="card__plan">
+                                                            <div class="card__plan blog">
 
 
 
@@ -2255,7 +2045,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="flat/85.html" class="card card--apartment"
+                                                    <a href="flat/85.html" class="card card--apartment blog "
                                                         data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
@@ -2353,7 +2143,7 @@
 
                                                             </div>
 
-                                                            <div class="card__plan">
+                                                            <div class="card__plan blog">
 
 
 
@@ -2437,7 +2227,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="flat/95.html" class="card card--apartment"
+                                                    <a href="flat/95.html" class="card card--apartment blog "
                                                         data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
@@ -2535,7 +2325,7 @@
 
                                                             </div>
 
-                                                            <div class="card__plan">
+                                                            <div class="card__plan blog">
 
 
 
@@ -2619,7 +2409,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="flat/192.html" class="card card--apartment"
+                                                    <a href="flat/192.html" class="card card--apartment blog "
                                                         data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
@@ -2743,7 +2533,7 @@
 
                                                             </div>
 
-                                                            <div class="card__plan">
+                                                            <div class="card__plan blog ">
 
 
 

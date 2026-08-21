@@ -20948,11 +20948,7 @@ jdiv.__jivoMobileButton {
     max-width: var(--md, calc(50% - (var(--scale-px) * 10))) var(--n-md, 100%);
     padding: 0
 }
-.flats__listt li img {
-    height: 220px; /* Adjust to your preferred height */
-    object-fit: cover;
-    width: 100%;
-}
+
 .flats__col {
     display: flex;
     flex-wrap: wrap
@@ -21188,6 +21184,11 @@ jdiv.__jivoMobileButton {
     overflow: visible
 }
 
+.blog {
+    --item-ratio: var(--md, 1.1) var(--n-md, 1.3125);
+    overflow: visible
+}
+
 .card--apartment:before {
     transform: scale(1);
     transition-duration: .4s;
@@ -21225,6 +21226,14 @@ jdiv.__jivoMobileButton {
     pointer-events: none;
     position: absolute
 }
+.card--apartment .blog {
+    inset: 0;
+    padding: var(--xxxxl, calc(100% / 720 * 40) var(--card-spacing-h) calc(100% / 720 * 100)) var(--n-xxxxl,
+            var(--xxxl, calc(100% / 540 * 40) var(--card-spacing-h) calc(100% / 540 * 100)) var(--n-xxxl,
+                var(--md, calc(100% / 380 * 40) var(--card-spacing-h) calc(100% / 380 * 100)) var(--n-md, calc(100% / 360 * 40) var(--card-spacing-h) calc(100% / 360 * 100))));
+    pointer-events: none;
+    position: absolute
+}
 
 [id*=floor-modal] .card--apartment .card__plan {
     padding: var(--xxxxl, calc(100% / 480 * 60) var(--card-spacing-h) calc(100% / 480 * 200)) var(--n-xxxxl,
@@ -21232,6 +21241,12 @@ jdiv.__jivoMobileButton {
 }
 
 .card--apartment .card__plan img,
+.card--apartment .card__plan picture  blog{
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+
 .card--apartment .card__plan picture {
     height: 100%;
     -o-object-fit: cover;
@@ -21695,4 +21710,79 @@ p.text-justify {
     .sticky-btn:hover {
         width: 120px;
     }
+}
+
+
+.post-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.action-btn {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #555;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.action-btn:hover {
+    background: #f2f2f2;
+    color: #000;
+}
+
+.icon {
+    font-size: 22px;
+    line-height: 1;
+}
+
+/* Tooltip */
+.tooltip {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%) translateY(5px);
+
+    background: #111;
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 5px;
+
+    font-size: 12px;
+    white-space: nowrap;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: 0.2s ease;
+}
+
+/* Tooltip arrow */
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border: 5px solid transparent;
+    border-top-color: #111;
+}
+
+/* Show tooltip */
+.action-btn:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
 }
