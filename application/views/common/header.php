@@ -147,7 +147,8 @@
     </a>
 
     <!-- Contact Form -->
-    <a href="#contact" class="sticky-btn contact">
+    <a class="sticky-btn contact  btn btn--text-small  btn--link btn--clone is-hidden--sm-down"
+                                href="#callback-modal" data-plugin=" button" data-button-clone-content="true"">
         <span class="sticky-icon">🎌</span>
         <span class="sticky-text">Enquiry</span>
     </a>
