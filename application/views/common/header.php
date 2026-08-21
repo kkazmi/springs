@@ -131,3 +131,24 @@
       </div>
    </div>
 </header>
+
+  <!-- Sticky Contact Buttons -->
+<div class="sticky-contact">
+    <!-- Call -->
+    <a href="tel:+1234567890" class="sticky-btn call">
+        <span class="sticky-icon">📅</span>
+        <span class="sticky-text">Book a site Visit</span>
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/1234567890" target="_blank" class="sticky-btn whatsapp">
+        <span class="sticky-icon">✆</span>
+        <span class="sticky-text">WhatsApp</span>
+    </a>
+
+    <!-- Contact Form -->
+    <a href="#contact" class="sticky-btn contact">
+        <span class="sticky-icon">🎌</span>
+        <span class="sticky-text">Enquiry</span>
+    </a>
+</div>
