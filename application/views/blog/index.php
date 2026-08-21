@@ -1347,7 +1347,7 @@
                                                     Similar options
                                                 </p>
                                             </div> -->
-                                            <ul class="col col--xs-4 col--lg-12 flats__list ui-light js-ajax-list" data-themed-class='{"left": "ui-dark", "right": "ui-light", "mobile-left": "ui-light"}'>
+                                            <ul class="col col--xs-4 col--lg-12 flats__listt ui-light js-ajax-list" data-themed-class='{"left": "ui-dark", "right": "ui-light", "mobile-left": "ui-light"}'>
                                                 <li>
                                                     <a href="https://fb.com" target="_blank" class="card card--apartment" data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>

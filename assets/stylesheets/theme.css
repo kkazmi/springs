@@ -20931,6 +20931,28 @@ jdiv.__jivoMobileButton {
     padding: 0
 }
 
+
+.flats__listt {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(var(--scale-px) * 20);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.flats__listt li {
+    flex: var(--md, 1 1 calc(50% - (var(--scale-px) * 10))) var(--n-md, 1 1 100%);
+    margin: 0;
+    max-width: var(--md, calc(50% - (var(--scale-px) * 10))) var(--n-md, 100%);
+    padding: 0
+}
+.flats__listt li img {
+    height: 220px; /* Adjust to your preferred height */
+    object-fit: cover;
+    width: 100%;
+}
 .flats__col {
     display: flex;
     flex-wrap: wrap
@@ -21627,7 +21649,7 @@ p.text-justify {
 
 /* Hover */
 .sticky-btn:hover {
-    width: 135px;
+    width: 155px;
 }
 
 .sticky-btn:hover .sticky-text {
