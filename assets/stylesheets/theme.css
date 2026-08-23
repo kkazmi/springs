@@ -19572,7 +19572,7 @@ img.icon.icon-logo-right {
 }
 
 .footer__content {
-    padding-bottom: var(--md, var(--spacing)) var(--n-md, calc(var(--scale-px) * 40))
+    padding-bottom: var(--md, var(--spacing)) var(--n-md, calc(var(--scale-px) * 30))
 }
 
 .footer__socials {
@@ -21785,4 +21785,348 @@ p.text-justify {
     opacity: 1;
     visibility: visible;
     transform: translateX(-50%) translateY(0);
+}
+
+/* =========================================
+   STICKY BOTTOM ACTION BAR
+   ========================================= */
+
+.sticky-action-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 76px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    background: #ffffff;
+
+    border-top: 1px solid #e5e5e5;
+
+    box-shadow:
+        0 -4px 18px rgba(0, 0, 0, 0.12);
+
+    z-index: 9999;
+
+    /* Hidden initially */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100%);
+
+    transition:
+        opacity 0.45s ease,
+        transform 0.45s ease,
+        visibility 0.45s ease;
+}
+
+
+/* =========================================
+   SHOW BAR
+   ========================================= */
+
+.sticky-action-bar.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+/* =========================================
+   ACTION ITEM
+   ========================================= */
+
+
+/* Vertical separators */
+
+.sticky-action-item:not(:last-child)::after {
+    content: "";
+
+    position: absolute;
+
+    top: 13px;
+    right: 0;
+
+    width: 1px;
+    height: calc(100% - 26px);
+
+    background: #d9d9d9;
+}
+
+
+/* =========================================
+   ICON
+   ========================================= */
+
+.sticky-action-icon {
+    position: relative;
+
+    width: 28px;
+    height: 28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 2px;
+}
+
+
+.sticky-action-icon svg {
+    width: 24px;
+    height: 24px;
+
+    fill: none;
+    stroke: currentColor;
+
+    stroke-width: 1.8;
+
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+/* =========================================
+   360 NUMBER
+   ========================================= */
+
+.walkthrough-number {
+    position: absolute;
+
+    top: -3px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    font-size: 13px;
+    font-weight: 700;
+
+    line-height: 1;
+
+    letter-spacing: -0.5px;
+}
+
+
+/* =========================================
+   TEXT
+   ========================================= */
+
+.sticky-action-label {
+    display: block;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    line-height: 1;
+
+    letter-spacing: 0.2px;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================
+   HOVER
+   ========================================= */
+
+.sticky-action-item:hover {
+    background: #2a4d3e;
+}
+
+
+.sticky-action-item:hover .sticky-action-icon {
+    transform: translateY(-2px);
+}
+
+
+.sticky-action-icon {
+    transition: transform 0.25s ease;
+}
+
+
+/* =========================================
+   BUTTON RESET
+   ========================================= */
+
+.sticky-action-button {
+    font-family: inherit;
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 991px) {
+
+    .sticky-action-bar {
+        height: 70px;
+    }
+
+    .sticky-action-icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .sticky-action-icon svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .sticky-action-label {
+        font-size: 10px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    .sticky-action-bar {
+        height: 64px;
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .sticky-action-item:not(:last-child)::after {
+        top: 10px;
+        height: calc(100% - 20px);
+    }
+
+
+    .sticky-action-icon {
+        width: 23px;
+        height: 23px;
+
+        margin-bottom: 3px;
+    }
+
+
+    .sticky-action-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .walkthrough-number {
+        font-size: 11px;
+        top: -2px;
+    }
+
+
+    .sticky-action-label {
+        font-size: 8.5px;
+        letter-spacing: 0.1px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 400px) {
+
+    .sticky-action-bar {
+        height: 60px;
+    }
+
+
+    .sticky-action-icon {
+        width: 21px;
+        height: 21px;
+    }
+
+
+    .sticky-action-icon svg {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    .sticky-action-label {
+        font-size: 8px;
+    }
+}
+
+
+/* =========================================
+   VERY SMALL DEVICES
+   ========================================= */
+
+@media (max-width: 320px) {
+
+    .sticky-action-bar {
+        height: 58px;
+    }
+
+
+    .sticky-action-label {
+        font-size: 7.5px;
+    }
+}.sticky-action-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 76px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  
+
+    border-top: 1px solid #ddd;
+
+    box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.12);
+
+    z-index: 99999;
+
+    /* Always visible */
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.logosection{
+            padding-bottom: calc(var(--spacing) * 0.1);
+            padding-top: calc(var(--spacing) * .1);
+}
+
+.sticky-action-item {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100%;
+
+    text-decoration: none;
+
+    color: #111111;
+  background: #ffed9c;
+
+    border: 0;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease;
 }
