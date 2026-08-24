@@ -22130,3 +22130,10 @@ p.text-justify {
         background-color 0.25s ease,
         color 0.25s ease;
 }
+
+
+
+ .blogg {
+    padding-top: calc(80% * var(--item-ratio)) !important;
+    position: relative;
+}

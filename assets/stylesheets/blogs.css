@@ -61,3 +61,8 @@ article.newCard {
 .blogDetails p.text-c1 {
     text-transform: none;
 }
+
+ .blogg {
+    padding-top: calc(80% * var(--item-ratio)) !important;
+    position: relative;
+}
