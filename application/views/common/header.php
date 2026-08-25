@@ -15,7 +15,7 @@
    <div class="header__content px-layout">
       <div class="header__left header-animation-logo is-hidden--md-up" data-custom-scroll-theme-target="left">
          <a class="header__logo--mobile"  href="<?php echo base_url(); ?>" aria-label="Homepage">
-            <img class="icon icon-logo-mobile" src="assets/images/logo.webp" />
+            <img class="icon icon-logo-mobile" src="assets/images/logo.webp"  style="width: 90px; height: auto;"/>
          </a>
       </div>
       <div class="header__left header-animation-link is-hidden--sm-down"
@@ -136,7 +136,26 @@
 <div class="sticky-contact">
     <!-- Call -->
     <a href="tel:+1234567890" class="sticky-btn call">
-        <span class="sticky-icon">📅</span>
+        <span class="sticky-icon">
+         <svg xmlns="http://www.w3.org/2000/svg"
+            width="25" height="23"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true">
+
+            <rect x="3" y="4" width="18" height="17" rx="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+
+            <path d="M12 13a3 3 0 0 1 3 3c0 2-3 5-3 5s-3-3-3-5a3 3 0 0 1 3-3z"/>
+            <circle cx="12" cy="16" r="1"/>
+         </svg>
+        </span>
         <span class="sticky-text">Book a site Visit</span>
     </a>
 
@@ -147,9 +166,18 @@
     </a>
 
     <!-- Contact Form -->
-    <a class="sticky-btn contact  btn btn--text-small  btn--link btn--clone is-hidden--sm-down"
+    <a class="sticky-btn contact  "
                                 href="#callback-modal" data-plugin=" button" data-button-clone-content="true"">
-        <span class="sticky-icon">🎌</span>
+         <span class="sticky-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+               viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+               <path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.2 9.2 0 0 1-4-.9L3 21l1.9-4.4A8.4 8.4 0 0 1 3 11.5a8.5 8.5 0 0 1 18 0Z"/>
+               <path d="M9 10a3 3 0 1 1 5.2 2c-.8.8-1.7 1.1-1.7 2.5"/>
+               <path d="M12.5 17h.01"/>
+            </svg>
+        </span>
         <span class="sticky-text">Enquiry</span>
     </a>
 </div>

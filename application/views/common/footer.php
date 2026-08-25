@@ -79,9 +79,9 @@
                <br>
                <br>
                &copy; <?php echo date('Y'); ?> All rights reserved.
-            </p>
+            </p><br>
              <!-- Sticky Bottom Action Bar -->
-            <div class="sticky-action-bar" id="stickyActionBar">
+            <!-- <div class="sticky-action-bar" id="stickyActionBar">
 
                <a href="#walkthrough" class="sticky-action-item">
                   <span class="sticky-action-icon">
@@ -153,7 +153,7 @@
                   </span>
                </button>
 
-            </div>
+            </div> -->
          </div>
 
 
