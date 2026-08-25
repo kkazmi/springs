@@ -77,13 +77,15 @@
                      id="l-gallery-sticky" data-plugin="reveal" data-reveal-enable-mq="null">
                      <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
                         data-scroll-target="#l-gallery-sticky" data-reveal="gallery">
+                        <?php $this->load->view('home/preloader'); ?>
                         <?php $this->load->view('home/hero_slider'); ?>
                      </div>
                   </div>
                   <?php $this->load->view('home/about'); ?>
                   <?php $this->load->view('home/cmd_msg'); ?>
                   <?php $this->load->view('home/project'); ?>
-                  <div class="l-place-mobile pt-3 is-hidden--lg-up">
+                  <?php $this->load->view('home/statistics'); ?>
+                  <!-- <div class="l-place-mobile pt-3 is-hidden--lg-up">
                      <div class="l-nature__slider__images col js-nature-content-animation-controller"
                         data-plugin="mobileScrollable">
                         <div class="col col--xs-4 col--md-6 ui-dark mb-2 px-layout">
@@ -738,11 +740,13 @@
                            </div>
                         </div>
                      </div>
-                  </div>
+                  </div> -->
                  <?php $this->load->view('home/map'); ?>
                   <?php $this->load->view('home/project_img'); ?>
                   <?php $this->load->view('home/amenties'); ?>
                   <?php $this->load->view('home/interiors'); ?>
+                  <?php $this->load->view('home/reward'); ?>
+
                   <?php $this->load->view('home/blogs'); ?>
                   <?php $this->load->view('home/testimonials'); ?>
                </section>

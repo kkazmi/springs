@@ -1,5 +1,4 @@
-<div class="l-interiors sticky sticky--full-height sticky--under-previous is-hidden--md-down"
-    id="interiors" data-plugin="reveal">
+<div class="l-interiors sticky sticky--full-height sticky--under-previous is-hidden--md-down" id="interiors" data-plugin="reveal">
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
     data-scroll-target="#interiors">
     <div class="l-interiors__intro" data-scroll-snap-point='[{ "viewport": 0, "element": 100 }]'>
