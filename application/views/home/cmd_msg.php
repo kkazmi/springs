@@ -226,13 +226,13 @@
                 data-parallax--20-0='{"transform": "translateY(30%)"}'
                 data-parallax--420-0='{"transform": "translateY(-30%)"}'>
                 <a class="js-content-animation-link is-active" data-content-animation-id="1">
-                    <p class="h2 leading-trim">B</p>
+                    <p class="h2 leading-trim h2p-philosophy">B</p>
                 </a>
                 <a class="js-content-animation-link " data-content-animation-id="2">
-                    <p class="h2 leading-trim">S</p>
+                    <p class="h2 leading-trim h2p-philosophy">S</p>
                 </a>
                 <a class="js-content-animation-link " data-content-animation-id="3">
-                    <p class="h2 leading-trim">T</p>
+                    <p class="h2 leading-trim h2p-philosophy">T</p>
                 </a>
                 </div>
                 <div class="l-wellness__slider__caption-text content-animation col col--md-4"

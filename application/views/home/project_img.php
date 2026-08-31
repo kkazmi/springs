@@ -133,43 +133,41 @@
     </div>
     </div>
 </div>
-<div
+<!-- <div
     class="l-design__slide l-design__slide--3 sticky sticky--full-height sticky--under-previous sticky--under-next ui-light is-hidden--md-down"
     id="l-design-sticky-3" data-plugin="reveal">
-    <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
-    data-scroll-target="#l-design-sticky-3"
-    data-scroll-snap-point='[{ "viewport": 0, "element": 100 }, { "viewport": 0, "element": 150 }]'>
-    <div class="l-design__slide-images col col--md-6 mr-0 ml-auto ">
-        <div class="l-design__slide-images__item" data-plugin="parallax"
-            data-parallax-enable-mq="md-up" data-parallax-clamp="true"
-            data-parallax-measure-selector=".sticky" data-parallax-0-0='{"transform": "scale(1.2)"}'
-            data-parallax--300-0='{"transform": "scale(1)"}'>
-            <picture
-                class="is-invisible--js is-hidden--no-js img-full background background--cover background--bottom"
-                data-plugin="appear " draggable="false">
-                <source data-srcset="<?php echo base_url($project_img_gallery[3]['image_xxxl']); ?>"
-                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                <source data-srcset="<?php echo base_url($project_img_gallery[3]['image_xxl']); ?>"
-                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                <img data-src="<?php echo base_url($project_img_gallery[3]['image_md']); ?>"
-                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
-                alt="" width="720" height="900" draggable="false">
-            </picture>
-            <noscript>
-                <picture class=" img-full background background--cover background--bottom"
-                draggable="false">
-                <source srcset="<?php echo base_url($project_img_gallery[3]['image_xxxl']); ?>"
+    <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#l-design-sticky-3" data-scroll-snap-point='[{ "viewport": 0, "element": 100 }, { "viewport": 0, "element": 150 }]'>
+        <div class="l-design__slide-images col col--md-6 mr-0 ml-auto ">
+            <div class="l-design__slide-images__item" data-plugin="parallax"
+                data-parallax-enable-mq="md-up" data-parallax-clamp="true"
+                data-parallax-measure-selector=".sticky" data-parallax-0-0='{"transform": "scale(1.2)"}'
+                data-parallax--300-0='{"transform": "scale(1)"}'>
+                <picture
+                    class="is-invisible--js is-hidden--no-js img-full background background--cover background--bottom"
+                    data-plugin="appear " draggable="false">
+                    <source data-srcset="<?php echo base_url($project_img_gallery[3]['image_xxxl']); ?>"
+                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
-                <source srcset="<?php echo base_url($project_img_gallery[3]['image_xxl']); ?>"
+                    <source data-srcset="<?php echo base_url($project_img_gallery[3]['image_xxl']); ?>"
+                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
-                <img src="<?php echo base_url($project_img_gallery[3]['image_md']); ?>" alt=""
-                    width="720" height="900" draggable="false">
+                    <img data-src="<?php echo base_url($project_img_gallery[3]['image_md']); ?>"
+                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                    alt="" width="720" height="900" draggable="false">
                 </picture>
-            </noscript>
+                <noscript>
+                    <picture class=" img-full background background--cover background--bottom"
+                    draggable="false">
+                    <source srcset="<?php echo base_url($project_img_gallery[3]['image_xxxl']); ?>"
+                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
+                    <source srcset="<?php echo base_url($project_img_gallery[3]['image_xxl']); ?>"
+                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                    <img src="<?php echo base_url($project_img_gallery[3]['image_md']); ?>" alt=""
+                        width="720" height="900" draggable="false">
+                    </picture>
+                </noscript>
+            </div>
         </div>
-    </div>
     </div>
     <div class="sticky__layer">
     <div class="row col col--md-6 l-design__slide-content pt-3 pt-2:md" data-plugin="parallax"
@@ -224,7 +222,7 @@
         </div>
     </div>
     </div>
-</div>
+</div> -->
 <div
     class="l-design__slide l-design__slide--1 sticky sticky--full-height sticky--under-previous is-hidden--lg-up"
     id="design-mobile">

@@ -3200,3 +3200,7 @@
     position: relative;
     z-index: 9;
 }
+.h2p-philosophy {
+    font-size: 7rem;
+    font-weight: 900;
+}

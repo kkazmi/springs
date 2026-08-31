@@ -21787,11 +21787,11 @@ p.text-justify {
     transform: translateX(-50%) translateY(0);
 }
 
-/* 
+
 .logosection{
             padding-bottom: calc(var(--spacing) * 0.1);
             padding-top: calc(var(--spacing) * .1);
-} */
+}
 /* 
 .sticky-action-item {
     position: relative;

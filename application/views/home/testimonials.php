@@ -15,7 +15,7 @@
                     <?php echo $testimonial['testimonial']; ?>
                 </p>
                 <div class="pxltsUser9045">
-                    <!-- <img src="https://i.pravatar.cc/100?img=12"> -->
+                    <img src="https://i.pravatar.cc/100?img=12">
                     <div>
                         <div class="pxltsName9045"><?php echo $testimonial['client_name']; ?></div>
                         <div class="pxltsRole9045"><?php echo $testimonial['property_type_name']; ?></div>

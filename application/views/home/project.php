@@ -226,13 +226,13 @@
                         </picture>
                     </noscript>
                 </div>
-                <!-- <div class="background--cover background">
+                <div class="background--cover background">
                     <iframe
                         style="--ratio: 1; --aspect-ratio: 360 / 360; overflow: hidden; border: none;"
                         width="360" height="360" loading="lazy"
                         src="https://player.vimeo.com/video/1218239890?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
                         allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div> -->
+                </div>
                 </div>
             </div>
         </div>
@@ -384,41 +384,41 @@
                     <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                         data-plugin="appear " draggable="false">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/entertainment_xxxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/entertainment_xxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/entertainment_md.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                         <img
-                            data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            data-src="assets/images/media/landing/3.nature/entertainment_xs.webp"
                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             alt="" width="640" height="854" draggable="false">
                     </picture>
                     <noscript>
                         <picture class=" img-full parallax-image-move" draggable="false">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/entertainment_xxxl.webp"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/entertainment_xxl.webp"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/entertainment_md.webp"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                             <img
-                            src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            src="assets/images/media/landing/3.nature/entertainment_xs.webp"
                             alt="" width="640" height="854" draggable="false">
                         </picture>
                     </noscript>
@@ -427,41 +427,41 @@
                     <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                         data-plugin="appear " draggable="false">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/luxury_villa_xxxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/luxury_villa_xxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/luxury_villa_md.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                         <img
-                            data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            data-src="assets/images/media/landing/3.nature/luxury_villa_xs.webp"
                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             alt="" width="640" height="854" draggable="false">
                     </picture>
                     <noscript>
                         <picture class=" img-full parallax-image-move" draggable="false">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/luxury_villa_xxxl.webp"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/luxury_villa_xxl.webp"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/luxury_villa_md.webp"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                             <img
-                            src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            src="assets/images/media/landing/3.nature/luxury_villa_xs.webp"
                             alt="" width="640" height="854" draggable="false">
                         </picture>
                     </noscript>
@@ -470,41 +470,41 @@
                     <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                         data-plugin="appear " draggable="false">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/sco_xxxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/sco_xxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/sco_md.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                         <img
-                            data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            data-src="assets/images/media/landing/3.nature/sco_xs.webp"
                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             alt="" width="640" height="854" draggable="false">
                     </picture>
                     <noscript>
                         <picture class=" img-full parallax-image-move" draggable="false">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/sco_xxxl.webp"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/sco_xxl.webp"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/sco_md.webp"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                             <img
-                            src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            src="assets/images/media/landing/3.nature/sco_xs.webp"
                             alt="" width="640" height="854" draggable="false">
                         </picture>
                     </noscript>
@@ -569,7 +569,7 @@
                 <div class="content-animation mb-0.5">
                 <div data-content-animation-item="1" class="is-hidden" aria-hidden="true">
                     <h3 class="h3 mtb-2">
-                        Hospitality Developments<br /><small>Commercial</small>
+                        Hospitality<br /><small>Commercial</small>
                     </h3>
                     <p class="text-t1 leading-trim mb-1">
                         <b>Status:</b> Upcoming
@@ -583,11 +583,21 @@
                         <b>Focus Areas</b>
                     </p>
                     <ul class="text-t1 leading-trim">
-                        <li>Boutique Hotels</li>
-                        <li>Resort Developments</li>
-                        <li>Business Hospitality</li>
-                        <li>Lifestyle Destinations</li>
+                        <li>Premium Hospitality Spaces</li>
+                        <li>Luxury Accommodation</li>
+                        <li>Banquet & Celebration Facilities</li>
+                        <li>Business & Conference Facilities</li>
+                        <li>Ideal for Leisure & Business Stays</li>
                     </ul>
+                    <p class="text-left mt-0.5">
+                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                            <span class="btn__content">
+                                <span class="btn__text btn__text--clone">
+                                    View Details
+                                </span>
+                            </span>
+                        </a>
+                    </p>
                 </div>
                 <div data-content-animation-item="2" class="" aria-hidden="false">
                     <h3 class="h3 mtb-2">
@@ -609,7 +619,6 @@
                         <li>Adjacent to a 75-meter wide road</li>
                         <li>Excellent connectivity</li>
                         <li>High appreciation potential</li>
-                        <li>Planned infrastructure</li>
                     </ul>
                     <p class="text-left mt-0.5">
                         <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
@@ -629,8 +638,7 @@
                         <b>Status:</b> Delivered
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A vibrant community designed for families who value open spaces, wellness, and
-                        modern living.
+                        Premium plotted spaces thoughtfully planned for those who value freedom, flexibility, and a well-connected lifestyle. Offering the opportunity to create a home or investment tailored to your vision.
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -641,7 +649,6 @@
                         <li>Open Air Gym</li>
                         <li>Amphitheatre</li>
                         <li>Community-focused planning</li>
-                        <li>Green surroundings</li>
                     </ul>
                     <p class="text-left mt-0.5">
                         <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
@@ -656,25 +663,23 @@
 
                 <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
                     <h3 class="h3 mtb-2">
-                        Restaurants<br /><small>Restaurant</small>
+                        Entertainment Center<br /><small>Entertainment Center</small>
                     </h3>
                     <p class="text-t1 leading-trim mb-1">
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A vibrant community designed for families who value open spaces, wellness, and
-                        modern living.
+                        A vibrant entertainment destination designed for families and communities to enjoy leisure, recreation, dining, and memorable experiences in a lively modern environment.
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
                     </p>
                     <ul class="text-t1 leading-trim">
-                        <li>Landscaped Zen Park</li>
-                        <li>Children's Play Area</li>
-                        <li>Open Air Gym</li>
-                        <li>Amphitheatre</li>
-                        <li>Community-focused planning</li>
-                        <li>Green surroundings</li>
+                        <li>Multipurpose Entertainment Zones</li>
+                        <li>Family Recreation & Activity Areas</li>
+                        <li>Indoor & Outdoor Games</li>
+                        <li>Dedicated Kids’ Play Zone</li>
+                        <li>Caf'és & Casual Dining</li>
                     </ul>
                     <p class="text-left mt-0.5">
                         <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
@@ -689,25 +694,23 @@
 
                 <div data-content-animation-item="5" class="is-hidden" aria-hidden="true">
                     <h3 class="h3 mtb-2">
-                        5-Star Hotels<br /><small>Hotel</small>
+                        Luxury Villas<br /><small>Residential</small>
                     </h3>
                     <p class="text-t1 leading-trim mb-1">
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A vibrant community designed for families who value open spaces, wellness, and
-                        modern living.
+                        Exclusive luxury villas crafted for refined living, offering spacious interiors, elegant architecture, private outdoor spaces, and a sophisticated lifestyle within a thoughtfully planned community.
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
                     </p>
                     <ul class="text-t1 leading-trim">
-                        <li>Landscaped Zen Park</li>
-                        <li>Children's Play Area</li>
-                        <li>Open Air Gym</li>
-                        <li>Amphitheatre</li>
-                        <li>Community-focused planning</li>
-                        <li>Green surroundings</li>
+                        <li>Spacious Luxury Villas</li>
+                        <li>Contemporary Architecture</li>
+                        <li>Spacious Bedrooms & Living Areas</li>
+                        <li>Enhanced Privacy & Security</li>
+                        <li>Exclusive Community Living</li>
                     </ul>
                     <p class="text-left mt-0.5">
                         <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
@@ -722,24 +725,23 @@
 
                 <div data-content-animation-item="6" class="is-hidden" aria-hidden="true">
                     <h3 class="h3 mtb-2">
-                        Hign End SCO Floors<br /><small>Residential</small>
+                        Hign End SCOs<br /><small>Commercial</small>
                     </h3>
                     <p class="text-t1 leading-trim mb-1">
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A vibrant community designed for families who value open spaces, wellness, and
-                        modern living.
+                        A premium commercial destination crafted for ambitious businesses, discerning investors, and modern brands. Designed to offer high visibility, flexible spaces, and an upscale environment for thriving retail and corporate experiences.
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
                     </p>
                     <ul class="text-t1 leading-trim">
-                        <li>Landscaped Zen Park</li>
-                        <li>Children's Play Area</li>
-                        <li>Open Air Gym</li>
-                        <li>Amphitheatre</li>
-                        <li>Community-focused planning</li>
+                        <li>Premium Shop-Cum-Office Spaces</li>
+                        <li>High-Street Retail Experience</li>
+                        <li>Prime Commercial Location</li>
+                        <li>Dedicated Parking Facilities</li>
+                        <li>Excellent Brand Visibility</li>
                         <li>Green surroundings</li>
                     </ul>
                     <p class="text-left mt-0.5">
@@ -755,25 +757,24 @@
 
                 <div data-content-animation-item="7" class="is-hidden" aria-hidden="true">
                     <h3 class="h3 mtb-2">
-                        Luxury High Rise<br /><small>Residential</small>
+                        High Rise Cluster<br /><small>Residential</small>
                     </h3>
                     <p class="text-t1 leading-trim mb-1">
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A vibrant community designed for families who value open spaces, wellness, and
-                        modern living.
+                        A thoughtfully planned high-rise residential cluster designed to bring together contemporary architecture, elevated living, and vibrant community spaces. Offering panoramic views, modern amenities, and a refined lifestyle in a well-connected urban environment.
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
                     </p>
                     <ul class="text-t1 leading-trim">
-                        <li>Landscaped Zen Park</li>
-                        <li>Children's Play Area</li>
-                        <li>Open Air Gym</li>
-                        <li>Amphitheatre</li>
-                        <li>Community-focused planning</li>
-                        <li>Green surroundings</li>
+                        <li>Premium High-Rise Residences</li>
+                        <li>Contemporary Architectural Design</li>
+                        <li>Landscaped Podiums & Green Spaces</li>
+                        <li>Modern Lifestyle Amenities</li>
+                        <li>Dedicated Parking</li>
+                        <li>Advanced Security Systems</li>
                     </ul>
                     <p class="text-left mt-0.5">
                         <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
