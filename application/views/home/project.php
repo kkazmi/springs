@@ -226,12 +226,12 @@
                         </picture>
                     </noscript>
                 </div>
-                <div class="background--cover background">
+               <div class="background--cover background video-box">
                     <iframe
-                        style="--ratio: 1; --aspect-ratio: 360 / 360; overflow: hidden; border: none;"
-                        width="360" height="360" loading="lazy"
-                        src="https://player.vimeo.com/video/1218239890?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
-                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        src="https://player.vimeo.com/video/1218239890?loop=1&muted=1&autoplay=1&autopause=0&background=1"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>
                 </div>
                 </div>
             </div>
