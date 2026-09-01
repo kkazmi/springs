@@ -21823,3 +21823,7 @@ p.text-justify {
     padding-top: calc(80% * var(--item-ratio)) !important;
     position: relative;
 }
+
+.golden{
+    background: #d7ab3e !important;
+}

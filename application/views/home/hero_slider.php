@@ -71,7 +71,7 @@
             <p class="text-center pt-1">
             <?php if($hero_caption['primary_button_text']!=''): ?>
             <!-- <a href="<?php // echo base_url($hero_caption['primary_button_link']); ?>" class="btn btn--primary mr-1"> -->
-            <a href="<?php echo base_url('detail'); ?>" target="_blank" class="btn btn--primary mr-1">
+            <a href="<?php echo base_url('detail'); ?>" target="_blank" class="btn btn--primary golden mr-1">
                 <?= htmlspecialchars($hero_caption['primary_button_text']); ?>
                 <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
                     viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
