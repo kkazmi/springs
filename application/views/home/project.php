@@ -567,7 +567,7 @@
                 "changeHide": {"name": "fadeOut", "duration": "fast"}
                 }' data-content-animation-plugins="controller events height counter">
                 <div class="content-animation mb-0.5">
-                <div data-content-animation-item="1" class="is-hidden" aria-hidden="true">
+                <div data-content-animation-item="1" class="is-hidden heightfix" aria-hidden="true" >
                     <h3 class="h3 mtb-2">
                         Hospitality<br /><small>Commercial</small>
                     </h3>
@@ -599,7 +599,7 @@
                         </a>
                     </p>
                 </div>
-                <div data-content-animation-item="2" class="" aria-hidden="false">
+                <div data-content-animation-item="2" class="aria-hidden heightfix" aria-hidden="false">
                     <h3 class="h3 mtb-2">
                         BST Green Bhoomi<br /><small>Residential</small>
                     </h3>
@@ -630,7 +630,7 @@
                         </a>
                     </p>
                 </div>
-                <div data-content-animation-item="3" class="is-hidden" aria-hidden="true">
+                <div data-content-animation-item="3" class="is-hidden heightfix" aria-hidden="true">
                     <h3 class="h3 mtb-2">
                         BST Green Gold<br /><small>Residential</small>
                     </h3>
@@ -661,7 +661,7 @@
                     </p>
                 </div>
 
-                <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
+                <div data-content-animation-item="4" class="is-hidden heightfix" aria-hidden="true">
                     <h3 class="h3 mtb-2">
                         Entertainment Center<br /><small>Entertainment Center</small>
                     </h3>
@@ -692,7 +692,7 @@
                     </p>
                 </div>
 
-                <div data-content-animation-item="5" class="is-hidden" aria-hidden="true">
+                <div data-content-animation-item="5" class="is-hidden heightfix" aria-hidden="true">
                     <h3 class="h3 mtb-2">
                         Luxury Villas<br /><small>Residential</small>
                     </h3>
@@ -723,7 +723,7 @@
                     </p>
                 </div>
 
-                <div data-content-animation-item="6" class="is-hidden" aria-hidden="true">
+                <div data-content-animation-item="6" class="is-hidden heightfix" aria-hidden="true">
                     <h3 class="h3 mtb-2">
                         Hign End SCOs<br /><small>Commercial</small>
                     </h3>
@@ -755,7 +755,7 @@
                     </p>
                 </div>
 
-                <div data-content-animation-item="7" class="is-hidden" aria-hidden="true">
+                <div data-content-animation-item="7" class="is-hidden heightfix" aria-hidden="true">
                     <h3 class="h3 mtb-2">
                         High Rise Cluster<br /><small>Residential</small>
                     </h3>
