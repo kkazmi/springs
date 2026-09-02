@@ -1,7 +1,11 @@
 <div class="pxltsSlider">
     <div id="pxltsSliderUniverse9045" class="px-layout">
     <div class="pxltsSliderHeading6789">
-        <h2 class="h2 text-heading-dark">What our Client's say about us!</h2>
+        <h2 class="h2 text-heading">What our Client's<br/> <em>say </em>  about us!</h2>
+        <div class="underline"></div>
+         <p class="textb">
+            Real stories. Real experiences. Real trust.
+        </p>
         <button id="pxltsPrev9045" class="pxltsArrow9045">&#10094;</button>
         <button id="pxltsNext9045" class="pxltsArrow9045">&#10095;</button>
     </div>
@@ -14,6 +18,7 @@
                 <p class="pxltsText9045">
                     <?php echo $testimonial['testimonial']; ?>
                 </p>
+                <div class="underline"></div>
                 <div class="pxltsUser9045">
                     <img src="https://i.pravatar.cc/100?img=12">
                     <div>

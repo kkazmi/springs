@@ -1,4 +1,4 @@
-<div class="jSliderContainer">
+<div class="jSliderContainer jSblogs">
     <div class="row">
         <h2 class="h2 text-heading-dark col col--md-6 pl-1">
             Latest Real Estate Insights
