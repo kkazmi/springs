@@ -280,7 +280,7 @@
 .pxltsSlider {
     clear: both;
     background-size: cover;
-    padding: 10px 0;
+    padding: 2px 0;
     position: relative;
 }
 
@@ -342,13 +342,14 @@
     height: 100%;
     transition: .35s;
     position: relative;
-    background: linear-gradient(45deg, rgba(var(--c-dark-green-rgb), .5) 90%, rgb(255 255 255 / 50%) 20%, #d7ab3e 10%);
-    width: 75%;
+    background: linear-gradient(45deg, rgba(var(--c-dark-green-rgb), .92) 90%, rgb(255 255 255 / 50%) 20%, #d7ab3e 10%);
+    width: 91%;
 }
 
 .pxltsCard9045:hover {
     transform: translateY(-5px);
     box-shadow: 5px 10px 10px rgba(0, 0, 0, .1);
+    border-top: solid 6px #f5dc9c;
 }
 
 .pxltsQuote9045 {
@@ -497,4 +498,12 @@
 .textb{
     margin: 20px 0 30px;
     color: #fff;
+}
+
+.rewards{
+    background-image: url("./../images/golden_rewards.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }

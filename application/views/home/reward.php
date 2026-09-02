@@ -1,10 +1,10 @@
-<div class="jSliderContainer">
-<div class="l-interiors sticky sticky--full-height sticky--under-previous is-hidden--md-down" id="reward" data-plugin="reveal">
-    <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#reward">
-        <div class="l-interiors__intro" data-scroll-snap-point='[{ "viewport": 0, "element": 100 }]'>
-            <div data-themed-class="ui-dark"></div>
-            <div class=" background background--cover">
-                <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
+<div class="jSliderContainer rewards">
+<div class="l-interiors sticky sticky--full-height sticky--under-previous is-hidden--md-down " id="reward" data-plugin="reveal">
+    <div class="sticky__layer sticky__layer--sticky " data-scroll data-scroll-sticky data-scroll-target="#reward">
+        <div class="l-interiors__intro " data-scroll-snap-point='[{ "viewport": 0, "element": 100 }]'>
+            <div data-themed-class="ui-dark "></div>
+            <div class=" background background--cover ">
+              <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
                     data-parallax-measure-selector=".sticky" data-parallax-clamp="true"
                     data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
                     data-parallax--250-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
@@ -18,7 +18,7 @@
                     <img data-src="assets/images/golden_rewards.png"
                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                     alt="" width="1440" height="900" draggable="false">
-                </picture>
+                </picture> 
                 <noscript>
                     <picture class=" img-cover parallax-image-move"
                     data-parallax-measure-selector=".sticky" data-parallax-clamp="true"

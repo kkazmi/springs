@@ -1177,7 +1177,7 @@ html.no-hover.is-ios {
     display: flex;
     flex-direction: column;
     margin-right: calc(100% - var(--vw100));
-    min-height: calc(100 * var(--svh));
+    min-height: calc(100 * var(--svh)20px);
     position: relative;
     width: var(--vw100)
 }
