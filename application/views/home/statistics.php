@@ -153,7 +153,7 @@
                 <p class="h0 leading-trim">10+</p>
             </div>
             <div class="mt-0.5">
-                <p class="text-c1 text-right leading-trim">Years of Experience</p>
+                <p class="text-b1 text-right leading-trim">Years of Experience</p>
             </div>
         </div>
         <div class="l-place-video__caption-item" data-plugin="parallax"
@@ -196,7 +196,7 @@
                 <p class="h0 leading-trim">2</p>
             </div>
             <div class="mt-0.5">
-                <p class="text-c1 text-right leading-trim">Completed Projects</p>
+                <p class="text-b1 text-right leading-trim">Completed Projects</p>
             </div>
         </div>
         <div class="l-place-video__caption-item" data-plugin="parallax"
@@ -239,7 +239,7 @@
                 <p class="h0 leading-trim">100+</p>
             </div>
             <div class="mt-0.5">
-                <p class="text-c1 text-right leading-trim">Happy Customers</p>
+                <p class="text-b1 text-right leading-trim">Happy Customers</p>
             </div>
         </div>
         <div class="l-place-video__caption-item" data-plugin="parallax"
@@ -284,7 +284,7 @@
                 </p>
             </div>
             <div class="mt-0.5">
-                <p class="text-c1 text-right leading-trim">
+                <p class="text-b1 text-right leading-trim">
                 Land Bank
                 </p>
             </div>
@@ -448,7 +448,7 @@
                     </noscript>
                 </div>
                 <p class="l-place-video__caption-item__title h0 leading-trim">3</p>
-                <p class=" text-c1 leading-trim mt-2">Years of Experience</p>
+                <p class=" text-b1 leading-trim mt-2">Years of Experience</p>
             </div>
         </div>
         <div class="background background--cover">
@@ -592,7 +592,7 @@
                 <p class="l-place-video__caption-item__title h0 leading-trim">
                 16
                 </p>
-                <p class=" text-c1 leading-trim mt-2">
+                <p class=" text-b1 leading-trim mt-2">
                 Happy Customers
                 </p>
             </div>

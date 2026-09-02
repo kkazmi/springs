@@ -42,9 +42,7 @@
         <?php endif; ?>
     </div>
 </div>
-<div
-    class="l-design__slide l-design__slide--2 sticky sticky--under-previous sticky--full-height ui-light is-hidden--md-down"
-    id="l-design-sticky-2" data-plugin="reveal">
+<div class="l-design__slide l-design__slide--2 sticky sticky--under-previous sticky--full-height ui-light is-hidden--md-down" id="l-design-sticky-2" data-plugin="reveal">
     <div class="" data-themed-class="ui-light"></div>
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
     data-scroll-target="#l-design-sticky-2"
@@ -133,7 +131,7 @@
     </div>
     </div>
 </div>
-<!-- <div
+<div
     class="l-design__slide l-design__slide--3 sticky sticky--full-height sticky--under-previous sticky--under-next ui-light is-hidden--md-down"
     id="l-design-sticky-3" data-plugin="reveal">
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#l-design-sticky-3" data-scroll-snap-point='[{ "viewport": 0, "element": 100 }, { "viewport": 0, "element": 150 }]'>
@@ -222,7 +220,7 @@
         </div>
     </div>
     </div>
-</div> -->
+</div>
 <div
     class="l-design__slide l-design__slide--1 sticky sticky--full-height sticky--under-previous is-hidden--lg-up"
     id="design-mobile">

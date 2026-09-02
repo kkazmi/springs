@@ -607,9 +607,12 @@
                         <b>Status:</b> Delivered
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A thoughtfully planned plotted development strategically located near the
-                        Dwarka Expressway, offering exceptional connectivity and long-term investment
-                        potential.
+                        <?php
+                            $text = "A thoughtfully planned plotted development strategically located near the
+                                Dwarka Expressway, offering exceptional connectivity and long-term investment
+                                potential.";
+                            echo truncateText($text, 200);
+                        ?>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
                     </p>
@@ -638,7 +641,10 @@
                         <b>Status:</b> Delivered
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        Premium plotted spaces thoughtfully planned for those who value freedom, flexibility, and a well-connected lifestyle. Offering the opportunity to create a home or investment tailored to your vision.
+                       <?php
+                       $text = "Premium plotted spaces thoughtfully planned for those who value freedom, flexibility, and a well-connected lifestyle. Offering the opportunity to create a home or investment tailored to your vision.";
+                       echo truncateText($text);
+                       ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -669,7 +675,10 @@
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A vibrant entertainment destination designed for families and communities to enjoy leisure, recreation, dining, and memorable experiences in a lively modern environment.
+                        <?php
+                        $text = "A vibrant entertainment destination designed for families and communities to enjoy leisure, recreation, dining, and memorable experiences in a lively modern environment.";
+                        echo truncateText($text, 200);
+                       ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -700,7 +709,10 @@
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        Exclusive luxury villas crafted for refined living, offering spacious interiors, elegant architecture, private outdoor spaces, and a sophisticated lifestyle within a thoughtfully planned community.
+                        <?php
+                            $text = "Exclusive luxury villas crafted for refined living, offering spacious interiors, elegant architecture, private outdoor spaces, and a sophisticated lifestyle within a thoughtfully planned community.";
+                            echo truncateText($text, 200);
+                        ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -731,7 +743,10 @@
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A premium commercial destination crafted for ambitious businesses, discerning investors, and modern brands. Designed to offer high visibility, flexible spaces, and an upscale environment for thriving retail and corporate experiences.
+                        <?php
+                            $text = "A premium commercial destination crafted for ambitious businesses, discerning investors, and modern brands. Designed to offer high visibility, flexible spaces, and an upscale environment for thriving retail and corporate experiences.";
+                            echo truncateText($text, 200);
+                       ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -742,7 +757,6 @@
                         <li>Prime Commercial Location</li>
                         <li>Dedicated Parking Facilities</li>
                         <li>Excellent Brand Visibility</li>
-                        <li>Green surroundings</li>
                     </ul>
                     <p class="text-left mt-0.5">
                         <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
@@ -763,7 +777,10 @@
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A thoughtfully planned high-rise residential cluster designed to bring together contemporary architecture, elevated living, and vibrant community spaces. Offering panoramic views, modern amenities, and a refined lifestyle in a well-connected urban environment.
+                        <?php
+                            $text = "A thoughtfully planned high-rise residential cluster designed to bring together contemporary architecture, elevated living, and vibrant community spaces. Offering panoramic views, modern amenities, and a refined lifestyle in a well-connected urban environment.";
+                            echo truncateText($text, 200);
+                       ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -774,7 +791,6 @@
                         <li>Landscaped Podiums & Green Spaces</li>
                         <li>Modern Lifestyle Amenities</li>
                         <li>Dedicated Parking</li>
-                        <li>Advanced Security Systems</li>
                     </ul>
                     <p class="text-left mt-0.5">
                         <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
@@ -901,10 +917,14 @@
                 </div>
                 <div class="l-nature-bg-caption__text col col--md-6 mt-3">
                 <p class="text-t1 leading-trim">
-                    BST Developers is building a diverse portfolio of developments designed to meet
-                    the evolving aspirations of modern India. From premium residential communities to
-                    commercial destinations and future hospitality ventures, every project reflects
-                    our commitment to quality, innovation, and sustainable growth.
+                    
+                    <?php
+                       $text = "BST Developers is building a diverse portfolio of developments designed to meet
+                            the evolving aspirations of modern India. From premium residential communities to
+                            commercial destinations and future hospitality ventures, every project reflects
+                            our commitment to quality, innovation, and sustainable growth.";
+                       echo truncateText($text);
+                       ?>
                 </p>
                 </div>
             </div>
