@@ -450,3 +450,300 @@ if (pxltsTrack9045 && pxltsItems9045.length) {
     pxltsCount9045();
     pxltsMove9045();
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const slider = document.querySelector(".blogs-slider");
+    const track = document.querySelector(".blogs-slider-track");
+
+    const prevButton = document.querySelector(".blogs-slider-prev");
+    const nextButton = document.querySelector(".blogs-slider-next");
+
+    const dots = document.querySelectorAll(".blogs-dot");
+
+    if (!slider || !track) {
+        return;
+    }
+
+    let slides = Array.from(
+        track.querySelectorAll(".blogs-slide")
+    );
+
+    let currentIndex = 2;
+    let isAnimating = false;
+
+
+    /* -----------------------------------------
+       Calculate slide position
+       ----------------------------------------- */
+
+    function getSlideSize() {
+
+        if (!slides.length) {
+            return 0;
+        }
+
+        const slide = slides[0];
+
+        const slideWidth = slide.getBoundingClientRect().width;
+
+        const trackStyle = window.getComputedStyle(track);
+
+        const gap = parseFloat(trackStyle.gap) || 0;
+
+        return slideWidth + gap;
+    }
+
+
+    /* -----------------------------------------
+       Update active card
+       ----------------------------------------- */
+
+    function updateActive() {
+
+        slides.forEach(function (slide, index) {
+
+            slide.classList.toggle(
+                "active",
+                index === currentIndex
+            );
+
+        });
+
+    }
+
+
+    /* -----------------------------------------
+       Position slider
+       ----------------------------------------- */
+
+    function updateSlider(animate = true) {
+
+        const slideSize = getSlideSize();
+
+        if (!slideSize) {
+            return;
+        }
+
+        /*
+         * Keep the third card in the center.
+         */
+        const containerWidth =
+            slider.getBoundingClientRect().width;
+
+        const centerPosition =
+            (containerWidth / 2) -
+            (slideSize / 2);
+
+        const translateX =
+            centerPosition -
+            (currentIndex * slideSize);
+
+        if (!animate) {
+
+            track.style.transition = "none";
+
+        } else {
+
+            track.style.transition =
+                "transform .7s cubic-bezier(.25,.74,.22,.99)";
+
+        }
+
+        track.style.transform =
+            "translate3d(" +
+            translateX +
+            "px, 0, 0)";
+
+        updateActive();
+
+        updateDots();
+    }
+
+
+    /* -----------------------------------------
+       Dots
+       ----------------------------------------- */
+
+    function updateDots() {
+
+        dots.forEach(function (dot, index) {
+
+            dot.classList.toggle(
+                "active",
+                index === (currentIndex - 2)
+            );
+
+        });
+
+    }
+
+
+    /* -----------------------------------------
+       NEXT
+       ----------------------------------------- */
+
+    function nextSlide() {
+
+        if (isAnimating) {
+            return;
+        }
+
+        isAnimating = true;
+
+        currentIndex++;
+
+        /*
+         * If we reach the last card,
+         * move the first card to the end.
+         */
+        if (currentIndex >= slides.length - 2) {
+
+            track.appendChild(slides.shift());
+
+            slides = Array.from(
+                track.querySelectorAll(".blogs-slide")
+            );
+
+            currentIndex = slides.length - 3;
+
+            updateSlider(false);
+
+            requestAnimationFrame(function () {
+
+                currentIndex++;
+
+                updateSlider(true);
+
+            });
+
+        } else {
+
+            updateSlider(true);
+
+        }
+
+        setTimeout(function () {
+
+            isAnimating = false;
+
+        }, 750);
+
+    }
+
+
+    /* -----------------------------------------
+       PREVIOUS
+       ----------------------------------------- */
+
+    function prevSlide() {
+
+        if (isAnimating) {
+            return;
+        }
+
+        isAnimating = true;
+
+        /*
+         * If we're at the beginning,
+         * move last card to the beginning.
+         */
+        if (currentIndex <= 2) {
+
+            const lastSlide = slides.pop();
+
+            track.insertBefore(
+                lastSlide,
+                track.firstElementChild
+            );
+
+            slides = Array.from(
+                track.querySelectorAll(".blogs-slide")
+            );
+
+            currentIndex = 3;
+
+            updateSlider(false);
+
+            requestAnimationFrame(function () {
+
+                currentIndex--;
+
+                updateSlider(true);
+
+            });
+
+        } else {
+
+            currentIndex--;
+
+            updateSlider(true);
+
+        }
+
+        setTimeout(function () {
+
+            isAnimating = false;
+
+        }, 750);
+
+    }
+
+
+    /* -----------------------------------------
+       EVENTS
+       ----------------------------------------- */
+
+    nextButton.addEventListener(
+        "click",
+        nextSlide
+    );
+
+    prevButton.addEventListener(
+        "click",
+        prevSlide
+    );
+
+
+    /* -----------------------------------------
+       DOT CLICK
+       ----------------------------------------- */
+
+    dots.forEach(function (dot, index) {
+
+        dot.addEventListener(
+            "click",
+            function () {
+
+                currentIndex = index + 2;
+
+                updateSlider(true);
+
+            }
+        );
+
+    });
+
+
+    /* -----------------------------------------
+       WINDOW RESIZE
+       ----------------------------------------- */
+
+    window.addEventListener(
+        "resize",
+        function () {
+
+            updateSlider(false);
+
+        }
+    );
+
+
+    /* -----------------------------------------
+       INITIAL
+       ----------------------------------------- */
+
+    updateSlider(false);
+
+});
