@@ -21827,22 +21827,27 @@ p.text-justify {
 .golden{
     background: #d7ab3e !important;
 }
-/* 
-.video-box {
-    position: relative;
+.video-background {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: 0;
 }
 
-.video-box iframe {
+.video-background iframe {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    min-width: 177.78vh;
+    min-height: 56.25vw;
+    transform: translate(-50%, -50%);
     border: 0;
-} */
+    pointer-events: none;
+}
 
 .heightfix{
     height: 530px;

@@ -1,62 +1,12 @@
 <div class="l-gallery" data-plugin="gallery"
     data-scroll-snap-point='[   { "viewport": 0, "element": 0 }]'>
-    <div class="l-gallery__content js-gallery-container">
-        <?php foreach($hero_slider_gallery as $img): ?>
-        <div class="l-gallery__item col col--xs-2 col--md-6 col--lg-3 js-gallery-item">
-            <div class="is-hidden--sm-down">
-            <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                draggable="false">
-                <source data-srcset="<?=base_url($img['image_xxxl']);?>"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                    media="(min-width: 1920px) and (min-height: 700px)" width="360" height="480">
-                <source data-srcset="<?=base_url($img['image_xxl']);?>"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                    media="(min-width: 1440px) and (min-height: 700px)" width="360" height="480">
-                <source data-srcset="<?=base_url($img['image_md']);?>"
-                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                    width="360" height="480">
-                <img data-src="<?=base_url($img['image_xs']);?>"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                    alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                    draggable="false">
-            </picture>
-            <noscript>
-                <picture class=" img-full" draggable="false">
-                    <source srcset="<?=base_url($img['image_xxxl']);?>"
-                        media="(min-width: 1920px) and (min-height: 700px)" width="360"
-                        height="480">
-                    <source srcset="<?=base_url($img['image_xxl']);?>"
-                        media="(min-width: 1440px) and (min-height: 700px)" width="360"
-                        height="480">
-                    <source srcset="<?=base_url($img['image_md']);?>"
-                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                        width="360" height="480">
-                    <img src="<?=base_url($img['image_xs']);?>" alt=""
-                        width="360" height="480" fetchpriority="low" decoding="async"
-                        draggable="false">
-                </picture>
-            </noscript>
-            </div>
-            <div class="is-hidden--md-up">
-            <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                draggable="false">
-                <img data-src="<?=base_url($img['image_xs']);?>"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20480%22%3E%3C/svg%3E"
-                    alt="" width="360" height="480" fetchpriority="low" decoding="async"
-                    draggable="false">
-            </picture>
-            <noscript>
-                <picture class=" img-full" draggable="false">
-                    <img src="<?=base_url($img['image_xs']);?>" alt=""
-                        width="360" height="480" fetchpriority="low" decoding="async"
-                        draggable="false">
-                </picture>
-            </noscript>
-            </div>
-        </div>
-        <?php endforeach; ?>
-    </div>
+   <div class="video-background">
+    <iframe
+        src="https://player.vimeo.com/video/1218239890?loop=1&muted=1&autoplay=1&autopause=0&background=1"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
     <?php if(!empty($hero_caption)) :?>
     <div class="l-gallery__caption">
         <div class="col col--xs-12 col--md-8 col--xxxl-8 offset--md-2 pt-3:md">
