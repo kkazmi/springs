@@ -513,41 +513,41 @@
                     <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                         data-plugin="appear " draggable="false">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/highrise_xxxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/highrise_xxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/highrise_md.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                         <img
-                            data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            data-src="assets/images/media/landing/3.nature/highrise_xs.webp"
                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             alt="" width="640" height="854" draggable="false">
                     </picture>
                     <noscript>
                         <picture class=" img-full parallax-image-move" draggable="false">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/highrise_xxxl.webp"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/highrise_xxl.webp"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/highrise_md.webp"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                             <img
-                            src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            src="assets/images/media/landing/3.nature/highrise_xs.webp"
                             alt="" width="640" height="854" draggable="false">
                         </picture>
                     </noscript>
