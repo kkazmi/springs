@@ -228,7 +228,7 @@
                 </div>
                <div class="background--cover background video-box">
                     <iframe
-                        src="https://player.vimeo.com/video/1223554112?loop=1&muted=1&autoplay=1&autopause=0&background=1"
+                        src="https://player.vimeo.com/video/1223603556?loop=1&muted=1&autoplay=1&autopause=0&background=1"
                         allow="autoplay; encrypted-media"
                         allowfullscreen>
                     </iframe>
@@ -963,7 +963,7 @@
                 <iframe
                     style="--ratio: 2.4; --aspect-ratio: 960 / 400; overflow: hidden; border: none;"
                     width="960" height="400" loading="lazy"
-                    src="https://player.vimeo.com/video/1223554112?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                    src="https://player.vimeo.com/video/1223603556?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
                     allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
