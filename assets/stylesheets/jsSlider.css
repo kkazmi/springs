@@ -480,6 +480,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding: 20px;
 }
 
 
@@ -619,38 +620,27 @@
     position: relative;
     border-color: #d3a659;
     flex: 0 0 calc(var(--scale-px) * 228px);
-
-    width: 490px;
-
+    width: 410px;
     height: calc(var(--scale-px) * 375px);
-
     overflow: hidden;
-
     border: 1px solid rgba(211, 166, 89, .18);
-     border-radius: 15px;
-
+    border-radius: 15px;
     background: rgba(16, 45, 35, .72);
-
     transform: scale(.94);
-
-    opacity: .86;
-
+    opacity: .96;
     transition:
         transform .7s cubic-bezier(.25, .74, .22, .99),
         opacity .7s cubic-bezier(.25, .74, .22, .99),
         border-color .7s cubic-bezier(.25, .74, .22, .99),
         box-shadow .7s cubic-bezier(.25, .74, .22, .99);
-
     transform-origin: center center;
 }
 
 .blogs-slide > a {
     display: flex;
     flex-direction: column;
-
     width: 100%;
     height: 100%;
-
     color: inherit;
     text-decoration: none;
 }

@@ -24,23 +24,35 @@
     <?php endforeach; ?>
 </div> -->
 <div class="l-gallery__split row background background--cover" id="preloaderVideo">
-
     <div class="col col--xs-12 col--md-12">
         <div class="preloader-video__background">
-
             <iframe
                 src="https://player.vimeo.com/video/1223554112?autoplay=1&muted=1&autopause=0&background=1"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowfullscreen>
             </iframe>
-
         </div>
     </div>
-
 </div>
 
 <style>
-    .preloader-video__background {
+   #preloaderVideo {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#preloaderVideo.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.preloader-video__background {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -59,29 +71,57 @@
     transform: translate(-50%, -50%);
     border: 0;
 }
-#preloaderVideo {
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
-}
 </style>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
     const preloader = document.getElementById("preloaderVideo");
+    const acceptButton = document.querySelector(".js-cookie-consent-accept");
 
     if (!preloader) return;
 
+    // Check if cookies were already accepted
+    if (document.cookie.indexOf("siteCookiesAccepted=true") !== -1) {
+        preloader.remove();
+        return;
+    }
+
+    // When user clicks "Accept"
+    if (acceptButton) {
+        acceptButton.addEventListener("click", function () {
+
+            // Save cookie for 1 year
+            const expiry = new Date();
+            expiry.setTime(
+                expiry.getTime() + (365 * 24 * 60 * 60 * 1000)
+            );
+
+            document.cookie =
+                "siteCookiesAccepted=true; expires=" +
+                expiry.toUTCString() +
+                "; path=/";
+
+            // Hide video
+            hidePreloader();
+        });
+    }
+
+    // Hide automatically after 22 seconds
     setTimeout(function () {
-        preloader.style.opacity = "0";
-        preloader.style.visibility = "hidden";
-        preloader.style.pointerEvents = "none";
+        hidePreloader();
+    }, 22000);
+
+
+    function hidePreloader() {
+
+        if (!document.body.contains(preloader)) return;
+
+        preloader.classList.add("is-hidden");
 
         setTimeout(function () {
             preloader.remove();
         }, 500);
-
-    }, 22000);
+    }
 
 });
 </script>

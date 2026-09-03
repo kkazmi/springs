@@ -1177,7 +1177,7 @@ html.no-hover.is-ios {
     display: flex;
     flex-direction: column;
     margin-right: calc(100% - var(--vw100));
-    min-height: calc(100 * var(--svh)20px);
+    min-height: calc(100 * var(--svh)-80px);
     position: relative;
     width: var(--vw100)
 }
@@ -21850,5 +21850,5 @@ p.text-justify {
 }
 
 .heightfix{
-    height: 530px;
+    height: 480px;
 }

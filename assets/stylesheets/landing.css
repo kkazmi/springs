@@ -854,7 +854,8 @@
     opacity: 1;
     position: absolute;
     width: 100vw;
-    z-index: 1
+    z-index: 1;
+    background: #413b2a8c;
 }
 
 .is-website-entering .l-gallery__caption {
