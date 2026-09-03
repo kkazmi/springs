@@ -23,29 +23,29 @@
     </div>
     <?php endforeach; ?>
 </div> -->
-<div class="preloader-video">
+<div class="l-gallery__split row background background--cover" id="preloaderVideo">
 
-    <div class="preloader-video__background">
-        <iframe
-            src="https://player.vimeo.com/video/1218239890?loop=1&muted=1&autoplay=1&autopause=0&background=1"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen>
-        </iframe>
+    <div class="col col--xs-12 col--md-12">
+        <div class="preloader-video__background">
+
+            <iframe
+                src="https://player.vimeo.com/video/1223554112?autoplay=1&muted=1&autopause=0&background=1"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+        </div>
     </div>
 
 </div>
 
 <style>
-    .preloader-video {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.preloader-video__background {
+    .preloader-video__background {
     position: absolute;
     inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .preloader-video__background iframe {
@@ -53,11 +53,35 @@
     top: 50%;
     left: 50%;
     width: 100vw;
-    height: 100vh;
+    height: 56.25vw;
     min-width: 177.78vh;
-    min-height: 56.25vw;
+    min-height: 100vh;
     transform: translate(-50%, -50%);
     border: 0;
-    pointer-events: none;
+}
+#preloaderVideo {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 </style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const preloader = document.getElementById("preloaderVideo");
+
+    if (!preloader) return;
+
+    setTimeout(function () {
+        preloader.style.opacity = "0";
+        preloader.style.visibility = "hidden";
+        preloader.style.pointerEvents = "none";
+
+        setTimeout(function () {
+            preloader.remove();
+        }, 500);
+
+    }, 22000);
+
+});
+</script>
