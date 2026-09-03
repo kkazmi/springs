@@ -84,7 +84,7 @@
                                     </span>
                                 </a>
                                 <a class="btn btn--outline btn--clone btn--md btn--text-small"
-                                    data-plugin=" button" data-button-clone-content="true" aria-controls="call"
+                                    data-plugin="button" data-button-clone-content="true" aria-controls="call"
                                     aria-selected="false" tabindex="0" role="tab">
                                     <span class="btn__content">
                                     <span class="btn__text  ">
@@ -94,192 +94,275 @@
                                 </a>
                             </div>
                             <div class="tabs-contents">
-                                <div class="tabs-contents__content ui-background js-tab" id="application"
-                                    role="tabpanel" aria-hidden="false">
+                                <div class="tabs-contents__content ui-background js-tab" id="application" role="tabpanel" aria-hidden="false">
                                     <form
-                                    class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md"
-                                    method="POST" action="api/contact.json"
-                                    data-plugin="ajaxForm ajaxFormCalltouch recaptcha"
-                                    data-recaptcha-type="yandex"
-                                    data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
-                                    data-ajax-form-loading-delay="1500"
-                                    data-ajax-form-calltouch-title="Заявка"
-                                    data-ajax-form-calltouch-site-id="">
-                                    <div class="col col--xs-4 col--md-6 l-callback__form">
-                                        <input data-plugin="utmData" type="hidden" name="utm" value="">
-                                        <input data-plugin="pagePathname" type="hidden"
-                                            name="currentPageLink" value="">
-                                        <div class="sr-only" data-plugin="inputBear ">
-                                            <label for="text-392924"
-                                                class="form-label text-c1 text-color-small leading-trim">
-                                                Message </label>
-                                            <input id="text-392924" name="message" type="text" required
-                                                value="">
-                                        </div>
-                                        <div class="l-callback__group">
-                                            <div class="col col--md-12 mb-2 mb-1:md">
-                                                <div class="
-                                                    form-control form-control--input
-                                                    form-control--float                        
-                                                    " data-plugin="inputState  ">
-                                                <input id="text-26770" name="name" type="text" required
-                                                    placeholder="Name" maxlength="50" value="">
-                                                <label for="text-26770"
-                                                    class="form-label text-c1 text-color-small ">
-                                                    Name </label>
-                                                <svg class="icon icon-form-success form-control__success"
-                                                    width="20" height="20" aria-hidden="true"
-                                                    viewBox="0 0 20 20"
-                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                    <use href="assets/images/icons.svg#form-success"
-                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                    </use>
-                                                </svg>
-                                                <svg class="icon icon-form-error form-control__error"
-                                                    width="20" height="20" aria-hidden="true"
-                                                    viewBox="0 0 20 20"
-                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                    <use href="assets/images/icons.svg#form-error"
-                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                    </use>
-                                                </svg>
-                                                <span class="form-control__line"></span>
-                                                <span class="form-control__progress"></span>
+                                        class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md"
+                                        method="POST"
+                                        action="api/contact.json"
+                                        data-plugin="ajaxForm ajaxFormCalltouch recaptcha"
+                                        data-recaptcha-type="yandex"
+                                        data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
+                                        data-ajax-form-loading-delay="1500"
+                                        data-ajax-form-calltouch-title="Заявка"
+                                        data-ajax-form-calltouch-site-id="">
+                                        <div class="col col--xs-4 col--md-6 l-callback__form">
+                                            <!-- Hidden tracking fields -->
+                                            <input data-plugin="utmData" type="hidden" name="utm" value="">
+                                            <input data-plugin="pagePathname" type="hidden" name="currentPageLink" value="">
+                                            <div class="l-callback__group">
+                                                <!-- Name -->
+                                                <div class="col col--md-12 mb-2 mb-1:md">
+                                                    <div class="form-control form-control--input form-control--float" data-plugin="inputState">
+                                                        <input
+                                                            id="contact_name"
+                                                            name="contact_name"
+                                                            type="text"
+                                                            required
+                                                            placeholder="Name"
+                                                            maxlength="50"
+                                                            autocomplete="name"
+                                                            value="">
+                                                        <label for="contact_name" class="form-label text-c1 text-color-small">Name</label>
+                                                        <svg
+                                                            class="icon icon-form-success form-control__success"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-success"
+                                                                xlink:href="assets/images/icons.svg#form-success">
+                                                            </use>
+                                                        </svg>
+                                                        <svg
+                                                            class="icon icon-form-error form-control__error"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-error"
+                                                                xlink:href="assets/images/icons.svg#form-error">
+                                                            </use>
+                                                        </svg>
+                                                        <span class="form-control__line"></span>
+                                                        <span class="form-control__progress"></span>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col col--md-12 mb-2 mb-1:md">
-                                                <div class="
-                                                    form-control form-control--input
-                                                    form-control--float                        
-                                                    " data-plugin="inputState  inputMask"
-                                                data-input-mask-mask="+# ### ### ## ##">
-                                                <input id="text-878165" name="phone" type="tel" required
-                                                    placeholder="Phone" maxlength="20" autocapitalize="none"
-                                                    value="">
-                                                <label for="text-878165"
-                                                    class="form-label text-c1 text-color-small ">
-                                                    Phone </label>
-                                                <svg class="icon icon-form-success form-control__success"
-                                                    width="20" height="20" aria-hidden="true"
-                                                    viewBox="0 0 20 20"
-                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                    <use href="assets/images/icons.svg#form-success"
-                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                    </use>
-                                                </svg>
-                                                <svg class="icon icon-form-error form-control__error"
-                                                    width="20" height="20" aria-hidden="true"
-                                                    viewBox="0 0 20 20"
-                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                    <use href="assets/images/icons.svg#form-error"
-                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                    </use>
-                                                </svg>
-                                                <span class="form-control__line"></span>
-                                                <span class="form-control__progress"></span>
+                                                <!-- Email -->
+                                                <div class="col col--md-12 mb-2 mb-1:md">
+                                                    <div class="form-control form-control--input form-control--float" data-plugin="inputState">
+                                                        <input
+                                                            id="contact_email"
+                                                            name="contact_email"
+                                                            type="email"
+                                                            required
+                                                            placeholder="Email"
+                                                            maxlength="100"
+                                                            autocomplete="email"
+                                                            autocapitalize="none"
+                                                            value="">
+
+                                                        <label for="contact_email" class="form-label text-c1 text-color-small">Email</label>
+                                                        <svg
+                                                            class="icon icon-form-success form-control__success"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-success"
+                                                                xlink:href="assets/images/icons.svg#form-success">
+                                                            </use>
+                                                        </svg>
+                                                        <svg
+                                                            class="icon icon-form-error form-control__error"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-error"
+                                                                xlink:href="assets/images/icons.svg#form-error">
+                                                            </use>
+                                                        </svg>
+                                                        <span class="form-control__line"></span>
+                                                        <span class="form-control__progress"></span>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col col--md-12 mb-2 mb-1:md">
-                                                <div class="
-                                                    form-control form-control--input
-                                                    form-control--float                        
-                                                    " data-plugin="inputState  inputMask">
-                                                <input id="email" name="email" type="email" required
-                                                    placeholder="Email" autocapitalize="none"
-                                                    value="">
-                                                <label for="email"
-                                                    class="form-label text-c1 text-color-small ">
-                                                    Email </label>
-                                                <svg class="icon icon-form-success form-control__success"
-                                                    width="20" height="20" aria-hidden="true"
-                                                    viewBox="0 0 20 20"
-                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                    <use href="assets/images/icons.svg#form-success"
-                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                    </use>
-                                                </svg>
-                                                <svg class="icon icon-form-error form-control__error"
-                                                    width="20" height="20" aria-hidden="true"
-                                                    viewBox="0 0 20 20"
-                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                    <use href="assets/images/icons.svg#form-error"
-                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                    </use>
-                                                </svg>
-                                                <span class="form-control__line"></span>
-                                                <span class="form-control__progress"></span>
+                                                <!-- Phone -->
+                                                <div class="col col--md-12 mb-2 mb-1:md">
+                                                    <div class="form-control form-control--input form-control--float" data-plugin="inputState">
+                                                        <input
+                                                            id="contact_phone"
+                                                            name="contact_phone"
+                                                            type="tel"
+                                                            required
+                                                            placeholder="Phone"
+                                                            maxlength="20"
+                                                            autocomplete="tel"
+                                                            autocapitalize="none"
+                                                            value="">
+                                                        <label
+                                                            for="contact_phone"
+                                                            class="form-label text-c1 text-color-small">
+                                                            Phone
+                                                        </label>
+                                                        <svg
+                                                            class="icon icon-form-success form-control__success"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-success"
+                                                                xlink:href="assets/images/icons.svg#form-success">
+                                                            </use>
+                                                        </svg>
+                                                        <svg
+                                                            class="icon icon-form-error form-control__error"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-error"
+                                                                xlink:href="assets/images/icons.svg#form-error">
+                                                            </use>
+                                                        </svg>
+                                                        <span class="form-control__line"></span>
+                                                        <span class="form-control__progress"></span>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col col--md-12">
-                                                <div class="
-                                                    form-control form-control--input
-                                                    form-control--float                        
-                                                    " data-plugin="inputState  ">
-                                                <input id="text-668731" name="message" type="text" required
+                                                <!-- Subject -->
+                                                <div class="col col--md-12 mb-2 mb-1:md">
+                                                    <div class="form-control form-control--input form-control--float" data-plugin="inputState">
+                                                        <input
+                                                            id="contact_subject"
+                                                            name="contact_subject"
+                                                            type="text"
+                                                            required
+                                                            placeholder="Subject"
+                                                            maxlength="150"
+                                                            value="">
+                                                        <label
+                                                            for="contact_subject"
+                                                            class="form-label text-c1 text-color-small">
+                                                            Subject
+                                                        </label>
+                                                        <svg
+                                                            class="icon icon-form-success form-control__success"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-success"
+                                                                xlink:href="assets/images/icons.svg#form-success">
+                                                            </use>
+                                                        </svg>
+                                                        <svg
+                                                            class="icon icon-form-error form-control__error"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-error"
+                                                                xlink:href="assets/images/icons.svg#form-error">
+                                                            </use>
+                                                        </svg>
+                                                        <span class="form-control__line"></span>
+                                                        <span class="form-control__progress"></span>
+                                                    </div>
+                                                </div>
+                                                <!-- Message -->
+                                                <div class="col col--md-12">
+                                                    <div class="form-control form-control--input form-control--float" data-plugin="inputState">
+                                                        <input id="contact_message" name="contact_message" type="text" required
                                                     placeholder="Message" maxlength="500" value="">
-                                                <label for="text-668731"
-                                                    class="form-label text-c1 text-color-small ">
-                                                    Message </label>
-                                                <svg class="icon icon-form-success form-control__success"
-                                                    width="20" height="20" aria-hidden="true"
-                                                    viewBox="0 0 20 20"
-                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                    <use href="assets/images/icons.svg#form-success"
-                                                        xlink:href="assets/images/icons.svg#form-success">
-                                                    </use>
-                                                </svg>
-                                                <svg class="icon icon-form-error form-control__error"
-                                                    width="20" height="20" aria-hidden="true"
-                                                    viewBox="0 0 20 20"
-                                                    style="--icon-width: 20; --icon-height: 20;">
-                                                    <use href="assets/images/icons.svg#form-error"
-                                                        xlink:href="assets/images/icons.svg#form-error">
-                                                    </use>
-                                                </svg>
-                                                <span class="form-control__line"></span>
-                                                <span class="form-control__progress"></span>
+                                                        <label for="contact_message" class="form-label text-c1 text-color-small">Message</label>
+                                                        <svg
+                                                            class="icon icon-form-success form-control__success"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-success"
+                                                                xlink:href="assets/images/icons.svg#form-success">
+                                                            </use>
+                                                        </svg>
+                                                        <svg
+                                                            class="icon icon-form-error form-control__error"
+                                                            width="20"
+                                                            height="20"
+                                                            aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use
+                                                                href="assets/images/icons.svg#form-error"
+                                                                xlink:href="assets/images/icons.svg#form-error">
+                                                            </use>
+                                                        </svg>
+                                                        <span class="form-control__line"></span>
+                                                        <span class="form-control__progress"></span>
+                                                    </div>
+                                                </div>
+                                                <!-- Error Message -->
+                                                <div
+                                                    class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
+                                                    role="alert"
+                                                    aria-live="assertive">
                                                 </div>
                                             </div>
+                                            <!-- Buttons -->
                                             <div
-                                                class="error-message is-hidden js-form-error-message text-left l-callback__limited-width"
-                                                role="alert" aria-live="assertive"></div>
-                                        </div>
-                                        <div
-                                            class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
-                                            <button
-                                                class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
-                                                type="submit" data-plugin=" button"
-                                                data-button-clone-content="true">
-                                                <span class="btn__content">
-                                                <span class="btn__text  ">
-                                                    submit a request
-                                                </span>
-                                                </span>
-                                            </button>
-                                            <button
-                                                class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
-                                                type="submit">
-                                                <span class="btn__content">
-                                                <span class="btn__text  ">
-                                                    submit a request
-                                                </span>
-                                                </span>
-                                            </button>
-                                            <div class=" text l-callback__limited-width ml-layout">
-                                                <p
-                                                class="leading-trim text-color-small text-c2-small text-right:md">
-                                                By clicking the button, you agree
-                                                <br>
-                                                to our <a class="btn--link btn--clone text-c2-small mt-1"
-                                                    href="<?php echo base_url('privacy');?>" target="_blank">privacy policy</a>
-                                                </p>
+                                                class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
+                                                <!-- Desktop Button -->
+                                                <button
+                                                    class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                    type="submit"
+                                                    data-plugin="button"
+                                                    data-button-clone-content="true">
+                                                    <span class="btn__content">
+                                                        <span class="btn__text">
+                                                            Submit a request
+                                                        </span>
+                                                    </span>
+                                                </button>
+                                                <!-- Mobile Button -->
+                                                <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+                                                    <span class="btn__content"><span class="btn__text">Submit a request</span></span>
+                                                </button>
+                                                <!-- Privacy Policy -->
+                                                <div class="text l-callback__limited-width ml-layout">
+                                                    <p class="leading-trim text-color-small text-c2-small text-right:md">
+                                                        By clicking the button, you agree
+                                                        <br>
+                                                        to our
+                                                        <a
+                                                            class="btn--link btn--clone text-c2-small mt-1"
+                                                            href="<?php echo base_url('privacy');?>"
+                                                            target="_blank">
+                                                            privacy policy
+                                                        </a>
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
                                     </form>
                                 </div>
-                                <div class="tabs-contents__content ui-background js-tab" id="call"
-                                    role="tabpanel" aria-hidden="true">
+                                <div class="tabs-contents__content ui-background js-tab" id="call" role="tabpanel" aria-hidden="true">
                                     <form
                                     class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md"
                                     method="POST" action="api/contact.json"
@@ -333,36 +416,36 @@
                                             </div>
                                             <div class="form-group group mb-2 mb-1:md">
                                                 <div class="col">
-                                                <div class="
-                                                        form-control form-control--input
-                                                        form-control--float                        
-                                                        " data-plugin="inputState  inputMask"
-                                                    data-input-mask-mask="+# ### ### ## ##">
-                                                    <input id="text-80639" name="phone" type="tel" required
-                                                        placeholder="Phone" maxlength="20"
-                                                        autocapitalize="none" value="">
-                                                    <label for="text-80639"
-                                                        class="form-label text-c1 text-color-small ">
-                                                        Phone </label>
-                                                    <svg class="icon icon-form-success form-control__success"
-                                                        width="20" height="20" aria-hidden="true"
-                                                        viewBox="0 0 20 20"
-                                                        style="--icon-width: 20; --icon-height: 20;">
-                                                        <use href="assets/images/icons.svg#form-success"
-                                                            xlink:href="assets/images/icons.svg#form-success">
-                                                        </use>
-                                                    </svg>
-                                                    <svg class="icon icon-form-error form-control__error"
-                                                        width="20" height="20" aria-hidden="true"
-                                                        viewBox="0 0 20 20"
-                                                        style="--icon-width: 20; --icon-height: 20;">
-                                                        <use href="assets/images/icons.svg#form-error"
-                                                            xlink:href="assets/images/icons.svg#form-error">
-                                                        </use>
-                                                    </svg>
-                                                    <span class="form-control__line"></span>
-                                                    <span class="form-control__progress"></span>
-                                                </div>
+                                                    <div class="
+                                                            form-control form-control--input
+                                                            form-control--float                        
+                                                            " data-plugin="inputState  inputMask"
+                                                        data-input-mask-mask="+# ### ### ## ##">
+                                                        <input id="text-80639" name="phone" type="tel" required
+                                                            placeholder="Phone" maxlength="20"
+                                                            autocapitalize="none" value="">
+                                                        <label for="text-80639"
+                                                            class="form-label text-c1 text-color-small ">
+                                                            Phone </label>
+                                                        <svg class="icon icon-form-success form-control__success"
+                                                            width="20" height="20" aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use href="assets/images/icons.svg#form-success"
+                                                                xlink:href="assets/images/icons.svg#form-success">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-form-error form-control__error"
+                                                            width="20" height="20" aria-hidden="true"
+                                                            viewBox="0 0 20 20"
+                                                            style="--icon-width: 20; --icon-height: 20;">
+                                                            <use href="assets/images/icons.svg#form-error"
+                                                                xlink:href="assets/images/icons.svg#form-error">
+                                                            </use>
+                                                        </svg>
+                                                        <span class="form-control__line"></span>
+                                                        <span class="form-control__progress"></span>
+                                                    </div>
                                                 </div>
                                                 <div class="col">
                                                 <div

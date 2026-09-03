@@ -228,7 +228,7 @@
                 </div>
                <div class="background--cover background video-box">
                     <iframe
-                        src="https://player.vimeo.com/video/1218239890?loop=1&muted=1&autoplay=1&autopause=0&background=1"
+                        src="https://player.vimeo.com/video/1223554112?loop=1&muted=1&autoplay=1&autopause=0&background=1"
                         allow="autoplay; encrypted-media"
                         allowfullscreen>
                     </iframe>
@@ -513,41 +513,41 @@
                     <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                         data-plugin="appear " draggable="false">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/highrise_xxxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/highrise_xxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                         <source
-                            data-srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            data-srcset="assets/images/media/landing/3.nature/highrise_md.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                         <img
-                            data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            data-src="assets/images/media/landing/3.nature/highrise_xs.webp"
                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                             alt="" width="640" height="854" draggable="false">
                     </picture>
                     <noscript>
                         <picture class=" img-full parallax-image-move" draggable="false">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/highrise_xxxl.webp"
                             media="(min-width: 1920px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/highrise_xxl.webp"
                             media="(min-width: 1440px) and (min-height: 700px)" width="640"
                             height="854">
                             <source
-                            srcset="media/cache/homepage_nature_slider_md/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                            srcset="assets/images/media/landing/3.nature/highrise_md.webp"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="640" height="854">
                             <img
-                            src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                            src="assets/images/media/landing/3.nature/highrise_xs.webp"
                             alt="" width="640" height="854" draggable="false">
                         </picture>
                     </noscript>
@@ -607,9 +607,12 @@
                         <b>Status:</b> Delivered
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A thoughtfully planned plotted development strategically located near the
-                        Dwarka Expressway, offering exceptional connectivity and long-term investment
-                        potential.
+                        <?php
+                            $text = "A thoughtfully planned plotted development strategically located near the
+                                Dwarka Expressway, offering exceptional connectivity and long-term investment
+                                potential.";
+                            echo truncateText($text, 200);
+                        ?>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
                     </p>
@@ -638,7 +641,10 @@
                         <b>Status:</b> Delivered
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        Premium plotted spaces thoughtfully planned for those who value freedom, flexibility, and a well-connected lifestyle. Offering the opportunity to create a home or investment tailored to your vision.
+                       <?php
+                       $text = "Premium plotted spaces thoughtfully planned for those who value freedom, flexibility, and a well-connected lifestyle. Offering the opportunity to create a home or investment tailored to your vision.";
+                       echo truncateText($text);
+                       ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -669,7 +675,10 @@
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A vibrant entertainment destination designed for families and communities to enjoy leisure, recreation, dining, and memorable experiences in a lively modern environment.
+                        <?php
+                        $text = "A vibrant entertainment destination designed for families and communities to enjoy leisure, recreation, dining, and memorable experiences in a lively modern environment.";
+                        echo truncateText($text, 200);
+                       ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -700,7 +709,10 @@
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        Exclusive luxury villas crafted for refined living, offering spacious interiors, elegant architecture, private outdoor spaces, and a sophisticated lifestyle within a thoughtfully planned community.
+                        <?php
+                            $text = "Exclusive luxury villas crafted for refined living, offering spacious interiors, elegant architecture, private outdoor spaces, and a sophisticated lifestyle within a thoughtfully planned community.";
+                            echo truncateText($text, 200);
+                        ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -731,7 +743,10 @@
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A premium commercial destination crafted for ambitious businesses, discerning investors, and modern brands. Designed to offer high visibility, flexible spaces, and an upscale environment for thriving retail and corporate experiences.
+                        <?php
+                            $text = "A premium commercial destination crafted for ambitious businesses, discerning investors, and modern brands. Designed to offer high visibility, flexible spaces, and an upscale environment for thriving retail and corporate experiences.";
+                            echo truncateText($text, 200);
+                       ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -742,7 +757,6 @@
                         <li>Prime Commercial Location</li>
                         <li>Dedicated Parking Facilities</li>
                         <li>Excellent Brand Visibility</li>
-                        <li>Green surroundings</li>
                     </ul>
                     <p class="text-left mt-0.5">
                         <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
@@ -763,7 +777,10 @@
                         <b>Status:</b> Upcoming
                     </p>
                     <p class="text-t1 leading-trim mb-1">
-                        A thoughtfully planned high-rise residential cluster designed to bring together contemporary architecture, elevated living, and vibrant community spaces. Offering panoramic views, modern amenities, and a refined lifestyle in a well-connected urban environment.
+                        <?php
+                            $text = "A thoughtfully planned high-rise residential cluster designed to bring together contemporary architecture, elevated living, and vibrant community spaces. Offering panoramic views, modern amenities, and a refined lifestyle in a well-connected urban environment.";
+                            echo truncateText($text, 200);
+                       ?>
                     </p>
                     <p class="text-t1 leading-trim mb-0.5">
                         <b>Highlights</b>
@@ -774,7 +791,6 @@
                         <li>Landscaped Podiums & Green Spaces</li>
                         <li>Modern Lifestyle Amenities</li>
                         <li>Dedicated Parking</li>
-                        <li>Advanced Security Systems</li>
                     </ul>
                     <p class="text-left mt-0.5">
                         <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
@@ -901,10 +917,14 @@
                 </div>
                 <div class="l-nature-bg-caption__text col col--md-6 mt-3">
                 <p class="text-t1 leading-trim">
-                    BST Developers is building a diverse portfolio of developments designed to meet
-                    the evolving aspirations of modern India. From premium residential communities to
-                    commercial destinations and future hospitality ventures, every project reflects
-                    our commitment to quality, innovation, and sustainable growth.
+                    
+                    <?php
+                       $text = "BST Developers is building a diverse portfolio of developments designed to meet
+                            the evolving aspirations of modern India. From premium residential communities to
+                            commercial destinations and future hospitality ventures, every project reflects
+                            our commitment to quality, innovation, and sustainable growth.";
+                       echo truncateText($text);
+                       ?>
                 </p>
                 </div>
             </div>
@@ -939,13 +959,13 @@
                 data-parallax--100-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", "transform": "translateY(100vh)"}'
                 data-parallax--220-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", "transform": "translateY(0vh)"}'
                 data-parallax--270-0='{"clip-path": "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)", "transform": "translateY(-30vh)"}'>
-                <!-- <div class="vimeo-background background background--cover">
+                <div class="vimeo-background background background--cover">
                 <iframe
                     style="--ratio: 2.4; --aspect-ratio: 960 / 400; overflow: hidden; border: none;"
                     width="960" height="400" loading="lazy"
-                    src="https://player.vimeo.com/video/1218239890?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                    src="https://player.vimeo.com/video/1223554112?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
                     allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div> -->
+                </div>
             </div>
             <div class="l-nature__caption__text col col--xs-4 ui-dark ui-background px-1 py-1"
                 data-plugin="parallax" data-parallax-pattern="natureCaptionMoveUp">
