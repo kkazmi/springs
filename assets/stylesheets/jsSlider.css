@@ -620,7 +620,7 @@
     position: relative;
     border-color: #d3a659;
     flex: 0 0 calc(var(--scale-px) * 228px);
-    width: 410px;
+    width: 380px;
     height: calc(var(--scale-px) * 375px);
     overflow: hidden;
     border: 1px solid rgba(211, 166, 89, .18);
