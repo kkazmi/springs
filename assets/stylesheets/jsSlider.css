@@ -519,8 +519,8 @@
     width: 100%;
     overflow: hidden;
     padding:
-        calc(var(--scale-px) * 45)
-        calc(var(--scale-px) * 75)
+        calc(var(--scale-px) * 15)
+        calc(var(--scale-px) * 60)
         calc(var(--scale-px) * 25);
 }
 
@@ -725,7 +725,7 @@
 
     padding:
         calc(var(--scale-px) * 4)
-        calc(var(--scale-px) * 9);
+        calc(var(--scale-px) * 5);
 
     border: 1px solid rgba(211, 166, 89, .45);
     border-radius: 20px;
@@ -745,13 +745,13 @@
    --------------------------------------------------------- */
 
 .blogs-slide h3 {
-    margin-top: calc(var(--scale-px) * 13);
+    margin-top: calc(var(--scale-px) * 5);
 
     color: #d3a659;
 
     font-weight: 400;
 
-    line-height: 1.05;
+    line-height: 1.;
 
     letter-spacing: -.01em;
 }
@@ -780,10 +780,10 @@
     align-items: center;
     justify-content: space-between;
 
-    gap: calc(var(--scale-px) * 8);
+    gap: calc(var(--scale-px) * 5);
 
     margin-top: auto;
-    padding-top: calc(var(--scale-px) * 12);
+    padding-top: calc(var(--scale-px) * 5);
 
     border-top: 1px solid rgba(211, 166, 89, .15);
 
@@ -810,8 +810,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    margin-top: calc(var(--scale-px) * 30);
+    margin-top: calc(var(--scale-px) * 10);
 }
 
 
