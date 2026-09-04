@@ -32,14 +32,14 @@
                 type="button"
                 class="blogs-slider-arrow blogs-slider-prev"
                 aria-label="Previous article">
-                <span>&#8249;</span>
+                <span>&#10094;</span>
             </button>
 
             <button
                 type="button"
                 class="blogs-slider-arrow blogs-slider-next"
                 aria-label="Next article">
-                <span>&#8250;</span>
+                <span>&#10095;</span>
             </button>
 
         </div>

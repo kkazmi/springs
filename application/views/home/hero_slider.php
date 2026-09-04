@@ -2,7 +2,7 @@
     data-scroll-snap-point='[   { "viewport": 0, "element": 0 }]'>
    <div class="video-background">
     <iframe
-        src="https://player.vimeo.com/video/1218239890?loop=1&muted=1&autoplay=1&autopause=0&background=1"
+        src="https://player.vimeo.com/video/1223554112?loop=1&muted=1&autoplay=1&autopause=0&background=1"
         allow="autoplay; fullscreen; picture-in-picture"
         allowfullscreen>
     </iframe>

@@ -1,6 +1,17 @@
-<!-- <div class="l-gallery__split row background background--cover">
-    <?php foreach($preloader_gallery as $section=>$images): ?>
-    <div class=" col col--xs-4 col--md-6">
+<div class="l-gallery__split row background background--cover">
+    <div class=" col col--xs-4 col--md-12">
+        <div class="l-gallery__item__mask-list">
+            <div class="preloader-video__background">
+                <iframe
+                    src="https://player.vimeo.com/video/1223554112?autoplay=1&muted=1&autopause=0&background=1"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <!-- <?php foreach($preloader_gallery as $section=>$images): ?>
+    <div class=" col col--xs-4 col--md-12">
         <div class="l-gallery__item__mask-list">
             <?php foreach($images as $img): ?>
             <div class="l-gallery__item__mask-list__item gallery-animation-item">
@@ -21,9 +32,9 @@
             <?php endforeach; ?>
         </div>
     </div>
-    <?php endforeach; ?>
-</div> -->
-<div class="l-gallery__split row background background--cover" id="preloaderVideo">
+    <?php endforeach; ?> -->
+</div>
+<!-- <div class="l-gallery__split row background background--cover" id="preloaderVideo">
     <div class="col col--xs-12 col--md-12">
         <div class="preloader-video__background">
             <iframe
@@ -33,9 +44,9 @@
             </iframe>
         </div>
     </div>
-</div>
+</div> -->
 
-<style>
+<!-- <style>
    #preloaderVideo {
     position: fixed;
     inset: 0;
@@ -71,8 +82,9 @@
     transform: translate(-50%, -50%);
     border: 0;
 }
-</style>
+</style> -->
 <script>
+    /*
 document.addEventListener("DOMContentLoaded", function () {
 
     const preloader = document.getElementById("preloaderVideo");
@@ -123,5 +135,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 500);
     }
 
-});
+});*/
 </script>
