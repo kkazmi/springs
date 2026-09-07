@@ -950,26 +950,12 @@ h2.h2.leading-trim {
             width: 90%;
         }
 
-      .radio-inline-group {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 15px; /* Adjust spacing between options */
-  margin-top: 5px;
+    @media (min-width: 568px) and (max-width: 667px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (max-aspect-ratio: 10 / 11), (min-width: 668px) and (min-height: 416px), (min-width: 980px) {
+    .js:not(.js-no-reveal) [data-reveal]:not([data-reveal-visible]) {
+        opacity: 1 !important;
+        pointer-events: none !important;
+    }
 }
-
-.radio-inline {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px; /* Spacing between radio dot and text */
-  cursor: pointer;
-  font-weight: normal; /* Keeps label regular text */
-}
-
-.radio-inline input[type="radio"] {
-  margin: 0;
-  cursor: pointer;
-}  
 .dropRight{
     float:right;
     width: 50% !important;
@@ -981,3 +967,4 @@ h2.h2.leading-trim {
 .address-row  input[type="text"] {
     width: 95%;
 }
+ 
