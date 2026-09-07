@@ -949,3 +949,10 @@ h2.h2.leading-trim {
         .widthfix {
             width: 90%;
         }
+
+        @media (min-width: 568px) and (max-width: 667px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (max-aspect-ratio: 10 / 11), (min-width: 668px) and (min-height: 416px), (min-width: 980px) {
+    .js:not(.js-no-reveal) [data-reveal]:not([data-reveal-visible]) {
+        opacity: 1 !important;
+        pointer-events: none !important;
+    }
+}
