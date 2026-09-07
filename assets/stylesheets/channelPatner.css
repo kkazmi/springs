@@ -956,3 +956,438 @@ h2.h2.leading-trim {
         pointer-events: none !important;
     }
 }
+
+body, button, input, textarea {
+    color: var(--t-text);
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    text-rendering: geometricPrecision;
+}
+
+.text-t1, body, button, input, textarea {
+    font-family: TT Commons Pro, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    --fos: -0.175em;
+    --foe: -0.125em;
+    font-size: var(--md, calc(var(--scale-text-rem) * 2)) var(--n-md, calc(var(--scale-text-rem) * 1.6));
+    --lh: var(--md, 1.1em) var(--n-md, 1.125em);
+    letter-spacing: -0.02em;
+    line-height: var(--lh);
+    text-transform: none;
+}
+
+/* =========================================================
+   BST CHANNEL PARTNER / APPLICATION FORM
+   MOBILE RESPONSIVE FIX
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   TABLET : 568px - 979px
+   --------------------------------------------------------- */
+@media (min-width: 568px) and (max-width: 979px) {
+
+    .a-photos {
+        height: auto !important;
+        min-height: 100vh;
+        overflow: visible !important;
+    }
+
+    .a-photos .sticky__layer--sticky {
+        height: auto !important;
+        min-height: 100vh;
+    }
+
+    .a-photos__inner {
+        position: relative !important;
+        height: auto !important;
+        top: auto !important;
+        left: auto !important;
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+
+    .a-photos__text {
+        padding-top: 20px !important;
+        margin-top: 0 !important;
+        text-align: center !important;
+    }
+
+    .a-photos__inner > .description {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        text-align: center;
+        margin-bottom: 40px !important;
+    }
+
+    .a-photos__inner > .col--md-10 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        box-sizing: border-box;
+    }
+
+    .a-photos__inner .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+
+    .a-photos__inner form {
+        width: 100% !important;
+    }
+
+    .a-photos__inner form > .row {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        margin: 0 !important;
+    }
+
+    .a-photos__inner form .col--md-5 {
+        width: 50% !important;
+        max-width: 50% !important;
+        flex: 0 0 50% !important;
+        box-sizing: border-box;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .a-photos__inner form .form-group {
+        width: 100% !important;
+        margin-bottom: 25px !important;
+    }
+
+    .a-photos__inner form .widthfix {
+        width: 100% !important;
+    }
+
+    .a-photos__inner form input,
+    .a-photos__inner form select,
+    .a-photos__inner form textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .a-photos__inner form .col--md-10 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .a-photos__inner form input[type="file"] {
+        width: 100% !important;
+    }
+
+    .a-photos__inner .terms-container {
+        justify-content: center;
+    }
+
+    .a-photos__inner form button.is-hidden--sm-down {
+        display: inline-flex !important;
+        visibility: visible !important;
+    }
+}
+
+
+/* ---------------------------------------------------------
+   MOBILE : 0px - 567px
+   --------------------------------------------------------- */
+@media (max-width: 567px) {
+
+    /* Main page */
+    .a-photos {
+        height: auto !important;
+        min-height: 100vh !important;
+        overflow: visible !important;
+    }
+
+    .a-photos .sticky__layer--sticky {
+        position: relative !important;
+        height: auto !important;
+        min-height: 100vh !important;
+    }
+
+    /* IMPORTANT:
+       Existing CSS makes .a-photos__inner absolute
+       on mobile. Change it back to normal flow. */
+    .a-photos__inner {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        height: auto !important;
+        width: 100% !important;
+        display: block !important;
+        padding-top: 45px !important;
+        padding-bottom: 50px !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Background gradient */
+    .a-photos__gradient {
+        position: absolute !important;
+        height: 100% !important;
+        min-height: 100% !important;
+    }
+
+    /* Heading */
+    .a-photos__text {
+        display: block !important;
+        width: 100% !important;
+        padding: 0 15px !important;
+        margin: 0 0 20px 0 !important;
+        text-align: center !important;
+        font-size: 30px !important;
+        line-height: 1.15 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Description */
+    .a-photos__inner > .description {
+        display: block !important;
+        width: 100% !important;
+        padding: 0 20px !important;
+        margin: 0 0 35px 0 !important;
+        text-align: center !important;
+        font-size: 14px !important;
+        line-height: 1.5 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Form outer container */
+    .a-photos__inner > .col--md-10 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 15px !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Bootstrap/custom container */
+    .a-photos__inner .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Form */
+    .a-photos__inner form {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+
+    /* Remove desktop row behaviour */
+    .a-photos__inner form > .row {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* EVERY FIELD = FULL WIDTH */
+    .a-photos__inner form .col--md-5,
+    .a-photos__inner form .col--md-10 {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Individual form group */
+    .a-photos__inner form .form-group {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 22px 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* FIX YOUR widthfix CLASS */
+    .a-photos__inner form .widthfix {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* Labels */
+    .a-photos__inner form .form-group label {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 7px !important;
+        font-size: 12px !important;
+        line-height: 1.35 !important;
+        letter-spacing: .3px !important;
+        box-sizing: border-box !important;
+    }
+
+    /* All normal inputs */
+    .a-photos__inner form .form-group input[type="text"],
+    .a-photos__inner form .form-group input[type="tel"],
+    .a-photos__inner form .form-group input[type="email"],
+    .a-photos__inner form .form-group select,
+    .a-photos__inner form .form-group textarea {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        height: 48px !important;
+        min-height: 48px !important;
+        padding: 10px 0 !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+        font-size: 15px !important;
+    }
+
+    /* Select */
+    .a-photos__inner form .form-group select {
+        height: 48px !important;
+        line-height: 48px !important;
+    }
+
+    /* File upload */
+    .a-photos__inner form input[type="file"] {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        height: auto !important;
+        min-height: 48px !important;
+        padding: 10px 0 !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+        font-size: 11px !important;
+        overflow: hidden !important;
+    }
+
+    /* File upload wrapper */
+    .a-photos__inner form .file-upload-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+    }
+
+    /* File information text */
+    .a-photos__inner form label span {
+        display: inline !important;
+        font-size: 10px !important;
+        line-height: 1.3 !important;
+    }
+
+    /* Terms */
+    .a-photos__inner .terms-container {
+        width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 8px !important;
+        margin: 15px 0 25px !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .a-photos__inner .terms-container input[type="checkbox"] {
+        flex: 0 0 18px !important;
+        width: 18px !important;
+        height: 18px !important;
+        margin: 0 !important;
+    }
+
+    .a-photos__inner .terms-container label {
+        width: auto !important;
+        margin: 0 !important;
+        font-size: 12px !important;
+    }
+
+    /* SUBMIT BUTTON
+       Your HTML has is-hidden--sm-down,
+       so force it to show on mobile. */
+    .a-photos__inner form button.is-hidden--sm-down,
+    .a-photos__inner form button.btn {
+        display: inline-flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        width: auto !important;
+        max-width: 100% !important;
+        min-height: 48px !important;
+        padding: 12px 25px !important;
+        margin: 0 auto !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Submit button container */
+    .a-photos__inner form .col--md-10.text-center {
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    /* Mandatory note */
+    .a-photos__inner .footer-note {
+        width: 100% !important;
+        margin-top: 30px !important;
+        padding: 0 5px !important;
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+        box-sizing: border-box !important;
+    }
+
+    .a-photos__inner .mandatory-note {
+        margin-bottom: 8px !important;
+    }
+}
+
+
+/* ---------------------------------------------------------
+   VERY SMALL MOBILE : 0px - 380px
+   --------------------------------------------------------- */
+@media (max-width: 380px) {
+
+    .a-photos__inner {
+        padding-top: 30px !important;
+        padding-bottom: 35px !important;
+    }
+
+    .a-photos__text {
+        font-size: 25px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .a-photos__inner > .description {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        font-size: 13px !important;
+    }
+
+    .a-photos__inner > .col--md-10 {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .a-photos__inner form .form-group label {
+        font-size: 11px !important;
+    }
+
+    .a-photos__inner form .form-group input[type="text"],
+    .a-photos__inner form .form-group input[type="tel"],
+    .a-photos__inner form .form-group input[type="email"],
+    .a-photos__inner form .form-group select {
+        font-size: 14px !important;
+    }
+
+    .a-photos__inner form input[type="file"] {
+        font-size: 10px !important;
+    }
+}

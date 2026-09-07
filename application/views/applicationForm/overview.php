@@ -47,18 +47,18 @@
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label>Communication Address <span class="required">*</span></label>
-                                        <div class="address-box row">
-                                            <div class="address-row"  style="width: 100%;"><input type="text" placeholder="HOUSE NO." ></div>
-                                            <div class="address-row ">
-                                            <input type="text" placeholder="STREET">
-                                            <input type="text" placeholder="LOCALITY">
+                                           <div class="address-box row">
+                                                <div class="address-row"  style="width: 100%;"><input type="text" placeholder="HOUSE NO." ></div>
+                                                <div class="address-row ">
+                                                <input type="text" placeholder="STREET">
+                                                <input type="text" placeholder="LOCALITY">
+                                                </div>
+                                                <div class="address-row">
+                                                <input type="text" placeholder="CITY">
+                                                <input type="text" placeholder="STATE">
+                                                </div>
+                                                <div class="address-row"><input type="text" placeholder="PINCODE"></div>
                                             </div>
-                                            <div class="address-row">
-                                            <input type="text" placeholder="CITY">
-                                            <input type="text" placeholder="STATE">
-                                            </div>
-                                            <div class="address-row"><input type="text" placeholder="PINCODE"></div>
-                                        </div>
                                         </div>
                                     </div>
 
@@ -136,18 +136,19 @@
                                         <label style="font-weight: normal; margin-bottom: 5px;">
                                             <input type="checkbox"> Same as Communication Address
                                         </label>
-                                        <div class="address-box">
-                                            <div class="address-row"><input type="text" placeholder="HOUSE NO."></div>
-                                            <div class="address-row">
-                                            <input type="text" placeholder="STREET">
-                                            <input type="text" placeholder="LOCALITY">
+                                          <div class="address-box row">
+                                                    <div class="address-row"  style="width: 100%;"><input type="text" placeholder="HOUSE NO." ></div>
+                                                    <div class="address-row ">
+                                                        <input type="text" placeholder="STREET">
+                                                        <input type="text" placeholder="LOCALITY">
+                                                    </div>
+                                                    <div class="address-row">
+                                                        <input type="text" placeholder="CITY">
+                                                        <input type="text" placeholder="STATE">
+                                                    </div>
+                                                    <div class="address-row"><input type="text" placeholder="PINCODE"></div>
                                             </div>
-                                            <div class="address-row">
-                                            <input type="text" placeholder="CITY">
-                                            <input type="text" placeholder="STATE">
-                                            </div>
-                                            <div class="address-row"><input type="text" placeholder="PINCODE"></div>
-                                        </div>
+                                      
                                         </div>
                                     </div>
 
@@ -198,21 +199,21 @@
                                         </div>
                                     </div>
 
-                                    <div class="col col--md-5">
+                                   <div class="col col--md-5">
                                         <div class="form-group widthfix">
-                                        <label>Communication Address</label>
-                                        <div class="address-box">
-                                            <div class="address-row"><input type="text" placeholder="HOUSE NO."></div>
-                                            <div class="address-row">
-                                            <input type="text" placeholder="STREET">
-                                            <input type="text" placeholder="LOCALITY">
+                                        <label>Communication Address <span class="required">*</span></label>
+                                            <div class="address-box row">
+                                                <div class="address-row"  style="width: 100%;"><input type="text" placeholder="HOUSE NO." ></div>
+                                                <div class="address-row ">
+                                                <input type="text" placeholder="STREET">
+                                                <input type="text" placeholder="LOCALITY">
+                                                </div>
+                                                <div class="address-row">
+                                                <input type="text" placeholder="CITY">
+                                                <input type="text" placeholder="STATE">
+                                                </div>
+                                                <div class="address-row"><input type="text" placeholder="PINCODE"></div>
                                             </div>
-                                            <div class="address-row">
-                                            <input type="text" placeholder="CITY">
-                                            <input type="text" placeholder="STATE">
-                                            </div>
-                                            <div class="address-row"><input type="text" placeholder="PINCODE"></div>
-                                        </div>
                                         </div>
                                     </div>
 
@@ -276,18 +277,18 @@
                                         <label style="font-weight: normal; margin-bottom: 5px;">
                                             <input type="checkbox"> Same as Communication Address
                                         </label>
-                                        <div class="address-box">
-                                            <div class="address-row"><input type="text" placeholder="HOUSE NO."></div>
-                                            <div class="address-row">
-                                            <input type="text" placeholder="STREET">
-                                            <input type="text" placeholder="LOCALITY">
+                                            <div class="address-box row">
+                                                    <div class="address-row"  style="width: 100%;"><input type="text" placeholder="HOUSE NO." ></div>
+                                                    <div class="address-row ">
+                                                        <input type="text" placeholder="STREET">
+                                                        <input type="text" placeholder="LOCALITY">
+                                                    </div>
+                                                    <div class="address-row">
+                                                        <input type="text" placeholder="CITY">
+                                                        <input type="text" placeholder="STATE">
+                                                    </div>
+                                                    <div class="address-row"><input type="text" placeholder="PINCODE"></div>
                                             </div>
-                                            <div class="address-row">
-                                            <input type="text" placeholder="CITY">
-                                            <input type="text" placeholder="STATE">
-                                            </div>
-                                            <div class="address-row"><input type="text" placeholder="PINCODE"></div>
-                                        </div>
                                         </div>
                                     </div>
 
@@ -309,7 +310,17 @@
                                 </div>
 
                                 <div class="submit-container">
-                                    <button type="submit" class="submit-btn">SUBMIT</button>
+                                  <button
+                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                            type="submit"
+                                            data-plugin="button"
+                                            data-button-clone-content="true">
+                                            <span class="btn__content">
+                                                <span class="btn__text">
+                                                    Submit Application
+                                                </span>
+                                            </span>
+                                        </button>
                                 </div>
 
                                 </form>

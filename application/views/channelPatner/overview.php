@@ -190,7 +190,7 @@
 
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
-                                            <label>GST CERTIFICATE <span style="text-transform: none; font-weight: normal;">(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
+                                            <label>GST CERTIFICATE <span style="text-transform: none; font-weight: normal; font-size: small;" font-size: small;>(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
                                             <div class="file-upload-wrapper">
                                                
                                                 <input type="file" id="gst-file" name="gst-file" accept=".jpg,.jpeg,.png,.pdf" onchange="document.getElementById('gst-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
@@ -200,7 +200,7 @@
 
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
-                                            <label>*RERA CERTIFICATE <span style="text-transform: none; font-weight: normal;">(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
+                                            <label>*RERA CERTIFICATE <span style="text-transform: none; font-weight: normal; font-size: small;">(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
                                             <div class="file-upload-wrapper">
                                               
                                                 <input type="file" id="rera-file" name="rera-file" accept=".jpg,.jpeg,.png,.pdf" required onchange="document.getElementById('rera-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
@@ -249,7 +249,18 @@
                                             <label for="terms" style="text-transform: none; font-weight: normal;">I agree with <a href="#"> T & C</a></label>
                                         </div>
 
-                                        <button type="submit" class="submit-btn">SUBMIT REQUEST</button>
+                                        
+                                         <button
+                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                            type="submit"
+                                            data-plugin="button"
+                                            data-button-clone-content="true">
+                                            <span class="btn__content">
+                                                <span class="btn__text">
+                                                    Submit a request
+                                                </span>
+                                            </span>
+                                        </button>
                                        
                                     </div>
                                 </div>
