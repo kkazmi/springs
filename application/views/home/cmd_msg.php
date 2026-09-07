@@ -15,37 +15,37 @@
             <div class="background background--bottom background--cover">
                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear" draggable="false">
                     <source
-                        data-srcset="assets/images/media/landing/2.wellness/wellness-webgl-gradient@xxxl.avif"
+                        data-srcset="assets/images/media/landing/2.wellness/wellness-bg@xxxl.webp"
                         srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
                         media="(min-width: 1920px) and (min-height: 700px)" width="720" height="450">
                     <source
-                        data-srcset="assets/images/media/landing/2.wellness/wellness-webgl-gradient@xxl.avif"
+                        data-srcset="assets/images/media/landing/2.wellness/wellness-bg@xxl.webp"
                         srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
                         media="(min-width: 1440px) and (min-height: 700px)" width="720" height="450">
                     <source
-                        data-srcset="assets/images/media/landing/2.wellness/wellness-webgl-gradient@md.avif"
+                        data-srcset="assets/images/media/landing/2.wellness/wellness-bg@md.webp"
                         srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                         width="720" height="450">
                     <img
-                        data-src="assets/images/media/landing/2.wellness/wellness-webgl-gradient@xs.avif"
+                        data-src="assets/images/media/landing/2.wellness/wellness-bg@md.webp"
                         src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
                         alt="" width="720" height="450" draggable="false">
                 </picture>
                 <noscript>
                     <picture class=" img-cover" draggable="false">
                         <source
-                            srcset="assets/images/media/landing/2.wellness/wellness-webgl-gradient@xxxl.avif"
+                            srcset="assets/images/media/landing/2.wellness/wellness-bg@xxxl.webp"
                             media="(min-width: 1920px) and (min-height: 700px)" width="720" height="450">
                         <source
-                            srcset="assets/images/media/landing/2.wellness/wellness-webgl-gradient@xxl.avif"
+                            srcset="assets/images/media/landing/2.wellness/wellness-bg@xxl.webp"
                             media="(min-width: 1440px) and (min-height: 700px)" width="720" height="450">
                         <source
-                            srcset="assets/images/media/landing/2.wellness/wellness-webgl-gradient@md.avif"
+                            srcset="assets/images/media/landing/2.wellness/wellness-bg@md.webp"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="720" height="450">
                         <img
-                            src="assets/images/media/landing/2.wellness/wellness-webgl-gradient%40xs.avif"
+                            src="assets/images/media/landing/2.wellness/wellness-bg@md.webp"
                             alt="" width="720" height="450" draggable="false">
                     </picture>
                 </noscript>
