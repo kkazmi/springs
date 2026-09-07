@@ -26,11 +26,11 @@
             </div>
             <div class="a-intro__content p-relative">
                 <h1 class="h0 leading-trim is-hidden--md-down" data-reveal="title">
-               BST Channel 
+                    BST Channel Partners Connect
                 </h1>
                 <h1 class="h0 leading-trim is-hidden--lg-up" data-reveal="title">
                    Partner Connect
-            </h1>
+                </h1>
                 <picture class="is-invisible--js is-hidden--no-js is-hidden--lg-up img-full pr-6" data-plugin="appear " draggable="false">
                     <img data-src="assets/images/media/about/1.intro/about-title-en.svg" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2270%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2070%22%3E%3C/svg%3E"
                     alt="" width="320" height="70" draggable="false">
