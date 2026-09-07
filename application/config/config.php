@@ -2,8 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
  //Live base URL
 // $config['base_url'] = (isset($_SERVER['HTTPS']) ? "https://" : "http://") . $_SERVER['HTTP_HOST'] . preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])) . '/';
-    // $config['base_path'] = $_SERVER['DOCUMENT_ROOT'] . preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])) . '/';
-
+ //Local base URL
 $config['base_url'] = 'http://localhost/springs/';
 $config['index_page'] = '';
 $config['uri_protocol']	= 'REQUEST_URI';
