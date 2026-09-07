@@ -318,7 +318,7 @@
             <iframe
                 style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;"
                 width="640" height="360" loading="lazy"
-                src="https://player.vimeo.com/video/1218243197?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                src="https://player.vimeo.com/video/1224540641?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
@@ -372,7 +372,7 @@
             <iframe
                 style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;"
                 width="640" height="360" loading="lazy"
-                src="https://player.vimeo.com/video/1218243197?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                src="https://player.vimeo.com/video/1224540641?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>

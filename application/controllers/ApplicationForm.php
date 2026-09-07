@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class ApplicationForm extends CI_Controller {
+class Applicationform extends CI_Controller {
 
     function __construct()
     {
@@ -10,6 +10,6 @@ class ApplicationForm extends CI_Controller {
     {
         $data = array();
         
-        $this->load->view('applicationForm/index', $data);
+        $this->load->view('applicationform/index', $data);
     }
 }

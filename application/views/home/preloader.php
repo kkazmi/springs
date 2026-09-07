@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
-    const gifDuration = 8000;
+    const gifDuration = 80000;
 
 
     // Wait for GIF to finish
@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Remove it completely after fade-out
         setTimeout(function () {
             preloader.remove();
-        }, 600);
+        }, gifDuration);
 
     }, gifDuration);
 

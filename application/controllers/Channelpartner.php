@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class ChannelPatner extends CI_Controller {
+class Channelpartner extends CI_Controller {
 
     function __construct()
     {
@@ -10,6 +10,6 @@ class ChannelPatner extends CI_Controller {
     {
         $data = array();
         
-        $this->load->view('channelPatner/index', $data);
+        $this->load->view('channelpartner/index', $data);
     }
 }

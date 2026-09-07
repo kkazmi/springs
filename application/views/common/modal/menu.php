@@ -178,7 +178,7 @@
                                 </a>
                             </li>
                              <li class="js-content-animation-link " data-content-animation-id="8">
-                                <a href="<?php echo base_url('channelPatner'); ?>" class="leading-trim">
+                                <a href="<?php echo base_url('channelpartner'); ?>" class="leading-trim">
                                     Channel Partners
                                 </a>
                             </li>

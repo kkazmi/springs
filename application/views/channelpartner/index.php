@@ -23,8 +23,8 @@
                 <div class="page-content js-page-content">
                     <main id="top">
                          <section class=" section ui-dark ui-background" data-scroll-section>
-                            <?php $this->load->view("channelPatner/intro"); ?>
-                            <?php $this->load->view("channelPatner/overview"); ?>
+                            <?php $this->load->view("channelpartner/intro"); ?>
+                            <?php $this->load->view("channelpartner/overview"); ?>
                         </section>
                         <section class=" section ui-dark ui-background" data-scroll-section>
                           
