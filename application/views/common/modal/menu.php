@@ -182,11 +182,11 @@
                                     Channel Partners
                                 </a>
                             </li>
-                             <!-- <li class="js-content-animation-link " data-content-animation-id="9">
+                             <li class="js-content-animation-link " data-content-animation-id="9">
                                 <a href="<?php echo base_url('applicationform'); ?>" class="leading-trim">
                                    Application Form
                                 </a>
-                            </li> -->
+                            </li>
                         </ul>
                         <div class="menu__list__sublist mt-3 mt-1:sm">
                             <ul class="">
