@@ -823,3 +823,19 @@ p.a-place__caption__description.text-color-small.text-small.leading-trim {
 h2.h2.leading-trim {
     text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 } */
+
+
+
+.l-wellness__webgl-inner img {
+    -o-object-position: 37% 50%;
+    object-position: 37% 50%
+}
+
+.l-wellness__webgl-caption {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
