@@ -132,26 +132,17 @@
    </div>
 </header>
 
-  <!-- Sticky Contact Buttons -->
+<!-- Sticky Contact Buttons -->
 <div class="sticky-contact">
     <!-- Call -->
-    <a href="tel:+1234567890" class="sticky-btn call">
+    <!-- <a href="#callback-modal" data-plugin=" button" data-button-clone-content="true" class="sticky-btn call"> -->
+      <a href="#callback-modal" data-plugin="button" data-button-clone-content="true" data-callback-tab="call" class="sticky-btn call js-open-call-tab">
         <span class="sticky-icon">
-         <svg xmlns="http://www.w3.org/2000/svg"
-            width="25" height="23"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true">
-
+         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <rect x="3" y="4" width="18" height="17" rx="2"/>
             <line x1="16" y1="2" x2="16" y2="6"/>
             <line x1="8" y1="2" x2="8" y2="6"/>
             <line x1="3" y1="10" x2="21" y2="10"/>
-
             <path d="M12 13a3 3 0 0 1 3 3c0 2-3 5-3 5s-3-3-3-5a3 3 0 0 1 3-3z"/>
             <circle cx="12" cy="16" r="1"/>
          </svg>
@@ -174,8 +165,7 @@
     </a>
 
     <!-- Contact Form -->
-    <a class="sticky-btn contact  "
-                                href="#callback-modal" data-plugin=" button" data-button-clone-content="true"">
+    <a class="sticky-btn contact" href="#callback-modal" data-plugin=" button" data-button-clone-content="true">
          <span class="sticky-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23"
                viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -189,3 +179,24 @@
         <span class="sticky-text">Enquiry</span>
     </a>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.js-open-call-tab').forEach(function (stickyButton) {
+        stickyButton.addEventListener('click', function () {
+            // Wait for the callback modal to open
+            setTimeout(function () {
+                // Find the "Book a site Visit" tab button
+                const callTabButton = document.querySelector(
+                    '.l-callback__tablist [aria-controls="call"]'
+                );
+                if (!callTabButton) {
+                    return;
+                }
+                // Trigger the existing tab functionality
+                callTabButton.click();
+            }, 150);
+        });
+    });
+});
+</script>

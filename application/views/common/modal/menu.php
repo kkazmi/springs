@@ -80,21 +80,15 @@
                                     </span>
                                     </span>
                                 </a>
-                                <span class="favourite-btn__counter text-c2 is-hidden"
-                                    data-plugin="favouriteCounter"
-                                    data-favourite-counter-inactive-class="is-hidden"></span>
+                                <span class="favourite-btn__counter text-c2 is-hidden" data-plugin="favouriteCounter" data-favourite-counter-inactive-class="is-hidden"></span>
                             </div>
                             <a class="btn btn--text-small btn--link is-hidden--md-up js-modal-close menu__close"
                                 aria-label="Close menu" tabindex="0" role="button">
                                 <span class="btn__content">
                                     <span class="btn__icon ">
-                                    <svg class="icon icon-close-large" width="30" height="30"
-                                        aria-hidden="true" viewBox="0 0 30 30"
-                                        style="--icon-width: 30; --icon-height: 30;">
-                                        <use href="assets/images/icons.svg#close-large"
-                                            xlink:href="assets/images/icons.svg#close-large">
-                                        </use>
-                                    </svg>
+                                        <svg class="icon icon-close-large" width="30" height="30" aria-hidden="true" viewBox="0 0 30 30" style="--icon-width: 30; --icon-height: 30;">
+                                            <use href="assets/images/icons.svg#close-large" xlink:href="assets/images/icons.svg#close-large"></use>
+                                        </svg>
                                     </span>
                                 </span>
                             </a>
