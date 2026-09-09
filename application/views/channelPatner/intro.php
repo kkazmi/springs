@@ -26,7 +26,7 @@
             </div>
             <div class="a-intro__content p-relative">
                 <h1 class="h0 leading-trim is-hidden--md-down" data-reveal="title">
-                    BST Channel Partners Connect
+                    Join BST
                 </h1>
                 <h1 class="h0 leading-trim is-hidden--lg-up" data-reveal="title">
                    Partner Connect
@@ -42,7 +42,7 @@
                 </noscript>
                 <div class="a-intro__subtitle mt-1  pr-6">
                     <p class="text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
-                      Channel Partner
+                      Channel Partners
                     </p>
                 </div>
             </div>
