@@ -59,8 +59,6 @@
         </div>
     </div>
 </div>
-
-                            <?php $this->load->view("about/cmd_msg"); ?>
 <div class="a-about sticky sticky--full-height sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up" data-scroll-snap-point='[{ "viewport": -100, "element": 0 }]'>
     <div id="a-about" class="a-about__anchor"></div>
     <div class="sticky__layer sticky__layer--sticky sticky__layer--sticky:lg-up" data-scroll data-scroll-sticky>
