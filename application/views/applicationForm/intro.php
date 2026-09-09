@@ -25,9 +25,7 @@
                 </noscript>
             </div>
             <div class="a-intro__content p-relative">
-                <h1 class="h0 leading-trim is-hidden--md-down" data-reveal="title">
-               BST 
-                </h1>
+                <h1 class="h0 leading-trim is-hidden--md-down" data-reveal="title">Reserve Your Plot Online</h1>
                
                 <picture class="is-invisible--js is-hidden--no-js is-hidden--lg-up img-full pr-6" data-plugin="appear " draggable="false">
                     <img data-src="assets/images/media/about/1.intro/about-title-en.svg" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2270%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2070%22%3E%3C/svg%3E"
@@ -39,9 +37,7 @@
                     </picture>
                 </noscript>
                 <div class="a-intro__subtitle mt-1  pr-6">
-                    <p class="text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
-                     Application Form
-                    </p>
+                    <p class="text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">Reserve Your Plot Online</p>
                 </div>
             </div>
             <a class="btn a-intro__next btn--outline btn--square btn--sm p-relative" href="#a-about" aria-label="К следующей секции">

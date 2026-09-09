@@ -173,12 +173,12 @@
                             </li>
                              <li class="js-content-animation-link " data-content-animation-id="8">
                                 <a href="<?php echo base_url('channelpartner'); ?>" class="leading-trim">
-                                    Channel Partners
+                                    Join BST
                                 </a>
                             </li>
                              <li class="js-content-animation-link " data-content-animation-id="9">
                                 <a href="<?php echo base_url('applicationform'); ?>" class="leading-trim">
-                                   Application Form
+                                   Reserve Your Plot Online
                                 </a>
                             </li>
                         </ul>

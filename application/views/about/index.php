@@ -24,7 +24,6 @@
                     <main id="top">
                         <section class=" section ui-dark ui-background" data-scroll-section>
                             <?php $this->load->view("about/intro"); ?>
-                            <?php $this->load->view("about/cmd_msg"); ?>
                             <?php $this->load->view("about/overview"); ?>
                             <?php $this->load->view("about/place"); ?>
                             <?php $this->load->view("about/philosophy"); ?>

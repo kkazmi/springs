@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>BST Developers | Channel Partner</title>
+    <title>BST Developers | OIN BST  Join BST</title>
     <link rel="stylesheet" href="assets/stylesheets/jsSlider.css" />
     <link rel="stylesheet" href="assets/stylesheets/theme.css" />
     <link rel="stylesheet" href="assets/stylesheets/channelPatner.css" />

@@ -101,17 +101,16 @@
             </div> -->
             <div class="a-photos__inner row" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="md-up" data-parallax-100-0='{"transform": "translateY(30%)"}' data-parallax--100-0='{"transform": "translateY(-30%)"}'>
                 <h3 class="a-photos__text h2 px-layout px-0:lg col col--md-8 mb-1 offset--md-2 leading-trim">
-                  BST Channel Partner
+                  JOIN BST “𝑰𝑵𝑵𝑬𝑹 𝑪𝑰𝑹𝑪𝑳𝑬”
                </h3>
                <p class="description  col col--md-8 mb-2 text-center offset--md-2 leading-trim">
-                    'BST Channel Partner Connect' program is our endeavor to forge new partnerships that are mutually beneficial for our business growth. We look forward to create bonds that will help us and our partners in achieving unwavering success and scale new heights with BST.
+                    JOIN BST “𝑰𝑵𝑵𝑬𝑹 𝑪𝑰𝑹𝑪𝑳𝑬” program is our endeavor to forge new partnerships that are mutually beneficial for our business growth. We look forward to create bonds that will help us and our partners in achieving unwavering success and scale new heights with BST.
                <br>
-                    If you are interested to work with BST, please register with us as a partner by filling in the form below and start on your journey of growth with BST Channel Partner Connect.
+                    If you are interested to work with BST, please register with us as a partner by filling in the form below and start on your journey of growth with JOIN BST “𝑰𝑵𝑵𝑬𝑹 𝑪𝑰𝑹𝑪𝑳𝑬”.
                 </p>
                
                 <div class="col col--md-10 offset--md-1  text-t1 leading-trim" data-reveal="text">
                         <div class="container">
-                           
                             <form action="#"  method="POST">
                                 <div class="row">
                                     <div class="col col--md-5">
@@ -120,49 +119,42 @@
                                             <input type="text" id="fullname" name="fullname" required>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="address">COMMUNICATION ADDRESS</label>
                                             <input type="text" id="address" name="address">
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="mobile">*MOBILE NO</label>
                                             <input type="tel" id="mobile" name="mobile" required>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="city">CITY</label>
                                             <input type="text" id="city" name="city">
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="email">*EMAIL ID</label>
                                             <input type="email" id="email" name="email" required>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="state">STATE</label>
                                             <input type="text" id="state" name="state">
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="rera-no">*RERA REGISTRATION NUMBER</label>
                                             <input type="text" id="rera-no" name="rera-no" required>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="region">*REGION OF OPERATION</label>
@@ -171,14 +163,12 @@
                                             </select>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="pan-no">*PAN NUMBER</label>
                                             <input type="text" id="pan-no" name="pan-no" required>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="member-of">MEMBER OF</label>
@@ -187,27 +177,22 @@
                                             </select>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label>GST CERTIFICATE <span style="text-transform: none; font-weight: normal; font-size: small;" font-size: small;>(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
                                             <div class="file-upload-wrapper">
-                                               
                                                 <input type="file" id="gst-file" name="gst-file" accept=".jpg,.jpeg,.png,.pdf" onchange="document.getElementById('gst-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label>*RERA CERTIFICATE <span style="text-transform: none; font-weight: normal; font-size: small;">(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
                                             <div class="file-upload-wrapper">
-                                              
                                                 <input type="file" id="rera-file" name="rera-file" accept=".jpg,.jpeg,.png,.pdf" required onchange="document.getElementById('rera-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label>*SCANNED PAN CARD <span style="text-transform: none; font-weight: normal;">(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
@@ -217,14 +202,12 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="firm-name">FIRM NAME</label>
                                             <input type="text" id="firm-name" name="firm-name">
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="sourcing-manager">SOURCING MANAGER</label>
@@ -233,7 +216,6 @@
                                             </select>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="firm-type">*TYPE OF FIRM</label>
@@ -242,14 +224,11 @@
                                             </select>
                                         </div>
                                     </div>
-
                                     <div class="col col--md-10 offset--md-1 text-center">
                                         <div class="terms-container">
                                             <input type="checkbox" id="terms" name="terms" required>
                                             <label for="terms" style="text-transform: none; font-weight: normal;">I agree with <a href="#"> T & C</a></label>
                                         </div>
-
-                                        
                                          <button
                                             class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
                                             type="submit"
@@ -261,7 +240,6 @@
                                                 </span>
                                             </span>
                                         </button>
-                                       
                                     </div>
                                 </div>
                             </form>
