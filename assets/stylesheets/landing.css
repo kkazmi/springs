@@ -855,7 +855,7 @@
     position: absolute;
     width: 100vw;
     z-index: 1;
-    background: #413b2a8c;
+    background: #0e0b0494;
 }
 
 .is-website-entering .l-gallery__caption {
@@ -1136,6 +1136,7 @@
     top: 0;
     width: 100%;
     z-index: 1;
+    background: #111a237a;
 }
 
 .l-wellness__webgl-circle {

@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>BST Developers | Reserve Your Plot Online</title>
     <link rel="stylesheet" href="assets/stylesheets/jsSlider.css" />
+      
     <link rel="stylesheet" href="assets/stylesheets/theme.css" />
-    <link rel="stylesheet" href="assets/stylesheets/applicationForm.css" />
+    <link rel="stylesheet" href="assets/stylesheets/applicationForm.css" />  
     <script>
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
@@ -19,7 +20,7 @@
     <?php $this->load->view("common/preloader"); ?>
     <div class="page-content-wrapper ui-light-background" data-barba="container" data-barba-namespace="page" data-plugin="utmSave">
         <div class="page-content-wrapper__inner js-page-content-wrapper">
-            <?php $this->load->view("common/header"); ?>
+            <?php $this->load->view("common/header"); ?> 
                 <div class="page-content js-page-content">
                     <main id="top">
                          <section class=" section ui-dark ui-background" data-scroll-section>

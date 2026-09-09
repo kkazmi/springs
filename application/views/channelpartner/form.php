@@ -14,37 +14,37 @@
                                 <div class="form-grid">
                                     <div class="form-group">
                                         <label for="fullname">*YOUR FULL NAME</label>
-                                        <input type="text" id="fullname" name="fullname" required>
+                                        <input type="text" id="fullname" name="fullname" placeholder="full name" required>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="address">COMMUNICATION ADDRESS</label>
-                                        <input type="text" id="address" name="address">
+                                        <input type="text" id="address" name="address" placeholder="communication address">
                                     </div>
 
                                     <div class="form-group">
                                         <label for="mobile">*MOBILE NO</label>
-                                        <input type="tel" id="mobile" name="mobile" required>
+                                        <input type="tel" id="mobile" name="mobile" placeholder="mobile number" required>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="city">CITY</label>
-                                        <input type="text" id="city" name="city">
+                                        <input type="text" id="city" name="city" placeholder="city">
                                     </div>
 
                                     <div class="form-group">
                                         <label for="email">*EMAIL ID</label>
-                                        <input type="email" id="email" name="email" required>
+                                        <input type="email" id="email" name="email" placeholder="email address" required>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="state">STATE</label>
-                                        <input type="text" id="state" name="state">
+                                        <input type="text" id="state" name="state" placeholder="state">
                                     </div>
 
                                     <div class="form-group">
                                         <label for="rera-no">*RERA REGISTRATION NUMBER</label>
-                                        <input type="text" id="rera-no" name="rera-no" required>
+                                        <input type="text" id="rera-no" name="rera-no" placeholder="RERA registration number"  required>
                                     </div>
 
                                     <div class="form-group">
@@ -118,7 +118,23 @@
                                     <label for="terms" style="text-transform: none; font-weight: normal;">I agree with <a href="#">T & C</a></label>
                                 </div>
 
-                                <button type="submit" class="submit-btn">SUBMIT REQUEST</button>
+                                <div class="submit-container">
+                                 <button
+                                                    class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                    type="submit"
+                                                    data-plugin="button"
+                                                    data-button-clone-content="true">
+                                                    <span class="btn__content">
+                                                        <span class="btn__text">
+                                                            Submit a request
+                                                        </span>
+                                                    </span>
+                                                </button>
+                                                <!-- Mobile Button -->
+                                                <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+                                                    <span class="btn__content"><span class="btn__text">Submit a request</span></span>
+                                                </button>
+                                </div>
                                 <div class="mandatory-note">(* Mandatory Fields)</div>
                             </form>
 

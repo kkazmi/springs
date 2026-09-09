@@ -823,3 +823,11 @@ p.a-place__caption__description.text-color-small.text-small.leading-trim {
 h2.h2.leading-trim {
     text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 } */
+ .l-gallery__caption {
+    height: calc(100 * var(--svh));
+    opacity: 1;
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+    background: #0e0b0494;
+}

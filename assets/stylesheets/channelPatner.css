@@ -976,3 +976,53 @@ body, button, input, textarea {
     text-transform: none;
 }
  
+.submit-container .btn--clone {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Text wrapper */
+.submit-container .btn--clone .btn__content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 1.2em;
+    line-height: 1.2em;
+}
+
+/* Original text */
+.submit-container .btn--clone .btn__text {
+    display: block;
+    height: 1.2em;
+    line-height: 1.2em;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.55s cubic-bezier(0.77, 0, 0.175, 1);
+    will-change: transform;
+}
+
+/* New text */
+.submit-container .btn--clone .btn__content::after {
+    content: "Submit a request";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1.2em;
+    line-height: 1.2em;
+    text-align: inherit;
+
+    transform: translate3d(0, 100%, 0);
+    transition: transform 0.55s cubic-bezier(0.77, 0, 0.175, 1);
+
+    will-change: transform;
+}
+
+/* Original text goes UP */
+.submit-container .btn--clone:hover .btn__text {
+    transform: translate3d(0, -100%, 0);
+}
+
+/* New text comes from BOTTOM */
+.submit-container .btn--clone:hover .btn__content::after {
+    transform: translate3d(0, 0, 0);
+}

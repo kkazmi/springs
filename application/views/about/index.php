@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/stylesheets/jsSlider.css" />
     <link rel="stylesheet" href="assets/stylesheets/theme.css" />
     <link rel="stylesheet" href="assets/stylesheets/about.css" />
+    <link rel="stylesheet" href="assets/stylesheets/landing.css" />
     <script>
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');

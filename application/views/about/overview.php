@@ -39,7 +39,7 @@
         </div>
     </div>
 </div>
-<div class="a-photos" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }]'>
+<!-- <div class="a-photos" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }]'>
     <div class="sticky__layer sticky__layer--sticky sticky__layer--sticky:lg-up sticky--full-height ui-background">
         <div>
             <div class="a-photos__gradient blur-fix">
@@ -159,5 +159,77 @@
                 </div>
             </div>
         </div>
+    </div>
+</div> -->
+<div class="l-wellness sticky sticky--full-height sticky--under-previous sticky--under-next is-hidden--md-down" id="wellness" data-plugin="reveal">
+    <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
+    data-scroll-target="#wellness">
+    <div class="l-wellness__webgl ui-background ui-dark"
+        data-scroll-snap-point='[    { "viewport": 0, "element": 100 }]'>
+        <div class="l-wellness__webgl-inner">
+            <div data-plugin="webglWellness parallax" data-parallax-pattern="webglWellness">
+                <canvas class="js-wellness-canvas is-active"></canvas>
+                <div class="l-wellness__webgl-circle">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+            </div>
+            <div class="background background--bottom background--cover">
+                <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear" draggable="false">
+                    <source
+                        data-srcset="assets/images/media/landing/2.wellness/wellness-bg@xxxl.webp"
+                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
+                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="450">
+                    <source
+                        data-srcset="assets/images/media/landing/2.wellness/wellness-bg@xxl.webp"
+                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
+                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="450">
+                    <source
+                        data-srcset="assets/images/media/landing/2.wellness/wellness-bg@md.webp"
+                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
+                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                        width="720" height="450">
+                    <img
+                        data-src="assets/images/media/landing/2.wellness/wellness-bg@md.webp"
+                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
+                        alt="" width="720" height="450" draggable="false">
+                </picture>
+                <noscript>
+                    <picture class=" img-cover" draggable="false">
+                        <source
+                            srcset="assets/images/media/landing/2.wellness/wellness-bg@xxxl.webp"
+                            media="(min-width: 1920px) and (min-height: 700px)" width="720" height="450">
+                        <source
+                            srcset="assets/images/media/landing/2.wellness/wellness-bg@xxl.webp"
+                            media="(min-width: 1440px) and (min-height: 700px)" width="720" height="450">
+                        <source
+                            srcset="assets/images/media/landing/2.wellness/wellness-bg@md.webp"
+                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                            width="720" height="450">
+                        <img
+                            src="assets/images/media/landing/2.wellness/wellness-bg@md.webp"
+                            alt="" width="720" height="450" draggable="false">
+                    </picture>
+                </noscript>
+            </div>
+        </div>
+        <div class="l-wellness__webgl-caption pt-3">
+            <h1 class="h1 col col--md-6 offset--md-1 mb-1 leading-trim" data-reveal="text">A Message from Our CMD</h1>
+            <p class="col col--md-5 offset--md-1 mb-1 text-justify" data-reveal="text">
+                "I don't believe in doing business solely for profit. True success lies in creating developments that contribute to the growth of our nation while improving the lives of people.
+                India is witnessing an extraordinary era of progress, and with that comes a new generation of aspirational citizens seeking better lifestyles and brighter futures.
+                At BST Developers, we have built a passionate team committed to creating not just homes, but opportunities for long-term wealth creation and meaningful living.
+                We will continue to innovate, embrace the best technologies, and pursue excellence in everything we undertake. Above all, our greatest achievement will always be earning the trust of our customers, employees, partners, and stakeholders.
+            </p>
+            <div class="col col--md-5 offset--md-1 text-right">
+                <p class="h4 leading-trim" data-reveal="text">
+                    — Mr. Yoginder Tanwar<br />
+                    Chairman & Managing Director<br />
+                    BST Developers India Pvt. Ltd.
+                </p>
+            </div>
+        </div>
+    </div>
     </div>
 </div>

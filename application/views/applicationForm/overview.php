@@ -15,8 +15,8 @@
                 Take the first step toward your new home—fill out the application form below.</p>
                
                 <div class="col col--md-10 offset--md-1  text-t1 leading-trim" data-reveal="text">
-                        <div class="container">
-                           <form>
+                        <div class="class="form-control form-control--input form-control--float is-focused" data-plugin="inputState"">
+                           <form >
                                 <div class="form-container row">
                                     
                                     <div class="column">
@@ -24,7 +24,7 @@
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="first_applicant">First/Sole Applicant <span class="required">*</span></label>
-                                        <input type="text" id="first_applicant" name="first_applicant">
+                                        <input type="text" id="first_applicant" name="first_applicant" Placeholder="First/Sole Applicant Name">
                                         </div>
                                     </div>
 
@@ -32,15 +32,16 @@
                                         <div class="form-group widthfix">
                                             <label class="form-label">Relation <span class="required">*</span></label>
                                             
-                                           <div class="relation-container">
+                                           <div class="relation-container bst-select-relation">
                                                 <select id="relation" name="relation" class="dropRight">
                                                         <option value="son">Son</option>
                                                         <option value="wife">Wife</option>
                                                         <option value="daughter">Daughter Of</option>
+                                                        <option value="guardian">Guardian</option>
                                                         <option selected >Select Relation</option>
                                                 </select>
                                             </div>
-                                            <input type="text" id="relationof" name="relation">
+                                            <input type="text" id="relationof" name="relation" placeholder="Name of Father/Husband/Guardian">
                                         </div>
                                      </div>
 
@@ -65,21 +66,21 @@
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="tel_1">Telephone No.</label>
-                                        <input type="text" id="tel_1" name="tel_1">
+                                        <input type="text" id="tel_1" name="tel_1" placeholder="+91 XXXXXXXXXX">
                                         </div>
                                     </div>
 
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="mobile_1">Mobile No. <span class="required">*</span></label>
-                                        <input type="text" id="mobile_1" name="mobile_1">
+                                        <input type="text" id="mobile_1" name="mobile_1" placeholder="+91 XXXXXXXXXX">
                                         </div>
                                     </div>
 
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="email_1">E-Mail ID <span class="required">*</span></label>
-                                        <input type="email" id="email_1" name="email_1">
+                                        <input type="email" id="email_1" name="email_1" placeholder="example@domain.com">
                                         </div>
                                     </div>
 
@@ -155,21 +156,21 @@
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="assoc_code">Associate Code</label>
-                                        <input type="text" id="assoc_code" name="assoc_code">
+                                        <input type="text" id="assoc_code" name="assoc_code"    placeholder="Associate Code">
                                         </div>
                                     </div>
 
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="cust_rep">Customer Representative Name</label>
-                                        <input type="text" id="cust_rep" name="cust_rep">
+                                        <input type="text" id="cust_rep" name="cust_rep" placeholder="Customer Representative Name">
                                         </div>
                                     </div>
 
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="rep_mobile">Representative Mobile No.</label>
-                                        <input type="text" id="rep_mobile" name="rep_mobile">
+                                        <input type="text" id="rep_mobile" name="rep_mobile" placeholder="+91 XXXXXXXXXX">
                                         </div>
                                     </div>
 
@@ -180,24 +181,27 @@
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="co_applicant">Co-Applicant</label>
-                                        <input type="text" id="co_applicant" name="co_applicant">
+                                        <input type="text" id="co_applicant" name="co_applicant" placeholder="Name of Co-Applicant">
                                         </div>
                                     </div>
 
-                                    <div class="col col--md-5">
+                                   
+                                   <div class="col col--md-5">
                                         <div class="form-group widthfix">
-                                            <div class="relation-container">
-                                            <div style="width: 50%; float: left;">Relation</div>
+                                            <label class="form-label">Relation <span class="required">*</span></label>
+                                            
+                                           <div class="relation-container bst-select-relation">
                                                 <select id="relation" name="relation" class="dropRight">
                                                         <option value="son">Son</option>
                                                         <option value="wife">Wife</option>
                                                         <option value="daughter">Daughter Of</option>
+                                                        <option value="guardian">Guardian</option>
                                                         <option selected >Select Relation</option>
                                                 </select>
                                             </div>
-                                            <input type="text" id="relationof" name="relation">
+                                            <input type="text" id="relationof" name="relation" placeholder="Name of Father/Husband/Guardian">
                                         </div>
-                                    </div>
+                                     </div>
 
                                    <div class="col col--md-5">
                                         <div class="form-group widthfix">
@@ -220,28 +224,28 @@
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="tel_2">Telephone No.</label>
-                                        <input type="text" id="tel_2" name="tel_2">
+                                        <input type="text" id="tel_2" name="tel_2" placeholder="+91 XXXXXXXXXX">
                                         </div>
                                     </div>
 
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="mobile_2">Mobile No.</label>
-                                        <input type="text" id="mobile_2" name="mobile_2">
+                                        <input type="text" id="mobile_2" name="mobile_2"    placeholder="+91 XXXXXXXXXX">
                                         </div>
                                     </div>
 
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="email_2">E-Mail ID</label>
-                                        <input type="email" id="email_2" name="email_2">
+                                        <input type="email" id="email_2" name="email_2"  placeholder="example@domain.com">
                                         </div>
                                     </div>
 
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                         <label for="nationality_2">Nationality</label>
-                                        <input type="text" id="nationality_2" name="nationality_2" value="INDIAN">
+                                        <input type="text" id="nationality_2" name="nationality_2" value="INDIAN" placeholder="Nationality">
                                         </div>
                                     </div>
 
@@ -298,29 +302,32 @@
 
                                 
                                 <div class="note">
-                                    Note:<br>
-                                    *GST is applicable
+                                    Note: *GST is applicable
                                 </div>
 
                                 <div class="col col--md-5" style="margin: 20px auto; width: fit-content;">
                                     <div class="form-group widthfix">
                                     <label for="booking_amount">BOOKING AMOUNT <span class="required">*</span></label>
-                                    <input type="text" id="booking_amount" name="booking_amount">
+                                    <input type="text" id="booking_amount" name="booking_amount" placeholder="Booking Amount in INR">
                                     </div>
                                 </div>
 
                                 <div class="submit-container">
-                                  <button
-                                            class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
-                                            type="submit"
-                                            data-plugin="button"
-                                            data-button-clone-content="true">
-                                            <span class="btn__content">
-                                                <span class="btn__text">
-                                                    Submit Application
-                                                </span>
-                                            </span>
-                                        </button>
+                                 <button
+                                                    class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                    type="submit"
+                                                    data-plugin="button"
+                                                    data-button-clone-content="true">
+                                                    <span class="btn__content">
+                                                        <span class="btn__text">
+                                                            Submit a request
+                                                        </span>
+                                                    </span>
+                                                </button>
+                                                <!-- Mobile Button -->
+                                                <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+                                                    <span class="btn__content"><span class="btn__text">Submit a request</span></span>
+                                                </button>
                                 </div>
 
                                 </form>
