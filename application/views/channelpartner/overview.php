@@ -101,12 +101,12 @@
             </div> -->
             <div class="a-photos__inner row" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="md-up" data-parallax-100-0='{"transform": "translateY(30%)"}' data-parallax--100-0='{"transform": "translateY(-30%)"}'>
                 <h3 class="a-photos__text h2 px-layout px-0:lg col col--md-8 mb-1 offset--md-2 leading-trim">
-                  Join BST
+                  JOIN BST “𝑰𝑵𝑵𝑬𝑹 𝑪𝑰𝑹𝑪𝑳𝑬”
                </h3>
                <p class="description  col col--md-8 mb-2 text-center offset--md-2 leading-trim">
-                    'BST Channel Partner Connect' program is our endeavor to forge new partnerships that are mutually beneficial for our business growth. We look forward to create bonds that will help us and our partners in achieving unwavering success and scale new heights with BST.
+                    JOIN BST “𝑰𝑵𝑵𝑬𝑹 𝑪𝑰𝑹𝑪𝑳𝑬” program is our endeavor to forge new partnerships that are mutually beneficial for our business growth. We look forward to create bonds that will help us and our partners in achieving unwavering success and scale new heights with BST.
                <br>
-                    If you are interested to work with BST, please register with us as a partner by filling in the form below and start on your journey of growth with BST Channel Partner Connect.
+                    If you are interested to work with BST, please register with us as a partner by filling in the form below and start on your journey of growth with JOIN BST “𝑰𝑵𝑵𝑬𝑹 𝑪𝑰𝑹𝑪𝑳𝑬”.
                 </p>
                
                 <div class="col col--md-10 offset--md-1  text-t1 leading-trim" data-reveal="text">

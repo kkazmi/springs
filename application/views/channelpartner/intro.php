@@ -26,7 +26,7 @@
             </div>
             <div class="a-intro__content p-relative">
                 <h1 class="h0 leading-trim is-hidden--md-down" data-reveal="title">
-                    Join BST
+                    JOIN BST <b><i>“INNER CIRCLE”</i></b>
                 </h1>
                 <h1 class="h0 leading-trim is-hidden--lg-up" data-reveal="title">
                    Partner Connect

@@ -23,8 +23,8 @@
                 <div class="page-content js-page-content">
                     <main id="top">
                          <section class=" section ui-dark ui-background" data-scroll-section>
-                            <?php $this->load->view("applicationForm/intro"); ?>
-                            <?php $this->load->view("applicationForm/overview"); ?>
+                            <?php $this->load->view("applicationform/intro"); ?>
+                            <?php $this->load->view("applicationform/overview"); ?>
                         </section>
                         <section class=" section ui-dark ui-background" data-scroll-section>
                           
