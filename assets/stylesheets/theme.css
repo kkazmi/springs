@@ -21856,3 +21856,16 @@ p.text-justify {
 .heightfix{
     height: 500px;
 }
+@media (max-width: 767px) {
+
+    .rewards {
+        width: 100%;
+        min-height: 100vh;
+        background-image: url("./../images/golden_rewards_mobile.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+}
