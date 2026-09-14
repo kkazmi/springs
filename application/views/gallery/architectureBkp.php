@@ -17,18 +17,6 @@
         if (navigator.platform.toUpperCase().indexOf('WIN') >= 0) {
             document.documentElement.classList.add('is-win');
         }
-        const stickySlider = document.querySelector('.sticky-slider');
-
-if (stickySlider) {
-    stickySlider.addEventListener('wheel', function (e) {
-        e.preventDefault();
-
-        stickySlider.scrollBy({
-            left: e.deltaY,
-            behavior: 'smooth'
-        });
-    }, { passive: false });
-}
     </script>
 </head>
 
@@ -913,31 +901,7 @@ if (stickySlider) {
     </div>
     <script fetchpriority="low" async src="../assets/javascripts/browser-message/browser-message.js"></script>
     <script fetchpriority="low" src="../assets/javascripts/shared.js"></script>
-    <script fetchpriority="low" src="../assets/javascripts/flat.js"></script>
     <script fetchpriority="low" src="../assets/javascripts/blank.js"></script>
 </body>
 
-   <script>
-const slider = document.querySelector('.sticky-slider');
-
-if (slider) {
-
-    let lastScrollY = window.scrollY;
-    let sliderPosition = 0;
-
-    window.addEventListener('scroll', function () {
-
-        const currentScrollY = window.scrollY;
-        const difference = currentScrollY - lastScrollY;
-
-        // Page DOWN → slider RIGHT
-        // Page UP   → slider LEFT
-        sliderPosition += difference;
-
-        slider.scrollLeft = sliderPosition;
-
-        lastScrollY = currentScrollY;
-    });
-}
-    </script>
 </html>

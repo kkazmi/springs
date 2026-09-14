@@ -961,3 +961,14 @@
 .has-hover .gallery-desktop-item:hover .gallery-iframe-wrapper iframe {
     transform: translate(-50%, -50%) scale(1.042);
 }
+.sticky-slider {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    width: 100%;
+    white-space: nowrap;
+    height: 100vh;
+}
+
+.sticky-slider::-webkit-scrollbar {
+    display: none;
+}

@@ -238,25 +238,27 @@ if (track) track.addEventListener("mousedown", (e) => {
 
 });
 
-window.addEventListener("mouseup", () => {
+if (track) {
+    window.addEventListener("mouseup", () => {
 
-    isDragging = false;
+        isDragging = false;
 
-    track.classList.remove("grabbing");
+        track.classList.remove("grabbing");
 
-});
+    });
 
-window.addEventListener("mousemove", (e) => {
+    window.addEventListener("mousemove", (e) => {
 
-    if (!isDragging) return;
+        if (!isDragging) return;
 
-    let dx = e.clientX - startX;
+        let dx = e.clientX - startX;
 
-    startX = e.clientX;
+        startX = e.clientX;
 
-    velocity += dx * .22;
+        velocity += dx * .22;
 
-});
+    });
+}
 
 /*========================================*/
 /* Touch */
