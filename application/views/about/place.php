@@ -1,5 +1,5 @@
 <div class="a-place sticky sticky--full-height sticky--under-previous sticky--under-next is-hidden--md-down" id="a-place" data-plugin="reveal">
-    <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#a-place" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }, { "viewport": 0, "element": 100 }, { "viewport": 0, "element": 200 }, { "viewport": 0, "element": 300 }, { "viewport": 0, "element": 400 }]'>
+    <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#a-place" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }, { "viewport": 0, "element": 100 }, { "viewport": 0, "element": 200 }, { "viewport": 0, "element": 300 }, { "viewport": 0, "element": 300 }]'>
         <div class="a-place__slide" data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax--000-0='{"transform": "scale(1.2)"}' data-parallax--100-0='{"transform": "scale(1.1)"}'
         data-parallax--200-0='{"transform": "scale(1.0)"}'>
             <div class=" background background--bottom background--cover">
@@ -69,7 +69,7 @@
                 </noscript>
             </div>
         </div>
-        <div class="a-place__slide" data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax--300-0='{"clip-path": "polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)", "transform": "scale(1.2)"}'
+        <!-- <div class="a-place__slide" data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax--300-0='{"clip-path": "polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)", "transform": "scale(1.2)"}'
         data-parallax--400-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", "transform": "scale(1.1)"}' data-parallax--500-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", "transform": "scale(1.0)"}'>
             <div class=" background background--bottom background--cover">
                 <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
@@ -91,7 +91,7 @@
                     </picture>
                 </noscript>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#a-place" data-plugin="parallax" data-parallax-pattern="placesSlide">
         <div class="a-place__caption col col--md-3 offset--md-9">
@@ -113,13 +113,9 @@
                                     </span>
                                 </span>
                                 </span>
-                                <p class="mb-0.3 mb-0.5:xxl leading-trim">
-                                    Our Vision
-                                  
-                                </p>
+                                <p class="mb-0.3 mb-0.5:xxl leading-trim">Our Vision</p>
                                 <div class="a-place__caption__line">
-                                    <div class="a-place__caption__line-progress js-place-progress-line">
-                                    </div>
+                                    <div class="a-place__caption__line-progress js-place-progress-line"></div>
                                 </div>
                                 <p class="a-place__caption__description text-color-small text-small leading-trim">
                                    To build homes and create lifestyles for the new generation of Indians. To inspire them to dream and feel free enough to live out their dreams!
@@ -147,8 +143,7 @@
                                     Our Mission
                                 </p>
                                 <div class="a-place__caption__line">
-                                    <div class="a-place__caption__line-progress js-place-progress-line">
-                                    </div>
+                                    <div class="a-place__caption__line-progress js-place-progress-line"></div>
                                 </div>
                                 <p class="a-place__caption__description text-color-small text-small leading-trim">
                                    To fulfil the aspirations of families, in line with world-class standards
@@ -176,8 +171,7 @@
                                    Our Culture
                                 </p>
                                 <div class="a-place__caption__line">
-                                    <div class="a-place__caption__line-progress js-place-progress-line">
-                                    </div>
+                                    <div class="a-place__caption__line-progress js-place-progress-line"></div>
                                 </div>
                                 <p class="a-place__caption__description text-color-small text-small leading-trim">
                                    To have a uniform code.To engage in events and join relevant associations.To provide soft skills training.To contribute to art and music.To participate in CSR activities
@@ -206,8 +200,7 @@
                                     <br> Bionic Architecture
                                 </p>
                                 <div class="a-place__caption__line">
-                                    <div class="a-place__caption__line-progress js-place-progress-line">
-                                    </div>
+                                    <div class="a-place__caption__line-progress js-place-progress-line"></div>
                                 </div>
                                 <p class="a-place__caption__description text-color-small text-small leading-trim">
                                     Smooth corners, flowing contours, and cascading transparent balconies harmonize with the natural surroundings.
