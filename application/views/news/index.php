@@ -1449,6 +1449,66 @@
                                                         </div>
                                                     </a>
                                                 </li>
+                                                  <li>
+                                                    <a href="https://fb.com" target="_blank" class="card card--apartment" data-ajax-page-ignore-prefetch>
+                                                        <div class="card__sizer"></div>
+                                                        <div class="card__content">
+                                                          
+                                                            <div class="card__plan">
+                                                                <picture class=" svg-fix" draggable="false">
+                                                                    <img src="uploads/news/newsu_130226240302_96.jpg" alt="" draggable="false">
+                                                                </picture>
+                                                            </div>
+                                                            <div class="card__footer">
+                                                                <div class="group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
+                                                                        <div class="text-g1 text-color leading-trim mb-0.2">
+                                                                            <h3>BST Developers India Pvt. Ltd. Introduces its flagship Project “BST-Green Bhoomi”</h3>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                  <li>
+                                                    <a href="https://fb.com" target="_blank" class="card card--apartment" data-ajax-page-ignore-prefetch>
+                                                        <div class="card__sizer"></div>
+                                                        <div class="card__content">
+                                                          
+                                                            <div class="card__plan">
+                                                                <picture class=" svg-fix" draggable="false">
+                                                                    <img src="uploads/news/newsu_130226240302_96.jpg" alt="" draggable="false">
+                                                                </picture>
+                                                            </div>
+                                                            <div class="card__footer">
+                                                                <div class="group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
+                                                                        <div class="text-g1 text-color leading-trim mb-0.2">
+                                                                            <h3>BST Developers India Pvt. Ltd. Introduces its flagship Project “BST-Green Bhoomi”</h3>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                  <li>
+                                                    <a href="https://fb.com" target="_blank" class="card card--apartment" data-ajax-page-ignore-prefetch>
+                                                        <div class="card__sizer"></div>
+                                                        <div class="card__content">
+                                                          
+                                                            <div class="card__plan">
+                                                                <picture class=" svg-fix" draggable="false">
+                                                                    <img src="uploads/news/newsu_130226240302_96.jpg" alt="" draggable="false">
+                                                                </picture>
+                                                            </div>
+                                                            <div class="card__footer">
+                                                                <div class="group group--nowrap group--bottom group--between pb-layout pb-0.25:md mb-layout mb-0.25:md">
+                                                                        <div class="text-g1 text-color leading-trim mb-0.2">
+                                                                            <h3>BST Developers India Pvt. Ltd. Introduces its flagship Project “BST-Green Bhoomi”</h3>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                <!-- </li>
                                                
                                                 <li>
                                                     <a href="flat/136.html" class="card card--apartment"
@@ -1969,14 +2029,21 @@
                                                             </div>
                                                         </div>
                                                     </a>
-                                                </li>
+                                                </li> -->
                                               
                                             </ul>
                                         </div>
-                                        <div class="col col--xs-4 col--lg-12 text-center mt-0.5:lg pb-1 pb-0:lg px-layout pl-0:lg" data-themed-class="ui-dark">
-                                            <a class="btn btn--outline btn--sm" tabindex="0" role="button">
+                                        <div class="justifyButton2 col col--xs-4 col--lg-12 text-center mt-0.5:lg pb-1 pb-0:lg px-layout pl-0:lg" data-themed-class="ui-dark" >
+                                         <a href="assets/pdf/BrochureBST.pdf"
+                                                class="btn btn--primary btn btn--outline btn--sm"
+                                                download>
+                                                    <i class="fa fa-download"></i>
+                                                    <span>Download Brochure</span>
+                                                </a>   
+                                        <a class="btn btn--outline btn--sm" tabindex="0" role="button">
                                                 <span class="btn__content"><span class="btn__text">show more</span></span>
                                             </a>
+                                           
                                         </div>
                                     </div>
                                 </form>
