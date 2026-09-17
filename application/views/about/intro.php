@@ -39,7 +39,7 @@
                 </noscript>
                 <div class="a-intro__subtitle mt-1  pr-6">
                     <p class="text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
-                        Architecture and Nature Intertwined
+                        Designed for Life Built for Legacy
                     </p>
                 </div>
             </div>
