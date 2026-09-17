@@ -216,7 +216,7 @@
         </div>
         <div class="l-wellness__webgl-caption pt-3">
             <h1 class="h1 col col--md-6 offset--md-1 mb-1 leading-trim" data-reveal="text">FROM THE CMD’S DESK</h1>
-            <p class="col col--md-5 offset--md-1 mb-1 text-justify pt-4 P_cmdmessege" data-reveal="text">I founded BST with a simple dream — to build homes that help people live better, healthier and happier lives. We embrace innovation, technology and AI, but never lose the human touch. I want every BST home to create lasting value and prosperity, and every relationship to become a genuine partnership built on trust. That, to me, is the real measure of our success.</p>
+            <p class="col col--md-5 offset--md-1 mb-1 text-justify P_cmdmessege" data-reveal="text">I founded BST with a simple dream — to build homes that help people live better, healthier and happier lives. We embrace innovation, technology and AI, but never lose the human touch. I want every BST home to create lasting value and prosperity, and every relationship to become a genuine partnership built on trust. That, to me, is the real measure of our success.</p>
             <div class="col col--md-5 offset--md-1 text-right">
                 <p class="h4 leading-trim" data-reveal="text">
                     — Mr. Yoginder Tanwar<br />
