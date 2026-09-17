@@ -1136,7 +1136,6 @@
     top: 0;
     width: 100%;
     z-index: 1;
-    background: #111a237a;
 }
 
 .l-wellness__webgl-circle {
@@ -3226,4 +3225,12 @@
      transform: translate(-50%, -50%); 
      width: 90%; text-align: center; 
      .misionvisionsectimgwrap { position: relative; width: 100%; height: 100%; overflow: hidden; } .misionvisionsectimg { display: block; width: 100%; height: 100%; object-fit: cover; } /* Text on image */ .misionvisionsecttextwrap { position: absolute; left: 0; right: 0; bottom: 0; z-index: 5; padding: 40px; color: #fff; } /* Dark gradient behind text */ .misionvisionsectimgwrap::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 60%; z-index: 2; pointer-events: none; background: linear-gradient( to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0) ); } .misionvisionsecttextwrap { position: absolute; } /* Heading */ .misionvisionsecttexth3 { position: relative; z-index: 5; margin-bottom: 15px; color: #fff; } /* Paragraph */ .misionvisionsecttext { position: relative; z-index: 5; max-width: 650px; margin: 0; color: #fff; line-height: 1.6; } z-index: 2;
+}
+
+.P_cmdmessege {
+    text-align: justify;
+    color: #e0d1b6;
+    font-size: 22px;
+    padding-left: 28px;
+    padding-right: 50px;
 }

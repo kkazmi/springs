@@ -1,7 +1,7 @@
 <div class="a-mouse-slider sticky sticky--full-height sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up ui-light is-hidden--md-down" id="a-mouse-slider" data-plugin="mouseSlider contentAnimation" data-content-animation-animations='{"changeShow": {"name": "text"},"changeHide": {"name": "fadeOut", "duration": "fast"}}' data-content-animation-plugins="controller events height" data-content-animation-fixed-height="true" data-content-animation-link-event="hover" data-content-animation-link-hover-default="3">
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#a-mouse-slider" data-scroll-snap-point='[{ "viewport": -100, "element": 0 }]'>
         <div class="a-mouse-slider__inner pb-0.5 pb-1:xxl">
-            <h2 class="pt-2 pt-3:xxl pb-0.5 px-layout h2 leading-trim text-center"> Philosophy Of BST </h2>
+            <h2 class="pt-2  pb-0.5 px-layout h2 leading-trim text-center"> Philosophy Of BST </h2>
             <div class="pt-0.2 mb-1">
                 <div class="a-mouse-slider__titles content-animation mx-auto h2 text-center">
                     <p class="text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide " data-content-animation-item="0">
