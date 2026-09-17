@@ -3228,9 +3228,9 @@
 }
 
 .P_cmdmessege {
-    text-align: justify;
+    text-align: justify !important;
     color: #e0d1b6;
     font-size: 22px;
-    padding-left: 28px;
-    padding-right: 50px;
+    /* padding-left: 28px;
+    padding-right: 50px; */
 }
