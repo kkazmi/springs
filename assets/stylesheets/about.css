@@ -650,6 +650,9 @@
     .a-place__caption:hover .a-place__caption__card {
         height: calc(var(--scale-px) * 390)
     }
+      .a-place__caption_open .a-place__caption__card {
+        height: calc(var(--scale-px) * 390)
+    }
 
     .a-place__caption__card {
         bottom: 0;
@@ -680,6 +683,12 @@
         min-height: calc(var(--scale-px) * 30);
         padding-bottom: 0
     }
+    .a-place__caption__description_open {
+    margin-top: 35px !important;
+    min-height: calc(var(--scale-px) * 30);
+    padding-bottom: 0;
+    font-size: 19px !important;
+}
 }
 
 @media (min-width:1440px) and (min-height:700px) {
@@ -835,4 +844,14 @@ h2.h2.leading-trim {
 .Philosophy_captionParagraph {
     font-size: 35px;
     letter-spacing: 2.1px;
+}
+
+.xx-large{
+    font-size: xx-large
+}
+.a-place__caption__description_open {
+    margin-top: 35px !important;
+    min-height: calc(var(--scale-px) * 30);
+    padding-bottom: 0;
+    font-size: 19px;
 }

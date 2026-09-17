@@ -67,12 +67,9 @@
                     
             
             
-        <div
-        class="page-content-wrapper "
+        <div  class="page-content-wrapper "
         data-barba="container" data-barba-namespace="page"
-
-        data-plugin="
-  utmSave
+ data-plugin="=utmSave
 
           "
     >

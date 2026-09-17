@@ -93,11 +93,12 @@
             </div>
         </div> -->
     </div>
+   
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#a-place" data-plugin="parallax" data-parallax-pattern="placesSlide">
-        <div class="a-place__caption col col--md-3 offset--md-9">
+        <div class="a-place__caption a-place__caption_open col col--md-3 offset--md-9">
             <div class="a-place__caption__content-animation js-place-content" data-plugin="contentAnimation" data-content-animation-animations='{"changeShow": {"name": "fadeIn"}, "changeHide": {"name": "fadeOut"} }' data-content-aninmation-fixed-height="true" data-content-animation-plugins="controller events">
                 <div class="content-animation">
-                    <div data-content-animation-item="1" class="ui-background ui-dark " aria-hidden="false">
+                    <div data-content-animation-item="1" class="ui-background ui-dark " aria-hidden="true">
                         <div class="a-place__caption__card ui-background">
                             <div class="a-place__caption__card-content">
                                 <span class="btn a-place__btn btn--outline btn--square btn--sm ml-auto">
@@ -113,11 +114,11 @@
                                     </span>
                                 </span>
                                 </span>
-                                <p class="mb-0.3 mb-0.5:xxl leading-trim">Our Vision</p>
+                                <p class="mb-0.3 mb-0.5:xxl leading-trim xx-large">Our Vision</p>
                                 <div class="a-place__caption__line">
                                     <div class="a-place__caption__line-progress js-place-progress-line"></div>
                                 </div>
-                                <p class="a-place__caption__description text-color-small text-small leading-trim">
+                                <p class="a-place__caption__description text-color-small text-small leading-trim a-place__caption__description_open">
                                    To build homes and create lifestyles for the new generation of Indians. To inspire them to dream and feel free enough to live out their dreams!
                                 </p>
                             </div>
@@ -139,13 +140,13 @@
                                     </span>
                                 </span>
                                 </span>
-                                <p class="mb-0.3 mb-0.5:xxl leading-trim">
+                                <p class="mb-0.3 mb-0.5:xxl leading-trim xx-large">
                                     Our Mission
                                 </p>
                                 <div class="a-place__caption__line">
                                     <div class="a-place__caption__line-progress js-place-progress-line"></div>
                                 </div>
-                                <p class="a-place__caption__description text-color-small text-small leading-trim">
+                                <p class="a-place__caption__description text-color-small text-small leading-trim a-place__caption__description_open">
                                    To fulfil the aspirations of families, in line with world-class standards
                                 </p>
                             </div>
@@ -167,13 +168,13 @@
                                     </span>
                                 </span>
                                 </span>
-                                <p class="mb-0.3 mb-0.5:xxl leading-trim">
+                                <p class="mb-0.3 mb-0.5:xxl leading-trim xx-large">
                                    Our Culture
                                 </p>
                                 <div class="a-place__caption__line">
                                     <div class="a-place__caption__line-progress js-place-progress-line"></div>
                                 </div>
-                                <p class="a-place__caption__description text-color-small text-small leading-trim">
+                                <p class="a-place__caption__description text-color-small text-small leading-trim a-place__caption__description_open">
                                    To have a uniform code.To engage in events and join relevant associations.To provide soft skills training.To contribute to art and music.To participate in CSR activities
                                 </p>
                             </div>
