@@ -599,7 +599,7 @@
                         </a>
                     </p>
                 </div>
-                <div data-content-animation-item="2" class="aria-hidden heightfix" aria-hidden="false">
+                <div data-content-animation-item="2" class="heightfix" aria-hidden="false">
                     <h3 class="h3 mtb-2">
                         BST Green Bhoomi<br /><small>Residential</small>
                     </h3>
@@ -657,7 +657,7 @@
                         <li>Community-focused planning</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                      <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
@@ -982,3 +982,81 @@
     </div>
     </div>
 </div>
+<script>
+(function () {
+    function cloneButton(btn) {
+        var $btn = jQuery(btn);
+        if ($btn.data("clone-fixed")) return;
+        $btn.data("clone-fixed", true);
+
+        var $container = $btn;
+        var $text = $container.children(".btn__content").children(".btn__text");
+        var $icon = $container.children(".btn__content").children(".btn__icon");
+
+        if ($text.length && !$text.find('[data-plugin~="button"]').length) {
+            $text.addClass("btn__text--clone");
+            if (!$text.next().hasClass("btn__text--clone")) {
+                $text
+                    .clone()
+                    .attr("aria-hidden", "true")
+                    .attr("data-nosnippet", "")
+                    .insertAfter($text);
+            }
+        }
+
+        if ($icon.length && !$icon.is('[data-plugin~="button"]') && !$icon.find('[data-plugin~="button"]').length) {
+            $icon.addClass("btn__icon--clone");
+            if (!$icon.next().hasClass("btn__icon--clone")) {
+                $icon
+                    .clone()
+                    .attr("aria-hidden", "true")
+                    .attr("data-nosnippet", "")
+                    .insertAfter($icon);
+            }
+        }
+
+        $container.addClass("btn--cloned");
+    }
+
+    function initButtonsInItem($item) {
+        $item.find('.btn--clone[data-button-clone-content="true"]').each(function () {
+            cloneButton(this);
+        });
+    }
+
+    function initVisibleButtons() {
+        jQuery('[data-content-animation-item]').each(function () {
+            var $item = jQuery(this);
+            if (!$item.hasClass("is-hidden")) {
+                initButtonsInItem($item);
+            }
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+            initVisibleButtons();
+        }, 100);
+
+        var observer = new MutationObserver(function (mutations) {
+            mutations.forEach(function (mutation) {
+                if (mutation.type === "attributes" && mutation.attributeName === "class") {
+                    var $item = jQuery(mutation.target);
+                    if (!$item.hasClass("is-hidden") && $item.is("[data-content-animation-item]")) {
+                        initButtonsInItem($item);
+                    }
+                }
+            });
+        });
+
+        jQuery('[data-content-animation-item]').each(function () {
+            observer.observe(this, {
+                attributes: true,
+                attributeFilter: ["class"]
+            });
+        });
+
+        setInterval(initVisibleButtons, 1500);
+    });
+})();
+</script>
