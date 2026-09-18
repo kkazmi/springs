@@ -262,18 +262,24 @@
 </div>
 
 <style>
-    .glass-card {
-  
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+.glass-card {
+  background: rgba(255, 255, 255, 0.10);
+
+ border: 1px solid rgba(36, 81, 63, 0.85);
+backdrop-filter: blur(14px);
+-webkit-backdrop-filter: blur(14px);
+
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 
-    0 8px 32px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 0 14px 7px rgba(255, 255, 255, 0.7);
+
+  /* Green glass border */
+  border: 1px solid rgba(36, 81, 63, 0.65);
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.10),
+    inset 0 1px 0 rgba(36, 81, 63, 0.45),
+    inset 0 -1px 0 rgba(36, 81, 63, 0.15),
+    inset 0 0 14px 7px rgba(36, 81, 63, 0.20);
+
   position: relative;
   overflow: hidden;
   padding: 50px;
@@ -286,10 +292,11 @@
   left: 0;
   right: 0;
   height: 1px;
+
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(255, 255, 255, 0.8),
+    rgba(36, 81, 63, 0.8),
     transparent
   );
 }
@@ -301,11 +308,12 @@
   left: 0;
   width: 1px;
   height: 100%;
+
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.8),
+    rgba(36, 81, 63, 0.8),
     transparent,
-    rgba(255, 255, 255, 0.3)
+    rgba(36, 81, 63, 0.3)
   );
 }
 @media (min-width: 568px) and (max-width: 667px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (max-aspect-ratio: 10 / 11), (min-width: 668px) and (min-height: 416px), (min-width: 980px) {
