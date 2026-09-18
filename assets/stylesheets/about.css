@@ -855,3 +855,14 @@ h2.h2.leading-trim {
     padding-bottom: 0;
     font-size: 19px;
 }
+.a-place__caption__description {
+    margin: 0;
+    padding-left: 25px;
+    list-style-type: disc !important;
+}
+
+.a-place__caption__description li {
+    display: list-item !important;
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
