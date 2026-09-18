@@ -120,7 +120,7 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group widthfix">
+                                        <div class="form-group ">
                                             <label for="address">COMMUNICATION ADDRESS</label>
                                             <input type="text" id="address" name="address" placeholder="Communication Address">
                                         </div>
@@ -132,7 +132,7 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group widthfix">
+                                        <div class="form-group ">
                                             <label for="city">CITY</label>
                                             <input type="text" id="city" name="city" placeholder="City Name">
                                         </div>
@@ -144,7 +144,7 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group widthfix">
+                                        <div class="form-group ">
                                             <label for="state">STATE</label>
                                             <input type="text" id="state" name="state" placeholder="State">
                                         </div>
@@ -156,7 +156,7 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group widthfix">
+                                        <div class="form-group ">
                                             <label for="region">*REGION OF OPERATION</label>
                                             <select id="region" name="region" placeholder="Region of Operation" required>
                                                 <option value="" disabled selected>Select</option>
@@ -170,7 +170,7 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group widthfix">
+                                        <div class="form-group ">
                                             <label for="member-of">MEMBER OF</label>
                                             <select id="member-of" name="member-of" placeholder="Member of">
                                                 <option value="" disabled selected>Select</option>
@@ -186,7 +186,7 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group widthfix">
+                                        <div class="form-group ">
                                             <label>*RERA CERTIFICATE <span style="text-transform: none; font-weight: normal; font-size: small;">(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
                                             <div class="file-upload-wrapper">
                                                 <input type="file" id="rera-file" name="rera-file" accept=".jpg,.jpeg,.png,.pdf" required onchange="document.getElementById('rera-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
@@ -203,7 +203,7 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group widthfix">
+                                        <div class="form-group ">
                                             <label for="firm-name">FIRM NAME</label>
                                             <input type="text" id="firm-name" name="firm-name">
                                         </div>
@@ -217,7 +217,7 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group widthfix">
+                                        <div class="form-group ">
                                             <label for="firm-type">*TYPE OF FIRM</label>
                                             <select id="firm-type" name="firm-type" required>
                                                 <option value="" disabled selected>Select</option>
@@ -318,8 +318,9 @@ backdrop-filter: blur(14px);
 }
 @media (min-width: 568px) and (max-width: 667px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (max-aspect-ratio: 10 / 11), (min-width: 668px) and (min-height: 416px), (min-width: 980px) {
     .col--md-5 {
-        flex: 0 1 37.6666vw;
-        width: 37.6666vw;
+        flex: 0 1 39vw;
+        width: 39vw;
+        padding: 10px;
     }
 }
     </style>
