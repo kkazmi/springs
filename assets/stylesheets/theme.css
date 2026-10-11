@@ -21905,3 +21905,9 @@ p.text-t1.overlayshadow.leading-trim {
 .tlc{
     text-align: center;
 }
+
+a.social-links.text-c2-small.leading-trim.row.row--middle-xs.text-color-small.text-right{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
