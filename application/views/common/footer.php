@@ -36,51 +36,19 @@
             </ol>
          </div> -->
          <!-- End Breadcrumbs -->
-         <div class="row row--between-xs pt-1 footer-relative footer__padding">
-            <a class="btn btn--outline btn--square btn--sm" href="#top"
-               aria-label="Scroll to top of the page">
-               <span class="btn__content">
-                  <span class="btn__icon ">
-                     <svg class="icon icon-arrow-top" width="14" height="16" aria-hidden="true"
-                        viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                        <use href="assets/images/icons.svg#arrow-top"
-                           xlink:href="assets/images/icons.svg#arrow-top"></use>
-                     </svg>
-                  </span>
-               </span>
-            </a>
-         </div>
-         <div class="row row--between-xs">
-            <div class="col col--xs-4 col--md-12 group group--center pt-4 pb-5 py-2:md logosection">
-               <!-- <a href="<?php echo base_url(); ?>" class="footer__logo" aria-label="homepage" data-ajax-page-ignore> -->
-               <a href="#top" class="footer__logo " aria-label="Scroll to top of the page">
+          <div class="footer">
+  <div class="footer-container">
+    <!-- Left Column: Logo, Description, and Social Icons -->
+    <div class="footer-brand">
+      <div class="logo">
+         <a href="#top" class="footer__logo " aria-label="Scroll to top of the page">
                   <img class="img-full " alt="" draggable="false" width="561" height="200" src="assets/images/bst-new-logo.png">
                </a>
-            </div>
-         </div>
-         <div class="row row--between-xs">
-            <div class="col col--xs-4 row row--nowrap row--between-xs footer-relative">
-               <div class="col col--xs-2 col--md-6">
-                  <a class="text-c2-small leading-trim text-color-small" href="<?php echo base_url('privacy'); ?>" target="_blank">legal information</a>
-               </div>
-               <!-- Company name -->
-            </div>
-         </div>
-         <div class="footer__bottom">
-            <p class="text-c2-small leading-trim text-color-small">
-               Visual representations of&nbsp;the&nbsp;property, layout plans, and other materials are
-               for&nbsp;illustration purposes only. All information on&nbsp;this website is provided
-               for&nbsp;general informational use and does not constitute an&nbsp;offer or any form
-               of&nbsp;binding commitment.<br>
-               All materials on&nbsp;this website, including design elements, are the&nbsp;intellectual
-               property of&nbsp;the&nbsp;Organization. Any copying, reproduction, distribution (including
-               reposting to&nbsp;other websites or online resources), or other use of&nbsp;these materials
-               is prohibited without&nbsp;the&nbsp;prior written consent of&nbsp;the&nbsp;rights holder.
-               <br>
-               <br>
-               &copy; <?php echo date('Y'); ?> All rights reserved.1
-            </p>
-            <div class="col col--xs-2 col--md-6 row row--end-xs " style="float: right; margin-right: 30px;">
+      </div>
+      <p class="brand-description">
+        Independent real estate services company operating across India, the Middle East and Singapore. The company delivers integrated solutions to a diversified client base including developers, investors, corporates and the government.
+      </p>
+             <div class="col col--xs-2 col--md-6 row">
   	 				<a class="social-links text-c2-small leading-trim row row--middle-xs text-color-small text-right" target="_blank" href="https://www.facebook.com/bstdevelopers/?locale=hi_IN">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                      <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.019 4.388 11.003 10.125 11.854v-8.385H7.078v-3.469h3.047V9.429c0-3.024 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.973h-1.513c-1.491 0-1.956.931-1.956 1.887v2.265h3.328l-.532 3.469h-2.796v8.385C19.612 23.076 24 18.092 24 12.073Z"/>
@@ -101,8 +69,105 @@
                   </svg>
                </a>
   	 			</div>
+    </div>
+
+    <!-- Services Column -->
+    <div class="footer-col">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Transaction Advisory</a></li>
+        <li><a href="#">Leasing & Investment Advisory</a></li>
+        <li><a href="#">Management Services</a></li>
+        <li><a href="#">Technology Solutions</a></li>
+      </ul>
+    </div>
+
+    <!-- Research Column -->
+    <div class="footer-col">
+      <h3>Research</h3>
+      <ul>
+        <li><a href="#">Research & Advisory Service</a></li>
+        <li><a href="#">Bespoke Research</a></li>
+        <li><a href="#">The Anarock Perspective</a></li>
+        <li><a href="#">Knowledge Centre</a></li>
+      </ul>
+    </div>
+
+    <!-- Media Column -->
+    <div class="footer-col">
+      <h3>Media</h3>
+      <ul>
+        <li><a href="#">Awards</a></li>
+        <li><a href="#">Podcasts & Videos</a></li>
+        <li><a href="#">News Coverage</a></li>
+      </ul>
+    </div>
+
+    <!-- Company Column -->
+    <div class="footer-col">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Leadership Team</a></li>
+        <li><a href="#">Board of Directors</a></li>
+        <li><a href="#">Community Impact</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Offices Column -->
+    <div class="footer-col">
+      <h3>Offices</h3>
+      <ul>
+        <li><a href="#">Mumbai MMR</a></li>
+        <li><a href="#">Ahmedabad</a></li>
+        <li><a href="#">Bengaluru</a></li>
+        <li><a href="#">Chennai</a></li>
+        <li><a href="#">Dubai</a></li>
+        <li><a href="#">Hyderabad</a></li>
+        <li><a class="view-all" href="#">View All</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="">
+            <a class="btn btn--outline btn--square btn--sm" href="#top"
+               aria-label="Scroll to top of the page">
+               <span class="btn__content">
+                  <span class="btn__icon ">
+                     <svg class="icon icon-arrow-top" width="14" height="16" aria-hidden="true"
+                        viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
+                        <use href="assets/images/icons.svg#arrow-top"
+                           xlink:href="assets/images/icons.svg#arrow-top"></use>
+                     </svg>
+                  </span>
+               </span>
+            </a>
+         </div>
+         <div class="footer__bottom">
+            <p class="text-c2-small leading-trim text-color-small">
+               Visual representations of&nbsp;the&nbsp;property, layout plans, and other materials are
+               for&nbsp;illustration purposes only. All information on&nbsp;this website is provided
+               for&nbsp;general informational use and does not constitute an&nbsp;offer or any form
+               of&nbsp;binding commitment.<br>
+               All materials on&nbsp;this website, including design elements, are the&nbsp;intellectual
+               property of&nbsp;the&nbsp;Organization. Any copying, reproduction, distribution (including
+               reposting to&nbsp;other websites or online resources), or other use of&nbsp;these materials
+               is prohibited without&nbsp;the&nbsp;prior written consent of&nbsp;the&nbsp;rights holder.
+               <br>
+               <br>
+               &copy; <?php echo date('Y'); ?> All rights reserved.1
+            </p>
+        <a class="text-c2-small leading-trim text-color-small" href="<?php echo base_url('privacy'); ?>" target="_blank" style="float: right;">legal information</a>
             <br>
-            
+           
+         </div>
+        
+</footer>
+         
+         
+
+ 
              <!-- Sticky Bottom Action Bar -->
             <!-- <div class="sticky-action-bar" id="stickyActionBar">
 
@@ -177,9 +242,6 @@
                </button>
 
             </div> -->
-         </div>
-
-
         
         
          <div class="footer__gradient">
@@ -224,3 +286,150 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
 <!-- End of Chaport Live Chat code -->
 <!-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="eae73e2b-f31f-4cae-a2f4-99d5436a6383";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> -->
 <!--End of Tawk.to Script-->
+<style>
+   .footer {
+  padding: 60px 40px 40px 40px;
+}
+
+.footer-container {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Left Brand Column */
+.footer-brand {
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo-sub {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: #f5e8d180;
+  margin-top: 4px;
+}
+
+.brand-description {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #f5e8d180;
+  margin-bottom: 30px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #f5e8d180;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #cfcc0b;
+}
+
+/* Footer Navigation Columns */
+.footer-col {
+  flex: 1;
+  min-width: 160px;
+}
+
+.footer-col h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Purple vertical line beside column headings */
+/* .footer-col h3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 14px;
+  width: 2px;
+  background-color: #cfcc0b;
+} */
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  color: #f5e8d180;
+  text-decoration: none;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+}
+
+.footer-col ul li a.view-all {
+  text-decoration: underline;
+}
+main {
+    background: #162d24 !important;
+}
+@media screen and (max-width: 1376px) {
+  /* .footer {
+    padding: 40px 24px;
+  }
+
+  .footer-container {
+    gap: 30px;
+    justify-content: space-around;
+  }
+
+  .footer-brand {
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .brand-description {
+    max-width:30%;
+  }
+  .footer-col {
+    min-width: 150px;
+    flex: 1 1 15%;
+  } */
+    .footer-container {
+  max-width: 100%;
+
+}
+.footer-container {
+    max-width: 100%;
+    gap: 1px;
+}
+}
+</style>
