@@ -590,7 +590,7 @@
                         <li>Ideal for Leisure & Business Stays</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true" onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
@@ -624,7 +624,7 @@
                         <li>High appreciation potential</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
@@ -657,7 +657,7 @@
                         <li>Community-focused planning</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                      <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                      <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
@@ -691,7 +691,7 @@
                         <li>Caf'és & Casual Dining</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
@@ -725,7 +725,7 @@
                         <li>Exclusive Community Living</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
@@ -759,7 +759,7 @@
                         <li>Excellent Brand Visibility</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
@@ -793,7 +793,7 @@
                         <li>Dedicated Parking</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
@@ -1059,4 +1059,10 @@
         setInterval(initVisibleButtons, 1500);
     });
 })();
+document.querySelectorAll('a[href*="detail"]').forEach(a => {
+    a.addEventListener('click', function (event) {
+        console.log('Clicked link:', this.href);
+        console.log('Default prevented:', event.defaultPrevented);
+    });
+});
 </script>
