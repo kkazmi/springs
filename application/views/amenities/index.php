@@ -72,7 +72,7 @@
                                  data-parallax-0-0='{"opacity": "1"}' data-parallax--50-0='{"opacity": "0"}'></div>
                            </div>
                            <div class="i-intro__caption overlayshadow p-relative px-layout py-layout">
-                              <h1 class="h0 leading-trim mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text">
+                              <h1 class="h1-sm leading-trim goldenColor mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text" style="color: #dfa015 !important;">
                                  Amenities
                               </h1>
                               <div class="h0 leading-trim mt-0.5 mt-0:lg is-hidden--lg-up pr-2">

@@ -54,7 +54,7 @@
                                             <div class="dim is-hidden--md-down"></div>
                                         </div>
                                         <div class="lo-intro__caption p-relative" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"opacity": "1", "transform": "translateY(0%)"}' data-parallax--50-0='{"opacity": "0", "transform": "translateY(-50%)"}'>
-                                            <h1 class="h1-sm leading-trim mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text">
+                                            <h1 class="h1-sm goldenColor leading-trim mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text">
                                             Location
                                         </h1>
                                             <div class="h0 leading-trim mt-0.5 mt-0:lg is-hidden--lg-up pr-3">

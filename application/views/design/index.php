@@ -79,7 +79,7 @@
                                         </div>
                                         <div class="de-intro__caption p-relative" data-plugin="parallax" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"opacity": "1", "transform": "translateY(0%)"}' data-parallax--20-0='{"opacity": "0", "transform": "translateY(-20%)"}'>
                                             <div class="de-intro__caption-title is-hidden--md-down">
-                                                <h1 class="g1 leading-trim mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text">
+                                                <h1 class="g1 goldenColor leading-trim mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text">
                                                 Design
                                             </h1>
                                             </div>

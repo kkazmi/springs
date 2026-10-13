@@ -25,7 +25,7 @@
                 </noscript>
             </div>
             <div class="a-intro__content p-relative overlayshadow">
-                <h1 class="h1-sm leading-trim is-hidden--md-down" data-reveal="title">
+                <h1 class="h1-sm leading-trim is-hidden--md-down goldenColor" data-reveal="title" >
                 About Us
             </h1>
                 <picture class="is-invisible--js is-hidden--no-js is-hidden--lg-up img-full pr-6" data-plugin="appear " draggable="false">

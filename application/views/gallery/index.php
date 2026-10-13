@@ -78,7 +78,7 @@
             }' data-content-aninmation-fixed-height="true" data-content-animation-plugins="controller events">
                                     <div class="content-animation">
                                         <div data-content-animation-item="0" class=" " aria-hidden="false">
-                                            <h2 class="gallery-desktop-fixed__title-text leading-trim">
+                                            <h2 class="gallery-desktop-fixed__title-text leading-trim goldenColor">
                                                 Architecture
                                             </h2>
                                         </div>

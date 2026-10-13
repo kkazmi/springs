@@ -25,10 +25,10 @@
                 </noscript>
             </div>
             <div class="a-intro__content p-relative overlayshadow">
-                <h1 class="h1-sm leading-trim is-hidden--md-down" data-reveal="title">
+                <h1 class="h1-sm goldenColor leading-trim is-hidden--md-down" data-reveal="title">
                     JOIN BST <b><i>“INNER CIRCLE”</i></b>
                 </h1>
-                <h1 class="h0 leading-trim is-hidden--lg-up" data-reveal="title">
+                <h1 class="h0  leading-trim is-hidden--lg-up" data-reveal="title">
                    Partner Connect
                 </h1>
                 <picture class="is-invisible--js is-hidden--no-js is-hidden--lg-up img-full pr-6" data-plugin="appear " draggable="false">

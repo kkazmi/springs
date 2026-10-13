@@ -25,7 +25,7 @@
                 </noscript>
             </div>
             <div class="a-intro__content p-relative overlayshadow">
-                <h1 class="h1-sm leading-trim is-hidden--md-down" data-reveal="title">Reserve Your Space Online</h1>
+                <h1 class="h1-sm leading-trim is-hidden--md-down goldenColor" data-reveal="title">Reserve Your Space Online</h1>
                
                 <picture class="is-invisible--js is-hidden--no-js is-hidden--lg-up img-full pr-6" data-plugin="appear " draggable="false">
                     <img data-src="assets/images/media/about/1.intro/about-title-en.svg" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2270%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2070%22%3E%3C/svg%3E"
