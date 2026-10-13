@@ -10,6 +10,6 @@ class Detail extends CI_Controller {
     {
         $data = array();
         // echo "ttst"; die;
-        $this->load->view('project/index', $data);
+        $this->load->view('investor/index', $data);
     }
 }

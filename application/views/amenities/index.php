@@ -282,20 +282,20 @@
                            <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
                               data-plugin="appear " draggable="false">
                               <source
-                                 data-srcset="media/cache/infrastructure_video_img_xxxl/uploads/10/250304_gym_v2_no_people_2_1747837189.webp"
+                                 data-srcset="assets/images/media/infrastructure/amphitheatre/xxxl.webp"
                                  srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                  media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                               <source
-                                 data-srcset="media/cache/infrastructure_video_img_xxl/uploads/10/250304_gym_v2_no_people_2_1747837189.webp"
+                                 data-srcset="assets/images/media/infrastructure/amphitheatre/xxl.webp"
                                  srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                  media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                               <source
-                                 data-srcset="media/cache/infrastructure_video_img_md/uploads/10/250304_gym_v2_no_people_2_1747837189.webp"
+                                 data-srcset="assets/images/media/infrastructure/amphitheatre/md.webp"
                                  srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                  media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                  width="1440" height="900">
                               <img
-                                 data-src="media/cache/infrastructure_video_img_xs/uploads/10/250304_gym_v2_no_people_3_1747837188.webp"
+                                 data-src="assets/images/media/infrastructure/amphitheatre/md.webp"
                                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                  alt="" width="1440" height="900" data-plugin="parallax" data-parallax-enable-mq="null"
                                  data-parallax-clamp="true"
@@ -306,17 +306,17 @@
                            <noscript>
                               <picture class=" img-cover parallax-image-move" draggable="false">
                                  <source
-                                    srcset="media/cache/infrastructure_video_img_xxxl/uploads/10/250304_gym_v2_no_people_2_1747837189.webp"
+                                    srcset="assets/images/media/infrastructure/amphitheatre/xxxl.webp"
                                     media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                                  <source
-                                    srcset="media/cache/infrastructure_video_img_xxl/uploads/10/250304_gym_v2_no_people_2_1747837189.webp"
+                                    srcset="assets/images/media/infrastructure/amphitheatre/xxl.webp"
                                     media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                                  <source
-                                    srcset="media/cache/infrastructure_video_img_md/uploads/10/250304_gym_v2_no_people_2_1747837189.webp"
+                                    srcset="assets/images/media/infrastructure/amphitheatre/md.webp"
                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                     width="1440" height="900">
                                  <img
-                                    src="media/cache/infrastructure_video_img_xs/uploads/10/250304_gym_v2_no_people_3_1747837188.webp"
+                                    src="assets/images/media/infrastructure/amphitheatre/md.webp"
                                     alt="" width="1440" height="900" data-plugin="parallax"
                                     data-parallax-enable-mq="null" data-parallax-clamp="true"
                                     data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"

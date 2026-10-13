@@ -71,7 +71,7 @@
                                             <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">
-                                                        ENQUIRE NOW
+                                                        Download Brochure
                                                         <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
                                                             viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
                                                             <use href="assets/images/icons.svg#arrow-right"
@@ -440,7 +440,7 @@
                                         <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                             <span class="btn__content">
                                                 <span class="btn__text btn__text--clone">
-                                                    ENQUIRE NOW
+                                                    DOWNLOAD BROCHURE
                                                     <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
                                                         viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
                                                         <use href="assets/images/icons.svg#arrow-right"
