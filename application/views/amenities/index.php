@@ -71,10 +71,7 @@
                                  data-parallax-measure-selector=".sticky" data-parallax-enable-mq="null"
                                  data-parallax-0-0='{"opacity": "1"}' data-parallax--50-0='{"opacity": "0"}'></div>
                            </div>
-                           <div class="i-intro__caption text-right:lg p-relative px-layout py-layout"
-                              data-themed-class='{"left": "ui-dark", "right": "ui-light", "mobile-left": "ui-dark", "mobile-right": "ui-dark"}'
-                              data-plugin="parallax" data-parallax-enable-mq="null"
-                              data-parallax-pattern="infrastructureIntroCaptionDesktop infrastructureIntroCaptionMobile">
+                           <div class="i-intro__caption overlayshadow p-relative px-layout py-layout">
                               <h1 class="h0 leading-trim mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text">
                                  Amenities
                               </h1>
@@ -92,24 +89,12 @@
                                     </picture>
                                  </noscript>
                               </div>
-                              <div class="text-c1 leading-trim mt-1 mt-0.5:lg" data-reveal="text"
-                                 data-reveal-distance="100px">
-                                 <p>
+                              <div class="a-intro__subtitle mt-1  pr-6">
+                                  <p class="text-a1 leading-trim" data-reveal="title" data-reveal-distance="100px" style="font-size: 24px; ">
                                     Designed for Life Beyond Four Walls
                                  </p>
                               </div>
-                              <a class="btn i-intro__next btn--outline btn--square btn--sm is-hidden--md-down"
-                                 href="#i-next">
-                                 <span class="btn__content">
-                                    <span class="btn__icon ">
-                                       <svg class="icon icon-arrow-down" width="14" height="16" aria-hidden="true"
-                                          viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                                          <use href="assets/images/icons.svg#arrow-down"
-                                             xlink:href="assets/images/icons.svg#arrow-down"></use>
-                                       </svg>
-                                    </span>
-                                 </span>
-                              </a>
+                             
                               <a class="btn i-intro__next btn--outline btn--square btn--sm is-hidden--lg-up"
                                  href="#i-next-mobile">
                                  <span class="btn__content">

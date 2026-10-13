@@ -31,7 +31,6 @@
                     <img data-src="assets/images/media/about/1.intro/about-title-en.svg" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2270%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2070%22%3E%3C/svg%3E"
                     alt="" width="320" height="70" draggable="false">
                 </picture>
-                <noscript>
                     <picture class=" is-hidden--lg-up img-full pr-6" draggable="false">
                         <img src="assets/images/media/about/1.intro/about-title-en.svg" alt="" width="320" height="70" draggable="false">
                     </picture>
