@@ -351,7 +351,7 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
 
 .footer-col {
   flex: 1;
-  min-width: 160px;
+  min-width: 130px;
 }
 
 .footer-col h3 {
