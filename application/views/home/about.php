@@ -1,3 +1,8 @@
+<style>
+    .black{
+        color: #000 !important;
+    }
+</style>
 <div class="sticky sticky--full-height sticky--under-previous sticky--under-next l-intro ui-background is-hidden--md-down" id="about" data-plugin="reveal" data-themed-class="ui-dark">
     <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky
     data-scroll-target="#about">
@@ -10,8 +15,8 @@
                 A Dream That Became a Vision
             </p>
         </div>
-        <div class="col col--md-7 ml-layout">
-            <p class="l-intro__opening-subtitle leading-trim text-color-primary overlayshadow fs24" data-reveal="text" style="color: #fff;">
+        <div class="col col--md-6 ml-layout">
+            <p class="l-intro__opening-subtitle leading-trim text-color-primary fs24 black" data-reveal="text" style="color: #fff;">
                 BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian
                 real estate by creating developments that combine world-class planning, sustainable
                 infrastructure, and lasting value.
