@@ -4,20 +4,20 @@
             <div class="a-intro__background background background--bottom background--cover ">
                 <div class="dim dim--about"></div>
                 <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-parallax-clamp="true" data-parallax-enable-mq="null" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
-                data-plugin="appear  parallax" draggable="false">
+                data-plugin="appear  parallax" draggable="false" style="width: 96% !important;">
                     <source data-srcset="assets/images/media/career/hero@xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                    media="(min-width: 1920px) and (min-height: 700px)" width="1920" height="1180">
                     <source data-srcset="assets/images/media/career/hero@xxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                     <source data-srcset="assets/images/media/career/hero@md.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1920" height="1180">
                     <img data-src="assets/images/media/career/hero@xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
-                    alt="" width="720" height="1280" draggable="false">
+                    alt="" width="1920" height="1180" draggable="false">
                 </picture>
                 <noscript>
                     <picture class=" img-cover parallax-image-move" data-parallax-clamp="true" data-parallax-enable-mq="null" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1)&quot;}" data-plugin=" parallax"
-                    draggable="false">
-                        <source srcset="assets/images/media/career/hero/background%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                    draggable="false" style="width: 96% !important;">
+                        <source srcset="assets/images/media/career/hero/background%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1920" height="1180 ">
                         <source srcset="assets/images/media/career/hero/background%40xxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                         <source srcset="assets/images/media/career/hero/background%40md.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
                         <img src="assets/images/media/career/hero/background-xs%40xs.webp" alt="" width="720" height="1280" draggable="false">
@@ -25,10 +25,10 @@
                 </noscript>
             </div>
             <div class="a-intro__content p-relative overlayshadow">
-                <h1 class="h1-sm leading-trim is-hidden--md-down" data-reveal="title">
+                <h1 class="h1-sm leading-trim goldenColor is-hidden--md-down" data-reveal="title">
                     Careers
                 </h1>
-                <h1 class="h0 leading-trim is-hidden--lg-up" data-reveal="title">
+                <h1 class="h0 leading-trim goldenColor is-hidden--lg-up" data-reveal="title">
                    Partner Connect
                 </h1>
                 <picture class="is-invisible--js is-hidden--no-js is-hidden--lg-up img-full pr-6" data-plugin="appear " draggable="false">
