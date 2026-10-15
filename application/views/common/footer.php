@@ -327,7 +327,7 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
 }
 
 .brand-description {
-  font-size: 13px;
+  font-size: 18px;
   line-height: 1.6;
   color: #f5e8d180;
   margin-bottom: 30px;
@@ -372,7 +372,7 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
 .footer-col ul li a {
   color: #f5e8d180;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 16px;
   text-decoration: none;
   transition: color 0.2s ease;
 }
