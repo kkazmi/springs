@@ -448,3 +448,11 @@
         </div>
     </div>
 </div>
+<script>
+document.querySelectorAll('.js-content-animation-link a').forEach(a => {
+    a.addEventListener('click', function (event) {
+        event.preventDefault();
+        window.location.href = this.href;
+    });
+});
+</script>
