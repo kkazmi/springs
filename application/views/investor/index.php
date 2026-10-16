@@ -229,7 +229,7 @@
                                     <div class="col col--lg-4 col--md-6 col--12">
                                         <div class="project-amenity-card">
                                             <div class="project-media">
-                                                <span>OPEN-AIR GYM IMAGE</span>
+                                            <img src="assets/images/media/infrastructure/openair/md.webp" alt="Open-Air Gym" style="width: 100%; height: auto;"> 
                                             </div>
                                             <div class="project-amenity-title">
                                                 Open-Air Gym
@@ -239,7 +239,7 @@
                                     <div class="col col--lg-4 col--md-6 col--12">
                                         <div class="project-amenity-card">
                                             <div class="project-media">
-                                                <span>PARKS IMAGE</span>
+                                                <img src="assets/images/media/infrastructure/community_park/design-bg@md.webp" alt="Parks" style="width: 100%; height: auto;">
                                             </div>
                                             <div class="project-amenity-title">
                                                 Parks
@@ -249,7 +249,7 @@
                                     <div class="col col--lg-4 col--md-6 col--12">
                                         <div class="project-amenity-card">
                                             <div class="project-media">
-                                                <span>CHILDREN PLAYGROUND IMAGE</span>
+                                                <img src="assets/images/media/infrastructure/childrenpark/md.webp" alt="Children's Play Playground" style="width: 100%; height: auto;">
                                             </div>
                                             <div class="project-amenity-title">
                                                 Children's Play Playground
@@ -259,7 +259,7 @@
                                     <div class="col col--lg-4 col--md-6 col--12">
                                         <div class="project-amenity-card">
                                             <div class="project-media">
-                                                <span>YOGA DECK IMAGE</span>
+                                               <img src="assets/images/media/infrastructure/yogadeck/md.webp" alt="Yoga Deck" style="width: 100%; height: auto;">
                                             </div>
                                             <div class="project-amenity-title">
                                                 Yoga Deck
@@ -269,7 +269,7 @@
                                     <div class="col col--lg-4 col--md-6 col--12">
                                         <div class="project-amenity-card">
                                             <div class="project-media">
-                                                <span>AMPHITHEATRE IMAGE</span>
+                                                <img src="assets/images/media/infrastructure/amphitheatre/md.webp" alt="Amphitheatre" style="width: 100%; height: auto;">
                                             </div>
                                             <div class="project-amenity-title">
                                                 Amphitheatre
@@ -279,7 +279,7 @@
                                     <div class="col col--lg-4 col--md-6 col--12">
                                         <div class="project-amenity-card">
                                             <div class="project-media">
-                                                <span>BASKETBALL COURT IMAGE</span>
+                                                <img src="assets/images/media/infrastructure/basketball/md.webp" alt="Basketball Court" style="width: 100%; height: auto;">
                                             </div>
 
                                             <div class="project-amenity-title">

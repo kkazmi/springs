@@ -257,7 +257,7 @@
                               </p>
                            </div>
                            <div class="mr-4:lg i-video__title pl-layout pl-0:lg h0" data-reveal="text">
-                              <h2 class="h0 leading-trim text-right:lg">
+                              <h2 class="h0 goldenColor overlayshadow  leading-trim text-right:lg">
                                  Community Park
                               </h2>
                            </div>
@@ -314,7 +314,7 @@
                            class="col col--lg-6 ui-dark ui-background i-video__caption px-layout pt-layout pb-1 pb-layout:md ml-layout ml-0:lg"
                            data-plugin="parallax" data-parallax-pattern="videoCaptionMoveUp" data-distance="1">
                            <div class="i-video__caption__title" data-reveal="text">
-                              <h3 class="h3 leading-trim">
+                              <h3 class="h3 goldenColor overlayshadow leading-trim">
                                  Amphitheatre
                               </h3>
                            </div>
@@ -353,7 +353,7 @@
                                  <div class="content-animation">
                                     <div data-content-animation-item="1" class="" aria-hidden="false">
                                        <div class="i-slider__caption__title">
-                                          <h3 class="h3 leading-trim">
+                                          <h3 class="h3 goldenColor overlayshadow leading-trim">
                                              Basketball Court
                                           </h3>
                                        </div>
@@ -365,7 +365,7 @@
                                     </div>
                                     <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
                                        <div class="i-slider__caption__title">
-                                          <h3 class="h3 leading-trim">
+                                          <h3 class="h3 goldenColor overlayshadow  leading-trim">
                                              Pergola
                                           </h3>
                                        </div>
@@ -377,7 +377,7 @@
                                     </div>
                                     <div data-content-animation-item="3" class="is-hidden" aria-hidden="true">
                                        <div class="i-slider__caption__title">
-                                          <h3 class="h3 leading-trim">
+                                          <h3 class="h3 goldenColor overlayshadow leading-trim">
                                              Yoga Deck
                                           </h3>
                                        </div>
@@ -389,7 +389,7 @@
                                     </div>
                                     <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
                                        <div class="i-slider__caption__title">
-                                          <h3 class="h3 leading-trim">
+                                          <h3 class="h3 goldenColor overlayshadow leading-trim">
                                              Children<br>
                                              Park
                                           </h3>
@@ -696,7 +696,7 @@
                               <div class="i-slider__mobile-scrollable__caption-text content-animation col col--md-6">
                                  <div data-content-animation-item="1" class="" aria-hidden="false">
                                     <div class="mb-1.5">
-                                       <p class="h3 leading-trim">
+                                       <p class="h3 goldenColor overlayshadow  leading-trim">
                                           Spacious<br>
                                           Swimming Pool
                                        </p>
@@ -709,7 +709,7 @@
                                  </div>
                                  <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
                                     <div class="mb-1.5">
-                                       <p class="h3 leading-trim">
+                                       <p class="h3 goldenColor overlayshadow  leading-trim">
                                           Fitness Center<br>
                                           with&nbsp;Panoramic Windows
                                        </p>
@@ -721,7 +721,7 @@
                                  </div>
                                  <div data-content-animation-item="3" class="is-hidden" aria-hidden="true">
                                     <div class="mb-1.5">
-                                       <p class="h3 leading-trim">
+                                       <p class="h3 goldenColor overlayshadow  leading-trim">
                                           Beauty Lounge with&nbsp;Massage Parlour
                                        </p>
                                     </div>
@@ -732,7 +732,7 @@
                                  </div>
                                  <div data-content-animation-item="4" class="is-hidden" aria-hidden="true">
                                     <div class="mb-1.5">
-                                       <p class="h3 leading-trim">
+                                       <p class="h3 goldenColor overlayshadow   leading-trim">
                                           Luxurious<br>
                                           Stone Hammam
                                        </p>
@@ -829,7 +829,7 @@
                                  data-parallax--100-0='{"opacity": "1", "transform": "translateY(0vh)"}'
                                  data-parallax--150-0='{"opacity": "0", "transform": "translateY(-30vh)"}'
                                  data-reveal="text">
-                                 <h3 class="h1 leading-trim">
+                                 <h3 class="h1 goldenColor overlayshadowleading-trim">
                                     Open Air Gym
                                  </h3>
                               </div>

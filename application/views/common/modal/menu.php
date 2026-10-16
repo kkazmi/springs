@@ -451,8 +451,18 @@
 <script>
 document.querySelectorAll('.js-content-animation-link a').forEach(a => {
     a.addEventListener('click', function (event) {
+        if (
+            event.ctrlKey ||
+            event.metaKey ||
+            event.shiftKey ||
+            event.button === 1 ||
+            this.target === '_blank'
+        ) {
+            return;
+        }
         event.preventDefault();
         window.location.href = this.href;
+
     });
 });
 </script>

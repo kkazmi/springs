@@ -23,7 +23,7 @@
 
 .project-green-bhoomi .project-eyebrow {
         margin-bottom: calc(var(--spacing) * .2);
-    color: #20610d;
+    color: #e0d1b6;
     font-size: calc(var(--scale-text-rem) * 1.5);
     letter-spacing: .16em;
     text-transform: uppercase;
@@ -168,7 +168,7 @@
 
 .project-green-bhoomi .project-about-content p {
     max-width: calc(var(--container-content-width) * .42);
-    color: #305322;;
+    color: #e0d1b6;;
 }
 
 .project-green-bhoomi .project-feature-panel {
@@ -179,7 +179,7 @@
 .project-green-bhoomi .project-feature-item {
     padding: calc(var(--scale-px) * 18);
     text-align: center;
-    border-right: 1px solid var(--t-line);
+    border-right: 2px solid rgb(141 122 88 / 23%);
 }
 
 .project-green-bhoomi .project-feature-item:last-child {
@@ -296,7 +296,7 @@
 }
 
 .project-green-bhoomi .project-amenity-card .project-media {
-    height: calc(var(--scale-px) * 190);
+    height: calc(var(--scale-px) * 360);
     border: 0;
     border-bottom: 1px solid var(--t-line);
 }
@@ -666,9 +666,9 @@
             transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
         }
 
-        .gallery-card:hover img {
+        /* .gallery-card:hover img {
             transform: scale(1.05);
-        }
+        } */
 
         /* Image overlay label effect */
         .gallery-overlay {
@@ -750,3 +750,28 @@
             transform: translate(-50%, -50%) scale(1.12);
             background: rgba(255, 255, 255, 1);
         }
+
+        .iconbhiwadi{
+    background: #f5ebd6;
+    border-radius: 100%;
+    padding: 10px;
+    width: 80px;
+}
+.tag-line {
+    width: 44px;
+    height: 3px;
+    background: linear-gradient(103deg, #d7ab3e, transparent)
+}
+.tag-text {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: var(--gold-muted);
+}
+.tag-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
