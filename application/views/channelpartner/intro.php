@@ -1,48 +1,46 @@
 <div class="a-intro sticky sticky--full-height sticky--under-next" id="intro" data-plugin="reveal" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }]'>
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#intro">
+        <?php if (!empty($hero)): ?>
         <div class="a-intro__inner px-layout pb-layout">
             <div class="a-intro__background background background--bottom background--cover">
                 <div class="dim dim--about"></div>
                 <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-parallax-clamp="true" data-parallax-enable-mq="null" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                 data-plugin="appear  parallax" draggable="false">
-                    <source data-srcset="assets/images/media/joinbst/hero@xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    <source data-srcset="<?php echo $hero['image_xxxl']; ?>" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                    <source data-srcset="assets/images/media/joinbst/hero@xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    <source data-srcset="<?php echo $hero['image_xxl']; ?>" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                    <source data-srcset="assets/images/media/joinbst/hero@md.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    <source data-srcset="<?php echo $hero['image_md']; ?>" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%2２%２０width=%２２144０％２２%２０height=%２２9００％２２%２０preserveAspectRatio=%２２xMinYMax％２２%２０viewBox=%２２０％２２%２００％２２%２０144０％２２%２０9００％２２%３Ｅ%３Ｃ/svg％３Ｅ"
                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                    <img data-src="assets/images/media/joinbst/hero@xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                    <img data-src="<?php echo $hero['image_md']; ?>" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                     alt="" width="720" height="1280" draggable="false">
                 </picture>
                 <noscript>
                     <picture class=" img-cover parallax-image-move" data-parallax-clamp="true" data-parallax-enable-mq="null" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1)&quot;}" data-plugin=" parallax"
                     draggable="false">
-                        <source srcset="assets/images/media/joinbst/hero@xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                        <source srcset="assets/images/media/joinbst/hero@xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                        <source srcset="assets/images/media/joinbst/hero@md.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                        <img src="assets/images/media/joinbst/hero@xs.webp" alt="" width="720" height="1280" draggable="false">
+                        <source srcset="<?php echo $hero['image_xxxl']; ?>" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                        <source srcset="<?php echo $hero['image_xxl']; ?>" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                        <source srcset="<?php echo $hero['image_md']; ?>" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                        <img src="<?php echo $hero['image_md']; ?>" alt="" width="720" height="1280" draggable="false">
                     </picture>
                 </noscript>
             </div>
             <div class="a-intro__content p-relative overlayshadow">
-                <h1 class="h1-sm goldenColor leading-trim is-hidden--md-down" data-reveal="title">
-                    JOIN BST <b><i>“INNER CIRCLE”</i></b>
-                </h1>
-                <h1 class="h0  leading-trim is-hidden--lg-up" data-reveal="title">
-                   Partner Connect
+                <h1 class="h1-sm leading-trim is-hidden--md-down goldenColor" data-reveal="title" >
+                    <?php echo $hero['title']; ?>
                 </h1>
                 <picture class="is-invisible--js is-hidden--no-js is-hidden--lg-up img-full pr-6" data-plugin="appear " draggable="false">
-                    <img data-src="assets/images/media/about/1.intro/about-title-en.svg" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2270%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2070%22%3E%3C/svg%3E"
+                    <img data-src="<?php echo $hero['image_xs']; ?>" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2270%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2070%22%3E%3C/svg%3E"
                     alt="" width="320" height="70" draggable="false">
                 </picture>
                 <noscript>
                     <picture class=" is-hidden--lg-up img-full pr-6" draggable="false">
-                        <img src="assets/images/media/about/1.intro/about-title-en.svg" alt="" width="320" height="70" draggable="false">
+                        <img src="<?php echo $hero['image_xs']; ?>" alt="" width="320" height="70" draggable="false">
                     </picture>
                 </noscript>
                 <div class="a-intro__subtitle mt-1  pr-6">
-                    <p class="text-a1 leading-trim" data-reveal="title" data-reveal-distance="100px">
-                      Channel Partners
+                    <p class="text-a1 leading-trim" data-reveal="title" data-reveal-distance="100px" style="font-size: 24px; ">
+                        <?php echo $hero['sub_title']; ?>
                     </p>
                 </div>
             </div>
@@ -60,6 +58,7 @@
                 </span>
             </a>
         </div>
+        <?php endif; ?>
     </div>
 </div>
 <!-- <div class="a-about sticky sticky--full-height sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up" data-scroll-snap-point='[{ "viewport": -100, "element": 0 }]'>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 19, 2026 at 04:51 AM
+-- Generation Time: Oct 19, 2026 at 05:33 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -320,6 +320,25 @@ INSERT INTO `interior_images` (`id`, `image`, `thumb`, `alt_text`, `display_orde
 (3, 'uploads/gallery/interiors-slider-1-xxxl.webp', 'uploads/gallery/interiors-thumb-1.webp', 'interiors-slider-1', 1, 1, '2026-08-09 08:05:46', '2026-08-09 09:01:48'),
 (4, 'uploads/gallery/interiors-slider-4-xxxl.webp', 'uploads/gallery/interiors-thumb-4.webp', 'interiors-slider-4', 1, 1, '2026-08-09 08:06:52', '2026-08-09 09:01:51'),
 (5, 'uploads/gallery/interiors-slider-5-xxxl.webp', 'uploads/gallery/interiors-thumb-5.webp', 'interiors-slider-5', 1, 1, '2026-08-09 08:06:52', '2026-08-09 09:01:54');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `job_applications`
+--
+
+CREATE TABLE `job_applications` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `fullname` varchar(150) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `mobile` varchar(20) NOT NULL,
+  `experience` varchar(50) NOT NULL,
+  `company` varchar(150) NOT NULL,
+  `position` varchar(200) NOT NULL,
+  `cv_file` varchar(255) DEFAULT NULL,
+  `sourcing_manager` varchar(100) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -671,7 +690,8 @@ INSERT INTO `sliders` (`id`, `page_name`, `tag_name`, `title`, `sub_title`, `des
 (3, 'HOME', 'HOME_STATISTICS', 'Statistics', 'Essence of Contemplation', 'BST Developers is situated in the prestigious Western District of the capital, surrounded by parks and close to the embankment. It is adjacent to the highway, one of the most ecological areas of the city.', '', '', '', 'uploads/home/statistics/spiral-mobile@xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-18 19:37:39'),
 (4, 'HOME', 'HOME_OUR_PROJECTS', 'Our Projects', 'Creating Destinations That Inspire Living,</br> Business & Growth', 'BST Developers is building a diverse portfolio of developments designed to meet the evolving aspirations of modern India. From premium residential communities to commercial destinations and future hospitality ventures, every project reflects our commitment to quality, innovation, and sustainable growth.', '', '', '', 'uploads/home/our_projects/nature-bg-xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-18 19:37:42'),
 (5, 'ABOUT', 'ABOUT_HERO', 'About Us', 'Designed for Life Built for Legacy', '', 'uploads/about/hero/background@xxxl.webp', 'uploads/about/hero/background@xxl.webp', 'uploads/about/hero/background@md.webp', 'uploads/hero/intro/about-title-en.svg', 1, 1, '2026-08-16 13:04:20', '2026-10-18 20:25:51'),
-(6, 'ABOUT', 'ABOUT_INTRO', 'A Dream That Became a Vision', '', 'BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian real estate by creating developments that combine world-class planning, sustainable infrastructure, and lasting value.\r\n                        <br />\r\n                        <br /> Founded by Mr. Yoginder Tanwar, BST was established with a singular purpose: to make premium lifestyles accessible to India\'s growing middle class without compromising on quality, trust, or affordability.\r\n                        <br />\r\n                        <br /> We believe real estate is more than buying property—it\'s about building communities, creating opportunities, and enabling families to grow. Every BST development is thoughtfully planned with modern\r\n                        amenities, strong connectivity, green spaces, and future-ready infrastructure that delivers both lifestyle and investment potential.\r\n                        <br />\r\n                        <br /> Driven by innovation, transparency, and customer-first values, BST continues to build projects that inspire confidence and contribute towards India\'s evolving urban landscape.', 'uploads/about/intro/image-1@xxxl.webp', 'uploads/about/intro/image-1@xxl.webp', 'uploads/about/intro/image-1@md.webp', 'uploads/about/intro/image-1@xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-18 20:25:51');
+(6, 'ABOUT', 'ABOUT_INTRO', 'A Dream That Became a Vision', '', 'BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian real estate by creating developments that combine world-class planning, sustainable infrastructure, and lasting value.\r\n                        <br />\r\n                        <br /> Founded by Mr. Yoginder Tanwar, BST was established with a singular purpose: to make premium lifestyles accessible to India\'s growing middle class without compromising on quality, trust, or affordability.\r\n                        <br />\r\n                        <br /> We believe real estate is more than buying property—it\'s about building communities, creating opportunities, and enabling families to grow. Every BST development is thoughtfully planned with modern\r\n                        amenities, strong connectivity, green spaces, and future-ready infrastructure that delivers both lifestyle and investment potential.\r\n                        <br />\r\n                        <br /> Driven by innovation, transparency, and customer-first values, BST continues to build projects that inspire confidence and contribute towards India\'s evolving urban landscape.', 'uploads/about/intro/image-1@xxxl.webp', 'uploads/about/intro/image-1@xxl.webp', 'uploads/about/intro/image-1@md.webp', 'uploads/about/intro/image-1@xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-18 20:25:51'),
+(7, 'CHANNEL_PARTNERS', 'CHANNEL_PARTNERS_HERO', 'JOIN BST <b><i>“INNER CIRCLE”</i></b>', 'Channel Partners\r\n\r\n', '', 'uploads/joinbst/hero@xxxl.webp', 'uploads/joinbst/hero@xxl.webp', 'uploads/joinbst/hero@md.webp', 'uploads/joinbst/hero@xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-19 13:30:10');
 
 -- --------------------------------------------------------
 
@@ -939,6 +959,12 @@ ALTER TABLE `interior_images`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `job_applications`
+--
+ALTER TABLE `job_applications`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `menus`
 --
 ALTER TABLE `menus`
@@ -1106,6 +1132,12 @@ ALTER TABLE `interior_images`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
+-- AUTO_INCREMENT for table `job_applications`
+--
+ALTER TABLE `job_applications`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `menus`
 --
 ALTER TABLE `menus`
@@ -1163,7 +1195,7 @@ ALTER TABLE `settings`
 -- AUTO_INCREMENT for table `sliders`
 --
 ALTER TABLE `sliders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `testimonials`
