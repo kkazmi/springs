@@ -214,16 +214,18 @@
                 </noscript>
             </div>
         </div>
+        <?php if (isset($chairmen_msg)): ?>
         <div class="l-wellness__webgl-caption pt-2 ml-2">
-            <h1 class="h1  pt-1 col col--md-7 offset--md-1 mb-1 leading-trim" data-reveal="text" style="color: #d7ab3e !important;">FROM THE CMD’S DESK</h1>
-            <p class="col  col--md-5 offset--md-1 mb-1 text-justify P_cmdmessege" data-reveal="text">I founded BST with a simple dream — to build homes that help people live better, healthier and happier lives. We embrace innovation, technology and AI, but never lose the human touch. I want every BST home to create lasting value and prosperity, and every relationship to become a genuine partnership built on trust. That, to me, is the real measure of our success.</p>
+            <h1 class="h1  pt-1 col col--md-7 offset--md-1 mb-1 leading-trim" data-reveal="text" style="color: #d7ab3e !important;"><?php echo $chairmen_msg['heading']; ?></h1>
+            <p class="col  col--md-5 offset--md-1 mb-1 text-justify P_cmdmessege" data-reveal="text"><?php echo $chairmen_msg['description']; ?></p>
             <div class="col col--md-5 offset--md-1 text-right">
                 <p class="h4 leading-trim" data-reveal="text" style="color: #d7ab3e !important; font-weight: 800;">
-                    — Mr. Yoginder Tanwar<br />
-                    Founder, BST Developers
+                    <?php echo $chairmen_msg['name']; ?><br />
+                    <?php echo $chairmen_msg['position']; ?>
                 </p>
             </div>
         </div>
+        <?php endif; ?>
     </div>
     </div>
 </div>

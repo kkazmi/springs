@@ -3,8 +3,18 @@
         <div class="a-mouse-slider__inner pb-0.5 pb-1:xxl">
             <h2 class="pt-2  pb-0.5 px-layout h2 leading-trim text-center"> Philosophy Of BST </h2>
             <div class="pt-0.2 mb-1">
+                
                 <div class="a-mouse-slider__titles content-animation mx-auto h2 text-center">
-                    <p class="text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide " data-content-animation-item="0">
+                    <?php $i = 0;
+                    foreach ($philosophies as $philosophy): 
+                        $is_hidden = ($i === 0) ? '' : 'is-hidden';
+                    ?>
+                    <p class="text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide <?php echo $is_hidden; ?>" data-content-animation-item="<?php echo $i; ?>">
+                        <?php echo $philosophy['heading']; ?>
+                    </p>
+                    <?php $i++; endforeach; ?>
+                    <!-- 
+                    <p class="text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide <?php echo $is_hidden; ?>" data-content-animation-item="<?php echo $i; ?>">
                         BST aspires to become an Indian unicorn in the next 3–5 years
                     </p>
                     <p class=" text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="1">
@@ -18,31 +28,36 @@
                     </p>
                     <p class="text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="4">
                         Determination is in our DNA
-                    </p>
+                    </p> -->
                 </div>
+                
             </div>
             <div class="a-mouse-slider__list mt-auto">
-                <div class="a-mouse-slider__slide js-slide js-content-animation-link" data-content-animation-id="0">
+                <?php $i = 0;
+                    foreach ($philosophies as $philosophy): 
+                    ?>
+                <div class="a-mouse-slider__slide js-slide js-content-animation-link" data-content-animation-id="<?php echo $i; ?>">
                     <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear " draggable="false">
-                        <source data-srcset="assets/images/media/about/6.mouse-slider/image-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
+                        <source data-srcset="<?php echo base_url($philosophy['image_xxxl']); ?>" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
                         media="(min-width: 1920px) and (min-height: 700px)" width="252" height="336">
-                        <source data-srcset="assets/images/media/about/6.mouse-slider/image-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
+                        <source data-srcset="<?php echo base_url($philosophy['image_xxl']); ?>" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
                         media="(min-width: 1440px) and (min-height: 700px)" width="252" height="336">
-                        <source data-srcset="assets/images/media/about/6.mouse-slider/image-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
+                        <source data-srcset="<?php echo base_url($philosophy['image_md']); ?>" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
                         media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="252" height="336">
-                        <img data-src="assets/images/media/about/6.mouse-slider/image-1%40xxxl.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22120%22%20height=%22160%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20120%20160%22%3E%3C/svg%3E"
+                        <img data-src="<?php echo base_url($philosophy['image_xs']); ?>" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22120%22%20height=%22160%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20120%20160%22%3E%3C/svg%3E"
                         alt="" width="120" height="160" draggable="false">
                     </picture>
                     <noscript>
                         <picture class=" img-full" draggable="false">
-                            <source srcset="assets/images/media/about/6.mouse-slider/image-1%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="252" height="336">
-                            <source srcset="assets/images/media/about/6.mouse-slider/image-1%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="252" height="336">
-                            <source srcset="assets/images/media/about/6.mouse-slider/image-1%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="252" height="336">
-                            <img src="assets/images/media/about/6.mouse-slider/image-1%40xxxl.webp" alt="" width="120" height="160" draggable="false">
+                            <source srcset="<?php echo base_url($philosophy['image_xxxl']); ?>" media="(min-width: 1920px) and (min-height: 700px)" width="252" height="336">
+                            <source srcset="<?php echo base_url($philosophy['image_xxl']); ?>" media="(min-width: 1440px) and (min-height: 700px)" width="252" height="336">
+                            <source srcset="<?php echo base_url($philosophy['image_md']); ?>" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="252" height="336">
+                            <img src="<?php echo base_url($philosophy['image_xs']); ?>" alt="" width="120" height="160" draggable="false">
                         </picture>
                     </noscript>
                 </div>
-                <div class="a-mouse-slider__slide js-slide js-content-animation-link" data-content-animation-id="1">
+                <?php $i++; endforeach; ?>
+                <!-- <div class="a-mouse-slider__slide js-slide js-content-animation-link" data-content-animation-id="1">
                     <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear " draggable="false">
                         <source data-srcset="assets/images/media/about/6.mouse-slider/image-2%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
                         media="(min-width: 1920px) and (min-height: 700px)" width="252" height="336">
@@ -121,7 +136,7 @@
                             <img src="assets/images/media/about/6.mouse-slider/image-5%40xxxl.webp" alt="" width="120" height="160" draggable="false">
                         </picture>
                     </noscript>
-                </div>
+                </div> -->
             </div>
             <div class="a-mouse-slider__progress js-progress is-hidden--hover">
                 <div class="a-mouse-slider__progress-wrapper js-progress-current">
@@ -140,7 +155,15 @@
         </h2>
             <div class="mb-2 pt-0.2 px-layout">
                 <div class="a-mouse-slider__titles content-animation mx-auto  text-center">
-                    <p class="text-c1  leading-trim js-title-slide" data-content-animation-item="0">
+                     <?php $i = 0;
+                    foreach ($philosophies as $philosophy): 
+                        $is_hidden = ($i === 0) ? '' : 'is-hidden';
+                    ?>
+                    <p class="text-c1  leading-trim js-title-slide <?php echo $is_hidden; ?>" data-content-animation-item="<?php echo $i; ?>">
+                        <?php echo $philosophy['heading']; ?>
+                    </p>
+                    <?php $i++; endforeach; ?>
+                    <!-- <p class="text-c1  leading-trim js-title-slide" data-content-animation-item="0">
                         BST aspires to become an Indian unicorn in the next 3–5 years
                     </p>
                     <p class="text-c1 is-hidden leading-trim js-title-slide" data-content-animation-item="1">
@@ -154,7 +177,7 @@
                     </p>
                     <p class="text-c1 is-hidden leading-trim js-title-slide" data-content-animation-item="4">
                         Determination is in our DNA
-                    </p>
+                    </p> -->
                 </div>
             </div>
 
@@ -165,7 +188,32 @@
             </div>
 
             <div class="a-mouse-slider__list-mobile mt-auto mobile-scrollable">
-                <div class="a-mouse-slider__slide-mobile mobile-scrollable__item is-active">
+                <?php $i = 0;
+                    foreach ($philosophies as $philosophy): 
+                        $is_active = ($i === 0) ? '' : 'is-hidden';
+                    ?>
+                <div class="a-mouse-slider__slide-mobile mobile-scrollable__item <?php echo $is_active; ?>">
+                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear " draggable="false">
+                        <source data-srcset="<?php echo base_url($philosophy['image_xxxl']); ?>" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
+                        media="(min-width: 1920px) and (min-height: 700px)" width="252" height="336">
+                        <source data-srcset="<?php echo base_url($philosophy['image_xxl']); ?>" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
+                        media="(min-width: 1440px) and (min-height: 700px)" width="252" height="336">
+                        <source data-srcset="<?php echo base_url($philosophy['image_md']); ?>" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
+                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="252" height="336">
+                        <img data-src="<?php echo base_url($philosophy['image_xs']); ?>" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22120%22%20height=%22160%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20120%20160%22%3E%3C/svg%3E"
+                        alt="" width="120" height="160" draggable="false">
+                    </picture>
+                    <noscript>
+                        <picture class=" img-full" draggable="false">
+                            <source srcset="<?php echo base_url($philosophy['image_xxxl']); ?>" media="(min-width: 1920px) and (min-height: 700px)" width="252" height="336">
+                            <source srcset="<?php echo base_url($philosophy['image_xxl']); ?>" media="(min-width: 1440px) and (min-height: 700px)" width="252" height="336">
+                            <source srcset="<?php echo base_url($philosophy['image_md']); ?>" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="252" height="336">
+                            <img src="<?php echo base_url($philosophy['image_xs']); ?>" alt="" width="120" height="160" draggable="false">
+                        </picture>
+                    </noscript>
+                </div>
+                <?php $i++; endforeach; ?>
+                <!-- <div class="a-mouse-slider__slide-mobile mobile-scrollable__item is-active">
                     <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
                         <source data-srcset="assets/images/media/about/6.mouse-slider/image-1%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20336%22%3E%3C/svg%3E"
                         media="(min-width: 1920px) and (min-height: 700px)" width="252" height="336">
@@ -264,7 +312,7 @@
                             <img src="assets/images/media/about/6.mouse-slider/image-5%40xxxl.webp" alt="" width="120" height="160" draggable="false">
                         </picture>
                     </noscript>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

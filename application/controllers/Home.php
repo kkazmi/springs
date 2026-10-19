@@ -16,10 +16,15 @@ class Home extends CI_Controller {
             'testimonials'=>$this->common_model->getTestimonials(),
             'interior_images'=>$this->common_model->getInteriorImages(),
             'blogs'=>$this->common_model->getBlogs(),
-            'amenities_slider'=>$this->common_model->getAmenitiesSlider(),
+            'amenities_slider'=>$this->common_model->getSliders('HOME_AMENTIES','HOME'),
             'amenities_gallery'=>$this->common_model->getAmenitiesGallery(),
             'project_img_slider'=>$this->common_model->getProjectImgSlider(),
             'project_img_gallery'=>$this->common_model->getProjectImgGallery(),
+            'chairmen_msg'=>$this->common_model->getChairmenMsg(),
+            'statistics' => $this->common_model->getStatistic(),
+            'green_boomi_slider'=>$this->common_model->getSliders('HOME_GREEN_BHOOMI','HOME'),
+            'statistics_slider'=>$this->common_model->getSliders('HOME_STATISTICS','HOME'),
+            'our_projects_slider'=>$this->common_model->getSliders('HOME_OUR_PROJECTS','HOME'),
         );
 
         // print_r($data['project_img_gallery'][0]);

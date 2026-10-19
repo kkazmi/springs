@@ -70,45 +70,44 @@
         <div></div>
         <div></div>
     </div>
+    <?php if(!empty($statistics_slider)): ?>
     <div class="pt-3.5 col col--xs-4 l-place-bg-caption" id="place-mobile">
-    <div class="l-place-webgl__spiral background background--cover">
-        <picture class="is-invisible--js is-hidden--no-js " data-plugin="appear " draggable="false">
-            <img data-src="assets/images/media/landing/4.place/spiral-mobile@xs.webp"
-                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221200%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201200%22%3E%3C/svg%3E"
-                alt="" width="720" height="1200" decoding="async" draggable="false">
-        </picture>
-        <noscript>
-            <picture class=" " draggable="false">
-                <img src="assets/images/media/landing/4.place/spiral-mobile%40xs.webp" alt="" width="720" height="1200" decoding="async" draggable="false">
+        <div class="l-place-webgl__spiral background background--cover">
+            <picture class="is-invisible--js is-hidden--no-js " data-plugin="appear " draggable="false">
+                <img data-src="<?php echo base_url($statistics_slider['image_xs']); ?>"
+                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221200%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201200%22%3E%3C/svg%3E"
+                    alt="" width="720" height="1200" decoding="async" draggable="false">
             </picture>
-        </noscript>
-    </div>
-    <div class="px-layout">
-        <div data-plugin="parallax" data-parallax-enable-mq="md-down" data-parallax-clamp="true"
-            data-parallax-measure-selector=".l-place-bg-caption"
-            data-parallax-0--100='{"transform": "translateY(20vh)"}'
-            data-parallax-0-100='{"transform": "translateY(-6vh)"}'>
-            <h2 class="g1 overlayshadow leading-trim text-right">
-                Statistics
-            </h2>
-            <p class="overlayshadow l-nature-bg-caption__subtitle text-c1 leading-trim text-right mt-1">
-                Essence of Contemplation
-            </p>
+            <noscript>
+                <picture class=" " draggable="false">
+                    <img src="<?php echo base_url($statistics_slider['image_xs']); ?>" alt="" width="720" height="1200" decoding="async" draggable="false">
+                </picture>
+            </noscript>
         </div>
-        <div class="l-nature-bg-caption__text col col--md-6 mt-3" data-plugin="parallax"
-            data-parallax-enable-mq="md-down" data-parallax-clamp="true"
-            data-parallax-measure-selector=".l-place-bg-caption"
-            data-parallax-0--100='{"transform": "translateY(10vh)"}'
-            data-parallax-0-100='{"transform": "translateY(-10vh)"}'>
-            <p class="text-t1 overlayshadow leading-trim">
-                BST Developers is situated in the prestigious Western District
-                of the capital, surrounded by parks and close
-                to the embankment. It is adjacent to the highway, one
-                of the most ecological areas of the City.
-            </p>
+        <div class="px-layout">
+            <div data-plugin="parallax" data-parallax-enable-mq="md-down" data-parallax-clamp="true"
+                data-parallax-measure-selector=".l-place-bg-caption"
+                data-parallax-0--100='{"transform": "translateY(20vh)"}'
+                data-parallax-0-100='{"transform": "translateY(-6vh)"}'>
+                <h2 class="g1 overlayshadow leading-trim text-right">
+                    <?php echo $statistics_slider['title']; ?>
+                </h2>
+                <p class="overlayshadow l-nature-bg-caption__subtitle text-c1 leading-trim text-right mt-1">
+                    <?php echo $statistics_slider['sub_title']; ?>
+                </p>
+            </div>
+            <div class="l-nature-bg-caption__text col col--md-6 mt-3" data-plugin="parallax"
+                data-parallax-enable-mq="md-down" data-parallax-clamp="true"
+                data-parallax-measure-selector=".l-place-bg-caption"
+                data-parallax-0--100='{"transform": "translateY(10vh)"}'
+                data-parallax-0-100='{"transform": "translateY(-10vh)"}'>
+                <p class="text-t1 overlayshadow leading-trim">
+                    <?php echo $statistics_slider['description']; ?>
+                </p>
+            </div>
         </div>
     </div>
-    </div>
+    <?php endif; ?>
 </div>
 <div class="l-place-video-container sticky sticky--under-next sticky--full-height is-hidden--md-down" id="l-place-content">
     <div class="l-place-video pb-2 sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
@@ -118,10 +117,54 @@
         data-parallax-measure-selector=".sticky"
         data-parallax-60-0='{"clip-path": "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)"}'
         data-parallax-0-0='{"clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)"}'>
-        <div class="l-place-video__caption-item">
+        <?php 
+        if(!empty($statistics)):
+            $svg_placeholder = "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E";
+            foreach ($statistics as $statistic): 
+                // Build parallax attributes conditionally
+                $parallax_attrs = '';
+                if (!empty($statistic['p_start'])) {
+                    $p_start = (int) $statistic['p_start'];
+                    $prev_start = $p_start + 100;
+                    $parallax_attrs = 'data-plugin="parallax" ' .
+                                    'data-parallax-enable-mq="md-up" ' .
+                                    'data-parallax-clamp="true" ' .
+                                    'data-parallax-measure-selector=".sticky" ' .
+                                    'data-parallax-' . $prev_start . '-0=\'{"clip-path": "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)"}\' ' .
+                                    'data-parallax-' . $statistic['p_start'] . '-0=\'{"clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)"}\'';
+                }
+        ?>
+            <div class="l-place-video__caption-item" <?= $parallax_attrs ?>>
             <div>
                 <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear" draggable="false">
-                <source data-srcset="assets/images/media/landing/4.place/place-caption-1@xxxl.webp"
+                    <source data-srcset="<?php echo base_url($statistic['image_xxxl'])?>" srcset="<?= $svg_placeholder ?>" media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
+                    <source data-srcset="<?php echo base_url($statistic['image_xxl'])?>" srcset="<?= $svg_placeholder ?>" media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
+                    <source data-srcset="<?php echo base_url($statistic['image_md'])?>" srcset="<?= $svg_placeholder ?>" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="440" height="427">
+                    <img data-src="<?php echo base_url($statistic['image_xs'])?>" src="<?= $svg_placeholder ?>" alt="" width="440" height="427" draggable="false">
+                </picture>
+                <noscript>
+                    <picture class="img-full" draggable="false">
+                        <source srcset="<?php echo base_url($statistic['image_xxxl'])?>" media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
+                        <source srcset="<?php echo base_url($statistic['image_xxl'])?>" media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
+                        <source srcset="<?php echo base_url($statistic['image_md'])?>" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="440" height="427">
+                        <img src="<?php echo base_url($statistic['image_xs'])?>" alt="" width="440" height="427" draggable="false">
+                    </picture>
+                </noscript>
+            </div>
+            <div class="mt-0.3">
+                <p class="h0 leading-trim"><?= html_escape($statistic['count']) ?></p>
+            </div>
+            <div class="mt-0.5">
+                <p class="text-b1 text-right leading-trim"><?= html_escape($statistic['name']) ?></p>
+            </div>
+        </div>
+    <?php endforeach;
+endif; ?>
+
+        <!-- <div class="l-place-video__caption-item">
+            <div>
+                <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear" draggable="false">
+                <source data-srcset="assets/images/media/landing/4.place/place-caption-1@xxl.webp"
                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                     media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
                 <source data-srcset="assets/images/media/landing/4.place/place-caption-1@xxl.webp"
@@ -288,11 +331,37 @@
                 Land Bank
                 </p>
             </div>
+        </div> -->
+    </div>
+    </div>
+</div>
+<?php 
+ if(!empty($statistics)):
+    $i = 1;
+    foreach ($statistics as $statistics): 
+        $sticky_id = 'l-place-sticky-' . $i;
+?>
+<div class="sticky sticky--full-height sticky--under-previous sticky--under-next is-hidden--md-down" id="<?= $sticky_id ?>">
+    <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
+    data-scroll-target="#<?= $sticky_id ?>"
+    data-scroll-snap-point='[{ "viewport": 0, "element": 100 }]'>
+    <div class="background background--cover" data-plugin="parallax"
+        data-parallax-pattern="stickyUnderPreviousNextBackground">
+        <div class="background background--cover">
+            <iframe
+                style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;"
+                width="640" height="360" loading="lazy"
+                src="<?= $statistics['video_link']; ?>"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
     </div>
 </div>
-<div class="sticky sticky--full-height sticky--under-previous sticky--under-next is-hidden--md-down" id="l-place-sticky-1">
+<?php   $i++; 
+        endforeach;
+        endif; 
+?>
+<!-- <div class="sticky sticky--full-height sticky--under-previous sticky--under-next is-hidden--md-down" id="l-place-sticky-1">
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
     data-scroll-target="#l-place-sticky-1"
     data-scroll-snap-point='[{ "viewport": 0, "element": 100 }]'>
@@ -337,28 +406,6 @@
                 src="https://player.vimeo.com/video/1218239890?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-            draggable="false">
-            <source data-srcset="assets/images/media/landing/4.place/place-bg-1@xxxl.webp"
-                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-            <source data-srcset="assets/images/media/landing/4.place/place-bg-1@xxl.webp"
-                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-            <img data-src="assets/images/media/landing/4.place/place-bg-1@md.webp"
-                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                alt="" width="1440" height="900" draggable="false">
-        </picture>
-        <noscript>
-            <picture class=" img-cover" draggable="false">
-                <source srcset="assets/images/media/landing/4.place/place-bg-1@xxxl.webp"
-                media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                <source srcset="assets/images/media/landing/4.place/place-bg-1@xxl.webp"
-                media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                <img src="assets/images/media/landing/4.place/place-bg-1%40md.webp" alt="" width="1440"
-                height="900" draggable="false">
-            </picture>
-        </noscript>
     </div>
     </div>
 </div>
@@ -377,7 +424,7 @@
         </div>
     </div>
     </div>
-</div>
+</div> -->
 <div class=" l-place-description ui-background is-hidden--lg-up">
     <div class="l-place-description__image" data-plugin="parallax" data-parallax-clamp="true"
     data-parallax-enable-mq="md-down" data-parallax-100-0='{"transform": "scale(1.2)"}'
@@ -410,39 +457,39 @@
                     <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
                         draggable="false">
                         <source
-                            data-srcset="assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            data-srcset="uploads/home/statistics/place-caption-1%40xxxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                             media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
                         <source
-                            data-srcset="assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            data-srcset="uploads/home/statistics/place-caption-1%40xxxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                             media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
                         <source
-                            data-srcset="assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            data-srcset="uploads/home/statistics/place-caption-1%40xxxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                             width="440" height="427">
                         <img
-                            data-src="assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                            data-src="uploads/home/statistics/place-caption-1%40xxxl.webp"
                             src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                             alt="" width="440" height="427" draggable="false">
                     </picture>
                     <noscript>
                         <picture class=" img-full" draggable="false">
                             <source
-                                srcset="assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                srcset="uploads/home/statistics/place-caption-1%40xxxl.webp"
                                 media="(min-width: 1920px) and (min-height: 700px)" width="440"
                                 height="427">
                             <source
-                                srcset="assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                srcset="uploads/home/statistics/place-caption-1%40xxxl.webp"
                                 media="(min-width: 1440px) and (min-height: 700px)" width="440"
                                 height="427">
                             <source
-                                srcset="assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                srcset="uploads/home/statistics/place-caption-1%40xxxl.webp"
                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                 width="440" height="427">
                             <img
-                                src="assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                src="uploads/home/statistics/place-caption-1%40xxxl.webp"
                                 alt="" width="440" height="427" draggable="false">
                         </picture>
                     </noscript>

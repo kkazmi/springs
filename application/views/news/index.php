@@ -42,22 +42,22 @@
                 <div class="dim dim--about"></div>
                 <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-parallax-clamp="true" data-parallax-enable-mq="null" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                 data-plugin="appear  parallax" draggable="false">
-                    <source data-srcset="assets/images/media/about/1.intro/background%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    <source data-srcset="assets/images/media/news/hero@xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                    <source data-srcset="assets/images/media/about/1.intro/background%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    <source data-srcset="assets/images/media/news/hero@xxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                    <source data-srcset="assets/images/media/about/1.intro/background%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    <source data-srcset="assets/images/media/news/hero@md.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                    <img data-src="assets/images/media/about/1.intro/background-xs%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                    <img data-src="assets/images/media/news/hero@md.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                     alt="" width="720" height="1280" draggable="false">
                 </picture>
                 <noscript>
                     <picture class=" img-cover parallax-image-move" data-parallax-clamp="true" data-parallax-enable-mq="null" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1)&quot;}" data-plugin=" parallax"
                     draggable="false">
-                        <source srcset="assets/images/media/about/1.intro/background%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                        <source srcset="assets/images/media/about/1.intro/background%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                        <source srcset="assets/images/media/about/1.intro/background%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                        <img src="assets/images/media/about/1.intro/background-xs%40xs.webp" alt="" width="720" height="1280" draggable="false">
+                        <source srcset="assets/images/media/news/hero@xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                        <source srcset="assets/images/media/news/hero@xxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                        <source srcset="assets/images/media/news/hero@md.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                        <img src="assets/images/media/news/hero@md.webp" alt="" width="720" height="1280" draggable="false">
                     </picture>
                 </noscript>
             </div>

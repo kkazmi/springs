@@ -2,6 +2,7 @@
     <div class="l-place-anchor" id="place"></div>
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#nature">
     <div class="l-nature-bg" data-scroll-snap-point='[    { "viewport": 0, "element": 100 }]'>
+        <?php if (!empty($our_projects_slider)): ?>
         <div class="l-nature-bg-item background" data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax--220-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}' data-parallax--320-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"}'>
             <div class="background background--cover">
                 <div data-plugin="webglNature parallax" data-parallax-pattern="webglNature">
@@ -14,26 +15,22 @@
                 </div>
             </div>
             <div class="col col--md-12 l-nature-bg-caption pt-6:md pt-4:xxxl pl-layout" data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax--0-0='{"opacity": "1", "transform": "translateY(20%)"}' data-parallax--100-0='{"opacity": "1", "transform": "translateY(0%)"}' data-parallax--150-0='{"opacity": "0", "transform": "translateY(-20%)"}'>
-                <h1 class="h1 overlayshadow  leading-trim" data-reveal="title">OUR PROJECTS</h1>
+                <h1 class="h1 overlayshadow  leading-trim" data-reveal="title"><?php echo $our_projects_slider['title']; ?></h1>
                 <div class="mt-1">
                 <p class="fs20 overlayshadow l-nature-bg-caption__subtitle text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
-                    Creating Destinations That Inspire Living,<br> Business & Growth
+                    <?php echo $our_projects_slider['sub_title']; ?>
                 </p>
                 </div>
                 <div class="l-nature-bg-caption__text mr-0 ml-auto col col--md-4 mt-3">
                 <p class="text-t1 overlayshadow ls2 leading-trim" data-reveal="text">
-                    BST Developers is building a diverse portfolio of developments designed to meet
-                    the evolving aspirations of modern India. From premium residential communities to
-                    commercial destinations and future hospitality ventures, every project reflects
-                    our commitment to quality, innovation, and sustainable growth.
+                    <?php echo $our_projects_slider['description']; ?>
                 </p>
                 </div>
             </div>
             <div class="l-nature-bg-gradient flicker-fix"></div>
         </div>
         <div class="l-nature-bg-item background">
-            <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                draggable="false">
+            <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear" draggable="false">
                 <source data-srcset="assets/images/media/landing/3.nature/nature-caption@xxxl.webp"
                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22450%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20450%22%3E%3C/svg%3E"
                 media="(min-width: 1920px) and (min-height: 700px)" width="720" height="450">
@@ -62,6 +59,7 @@
                 </picture>
             </noscript>
         </div>
+        <?php endif; ?>
         <div class="l-nature-bg-item background" data-plugin="parallax"
             data-parallax-enable-mq="md-up" data-parallax-clamp="true"
             data-parallax-measure-selector=".sticky"
@@ -133,27 +131,27 @@
                     <div class="l-place-webgl__spiral background">
                         <picture class="is-invisible--js is-hidden--no-js " data-plugin="appear "
                             draggable="false">
-                            <source data-srcset="assets/images/media/landing/4.place/t12@xxxl.webp"
+                            <source data-srcset="uploads/home/statistics/t12@xxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%222334%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%202334%22%3E%3C/svg%3E"
                             media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                             height="2334">
-                            <source data-srcset="assets/images/media/landing/4.place/t12@xxl.webp"
+                            <source data-srcset="uploads/home/statistics/t12@xxl.webp"
                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%222334%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%202334%22%3E%3C/svg%3E"
                             media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                             height="2334">
-                            <img data-src="assets/images/media/landing/4.place/t12@md.webp"
-                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%222334%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%202334%22%3E%3C/svg%3E"
+                            <img data-src="uploads/home/statistics/t12@md.webp"
+                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%2２%２０width=%２２1440%２２%２０height=%２２2334%２２%２０preserveAspectRatio=%２２xMinYMax%２０meet%２２%２０viewBox=%２２0%２０0%２０1440%２０2334%２２%３E%３C/svg%３E"
                             alt="" width="1440" height="2334" draggable="false">
                         </picture>
                         <noscript>
                             <picture class=" " draggable="false">
-                            <source srcset="assets/images/media/landing/4.place/t12@xxxl.webp"
+                            <source srcset="uploads/home/statistics/t12@xxl.webp"
                                 media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                 height="2334">
-                            <source srcset="assets/images/media/landing/4.place/t12@xxl.webp"
+                            <source srcset="uploads/home/statistics/t12@xxl.webp"
                                 media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                 height="2334">
-                            <img src="assets/images/media/landing/4.place/t12%40md.webp" alt=""
+                            <img src="uploads/home/statistics/t12@md.webp" alt=""
                                 width="1440" height="2334" draggable="false">
                             </picture>
                         </noscript>
@@ -669,7 +667,7 @@
 
                 <div data-content-animation-item="4" class="is-hidden heightfix" aria-hidden="true">
                     <h3 class="h3 mtb-2">
-                        Entertainment Center<br /><small>Entertainment Center</small>
+                        Entertainment Center<br /><small>Recreational</small>
                     </h3>
                     <p class="text-t1 leading-trim mb-1">
                         <b>Status:</b> Upcoming
@@ -810,8 +808,7 @@
                         <span class="btn__icon ">
                             <svg class="icon icon-arrow-left" width="17" height="16" aria-hidden="true"
                             viewBox="0 0 17 16" style="--icon-width: 17; --icon-height: 16;">
-                            <use href="assets/images/icons.svg#arrow-left"
-                                xlink:href="assets/images/icons.svg#arrow-left">
+                            <use href="assets/images/icons.svg#arrow-left" xlink:href="assets/images/icons.svg#arrow-left">
                             </use>
                             </svg>
                         </span>
@@ -824,8 +821,7 @@
                             <svg class="icon icon-arrow-right" width="17" height="16"
                             aria-hidden="true" viewBox="0 0 17 16"
                             style="--icon-width: 17; --icon-height: 16;">
-                            <use href="assets/images/icons.svg#arrow-right"
-                                xlink:href="assets/images/icons.svg#arrow-right">
+                            <use href="assets/images/icons.svg#arrow-right" xlink:href="assets/images/icons.svg#arrow-right">
                             </use>
                             </svg>
                         </span>
@@ -840,29 +836,28 @@
         { "viewport": 0, "element": 0 },
         { "viewport": 0, "element": 60 }
         ]'>
-    <div class="l-place-webgl">
-        <div class="l-place-webgl-caption pt-6:md pt-4:xxxl px-layout">
-            <h2 class="text-right overlayshadow g1 leading-trim" data-reveal="title">
-                Statistics
-            </h2>
-            <div class="mt-1">
-                <p class="l-place-webgl-caption__subtitle overlayshadow fs24 ls2 text-b1 text-right leading-trim"
-                data-reveal="text" data-reveal-distance="100px">
-                Essence of Contemplation
-                </p>
+    <?php if(!empty($statistics_slider)): ?>
+        <div class="l-place-webgl">
+            <div class="l-place-webgl-caption pt-6:md pt-4:xxxl px-layout">
+                <h2 class="text-right overlayshadow g1 leading-trim" data-reveal="title">
+                    <?php echo $statistics_slider['title']; ?>
+                </h2>
+                <div class="mt-1">
+                    <p class="l-place-webgl-caption__subtitle overlayshadow fs24 ls2 text-b1 text-right leading-trim"
+                    data-reveal="text" data-reveal-distance="100px">
+                    <?php echo $statistics_slider['sub_title']; ?>
+                    </p>
+                </div>
+            </div>
+            <div class="px-layout">
+                <div class="l-place-webgl__text mt-3 col col--md-4">
+                    <p class="overlayshadow text-t1 leading-trim" data-reveal="text">
+                    <?php echo $statistics_slider['description']; ?>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="px-layout">
-            <div class="l-place-webgl__text mt-3 col col--md-4">
-                <p class="overlayshadow text-t1 leading-trim" data-reveal="text">
-                BST Developers is situated in the prestigious Western District
-                of the capital, surrounded by parks and close
-                to the embankment. It is adjacent to the highway, one
-                of the most ecological areas of the City.
-                </p>
-            </div>
-        </div>
-    </div>
+    <?php endif; ?>
     <div class="l-place-description pr-layout pb-layout" data-plugin="parallax"
         data-parallax-enable-mq="md-up" data-parallax-clamp="true"
         data-parallax--700-0='{"transform": "translateY(0%)"}'
@@ -880,59 +875,59 @@
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
     data-scroll-target="#nature-mobile">
     <div class="l-nature-bg">
-        <div class="l-nature-bg-item--webgl l-nature-bg-item" data-plugin="parallax"
-            data-parallax-clamp="true" data-parallax-enable-mq="md-down"
-            data-parallax-measure-selector=".sticky"
-            data-parallax--220-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}'
-            data-parallax--320-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"}'>
-            <div class="background background--cover" data-plugin="parallax"
-                data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
-                data-parallax-enable-mq="md-down" data-parallax-0-0='{"transform": "scale(1.2)"}'
-                data-parallax--370-0='{"transform": "scale(1.0)"}'>
-                <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
-                draggable="false">
-                <img data-src="assets/images/media/landing/3.nature/nature-bg-xs.webp"
-                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22640%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20640%22%3E%3C/svg%3E"
-                    alt="" width="360" height="640" decoding="async" draggable="false">
-                </picture>
-                <noscript>
-                <picture class=" img-full" draggable="false">
-                    <img src="assets/images/media/landing/3.nature/nature-bg-xs.webp" alt=""
-                        width="360" height="640" decoding="async" draggable="false">
-                </picture>
-                </noscript>
-            </div>
-            <div class="col col--xs-4 l-nature-bg-caption px-layout pb-4" data-plugin="parallax"
+        <?php if(!empty($our_projects_slider)): ?>
+            <div class="l-nature-bg-item--webgl l-nature-bg-item" data-plugin="parallax"
                 data-parallax-clamp="true" data-parallax-enable-mq="md-down"
                 data-parallax-measure-selector=".sticky"
-                data-parallax--100-0='{"opacity": "1", "transform": "translateY(0vh)"}'
-                data-parallax--150-0='{"opacity": "0", "transform": "translateY(-50vh)"}'>
-                <h2 class="g1 overlayshadow leading-trim text-right">
-                Our Projects
-                </h2>
-                <div class="mt-1">
-                <p class="l-nature-bg-caption__subtitle overlayshadow text-a1 leading-trim text-right">
-                    Creating Destinations That Inspire Living, Business & Growth
-                </p>
+                data-parallax--220-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}'
+                data-parallax--320-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"}'>
+                <div class="background background--cover" data-plugin="parallax"
+                    data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
+                    data-parallax-enable-mq="md-down" data-parallax-0-0='{"transform": "scale(1.2)"}'
+                    data-parallax--370-0='{"transform": "scale(1.0)"}'>
+                    <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
+                    draggable="false">
+                    <img data-src="<?= base_url($our_projects_slider['image_xs']); ?>"
+                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22640%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20640%22%3E%3C/svg%3E"
+                        alt="" width="360" height="640" decoding="async" draggable="false">
+                    </picture>
+                    <noscript>
+                    <picture class=" img-full" draggable="false">
+                        <img src="<?= base_url($our_projects_slider['image_xs']); ?>" alt=""
+                            width="360" height="640" decoding="async" draggable="false">
+                    </picture>
+                    </noscript>
                 </div>
-                <div class="l-nature-bg-caption__text col col--md-6 mt-3">
-                <p class="text-t1 leading-trim">
-                    
-                    <?php
-                       $text = "BST Developers is building a diverse portfolio of developments designed to meet
-                            the evolving aspirations of modern India. From premium residential communities to
-                            commercial destinations and future hospitality ventures, every project reflects
-                            our commitment to quality, innovation, and sustainable growth.";
-                       echo truncateText($text);
-                       ?>
-                </p>
-                </div>
+                
+                    <div class="col col--xs-4 l-nature-bg-caption px-layout pb-4" data-plugin="parallax"
+                        data-parallax-clamp="true" data-parallax-enable-mq="md-down"
+                        data-parallax-measure-selector=".sticky"
+                        data-parallax--100-0='{"opacity": "1", "transform": "translateY(0vh)"}'
+                        data-parallax--150-0='{"opacity": "0", "transform": "translateY(-50vh)"}'>
+                        <h2 class="g1 overlayshadow leading-trim text-right">
+                            <?php echo $our_projects_slider['title']; ?>
+                        </h2>
+                        <div class="mt-1">
+                        <p class="l-nature-bg-caption__subtitle overlayshadow text-a1 leading-trim text-right">
+                            <?php echo $our_projects_slider['sub_title']; ?>
+                        </p>
+                        </div>
+                        <div class="l-nature-bg-caption__text col col--md-6 mt-3">
+                        <p class="text-t1 leading-trim">
+                            <?php
+                                $text = $our_projects_slider['description'];
+                                echo truncateText($text);
+                            ?>
+                        </p>
+                        </div>
+                    </div>
+                
+                <div class="l-nature-bg-gradient" data-plugin="parallax" data-parallax-clamp="true"
+                    data-parallax-enable-mq="md-down" data-parallax-measure-selector=".sticky"
+                    data-parallax--150-0='{"transform": "translateY(0vh)"}'
+                    data-parallax--320-0='{"transform": "translateY(-68vh)"}'></div>
             </div>
-            <div class="l-nature-bg-gradient" data-plugin="parallax" data-parallax-clamp="true"
-                data-parallax-enable-mq="md-down" data-parallax-measure-selector=".sticky"
-                data-parallax--150-0='{"transform": "translateY(0vh)"}'
-                data-parallax--320-0='{"transform": "translateY(-68vh)"}'></div>
-        </div>
+        <?php endif; ?>
         <div class="l-nature-bg-item background" data-plugin="parallax" data-parallax-clamp="true"
             data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down"
             data-parallax--220-0='{"transform": "scale(1.2)"}'

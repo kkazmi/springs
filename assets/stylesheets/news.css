@@ -192,7 +192,7 @@
 
 .card-container {
     height: 450px;
-      background-color: #ffdb81 ;
+      background-color: var(--c-beige-background);
       border-radius: 4px;
       padding: 30px;
       display: flex;

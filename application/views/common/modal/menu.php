@@ -142,7 +142,23 @@
                                 <a href="<?php echo base_url('detail'); ?>" class="leading-trim">Residences</a>
                             </li> -->
 
-                            <li class="js-content-animation-link " data-content-animation-id="6">
+                            <?php
+                                $CI =& get_instance();
+                                $CI->load->model('common_model');
+			                    $setting= $CI->common_model->get_menus();
+                                $i=1;
+                                foreach($setting as $menu)
+                                {
+                                    echo '<li class="js-content-animation-link " data-content-animation-id="'.$i.'">
+                                            <a href="'.base_url($menu['link']).'" class="leading-trim">
+                                                '.$menu['name'].'
+                                            </a>
+                                        </li>';
+                                    $i++;
+                                }
+                            ?>
+
+                            <!-- <li class="js-content-animation-link " data-content-animation-id="6">
                                 <a href="<?php echo base_url('about'); ?>" class="leading-trim">
                                     About Us
                                 </a>
@@ -177,18 +193,16 @@
                                    Reserve Your Space Online
                                 </a>
                             </li>
-
                             <li class="js-content-animation-link " data-content-animation-id="3">
                                 <a href="<?php echo base_url('location'); ?>" class="leading-trim">
                                     Location
                                 </a>
                             </li>
-
                             <li class="js-content-animation-link " data-content-animation-id="3">
                                 <a href="<?php echo base_url('career'); ?>" class="leading-trim">
                                     Careers
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                         <div class="menu__list__sublist mt-3 mt-1:sm">
                             <ul class="">
@@ -197,8 +211,49 @@
                         </div>
                         <div class="menu__images col col--md-6 is-hidden--sm-down">
                         <div class="content-animation">
-                            <div data-content-animation-item="1" class=" parallax-image-move"
-                                aria-hidden="false">
+                            <?php
+                                $i=1;
+                                foreach($setting as $menu)
+                                {  
+                                    $aria_hidden = true;
+                                    if($i==1){
+                                        $aria_hidden = false;
+                                    }
+                                    ?>
+                                    <div data-content-animation-item="<?php echo $i; ?>" class=" parallax-image-move" <?php echo $aria_hidden; ?>>
+                                        <picture
+                                            class="is-invisible--js is-hidden--no-js background background--cover"
+                                            data-plugin="appear " draggable="false">
+                                            <source data-srcset="<?php echo $menu['image_xxxl']; ?>"
+                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                            media="(min-width: 1920px) and (min-height: 700px)" width="720"
+                                            height="900">
+                                            <source data-srcset="<?php echo $menu['image_xxl']; ?>"
+                                            srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%2２%２０width=%２２7２０％２０height=%２２9００％２０preserveAspectRatio=%２２xMinYMax％２０meet％２０viewBox=%２２0％２０0％２０7２０％２０9００％２２%３E%３C/svg%３E"
+                                            media="(min-width: 1440px) and (min-height: 700px)" width="720"
+                                            height="900">
+                                            <img data-src="<?php echo $menu['image_md']; ?>"
+                                            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                            alt="" width="720" height="900" draggable="false">
+                                        </picture>
+                                        <noscript>
+                                            <picture class=" background background--cover" draggable="false">
+                                            <source srcset="<?php echo $menu['image_xxxl']; ?>"
+                                                media="(min-width: 1920px) and (min-height: 700px)" width="720"
+                                                height="900">
+                                            <source srcset="<?php echo $menu['image_xxl']; ?>"
+                                                media="(min-width: 1440px) and (min-height: 700px)" width="720"
+                                                height="900">
+                                            <img src="<?php echo $menu['image_md']; ?>" alt="" width="720"
+                                                height="900" draggable="false">
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                 <?php   $i++;
+                                }
+                            ?>
+
+                            <!-- <div data-content-animation-item="1" class=" parallax-image-move" aria-hidden="false">
                                 <picture
                                     class="is-invisible--js is-hidden--no-js background background--cover"
                                     data-plugin="appear " draggable="false">
@@ -352,27 +407,27 @@
                                 <picture
                                     class="is-invisible--js is-hidden--no-js background background--cover"
                                     data-plugin="appear " draggable="false">
-                                    <source data-srcset="assets/images/media/menu/menu-6@xxxl.webp"
+                                    <source data-srcset="uploads/menu/menu-6@xxxl.webp"
                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                     media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                     height="900">
-                                    <source data-srcset="assets/images/media/menu/menu-6@xxl.webp"
+                                    <source data-srcset="uploads/menu/menu-6@xxl.webp"
                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                     media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                     height="900">
-                                    <img data-src="assets/images/media/menu/menu-6@md.webp"
+                                    <img data-src="uploads/menu/menu-6@md.webp"
                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                     alt="" width="720" height="900" draggable="false">
                                 </picture>
                                 <noscript>
                                     <picture class=" background background--cover" draggable="false">
-                                    <source srcset="assets/images/media/menu/menu-6@xxxl.webp"
+                                    <source srcset="uploads/menu/menu-6@xxxl.webp"
                                         media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                         height="900">
-                                    <source srcset="assets/images/media/menu/menu-6@xxl.webp"
+                                    <source srcset="uploads/menu/menu-6@xxl.webp"
                                         media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                         height="900">
-                                    <img src="assets/images/media/menu/menu-6%40md.webp" alt="" width="720"
+                                    <img src="uploads/menu/menu-6%40md.webp" alt="" width="720"
                                         height="900" draggable="false">
                                     </picture>
                                 </noscript>
@@ -405,7 +460,7 @@
                                         height="900" draggable="false">
                                     </picture>
                                 </noscript>
-                            </div>
+                            </div> -->
                         </div>
                         </div>
                         <div class="menu__bg background background--cover is-hidden--md-up">

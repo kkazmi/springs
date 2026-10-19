@@ -1,58 +1,62 @@
 <div class="l-interiors sticky sticky--full-height sticky--under-previous is-hidden--md-down" id="interiors" data-plugin="reveal">
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky
     data-scroll-target="#interiors">
-    <div class="l-interiors__intro" data-scroll-snap-point='[{ "viewport": 0, "element": 100 }]'>
-        <div data-themed-class="ui-dark"></div>
-        <div class=" background background--cover">
-            <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
-                data-parallax-measure-selector=".sticky" data-parallax-clamp="true"
-                data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                data-parallax--250-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                data-plugin="appear  parallax" draggable="false">
-                <source data-srcset="assets/images/media/landing/8.interiors/interiors-bg@xxxl.webp"
-                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                <source data-srcset="assets/images/media/landing/8.interiors/interiors-bg@xxl.webp"
-                srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                <img data-src="assets/images/media/landing/8.interiors/interiors-bg@md.webp"
-                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                alt="" width="1440" height="900" draggable="false">
-            </picture>
-            <noscript>
-                <picture class=" img-cover parallax-image-move"
-                data-parallax-measure-selector=".sticky" data-parallax-clamp="true"
-                data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
-                data-parallax--250-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                data-plugin=" parallax" draggable="false">
-                <source srcset="assets/images/media/landing/8.interiors/interiors-bg@xxxl.webp"
+    <?php if (!empty($green_boomi_slider)): ?>
+        <div class="l-interiors__intro" data-scroll-snap-point='[{ "viewport": 0, "element": 100 }]'>
+            <div data-themed-class="ui-dark"></div>
+            <div class=" background background--cover">
+                <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
+                    data-parallax-measure-selector=".sticky" data-parallax-clamp="true"
+                    data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
+                    data-parallax--250-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                    data-plugin="appear  parallax" draggable="false">
+                    <source data-srcset="<?php echo base_url($green_boomi_slider['image_xxxl']); ?>"
+                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                <source srcset="assets/images/media/landing/8.interiors/interiors-bg@xxl.webp"
+                    <source data-srcset="<?php echo base_url($green_boomi_slider['image_xxl']); ?>"
+                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                     media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                <img src="assets/images/media/landing/8.interiors/interiors-bg%40md.webp" alt=""
-                    width="1440" height="900" draggable="false">
+                    <img data-src="<?php echo base_url($green_boomi_slider['image_md']); ?>"
+                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2２1440%２　height=%２900%２　preserveAspectRatio=%２xMinYMax%２　viewBox=%２0%２　0%２　1440%２　900%２　%3E%3C/svg%3E"
+                    alt="" width="1440" height="900" draggable="false">
                 </picture>
-            </noscript>
-        </div>
-        <div class="px-layout l-interiors__intro-caption">
-            <h2 class="text-right overlayshadow g1 leading-trim" data-reveal="title">
-                Green Bhoomi
-            </h2>
-            <div class="mt-1">
-                <p class="text-a1 overlayshadow text-right leading-trim" data-reveal="title"
-                data-reveal-distance="100px">
-                Crafted for Timeless Living
-                </p>
+                <noscript>
+                    <picture class=" img-cover parallax-image-move"
+                    data-parallax-measure-selector=".sticky" data-parallax-clamp="true"
+                    data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
+                    data-parallax--250-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                    data-plugin=" parallax" draggable="false">
+                    <source srcset="<?php echo base_url($green_boomi_slider['image_xxxl']); ?>"
+                        media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                    <source srcset="<?php echo base_url($green_boomi_slider['image_xxl']); ?>"
+                        media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                    <img src="<?php echo base_url($green_boomi_slider['image_md']); ?>" alt=""
+                        width="1440" height="900" draggable="false">
+                    </picture>
+                </noscript>
+            </div>
+            <div class="px-layout l-interiors__intro-caption">
+                <h2 class="text-right overlayshadow g1 leading-trim" data-reveal="title">
+                    <?php echo $green_boomi_slider['title']; ?>
+                </h2>
+                <div class="mt-1">
+                    <p class="text-a1 overlayshadow text-right leading-trim" data-reveal="title"
+                    data-reveal-distance="100px">
+                    <?php echo $green_boomi_slider['sub_title']; ?>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="px-layout">
+                <div class="l-interiors__intro__text mt-3 col col--md-4">
+                    <p class="text-t1 overlayshadow leading-trim" data-reveal="text">
+                        <?php echo $green_boomi_slider['description']; ?>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="px-layout">
-            <div class="l-interiors__intro__text mt-3 col col--md-4">
-                <p class="text-t1 overlayshadow leading-trim" data-reveal="text">
-                Your future begins with the right piece of land. Our thoughtfully planned plots combine prime locations, modern infrastructure, and natural surroundings to create the perfect foundation for your dream home or investment. Wide roads, green landscapes, and well-designed communities ensure lasting value for generations to come.
-                </p>
-            </div>
-        </div>
-    </div>
+    <?php endif; ?>
+
     <div class="l-interiors__slider row ui-light"
         data-scroll-snap-point='[{ "viewport": 0, "element": 220 }]' data-plugin="contentAnimation"
         data-content-animation-fixed-height="false" data-content-animation-animations='{
@@ -138,25 +142,20 @@
     </div>
 </div>
 <div class="l-interiors__intro is-hidden--lg-up sticky sticky sticky--full-height sticky--under-previous" id="interiors-2">
+<?php if (!empty($green_boomi_slider)): ?>    
     <div
         class="sticky__layer sticky__layer--sticky sticky--full-height"
         data-scroll
         data-scroll-sticky
-        data-scroll-target="#interiors-2"
-    >
+        data-scroll-target="#interiors-2">
         <div class="l-interiors__anchor" id="interiors-mobile"></div>
-        <div
-            class="background background--cover"
-            data-plugin="parallax"
-            data-parallax-clamp="true"
-            data-parallax-measure-selector=".sticky"
-            data-parallax-enable-mq="md-down"
+        <div class="background background--cover" data-plugin="parallax" data-parallax-clamp="true"
+            data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down"
             data-parallax-0-0='{"transform": "scale(1.2)"}'
-            data-parallax--200-0='{"transform": "scale(1.0)"}'
-        >
+            data-parallax--200-0='{"transform": "scale(1.0)"}'>
             <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
                 <img
-                    data-src="assets/images/media/landing/8.interiors/interiors-bg-xs.webp"
+                    data-src="<?php echo base_url($green_boomi_slider['image_xs']); ?>"
                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22640%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20640%22%3E%3C/svg%3E"
                     alt=""
                     width="360"
@@ -167,7 +166,7 @@
             <noscript>
                 <picture class="img-cover" draggable="false">
                     <img
-                        src="assets/images/media/landing/8.interiors/interiors-bg-xs.webp"
+                        data-src="<?php echo base_url($green_boomi_slider['image_xs']); ?>"
                         alt=""
                         width="360"
                         height="640"
@@ -178,16 +177,17 @@
         </div>
         <div class="px-layout l-interiors__intro-caption pb-4">
             <div class="mt-0.3">
-                <h2 class="text-right g1 leading-trim">Green Bhoomi</h2>
+                <h2 class="text-right g1 leading-trim"><?php echo $green_boomi_slider['title']; ?></h2>
             </div>
-            <p class="mt-1 text-a1 overlayshadow leading-trim text-right">Crafted for Timeless Living</p>
+            <p class="mt-1 text-a1 overlayshadow leading-trim text-right"><?php echo $green_boomi_slider['sub_title']; ?></p>
             <div class="l-interiors__intro__text">
                 <p class="text-a1 overlayshadow leading-trim">
-                    Your future begins with the right piece of land. Our thoughtfully planned plots combine prime locations, modern infrastructure, and natural surroundings to create the perfect foundation for your dream home or investment. Wide roads, green landscapes, and well-designed communities ensure lasting value for generations to come.
+                    <?php echo $green_boomi_slider['description']; ?>
                 </p>
             </div>
         </div>
     </div>
+<?php endif; ?>
 </div>
 <div class="l-interiors__slider ui-light ui-background py-3 px-layout is-hidden--lg-up" data-themed-class="ui-light">
     <div class="carousel carousel--md-up carousel--not-ready js-carousel mt-2.5" data-plugin="mobileScrollable">

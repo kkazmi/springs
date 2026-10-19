@@ -57,7 +57,7 @@ class Common_model extends CI_Model
         $this->db->join('property_types pt','pt.property_type_id=tst.property_type_id');
         $this->db->where('tst.display_status',1);
         $this->db->order_by('tst.display_order','ASC');
-        $this->db->limit(5);
+        // $this->db->limit(5);
         return $this->db->get()->result_array();
     }
 
@@ -77,12 +77,14 @@ class Common_model extends CI_Model
         return $this->db->get('blogs')->result_array();
     }
 
-    public function getAmenitiesSlider()
+    public function getSliders($tag_name,$page_name = 'HOME')
     {
         return $this->db
             ->where('status', 1)
+            ->where('tag_name', $tag_name)
+            ->where('page_name', $page_name)
             ->order_by('display_order', 'ASC')
-            ->get('home_amenties_slider')
+            ->get('sliders')
             ->row_array();
     }
 
@@ -110,6 +112,41 @@ class Common_model extends CI_Model
             ->where('status', 1)
             ->order_by('display_order', 'ASC')
             ->get('home_project_img_gallery')
+            ->result_array();
+    }
+
+    public function getChairmenMsg()
+    {
+        return $this->db
+            ->get('chairman_msg')
+            ->row_array();
+    }
+
+    public function getStatistic()
+    {
+        return $this->db
+            ->where('status', 1)
+            ->order_by('sort_order', 'ASC')
+            ->get('home_statistics')
+            ->result_array();
+    }
+
+    public function get_menus()
+    {
+        return $this->db
+            ->where('status', 1)
+            ->order_by('sort_order', 'ASC')
+            ->get('website_menus')
+            ->result_array();
+    }
+
+    public function getPhilosophies($page_name = 'HOME')
+    {
+        return $this->db
+            ->where('display_status', 1)
+            ->where('page_name', $page_name)
+            ->order_by('display_order', 'ASC')
+            ->get('philosophies')
             ->result_array();
     }
 
