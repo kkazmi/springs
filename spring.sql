@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 20, 2026 at 07:04 AM
+-- Generation Time: Oct 19, 2026 at 04:51 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -71,7 +71,7 @@ CREATE TABLE `chairman_msg` (
 --
 
 INSERT INTO `chairman_msg` (`id`, `heading`, `description`, `name`, `position`) VALUES
-(1, 'A Message from Our Chairman & Managing Director', 'I don\'t believe in doing business solely for profit. True success lies in creating developments that contribute to the growth of our nation while improving the lives of people. India is witnessing an extraordinary era of progress, and with that comes a new generation of aspirational citizens seeking better lifestyles and brighter futures. At BST Developers, we have built a passionate team committed to creating not just homes, but opportunities for long-term wealth creation and meaningful living. \r\nWe will continue to innovate, embrace the best technologies, and pursue excellence in\r\n                                 everything we undertake. Above all, our greatest achievement will always be earning the\r\n                                 trust of our customers, employees, partners, and stakeholders.\r\n                                 Together, we are building communities that stand as a testament to quality, integrity,\r\n                                 and the future of India.', 'Mr. Yoginder Tanwar', 'Chairman & Managing Director');
+(1, 'FROM THE CMD’S DESK', 'I founded BST with a simple dream — to build homes that help people live better, healthier and happier lives. We embrace innovation, technology and AI, but never lose the human touch. I want every BST home to create lasting value and prosperity, and every relationship to become a genuine partnership built on trust. That, to me, is the real measure of our success.', '— Mr. Yoginder Tanwar', 'Founder, BST Developers');
 
 -- --------------------------------------------------------
 
@@ -171,9 +171,9 @@ CREATE TABLE `home_amenties_gallery` (
 --
 
 INSERT INTO `home_amenties_gallery` (`id`, `title`, `sub_title`, `description`, `image_xxxl`, `image_xxl`, `image_md`, `image_xs`, `status`, `display_order`, `created_date`, `updated_date`) VALUES
-(1, 'Fitness', 'Elevate your wellness with spaces designed to keep you active every day.', 'Gym<br />Yoga Deck<br />Basket Ball<br />Running trek', 'uploads/home/amenties/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-1%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-1%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_md/assets/images/media/landing/7.residence/residence-1%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-1%40xs.webp', 1, 1, '2026-08-16 20:17:20', '2026-08-19 15:53:27'),
-(2, 'Fun', 'Every corner invites adventure, every moment becomes a memory.<br /><br />', 'Swimming Pool<br />Kids Play Area<br />Amphitheatre', 'uploads/home/amenties/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-2%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-2%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_md/assets/images/media/landing/7.residence/residence-2%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-2%40xs.webp', 1, 2, '2026-08-16 20:18:46', '2026-08-16 21:13:06'),
-(3, 'Lifestyle Concierge', 'Experience effortless living with personalized services at your fingertips.', 'Reception<br />Entry Lobby<br />Concierge<br />ClubHouse<br />Premium Interiors', 'uploads/home/amenties/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-3%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-3%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_md/assets/images/media/landing/7.residence/residence-3%40xxxl.webp', 'uploads/home/amenties/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-3%40xs.webp', 1, 3, '2026-08-16 20:19:33', '2026-08-16 20:31:58');
+(1, 'Fitness', 'Elevate your wellness with spaces designed to keep you active every day.', 'Gym<br />Yoga Deck<br />Basket Ball<br />Running trek', 'uploads\\home\\amenties\\residence-fitness@xxxl.webp', 'uploads\\home\\amenties\\residence-fitness@xxl.webp', 'uploads\\home\\amenties\\residence-fitness@md.webp', 'uploads/home/amenties/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-1%40xs.webp', 1, 1, '2026-08-16 20:17:20', '2026-08-24 12:16:29'),
+(2, 'Fun', 'Every corner invites adventure, every moment becomes a memory.<br /><br />', 'Swimming Pool<br />Kids Play Area<br />Amphitheatre', 'uploads\\home\\amenties\\residence-fun@xxxl.webp', 'uploads\\home\\amenties\\residence-fun@xxl.webp', 'uploads\\home\\amenties\\residence-fun@md.webp', 'uploads/home/amenties/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-2%40xs.webp', 1, 2, '2026-08-16 20:18:46', '2026-08-24 12:16:40'),
+(3, 'Lifestyle Concierge', 'Experience effortless living with personalized services at your fingertips.', 'Reception<br />Entry Lobby<br />Concierge<br />ClubHouse<br />Premium Interiors', 'uploads\\home\\amenties\\residence-lifestyle@xxxl.webp', 'uploads\\home\\amenties\\residence-lifestyle@xxl.webp', 'uploads\\home\\amenties\\residence-lifestyle@md.webp', 'uploads/home/amenties/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-3%40xs.webp', 1, 3, '2026-08-16 20:19:33', '2026-08-24 12:16:49');
 
 -- --------------------------------------------------------
 
@@ -260,7 +260,38 @@ CREATE TABLE `home_project_img_slider` (
 --
 
 INSERT INTO `home_project_img_slider` (`id`, `title`, `sub_title`, `description`, `description2`, `description3`, `image_xxxl`, `image_xxl`, `image_md`, `image_xs`, `status`, `display_order`, `created_date`, `updated_date`) VALUES
-(1, 'Project Image', 'The Foundation of Your Future.', 'Discover premium plots in a thoughtfully planned community where wide roads, lush green parks, a play area, an open-air gym, a yoga deck, and an amphitheatre create the perfect setting for your dream home. Build your future in a location designed for comfort, connectivity, and lasting value.', 'Each plot reflects boundless perspectives in its glistening waves, inviting you             to look farther with a fuller palette of possibilities.', 'Tabanlioglu, therenowned architecturalbureau,emphasizes thebold asymmetry ofbalconiesinachessboard pattern.Threeverticalpartitionsdivide thetranslucent façade,creating theeffectofweightless volume.Freedom ofexpression, elegance ofintelligence, andvisuallightness.', 'uploads/home/project_img/design-bg@xxxl.webp', 'uploads/home/project_img/design-bg@xxl.webp', 'uploads/home/project_img/design-bg@md.webp', 'uploads/home/project_img/design-bg@md.webp', 1, 1, '2026-08-18 12:01:07', '2026-08-19 17:10:19');
+(1, 'Project Image', 'The Foundation of Your Future.', 'Discover premium plots in a thoughtfully planned community where wide roads, lush green parks, a play area, an open-air gym, a yoga deck, and an amphitheatre create the perfect setting for your dream home. Build your future in a location designed for comfort, connectivity, and lasting value.', 'Each plot reflects boundless perspectives in its glistening waves, inviting you             to look farther with a fuller palette of possibilities.', 'ROOTED IN INDIA. INSPIRED BY THE WORLD.\n</br></br>\nRooted in Indian Vastu and inspired by the world’s finest ideas in architecture, art and innovation, we create spaces filled with light, nature and positive energy—where families flourish, communities belong and life feels better.\n</br></br>\nHuman in Purpose. Global in Vision.\nDesigned for Life. Built for Generations.</br></br>', 'uploads/home/project_img/design-bg@xxxl.webp', 'uploads/home/project_img/design-bg@xxl.webp', 'uploads/home/project_img/design-bg@md.webp', 'uploads/home/project_img/design-bg@md.webp', 1, 1, '2026-08-18 12:01:07', '2026-09-19 22:13:10');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `home_statistics`
+--
+
+CREATE TABLE `home_statistics` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `count` varchar(100) NOT NULL,
+  `video_link` text NOT NULL,
+  `image_xs` varchar(255) NOT NULL,
+  `image_md` varchar(255) NOT NULL,
+  `image_xxl` varchar(255) NOT NULL,
+  `image_xxxl` varchar(255) NOT NULL,
+  `sort_order` int(11) NOT NULL,
+  `p_start` varchar(255) NOT NULL,
+  `status` int(11) NOT NULL DEFAULT 1,
+  `created_at` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `home_statistics`
+--
+
+INSERT INTO `home_statistics` (`id`, `name`, `count`, `video_link`, `image_xs`, `image_md`, `image_xxl`, `image_xxxl`, `sort_order`, `p_start`, `status`, `created_at`) VALUES
+(1, 'Years of Experience', '10+', 'https://player.vimeo.com/video/1218240651?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1', 'uploads/home/statistics/place-caption-1@xs.webp', 'uploads/home/statistics/place-caption-1@md.webp', 'uploads/home/statistics/place-caption-1@xxl.webp', 'uploads/home/statistics/place-caption-1@xxl.webp', 1, '', 1, '2026-10-17 08:06:43'),
+(2, 'Completed Projects', '2', 'https://player.vimeo.com/video/1224540641?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1', 'uploads/home/statistics/place-caption-3@xs.webp', 'uploads/home/statistics/place-caption-3@md.webp', 'uploads/home/statistics/place-caption-3@xxl.webp', 'uploads/home/statistics/place-caption-3@xxl.webp', 2, '-100', 1, '2026-10-17 08:06:43'),
+(3, 'Happy Customers', '100+', 'https://player.vimeo.com/video/1218239890?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1', 'uploads/home/statistics/place-caption-3@xs.webp', 'uploads/home/statistics/place-caption-2@md.webp', 'uploads/home/statistics/place-caption-2@xxl.webp', 'uploads/home/statistics/place-caption-2@xxl.webp', 3, '-200', 1, '2026-10-17 08:06:43'),
+(4, 'Land Bank', '2,45,025 Sq Ft', 'https://player.vimeo.com/video/1224540641?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1', 'uploads/home/statistics/place-caption-4@xs.webp', 'uploads/home/statistics/place-caption-4@md.webp', 'uploads/home/statistics/place-caption-4@xxl.webp', 'uploads/home/statistics/place-caption-4@xxl.webp', 4, '-300', 1, '2026-10-17 08:06:43');
 
 -- --------------------------------------------------------
 
@@ -371,7 +402,8 @@ INSERT INTO `menus` (`id`, `name`, `permission_name`, `href`, `icon`, `target`, 
 (53, 'Vendor Summary', 'VENDOR_SUMMARY', '/live-analytics/vendor-summary', 'solar:buildings-linear', 'self', 0, 50, 3, '2026-06-23 15:44:00', '2026-06-23 15:44:00', NULL),
 (54, 'Reason Summary', 'REASON_SUMMARY', '/live-analytics/reason-summary', 'solar:question-circle-linear', 'self', 0, 50, 4, '2026-06-23 15:44:00', '2026-06-23 15:44:00', NULL),
 (55, 'Support', 'SUPPORT', '', 'fa fa-headphones', '', 1, 0, 11, '2026-06-23 15:44:00', '2026-06-23 15:44:00', NULL),
-(56, 'Helpdesk Tickets', 'HELPDESK_TICKETS', '/apps/tickets', 'solar:ticket-linear', 'self', 0, 55, 1, '2026-06-23 15:44:00', '2026-06-23 15:44:00', NULL);
+(56, 'Helpdesk Tickets', 'HELPDESK_TICKETS', '/apps/tickets', 'solar:ticket-linear', 'self', 0, 55, 1, '2026-06-23 15:44:00', '2026-06-23 15:44:00', NULL),
+(57, 'Statistics', 'STATISTICS', 'statistics', 'fa fa-line-chart', '', 1, 0, 2, '2026-06-23 15:44:00', '2026-06-23 15:44:00', NULL);
 
 -- --------------------------------------------------------
 
@@ -406,7 +438,7 @@ CREATE TABLE `permission_usertypes` (
 --
 
 INSERT INTO `permission_usertypes` (`id`, `user_type`, `text`, `status`, `created_date`) VALUES
-(1, 1, '{\"DASHBOARD\":{\"read\":1,\"write\":1,\"delete\":1},\"USRONBORD\":{\"read\":1,\"write\":1,\"delete\":1},\"TESTIMONIALS\":{\"read\":1,\"write\":1,\"delete\":1},\"SETTINGS\":{\"read\":1,\"write\":1,\"delete\":1},\"PERMISSION_USER_TYPE\":{\"read\":1,\"write\":1,\"delete\":1},\"PERUSR\":{\"read\":1,\"write\":1,\"delete\":1},\"CHAIRMAN_MSG\":{\"read\":1,\"write\":1,\"delete\":1},\"PHILOSOPHY\":{\"read\":1,\"write\":1,\"delete\":1},\"ADDRESSBOOK\":{\"read\":1,\"write\":1,\"delete\":1},\"TEMPLATE_REGISTRATION\":{\"read\":1,\"write\":1,\"delete\":1},\"SENDER\":{\"read\":1,\"write\":1,\"delete\":1},\"BLACKLIST\":{\"read\":1,\"write\":1,\"delete\":1},\"WHITELIST\":{\"read\":1,\"write\":1,\"delete\":1},\"COMPOSESMS\":{\"read\":1,\"write\":1,\"delete\":1},\"LEDGER\":{\"read\":1,\"write\":1,\"delete\":1},\"HEADERSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"MARGINSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"USERSSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"RUNNINGSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"SCHEDULEDSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"FLOWMGMT\":{\"read\":1,\"write\":1,\"delete\":1},\"WALLET\":{\"read\":1,\"write\":1,\"delete\":1},\"SUPPORT\":{\"read\":1,\"write\":1,\"delete\":1}}', 1, '2023-08-02 09:26:01');
+(1, 1, '{\"DASHBOARD\":{\"read\":1,\"write\":1,\"delete\":1},\"USRONBORD\":{\"read\":1,\"write\":1,\"delete\":1},\"TESTIMONIALS\":{\"read\":1,\"write\":1,\"delete\":1},\"SETTINGS\":{\"read\":1,\"write\":1,\"delete\":1},\"PERMISSION_USER_TYPE\":{\"read\":1,\"write\":1,\"delete\":1},\"PERUSR\":{\"read\":1,\"write\":1,\"delete\":1},\"CHAIRMAN_MSG\":{\"read\":1,\"write\":1,\"delete\":1},\"PHILOSOPHY\":{\"read\":1,\"write\":1,\"delete\":1},\"STATISTICS\":{\"read\":1,\"write\":1,\"delete\":1},\"TEMPLATE_REGISTRATION\":{\"read\":1,\"write\":1,\"delete\":1},\"SENDER\":{\"read\":1,\"write\":1,\"delete\":1},\"BLACKLIST\":{\"read\":1,\"write\":1,\"delete\":1},\"WHITELIST\":{\"read\":1,\"write\":1,\"delete\":1},\"COMPOSESMS\":{\"read\":1,\"write\":1,\"delete\":1},\"LEDGER\":{\"read\":1,\"write\":1,\"delete\":1},\"HEADERSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"MARGINSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"USERSSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"RUNNINGSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"SCHEDULEDSUMMARY\":{\"read\":1,\"write\":1,\"delete\":1},\"FLOWMGMT\":{\"read\":1,\"write\":1,\"delete\":1},\"WALLET\":{\"read\":1,\"write\":1,\"delete\":1},\"SUPPORT\":{\"read\":1,\"write\":1,\"delete\":1}}', 1, '2023-08-02 09:26:01');
 
 -- --------------------------------------------------------
 
@@ -416,9 +448,14 @@ INSERT INTO `permission_usertypes` (`id`, `user_type`, `text`, `status`, `create
 
 CREATE TABLE `philosophies` (
   `id` int(10) UNSIGNED NOT NULL,
+  `page_name` varchar(255) NOT NULL,
   `short_name` varchar(100) NOT NULL,
   `heading` varchar(255) NOT NULL,
   `description` text DEFAULT NULL,
+  `image_xxxl` varchar(255) NOT NULL,
+  `image_xxl` varchar(255) NOT NULL,
+  `image_md` varchar(255) NOT NULL,
+  `image_xs` varchar(255) NOT NULL,
   `display_status` tinyint(1) NOT NULL DEFAULT 1 COMMENT '1=Active, 0=Inactive',
   `display_order` int(10) UNSIGNED NOT NULL DEFAULT 0,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
@@ -429,10 +466,15 @@ CREATE TABLE `philosophies` (
 -- Dumping data for table `philosophies`
 --
 
-INSERT INTO `philosophies` (`id`, `short_name`, `heading`, `description`, `display_status`, `display_order`, `created_at`, `updated_at`) VALUES
-(1, 'B', 'Best of Everything', 'We strive to deliver excellence ineveryaspect—from strategic locations and premium planning to superior infrastructure, quality construction, and customer experience. Every BST project reflects our commitment to offering nothing but the best.', 1, 1, '2026-07-27 08:31:06', '2026-07-27 08:32:43'),
-(2, 'S', 'Sustainable Future', 'Our developments are designed with tomorrow in mind. Green landscapes, open spaces, efficient planning, and environmentally responsible practices help us create communities that are healthier, smarter, and built to last for future generations.', 1, 2, '2026-07-27 08:33:46', '2026-07-27 08:33:46'),
-(3, 'T', 'Trust & Technology', 'Trust forms the foundation of every relationship we build. By integrating transparency, ethical business practices, and modern technology into every stage of development, we ensure confidence, reliability, and seamless experiences for our customers.', 1, 3, '2026-07-27 08:34:24', '2026-07-27 08:34:24');
+INSERT INTO `philosophies` (`id`, `page_name`, `short_name`, `heading`, `description`, `image_xxxl`, `image_xxl`, `image_md`, `image_xs`, `display_status`, `display_order`, `created_at`, `updated_at`) VALUES
+(1, 'HOME', 'B', 'Best of Everything', 'We strive to deliver excellence ineveryaspect—from strategic locations and premium planning to superior infrastructure, quality construction, and customer experience. Every BST project reflects our commitment to offering nothing but the best.', '', '', '', '', 1, 1, '2026-07-27 08:31:06', '2026-10-18 17:46:29'),
+(2, 'HOME', 'S', 'Sustainable Future', 'Our developments are designed with tomorrow in mind. Green landscapes, open spaces, efficient planning, and environmentally responsible practices help us create communities that are healthier, smarter, and built to last for future generations.', '', '', '', '', 1, 2, '2026-07-27 08:33:46', '2026-10-18 17:46:32'),
+(3, 'HOME', 'T', 'Trust & Technology', 'Trust forms the foundation of every relationship we build. By integrating transparency, ethical business practices, and modern technology into every stage of development, we ensure confidence, reliability, and seamless experiences for our customers.', '', '', '', '', 1, 3, '2026-07-27 08:34:24', '2026-10-18 17:46:33'),
+(4, 'ABOUT', '', 'BST aspires to become an Indian unicorn in the next 3–5 years', '', 'uploads/about/philosophies/image-1@xxxl.webp', 'uploads/about/philosophies/image-1@xxl.webp', 'uploads/about/philosophies/image-1@md.webp', 'uploads/about/philosophies/image-1@xs.webp', 1, 1, '2026-07-27 08:34:24', '2026-10-18 17:52:02'),
+(5, 'ABOUT', '', 'We at BST dare to fly high', '', 'uploads/about/philosophies/image-2@xxxl.webp', 'uploads/about/philosophies/image-2@xxl.webp', 'uploads/about/philosophies/image-2@md.webp', 'uploads/about/philosophies/image-2@xs.webp', 1, 2, '2026-07-27 08:34:24', '2026-10-18 17:52:02'),
+(6, 'ABOUT', '', 'Hawk Eye - At the BST Group, we keep a hawk eye on detailing', '', 'uploads/about/philosophies/image-3@xxxl.webp', 'uploads/about/philosophies/image-3@xxl.webp', 'uploads/about/philosophies/image-3@md.webp', 'uploads/about/philosophies/image-3@xs.webp', 1, 3, '2026-07-27 08:34:24', '2026-10-18 17:52:02'),
+(7, 'ABOUT', '', 'We at BST know that big dream starts with small action', '', 'uploads/about/philosophies/image-4@xxxl.webp', 'uploads/about/philosophies/image-4@xxl.webp', 'uploads/about/philosophies/image-4@md.webp', 'uploads/about/philosophies/image-4@xs.webp', 1, 4, '2026-07-27 08:34:24', '2026-10-18 17:52:02'),
+(8, 'ABOUT', '', 'Determination is in our DNA', '', 'uploads/about/philosophies/image-5@xxxl.webp', 'uploads/about/philosophies/image-5@xxl.webp', 'uploads/about/philosophies/image-5@md.webp', 'uploads/about/philosophies/image-5@xs.webp', 1, 5, '2026-07-27 08:34:24', '2026-10-18 17:52:02');
 
 -- --------------------------------------------------------
 
@@ -599,6 +641,41 @@ INSERT INTO `settings` (`id`, `keys`, `value`, `user_id`, `is_display`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `sliders`
+--
+
+CREATE TABLE `sliders` (
+  `id` int(11) NOT NULL,
+  `page_name` varchar(255) NOT NULL,
+  `tag_name` varchar(255) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `sub_title` varchar(255) DEFAULT NULL,
+  `description` text NOT NULL,
+  `image_xxxl` varchar(255) NOT NULL,
+  `image_xxl` varchar(255) NOT NULL,
+  `image_md` varchar(255) NOT NULL,
+  `image_xs` varchar(255) NOT NULL,
+  `status` tinyint(1) DEFAULT 1,
+  `display_order` int(11) DEFAULT 0,
+  `created_date` datetime DEFAULT current_timestamp(),
+  `updated_date` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `sliders`
+--
+
+INSERT INTO `sliders` (`id`, `page_name`, `tag_name`, `title`, `sub_title`, `description`, `image_xxxl`, `image_xxl`, `image_md`, `image_xs`, `status`, `display_order`, `created_date`, `updated_date`) VALUES
+(1, 'HOME', 'HOME_AMENTIES', 'Amenties', 'Collection of premium living spaces', '', 'uploads/home/amenties/residence-tree@xxxl.webp', 'uploads/home/amenties/residence-tree@xxl.webp', 'uploads/home/amenties/residence-tree@md.webp', 'uploads/home/amenties/residence-bg-xs@xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-18 19:37:33'),
+(2, 'HOME', 'HOME_GREEN_BHOOMI', 'Green Bhoomi\r\n', 'Crafted forTimeless Living', 'Your future begins with the right piece of land. Our thoughtfully planned plots combine prime locations, modern infrastructure, and natural surroundings to create the perfect foundation for your dream home or investment.\r\n</br></br>\r\nWide roads, green landscapes, and well-designed communities ensure lasting value for generations to come.', 'uploads/home/green_boomi/interiors-bg@xxxl.webp', 'uploads/home/green_boomi/interiors-bg@xxl.webp', 'uploads/home/green_boomi/interiors-bg@md.webp', 'uploads/home/green_boomi/interiors-bg@md.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-18 19:37:36'),
+(3, 'HOME', 'HOME_STATISTICS', 'Statistics', 'Essence of Contemplation', 'BST Developers is situated in the prestigious Western District of the capital, surrounded by parks and close to the embankment. It is adjacent to the highway, one of the most ecological areas of the city.', '', '', '', 'uploads/home/statistics/spiral-mobile@xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-18 19:37:39'),
+(4, 'HOME', 'HOME_OUR_PROJECTS', 'Our Projects', 'Creating Destinations That Inspire Living,</br> Business & Growth', 'BST Developers is building a diverse portfolio of developments designed to meet the evolving aspirations of modern India. From premium residential communities to commercial destinations and future hospitality ventures, every project reflects our commitment to quality, innovation, and sustainable growth.', '', '', '', 'uploads/home/our_projects/nature-bg-xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-18 19:37:42'),
+(5, 'ABOUT', 'ABOUT_HERO', 'About Us', 'Designed for Life Built for Legacy', '', 'uploads/about/hero/background@xxxl.webp', 'uploads/about/hero/background@xxl.webp', 'uploads/about/hero/background@md.webp', 'uploads/hero/intro/about-title-en.svg', 1, 1, '2026-08-16 13:04:20', '2026-10-18 20:25:51'),
+(6, 'ABOUT', 'ABOUT_INTRO', 'A Dream That Became a Vision', '', 'BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian real estate by creating developments that combine world-class planning, sustainable infrastructure, and lasting value.\r\n                        <br />\r\n                        <br /> Founded by Mr. Yoginder Tanwar, BST was established with a singular purpose: to make premium lifestyles accessible to India\'s growing middle class without compromising on quality, trust, or affordability.\r\n                        <br />\r\n                        <br /> We believe real estate is more than buying property—it\'s about building communities, creating opportunities, and enabling families to grow. Every BST development is thoughtfully planned with modern\r\n                        amenities, strong connectivity, green spaces, and future-ready infrastructure that delivers both lifestyle and investment potential.\r\n                        <br />\r\n                        <br /> Driven by innovation, transparency, and customer-first values, BST continues to build projects that inspire confidence and contribute towards India\'s evolving urban landscape.', 'uploads/about/intro/image-1@xxxl.webp', 'uploads/about/intro/image-1@xxl.webp', 'uploads/about/intro/image-1@md.webp', 'uploads/about/intro/image-1@xs.webp', 1, 1, '2026-08-16 13:04:20', '2026-10-18 20:25:51');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `testimonials`
 --
 
@@ -759,6 +836,40 @@ INSERT INTO `usertypes` (`id`, `name`, `status`, `isAdmin`, `isAccess`) VALUES
 (8, 'Vendor', 1, 0, '1'),
 (9, 'Support Admin', 1, 0, '1');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `website_menus`
+--
+
+CREATE TABLE `website_menus` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `link` text NOT NULL,
+  `image_xxxl` text NOT NULL,
+  `image_xxl` text NOT NULL,
+  `image_md` text NOT NULL,
+  `image_xs` text NOT NULL,
+  `sort_order` int(11) NOT NULL,
+  `status` int(11) NOT NULL DEFAULT 1,
+  `created_date` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `website_menus`
+--
+
+INSERT INTO `website_menus` (`id`, `name`, `link`, `image_xxxl`, `image_xxl`, `image_md`, `image_xs`, `sort_order`, `status`, `created_date`) VALUES
+(1, 'About Us', 'about', 'uploads/menu/menu-6@xxxl.webp', 'uploads/menu/menu-6@xxl.webp', 'uploads/menu/menu-6@md.webp', 'uploads/menu/menu-6@md.webp', 1, 1, '2026-10-18 07:36:03'),
+(2, 'Amenities', 'amenities', 'uploads/menu/menu-4@xxxl.webp', 'uploads/menu/menu-4@xxl.webp', 'uploads/menu/menu-4@md.webp', 'uploads/menu/menu-4@md.webp', 3, 1, '2026-10-18 07:46:28'),
+(3, 'Investor Guide', 'design', 'uploads/menu/menu-4@xxxl.webp', 'uploads/menu/menu-4@xxl.webp', 'uploads/menu/menu-4@md.webp', 'uploads/menu/menu-4@md.webp', 2, 1, '2026-10-18 07:46:28'),
+(4, 'Gallery', 'gallery', 'uploads/menu/menu-4@xxxl.webp', 'uploads/menu/menu-4@xxl.webp', 'uploads/menu/menu-4@md.webp', 'uploads/menu/menu-4@md.webp', 4, 1, '2026-10-18 07:46:28'),
+(5, 'Media Center', 'news', 'uploads/menu/menu-4@xxxl.webp', 'uploads/menu/menu-4@xxl.webp', 'uploads/menu/menu-4@md.webp', 'uploads/menu/menu-4@md.webp', 5, 1, '2026-10-18 07:46:28'),
+(6, 'Join BST “INNER CIRCLE”', 'channelpartner', 'uploads/menu/menu-4@xxxl.webp', 'uploads/menu/menu-4@xxl.webp', 'uploads/menu/menu-4@md.webp', 'uploads/menu/menu-4@md.webp', 6, 1, '2026-10-18 07:46:28'),
+(7, 'Reserve Your Space Online', 'applicationform', 'uploads/menu/menu-4@xxxl.webp', 'uploads/menu/menu-4@xxl.webp', 'uploads/menu/menu-4@md.webp', 'uploads/menu/menu-4@md.webp', 7, 1, '2026-10-18 07:46:28'),
+(8, 'Location', 'location', 'uploads/menu/menu-4@xxxl.webp', 'uploads/menu/menu-4@xxl.webp', 'uploads/menu/menu-4@md.webp', 'uploads/menu/menu-4@md.webp', 8, 1, '2026-10-18 07:46:28'),
+(9, 'Careers', 'career', 'uploads/menu/menu-4@xxxl.webp', 'uploads/menu/menu-4@xxl.webp', 'uploads/menu/menu-4@md.webp', 'uploads/menu/menu-4@md.webp', 9, 1, '2026-10-18 07:46:28');
+
 --
 -- Indexes for dumped tables
 --
@@ -813,6 +924,12 @@ ALTER TABLE `home_project_img_gallery`
 -- Indexes for table `home_project_img_slider`
 --
 ALTER TABLE `home_project_img_slider`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `home_statistics`
+--
+ALTER TABLE `home_statistics`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -885,6 +1002,12 @@ ALTER TABLE `settings`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `sliders`
+--
+ALTER TABLE `sliders`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `testimonials`
 --
 ALTER TABLE `testimonials`
@@ -910,6 +1033,12 @@ ALTER TABLE `users`
 -- Indexes for table `usertypes`
 --
 ALTER TABLE `usertypes`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `website_menus`
+--
+ALTER TABLE `website_menus`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -965,6 +1094,12 @@ ALTER TABLE `home_project_img_slider`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
+-- AUTO_INCREMENT for table `home_statistics`
+--
+ALTER TABLE `home_statistics`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT for table `interior_images`
 --
 ALTER TABLE `interior_images`
@@ -974,7 +1109,7 @@ ALTER TABLE `interior_images`
 -- AUTO_INCREMENT for table `menus`
 --
 ALTER TABLE `menus`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
 
 --
 -- AUTO_INCREMENT for table `permission_users`
@@ -992,7 +1127,7 @@ ALTER TABLE `permission_usertypes`
 -- AUTO_INCREMENT for table `philosophies`
 --
 ALTER TABLE `philosophies`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `preloader_images`
@@ -1025,6 +1160,12 @@ ALTER TABLE `settings`
   MODIFY `id` int(122) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=540;
 
 --
+-- AUTO_INCREMENT for table `sliders`
+--
+ALTER TABLE `sliders`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
 -- AUTO_INCREMENT for table `testimonials`
 --
 ALTER TABLE `testimonials`
@@ -1046,6 +1187,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `usertypes`
 --
 ALTER TABLE `usertypes`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT for table `website_menus`
+--
+ALTER TABLE `website_menus`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
