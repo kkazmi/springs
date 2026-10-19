@@ -10,7 +10,7 @@
                                 If you are interested to work with BST, please register with us as a partner by filling in the form below and start on your journey of growth with BST Channel Partner Connect.
                             </p> -->
 
-                            <form action="#" method="POST">
+                            <form  action="<?php echo site_url('BrokerRegistration/store'); ?>" method="POST" enctype="multipart/form-data">
                                 <div class="form-grid">
                                     <div class="form-group">
                                         <label for="fullname">*YOUR FULL NAME</label>

@@ -150,5 +150,10 @@ class Common_model extends CI_Model
             ->result_array();
     }
 
+    public function save_application($data)
+    {
+        return $this->db->insert('job_applications', $data);
+    }
+
 
 }

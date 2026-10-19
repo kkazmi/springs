@@ -110,10 +110,9 @@
                <br>
                     <i><b>“Join our team” </b></i>  and become part of an organization where your ideas, skills, and ambitions are valued. At BST, you will have the opportunity to work with talented professionals, take on new challenges, develop your expertise, and contribute to projects that shape the future.
                 </p>
-               
                 <div class="col col--md-10 offset--md-1  text-t1 leading-trim" data-reveal="text">
                         <div class="container glass-card">
-                            <form action="#"  method="POST">
+                            <form action="<?php echo base_url('career/submit_application'); ?>" method="POST" enctype="multipart/form-data">
                                 <div class="row">
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
@@ -169,13 +168,13 @@
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label>CV/Resume <span style="text-transform: none; font-weight: normal; font-size: small;" font-size: small;>(File Types: Docx, Pdf, Max Size: 2 MB)</span></label>
-                                                <input type="file" id="cv-file" name="cv-file" accept=".docx,.pdf" onchange="document.getElementById('cv-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
+                                                <input type="file" id="cv_file" name="cv_file" accept=".docx,.pdf" onchange="document.getElementById('cv_file').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
-                                            <label for="sourcing-manager">SOURCING MANAGER</label>
-                                            <select id="sourcing-manager" name="sourcing-manager">
+                                            <label for="sourcing_manager">SOURCING MANAGER</label>
+                                            <select id="sourcing_manager" name="sourcing_manager">
                                                 <option value="" disabled selected>Select Source</option>
                                                 <option value="LinkedIn">LinkedIn</option>
                                                 <option value="Naukri">Naukri</option>
