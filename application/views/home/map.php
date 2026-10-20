@@ -153,7 +153,47 @@
         scrollwheel: true,
         fullscreenControl: true,
         streetViewControl: true,
-        mapTypeControl: true
+        mapTypeControl: true,
+         styles: [
+                        {
+                            elementType: "geometry",
+                            stylers: [{ color: "#aaaaaa" }]
+                        },
+                        {
+                            elementType: "labels.text.fill",
+                            stylers: [{ color: "#555555" }]
+                        },
+                        {
+                            elementType: "labels.text.stroke",
+                            stylers: [{ color: "#aaaaaa" }]
+                        },
+                        {
+                            featureType: "road",
+                            elementType: "geometry",
+                            stylers: [{ color: "#ffffff" }]
+                        },
+                        {
+                            featureType: "road",
+                            elementType: "geometry.stroke",
+                            stylers: [{ color: "#eeeeee" }]
+                        },
+                        {
+                            featureType: "water",
+                            elementType: "geometry",
+                            stylers: [{ color: "#b6d2d9" }]
+                        },
+                        {
+                            featureType: "poi",
+                            elementType: "geometry",
+                            stylers: [{ color: "#aaaaaa" }]
+                        },
+                        {
+                            featureType: "transit",
+                            elementType: "geometry",
+                            stylers: [{ color: "#aaaaaa" }]
+                        }
+                    ],
+
     }
 );
 </script>

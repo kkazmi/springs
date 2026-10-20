@@ -254,26 +254,24 @@
                                      
                                         <div class="col col--xs-4 col--lg-12 flats__col pt-0.5 pt-0:lg pl-1:lg px-layout pl-0:lg pb-1 pb-0.5:lg p-relative" style="margin-top: 600px;" data-themed-class='{"left": "ui-dark", "right": "ui-light", "mobile-left": "ui-light"}'>
                                             <ul class="col col--xs-3 col--lg-12 flats__list ui-light js-ajax-list" data-themed-class='{"left": "ui-dark", "right": "ui-light", "mobile-left": "ui-light"}'>
-                                                <li class="news-list-item">
+                                                <!-- <li class="news-list-item">
                                                     <a href="https://fb.com"
                                                     target="_blank"
                                                     class="news-card"
                                                     data-ajax-page-ignore-prefetch="">
-                                                        <!-- Image -->
+                                                     
                                                         <div class="news-card__image">
                                                             <img src="uploads/news/newsu_130226240302_96.jpg"
                                                                 alt="BST Developers India Pvt. Ltd. Introduces its flagship Project"
                                                                 draggable="false">
                                                         </div>
 
-                                                        <!-- Content -->
                                                         <div class="news-card__content">
-                                                            <!-- Title -->
+                                                            
                                                             <h3 class="news-card__title">
                                                                 BST Developers India Pvt. Ltd. Introduces its flagship Project
                                                                 “BST-Green Bhoomi”
                                                             </h3>
-                                                            <!-- Description -->
                                                             <p class="news-card__description">
                                                                 Successful rental property management requires careful tenant
                                                                 selection, regular maintenance, proper documentation and
@@ -283,61 +281,25 @@
                                                         </div>
                                                     </a>
                                                 </li>
-                                               <li class="news-list-item">
-                                                    <a href="#" class="news-card">
-
-                                                        <div class="news-card__image">
-                                                            <img src="uploads/news/newsu_130226240302_96.jpg" alt="Modern property management">
-                                                        </div>
-                                                        <div class="news-card__content">
-                                                            <h3 class="news-card__title">
-                                                                Smart Property Management Strategies Help Owners Increase Rental Income While Maintaining Strong Tenant Relationships and Reducing Operating Costs
-                                                            </h3>
-
-                                                            <p class="news-card__description">
-                                                                Modern property management focuses on reliable tenants, timely maintenance, transparent communication, accurate records, and efficient financial planning for success.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </li>
-
+                                              
                                                 <li class="news-list-item">
-                                                    <a href="#" class="news-card">
-
-                                                        <div class="news-card__image">
-                                                            <img src="uploads/news/newsu_130226240302_96.jpg" alt="Modern property management">
-                                                        </div>
-                                                        <div class="news-card__content">
-                                                            <h3 class="news-card__title">
-                                                                                Growing Demand for Quality Rental Properties Creates New Opportunities for Investors Seeking Sustainable Returns and Long-Term Real Estate Growth
-                                                            </h3>
-
-                                                            <p class="news-card__description">
-                                                                  Rising rental demand encourages investors to improve property facilities, understand tenant expectations, maintain competitive pricing, and focus on sustainable returns.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                 <li class="news-list-item">
                                                     <a href="https://fb.com"
                                                     target="_blank"
                                                     class="news-card"
                                                     data-ajax-page-ignore-prefetch="">
-                                                        <!-- Image -->
+                                                     
                                                         <div class="news-card__image">
                                                             <img src="uploads/news/newsu_130226240302_96.jpg"
                                                                 alt="BST Developers India Pvt. Ltd. Introduces its flagship Project"
                                                                 draggable="false">
                                                         </div>
 
-                                                        <!-- Content -->
                                                         <div class="news-card__content">
-                                                            <!-- Title -->
+                                                            
                                                             <h3 class="news-card__title">
                                                                 BST Developers India Pvt. Ltd. Introduces its flagship Project
                                                                 “BST-Green Bhoomi”
                                                             </h3>
-                                                            <!-- Description -->
                                                             <p class="news-card__description">
                                                                 Successful rental property management requires careful tenant
                                                                 selection, regular maintenance, proper documentation and
@@ -347,41 +309,63 @@
                                                         </div>
                                                     </a>
                                                 </li>
-                                               <li class="news-list-item">
-                                                    <a href="#" class="news-card">
-
-                                                        <div class="news-card__image">
-                                                            <img src="uploads/news/newsu_130226240302_96.jpg" alt="Modern property management">
-                                                        </div>
-                                                        <div class="news-card__content">
-                                                            <h3 class="news-card__title">
-                                                                Smart Property Management Strategies Help Owners Increase Rental Income While Maintaining Strong Tenant Relationships and Reducing Operating Costs
-                                                            </h3>
-
-                                                            <p class="news-card__description">
-                                                                Modern property management focuses on reliable tenants, timely maintenance, transparent communication, accurate records, and efficient financial planning for success.
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </li>
-
+                                              
                                                 <li class="news-list-item">
-                                                    <a href="#" class="news-card">
-
+                                                    <a href="https://fb.com"
+                                                    target="_blank"
+                                                    class="news-card"
+                                                    data-ajax-page-ignore-prefetch="">
+                                                     
                                                         <div class="news-card__image">
-                                                            <img src="uploads/news/newsu_130226240302_96.jpg" alt="Modern property management">
+                                                            <img src="uploads/news/newsu_130226240302_96.jpg"
+                                                                alt="BST Developers India Pvt. Ltd. Introduces its flagship Project"
+                                                                draggable="false">
                                                         </div>
-                                                        <div class="news-card__content">
-                                                            <h3 class="news-card__title">
-                                                                                Growing Demand for Quality Rental Properties Creates New Opportunities for Investors Seeking Sustainable Returns and Long-Term Real Estate Growth
-                                                            </h3>
 
+                                                        <div class="news-card__content">
+                                                            
+                                                            <h3 class="news-card__title">
+                                                                BST Developers India Pvt. Ltd. Introduces its flagship Project
+                                                                “BST-Green Bhoomi”
+                                                            </h3>
                                                             <p class="news-card__description">
-                                                                  Rising rental demand encourages investors to improve property facilities, understand tenant expectations, maintain competitive pricing, and focus on sustainable returns.
+                                                                Successful rental property management requires careful tenant
+                                                                selection, regular maintenance, proper documentation and
+                                                                effective financial planning. Learn how to manage your
+                                                                property efficiently.
                                                             </p>
                                                         </div>
                                                     </a>
                                                 </li>
+                                              
+                                                <li class="news-list-item">
+                                                    <a href="https://fb.com"
+                                                    target="_blank"
+                                                    class="news-card"
+                                                    data-ajax-page-ignore-prefetch="">
+                                                     
+                                                        <div class="news-card__image">
+                                                            <img src="uploads/news/newsu_130226240302_96.jpg"
+                                                                alt="BST Developers India Pvt. Ltd. Introduces its flagship Project"
+                                                                draggable="false">
+                                                        </div>
+
+                                                        <div class="news-card__content">
+                                                            
+                                                            <h3 class="news-card__title">
+                                                                BST Developers India Pvt. Ltd. Introduces its flagship Project
+                                                                “BST-Green Bhoomi”
+                                                            </h3>
+                                                            <p class="news-card__description">
+                                                                Successful rental property management requires careful tenant
+                                                                selection, regular maintenance, proper documentation and
+                                                                effective financial planning. Learn how to manage your
+                                                                property efficiently.
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                               -->
 
                                               
                                                   <!-- <li>
@@ -446,6 +430,117 @@
                                               </li> -->
                                               
                                             </ul>
+                                             <div class="row">
+                                                <div class="news-grid">
+                                                    <article class="news-cards">
+
+                                                        <div class="news-date">
+                                                            <span class="news-icon">▤</span>
+                                                            <span>01 Oct '26</span>
+                                                        </div>
+                                                        <h2>
+                                                            Grade A Mall Vacancy Across the Top 7 Cities
+                                                            Fell to 5% in H1 2026
+                                                        </h2>
+                                                        <a href="#" class="read-more">
+                                                            Read More <span>↗</span>
+                                                        </a>
+                                                    </article>
+                                                    <article class="news-cards">
+                                                        <div class="news-date">
+                                                            <span class="news-icon">▤</span>
+                                                            <span>01 Oct '26</span>
+                                                        </div>
+                                                        <h2>
+                                                            Why are NCR Home Prices Rising so Fast?
+                                                        </h2>
+                                                        <a href="#" class="read-more">
+                                                            Read More <span>↗</span>
+                                                        </a>
+                                                    </article>
+                                                    <article class="news-cards">
+                                                        <div class="news-date">
+                                                            <span class="news-icon">▤</span>
+                                                            <span>01 Oct '26</span>
+                                                        </div>
+                                                        <h2>
+                                                            BST Developers India Files Draft
+                                                            Papers for Rs 1000 Crore IPO
+                                                        </h2>
+                                                        <a href="#" class="read-more">
+                                                            Read More <span>↗</span>
+                                                        </a>
+                                                    </article>
+                                                    <article class="news-cards">
+                                                        <div class="news-date">
+                                                            <span class="news-icon">▤</span>
+                                                            <span>01 Oct '26</span>
+                                                        </div>
+                                                        <h2>
+                                                            BST Developers India files Draft
+                                                            Papers for ₹1,000 Crore IPO
+                                                        </h2>
+                                                        <a href="#" class="read-more">
+                                                            Read More <span>↗</span>
+                                                        </a>
+                                                    </article>
+                                              </div>
+                                              <div class="news-grid mt-0.5:lg">
+                                                    <article class="news-cards">
+
+                                                        <div class="news-date">
+                                                            <span class="news-icon">▤</span>
+                                                            <span>01 Oct '26</span>
+                                                        </div>
+                                                        <h2>
+                                                            Grade A Mall Vacancy Across the Top 7 Cities
+                                                            Fell to 5% in H1 2026
+                                                        </h2>
+                                                        <a href="#" class="read-more">
+                                                            Read More <span>↗</span>
+                                                        </a>
+                                                    </article>
+                                                    <article class="news-cards">
+                                                        <div class="news-date">
+                                                            <span class="news-icon">▤</span>
+                                                            <span>01 Oct '26</span>
+                                                        </div>
+                                                        <h2>
+                                                            Why are NCR Home Prices Rising so Fast?
+                                                        </h2>
+                                                        <a href="#" class="read-more">
+                                                            Read More <span>↗</span>
+                                                        </a>
+                                                    </article>
+                                                    <article class="news-cards">
+                                                        <div class="news-date">
+                                                            <span class="news-icon">▤</span>
+                                                            <span>01 Oct '26</span>
+                                                        </div>
+                                                        <h2>
+                                                            BST Developers India Files Draft
+                                                            Papers for Rs 1000 Crore IPO
+                                                        </h2>
+                                                        <a href="#" class="read-more">
+                                                            Read More <span>↗</span>
+                                                        </a>
+                                                    </article>
+                                                    <article class="news-cards">
+                                                        <div class="news-date">
+                                                            <span class="news-icon">▤</span>
+                                                            <span>01 Oct '26</span>
+                                                        </div>
+                                                        <h2>
+                                                            BST Developers India files Draft
+                                                            Papers for ₹1,000 Crore IPO
+                                                        </h2>
+                                                        <a href="#" class="read-more">
+                                                            Read More <span>↗</span>
+                                                        </a>
+                                                    </article>
+                                              </div>
+
+                                             </div>
                                         </div>
                                         <div class="justifyButton2 col col--xs-4 col--lg-12 text-center mt-0.5:lg pb-1 pb-0:lg px-layout pl-0:lg" data-themed-class="ui-dark" >
                                          <a href="assets/pdf/BrochureBST.pdf"
