@@ -99,7 +99,7 @@
                                         </h2>
                                         <div class="project-divider"></div>
                                        
-                                        <p class="fs24 leading-trim pt-0.5 pb-1">
+                                        <p class="fs24 blkfc leading-trim pt-0.5 pb-1">
                                             BST is a trusted real estate developer with a proven track record of delivering high-quality residential and commercial projects. With a focus on sustainable growth, we create communities that offer long-term value to investors and residents alike.
                                            At BST, we create more than just real estate. We build future-ready communities with thoughtful planning, modern infrastructure and a vision for sustained growth.
                                         </p>
@@ -213,9 +213,9 @@
                                         <div class="gallery-grid">
                                             
                                             <!-- LEFT FEATURED IMAGE (Spans full height of grid container) -->
-                                            <div class="gallery-card h-full" style="cursor: pointer; height: 700px;" >
+                                            <div class="gallery-card h-full" style="cursor: pointer; height: 560px;" >
                                                 <img 
-                                                    src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1000&auto=format&fit=crop" 
+                                                    src="assets/images/bhiwadi.png" 
                                                     alt="Main Highway and Modern Expressway"
                                                     loading="lazy"
                                                 >
@@ -228,9 +228,9 @@
                                             <div class="grid grid-rows-3 gap-3 sm:gap-4 h-full">
                                                 
                                                 <!-- TOP IMAGE -->
-                                                <div class="gallery-card h-full" style="cursor: pointer; height: 217px;" ">
+                                                <div class="gallery-card h-full" style="cursor: pointer; height: 269px;" ">
                                                     <img 
-                                                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop" 
+                                                        src="assets/images/bhiwadi2.png" 
                                                         alt="Commercial Business Hub"
                                                         loading="lazy"
                                                     >
@@ -240,9 +240,9 @@
                                                 </div>
 
                                                 <!-- MIDDLE IMAGE -->
-                                                <div class="gallery-card h-full" style="cursor: pointer; height: 220px; margin-top: 15px;" >
+                                                <div class="gallery-card h-full" style="cursor: pointer; height: 269px; margin-top: 15px;" >
                                                     <img 
-                                                        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=800&auto=format&fit=crop" 
+                                                        src="assets/images/bhiwadi3.png" 
                                                         alt="Lush Parks & Urban Green Spaces"
                                                         loading="lazy"
                                                     >
@@ -251,17 +251,7 @@
                                                     </div>
                                                 </div>
 
-                                                <!-- BOTTOM IMAGE -->
-                                                <div class="gallery-card h-full" style="cursor: pointer; height: 220px; margin-top: 15px;">
-                                                    <img 
-                                                        src="https://images.unsplash.com/photo-1577495508048-b635879837f1?q=80&w=800&auto=format&fit=crop" 
-                                                        alt="Modern Residential Architecture"
-                                                        loading="lazy"
-                                                    >
-                                                    <div class="gallery-overlay">
-                                                        <span class="text-white font-medium text-sm">Modern Infrastructure</span>
-                                                    </div>
-                                                </div>
+                                                
 
                                             </div>
 

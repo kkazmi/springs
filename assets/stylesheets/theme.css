@@ -21905,6 +21905,9 @@ p.text-t1.overlayshadow.leading-trim {
 .tlc{
     text-align: center;
 }
+.blkfc {
+    color: #161412 !important;
+}
 
 a.social-links.text-c2-small.leading-trim.row.row--middle-xs.text-color-small.text-right{
   display: flex;

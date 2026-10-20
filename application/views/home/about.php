@@ -30,7 +30,7 @@
                 <div>
                 <a href="<?php echo base_url('about'); ?>" 
                     class="btn btn--secondary" 
-                    style="display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
+                    style="display: inline-flex; align-items: center; justify-content: center; gap: 8px;color: #2a2f31 !important;">
                     Read More...              
                 </a>
                 </div>

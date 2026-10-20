@@ -45,7 +45,7 @@
             <img class="img-full " alt="" draggable="false" width="561" height="200" src="assets/images/footer_logo.png">
          </a>
       </div>
-      <p class="brand-description">The revolutionary new ‘INDIE HOME’ concept by the young and dynamic ‘BST’ Group is firing the imagination of young Indian home buyers and investors.</p>
+      <p class="brand-description">BST Developers India Pvt. Ltd. envisions revolutionizing Indian real estate by combining international lifestyles, traditional values, and innovative technology to empower modern India.</p>
              <!-- <div class="col col--xs-2 col--md-6 row">
   	 				<a class="social-links text-c2-small leading-trim row row--middle-xs text-color-small text-right" target="_blank" href="https://www.facebook.com/bstdevelopers/?locale=hi_IN">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -268,7 +268,7 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
 <!--End of Tawk.to Script-->
 <style>
    .footer {
-  padding: 60px 40px 40px 40px;
+  padding: 90px 40px 40px 40px;
 }
 
 .footer-container {
@@ -285,6 +285,7 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
   flex: 1;
   min-width: 280px;
   max-width: 350px;
+  margin-right: 50px;
 }
 
 .logo {
@@ -307,10 +308,10 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
 }
 
 .brand-description {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.6;
   color: #f5e8d180;
-  margin-bottom: 30px;
+  text-align: justify;
 }
 
 /* Social Icons */
