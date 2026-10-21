@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/stylesheets/jsSlider.css">
     <link rel="stylesheet" href="assets/stylesheets/theme.css">
     <link rel="stylesheet" href="assets/stylesheets/projects.css">
+    <link rel="stylesheet" href="assets/stylesheets/investorguide.css">
     <?php $this->load->view('common/meta'); ?>
     <script>
         document.documentElement.classList.remove('no-js');
@@ -39,9 +40,9 @@
                 <main id="top">
                     <section class="section ui-dark" data-scroll-section
                         data-themed-class="ui-dak">
-                        <div class="project-green-bhoomi">
+                        <div class="project-green-bhoomi ">
 
-                            <div class="project-hero-section">
+                            <div class="project-hero-section bgimage">
                                 <div class="row row--middle-lg">
                                     <div class="col col--lg-6 col--md-6 col--12 project-hero-content pl-1">
                                         <div class="tag-container">
@@ -76,13 +77,13 @@
                                             
                                         </div>
                                     </div>
-                                    <div class="col col--lg-6 col--md-6 col--12 project-hero-media-column pr-1">
+                                    <!-- <div class="col col--lg-6 col--md-6 col--12 project-hero-media-column pr-1">
                                         <div class="project-media project-media-hero">
                                             <div class="project-media-label">
                                                 HERO IMAGE
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
@@ -288,7 +289,101 @@
                                 </div>
                             </div>
                             <div class="project-advantages bgclwht">
-                                 
+                            <div class="gallery-container">
+                                    <!-- Header -->
+                                    <div class="gallery-header">
+                                        <div class="header-title-wrapper">
+                                            <div class="tag-container">
+                                                <span class="tag-line"></span>
+                                                <span class="tag-text" style="color: #162d24;">Gallery</span>
+                                            </div>
+                                            <h2 class="main-title" style="color: #162d24;">Explore BST Through Videos</h2>
+                                        </div>
+                                    
+                                        <a href="#" class="view-all-btn btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned " data-plugin=" button" data-button-clone-content="true">
+                                            <span class="btn__content">
+                                                <span class="btn__text btn__text--clone">
+                                                    View All Videos
+                                                    <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
+                                                        viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
+                                                        <use href="assets/images/icons.svg#arrow-right"
+                                                            xlink:href="assets/images/icons.svg#arrow-right"></use>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+
+                                    <!-- Asymmetric Grid Layout -->
+                                    <div class="video-grid">
+                                        
+                                        <!-- Card 1: Masterplan Overview (Large 8 cols) -->
+                                        <div class="video-card span-8" onclick="openVideoModal('BST Masterplan Overview')">
+                                            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1400&auto=format&fit=crop" alt="BST Masterplan Overview" loading="lazy">
+                                            <div class="video-overlay"></div>
+                                            <div class="play-button">
+                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                            </div>
+                                            <div class="card-footer">
+                                                <h3 class="card-title">BST Masterplan Overview</h3>
+                                                <span class="card-duration">1:28</span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Card 2: Luxury Villas (4 cols) -->
+                                        <div class="video-card span-4" onclick="openVideoModal('Luxury Villas at BST')">
+                                            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop" alt="Luxury Villas at BST" loading="lazy">
+                                            <div class="video-overlay"></div>
+                                            <div class="play-button">
+                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                            </div>
+                                            <div class="card-footer">
+                                                <h3 class="card-title">Luxury Villas at BST</h3>
+                                                <span class="card-duration">1:10</span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Card 3: Amenities & Lifestyle (4 cols) -->
+                                        <div class="video-card span-4" onclick="openVideoModal('Amenities & Lifestyle')">
+                                            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=800&auto=format&fit=crop" alt="Amenities & Lifestyle" loading="lazy">
+                                            <div class="video-overlay"></div>
+                                            <div class="play-button">
+                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                            </div>
+                                            <div class="card-footer">
+                                                <h3 class="card-title">Amenities & Lifestyle</h3>
+                                                <span class="card-duration">1:05</span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Card 4: Strategic Location (4 cols) -->
+                                        <div class="video-card span-4" onclick="openVideoModal('Strategic Location - Bhiwadi')">
+                                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800&auto=format&fit=crop" alt="Strategic Location - Bhiwadi" loading="lazy">
+                                            <div class="video-overlay"></div>
+                                            <div class="play-button">
+                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                            </div>
+                                            <div class="card-footer">
+                                                <h3 class="card-title">Strategic Location - Bhiwadi</h3>
+                                                <span class="card-duration">1:12</span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Card 5: Community Living (4 cols) -->
+                                        <div class="video-card span-4" onclick="openVideoModal('Community Living')">
+                                            <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=800&auto=format&fit=crop" alt="Community Living" loading="lazy">
+                                            <div class="video-overlay"></div>
+                                            <div class="play-button">
+                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                            </div>
+                                            <div class="card-footer">
+                                                <h3 class="card-title">Community Living</h3>
+                                                <span class="card-duration">0:58</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>  
                                
 
    
@@ -297,7 +392,7 @@
 
                           
 
-                            <div class="project-options">
+                            <div class="project-options imgbackgrnd">
                                 <div class="row row--middle-lg">
                                     <div class="col col--lg-5 col--md-5 col--12 pl-1">
                                          <div class="tag-container  pb-1">
