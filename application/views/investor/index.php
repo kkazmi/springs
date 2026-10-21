@@ -64,7 +64,7 @@
                                         </div>
 
                                         <div class="project-plot-size">
-                                            Plot Sizes: 100 – 179 Gaj
+                                            Plot Sizes: 100 – 179 Sq. Yards
                                         </div>
 
                                         <div class="project-actions">
@@ -115,7 +115,7 @@
                                         <p>
                                             BST Green Bhoomi brings together thoughtfully planned
                                             residential plots and everyday amenities in Sector 99A,
-                                            Gurgaon. With plot options from 100 to 179 Gaj, it gives
+                                            Gurgaon. With plot options from 100 to 179 Sq. Yards, it gives
                                             you the freedom to build a home that reflects your
                                             lifestyle, while enjoying the advantages of a
                                             well-designed community.
@@ -169,7 +169,7 @@
                                         <div>
                                             <h3>Thoughtfully Sized Plots</h3>
                                             <p>
-                                                Choose from 100 – 179 Gaj.
+                                                Choose from 100 – 179 Sq. Yards.
                                             </p>
                                         </div>
                                     </div>
@@ -352,10 +352,10 @@
                                             A Plot That Gives You the Freedom to Build Your Way.
                                         </p>
                                         <div class="project-plot-options">
-                                            <span>100 Gaj</span>
-                                            <span>125 Gaj</span>
-                                            <span>150 Gaj</span>
-                                            <span>179 Gaj</span>
+                                            <span>100 Sq. Yards</span>
+                                            <span>125 Sq. Yards</span>
+                                            <span>150 Sq. Yards</span>
+                                            <span>179 Sq. Yards</span>
                                         </div>
                                         <small>
                                             *Plot sizes and availability subject to inventory.

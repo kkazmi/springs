@@ -215,45 +215,140 @@
                                             
                                             <!-- LEFT FEATURED IMAGE (Spans full height of grid container) -->
                                             <div class="gallery-card h-full" style="cursor: pointer; height: 560px;" >
-                                                <img 
+                                                <!-- <img 
                                                     src="assets/images/bhiwadi.png" 
                                                     alt="Main Highway and Modern Expressway"
                                                     loading="lazy"
                                                 >
                                                 <div class="gallery-overlay">
                                                     <span class="text-white font-medium text-base tracking-wide">Main Highway & Connectivity</span>
+                                                </div> -->
+                                                <div class="background background--cover ">
+                                                    <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
+                                                        <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                        <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                        <source data-srcset="assets/images/media/investor_guide/bhiwadi/md.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                        <img data-src="assets/images/media/investor_guide/bhiwadi/xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                                                        alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                        draggable="false">
+                                                    </picture>
+
+                                                    <noscript>
+                                                        <picture class=" img-cover parallax-image-move" draggable="false">
+                                                            <source srcset="assets/images/media/investor_guide/bhiwadi/xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                            <source srcset="assets/images/media/investor_guide/bhiwadi/xxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                            <source srcset="assets/images/media/investor_guide/bhiwadi/md.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                            <img src="assets/images/media/investor_guide/bhiwadi/xs.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                            draggable="false">
+                                                        </picture>
+                                                    </noscript>
                                                 </div>
                                             </div>
 
                                             <!-- RIGHT STACKED IMAGES CONTAINER (3 rows, equal heights) -->
                                             <div class="grid grid-rows-3 gap-3 sm:gap-4 h-full">
-                                                
                                                 <!-- TOP IMAGE -->
-                                                <div class="gallery-card h-full" style="cursor: pointer; height: 269px;" ">
-                                                    <img 
+                                                <div class="gallery-card h-full" style="cursor: pointer; height: 178px;">
+                                                    <!-- <img 
                                                         src="assets/images/bhiwadi2.png" 
                                                         alt="Commercial Business Hub"
                                                         loading="lazy"
                                                     >
                                                     <div class="gallery-overlay">
                                                         <span class="text-white font-medium text-sm">Industrial & Tech Hub</span>
+                                                    </div> -->
+                                                    <div class="background background--cover ">
+                                                        <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
+                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxxl_1.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxl_1.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/md_1.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                            <img data-src="assets/images/media/investor_guide/bhiwadi/xs_1.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                                                            alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                            draggable="false">
+                                                        </picture>
+                                                        <noscript>
+                                                            <picture class=" img-cover parallax-image-move" draggable="false">
+                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxxl_1.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxl_1.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/md_1.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                                <img src="assets/images/media/investor_guide/bhiwadi/xs_1.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                                draggable="false">
+                                                            </picture>
+                                                        </noscript>
                                                     </div>
                                                 </div>
-
                                                 <!-- MIDDLE IMAGE -->
-                                                <div class="gallery-card h-full" style="cursor: pointer; height: 269px; margin-top: 15px;" >
-                                                    <img 
+                                                <div class="gallery-card h-full" style="cursor: pointer; height: 178px; margin-top: 15px;" >
+                                                    <!-- <img 
                                                         src="assets/images/bhiwadi3.png" 
                                                         alt="Lush Parks & Urban Green Spaces"
                                                         loading="lazy"
                                                     >
                                                     <div class="gallery-overlay">
                                                         <span class="text-white font-medium text-sm">Lush Green Parks</span>
+                                                    </div> -->
+                                                    <div class="background background--cover ">
+                                                        <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
+                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxxl_2.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxl_2.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/md_2.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                            <img data-src="assets/images/media/investor_guide/bhiwadi/xs_2.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                                                            alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                            draggable="false">
+                                                        </picture>
+
+                                                        <noscript>
+                                                            <picture class=" img-cover parallax-image-move" draggable="false">
+                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxxl_2.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxl_2.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/md_2.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                                <img src="assets/images/media/investor_guide/bhiwadi/xs_2.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                                draggable="false">
+                                                            </picture>
+                                                        </noscript>
                                                     </div>
                                                 </div>
+                                                <!-- Below IMAGE -->
+                                                <div class="gallery-card h-full" style="cursor: pointer; height: 178px; margin-top: 15px;" >
+                                                    <!-- <img 
+                                                        src="assets/images/bhiwadi3.png" 
+                                                        alt="Lush Parks & Urban Green Spaces"
+                                                        loading="lazy"
+                                                    >
+                                                    <div class="gallery-overlay">
+                                                        <span class="text-white font-medium text-sm">Lush Green Parks</span>
+                                                    </div> -->
+                                                    <div class="background background--cover ">
+                                                        <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
+                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxxl_3.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxl_3.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/md_3.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                            <img data-src="assets/images/media/investor_guide/bhiwadi/xs_3.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E">
+                                                        </picture>
 
-                                                
-
+                                                        <noscript>
+                                                            <picture class=" img-cover parallax-image-move" draggable="false">
+                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxxl_3.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxl_3.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/md_3.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                                                                <img src="assets/images/media/investor_guide/bhiwadi/xs_3.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                                draggable="false">
+                                                            </picture>
+                                                        </noscript>
+                                                    </div>
+                                                </div>
                                             </div>
 
                                         </div>
