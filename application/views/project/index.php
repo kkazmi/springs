@@ -77,13 +77,14 @@
                                             
                                         </div>
                                     </div>
-                                    <!-- <div class="col col--lg-6 col--md-6 col--12 project-hero-media-column pr-1">
-                                        <div class="project-media project-media-hero">
+                                    <div class="col col--lg-6 col--md-6 col--12 project-hero-media-column pr-1">
+                                      <!--   <div class="project-media project-media-hero">
                                             <div class="project-media-label">
-                                                HERO IMAGE
-                                            </div>
-                                        </div>
-                                    </div> -->
+                                                HERO IMAGE1
+                                            </div> 
+                                            
+                                        </div>-->
+                                    </div>
                                 </div>
                             </div>
 
