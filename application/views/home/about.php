@@ -28,8 +28,7 @@
                 quality, trust, or affordability.
                 <br /> <br />
                 <div>
-                <a href="<?php echo base_url('about'); ?>" class="btn btn--secondary  golden mobbtngolden" 
-                    style="border:none !important;display: inline-flex; align-items: center; justify-content: center; gap: 8px;color: #2a2f31 !important;">
+                <a href="<?php echo base_url('about'); ?>" class="btn btn--secondary  golden mobbtngolden" >
                     Read More...              
                 </a>
                 </div>

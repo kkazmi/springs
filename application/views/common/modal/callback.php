@@ -325,7 +325,7 @@
                                                 class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
                                                 <!-- Desktop Button -->
                                                 <button
-                                                    class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                    class="btn btn--secondary golden btn--clone btn--text-small is-hidden--sm-down"
                                                     type="submit"
                                                     data-plugin="button"
                                                     data-button-clone-content="true">
@@ -336,7 +336,7 @@
                                                     </span>
                                                 </button>
                                                 <!-- Mobile Button -->
-                                                <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+                                                <button class="btn btn--sm btn--secondary golden btn--text-small is-hidden--md-up" type="submit">
                                                     <span class="btn__content"><span class="btn__text">Submit a request</span></span>
                                                 </button>
                                                 <!-- Privacy Policy -->
@@ -693,14 +693,14 @@
                                             <!-- Submit -->
                                             <div class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
                                                 <!-- Desktop -->
-                                                <button class="btn btn--primary btn--text-small is-hidden--sm-down" type="submit">
+                                                <button class="btn btn--secondary golden btn--text-small is-hidden--sm-down" type="submit">
                                                     <span class="btn__content">
                                                         <span class="btn__text">Book Site Visit</span>
                                                     </span>
                                                 </button>
                                                 <!-- Mobile -->
                                                 <button
-                                                    class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
+                                                    class="btn btn--sm btn--secondary golden btn--text-small is-hidden--md-up"
                                                     type="submit">
 
                                                     <span class="btn__content">

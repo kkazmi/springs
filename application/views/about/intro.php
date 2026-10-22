@@ -44,7 +44,7 @@
                     </p>
                 </div>
             </div>
-            <a class="btn a-intro__next btn--outline btn--square btn--sm p-relative" href="#a-about" aria-label="К следующей секции">
+            <a class="btn a-intro__next btn--outline btn--square btn--sm p-relative golden" href="#a-about" aria-label="К следующей секции">
                 <span class="btn__content">
                 <span class="btn__icon ">
                     <svg class="icon icon-arrow-down" width="14" height="16"

@@ -197,7 +197,7 @@
                                         </div> -->
                                           <div class="submit-container">
                                                 <button
-                                                    class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                    class="btn btn--secondary golden btn--clone btn--text-small is-hidden--sm-down"
                                                     type="submit"
                                                     data-plugin="button"
                                                     data-button-clone-content="true">
@@ -209,7 +209,7 @@
                                                 </button>
                                                 
                                                 <!-- Mobile Button -->
-                                                <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+                                                <button class="btn btn--sm btn--secondary golden btn--text-small is-hidden--md-up" type="submit">
                                                     <span class="btn__content"><span class="btn__text">Submit request</span></span>
                                                 </button>
                                             </div>
@@ -403,7 +403,7 @@ backdrop-filter: blur(14px);
 
 .glass-card .submit-container .btn--primary {
     color: #0d1f16 !important;
-    background-color: #dff2a7 !important;
+    background-color: #d7ab3e !important
 }
 
 .glass-card .submit-container .btn--primary .btn__text {

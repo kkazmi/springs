@@ -3715,7 +3715,7 @@ label input:not(:disabled)+span.btn:where(:not([role=button])) {
 .btn--primary.is-disabled:before,
 .btn--primary:before,
 .btn--primary:disabled:before {
-    background: var(--t-button-primary-hover-background);
+    background: #d7ab3e !important
 }
 
 .has-hover .btn--primary:active:hover,
@@ -21377,6 +21377,7 @@ jdiv.__jivoMobileButton {
 .btn.btn--secondary {
     border: 1px solid;
     font-weight: normal;
+    color: #2a2f31 !important;
 }
 
 .l-gallery__caption p.text-center a.btn svg.icon {

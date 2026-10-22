@@ -315,7 +315,7 @@
 
                                 <div class="submit-container">
                                                 <button
-                                                    class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
+                                                    class="btn btn--secondary golden btn--clone btn--text-small is-hidden--sm-down"
                                                     type="submit"
                                                     data-plugin="button"
                                                     data-button-clone-content="true">
@@ -516,13 +516,10 @@ input[type="checkbox"] {
     text-decoration: underline;
 }
 
-.glass-card .submit-btn {
-    color: #e6f3e9;
-}
 
 .glass-card .submit-container .btn--primary {
     color: #0d1f16 !important;
-    background-color: #dff2a7 !important;
+    background-color: #d7ab3e  !important;
 }
 
 .glass-card .submit-container .btn--primary .btn__text {
@@ -565,7 +562,7 @@ input[type="checkbox"] {
     min-height: 2.2em !important;
     line-height: 2.2em !important;
     text-align: center !important;
-    font-weight: 600 !important;
+   
     color: #0d1f16 !important;
 }
 
@@ -582,7 +579,6 @@ input[type="checkbox"] {
     align-items: center !important;
     justify-content: center !important;
     color: #0d1f16 !important;
-    font-weight: 600 !important;
 }
 
 .glass-card .submit-container .btn--clone {

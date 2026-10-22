@@ -21,7 +21,7 @@
             <p class="text-center pt-1">
             <?php if($hero_caption['primary_button_text']!=''): ?>
             <!-- <a href="<?php // echo base_url($hero_caption['primary_button_link']); ?>" class="btn btn--primary mr-1"> -->
-            <a href="<?php echo base_url('detail'); ?>" target="_blank" class="btn btn--primary golden mobbtngolden">
+            <a href="<?php echo base_url('detail'); ?>" target="_blank" class="btn btn--secondary golden mobbtngolden">
                 <?= htmlspecialchars($hero_caption['primary_button_text']); ?>
                 <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
                     viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
@@ -31,7 +31,7 @@
             </a>
             <?php endif; ?>
             <?php if($hero_caption['secondary_button_text']!=''): ?>
-            <a href="<?= base_url($hero_caption['secondary_button_link']); ?>" class="btn btn--secondary">
+            <a href="<?= base_url($hero_caption['secondary_button_link']); ?>" class="btn btn--outline">
                 <?= htmlspecialchars($hero_caption['secondary_button_text']); ?>
                 <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
                     viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">

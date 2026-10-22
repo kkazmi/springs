@@ -356,25 +356,22 @@
     }
 
     .read-more-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background-color: #05441d;
-      color: #ffffff;
-      padding: 10px 18px;
-      border-radius: 2px;
-      text-decoration: none;
-      font-size: 20px;
-      font-weight: 600;
-      width: fit-content;
-      transition: background-color 0.2s ease;
-          border-radius: 10px;
+          display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #d7ab3e;
+    color: #071807;
+    padding: 10px 18px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    /* font-weight: 600; */
+    width: fit-content;
+    transition: background-color 0.2s ease;
+    border-radius: 50px;
+    border: 1px solid #fff;
     }
 
-    .read-more-btn:hover {
-      background-color: #05440a;
-          border-radius: 10px;
-    }
 
     .arrow-icon {
       width: 12px;
@@ -414,9 +411,8 @@
 }
 
 .news-tab.active {
-    background: #111;
+    background: #d7ab3e;
     color: #fff;
-    border-color: #111;
 }
 
 .news-tab-content {

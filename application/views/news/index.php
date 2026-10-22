@@ -108,7 +108,7 @@
                             <div class="flats__content mt-1:lg">
                                    <div class="news-tabs px-layout designNews  " >
             <div class="news-tabs__nav">
-                <button class="news-tab btn btn--outline btn--clone btn--md btn--text-small is-active btn--cloned active" data-tab="in-the-news">
+                <button class="btn btn--secondary  golden mobbtngolden news-tab btn btn--outline btn--clone btn--md btn--text-small is-active btn--cloned active" data-tab="in-the-news">
                     In The News
                 </button>
 
